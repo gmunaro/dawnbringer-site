@@ -1,0 +1,111 @@
+# Dawnbringer — Privacy Policy
+
+Effective date: 2026-10-14
+Developer: gmunaro (individual developer) — contact: midiamunaro@gmail.com
+
+*Versão em português abaixo.*
+
+## Summary
+
+Dawnbringer does not have accounts, ads, analytics, tracking or in-app purchases. Your game
+progress stays on your device. The only time the game sends anything over the internet is when
+you choose to send a bug report.
+
+## Data stored on your device
+
+The game saves your progress (profile, unlocked champions, saved builds) and your settings
+(language, volume, display options) in the app's private storage on your device. This data is
+not sent to us or to anyone else, and it is not included in Android cloud backups. Uninstalling
+the game deletes it.
+
+## Bug reports (only when you send one)
+
+The game has an in-game bug reporter. Nothing is sent unless you open it and press Send. A report
+contains:
+
+- the description you type;
+- a screenshot of the game screen, only if you choose to attach it;
+- the game version, the operating system name and version, and the game's language setting;
+- an excerpt of the game's own log (technical messages from the game, such as errors).
+
+The report is sent over an encrypted connection (HTTPS) to a server run by the developer, which
+files it as an issue in a private GitHub repository (GitHub, Inc. hosts it as our service
+provider). We use reports only to find and fix bugs. We do not sell them, share them with third
+parties for their own use, or use them for advertising. Like any internet connection, the
+server and its hosting provider see your IP address while receiving the report; the game does
+not add it to the report.
+
+Please do not type personal information (such as your name, email or phone number) in the
+description. Reports are kept while the bug is being worked on and then may be kept as part of
+the project's issue history. To have a report deleted, email midiamunaro@gmail.com with the
+date you sent it and a few words of its description, and we will delete it.
+
+## Children
+
+Dawnbringer is not directed at children under 13, and we do not knowingly collect personal
+information from children.
+
+## Changes
+
+If this policy changes, the new version will be posted at this address with a new effective
+date.
+
+## Contact
+
+midiamunaro@gmail.com
+
+---
+
+# Dawnbringer — Política de Privacidade
+
+Data de vigência: 2026-10-14
+Desenvolvedor: gmunaro (desenvolvedor individual) — contato: midiamunaro@gmail.com
+
+## Resumo
+
+Dawnbringer não tem contas, anúncios, analytics, rastreamento nem compras no app. Seu progresso
+fica no seu aparelho. O jogo só envia algo pela internet quando você decide mandar um relatório
+de bug.
+
+## Dados guardados no seu aparelho
+
+O jogo salva seu progresso (perfil, campeões desbloqueados, builds salvas) e suas configurações
+(idioma, volume, opções de tela) no armazenamento privado do app no seu aparelho. Esses dados não
+são enviados para nós nem para ninguém e não entram no backup em nuvem do Android. Desinstalar o
+jogo apaga esses dados.
+
+## Relatórios de bug (só quando você envia)
+
+O jogo tem um relator de bugs. Nada é enviado a menos que você o abra e toque em Enviar. Um
+relatório contém:
+
+- a descrição que você digitar;
+- uma captura da tela do jogo, só se você escolher anexar;
+- a versão do jogo, o nome e a versão do sistema operacional e o idioma configurado no jogo;
+- um trecho do log do próprio jogo (mensagens técnicas do jogo, como erros).
+
+O relatório vai por conexão criptografada (HTTPS) para um servidor do desenvolvedor, que o
+registra como uma issue num repositório privado no GitHub (o GitHub, Inc. hospeda como nosso
+prestador de serviço). Usamos os relatórios só para achar e corrigir bugs. Não vendemos, não
+compartilhamos com terceiros para uso próprio deles e não usamos para publicidade. Como em
+qualquer conexão à internet, o servidor e o provedor de hospedagem veem seu endereço IP ao
+receber o relatório; o jogo não inclui o IP no relatório.
+
+Não escreva dados pessoais (nome, e-mail, telefone) na descrição. Os relatórios ficam guardados
+enquanto o bug é tratado e podem continuar no histórico de issues do projeto. Para apagar um
+relatório, mande um e-mail para midiamunaro@gmail.com com a data do envio e algumas palavras da
+descrição, e nós o apagaremos.
+
+## Crianças
+
+Dawnbringer não é direcionado a menores de 13 anos, e não coletamos dados pessoais de crianças
+de propósito.
+
+## Mudanças
+
+Se esta política mudar, a nova versão será publicada neste mesmo endereço com nova data de
+vigência.
+
+## Contato
+
+midiamunaro@gmail.com
