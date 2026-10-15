@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "title": "Dawnbringer: ein Roguelike-Autobattler in Dark-Fantasy-Pixelart",
+    "description": "Die Sonne ist tot, der Hausherr kassiert jede Woche. Bau einen Champion, lies die Vorschau jedes Kampfes, zahl den Zehnt oder kämpfe. Bald auf PC und Handy.",
+    "pressTitle": "Dawnbringer-Pressekit",
+    "pressDescription": "Datenblatt, Beschreibung, Features, Logo, Key Art und Screenshots von Dawnbringer, einem Roguelike-Autobattler von gmunaro.",
+    "notFoundTitle": "Seite nicht gefunden",
+    "ogAlt": "Das Dawnbringer-Logo über einem gekrönten Hausherrn, der unter einem blutroten Mond steht."
+  },
+  "nav": {
+    "skip": "Zum Inhalt springen",
+    "home": "Start",
+    "game": "Das Spiel",
+    "story": "Geschichte",
+    "screens": "Screenshots",
+    "features": "Features",
+    "platforms": "Plattformen",
+    "press": "Pressekit",
+    "language": "Sprache"
+  },
+  "hero": {
+    "tagline": "Die Sonne ist tot. Trag ihr letztes Licht.",
+    "pitch": "Ein Roguelike-Autobattler in Dark-Fantasy-Pixelart. Bau einen Champion, lies das genaue Ergebnis jedes Kampfes, bevor er beginnt, und entscheide, ob du den Hausherrn bezahlst oder gegen ihn kämpfst.",
+    "artAlt": "Ein kleiner Champion auf einem Hügel steht einem riesigen gekrönten Hausherrn gegenüber, der sich unter einem blutroten Mond aus den dunklen Hügeln erhebt.",
+    "clipTitle": "Gameplay",
+    "clipAlt": "Gameplay-Clip: In der Nacht des Hausherrn färbt sich die Karte rot, während der Hohle König zum Kassieren kommt; seine Karte bietet an, den Zehnt zu zahlen oder zu kämpfen; dann läuft der Kampf von selbst ab.",
+    "clipFallback": "Dein Browser kann dieses Video nicht abspielen."
+  },
+  "stores": {
+    "title": "Hol es dir",
+    "steam": "Steam",
+    "googlePlay": "Google Play",
+    "appStore": "App Store",
+    "wishlistSoon": "Bald auf die Wunschliste",
+    "comingSoon": "Demnächst"
+  },
+  "about": {
+    "title": "Was ist Dawnbringer?",
+    "intro": "Jeder Lauf dauert drei Wochen in einem sterbenden Land. Geh über eine Karte aus Feldern im Nebel, wähle deine Kämpfe, plündere Schreine und Truhen und bau aus Relikten einen Champion. Dann laufen die Kämpfe von selbst ab.",
+    "points": [
+      {
+        "title": "Jeder Kampf wird vorhergesagt. Genau.",
+        "text": "Kämpfe kennen keine Würfel. Derselbe Build gegen denselben Gegner endet immer gleich, also nennt dir das Spiel das Ergebnis, bevor du dich festlegst: „Sieg mit 29 LP übrig“. Eine Niederlage ist nie Pech. Sie ist ein Build, den du lesen und verbessern kannst."
+      },
+      {
+        "title": "Der Hausherr kommt zum Kassieren",
+        "text": "Am Ende jeder Woche kommt ein Hausherr, um die Miete einzutreiben. Zahl den Zehnt aus deiner Börse und geh vorbei, oder kämpfe gegen ihn um seine Belohnung. Neunzehn Hausherren halten die Sitze von sechs Ländern."
+      },
+      {
+        "title": "Die Nacht des Hausherrn",
+        "text": "In der letzten Nacht der Woche färbt sich der Mond blutrot, und der Hausherr kommt über die Karte auf dich zu. Die Uhr zeigt, wie viele Schritte bleiben. Nutze sie gut."
+      },
+      {
+        "title": "Deine Toten gehen wieder",
+        "text": "Ein gefallener Champion steht in späteren Läufen wieder auf, mit dem, was von seinem Build übrig ist. Tagsüber streift er umher, nachts jagt er dich, und wer ihn besiegt, holt einen Teil der verlorenen Börse zurück."
+      },
+      {
+        "title": "Deine Sieger besteigen den Thron",
+        "text": "Ein siegreicher Champion wird gekrönt. In einem späteren Lauf kann diese Legende den Sitz eines Hausherrn halten und dich mit dem Build bekämpfen, der gewonnen hat."
+      }
+    ]
+  },
+  "story": {
+    "title": "Die Geschichte",
+    "paragraphs": [
+      "Die Kirche verkaufte die Stunden des Tageslichts in Urkunden. Wer die Urkunde eines Landes hielt, hielt sein Licht, und die Urkundenhalter wurden zu den Hausherren. Sie nahmen mehr Licht, als die Sonne hatte. Am Letzten Morgen fiel sie.",
+      "Eine Frau sah sie fallen und verlor dabei ihre Augen. Sie fing die letzte Glut in ihrer Schürze auf und entzündete ein Feuer: das Letzte Lager. Mutter Hesper entzündet in der Brust jedes Champions einen Docht und schickt ihn nach Osten, um das Licht zum Tor zu tragen. Ein Docht, an ihrem Feuer entzündet, brennt drei Wochen.",
+      "Gold ist erkaltetes Sonnenlicht, die einzige Wärme, die bleibt, also kassieren die Hausherren. Jede Woche wird der Mond zu einem Siegel aus rotem Wachs, und die Miete wird fällig. Wer fällt, geht weiter und trägt noch, was er schuldet."
+    ],
+    "question": "Niemand hat die Schwelle mit dem Licht überschritten. Was liegt dahinter?"
+  },
+  "screens": {
+    "title": "Screenshots",
+    "open": "In voller Größe öffnen",
+    "items": {
+      "night": {
+        "caption": "Die Nacht des Hausherrn: noch zwei Schritte.",
+        "alt": "Die Karte bei Nacht, rot getönt. Der Hohle König steht neben dem Helden, und die Uhr zeigt: Der Hausherr kommt zum Kassieren, 2 Schritte."
+      },
+      "landlord": {
+        "caption": "Zahl den Zehnt, oder kämpfe.",
+        "alt": "Die Karte des Hohlen Königs: seine Werte, seine Fähigkeit Hohle Krone, der Zehnt von 18 Gold und die Knöpfe Zehnt zahlen und Kämpfen."
+      },
+      "battle": {
+        "caption": "Kämpfe laufen von selbst ab.",
+        "alt": "Ein Kampf gegen den Hohlen König in einer verfallenen Kapelle, mit Lebensbalken, Rüstung und Schadenszahlen."
+      },
+      "forecast": {
+        "caption": "Die genaue Vorschau, bevor du dich festlegst.",
+        "alt": "Die Gegnerkarte Aschenbrute mit der Vorschau: Sieg mit 29 LP übrig, und die Knöpfe Kämpfen und Zurückweichen."
+      },
+      "risen": {
+        "caption": "Ein Champion aus einem früheren Lauf, auferstanden.",
+        "alt": "Auf der Karte eine auferstandene Galgenschützin aus einem früheren Lauf, mit einem Tooltip zu ihrem Build und dem Gold, das sie trägt."
+      },
+      "legend": {
+        "caption": "Eine gekrönte Legende hält den Sitz.",
+        "alt": "Die Karte von Galgenschützin, gekrönt: eine Legende aus einem früheren Lauf, die den Sitz der Aschenweite hält."
+      },
+      "shop": {
+        "caption": "Jedes Angebot im Vergleich mit dem, was es ersetzt.",
+        "alt": "Der Laden mit vier Relikten zum Kaufen oder Verbannen und einem Vergleich des neuen Gegenstands mit deinem Build."
+      },
+      "camp": {
+        "caption": "Das Letzte Lager: Wähle, wer geht und was du einsetzt.",
+        "alt": "Der Bildschirm des Letzten Lagers mit den Champions, den Gegenstandsfamilien, den Schwüren und dem Einsatzregler."
+      },
+      "group": {
+        "caption": "Rudel kämpfen gemeinsam.",
+        "alt": "Ein Kampf gegen eine Gruppe von Gegnern im Hängenden Wald, mit Galgen und toten Bäumen."
+      },
+      "cashout": {
+        "caption": "Mit dem Gold nach Hause, oder tiefer gehen.",
+        "alt": "Nach einem Hausherrn: die Wahl, mit der Börse nach Hause zu gehen oder sie in Woche 2 mitzunehmen, daneben die Karte des nächsten Hausherrn."
+      },
+      "build": {
+        "caption": "Familiensets erwachen bei 2, 4 und 6 Teilen.",
+        "alt": "Das Build-Blatt des Eisengebundenen Büßers mit Werten, Ausrüstung, Gürtel und den Familiensets Eisen und Blut."
+      },
+      "event": {
+        "caption": "Ereignisse mit einem Preis.",
+        "alt": "Das Ereignis Die Wette des Henkers, mit drei Wahlmöglichkeiten."
+      }
+    }
+  },
+  "features": {
+    "title": "Features",
+    "items": [
+      "6 Champions, jeder mit einer passiven Fähigkeit und einer Startwaffe.",
+      "64 Relikte in 8 Familien. Familiensets erwachen bei 2, 4 und 6 Teilen.",
+      "19 Hausherren in 6 Ländern und 3 Wochen.",
+      "77 Gegner: Patrouillen, Hinterhalte, Rudel, Wächter und Mimiks.",
+      "Tag und Nacht auf einer Karte aus Regionen. Nachts jagen dich die Schatten.",
+      "Grauen: Jeder Kill macht das Land härter, und Gegner zahlen mehr.",
+      "Setz deine Bank ein. Der Tod nimmt die Börse, nie die Bank.",
+      "9 Schwüre machen den Weg grausamer und die Auszahlung größer.",
+      "17 Segen, 8 Verbrauchsgüter, 12 Ereignisse, Lagerfeuer, Schmieden und Brunnen.",
+      "Echos, Auferstandene und gekrönte Legenden aus deinen früheren Läufen.",
+      "Pixelart in 640x360, scharf in jeder Größe. Maus, Tastatur oder Touch.",
+      "14 Sprachen."
+    ]
+  },
+  "platforms": {
+    "title": "Plattformen",
+    "intro": "Dawnbringer ist in Entwicklung. Das Erscheinungsdatum wird hier angekündigt.",
+    "pc": "PC",
+    "pcNote": "Windows auf Steam. macOS und Linux geplant.",
+    "android": "Android",
+    "androidNote": "Smartphones und Tablets, auf Google Play.",
+    "ios": "iPhone und iPad",
+    "iosNote": "Im App Store."
+  },
+  "press": {
+    "title": "Pressekit",
+    "intro": "Alles, was du brauchst, um über Dawnbringer zu schreiben. Screenshots, Key Art und Logo darfst du in Berichten über das Spiel verwenden.",
+    "factsTitle": "Datenblatt",
+    "developer": "Entwickler",
+    "developerValue": "gmunaro, ein Solo-Entwickler aus Brasilien",
+    "release": "Erscheinungsdatum",
+    "releaseValue": "Wird noch bekannt gegeben",
+    "platforms": "Plattformen",
+    "platformsValue": "PC (Steam), Android (Google Play), iPhone und iPad (App Store)",
+    "price": "Preis",
+    "priceValue": "US$ 4.99 (geplant)",
+    "languages": "Sprachen",
+    "languagesValue": "14: Englisch, Portugiesisch (Brasilien), Spanisch, Französisch, Deutsch, Italienisch, Russisch, Ukrainisch, Polnisch, Türkisch, Japanisch, Koreanisch, vereinfachtes Chinesisch, traditionelles Chinesisch",
+    "engine": "Engine",
+    "website": "Website",
+    "contact": "Kontakt",
+    "descriptionTitle": "Beschreibung",
+    "description": "Dawnbringer ist ein Roguelike-Autobattler in Dark-Fantasy-Pixelart. Die Sonne ist tot, und jede Woche kommt ein Hausherr zum Kassieren. Du gehst über eine Karte im Nebel, wählst Kämpfe, sammelst Relikte und Segen und baust einen Champion. Kämpfe laufen ohne Würfel von selbst ab, daher zeigt das Spiel das genaue Ergebnis, bevor du dich festlegst. Vor jedem Lauf setzt du Gold aus deiner Bank ein; der Tod nimmt die Börse, nie die Bank. Nach jedem Hausherrn zahlst du aus oder nimmst alles mit in eine härtere Woche. Champions, die sterben, gehen in späteren Läufen wieder, und Champions, die siegen, werden gekrönt und können als Hausherren zurückkehren.",
+    "mediaTitle": "Logo, Key Art und Screenshots",
+    "zip": "Alles herunterladen (.zip, {size})",
+    "logo": "Logo (PNG, transparent)",
+    "icon": "Icon (PNG, 512x512)",
+    "keyart": "Key Art (PNG, 1920x1080)",
+    "keyartNoLogo": "Key Art ohne Logo (PNG, 1920x1080)",
+    "screensNote": "Die Screenshots sind PNG in 1920x1080, aus den 640x360 des Spiels um ganze Pixel hochskaliert.",
+    "creditsTitle": "Credits",
+    "credits": [
+      "Design, Code und Grafik: gmunaro",
+      "Musik: Juhani Junkala (CC0); die Musik zur Nacht des Hausherrn ist eigens komponiert, gespielt mit Samples von VSCO 2 Community Edition (CC0)",
+      "Soundeffekte: Kenney, StarNinjas, Oiboo (CC0) und eigene Sounds",
+      "Stimmen: synthetische Sprache, für das Spiel mit Qwen3-TTS (Qwen-Team von Alibaba) erzeugt; keine menschliche Stimme wurde aufgenommen oder geklont",
+      "Schriften: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel und GNU Unifont (SIL Open Font License 1.1)"
+    ],
+    "contactTitle": "Kontakt",
+    "contactText": "Für Presse, Keys und alles andere schreib an"
+  },
+  "footer": {
+    "privacy": "Datenschutzerklärung",
+    "contact": "Kontakt",
+    "bugs": "Einen Fehler gefunden? Nutze Fehler melden im Spiel oder schreib an",
+    "madeBy": "Dawnbringer wird von gmunaro in Brasilien entwickelt."
+  },
+  "suggest": {
+    "text": "Diese Seite gibt es auch auf Deutsch.",
+    "go": "Auf Deutsch lesen",
+    "dismiss": "Schließen"
+  },
+  "notFound": {
+    "text": "Diese Seite existiert nicht.",
+    "back": "Zurück zur Startseite"
+  }
+}

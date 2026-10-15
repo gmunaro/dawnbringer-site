@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "title": "Dawnbringer : un auto-battler roguelike en pixel art de dark fantasy",
+    "description": "Le soleil est mort, le Seigneur passe chaque semaine. Formez un champion, lisez l'issue exacte de chaque combat, payez la dîme ou combattez. Bientôt sur PC et mobile.",
+    "pressTitle": "Dossier de presse de Dawnbringer",
+    "pressDescription": "Fiche technique, description, points forts, logo, illustration principale et captures d'écran de Dawnbringer, un auto-battler roguelike de gmunaro.",
+    "notFoundTitle": "Page introuvable",
+    "ogAlt": "Le logo de Dawnbringer au-dessus d'un Seigneur couronné, debout sous une lune rouge sang."
+  },
+  "nav": {
+    "skip": "Aller au contenu",
+    "home": "Accueil",
+    "game": "Le jeu",
+    "story": "Histoire",
+    "screens": "Captures",
+    "features": "Points forts",
+    "platforms": "Plateformes",
+    "press": "Dossier de presse",
+    "language": "Langue"
+  },
+  "hero": {
+    "tagline": "Le soleil est mort. Portez sa dernière lueur.",
+    "pitch": "Un auto-battler roguelike en pixel art de dark fantasy. Formez un champion, lisez l'issue exacte de chaque combat avant qu'il commence, et décidez de payer le Seigneur ou de l'affronter.",
+    "artAlt": "Un petit champion sur une colline fait face à un Seigneur géant et couronné qui surgit des collines sombres sous une lune rouge sang.",
+    "clipTitle": "Gameplay",
+    "clipAlt": "Extrait de jeu : la nuit du Seigneur, la carte vire au rouge tandis que le Roi Creux vient réclamer son dû ; sa carte propose de payer la dîme ou de combattre ; puis le combat se déroule tout seul.",
+    "clipFallback": "Votre navigateur ne peut pas lire cette vidéo."
+  },
+  "stores": {
+    "title": "Où jouer",
+    "steam": "Steam",
+    "googlePlay": "Google Play",
+    "appStore": "App Store",
+    "wishlistSoon": "Liste de souhaits bientôt",
+    "comingSoon": "Bientôt disponible"
+  },
+  "about": {
+    "title": "Qu'est-ce que Dawnbringer ?",
+    "intro": "Chaque partie dure trois semaines sur une terre mourante. Parcourez une carte de cases noyée de brume, choisissez vos combats, pillez sanctuaires et coffres, et formez un champion à partir de reliques. Puis les combats se déroulent tout seuls.",
+    "points": [
+      {
+        "title": "Chaque combat est prévu. Exactement.",
+        "text": "Les combats n'ont pas de dés. Le même attirail contre le même ennemi finit toujours de la même façon, donc le jeu vous donne le résultat avant que vous vous engagiez : « Victoire avec 29 PV restants ». Une défaite n'est jamais de la malchance. C'est un attirail que vous pouvez lire et corriger."
+      },
+      {
+        "title": "Le Seigneur vient réclamer son dû",
+        "text": "À la fin de chaque semaine, un Seigneur vient percevoir le loyer. Payez la dîme avec votre bourse et passez votre chemin, ou affrontez-le pour sa récompense. Dix-neuf Seigneurs occupent les trônes de six terres."
+      },
+      {
+        "title": "La nuit du Seigneur",
+        "text": "La dernière nuit de la semaine, la lune devient rouge sang et le Seigneur traverse la carte vers vous. L'horloge indique combien de pas il reste. Dépensez-les bien."
+      },
+      {
+        "title": "Vos morts se relèvent",
+        "text": "Un champion tombé se relève dans les parties suivantes avec ce qui reste de son attirail. Il erre le jour et vous traque la nuit, et le vaincre rend une partie de la bourse qu'il a perdue."
+      },
+      {
+        "title": "Vos vainqueurs prennent le trône",
+        "text": "Un champion victorieux est couronné. Dans une partie ultérieure, cette légende peut occuper le trône d'un Seigneur et vous affronter avec l'attirail qui a gagné."
+      }
+    ]
+  },
+  "story": {
+    "title": "L'histoire",
+    "paragraphs": [
+      "L'Église vendait les heures du jour en titres de propriété. Qui détenait le titre d'une terre détenait sa lumière, et les détenteurs des titres devinrent les Seigneurs. Ils prirent plus de lumière que le soleil n'en avait. Au Dernier Matin, il tomba.",
+      "Une femme le vit tomber et y perdit les yeux. Elle recueillit sa dernière braise dans son tablier et alluma un feu : le Dernier Camp. Mère Hesper allume une mèche dans la poitrine de chaque champion et l'envoie vers l'est porter la lumière jusqu'à la Porte. Une mèche allumée à son feu dure trois semaines.",
+      "L'or est de la lumière refroidie, la seule chaleur qui reste, alors les Seigneurs réclament leur dû. Chaque semaine, la lune devient un sceau de cire rouge et le loyer arrive à échéance. Ceux qui tombent continuent de marcher, portant encore ce qu'ils doivent."
+    ],
+    "question": "Nul n'a franchi le Seuil avec la lumière. Qu'y a-t-il derrière ?"
+  },
+  "screens": {
+    "title": "Captures d'écran",
+    "open": "Voir en taille réelle",
+    "items": {
+      "night": {
+        "caption": "La nuit du Seigneur : plus que deux pas.",
+        "alt": "La carte de nuit, teintée de rouge. Le Roi Creux se tient près du héros et l'horloge indique : Le Seigneur vient réclamer son dû, 2 pas."
+      },
+      "landlord": {
+        "caption": "Payez la dîme, ou combattez.",
+        "alt": "La carte du Roi Creux : ses stats, sa capacité Couronne Creuse, la dîme de 18 or et les boutons Payer la dîme et Combattre."
+      },
+      "battle": {
+        "caption": "Les combats se déroulent tout seuls.",
+        "alt": "Un combat contre le Roi Creux dans une chapelle en ruine, avec barres de vie, armure et chiffres de dégâts."
+      },
+      "forecast": {
+        "caption": "La prévision exacte, avant de vous engager.",
+        "alt": "La carte d'une Brute de Cendre avec la prévision : Victoire avec 29 PV restants, et les boutons Combattre et Reculer."
+      },
+      "risen": {
+        "caption": "Un champion d'une partie précédente, relevé.",
+        "alt": "Sur la carte, une Tireuse du Gibet relevée d'une partie précédente, avec une infobulle qui montre son attirail et l'or qu'elle porte."
+      },
+      "legend": {
+        "caption": "Une légende couronnée occupe le trône.",
+        "alt": "La carte de la Tireuse du Gibet, couronnée : une légende d'une partie précédente qui occupe le trône des Confins Cendrés."
+      },
+      "shop": {
+        "caption": "Chaque offre comparée à ce qu'elle remplace.",
+        "alt": "La boutique avec quatre reliques à acheter ou bannir, et une comparaison du nouvel objet avec votre attirail."
+      },
+      "camp": {
+        "caption": "Le Dernier Camp : choisissez qui part et ce que vous misez.",
+        "alt": "L'écran du Dernier Camp avec les champions, les familles d'objets, les serments et le curseur de mise."
+      },
+      "group": {
+        "caption": "Les meutes combattent ensemble.",
+        "alt": "Un combat contre un groupe d'ennemis dans le Bois des Pendus, avec gibets et arbres morts."
+      },
+      "cashout": {
+        "caption": "Rentrez avec l'or, ou allez plus loin.",
+        "alt": "Après un Seigneur : le choix de rentrer avec la bourse ou de l'emporter en semaine 2, avec la carte du Seigneur suivant."
+      },
+      "build": {
+        "caption": "Les ensembles s'éveillent à 2, 4 et 6 pièces.",
+        "alt": "L'attirail du Pénitent de Fer avec ses stats, son équipement, sa ceinture et les ensembles des familles Fer et Sang."
+      },
+      "event": {
+        "caption": "Des événements qui ont un prix.",
+        "alt": "L'événement Le Pari du Bourreau, avec trois choix."
+      }
+    }
+  },
+  "features": {
+    "title": "Points forts",
+    "items": [
+      "6 champions, chacun avec un passif et une arme de départ.",
+      "64 reliques en 8 familles. Les ensembles s'éveillent à 2, 4 et 6 pièces.",
+      "19 Seigneurs sur 6 terres et 3 semaines.",
+      "77 ennemis : patrouilles, embuscades, meutes, gardiens et mimiques.",
+      "Jour et nuit sur une carte de régions. La nuit, les ombres vous traquent.",
+      "Effroi : chaque ennemi tué rend la terre plus dure, et les ennemis rapportent plus.",
+      "Misez votre banque. La mort prend la bourse, jamais la banque.",
+      "9 serments pour rendre la route plus cruelle et le gain plus gros.",
+      "17 bénédictions, 8 consommables, 12 événements, feux de camp, forges et puits.",
+      "Échos, relevés et légendes couronnées issus de vos parties précédentes.",
+      "Pixel art en 640x360, net à toute taille. Souris, clavier ou tactile.",
+      "14 langues."
+    ]
+  },
+  "platforms": {
+    "title": "Plateformes",
+    "intro": "Dawnbringer est en développement. La date de sortie sera annoncée ici.",
+    "pc": "PC",
+    "pcNote": "Windows sur Steam. macOS et Linux prévus.",
+    "android": "Android",
+    "androidNote": "Téléphones et tablettes, sur Google Play.",
+    "ios": "iPhone et iPad",
+    "iosNote": "Sur l'App Store."
+  },
+  "press": {
+    "title": "Dossier de presse",
+    "intro": "Tout ce qu'il faut pour écrire sur Dawnbringer. Vous pouvez utiliser les captures d'écran, l'illustration principale et le logo dans vos articles sur le jeu.",
+    "factsTitle": "Fiche technique",
+    "developer": "Développeur",
+    "developerValue": "gmunaro, développeur solo au Brésil",
+    "release": "Date de sortie",
+    "releaseValue": "À annoncer",
+    "platforms": "Plateformes",
+    "platformsValue": "PC (Steam), Android (Google Play), iPhone et iPad (App Store)",
+    "price": "Prix",
+    "priceValue": "US$ 4.99 (prévu)",
+    "languages": "Langues",
+    "languagesValue": "14 : anglais, portugais (Brésil), espagnol, français, allemand, italien, russe, ukrainien, polonais, turc, japonais, coréen, chinois simplifié, chinois traditionnel",
+    "engine": "Moteur",
+    "website": "Site web",
+    "contact": "Contact",
+    "descriptionTitle": "Description",
+    "description": "Dawnbringer est un auto-battler roguelike en pixel art de dark fantasy. Le soleil est mort, et chaque semaine un Seigneur vient réclamer son dû. Vous parcourez une carte noyée de brume, choisissez vos combats, rassemblez reliques et bénédictions, et formez un champion. Les combats se résolvent seuls, sans dés, donc le jeu montre l'issue exacte avant que vous vous engagiez. Avant chaque partie, vous misez de l'or de votre banque ; la mort prend la bourse, jamais la banque. Après chaque Seigneur, vous encaissez ou emportez tout dans une semaine plus dure. Les champions morts se relèvent dans les parties suivantes, et les champions victorieux sont couronnés et peuvent revenir en Seigneurs.",
+    "mediaTitle": "Logo, illustration principale et captures",
+    "zip": "Tout télécharger (.zip, {size})",
+    "logo": "Logo (PNG, transparent)",
+    "icon": "Icône (PNG, 512x512)",
+    "keyart": "Illustration principale (PNG, 1920x1080)",
+    "keyartNoLogo": "Illustration principale sans logo (PNG, 1920x1080)",
+    "screensNote": "Les captures d'écran sont des PNG en 1920x1080, agrandies à partir du 640x360 du jeu par pixels entiers.",
+    "creditsTitle": "Crédits",
+    "credits": [
+      "Conception, code et graphismes : gmunaro",
+      "Musique : Juhani Junkala (CC0) ; la partition de la nuit du Seigneur est originale, jouée avec les samples de VSCO 2 Community Edition (CC0)",
+      "Effets sonores : Kenney, StarNinjas, Oiboo (CC0) et sons originaux",
+      "Voix : parole de synthèse créée pour le jeu avec Qwen3-TTS (équipe Qwen d’Alibaba) ; aucune voix humaine n’a été enregistrée ni clonée",
+      "Polices : Kenney (CC0) ; Jacquarda Bastarda 9, Fusion Pixel et GNU Unifont (SIL Open Font License 1.1)"
+    ],
+    "contactTitle": "Contact",
+    "contactText": "Pour la presse, les clés et tout le reste, écrivez à"
+  },
+  "footer": {
+    "privacy": "Politique de confidentialité",
+    "contact": "Contact",
+    "bugs": "Vous avez trouvé un bug ? Utilisez Signaler un bug dans le jeu, ou écrivez à",
+    "madeBy": "Dawnbringer est créé par gmunaro au Brésil."
+  },
+  "suggest": {
+    "text": "Cette page est aussi disponible en français.",
+    "go": "Lire en français",
+    "dismiss": "Fermer"
+  },
+  "notFound": {
+    "text": "Cette page n'existe pas.",
+    "back": "Retour à l'accueil"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "title": "Dawnbringer: um auto-battler roguelike em pixel art de fantasia sombria",
+    "description": "O sol está morto e o Senhorio cobra toda semana. Monte um campeão, veja a previsão exata de cada luta e pague o dízimo ou lute. Em breve no PC e no celular.",
+    "pressTitle": "Kit de imprensa do Dawnbringer",
+    "pressDescription": "Ficha técnica, descrição, recursos, logo, arte principal e capturas de tela do Dawnbringer, um auto-battler roguelike de gmunaro.",
+    "notFoundTitle": "Página não encontrada",
+    "ogAlt": "O logo do Dawnbringer sobre um Senhorio de coroa, de pé sob uma lua vermelho-sangue."
+  },
+  "nav": {
+    "skip": "Pular para o conteúdo",
+    "home": "Início",
+    "game": "O jogo",
+    "story": "História",
+    "screens": "Capturas de tela",
+    "features": "Recursos",
+    "platforms": "Plataformas",
+    "press": "Kit de imprensa",
+    "language": "Idioma"
+  },
+  "hero": {
+    "tagline": "O sol está morto. Carregue sua última luz.",
+    "pitch": "Um auto-battler roguelike em pixel art de fantasia sombria. Monte um campeão, veja o resultado exato de cada luta antes que ela comece e decida se paga o Senhorio ou luta contra ele.",
+    "artAlt": "Um pequeno campeão numa colina encara um Senhorio gigante e coroado que se ergue das colinas escuras sob uma lua vermelho-sangue.",
+    "clipTitle": "Gameplay",
+    "clipAlt": "Clipe de gameplay: na noite do Senhorio o mapa fica vermelho enquanto o Rei Oco vem cobrar; a carta dele oferece pagar o dízimo ou lutar; depois a luta acontece sozinha.",
+    "clipFallback": "Seu navegador não consegue reproduzir este vídeo."
+  },
+  "stores": {
+    "title": "Onde jogar",
+    "steam": "Steam",
+    "googlePlay": "Google Play",
+    "appStore": "App Store",
+    "wishlistSoon": "Lista de desejos em breve",
+    "comingSoon": "Em breve"
+  },
+  "about": {
+    "title": "O que é Dawnbringer?",
+    "intro": "Cada partida dura três semanas numa terra que está morrendo. Percorra um mapa enevoado, casa a casa, escolha suas lutas, saqueie santuários e baús e monte um campeão com relíquias. Depois as lutas acontecem sozinhas.",
+    "points": [
+      {
+        "title": "Toda luta tem previsão. Exata.",
+        "text": "As lutas não usam dados. A mesma build contra o mesmo inimigo sempre termina do mesmo jeito, então o jogo mostra o resultado antes de você se comprometer: “Vitória com 29 PV restantes”. Uma derrota nunca é azar. É uma build que você pode ler e corrigir."
+      },
+      {
+        "title": "O Senhorio vem cobrar",
+        "text": "No fim de cada semana um Senhorio vem cobrar o aluguel. Pague o dízimo com a sua bolsa e siga em frente, ou lute contra ele pela recompensa. Dezenove Senhorios ocupam os assentos de seis terras."
+      },
+      {
+        "title": "A noite do Senhorio",
+        "text": "Na última noite da semana a lua fica vermelho-sangue e o Senhorio atravessa o mapa na sua direção. O relógio mostra quantos passos restam. Gaste-os bem."
+      },
+      {
+        "title": "Seus mortos voltam a andar",
+        "text": "Um campeão que cai se reergue em partidas futuras com o que restou da sua build. Ele vaga de dia e caça você à noite, e derrotá-lo recupera parte da bolsa que ele perdeu."
+      },
+      {
+        "title": "Seus vencedores tomam o trono",
+        "text": "Um campeão que vence é coroado. Numa partida futura essa lenda pode ocupar o assento de um Senhorio e enfrentar você com a build que venceu."
+      }
+    ]
+  },
+  "story": {
+    "title": "A história",
+    "paragraphs": [
+      "A Igreja vendia as horas de luz do dia em escrituras. Quem tinha a escritura de uma terra tinha a luz dela, e os donos das escrituras se tornaram os Senhorios. Tomaram mais luz do que o sol tinha. Na Última Manhã, ele caiu.",
+      "Uma mulher o viu cair e perdeu os olhos para ele. Apanhou a última brasa no avental e acendeu um fogo: o Último Acampamento. A Mãe Hesper acende um pavio no peito de cada campeão e o manda para o leste, levando a luz até o Portal. Um pavio aceso no fogo dela dura três semanas.",
+      "O ouro é luz do sol que esfriou, o único calor que restou, e por isso os Senhorios cobram. Toda semana a lua vira um selo de cera vermelha e o aluguel vence. Quem cai continua andando, ainda carregando o que deve."
+    ],
+    "question": "Ninguém cruzou o Limiar com a luz. O que existe do outro lado?"
+  },
+  "screens": {
+    "title": "Capturas de tela",
+    "open": "Abrir em tamanho real",
+    "items": {
+      "night": {
+        "caption": "A noite do Senhorio: faltam dois passos.",
+        "alt": "O mapa à noite, tingido de vermelho. O Rei Oco está ao lado do herói e o relógio diz: O Senhorio vem cobrar, 2 passos."
+      },
+      "landlord": {
+        "caption": "Pague o dízimo ou lute.",
+        "alt": "A carta do Rei Oco: atributos, a habilidade Coroa Oca, o dízimo de 18 de ouro e os botões Pagar o dízimo e Lutar."
+      },
+      "battle": {
+        "caption": "As lutas acontecem sozinhas.",
+        "alt": "Uma luta contra o Rei Oco numa capela em ruínas, com barras de vida, armadura e números de dano."
+      },
+      "forecast": {
+        "caption": "A previsão exata, antes de você se comprometer.",
+        "alt": "A carta de um Bruto de Cinzas com a previsão: Vitória com 29 PV restantes, e os botões Lutar e Recuar."
+      },
+      "risen": {
+        "caption": "Um campeão de uma partida anterior, reerguido.",
+        "alt": "No mapa, uma Atiradora da Forca reerguida de uma partida anterior, com uma dica que mostra a build e o ouro que ela carrega."
+      },
+      "legend": {
+        "caption": "Uma lenda coroada ocupa o assento.",
+        "alt": "A carta da Atiradora da Forca, coroada: uma lenda de uma partida anterior que ocupa o assento dos Confins Cinzentos."
+      },
+      "shop": {
+        "caption": "Cada oferta comparada com o que ela substitui.",
+        "alt": "A loja com quatro relíquias para comprar ou banir, e uma comparação do item novo com a sua build."
+      },
+      "camp": {
+        "caption": "O Último Acampamento: escolha quem vai e quanto apostar.",
+        "alt": "A tela do Último Acampamento com os campeões, as famílias de itens, os juramentos e o controle da aposta."
+      },
+      "group": {
+        "caption": "Bandos lutam juntos.",
+        "alt": "Uma luta contra um grupo de inimigos no Bosque dos Enforcados, com forcas e árvores mortas."
+      },
+      "cashout": {
+        "caption": "Volte para casa com o ouro ou vá mais fundo.",
+        "alt": "Depois de um Senhorio: a escolha entre voltar para casa com a bolsa ou levá-la para a semana 2, com a carta do próximo Senhorio."
+      },
+      "build": {
+        "caption": "Conjuntos de família despertam com 2, 4 e 6 peças.",
+        "alt": "A ficha do Penitente de Ferro com atributos, equipamento, cinto e os conjuntos de família Ferro e Sangue."
+      },
+      "event": {
+        "caption": "Eventos com um preço.",
+        "alt": "O evento A Aposta do Carrasco, com três escolhas."
+      }
+    }
+  },
+  "features": {
+    "title": "Recursos",
+    "items": [
+      "6 campeões, cada um com uma passiva e uma arma inicial.",
+      "64 relíquias em 8 famílias. Conjuntos de família despertam com 2, 4 e 6 peças.",
+      "19 Senhorios em 6 terras e 3 semanas.",
+      "77 inimigos: patrulhas, emboscadas, bandos, guardiões e mímicos.",
+      "Dia e noite num mapa de regiões. À noite as sombras caçam você.",
+      "Pavor: cada abate deixa a terra mais difícil e faz os inimigos pagarem mais.",
+      "Aposte seu banco. A morte leva a bolsa, nunca o banco.",
+      "9 juramentos para deixar a estrada mais cruel e o prêmio maior.",
+      "17 bênçãos, 8 consumíveis, 12 eventos, fogueiras, forjas e poços.",
+      "Ecos, reerguidos e lendas coroadas das suas partidas anteriores.",
+      "Pixel art em 640x360, nítida em qualquer tamanho. Mouse, teclado ou toque.",
+      "14 idiomas."
+    ]
+  },
+  "platforms": {
+    "title": "Plataformas",
+    "intro": "Dawnbringer está em desenvolvimento. A data de lançamento será anunciada aqui.",
+    "pc": "PC",
+    "pcNote": "Windows na Steam. macOS e Linux planejados.",
+    "android": "Android",
+    "androidNote": "Celulares e tablets, no Google Play.",
+    "ios": "iPhone e iPad",
+    "iosNote": "Na App Store."
+  },
+  "press": {
+    "title": "Kit de imprensa",
+    "intro": "Tudo o que você precisa para escrever sobre Dawnbringer. Você pode usar as capturas de tela, a arte principal e o logo na cobertura do jogo.",
+    "factsTitle": "Ficha técnica",
+    "developer": "Desenvolvedor",
+    "developerValue": "gmunaro, desenvolvedor solo no Brasil",
+    "release": "Data de lançamento",
+    "releaseValue": "A anunciar",
+    "platforms": "Plataformas",
+    "platformsValue": "PC (Steam), Android (Google Play), iPhone e iPad (App Store)",
+    "price": "Preço",
+    "priceValue": "US$ 4.99 (previsto)",
+    "languages": "Idiomas",
+    "languagesValue": "14: inglês, português (Brasil), espanhol, francês, alemão, italiano, russo, ucraniano, polonês, turco, japonês, coreano, chinês simplificado, chinês tradicional",
+    "engine": "Engine",
+    "website": "Site",
+    "contact": "Contato",
+    "descriptionTitle": "Descrição",
+    "description": "Dawnbringer é um auto-battler roguelike em pixel art de fantasia sombria. O sol está morto, e toda semana um Senhorio vem cobrar. Você percorre um mapa enevoado, escolhe lutas, junta relíquias e bênçãos e monta um campeão. As lutas se resolvem sozinhas, sem dados, então o jogo mostra o resultado exato antes de você se comprometer. Antes de cada partida você aposta ouro do seu banco; a morte leva a bolsa, nunca o banco. Depois de cada Senhorio você saca ou leva tudo para uma semana mais difícil. Campeões que morrem voltam a andar em partidas futuras, e campeões que vencem são coroados e podem voltar como Senhorios.",
+    "mediaTitle": "Logo, arte principal e capturas de tela",
+    "zip": "Baixar tudo (.zip, {size})",
+    "logo": "Logo (PNG, transparente)",
+    "icon": "Ícone (PNG, 512x512)",
+    "keyart": "Arte principal (PNG, 1920x1080)",
+    "keyartNoLogo": "Arte principal sem logo (PNG, 1920x1080)",
+    "screensNote": "As capturas de tela são PNG em 1920x1080, ampliadas a partir dos 640x360 do jogo em pixels inteiros.",
+    "creditsTitle": "Créditos",
+    "credits": [
+      "Design, código e arte: gmunaro",
+      "Música: Juhani Junkala (CC0); a trilha da noite do Senhorio é original, tocada com samples do VSCO 2 Community Edition (CC0)",
+      "Efeitos sonoros: Kenney, StarNinjas, Oiboo (CC0) e sons originais",
+      "Vozes: fala sintética feita para o jogo com o Qwen3-TTS (equipe Qwen da Alibaba); nenhuma voz humana foi gravada ou clonada",
+      "Fontes: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel e GNU Unifont (SIL Open Font License 1.1)"
+    ],
+    "contactTitle": "Contato",
+    "contactText": "Para imprensa, chaves e qualquer outro assunto, escreva para"
+  },
+  "footer": {
+    "privacy": "Política de privacidade",
+    "contact": "Contato",
+    "bugs": "Achou um bug? Use Relatar bug no jogo ou escreva para",
+    "madeBy": "Dawnbringer é feito por gmunaro no Brasil."
+  },
+  "suggest": {
+    "text": "Esta página também está disponível em português.",
+    "go": "Ler em português",
+    "dismiss": "Fechar"
+  },
+  "notFound": {
+    "text": "Esta página não existe.",
+    "back": "Voltar para a página inicial"
+  }
+}

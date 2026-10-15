@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "title": "Dawnbringer: a roguelike auto-battler in dark-fantasy pixel art",
+    "description": "The sun is dead and the Landlord collects every week. Build a champion, read the exact forecast of every fight, then pay the tithe or fight. Coming to PC and mobile.",
+    "pressTitle": "Dawnbringer press kit",
+    "pressDescription": "Fact sheet, description, features, logo, key art and screenshots of Dawnbringer, a roguelike auto-battler by gmunaro.",
+    "notFoundTitle": "Page not found",
+    "ogAlt": "The Dawnbringer logo over a Landlord in a crown, standing under a blood-red moon."
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "home": "Home",
+    "game": "The game",
+    "story": "Story",
+    "screens": "Screenshots",
+    "features": "Features",
+    "platforms": "Platforms",
+    "press": "Press kit",
+    "language": "Language"
+  },
+  "hero": {
+    "tagline": "The sun is dead. Carry its last light.",
+    "pitch": "A roguelike auto-battler in dark-fantasy pixel art. Build a champion, read the exact outcome of every fight before it starts, and decide whether to pay the Landlord or fight it.",
+    "artAlt": "A small champion on a hill faces a giant crowned Landlord rising from the dark hills under a blood-red moon.",
+    "clipTitle": "Gameplay",
+    "clipAlt": "Gameplay clip: on the Landlord's night the map turns red as the Hollow King comes to collect; its card offers to pay the tithe or fight; then the fight plays out on its own.",
+    "clipFallback": "Your browser cannot play this video."
+  },
+  "stores": {
+    "title": "Get it",
+    "steam": "Steam",
+    "googlePlay": "Google Play",
+    "appStore": "App Store",
+    "wishlistSoon": "Wishlist soon",
+    "comingSoon": "Coming soon"
+  },
+  "about": {
+    "title": "What is Dawnbringer?",
+    "intro": "Each run is three weeks in a dying land. Walk a fogged map of tiles, choose your fights, loot shrines and chests, and build a champion out of relics. Then the fights play out on their own.",
+    "points": [
+      {
+        "title": "Every fight is forecast. Exactly.",
+        "text": "Fights use no dice. The same build against the same foe always ends the same way, so the game tells you the result before you commit: “Victory with 29 HP left”. A loss is never bad luck. It is a build you can read and fix."
+      },
+      {
+        "title": "The Landlord comes to collect",
+        "text": "At the end of every week a Landlord comes for the rent. Pay the tithe from your purse and walk past, or fight it for its reward. Nineteen Landlords hold the seats of six lands."
+      },
+      {
+        "title": "The Landlord's night",
+        "text": "On the last night of the week the moon turns blood red and the Landlord walks toward you across the map. The clock shows how many steps are left. Spend them well."
+      },
+      {
+        "title": "Your dead walk again",
+        "text": "A champion who falls rises in later runs with what is left of its build. It wanders by day and hunts you at night, and beating it wins back part of the purse it lost."
+      },
+      {
+        "title": "Your winners take the throne",
+        "text": "A champion who wins is crowned. In a later run that legend may hold a Landlord's seat and fight you with the build that won."
+      }
+    ]
+  },
+  "story": {
+    "title": "The story",
+    "paragraphs": [
+      "The Church sold the hours of daylight in deeds. Whoever held the deed to a land held its light, and the deed holders became the Landlords. They took more light than the sun had. On the Last Morning it fell.",
+      "A woman watched it fall and lost her eyes to it. She caught its last ember in her apron and lit a fire: the Last Camp. Mother Hesper lights a wick in each champion's chest and sends them east to carry the light to the Gate. A wick lit at her fire lasts three weeks.",
+      "Gold is sunlight gone cold, the only warmth left, so the Landlords collect. Every week the moon turns into a seal of red wax and the rent falls due. Those who fall keep walking, still carrying what they owe."
+    ],
+    "question": "No one has crossed the Threshold with the light. What is behind it?"
+  },
+  "screens": {
+    "title": "Screenshots",
+    "open": "Open full size",
+    "items": {
+      "night": {
+        "caption": "The Landlord's night: two steps left.",
+        "alt": "The map at night, tinted red. The Hollow King stands next to the hero and the clock reads: the Landlord comes to collect, 2 steps."
+      },
+      "landlord": {
+        "caption": "Pay the tithe, or fight.",
+        "alt": "The Hollow King's card: its stats, its Hollow Crown ability, the tithe of 18 gold, and the buttons Pay the tithe and Fight."
+      },
+      "battle": {
+        "caption": "Fights play out on their own.",
+        "alt": "A fight against the Hollow King in a ruined chapel, with health bars, armor and damage numbers."
+      },
+      "forecast": {
+        "caption": "The exact forecast, before you commit.",
+        "alt": "The card of an Ash Brute with the forecast: Victory with 29 HP left, and the buttons Fight and Back off."
+      },
+      "risen": {
+        "caption": "A champion from an earlier run, risen.",
+        "alt": "On the map, a risen Gallows Marksman from an earlier run, with a tooltip of the build and the gold it carries."
+      },
+      "legend": {
+        "caption": "A crowned legend holds the seat.",
+        "alt": "The card of Gallows Marksman, crowned: a legend of an earlier run that holds the seat of the Ashen Reach."
+      },
+      "shop": {
+        "caption": "Every offer compared with what it replaces.",
+        "alt": "The shop with four relics to buy or banish, and a comparison of the new item with your build."
+      },
+      "camp": {
+        "caption": "The Last Camp: choose who walks and what you stake.",
+        "alt": "The Last Camp screen with the champions, the item families, the oaths and the stake slider."
+      },
+      "group": {
+        "caption": "Packs fight together.",
+        "alt": "A fight against a group of foes in the Hanging Wood, with gallows and dead trees."
+      },
+      "cashout": {
+        "caption": "Go home with the gold, or go deeper.",
+        "alt": "After a Landlord: the choice to go home with the purse or carry it into week 2, with the next Landlord's card."
+      },
+      "build": {
+        "caption": "Family sets wake at 2, 4 and 6 pieces.",
+        "alt": "The build sheet of the Ironbound Penitent with stats, gear, belt and the Iron and Blood family sets."
+      },
+      "event": {
+        "caption": "Events with a price.",
+        "alt": "The event The Hangman's Wager, with three choices."
+      }
+    }
+  },
+  "features": {
+    "title": "Features",
+    "items": [
+      "6 champions, each with a passive and a starting weapon.",
+      "64 relics in 8 families. Family sets wake at 2, 4 and 6 pieces.",
+      "19 Landlords across 6 lands and 3 weeks.",
+      "77 foes: patrols, ambushes, packs, guardians and mimics.",
+      "Day and night on a map of regions. At night the shadows hunt you.",
+      "Dread: every kill makes the land harder, and makes foes pay more.",
+      "Stake your bank. Death takes the purse, never the bank.",
+      "9 oaths to make the road crueler and the payout bigger.",
+      "17 blessings, 8 consumables, 12 events, campfires, forges and wells.",
+      "Echoes, risen and crowned legends from your earlier runs.",
+      "Pixel art at 640x360, sharp at any size. Mouse, keyboard or touch.",
+      "14 languages."
+    ]
+  },
+  "platforms": {
+    "title": "Platforms",
+    "intro": "Dawnbringer is in development. The release date will be announced here.",
+    "pc": "PC",
+    "pcNote": "Windows on Steam. macOS and Linux planned.",
+    "android": "Android",
+    "androidNote": "Phones and tablets, on Google Play.",
+    "ios": "iPhone and iPad",
+    "iosNote": "On the App Store."
+  },
+  "press": {
+    "title": "Press kit",
+    "intro": "Everything you need to write about Dawnbringer. You may use the screenshots, key art and logo in coverage of the game.",
+    "factsTitle": "Fact sheet",
+    "developer": "Developer",
+    "developerValue": "gmunaro, a solo developer in Brazil",
+    "release": "Release date",
+    "releaseValue": "To be announced",
+    "platforms": "Platforms",
+    "platformsValue": "PC (Steam), Android (Google Play), iPhone and iPad (App Store)",
+    "price": "Price",
+    "priceValue": "US$ 4.99 (planned)",
+    "languages": "Languages",
+    "languagesValue": "14: English, Portuguese (Brazil), Spanish, French, German, Italian, Russian, Ukrainian, Polish, Turkish, Japanese, Korean, Simplified Chinese, Traditional Chinese",
+    "engine": "Engine",
+    "website": "Website",
+    "contact": "Contact",
+    "descriptionTitle": "Description",
+    "description": "Dawnbringer is a roguelike auto-battler in dark-fantasy pixel art. The sun is dead, and every week a Landlord comes to collect. You walk a fogged map, choose fights, gather relics and blessings, and build a champion. Fights resolve on their own without dice, so the game shows the exact outcome before you commit. Before each run you stake gold from your bank; death takes the purse, never the bank. After each Landlord you cash out or carry everything into a harder week. Champions who die walk again in later runs, and champions who win are crowned and may return as Landlords.",
+    "mediaTitle": "Logo, key art and screenshots",
+    "zip": "Download everything (.zip, {size})",
+    "logo": "Logo (PNG, transparent)",
+    "icon": "Icon (PNG, 512x512)",
+    "keyart": "Key art (PNG, 1920x1080)",
+    "keyartNoLogo": "Key art without logo (PNG, 1920x1080)",
+    "screensNote": "Screenshots are 1920x1080 PNG, scaled from the game's 640x360 by whole pixels.",
+    "creditsTitle": "Credits",
+    "credits": [
+      "Design, code and art: gmunaro",
+      "Music: Juhani Junkala (CC0); the Landlord's night score is original, played on VSCO 2 Community Edition samples (CC0)",
+      "Sound effects: Kenney, StarNinjas, Oiboo (CC0) and original sounds",
+      "Voices: synthetic speech made for the game with Qwen3-TTS (Alibaba Qwen team); no human voice was recorded or cloned",
+      "Fonts: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel and GNU Unifont (SIL Open Font License 1.1)"
+    ],
+    "contactTitle": "Contact",
+    "contactText": "For press, keys and anything else, write to"
+  },
+  "footer": {
+    "privacy": "Privacy policy",
+    "contact": "Contact",
+    "bugs": "Found a bug? Use Report a bug in the game, or write to",
+    "madeBy": "Dawnbringer is made by gmunaro in Brazil."
+  },
+  "suggest": {
+    "text": "This page is also available in English.",
+    "go": "Read in English",
+    "dismiss": "Close"
+  },
+  "notFound": {
+    "text": "This page does not exist.",
+    "back": "Back to the home page"
+  }
+}

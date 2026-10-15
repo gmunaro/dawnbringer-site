@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gmunaro.github.io/dawnbringer-site/sitemap.xml

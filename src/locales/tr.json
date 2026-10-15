@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "title": "Dawnbringer: karanlık fantezi piksel sanatıyla bir roguelike oto-savaş oyunu",
+    "description": "Güneş öldü ve Ev sahibi her hafta tahsilata geliyor. Bir şampiyon kur, her savaşın kesin öngörüsünü oku, onda biri öde ya da savaş. Yakında PC ve mobilde.",
+    "pressTitle": "Dawnbringer basın kiti",
+    "pressDescription": "gmunaro'nun roguelike oto-savaş oyunu Dawnbringer için bilgi sayfası, tanıtım, özellikler, logo, ana görsel ve ekran görüntüleri.",
+    "notFoundTitle": "Sayfa bulunamadı",
+    "ogAlt": "Kan kırmızısı bir ayın altında duran taçlı bir Ev sahibinin üzerinde Dawnbringer logosu."
+  },
+  "nav": {
+    "skip": "İçeriğe geç",
+    "home": "Ana sayfa",
+    "game": "Oyun",
+    "story": "Hikâye",
+    "screens": "Ekran görüntüleri",
+    "features": "Özellikler",
+    "platforms": "Platformlar",
+    "press": "Basın kiti",
+    "language": "Dil"
+  },
+  "hero": {
+    "tagline": "Güneş öldü. Son ışığını taşı.",
+    "pitch": "Karanlık fantezi piksel sanatıyla bir roguelike oto-savaş oyunu. Bir şampiyon kur, her savaşın kesin sonucunu başlamadan önce gör ve Ev sahibine ödeme mi yapacağına, onunla savaşacağına mı karar ver.",
+    "artAlt": "Tepedeki küçük bir şampiyon, kan kırmızısı bir ayın altında karanlık tepelerden yükselen dev, taçlı bir Ev sahibiyle yüz yüze.",
+    "clipTitle": "Oynanış",
+    "clipAlt": "Oynanış klibi: Ev sahibinin gecesinde Oyuk Kral tahsilata gelirken harita kızıla döner; kartı onda biri ödemeyi ya da savaşmayı sunar; ardından savaş kendi kendine oynanır.",
+    "clipFallback": "Tarayıcın bu videoyu oynatamıyor."
+  },
+  "stores": {
+    "title": "Oyunu edin",
+    "steam": "Steam",
+    "googlePlay": "Google Play",
+    "appStore": "App Store",
+    "wishlistSoon": "Yakında istek listesinde",
+    "comingSoon": "Yakında"
+  },
+  "about": {
+    "title": "Dawnbringer nedir?",
+    "intro": "Her koşu, ölmekte olan bir diyarda üç hafta sürer. Sisle örtülü, karelerden oluşan bir haritada yürü, savaşlarını seç, türbeleri ve sandıkları yağmala, reliklerden bir şampiyon kur. Sonra savaşlar kendi kendine oynanır.",
+    "points": [
+      {
+        "title": "Her savaşın öngörüsü var. Kesin.",
+        "text": "Savaşlarda zar yok. Aynı düzen aynı düşmana karşı hep aynı şekilde biter, bu yüzden oyun sonucu sen karar vermeden önce söyler: “29 CP kalarak zafer”. Yenilgi asla kötü şans değildir. Okuyup düzeltebileceğin bir düzendir."
+      },
+      {
+        "title": "Ev sahibi tahsilata geliyor",
+        "text": "Her haftanın sonunda bir Ev sahibi kirayı almaya gelir. Kesenden onda biri öde ve yoluna devam et ya da ödülü için onunla savaş. On dokuz Ev sahibi altı diyarın tahtlarını tutuyor."
+      },
+      {
+        "title": "Ev sahibinin gecesi",
+        "text": "Haftanın son gecesinde ay kan kırmızısına döner ve Ev sahibi haritada sana doğru yürür. Saat kaç adım kaldığını gösterir. Onları iyi harca."
+      },
+      {
+        "title": "Ölülerin yeniden yürür",
+        "text": "Düşen bir şampiyon, sonraki koşularda düzeninden kalanlarla dirilir. Gündüz dolaşır, geceleri seni avlar; onu yenmek, kaybettiği kesenin bir kısmını geri kazandırır."
+      },
+      {
+        "title": "Kazananların tahta çıkar",
+        "text": "Kazanan bir şampiyon taçlanır. Sonraki bir koşuda bu efsane bir Ev sahibinin tahtını tutabilir ve kazandığı düzenle seninle savaşabilir."
+      }
+    ]
+  },
+  "story": {
+    "title": "Hikâye",
+    "paragraphs": [
+      "Kilise gün ışığının saatlerini tapularla sattı. Bir diyarın tapusunu elinde tutan, onun ışığını da tutuyordu ve tapu sahipleri Ev sahipleri oldu. Güneşin sahip olduğundan fazla ışık aldılar. Son Sabah'ta güneş düştü.",
+      "Bir kadın onun düşüşünü izledi ve bu yüzden gözlerini kaybetti. Güneşin son korunu önlüğüyle yakaladı ve bir ateş yaktı: Son Kamp. Hesper Ana her şampiyonun göğsünde bir fitil yakar ve onu ışığı Kapı'ya taşısın diye doğuya gönderir. Onun ateşinde yakılan bir fitil üç hafta dayanır.",
+      "Altın soğumuş güneş ışığıdır, geriye kalan tek sıcaklık; bu yüzden Ev sahipleri tahsilat yapar. Her hafta ay kırmızı mumdan bir mühüre dönüşür ve kiranın vadesi gelir. Düşenler borçlarını hâlâ taşıyarak yürümeye devam eder."
+    ],
+    "question": "Kimse ışıkla Eşik'ten geçmedi. Ardında ne var?"
+  },
+  "screens": {
+    "title": "Ekran görüntüleri",
+    "open": "Tam boyutta aç",
+    "items": {
+      "night": {
+        "caption": "Ev sahibinin gecesi: iki adım kaldı.",
+        "alt": "Gece, kırmızıya boyanmış harita. Oyuk Kral kahramanın yanında duruyor ve saatte şu yazıyor: Ev sahibi tahsilata geliyor, 2 adım."
+      },
+      "landlord": {
+        "caption": "Onda biri öde ya da savaş.",
+        "alt": "Oyuk Kral'ın kartı: nitelikleri, Oyuk Taç yeteneği, 18 altınlık onda bir ve Onda biri öde ile Savaş düğmeleri."
+      },
+      "battle": {
+        "caption": "Savaşlar kendi kendine oynanır.",
+        "alt": "Yıkık bir şapelde Oyuk Kral'a karşı bir savaş; can çubukları, zırh ve hasar sayılarıyla."
+      },
+      "forecast": {
+        "caption": "Karar vermeden önce kesin öngörü.",
+        "alt": "Bir Kül Canavarı'nın kartı ve öngörü: 29 CP kalarak zafer; altında Savaş ve Geri çekil düğmeleri."
+      },
+      "risen": {
+        "caption": "Önceki bir koşudan dirilmiş bir şampiyon.",
+        "alt": "Haritada, önceki bir koşudan dirilmiş bir Darağacı Nişancısı; düzenini ve taşıdığı altını gösteren bir ipucu kutusuyla."
+      },
+      "legend": {
+        "caption": "Taçlanmış bir efsane tahtı tutuyor.",
+        "alt": "Darağacı Nişancısı, taçlanmış kartı: Küllü Diyar'ın tahtını tutan, önceki bir koşudan kalma bir efsane."
+      },
+      "shop": {
+        "caption": "Her teklif, yerine geçeceği şeyle karşılaştırılır.",
+        "alt": "Satın almak ya da sürgün etmek için dört relik sunan dükkân ve yeni eşyanın düzeninle karşılaştırması."
+      },
+      "camp": {
+        "caption": "Son Kamp: kimin yürüyeceğini ve ne kadar bahis koyacağını seç.",
+        "alt": "Şampiyonlar, eşya aileleri, yeminler ve bahis kaydırıcısıyla Son Kamp ekranı."
+      },
+      "group": {
+        "caption": "Sürüler birlikte savaşır.",
+        "alt": "Asılı Orman'da, darağaçları ve ölü ağaçlar arasında bir düşman grubuna karşı savaş."
+      },
+      "cashout": {
+        "caption": "Altınla eve dön ya da daha derine git.",
+        "alt": "Bir Ev sahibinden sonra: keseyle eve dönmek ya da onu 2. haftaya taşımak arasında seçim; yanında bir sonraki Ev sahibinin kartı."
+      },
+      "build": {
+        "caption": "Aile setleri 2, 4 ve 6 parçada uyanır.",
+        "alt": "Demirci Tövbekar'ın düzen sayfası: nitelikler, ekipman, kemer ve Demir ile Kan aile setleri."
+      },
+      "event": {
+        "caption": "Bedeli olan olaylar.",
+        "alt": "Üç seçenekli Cellat Bahsi olayı."
+      }
+    }
+  },
+  "features": {
+    "title": "Özellikler",
+    "items": [
+      "Her biri bir pasif ve bir başlangıç silahıyla 6 şampiyon.",
+      "8 ailede 64 relik. Aile setleri 2, 4 ve 6 parçada uyanır.",
+      "6 diyar ve 3 haftaya yayılmış 19 Ev sahibi.",
+      "77 düşman: devriyeler, pusular, sürüler, muhafızlar ve taklitçiler.",
+      "Bölgelerden oluşan bir haritada gündüz ve gece. Geceleri Gölgeler seni avlar.",
+      "Dehşet: her öldürme diyarı zorlaştırır ve düşmanların daha çok ödemesini sağlar.",
+      "Bankanı ortaya koy. Ölüm keseyi alır, bankayı asla.",
+      "Yolu daha acımasız, ödülü daha büyük yapan 9 yemin.",
+      "17 kutsama, 8 tüketilebilir, 12 olay, kamp ateşleri, dövümhaneler ve kuyular.",
+      "Önceki koşularından yankılar, dirilmişler ve taçlanmış efsaneler.",
+      "640x360 piksel sanatı, her boyutta keskin. Fare, klavye ya da dokunmatik.",
+      "14 dil."
+    ]
+  },
+  "platforms": {
+    "title": "Platformlar",
+    "intro": "Dawnbringer geliştirme aşamasında. Çıkış tarihi burada duyurulacak.",
+    "pc": "PC",
+    "pcNote": "Steam'de Windows. macOS ve Linux planlanıyor.",
+    "android": "Android",
+    "androidNote": "Telefon ve tabletler için, Google Play'de.",
+    "ios": "iPhone ve iPad",
+    "iosNote": "App Store'da."
+  },
+  "press": {
+    "title": "Basın kiti",
+    "intro": "Dawnbringer hakkında yazmak için gereken her şey. Ekran görüntülerini, ana görseli ve logoyu oyunla ilgili haberlerde kullanabilirsin.",
+    "factsTitle": "Bilgi sayfası",
+    "developer": "Geliştirici",
+    "developerValue": "gmunaro, Brezilya'da tek başına çalışan bir geliştirici",
+    "release": "Çıkış tarihi",
+    "releaseValue": "Daha sonra duyurulacak",
+    "platforms": "Platformlar",
+    "platformsValue": "PC (Steam), Android (Google Play), iPhone ve iPad (App Store)",
+    "price": "Fiyat",
+    "priceValue": "US$ 4.99 (planlanan)",
+    "languages": "Diller",
+    "languagesValue": "14: İngilizce, Portekizce (Brezilya), İspanyolca, Fransızca, Almanca, İtalyanca, Rusça, Ukraynaca, Lehçe, Türkçe, Japonca, Korece, Basitleştirilmiş Çince, Geleneksel Çince",
+    "engine": "Motor",
+    "website": "Web sitesi",
+    "contact": "İletişim",
+    "descriptionTitle": "Tanıtım",
+    "description": "Dawnbringer, karanlık fantezi piksel sanatıyla bir roguelike oto-savaş oyunu. Güneş öldü ve her hafta bir Ev sahibi tahsilata geliyor. Sisli bir haritada yürür, savaşlarını seçer, relikler ve kutsamalar toplar, bir şampiyon kurarsın. Savaşlar zar olmadan kendi kendine çözülür, bu yüzden oyun sen karar vermeden önce kesin sonucu gösterir. Her koşudan önce bankandan altın bahse koyarsın; ölüm keseyi alır, bankayı asla. Her Ev sahibinden sonra ya çekilirsin ya da her şeyi daha zor bir haftaya taşırsın. Ölen şampiyonlar sonraki koşularda yeniden yürür; kazananlar taçlanır ve Ev sahibi olarak geri dönebilir.",
+    "mediaTitle": "Logo, ana görsel ve ekran görüntüleri",
+    "zip": "Hepsini indir (.zip, {size})",
+    "logo": "Logo (PNG, şeffaf)",
+    "icon": "Simge (PNG, 512x512)",
+    "keyart": "Ana görsel (PNG, 1920x1080)",
+    "keyartNoLogo": "Logosuz ana görsel (PNG, 1920x1080)",
+    "screensNote": "Ekran görüntüleri 1920x1080 PNG'dir; oyunun 640x360 çözünürlüğünden tam piksel katlarıyla büyütülmüştür.",
+    "creditsTitle": "Emeği geçenler",
+    "credits": [
+      "Tasarım, kod ve görseller: gmunaro",
+      "Müzik: Juhani Junkala (CC0); Ev sahibinin gecesi müziği özgündür ve VSCO 2 Community Edition örnekleriyle (CC0) çalınmıştır",
+      "Ses efektleri: Kenney, StarNinjas, Oiboo (CC0) ve özgün sesler",
+      "Sesler: oyun için Qwen3-TTS (Alibaba Qwen ekibi) ile üretilmiş sentetik konuşma; hiçbir insan sesi kaydedilmedi ya da kopyalanmadı",
+      "Yazı tipleri: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel ve GNU Unifont (SIL Open Font License 1.1)"
+    ],
+    "contactTitle": "İletişim",
+    "contactText": "Basın, anahtarlar ve diğer her şey için şu adrese yaz"
+  },
+  "footer": {
+    "privacy": "Gizlilik politikası",
+    "contact": "İletişim",
+    "bugs": "Bir hata mı buldun? Oyundaki Hata bildir seçeneğini kullan ya da şu adrese yaz",
+    "madeBy": "Dawnbringer, Brezilya'da gmunaro tarafından yapılıyor."
+  },
+  "suggest": {
+    "text": "Bu sayfa Türkçe olarak da mevcut.",
+    "go": "Türkçe oku",
+    "dismiss": "Kapat"
+  },
+  "notFound": {
+    "text": "Bu sayfa mevcut değil.",
+    "back": "Ana sayfaya dön"
+  }
+}

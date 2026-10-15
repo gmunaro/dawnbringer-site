@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "title": "Dawnbringer: un auto-battler roguelike en pixel art de fantasía oscura",
+    "description": "El sol ha muerto y el Terrateniente cobra cada semana. Crea un campeón, lee el pronóstico exacto de cada combate y paga el diezmo o lucha. Pronto en PC y móvil.",
+    "pressTitle": "Kit de prensa de Dawnbringer",
+    "pressDescription": "Ficha técnica, descripción, características, logo, arte principal y capturas de Dawnbringer, un auto-battler roguelike de gmunaro.",
+    "notFoundTitle": "Página no encontrada",
+    "ogAlt": "El logo de Dawnbringer sobre un Terrateniente con corona, de pie bajo una luna rojo sangre."
+  },
+  "nav": {
+    "skip": "Saltar al contenido",
+    "home": "Inicio",
+    "game": "El juego",
+    "story": "Historia",
+    "screens": "Capturas",
+    "features": "Características",
+    "platforms": "Plataformas",
+    "press": "Kit de prensa",
+    "language": "Idioma"
+  },
+  "hero": {
+    "tagline": "El sol ha muerto. Lleva su última luz.",
+    "pitch": "Un auto-battler roguelike en pixel art de fantasía oscura. Crea un campeón, conoce el resultado exacto de cada combate antes de que empiece y decide si pagas al Terrateniente o luchas contra él.",
+    "artAlt": "Un pequeño campeón sobre una colina se enfrenta a un Terrateniente gigante y coronado que surge de las colinas oscuras bajo una luna rojo sangre.",
+    "clipTitle": "Jugabilidad",
+    "clipAlt": "Clip de juego: en la noche del Terrateniente el mapa se vuelve rojo mientras el Rey Hueco viene a cobrar; su carta ofrece pagar el diezmo o luchar; luego el combate se libra solo.",
+    "clipFallback": "Tu navegador no puede reproducir este vídeo."
+  },
+  "stores": {
+    "title": "Consíguelo",
+    "steam": "Steam",
+    "googlePlay": "Google Play",
+    "appStore": "App Store",
+    "wishlistSoon": "Lista de deseados pronto",
+    "comingSoon": "Próximamente"
+  },
+  "about": {
+    "title": "¿Qué es Dawnbringer?",
+    "intro": "Cada partida son tres semanas en una tierra moribunda. Recorre un mapa de casillas cubierto de niebla, elige tus combates, saquea santuarios y cofres y crea un campeón a base de reliquias. Luego los combates se libran solos.",
+    "points": [
+      {
+        "title": "Cada combate tiene pronóstico. Exacto.",
+        "text": "Los combates no usan dados. La misma build contra el mismo enemigo siempre acaba igual, así que el juego te dice el resultado antes de que te comprometas: «Victoria con 29 PV restantes». Una derrota nunca es mala suerte. Es una build que puedes leer y corregir."
+      },
+      {
+        "title": "El Terrateniente viene a cobrar",
+        "text": "Al final de cada semana un Terrateniente viene a por la renta. Paga el diezmo con tu bolsa y sigue tu camino, o lucha contra él por su recompensa. Diecinueve Terratenientes ocupan los asientos de seis tierras."
+      },
+      {
+        "title": "La noche del Terrateniente",
+        "text": "La última noche de la semana la luna se vuelve rojo sangre y el Terrateniente cruza el mapa hacia ti. El reloj muestra cuántos pasos quedan. Gástalos bien."
+      },
+      {
+        "title": "Tus muertos vuelven a andar",
+        "text": "Un campeón que cae resurge en partidas posteriores con lo que queda de su build. Vaga de día y te caza de noche, y vencerlo te devuelve parte de la bolsa que perdió."
+      },
+      {
+        "title": "Tus vencedores ocupan el trono",
+        "text": "Un campeón que gana es coronado. En una partida posterior esa leyenda puede ocupar el asiento de un Terrateniente y luchar contra ti con la build que ganó."
+      }
+    ]
+  },
+  "story": {
+    "title": "La historia",
+    "paragraphs": [
+      "La Iglesia vendía las horas de luz del día en escrituras. Quien tenía la escritura de una tierra tenía su luz, y los dueños de las escrituras se convirtieron en los Terratenientes. Tomaron más luz de la que tenía el sol. En la Última Mañana, cayó.",
+      "Una mujer lo vio caer y perdió los ojos por ello. Recogió su última brasa en el delantal y encendió un fuego: el Último campamento. La Madre Hesper enciende un pabilo en el pecho de cada campeón y lo envía al este para llevar la luz hasta la Puerta. Un pabilo encendido en su fuego dura tres semanas.",
+      "El oro es luz del sol que se enfrió, el único calor que queda, y por eso los Terratenientes cobran. Cada semana la luna se convierte en un sello de lacre rojo y vence la renta. Los que caen siguen andando, cargando aún con lo que deben."
+    ],
+    "question": "Nadie ha cruzado el Umbral con la luz. ¿Qué hay detrás?"
+  },
+  "screens": {
+    "title": "Capturas",
+    "open": "Ver a tamaño completo",
+    "items": {
+      "night": {
+        "caption": "La noche del Terrateniente: quedan dos pasos.",
+        "alt": "El mapa de noche, teñido de rojo. El Rey Hueco está junto al héroe y el reloj dice: El Terrateniente viene a cobrar, 2 pasos."
+      },
+      "landlord": {
+        "caption": "Paga el diezmo o lucha.",
+        "alt": "La carta del Rey Hueco: sus estadísticas, su habilidad Corona Hueca, el diezmo de 18 de oro y los botones Pagar el diezmo y Luchar."
+      },
+      "battle": {
+        "caption": "Los combates se libran solos.",
+        "alt": "Un combate contra el Rey Hueco en una capilla en ruinas, con barras de vida, armadura y números de daño."
+      },
+      "forecast": {
+        "caption": "El pronóstico exacto, antes de comprometerte.",
+        "alt": "La carta de un Bruto de Ceniza con el pronóstico: Victoria con 29 PV restantes, y los botones Luchar y Retroceder."
+      },
+      "risen": {
+        "caption": "Un campeón de una partida anterior, resurgido.",
+        "alt": "En el mapa, una Tiradora de la Horca resurgida de una partida anterior, con una ventana que muestra su build y el oro que lleva."
+      },
+      "legend": {
+        "caption": "Una leyenda coronada ocupa el asiento.",
+        "alt": "La carta de la Tiradora de la Horca, coronada: una leyenda de una partida anterior que ocupa el asiento del Alcance Ceniciento."
+      },
+      "shop": {
+        "caption": "Cada oferta comparada con lo que reemplaza.",
+        "alt": "La tienda con cuatro reliquias para comprar o desterrar, y una comparación del objeto nuevo con tu build."
+      },
+      "camp": {
+        "caption": "El Último campamento: elige quién camina y cuánto apuestas.",
+        "alt": "La pantalla del Último campamento con los campeones, las familias de objetos, los juramentos y el control de la apuesta."
+      },
+      "group": {
+        "caption": "Las hordas luchan juntas.",
+        "alt": "Un combate contra un grupo de enemigos en el Bosque de la Horca, con horcas y árboles muertos."
+      },
+      "cashout": {
+        "caption": "Vuelve a casa con el oro o ve más hondo.",
+        "alt": "Tras un Terrateniente: la elección entre volver a casa con la bolsa o llevarla a la semana 2, con la carta del siguiente Terrateniente."
+      },
+      "build": {
+        "caption": "Los conjuntos de familia despiertan con 2, 4 y 6 piezas.",
+        "alt": "La ficha del Penitente Encadenado con estadísticas, equipo, cinturón y los conjuntos de familia Hierro y Sangre."
+      },
+      "event": {
+        "caption": "Eventos con un precio.",
+        "alt": "El evento La Apuesta del Verdugo, con tres opciones."
+      }
+    }
+  },
+  "features": {
+    "title": "Características",
+    "items": [
+      "6 campeones, cada uno con una pasiva y un arma inicial.",
+      "64 reliquias en 8 familias. Los conjuntos de familia despiertan con 2, 4 y 6 piezas.",
+      "19 Terratenientes en 6 tierras y 3 semanas.",
+      "77 enemigos: patrullas, emboscadas, hordas, guardianes y mímicos.",
+      "Día y noche en un mapa de regiones. De noche las sombras te cazan.",
+      "Pavor: cada enemigo abatido endurece la tierra y hace que los enemigos paguen más.",
+      "Apuesta tu banco. La muerte se lleva la bolsa, nunca el banco.",
+      "9 juramentos para hacer el camino más cruel y el premio más grande.",
+      "17 bendiciones, 8 consumibles, 12 eventos, hogueras, forjas y pozos.",
+      "Ecos, resurgidos y leyendas coronadas de tus partidas anteriores.",
+      "Pixel art a 640x360, nítido a cualquier tamaño. Ratón, teclado o táctil.",
+      "14 idiomas."
+    ]
+  },
+  "platforms": {
+    "title": "Plataformas",
+    "intro": "Dawnbringer está en desarrollo. La fecha de lanzamiento se anunciará aquí.",
+    "pc": "PC",
+    "pcNote": "Windows en Steam. macOS y Linux previstos.",
+    "android": "Android",
+    "androidNote": "Móviles y tabletas, en Google Play.",
+    "ios": "iPhone y iPad",
+    "iosNote": "En la App Store."
+  },
+  "press": {
+    "title": "Kit de prensa",
+    "intro": "Todo lo que necesitas para escribir sobre Dawnbringer. Puedes usar las capturas, el arte principal y el logo en la cobertura del juego.",
+    "factsTitle": "Ficha técnica",
+    "developer": "Desarrollador",
+    "developerValue": "gmunaro, desarrollador en solitario en Brasil",
+    "release": "Fecha de lanzamiento",
+    "releaseValue": "Por anunciar",
+    "platforms": "Plataformas",
+    "platformsValue": "PC (Steam), Android (Google Play), iPhone y iPad (App Store)",
+    "price": "Precio",
+    "priceValue": "US$ 4.99 (previsto)",
+    "languages": "Idiomas",
+    "languagesValue": "14: inglés, portugués (Brasil), español, francés, alemán, italiano, ruso, ucraniano, polaco, turco, japonés, coreano, chino simplificado, chino tradicional",
+    "engine": "Motor",
+    "website": "Sitio web",
+    "contact": "Contacto",
+    "descriptionTitle": "Descripción",
+    "description": "Dawnbringer es un auto-battler roguelike en pixel art de fantasía oscura. El sol ha muerto y cada semana un Terrateniente viene a cobrar. Recorres un mapa cubierto de niebla, eliges combates, reúnes reliquias y bendiciones y creas un campeón. Los combates se resuelven solos y sin dados, así que el juego muestra el resultado exacto antes de que te comprometas. Antes de cada partida apuestas oro de tu banco; la muerte se lleva la bolsa, nunca el banco. Tras cada Terrateniente te retiras o te lo llevas todo a una semana más dura. Los campeones que mueren vuelven a andar en partidas posteriores, y los que ganan son coronados y pueden volver como Terratenientes.",
+    "mediaTitle": "Logo, arte principal y capturas",
+    "zip": "Descargar todo (.zip, {size})",
+    "logo": "Logo (PNG, transparente)",
+    "icon": "Icono (PNG, 512x512)",
+    "keyart": "Arte principal (PNG, 1920x1080)",
+    "keyartNoLogo": "Arte principal sin logo (PNG, 1920x1080)",
+    "screensNote": "Las capturas son PNG de 1920x1080, escaladas desde los 640x360 del juego en píxeles enteros.",
+    "creditsTitle": "Créditos",
+    "credits": [
+      "Diseño, código y arte: gmunaro",
+      "Música: Juhani Junkala (CC0); la partitura de la noche del Terrateniente es original, interpretada con samples de VSCO 2 Community Edition (CC0)",
+      "Efectos de sonido: Kenney, StarNinjas, Oiboo (CC0) y sonidos originales",
+      "Voces: habla sintética creada para el juego con Qwen3-TTS (equipo Qwen de Alibaba); no se grabó ni clonó ninguna voz humana",
+      "Fuentes: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel y GNU Unifont (SIL Open Font License 1.1)"
+    ],
+    "contactTitle": "Contacto",
+    "contactText": "Para prensa, claves y cualquier otra cosa, escribe a"
+  },
+  "footer": {
+    "privacy": "Política de privacidad",
+    "contact": "Contacto",
+    "bugs": "¿Has encontrado un error? Usa Informar de un error en el juego o escribe a",
+    "madeBy": "Dawnbringer está hecho por gmunaro en Brasil."
+  },
+  "suggest": {
+    "text": "Esta página también está disponible en español.",
+    "go": "Leer en español",
+    "dismiss": "Cerrar"
+  },
+  "notFound": {
+    "text": "Esta página no existe.",
+    "back": "Volver a la página de inicio"
+  }
+}
