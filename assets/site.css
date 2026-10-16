@@ -158,6 +158,16 @@ main > section, main > .wrap { padding-top: 64px; }
 
 .platforms .card, .steps .card { display: flex; flex-direction: column; align-items: flex-start; }
 .platforms .btn, .steps .btn { margin-top: auto; }
+.steps { margin-bottom: 16px; }
+.steps .btn { max-width: 100%; overflow-wrap: anywhere; text-align: center; }
+.beta-help { max-width: 52em; margin-top: 24px; }
+.beta-help details { border-top: 1px solid var(--stone); padding: 12px 0; }
+.beta-help summary { color: var(--gold); cursor: pointer; }
+.beta-help details > p { margin: 12px 0; }
+.beta-shots { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 20px; }
+.beta-shots figure { margin: 0; min-width: 0; }
+.beta-shots img { display: block; width: 100%; height: auto; }
+.beta-shots figcaption { margin-top: 8px; font-size: 16px; }
 
 /* Press kit and plain text pages. */
 .press h1 { margin-top: 0; }

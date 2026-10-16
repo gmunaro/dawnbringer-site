@@ -154,11 +154,23 @@
   "beta": {
     "title": "Betaya katıl",
     "intro": "Çıkıştan önce Android sürümünü ücretsiz oyna.",
-    "step1": "Google Play'de kullandığın Google hesabıyla test grubuna katıl.",
+    "step1": "Dawnbringer Testers grubunu aç ve Gruba katıl düğmesine bas. Android'indeki Play Store hesabını kullan. Grubu açmak yeterli değil: katılımını onayla.",
     "step1Link": "Grubu aç",
-    "step2": "Android cihazında test sayfasını aç, daveti kabul et ve oyunu Google Play'den yükle.",
+    "step2": "Aynı hesapla test sayfasını aç ve Test kullanıcısı ol düğmesine bas. Devam etmeden önce katılım onayını bekle.",
     "step2Link": "Test sayfasını aç",
-    "note": "Beta erişimi oyun çıkana kadar açık kalır."
+    "step3": "Android telefonunda veya tabletinde oyunu Google Play'de aç ve Yükle'ye bas. Bilgisayarda açılan pencerede Android cihazını seçip Install veya Yükle'ye tıkla.",
+    "step3Link": "Google Play'den yükle",
+    "note": "Ücretsiz beta erişimi çıkışta sona erer. Teste katılmak, son sürümü satın almış olmak anlamına gelmez.",
+    "helpTitle": "Yükleme için yardım mı gerekiyor?",
+    "accountHelp": "Grupta, test sayfasında ve Play Store'da aynı hesabı kullan. Birden fazla Google hesabın varsa her sayfada ve mağaza uygulamasında profil resmini kontrol et.",
+    "priceTitle": "Fiyat veya Satın al düğmesi mi görüyorsun?",
+    "priceHelp": "Mağaza sayfası test kullanıcısına da fiyat gösterebilir. Önce 1. ve 2. adımları tamamla. Bilgisayarda cihaz seçimini açmak için Buy veya Satın al'a tıkla. Pencere Install veya Yükle sunuyorsa görsellerdeki gibi Android cihazını seçip bu düğmeye bas. Ödeme ekranı açılırsa onaylamadan önce test kartı açıklamasını oku.",
+    "storeCaption": "Bilgisayarda Google Play, test sırasında da R$9.99 ve Buy gösterebilir.",
+    "installCaption": "Sonraki pencere Install sunabilir. Yüklemeyi göndermek için Android cihazını seç.",
+    "paymentTitle": "Test card, always approves nedir?",
+    "paymentHelp": "Google Play'in test ödeme kartıdır. Ödeme yöntemi Test card, always approves ise onay, gerçek ücret alınmadan bir satın alma simüle eder. Kendi kartın veya gerçek bir ödeme yöntemi görünüyorsa onaylama. Üç adımdaki hesabı kontrol et ve sorun sürerse iletişime geç.",
+    "unavailableTitle": "Oyun görünmüyor mu veya teste katılamıyor musun?",
+    "unavailableHelp": "Play Store hesabınla hem gruba hem teste katıldığını kontrol et. Birkaç dakika bekleyip test sayfasını yeniden aç. Erişim hâlâ yoksa ödeme bilgileri içermeyen bir hata ekranı görüntüsünü şu adrese gönder"
   },
   "press": {
     "title": "Basın kiti",

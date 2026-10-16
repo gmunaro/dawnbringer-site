@@ -154,11 +154,23 @@
   "beta": {
     "title": "Dołącz do bety",
     "intro": "Zagraj za darmo w wersję na Androida przed premierą.",
-    "step1": "Dołącz do grupy testerów z kontem Google, którego używasz w Google Play.",
+    "step1": "Otwórz Dawnbringer Testers i kliknij Dołącz do grupy. Użyj konta Google ze Sklepu Play na swoim Androidzie. Samo otwarcie grupy nie wystarczy: potwierdź dołączenie.",
     "step1Link": "Otwórz grupę",
-    "step2": "Na urządzeniu z Androidem otwórz stronę testu, przyjmij zaproszenie i zainstaluj grę z Google Play.",
+    "step2": "Na tym samym koncie otwórz stronę testu i kliknij Zostań testerem. Poczekaj na potwierdzenie udziału, zanim przejdziesz dalej.",
     "step2Link": "Otwórz stronę testu",
-    "note": "Dostęp do bety jest otwarty aż do premiery."
+    "step3": "Na telefonie lub tablecie z Androidem otwórz grę w Google Play i wybierz Zainstaluj. Na komputerze wybierz urządzenie z Androidem w oknie i kliknij Install lub Zainstaluj.",
+    "step3Link": "Zainstaluj z Google Play",
+    "note": "Darmowy dostęp do bety kończy się w dniu premiery. Udział w teście nie obejmuje zakupu pełnej wersji.",
+    "helpTitle": "Potrzebujesz pomocy z instalacją?",
+    "accountHelp": "Używaj tego samego konta w grupie, na stronie testu i w Sklepie Play. Jeśli masz kilka kont Google, sprawdź zdjęcie profilowe na każdej stronie i w aplikacji sklepu.",
+    "priceTitle": "Widzisz cenę lub przycisk Kup?",
+    "priceHelp": "Strona sklepu może pokazywać cenę także testerom. Najpierw wykonaj kroki 1 i 2. Na komputerze kliknij Buy lub Kup, aby wybrać urządzenie. Jeśli okno oferuje Install lub Zainstaluj, wybierz swojego Androida i kliknij ten przycisk, jak na zdjęciach. Jeśli pojawi się ekran płatności, przed potwierdzeniem przeczytaj opis karty testowej.",
+    "storeCaption": "Na komputerze Google Play może pokazywać R$9.99 i Buy także podczas testu.",
+    "installCaption": "Kolejne okno może oferować Install. Wybierz swojego Androida, aby wysłać instalację.",
+    "paymentTitle": "Co oznacza Test card, always approves?",
+    "paymentHelp": "To karta testowa Google Play. Jeśli metoda płatności to Test card, always approves, potwierdzenie symuluje zakup bez prawdziwej opłaty. Jeśli widzisz własną kartę lub inną prawdziwą metodę płatności, nie potwierdzaj. Sprawdź konto we wszystkich trzech krokach i skontaktuj się, jeśli problem nie zniknie.",
+    "unavailableTitle": "Nie widzisz gry lub nie możesz dołączyć do testu?",
+    "unavailableHelp": "Sprawdź, czy dołączyłeś do grupy i testu na koncie ze Sklepu Play. Poczekaj kilka minut i ponownie otwórz stronę testu. Jeśli nadal nie masz dostępu, wyślij zrzut komunikatu bez danych płatniczych na adres"
   },
   "press": {
     "title": "Dla prasy",

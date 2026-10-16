@@ -154,11 +154,23 @@
   "beta": {
     "title": "Join the beta",
     "intro": "Play the Android version for free before launch.",
-    "step1": "Join the testers group with the Google account you use on Google Play.",
+    "step1": "Open Dawnbringer Testers and click Join group. Sign in with the Google account you use in the Play Store on Android. Opening the group is not enough: confirm that you have joined.",
     "step1Link": "Open the group",
-    "step2": "On your Android device, open the test page, accept the invite, and install the game from Google Play.",
+    "step2": "With that same account, open the test page and click Become a tester. Wait for confirmation that you have joined the test before continuing.",
     "step2Link": "Open the test page",
-    "note": "Beta access stays open until launch."
+    "step3": "On your Android phone or tablet, open the game on Google Play and tap Install. On a computer, select your Android device in the dialog and click Install.",
+    "step3Link": "Install from Google Play",
+    "note": "Free beta access ends at launch. Joining the test does not include a purchase of the final game.",
+    "helpTitle": "Need help installing?",
+    "accountHelp": "Use the same account for all three steps: the group, the test page, and the Play Store. If you have several Google accounts, check the profile picture on each page and in the store app.",
+    "priceTitle": "Seeing a price or a Buy button?",
+    "priceHelp": "The listing can show a price even for a tester. Complete steps 1 and 2 first. On a computer, click Buy to open the device selection dialog. If it offers Install, select your Android device and click that button, as shown below. If a payment screen appears, read the test card instructions before confirming.",
+    "storeCaption": "On a computer, Google Play may show R$9.99 and Buy even during the test.",
+    "installCaption": "The next dialog may offer Install. Select your Android device to send the installation.",
+    "paymentTitle": "What is Test card, always approves?",
+    "paymentHelp": "It is Google Play's test payment card. If the payment method says Test card, always approves, confirming makes a simulated purchase with no real charge. If you see your own card or another real payment method, do not confirm. Check the account used in all three steps and contact us if the problem continues.",
+    "unavailableTitle": "Can't find the game or join the test?",
+    "unavailableHelp": "Check that you joined the group and opted into the test with your Play Store account. Wait a few minutes and reopen the test page. If you still cannot get access, send a screenshot of the message, without payment details, to"
   },
   "press": {
     "title": "Press kit",

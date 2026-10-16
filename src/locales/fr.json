@@ -154,11 +154,23 @@
   "beta": {
     "title": "Rejoindre la bêta",
     "intro": "Jouez gratuitement à la version Android avant la sortie.",
-    "step1": "Rejoignez le groupe des testeurs avec le compte Google que vous utilisez sur Google Play.",
+    "step1": "Ouvrez Dawnbringer Testers et cliquez sur Rejoindre le groupe. Utilisez le compte Google du Play Store de votre Android. Ouvrir le groupe ne suffit pas : confirmez votre inscription.",
     "step1Link": "Ouvrir le groupe",
-    "step2": "Sur votre appareil Android, ouvrez la page de test, acceptez l'invitation et installez le jeu depuis Google Play.",
+    "step2": "Avec ce même compte, ouvrez la page de test et cliquez sur Devenir testeur. Attendez la confirmation de votre participation avant de continuer.",
     "step2Link": "Ouvrir la page de test",
-    "note": "L'accès bêta reste ouvert jusqu'à la sortie."
+    "step3": "Sur votre téléphone ou tablette Android, ouvrez le jeu sur Google Play et touchez Installer. Sur ordinateur, choisissez votre appareil Android dans la fenêtre et cliquez sur Install ou Installer.",
+    "step3Link": "Installer depuis Google Play",
+    "note": "L'accès gratuit à la bêta prend fin à la sortie. Participer au test n'inclut pas l'achat de la version finale.",
+    "helpTitle": "Besoin d'aide pour installer ?",
+    "accountHelp": "Utilisez le même compte pour le groupe, la page de test et le Play Store. Si vous avez plusieurs comptes Google, vérifiez la photo de profil sur chaque page et dans l'application du magasin.",
+    "priceTitle": "Un prix ou un bouton Acheter apparaît ?",
+    "priceHelp": "La fiche peut afficher un prix même pour un testeur. Terminez d'abord les étapes 1 et 2. Sur ordinateur, cliquez sur Buy ou Acheter pour ouvrir le choix de l'appareil. Si Install ou Installer apparaît, choisissez votre Android et cliquez sur ce bouton, comme sur les captures. Si un écran de paiement apparaît, lisez l'explication de la carte de test avant de confirmer.",
+    "storeCaption": "Sur ordinateur, Google Play peut afficher R$9.99 et Buy même pendant le test.",
+    "installCaption": "La fenêtre suivante peut proposer Install. Choisissez votre Android pour lancer l'installation à distance.",
+    "paymentTitle": "Qu'est-ce que Test card, always approves ?",
+    "paymentHelp": "C'est la carte de test de Google Play. Si le moyen de paiement indique Test card, always approves, la confirmation simule un achat sans débit réel. Si votre carte ou un autre moyen de paiement réel apparaît, ne confirmez pas. Vérifiez le compte des trois étapes et contactez-nous si le problème persiste.",
+    "unavailableTitle": "Le jeu est introuvable ou le test inaccessible ?",
+    "unavailableHelp": "Vérifiez que vous avez rejoint le groupe et accepté le test avec votre compte du Play Store. Patientez quelques minutes et rouvrez la page de test. Si l'accès reste bloqué, envoyez une capture du message, sans données de paiement, à"
   },
   "press": {
     "title": "Dossier de presse",

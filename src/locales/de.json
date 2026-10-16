@@ -154,11 +154,23 @@
   "beta": {
     "title": "Zur Beta anmelden",
     "intro": "Spiele die Android-Version kostenlos vor dem Release.",
-    "step1": "Tritt der Testergruppe mit dem Google-Konto bei, das du bei Google Play nutzt.",
+    "step1": "Öffne Dawnbringer Testers und klicke auf Gruppe beitreten. Nutze das Google-Konto aus dem Play Store deines Android-Geräts. Die Gruppe nur zu öffnen reicht nicht: Bestätige deinen Beitritt.",
     "step1Link": "Gruppe öffnen",
-    "step2": "Öffne auf deinem Android-Gerät die Testseite, nimm die Einladung an und installiere das Spiel über Google Play.",
+    "step2": "Öffne mit demselben Konto die Testseite und klicke auf Tester werden. Warte auf die Bestätigung deiner Teilnahme, bevor du fortfährst.",
     "step2Link": "Testseite öffnen",
-    "note": "Der Beta-Zugang bleibt bis zum Release offen."
+    "step3": "Öffne das Spiel auf deinem Android-Handy oder -Tablet in Google Play und tippe auf Installieren. Wähle am Computer im Dialog dein Android-Gerät und klicke auf Install oder Installieren.",
+    "step3Link": "Über Google Play installieren",
+    "note": "Der kostenlose Beta-Zugang endet zum Release. Die Teilnahme beinhaltet keinen Kauf der fertigen Version.",
+    "helpTitle": "Hilfe bei der Installation?",
+    "accountHelp": "Nutze für Gruppe, Testseite und Play Store dasselbe Konto. Wenn du mehrere Google-Konten hast, prüfe das Profilbild auf jeder Seite und in der Store-App.",
+    "priceTitle": "Du siehst einen Preis oder Kaufen?",
+    "priceHelp": "Die Store-Seite kann auch Testern einen Preis anzeigen. Schließe zuerst Schritt 1 und 2 ab. Klicke am Computer auf Buy oder Kaufen, um die Geräteauswahl zu öffnen. Wird Install oder Installieren angeboten, wähle dein Android-Gerät und klicke darauf, wie auf den Bildern. Erscheint eine Zahlungsseite, lies vor dem Bestätigen die Erklärung zur Testkarte.",
+    "storeCaption": "Am Computer kann Google Play auch während des Tests R$9.99 und Buy anzeigen.",
+    "installCaption": "Der nächste Dialog kann Install anbieten. Wähle dein Android-Gerät für die Installation.",
+    "paymentTitle": "Was bedeutet Test card, always approves?",
+    "paymentHelp": "Das ist die Testkarte von Google Play. Steht bei der Zahlungsart Test card, always approves, wird nur ein Kauf simuliert und kein echtes Geld abgebucht. Wird deine eigene Karte oder eine andere echte Zahlungsart angezeigt, bestätige nicht. Prüfe das Konto in allen drei Schritten und melde dich, falls das Problem bleibt.",
+    "unavailableTitle": "Das Spiel fehlt oder du kannst nicht am Test teilnehmen?",
+    "unavailableHelp": "Prüfe, ob du mit deinem Play-Store-Konto der Gruppe und dem Test beigetreten bist. Warte einige Minuten und öffne die Testseite erneut. Wenn der Zugang weiter fehlt, sende ein Bild der Meldung ohne Zahlungsdaten an"
   },
   "press": {
     "title": "Pressekit",

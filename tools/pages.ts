@@ -120,7 +120,7 @@ function store(t: Strings, s: (typeof STORES)[number]): string {
   return `<span class="btn store soon">${name}<small>${soon}</small></span>`;
 }
 
-/** The closed beta: join the Google Group, then opt in on the Google Play test page. */
+/** The closed beta: group membership, test opt-in, then the Play Store installation. */
 function betaSection(t: Strings, beta: NonNullable<typeof BETA>): string {
   const step = (n: number, text: string, label: string, url: string) =>
     `<li class="card"><h3>${n}</h3><p>${esc(text)}</p><a class="btn" href="${esc(url)}" rel="noopener">${esc(label)}</a></li>`;
@@ -130,8 +130,23 @@ function betaSection(t: Strings, beta: NonNullable<typeof BETA>): string {
 <ol class="cards steps">
 ${step(1, t.beta.step1, t.beta.step1Link, beta.group)}
 ${step(2, t.beta.step2, t.beta.step2Link, beta.test)}
+${step(3, t.beta.step3, t.beta.step3Link, beta.install)}
 </ol>
 <p>${esc(t.beta.note)}</p>
+<div class="beta-help">
+<h3>${esc(t.beta.helpTitle)}</h3>
+<p>${esc(t.beta.accountHelp)}</p>
+<details>
+<summary>${esc(t.beta.priceTitle)}</summary>
+<p>${esc(t.beta.priceHelp)}</p>
+<div class="beta-shots">
+<figure><img src="${asset("img/beta-store.png")}" width="1129" height="753" loading="lazy" alt="${esc(t.beta.storeCaption)}"><figcaption>${esc(t.beta.storeCaption)}</figcaption></figure>
+<figure><img src="${asset("img/beta-install.png")}" width="1035" height="1037" loading="lazy" alt="${esc(t.beta.installCaption)}"><figcaption>${esc(t.beta.installCaption)}</figcaption></figure>
+</div>
+</details>
+<details><summary>${esc(t.beta.paymentTitle)}</summary><p>${esc(t.beta.paymentHelp)}</p></details>
+<details><summary>${esc(t.beta.unavailableTitle)}</summary><p>${esc(t.beta.unavailableHelp)} <a href="mailto:${CONTACT}">${CONTACT}</a></p></details>
+</div>
 </section>`;
 }
 

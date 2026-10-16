@@ -154,11 +154,23 @@
   "beta": {
     "title": "加入测试",
     "intro": "在正式发售前免费试玩 Android 版本。",
-    "step1": "使用你在 Google Play 登录的 Google 账号加入测试者群组。",
+    "step1": "打开 Dawnbringer Testers，点击加入群组。请使用 Android 上 Play 商店的 Google 账号登录。只打开群组还不够，请确认已加入。",
     "step1Link": "打开群组",
-    "step2": "在 Android 设备上打开测试页面，接受邀请，然后从 Google Play 安装游戏。",
+    "step2": "使用同一账号打开测试页面，点击成为测试者。等到页面确认你已参与测试，再进入下一步。",
     "step2Link": "打开测试页面",
-    "note": "测试资格将持续开放至游戏发售。"
+    "step3": "在 Android 手机或平板上打开 Google Play 的游戏页面，点击安装。在电脑上操作时，请在弹窗中选择你的 Android 设备，然后点击 Install 或安装。",
+    "step3Link": "从 Google Play 安装",
+    "note": "免费测试权限将在发售时结束。参与测试不包含购买正式版。",
+    "helpTitle": "安装时需要帮助？",
+    "accountHelp": "群组、测试页面和 Play 商店必须使用同一账号。如果你有多个 Google 账号，请检查每个页面及商店应用中的头像。",
+    "priceTitle": "显示价格或购买按钮？",
+    "priceHelp": "即使是测试者，商店页面也可能显示价格。请先完成第 1 步和第 2 步。在电脑上，点击 Buy 或购买以打开设备选择窗口。如果像截图一样显示 Install 或安装，请选择你的 Android 设备并点击该按钮。如果出现支付页面，请先阅读测试卡说明再确认。",
+    "storeCaption": "在电脑上，即使处于测试期间，Google Play 也可能显示 R$9.99 和 Buy。",
+    "installCaption": "下一窗口可能显示 Install。选择你的 Android 设备即可发送安装。",
+    "paymentTitle": "Test card, always approves 是什么？",
+    "paymentHelp": "这是 Google Play 的测试支付卡。如果支付方式显示 Test card, always approves，确认后只会模拟购买，不会实际扣款。如果显示的是你自己的银行卡或其他真实支付方式，请勿确认。检查三个步骤使用的账号，问题仍未解决时请联系我们。",
+    "unavailableTitle": "找不到游戏或无法参与测试？",
+    "unavailableHelp": "请确认已使用 Play 商店的账号加入群组并接受测试。等待几分钟后重新打开测试页面。如果仍无法访问，请将提示信息的截图发送至以下地址，勿包含支付信息："
   },
   "press": {
     "title": "媒体资料包",
