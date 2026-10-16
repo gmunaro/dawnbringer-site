@@ -153,6 +153,9 @@
   },
   "beta": {
     "title": "베타 참여",
+    "testCardCaption": "표시를 추가한 Android 테스트 결제 화면입니다. X는 가상 금액을 지우고, 녹색 테두리는 테스트 카드와 실제로 청구되지 않는 테스트 주문이라는 Google 안내를 강조합니다.",
+    "paymentNoticeTitle": "테스트 결제 금액은 가상입니다. 실제로 청구되지 않습니다.",
+    "paymentNoticeText": "Test card, always approves를 쓰면 Google Play는 구매를 시뮬레이션할 뿐입니다. R$9.99 등 어떤 금액이 표시되어도 돈이 빠져나가지 않습니다. 이 결제 수단이 선택되어 있는지 확인하세요. 본인 카드나 다른 실제 결제 수단이 보이면 확정하지 말고 문의해 주세요.",
     "intro": "출시 전에 Android 버전을 무료로 플레이해 보세요.",
     "step1": "Dawnbringer Testers를 열고 그룹 가입을 누릅니다. Android의 Play 스토어에서 쓰는 Google 계정으로 로그인하세요. 그룹을 여는 것만으로는 부족하니 가입을 확정하세요.",
     "step1Link": "그룹 열기",

@@ -153,6 +153,9 @@
   },
   "beta": {
     "title": "加入測試",
+    "testCardCaption": "已加註記的 Android 測試付款截圖。X 劃去虛擬金額，綠框標出測試卡及 Google 的提示：這是測試訂單，不會扣款。",
+    "paymentNoticeTitle": "測試付款的金額是虛擬的。不會實際扣款。",
+    "paymentNoticeText": "使用 Test card, always approves 時，Google Play 只會模擬購買。即使顯示 R$9.99 或其他金額，也不會扣除任何款項。請確認已選取此付款方式。如果顯示的是你自己的信用卡或其他真實付款方式，請勿確認並聯絡我們。",
     "intro": "在正式發售前免費試玩 Android 版本。",
     "step1": "開啟 Dawnbringer Testers，點選加入群組。請使用 Android 上 Play 商店的 Google 帳號登入。只開啟群組還不夠，請確認已加入。",
     "step1Link": "開啟群組",

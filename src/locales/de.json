@@ -153,6 +153,9 @@
   },
   "beta": {
     "title": "Zur Beta anmelden",
+    "testCardCaption": "Markierter Screenshot der Android-Testzahlung. Das X streicht den fiktiven Betrag durch. Grün markiert sind die Testkarte und Googles Hinweis: Dies ist eine Testbestellung, dir wird nichts berechnet.",
+    "paymentNoticeTitle": "Der Betrag der Testzahlung ist NICHT ECHT. DIR WIRD NICHTS BERECHNET.",
+    "paymentNoticeText": "Mit Test card, always approves simuliert Google Play nur einen Kauf. Auch wenn R$9.99 oder ein anderer Betrag angezeigt wird, wird kein Geld abgebucht. Prüfe, ob diese Zahlungsart ausgewählt ist. Wird deine persönliche Karte oder eine andere echte Zahlungsart angezeigt, bestätige nicht und kontaktiere uns.",
     "intro": "Spiele die Android-Version kostenlos vor dem Release.",
     "step1": "Öffne Dawnbringer Testers und klicke auf Gruppe beitreten. Nutze das Google-Konto aus dem Play Store deines Android-Geräts. Die Gruppe nur zu öffnen reicht nicht: Bestätige deinen Beitritt.",
     "step1Link": "Gruppe öffnen",

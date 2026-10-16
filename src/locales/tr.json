@@ -153,6 +153,9 @@
   },
   "beta": {
     "title": "Betaya katıl",
+    "testCardCaption": "Android test ödemesinin işaretlenmiş ekran görüntüsü. X, gerçek olmayan tutarın üzerini çizer. Yeşil çerçeveler test kartını ve Google'ın uyarısını gösterir: bu bir test siparişidir, sizden ücret alınmayacak.",
+    "paymentNoticeTitle": "Test ödemesindeki tutar GERÇEK DEĞİLDİR. SİZDEN ÜCRET ALINMAYACAK.",
+    "paymentNoticeText": "Test card, always approves ile Google Play yalnızca bir satın alma simüle eder. R$9.99 veya başka bir tutar görünse bile para çekilmez. Bu ödeme yönteminin seçili olduğunu kontrol et. Kişisel kartın veya gerçek bir ödeme yöntemi görünüyorsa onaylama ve bizimle iletişime geç.",
     "intro": "Çıkıştan önce Android sürümünü ücretsiz oyna.",
     "step1": "Dawnbringer Testers grubunu aç ve Gruba katıl düğmesine bas. Android'indeki Play Store hesabını kullan. Grubu açmak yeterli değil: katılımını onayla.",
     "step1Link": "Grubu aç",

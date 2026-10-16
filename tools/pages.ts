@@ -127,12 +127,20 @@ function betaSection(t: Strings, beta: NonNullable<typeof BETA>): string {
   return `<section id="beta" class="wrap" aria-labelledby="beta-title">
 <h2 id="beta-title">${esc(t.beta.title)}</h2>
 <p class="lead">${esc(t.beta.intro)}</p>
+<aside class="panel beta-payment" aria-label="${esc(t.beta.paymentTitle)}">
+<p><strong>${esc(t.beta.paymentNoticeTitle)}</strong></p>
+<p>${esc(t.beta.paymentNoticeText)}</p>
+</aside>
 <ol class="cards steps">
 ${step(1, t.beta.step1, t.beta.step1Link, beta.group)}
 ${step(2, t.beta.step2, t.beta.step2Link, beta.test)}
 ${step(3, t.beta.step3, t.beta.step3Link, beta.install)}
 </ol>
 <p>${esc(t.beta.note)}</p>
+<figure class="beta-proof">
+<a href="${asset("img/beta-test-card.png")}"><img src="${asset("img/beta-test-card.png")}" width="1080" height="1408" loading="lazy" alt="${esc(t.beta.testCardCaption)}"></a>
+<figcaption>${esc(t.beta.testCardCaption)}</figcaption>
+</figure>
 <div class="beta-help">
 <h3>${esc(t.beta.helpTitle)}</h3>
 <p>${esc(t.beta.accountHelp)}</p>
@@ -140,8 +148,8 @@ ${step(3, t.beta.step3, t.beta.step3Link, beta.install)}
 <summary>${esc(t.beta.priceTitle)}</summary>
 <p>${esc(t.beta.priceHelp)}</p>
 <div class="beta-shots">
-<figure><img src="${asset("img/beta-store.png")}" width="1129" height="753" loading="lazy" alt="${esc(t.beta.storeCaption)}"><figcaption>${esc(t.beta.storeCaption)}</figcaption></figure>
-<figure><img src="${asset("img/beta-install.png")}" width="1035" height="1037" loading="lazy" alt="${esc(t.beta.installCaption)}"><figcaption>${esc(t.beta.installCaption)}</figcaption></figure>
+<figure><img src="${asset("img/beta-store.png?v=2")}" width="1129" height="753" loading="lazy" alt="${esc(t.beta.storeCaption)}"><figcaption>${esc(t.beta.storeCaption)}</figcaption></figure>
+<figure><img src="${asset("img/beta-install.png?v=2")}" width="1035" height="1037" loading="lazy" alt="${esc(t.beta.installCaption)}"><figcaption>${esc(t.beta.installCaption)}</figcaption></figure>
 </div>
 </details>
 <details><summary>${esc(t.beta.paymentTitle)}</summary><p>${esc(t.beta.paymentHelp)}</p></details>

@@ -159,6 +159,12 @@ main > section, main > .wrap { padding-top: 64px; }
 .platforms .card, .steps .card { display: flex; flex-direction: column; align-items: flex-start; }
 .platforms .btn, .steps .btn { margin-top: auto; }
 .steps { margin-bottom: 16px; }
+.beta-payment { margin-bottom: 24px; max-width: 52em; }
+.beta-payment strong { color: var(--gold); font-size: 1.15em; }
+.beta-payment p:last-child { margin-bottom: 0; }
+.beta-proof { max-width: 480px; margin: 24px 0; }
+.beta-proof img { display: block; width: 100%; height: auto; }
+.beta-proof figcaption { margin-top: 8px; font-size: 16px; }
 .steps .btn { max-width: 100%; overflow-wrap: anywhere; text-align: center; }
 .beta-help { max-width: 52em; margin-top: 24px; }
 .beta-help details { border-top: 1px solid var(--stone); padding: 12px 0; }

@@ -153,6 +153,9 @@
   },
   "beta": {
     "title": "Únete a la beta",
+    "testCardCaption": "Captura anotada del pago de prueba en Android. La X tacha el importe ficticio. En verde, la tarjeta de prueba y el aviso de Google: es un pedido de prueba, no se te cobrará.",
+    "paymentNoticeTitle": "El importe del pago de prueba es FICTICIO. NO SE TE COBRARÁ.",
+    "paymentNoticeText": "Con Test card, always approves, Google Play solo simula una compra. Aunque aparezca R$9.99 u otro importe, no se descontará dinero. Comprueba que ese sea el método de pago seleccionado. Si aparece tu tarjeta personal u otro método de pago real, no confirmes y contacta con nosotros.",
     "intro": "Prueba gratis la versión de Android antes del lanzamiento.",
     "step1": "Abre Dawnbringer Testers y pulsa Unirse al grupo. Usa la cuenta de Google de la Play Store de tu Android. Abrir el grupo no basta: confirma que te has unido.",
     "step1Link": "Abrir el grupo",
