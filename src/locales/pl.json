@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Dawnbringer: roguelike auto-battler w pikselowym dark fantasy",
-    "description": "Słońce umarło. Właściciel co tydzień przychodzi po swoje. Zbuduj czempiona, poznaj prognozę każdej walki, zapłać dziesięcinę albo walcz. Wkrótce na PC i mobile.",
+    "title": "Dawnbringer: roguelike auto-battler dark fantasy",
+    "description": "Słońce zgasło, a Właściciel co tydzień przychodzi po czynsz. Zbuduj czempiona, poznaj dokładny wynik każdej walki na szlaku i zapłać dziesięcinę albo walcz z bossem.",
     "pressTitle": "Materiały prasowe Dawnbringer",
     "pressDescription": "Karta informacyjna, opis, cechy, logo, key art i zrzuty ekranu gry Dawnbringer, roguelike auto-battlera od gmunaro.",
     "notFoundTitle": "Nie znaleziono strony",
-    "ogAlt": "Logo Dawnbringer nad Właścicielem w koronie, stojącym pod krwistoczerwonym księżycem."
+    "ogAlt": "Logo Dawnbringer nad ukoronowanym Właścicielem pod krwistoczerwonym księżycem."
   },
   "nav": {
     "skip": "Przejdź do treści",
@@ -20,11 +20,11 @@
     "language": "Język"
   },
   "hero": {
-    "tagline": "Słońce umarło. Nieś jego ostatnie światło.",
-    "pitch": "Roguelike auto-battler w pikselowym dark fantasy. Zbuduj czempiona, poznaj dokładny wynik każdej walki, zanim się zacznie, i zdecyduj, czy zapłacić Właścicielowi, czy z nim walczyć.",
+    "tagline": "Słońce zgasło. Nieś jego ostatni żar.",
+    "pitch": "Przemierzaj pogrążoną w mroku krainę, zbuduj czempiona z 64 reliktów i wybieraj walki. W grze nie ma kości: na szlaku znasz dokładny wynik starcia, zanim do niego staniesz. Gdy pod koniec tygodnia Właściciel przyjdzie po czynsz, zapłać dziesięcinę albo walcz o jego głowę.",
     "artAlt": "Mały czempion na wzgórzu staje naprzeciw olbrzymiego Właściciela w koronie, który wyłania się z ciemnych wzgórz pod krwistoczerwonym księżycem.",
     "clipTitle": "Rozgrywka",
-    "clipAlt": "Fragment rozgrywki: w noc Właściciela mapa robi się czerwona, gdy Pusty Król przychodzi po należność; jego karta pozwala zapłacić dziesięcinę albo walczyć; potem walka toczy się sama.",
+    "clipAlt": "Fragment rozgrywki: w noc Właściciela mapa robi się czerwona, gdy Pusty Król przychodzi po należność; jego karta pozwala zapłacić dziesięcinę albo walczyć; potem starcie się rozstrzyga.",
     "clipFallback": "Twoja przeglądarka nie może odtworzyć tego filmu."
   },
   "stores": {
@@ -36,90 +36,90 @@
     "comingSoon": "Wkrótce"
   },
   "about": {
-    "title": "Czym jest Dawnbringer?",
-    "intro": "Każda wyprawa to trzy tygodnie w umierającej krainie. Przemierzaj spowitą mgłą mapę pól, wybieraj walki, plądruj kapliczki i skrzynie i buduj czempiona z reliktów. Potem walki toczą się same.",
+    "title": "Jak się gra",
+    "intro": "Każda wyprawa trwa trzy tygodnie. Wędrujesz przez spowitą mgłą mapę, otwierasz skrzynie, odwiedzasz kapliczki oraz kuźnie i składasz build z reliktów przed końcem tygodnia. Walki rozgrywają się automatycznie; strategia kryje się w wybranej trasie i złożonym ekwipunku.",
     "points": [
       {
-        "title": "Każda walka ma prognozę. Dokładną.",
-        "text": "W walkach nie ma kości. Ten sam build przeciw temu samemu wrogowi zawsze kończy się tak samo, więc gra podaje wynik, zanim się zdecydujesz: „Zwycięstwo. PŻ: 29”. Porażka nigdy nie jest pechem. To build, który możesz odczytać i poprawić."
+        "title": "Dokładne prognozy na szlaku",
+        "text": "Walka jest w 100% deterministyczna. Zanim podejmiesz zwykłe starcie na drodze, gra symuluje potyczkę i pokazuje dokładny wynik, np. \"Zwycięstwo. PŻ: 29\". Tylko z Właścicielem walczysz w ciemno."
       },
       {
-        "title": "Właściciel przychodzi po należność",
-        "text": "Pod koniec każdego tygodnia Właściciel przychodzi po czynsz. Zapłać dziesięcinę z sakiewki i przejdź dalej albo walcz z nim o nagrodę. Dziewiętnastu Właścicieli zajmuje siedziby sześciu krain."
+        "title": "Zapłać czynsz albo walcz",
+        "text": "Pod koniec każdego tygodnia Właściciel regionu przychodzi po należność. Zapłać dziesięcinę z sakiewki, by ujść z życiem, albo walcz z nim o nagrodę. Jeśli wygrasz, możesz wpłacić złoto do banku i wrócić do domu albo zaryzykować całą sakiewkę w kolejnym tygodniu."
       },
       {
-        "title": "Noc Właściciela",
-        "text": "Ostatniej nocy tygodnia księżyc robi się krwistoczerwony, a Właściciel idzie ku tobie przez mapę. Zegar pokazuje, ile kroków zostało. Wykorzystaj je dobrze."
+        "title": "Polowanie ostatniej nocy",
+        "text": "Ostatniej nocy tygodnia księżyc barwi się na czerwono, a Właściciel wchodzi na mapę i ściga cię z każdym krokiem. Jeśli twój build jest gotowy wcześniej, nie musisz czekać: ruszaj do jego tronu i pokonaj go za 50% więcej złota."
       },
       {
-        "title": "Twoi zmarli znów chodzą",
-        "text": "Poległy czempion powstaje w późniejszych wyprawach z tym, co zostało z jego buildu. W dzień wędruje, w nocy poluje na ciebie, a pokonanie go zwraca część utraconej sakiewki."
+        "title": "Twoi zmarli zostają na szlaku",
+        "text": "Gdy czempion ginie, zostaje w tej krainie na kolejne wyprawy razem ze swoim ekwipunkiem. Za dnia błąka się po drodze, a nocą na ciebie poluje. Pokonaj go, by odzyskać część utraconej sakiewki."
       },
       {
-        "title": "Twoi zwycięzcy zasiadają na tronie",
-        "text": "Czempion, który wygra, zostaje ukoronowany. W późniejszej wyprawie ta legenda może zająć siedzibę Właściciela i walczyć z tobą buildem, który zwyciężył."
+        "title": "Twoi zwycięzcy zostają Właścicielami",
+        "text": "Czempioni, którzy przetrwają wszystkie trzy tygodnie, otrzymują koronę. W kolejnych wyprawach mogą zasiąść na tronie regionu i przyjść po czynsz dokładnie z tym buildem, którym wygrali."
       }
     ]
   },
   "story": {
     "title": "Historia",
     "paragraphs": [
-      "Kościół sprzedawał godziny dziennego światła w aktach własności. Kto miał akt na krainę, miał jej światło, a posiadacze aktów stali się Właścicielami. Wzięli więcej światła, niż miało słońce. Ostatniego Poranka słońce spadło.",
-      "Pewna kobieta patrzyła, jak spada, i straciła przez to oczy. Złapała jego ostatni żar w fartuch i rozpaliła ogień: Ostatni Obóz. Matka Hesper zapala knot w piersi każdego czempiona i wysyła go na wschód, by zaniósł światło do Bramy. Knot zapalony od jej ognia płonie trzy tygodnie.",
-      "Złoto to wystygłe światło słońca, jedyne ciepło, jakie zostało, więc Właściciele pobierają należność. Co tydzień księżyc zmienia się w pieczęć z czerwonego wosku i nadchodzi termin czynszu. Ci, którzy upadną, idą dalej i wciąż niosą to, co są winni."
+      "Kościół rozparcelował godziny dnia i sprzedał je w aktach własności. Nabywcy stali się Właścicielami i wyciągnęli ze słońca więcej światła, niż mogło dać. Ostatniego Poranka słońce runęło.",
+      "Matka Hesper oślepła, patrząc na jego upadek, ale złapała ostatni żar w fartuch i rozpaliła ognisko Ostatniego Obozu. Wsadza knot w pierś każdego czempiona i posyła go na wschód, w stronę Bramy. Każdy knot płonie przez trzy tygodnie.",
+      "Złoto to wystygłe światło słoneczne, jedyne ciepło, jakie pozostało. Co tydzień księżyc pieczętuje niebo czerwonym lakem, a Właściciele przychodzą po czynsz. Ci, którzy padną po drodze, idą dalej, dopóki nie spłacą długu."
     ],
-    "question": "Nikt nie przekroczył Progu ze światłem. Co jest za nim?"
+    "question": "Nikt jeszcze nie przeniósł płomienia za Bramę. Co czeka po drugiej stronie?"
   },
   "screens": {
     "title": "Zrzuty ekranu",
     "open": "Otwórz w pełnym rozmiarze",
     "items": {
       "night": {
-        "caption": "Noc Właściciela: zostały dwa kroki.",
+        "caption": "Dwa kroki, zanim Właściciel cię dopadnie.",
         "alt": "Mapa nocą, zabarwiona na czerwono. Pusty Król stoi obok bohatera, a zegar pokazuje: Właściciel przychodzi po należność, 2 kroki."
       },
       "landlord": {
-        "caption": "Zapłać dziesięcinę albo walcz.",
+        "caption": "Zapłać dziesięcinę z sakiewki albo walcz o nagrodę.",
         "alt": "Karta Pustego Króla: jego statystyki, zdolność Pusta Korona, dziesięcina w wysokości 18 złota oraz przyciski Zapłać dziesięcinę i Walcz."
       },
       "battle": {
-        "caption": "Walki toczą się same.",
+        "caption": "Walka toczy się sama; o wyniku decyduje twoje przygotowanie.",
         "alt": "Walka z Pustym Królem w zrujnowanej kaplicy, z paskami zdrowia, pancerzem i liczbami obrażeń."
       },
       "forecast": {
-        "caption": "Dokładna prognoza, zanim się zdecydujesz.",
+        "caption": "Gra wylicza i pokazuje dokładny wynik, zanim staniesz do walki.",
         "alt": "Karta Popielnego Brutala z prognozą: Zwycięstwo. PŻ: 29, oraz przyciski Walcz i Wycofaj się."
       },
       "risen": {
-        "caption": "Czempion z wcześniejszej wyprawy, powstały.",
+        "caption": "Poległy czempion z dawnej wyprawy krąży po drodze ze swoim złotem.",
         "alt": "Na mapie powstała Strzelczyni Szubienicy z wcześniejszej wyprawy, z podpowiedzią pokazującą jej build i niesione złoto."
       },
       "legend": {
-        "caption": "Ukoronowana legenda zajmuje siedzibę.",
+        "caption": "Zwycięski czempion z poprzedniej wyprawy rządzi jako Właściciel.",
         "alt": "Karta Strzelczyni Szubienicy, ukoronowanej: legendy z wcześniejszej wyprawy, która zajmuje siedzibę Popielistej Dali."
       },
       "shop": {
-        "caption": "Każda oferta porównana z tym, co zastępuje.",
+        "caption": "Sklep od razu pokazuje, jak zmienią się statystyki po wymianie przedmiotu.",
         "alt": "Sklep z czterema reliktami do kupienia lub wygnania i porównaniem nowego przedmiotu z twoim buildem."
       },
       "camp": {
-        "caption": "Ostatni Obóz: wybierz, kto idzie i ile stawiasz.",
+        "caption": "W Ostatnim Obozie wybierz czempiona, przysięgi i stawkę w złocie.",
         "alt": "Ekran Ostatniego Obozu z czempionami, rodami przedmiotów, przysięgami i suwakiem stawki."
       },
       "group": {
-        "caption": "Watahy walczą razem.",
+        "caption": "Watahy atakują jedna po drugiej, bez leczenia między walkami.",
         "alt": "Walka z grupą wrogów w Wisielczym Lesie, wśród szubienic i martwych drzew."
       },
       "cashout": {
-        "caption": "Wróć do domu ze złotem albo idź dalej.",
+        "caption": "Po pokonaniu Właściciela wpłać zysk do banku albo zabierz sakiewkę do tygodnia 2.",
         "alt": "Po Właścicielu: wybór między powrotem do domu z sakiewką a zabraniem jej do tygodnia 2, obok karta następnego Właściciela."
       },
       "build": {
-        "caption": "Zestawy rodzin budzą się przy 2, 4 i 6 częściach.",
+        "caption": "Połącz 2, 4 lub 6 reliktów z tego samego rodu, by odblokować premie zestawu.",
         "alt": "Karta buildu Żelaznego Pokutnika ze statystykami, wyposażeniem, pasem i zestawami rodzin Żelazo i Krew."
       },
       "event": {
-        "caption": "Zdarzenia, które mają swoją cenę.",
+        "caption": "Zdarzenia na drodze wymieniają krew, złoto lub klątwy na skróty i relikty.",
         "alt": "Zdarzenie Zakład Kata z trzema wyborami."
       }
     }
@@ -127,23 +127,23 @@
   "features": {
     "title": "Cechy",
     "items": [
-      "6 czempionów, każdy z umiejętnością pasywną i bronią startową.",
-      "64 relikty w 8 rodach. Zestawy rodzin budzą się przy 2, 4 i 6 częściach.",
-      "19 Właścicieli w 6 krainach i 3 tygodniach.",
-      "77 wrogów: patrole, zasadzki, watahy, strażnicy i mimiki.",
-      "Dzień i noc na mapie regionów. Nocą polują na ciebie Cienie.",
-      "Groza: każde zabójstwo czyni krainę groźniejszą, a wrogów cenniejszymi.",
-      "Postaw swój bank. Śmierć zabiera sakiewkę, nigdy bank.",
-      "9 przysiąg, które czynią drogę okrutniejszą, a wypłatę większą.",
-      "17 błogosławieństw, 8 przedmiotów zużywalnych, 12 zdarzeń, ogniska, kuźnie i studnie.",
-      "Echa, powstali i ukoronowane legendy z twoich wcześniejszych wypraw.",
-      "Pikselowa grafika w 640x360, ostra w każdym rozmiarze. Mysz, klawiatura lub dotyk.",
-      "14 języków."
+      "6 grywalnych czempionów, każdy z własną bronią startową i zdolnością pasywną.",
+      "64 relikty w 8 rodach, z premiami zestawów przy 2, 4 i 6 częściach.",
+      "19 Właścicieli w 6 regionach i 3 tygodniach.",
+      "77 wrogów na mapie: patrole, zasadzki, watahy, strażnicy i mimiki.",
+      "Cykl dnia i nocy: nocą pole widzenia maleje, a cienie polują na ciebie.",
+      "Groza: każdy zabity wróg czyni region groźniejszym i zwiększa łup w złocie.",
+      "Osobny bank i sakiewka: postaw złoto na starcie i wypłać je po każdym Właścicielu.",
+      "9 opcjonalnych przysiąg, które podnoszą trudność i nagrodę.",
+      "17 błogosławieństw, 8 przedmiotów na pas, 12 zdarzeń, kuźnie, ogniska i studnie.",
+      "Poprzednie wyprawy zostawiają na mapie Echa, powstałych czempionów i ukoronowanych Właścicieli.",
+      "Natywna grafika pikselowa 640x360 ze sterowaniem myszą, klawiaturą i dotykiem.",
+      "Przetłumaczono na 14 języków."
     ]
   },
   "platforms": {
     "title": "Platformy",
-    "intro": "Dawnbringer jest w produkcji. Data premiery zostanie ogłoszona tutaj.",
+    "intro": "W produkcji na PC i urządzenia mobilne. Zamknięta beta na Androidzie jest już otwarta.",
     "pc": "PC",
     "pcNote": "Windows na Steamie. macOS i Linux w planach.",
     "android": "Android",
@@ -153,16 +153,16 @@
   },
   "beta": {
     "title": "Dołącz do bety",
-    "intro": "Zamknięta beta jest otwarta na Androidzie. Testerzy grają przed premierą i pomagają znajdować błędy.",
+    "intro": "Zagraj za darmo w wersję na Androida przed premierą.",
     "step1": "Dołącz do grupy testerów z kontem Google, którego używasz w Google Play.",
     "step1Link": "Otwórz grupę",
-    "step2": "Na telefonie z Androidem otwórz stronę testu, przyjmij zaproszenie i zainstaluj Dawnbringer z Google Play.",
+    "step2": "Na urządzeniu z Androidem otwórz stronę testu, przyjmij zaproszenie i zainstaluj grę z Google Play.",
     "step2Link": "Otwórz stronę testu",
-    "note": "Beta zakończy się wraz z premierą gry."
+    "note": "Dostęp do bety jest otwarty aż do premiery."
   },
   "press": {
     "title": "Dla prasy",
-    "intro": "Wszystko, czego potrzebujesz, by pisać o Dawnbringer. Zrzuty ekranu, key art i logo możesz wykorzystywać w materiałach o grze.",
+    "intro": "Karta informacyjna, grafiki, logo i zrzuty ekranu do swobodnego wykorzystania w artykułach i filmach.",
     "factsTitle": "Informacje",
     "developer": "Twórca",
     "developerValue": "gmunaro, samodzielny twórca z Brazylii",
@@ -178,24 +178,24 @@
     "website": "Strona",
     "contact": "Kontakt",
     "descriptionTitle": "Opis",
-    "description": "Dawnbringer to roguelike auto-battler w pikselowym dark fantasy. Słońce umarło, a co tydzień przychodzi Właściciel po należność. Przemierzasz spowitą mgłą mapę, wybierasz walki, zbierasz relikty i błogosławieństwa i budujesz czempiona. Walki rozstrzygają się same, bez kości, więc gra pokazuje dokładny wynik, zanim się zdecydujesz. Przed każdą wyprawą stawiasz złoto ze swojego banku; śmierć zabiera sakiewkę, nigdy bank. Po każdym Właścicielu wypłacasz albo zabierasz wszystko w trudniejszy tydzień. Czempioni, którzy giną, znów chodzą w późniejszych wyprawach, a ci, którzy wygrywają, zostają ukoronowani i mogą wrócić jako Właściciele.",
+    "description": "Dawnbringer to pikselowy roguelike auto-battler w świecie dark fantasy. Słońce zgasło, złoto jest jedynym pozostałym ciepłem, a co tydzień Właściciel przychodzi po czynsz. Gracze przemierzają turową mapę, wybierają walki i budują czempiona z 64 reliktów należących do ośmiu rodów. Ponieważ starcia rozstrzygają się automatycznie bez udziału losowości, każde spotkanie na drodze pokazuje dokładny wynik przed walką; przeciwko Właścicielowi prognozy nie ma i trzeba zapłacić dziesięcinę albo walczyć. Przed każdą wyprawą stawiasz złoto z banku, a po każdym tygodniu wypłacasz sakiewkę albo ryzykujesz ją w trudniejszym tygodniu. Polegli czempioni krążą po mapie w kolejnych wyprawach, a zwycięzcy mogą powrócić na tronie Właściciela.",
     "mediaTitle": "Logo, key art i zrzuty ekranu",
     "zip": "Pobierz wszystko (.zip, {size})",
     "logo": "Logo (PNG, przezroczyste)",
     "icon": "Ikona (PNG, 512x512)",
     "keyart": "Key art (PNG, 1920x1080)",
     "keyartNoLogo": "Key art bez logo (PNG, 1920x1080)",
-    "screensNote": "Zrzuty ekranu to pliki PNG 1920x1080, przeskalowane z natywnych 640x360 gry o całkowitą wielokrotność pikseli.",
+    "screensNote": "Zrzuty ekranu to pliki PNG 1920x1080, przeskalowane całkowitokrotnie z natywnej rozdzielczości 640x360.",
     "creditsTitle": "Twórcy",
     "credits": [
       "Projekt, kod i grafika: gmunaro",
       "Muzyka: Juhani Junkala (CC0); muzyka do nocy Właściciela jest oryginalna, grana na samplach VSCO 2 Community Edition (CC0)",
       "Efekty dźwiękowe: Kenney, StarNinjas, Oiboo (CC0) i oryginalne dźwięki",
-      "Głosy: syntetyczna mowa stworzona dla gry za pomocą Qwen3-TTS (zespół Qwen z Alibaby); żaden ludzki głos nie został nagrany ani sklonowany",
+      "Głosy: syntetyczna mowa wygenerowana z Qwen3-TTS (zespół Qwen z Alibaby); żaden ludzki głos nie został nagrany ani sklonowany",
       "Fonty: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel i GNU Unifont (SIL Open Font License 1.1)"
     ],
     "contactTitle": "Kontakt",
-    "contactText": "W sprawach prasowych, kluczy i wszystkich innych pisz na adres"
+    "contactText": "W sprawie prasy, kluczy recenzenckich i innych pytań pisz na adres"
   },
   "footer": {
     "privacy": "Polityka prywatności",

@@ -310,7 +310,7 @@ ${footer(c)}
  */
 export function privacyPage(c: Ctx, enHtml: string, ptHtml: string): Page {
   const { t } = c;
-  const html = `${head({ lang: "en", title: "Dawnbringer — Privacy Policy / Política de Privacidade", description: "Privacy policy of the game Dawnbringer. Política de privacidade do jogo Dawnbringer.", path: "privacy.html", ogLocale: "en_US" })}
+  const html = `${head({ lang: "en", title: "Dawnbringer · Privacy Policy / Política de Privacidade", description: "Privacy policy of the game Dawnbringer. Política de privacidade do jogo Dawnbringer.", path: "privacy.html", ogLocale: "en_US" })}
 <body data-page="privacy">
 <a class="skip" href="#main">${esc(t.nav.skip)}</a>
 <header class="top"><a class="brand" href="${BASE}">Dawnbringer</a></header>

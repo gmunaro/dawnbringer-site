@@ -1,8 +1,8 @@
-# Dawnbringer — Privacy Policy
+# Dawnbringer: Privacy Policy
 
 Effective date: 2026-10-15
 
-Developer: gmunaro (individual developer) — contact: midiamunaro@gmail.com
+Developer: gmunaro (individual developer), contact: midiamunaro@gmail.com
 
 *Versão em português abaixo.*
 
@@ -70,11 +70,11 @@ midiamunaro@gmail.com
 
 ---
 
-# Dawnbringer — Política de Privacidade
+# Dawnbringer: Política de Privacidade
 
 Data de vigência: 2026-10-15
 
-Desenvolvedor: gmunaro (desenvolvedor individual) — contato: midiamunaro@gmail.com
+Desenvolvedor: gmunaro (desenvolvedor individual), contato: midiamunaro@gmail.com
 
 ## Resumo
 

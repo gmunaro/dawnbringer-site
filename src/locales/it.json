@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Dawnbringer: un auto-battler roguelike in pixel art dark fantasy",
-    "description": "Il sole è morto e il Signore riscuote ogni settimana. Crea un campione, leggi la previsione di ogni scontro, paga la decima o combatti. Presto su PC e mobile.",
+    "title": "Dawnbringer: auto-battler roguelike dark fantasy",
+    "description": "Il sole è morto e il Signore riscuote l'affitto ogni settimana. Costruisci il tuo campione, vedi l'esito esatto di ogni scontro sulla strada e decidi se pagare la decima o affrontare il boss.",
     "pressTitle": "Press kit di Dawnbringer",
     "pressDescription": "Scheda, descrizione, caratteristiche, logo, key art e screenshot di Dawnbringer, un auto-battler roguelike di gmunaro.",
     "notFoundTitle": "Pagina non trovata",
-    "ogAlt": "Il logo di Dawnbringer sopra un Signore con la corona, in piedi sotto una luna rosso sangue."
+    "ogAlt": "Il logo di Dawnbringer sopra un Signore incoronato sotto una luna rosso sangue."
   },
   "nav": {
     "skip": "Vai al contenuto",
@@ -20,11 +20,11 @@
     "language": "Lingua"
   },
   "hero": {
-    "tagline": "Il sole è morto. Porta la sua ultima luce.",
-    "pitch": "Un auto-battler roguelike in pixel art dark fantasy. Crea un campione, leggi l'esito esatto di ogni scontro prima che inizi e decidi se pagare il Signore o combatterlo.",
+    "tagline": "Il sole è morto. Porta la sua ultima brace.",
+    "pitch": "Attraversa una terra al buio, costruisci un campione con 64 reliquie e scegli i tuoi scontri. Non ci sono dadi: sulla strada conosci l'esito esatto prima di combattere. Quando a fine settimana il Signore viene a riscuotere l'affitto, paga la decima o lotta per la sua testa.",
     "artAlt": "Un piccolo campione su una collina affronta un gigantesco Signore incoronato che emerge dalle colline buie sotto una luna rosso sangue.",
     "clipTitle": "Gameplay",
-    "clipAlt": "Clip di gameplay: nella notte del Signore la mappa diventa rossa mentre il Re Vuoto viene a riscuotere; la sua carta offre di pagare la decima o combattere; poi lo scontro si svolge da solo.",
+    "clipAlt": "Clip di gameplay: nella notte del Signore la mappa diventa rossa mentre il Re Vuoto viene a riscuotere; la sua carta offre di pagare la decima o combattere; poi lo scontro si risolve.",
     "clipFallback": "Il tuo browser non può riprodurre questo video."
   },
   "stores": {
@@ -36,90 +36,90 @@
     "comingSoon": "In arrivo"
   },
   "about": {
-    "title": "Cos'è Dawnbringer?",
-    "intro": "Ogni partita dura tre settimane in una terra morente. Percorri una mappa di caselle avvolta nella nebbia, scegli i tuoi scontri, saccheggia santuari e forzieri e costruisci un campione con le reliquie. Poi gli scontri si svolgono da soli.",
+    "title": "Come si gioca",
+    "intro": "Ogni partita dura tre settimane. Avanzi su una mappa avvolta nella nebbia, apri forzieri, visiti santuari e forge e componi la tua build di reliquie prima che la settimana finisca. Gli scontri sono automatici; la strategia sta nel percorso che scegli e nella build che monti.",
     "points": [
       {
-        "title": "Ogni scontro è previsto. Esattamente.",
-        "text": "Gli scontri non usano dadi. La stessa build contro lo stesso nemico finisce sempre allo stesso modo, quindi il gioco ti dice il risultato prima che ti impegni: «Vittoria con 29 PV rimasti». Una sconfitta non è mai sfortuna. È una build che puoi leggere e correggere."
+        "title": "Previsioni esatte sulla strada",
+        "text": "Il combattimento è deterministico al 100%. Prima di accettare uno scontro comune, il gioco simula la battaglia e mostra il risultato esatto, come \"Vittoria con 29 PV rimasti\". Solo contro il Signore combatti alla cieca."
       },
       {
-        "title": "Il Signore viene a riscuotere",
-        "text": "Alla fine di ogni settimana un Signore viene a prendersi l'affitto. Paga la decima dalla tua borsa e passa oltre, o combattilo per la sua ricompensa. Diciannove Signori occupano i seggi di sei terre."
+        "title": "Paga l'affitto o combatti",
+        "text": "Alla fine di ogni settimana il Signore della regione viene a riscuotere. Paga la decima dalla tua borsa per passare vivo, o affrontalo per la sua taglia. Se vinci, puoi mettere l'oro in banca e tornare a casa oppure rischiare l'intera borsa nella settimana successiva."
       },
       {
-        "title": "La notte del Signore",
-        "text": "L'ultima notte della settimana la luna diventa rosso sangue e il Signore attraversa la mappa verso di te. L'orologio mostra quanti passi restano. Spendili bene."
+        "title": "La caccia dell'ultima notte",
+        "text": "Nell'ultima notte della settimana la luna si tinge di rosso e il Signore entra nella mappa per darti la caccia a ogni passo. Se la tua build è pronta in anticipo, non devi aspettare: marcia fino al suo trono e battilo per ottenere il 50% di oro in più."
       },
       {
-        "title": "I tuoi morti tornano a camminare",
-        "text": "Un campione caduto risorge nelle partite successive con ciò che resta della sua build. Vaga di giorno e ti dà la caccia di notte, e batterlo ti restituisce parte della borsa che ha perso."
+        "title": "I tuoi morti restano lungo la strada",
+        "text": "Quando un campione muore, resta in quella terra nelle partite successive con l'equipaggiamento che portava. Di giorno vaga per la strada; di notte ti dà la caccia. Sconfiggilo per recuperare parte della borsa perduta."
       },
       {
-        "title": "I tuoi vincitori salgono al trono",
-        "text": "Un campione che vince viene incoronato. In una partita successiva quella leggenda può occupare il seggio di un Signore e combatterti con la build che ha vinto."
+        "title": "I tuoi vincitori diventano Signori",
+        "text": "I campioni che sopravvivono a tutte e tre le settimane vengono incoronati. Nelle partite successive possono prendere il trono di una regione e venire a riscuotere l'affitto con la stessa identica build con cui hanno vinto."
       }
     ]
   },
   "story": {
     "title": "La storia",
     "paragraphs": [
-      "La Chiesa vendeva le ore di luce in atti di proprietà. Chi possedeva l'atto di una terra ne possedeva la luce, e i titolari degli atti divennero i Signori. Presero più luce di quanta il sole ne avesse. Nell'Ultimo Mattino il sole cadde.",
-      "Una donna lo vide cadere e ci perse gli occhi. Raccolse la sua ultima brace nel grembiule e accese un fuoco: l'Ultimo Campo. Madre Hesper accende uno stoppino nel petto di ogni campione e lo manda a est a portare la luce fino alla Porta. Uno stoppino acceso al suo fuoco dura tre settimane.",
-      "L'oro è luce del sole raffreddata, l'unico calore rimasto, e per questo i Signori riscuotono. Ogni settimana la luna diventa un sigillo di ceralacca rossa e l'affitto scade. Chi cade continua a camminare, portando ancora ciò che deve."
+      "La Chiesa lottizzò le ore del giorno e le vendette in atti di proprietà. Gli acquirenti divennero i Signori e prosciugarono più luce di quanta il sole potesse darne. Nell'Ultimo Mattino, il sole cadde.",
+      "Madre Hesper perse la vista guardandolo cadere, ma raccolse l'ultima brace nel grembiule e accese il fuoco dell'Ultimo Campo. Pianta uno stoppino nel petto di ogni campione e lo manda a est, verso la Porta. Uno stoppino brucia per tre settimane.",
+      "L'oro è luce solare raffreddata, l'unico calore rimasto. Ogni settimana la luna sigilla il cielo come ceralacca rossa e i Signori vengono a riscuotere l'affitto. Chi muore lungo la strada continua a camminare finché non salda il proprio debito."
     ],
-    "question": "Nessuno ha varcato la Soglia con la luce. Cosa c'è oltre?"
+    "question": "Nessuno ha ancora portato la fiamma oltre la Porta. Cosa aspetta dall'altra parte?"
   },
   "screens": {
     "title": "Screenshot",
     "open": "Apri a grandezza intera",
     "items": {
       "night": {
-        "caption": "La notte del Signore: mancano due passi.",
+        "caption": "Mancano due passi prima che il Signore ti raggiunga.",
         "alt": "La mappa di notte, tinta di rosso. Il Re Vuoto è accanto all'eroe e l'orologio dice: Il Signore viene a riscuotere, 2 passi."
       },
       "landlord": {
-        "caption": "Paga la decima, o combatti.",
+        "caption": "Paga la decima con la tua borsa o combatti per la taglia.",
         "alt": "La carta del Re Vuoto: le sue statistiche, la sua abilità Corona Vuota, la decima di 18 oro e i pulsanti Paga la decima e Combatti."
       },
       "battle": {
-        "caption": "Gli scontri si svolgono da soli.",
+        "caption": "Lo scontro è automatico; la tua preparazione decide l'esito.",
         "alt": "Uno scontro contro il Re Vuoto in una cappella in rovina, con barre della salute, armatura e numeri dei danni."
       },
       "forecast": {
-        "caption": "La previsione esatta, prima di impegnarti.",
+        "caption": "Il gioco calcola e mostra il risultato esatto prima di combattere.",
         "alt": "La carta di un Bruto di Cenere con la previsione: Vittoria con 29 PV rimasti, e i pulsanti Combatti e Ritirati."
       },
       "risen": {
-        "caption": "Un campione di una partita precedente, risorto.",
+        "caption": "Un campione caduto in una partita precedente vaga per la strada con il suo oro.",
         "alt": "Sulla mappa, un Tiratore della Forca risorto da una partita precedente, con un tooltip della build e dell'oro che porta."
       },
       "legend": {
-        "caption": "Una leggenda incoronata occupa il seggio.",
+        "caption": "Un campione vittorioso di una partita passata governa come Signore.",
         "alt": "La carta di Tiratore della Forca, incoronato: una leggenda di una partita precedente che occupa il seggio della Distesa Cinerea."
       },
       "shop": {
-        "caption": "Ogni offerta confrontata con ciò che sostituisce.",
+        "caption": "La bottega mostra subito come cambiano le statistiche prima di sostituire un oggetto.",
         "alt": "La bottega con quattro reliquie da comprare o bandire e un confronto del nuovo oggetto con la tua build."
       },
       "camp": {
-        "caption": "L'Ultimo Campo: scegli chi parte e cosa punti.",
+        "caption": "Nell'Ultimo Campo, scegli il campione, i giuramenti e l'oro da puntare.",
         "alt": "La schermata dell'Ultimo Campo con i campioni, le famiglie di oggetti, i giuramenti e il cursore della posta."
       },
       "group": {
-        "caption": "I branchi combattono insieme.",
+        "caption": "I branchi attaccano in fila, senza cure tra uno scontro e l'altro.",
         "alt": "Uno scontro contro un gruppo di nemici nel Bosco degli Impiccati, tra forche e alberi morti."
       },
       "cashout": {
-        "caption": "Torna a casa con l'oro, o vai più a fondo.",
+        "caption": "Dopo un Signore, metti i guadagni in banca o porta la borsa nella settimana 2.",
         "alt": "Dopo un Signore: la scelta di tornare a casa con la borsa o portarla nella settimana 2, con la carta del Signore successivo."
       },
       "build": {
-        "caption": "I set di famiglia si destano a 2, 4 e 6 pezzi.",
+        "caption": "Combina 2, 4 o 6 reliquie della stessa famiglia per attivare i bonus di set.",
         "alt": "La scheda della build del Penitente di Ferro con statistiche, dotazione, cintura e i set di famiglia Ferro e Sangue."
       },
       "event": {
-        "caption": "Eventi con un prezzo.",
+        "caption": "Gli eventi lungo la strada scambiano sangue, oro o maledizioni con scorciatoie e reliquie.",
         "alt": "L'evento La Scommessa del Boia, con tre scelte."
       }
     }
@@ -127,23 +127,23 @@
   "features": {
     "title": "Caratteristiche",
     "items": [
-      "6 campioni, ognuno con una passiva e un'arma iniziale.",
-      "64 reliquie in 8 famiglie. I set di famiglia si destano a 2, 4 e 6 pezzi.",
-      "19 Signori in 6 terre e 3 settimane.",
-      "77 nemici: pattuglie, imboscate, branchi, guardiani e mimici.",
-      "Giorno e notte su una mappa di regioni. Di notte le Ombre ti danno la caccia.",
-      "Terrore: ogni uccisione rende la terra più dura e i nemici più ricchi.",
-      "Punta la tua banca. La morte prende la borsa, mai la banca.",
-      "9 giuramenti per rendere la strada più crudele e la ricompensa più alta.",
-      "17 benedizioni, 8 consumabili, 12 eventi, falò, forge e pozzi.",
-      "Echi, risorti e leggende incoronate dalle tue partite precedenti.",
-      "Pixel art a 640x360, nitida a ogni dimensione. Mouse, tastiera o touch.",
-      "14 lingue."
+      "6 campioni giocabili, ciascuno con arma iniziale e abilità passiva uniche.",
+      "64 reliquie in 8 famiglie, con bonus di set a 2, 4 e 6 pezzi.",
+      "19 Signori distribuiti in 6 regioni e 3 settimane.",
+      "77 nemici sulla mappa, tra pattuglie, imboscate, branchi, guardiani e mimici.",
+      "Ciclo giorno e notte: di notte la visuale si riduce e le ombre ti danno la caccia.",
+      "Terrore: ogni uccisione rende la regione più letale e aumenta l'oro lasciato dai nemici.",
+      "Banca e borsa separate: punta l'oro all'inizio e incassa dopo ogni Signore.",
+      "9 giuramenti opzionali che alzano sia la difficoltà sia il bottino.",
+      "17 benedizioni, 8 consumabili da cintura, 12 eventi, forge, falò e pozzi.",
+      "Le partite passate lasciano Echi, campioni risorti e Signori incoronati sulla mappa.",
+      "Pixel art nativa a 640x360 con comandi per mouse, tastiera e touch.",
+      "Tradotto in 14 lingue."
     ]
   },
   "platforms": {
     "title": "Piattaforme",
-    "intro": "Dawnbringer è in sviluppo. La data di uscita sarà annunciata qui.",
+    "intro": "In sviluppo per PC e dispositivi mobili. La beta chiusa su Android è aperta.",
     "pc": "PC",
     "pcNote": "Windows su Steam. macOS e Linux previsti.",
     "android": "Android",
@@ -153,16 +153,16 @@
   },
   "beta": {
     "title": "Partecipa alla beta",
-    "intro": "La beta chiusa è aperta su Android. I tester giocano prima dell'uscita e aiutano a trovare i bug.",
+    "intro": "Gioca gratuitamente alla versione Android prima del lancio.",
     "step1": "Entra nel gruppo dei tester con l'account Google che usi su Google Play.",
     "step1Link": "Apri il gruppo",
-    "step2": "Sul telefono Android, apri la pagina del test, accetta l'invito e installa Dawnbringer da Google Play.",
+    "step2": "Sul tuo dispositivo Android, apri la pagina del test, accetta l'invito e installa il gioco da Google Play.",
     "step2Link": "Apri la pagina del test",
-    "note": "La beta chiude all'uscita del gioco."
+    "note": "L'accesso alla beta resta aperto fino all'uscita."
   },
   "press": {
     "title": "Press kit",
-    "intro": "Tutto ciò che serve per scrivere di Dawnbringer. Puoi usare gli screenshot, la key art e il logo negli articoli sul gioco.",
+    "intro": "Scheda tecnica, key art, loghi e screenshot liberi da usare in articoli e video.",
     "factsTitle": "Scheda",
     "developer": "Sviluppatore",
     "developerValue": "gmunaro, sviluppatore solista in Brasile",
@@ -178,29 +178,29 @@
     "website": "Sito web",
     "contact": "Contatto",
     "descriptionTitle": "Descrizione",
-    "description": "Dawnbringer è un auto-battler roguelike in pixel art dark fantasy. Il sole è morto e ogni settimana un Signore viene a riscuotere. Percorri una mappa avvolta nella nebbia, scegli gli scontri, raccogli reliquie e benedizioni e costruisci un campione. Gli scontri si risolvono da soli e senza dadi, quindi il gioco mostra l'esito esatto prima che ti impegni. Prima di ogni partita punti oro dalla tua banca; la morte prende la borsa, mai la banca. Dopo ogni Signore incassi o porti tutto in una settimana più dura. I campioni che muoiono tornano a camminare nelle partite successive, e quelli che vincono vengono incoronati e possono tornare come Signori.",
+    "description": "Dawnbringer è un auto-battler roguelike dark fantasy in pixel art. Il sole è morto, l'oro è l'unico calore rimasto e ogni settimana un Signore viene a riscuotere l'affitto. I giocatori esplorano una mappa a turni, scelgono gli scontri e costruiscono un campione con 64 reliquie divise in otto famiglie. Poiché i combattimenti si risolvono in automatico e senza dadi, ogni incontro sulla strada mostra in anticipo il risultato esatto; contro il Signore non c'è previsione, e bisogna pagare la decima o combattere. Prima di ogni partita punti oro dalla tua banca, e dopo ogni settimana decidi se incassare la borsa o rischiarla in una settimana più dura. I campioni caduti vagano per la mappa nelle partite successive, mentre i vincitori possono tornare sul trono di un Signore.",
     "mediaTitle": "Logo, key art e screenshot",
     "zip": "Scarica tutto (.zip, {size})",
     "logo": "Logo (PNG, trasparente)",
     "icon": "Icona (PNG, 512x512)",
     "keyart": "Key art (PNG, 1920x1080)",
     "keyartNoLogo": "Key art senza logo (PNG, 1920x1080)",
-    "screensNote": "Gli screenshot sono PNG a 1920x1080, ingranditi dai 640x360 del gioco per pixel interi.",
+    "screensNote": "Gli screenshot sono PNG a 1920x1080, ingranditi con scala intera dalla risoluzione nativa di 640x360.",
     "creditsTitle": "Crediti",
     "credits": [
       "Design, codice e grafica: gmunaro",
       "Musica: Juhani Junkala (CC0); la musica della notte del Signore è originale, suonata con campioni di VSCO 2 Community Edition (CC0)",
       "Effetti sonori: Kenney, StarNinjas, Oiboo (CC0) e suoni originali",
-      "Voci: parlato sintetico creato per il gioco con Qwen3-TTS (team Qwen di Alibaba); nessuna voce umana è stata registrata o clonata",
+      "Voci: parlato sintetico generato con Qwen3-TTS (team Qwen di Alibaba); nessuna voce umana è stata registrata o clonata",
       "Font: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel e GNU Unifont (SIL Open Font License 1.1)"
     ],
     "contactTitle": "Contatti",
-    "contactText": "Per stampa, chiavi e qualsiasi altra cosa, scrivi a"
+    "contactText": "Per stampa, chiavi di recensione e altre richieste, scrivi a"
   },
   "footer": {
     "privacy": "Informativa sulla privacy",
     "contact": "Contatti",
-    "bugs": "Hai trovato un bug? Usa Segnala un bug nel gioco, o scrivi a",
+    "bugs": "Hai trovato un bug? Usa Segnala un bug nel gioco o scrivi a",
     "madeBy": "Dawnbringer è sviluppato da gmunaro in Brasile."
   },
   "suggest": {
