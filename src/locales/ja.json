@@ -15,6 +15,7 @@
     "screens": "スクリーンショット",
     "features": "特徴",
     "platforms": "プラットフォーム",
+    "beta": "ベータ",
     "press": "プレスキット",
     "language": "言語"
   },
@@ -149,6 +150,15 @@
     "androidNote": "スマートフォンとタブレット。Google Playで配信。",
     "ios": "iPhoneとiPad",
     "iosNote": "App Storeで配信。"
+  },
+  "beta": {
+    "title": "ベータに参加",
+    "intro": "Androidでクローズドベータを実施中です。テスターは発売前にプレイし、バグ探しに協力します。",
+    "step1": "Google Playで使っているGoogleアカウントで、テスターグループに参加してください。",
+    "step1Link": "グループを開く",
+    "step2": "Androidスマートフォンでテストページを開き、招待を承認してから、Google PlayでDawnbringerをインストールしてください。",
+    "step2Link": "テストページを開く",
+    "note": "ベータは発売時に終了します。"
   },
   "press": {
     "title": "プレスキット",

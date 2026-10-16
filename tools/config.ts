@@ -51,6 +51,15 @@ export const STORES: { id: "steam" | "googlePlay" | "appStore"; url: string | nu
 ];
 
 /**
+ * Closed beta on Google Play: testers join the Google Group, then opt in on the test page. Set to
+ * null when the beta closes and the home page drops its beta section and button.
+ */
+export const BETA: { group: string; test: string } | null = {
+  group: "https://groups.google.com/g/dawnbringer-testers",
+  test: "https://play.google.com/apps/testing/com.gmunaro.dawnbringer",
+};
+
+/**
  * Gallery, in order. `id` names src/assets/shots/<id>.webp (640x360) and the locale's
  * screens.items.<id> caption and alt text; the press kit holds the same picture at 1920x1080 as
  * src/presskit/screenshots/<NN>_<id>.png (NN = position, from 01). tools/media.sh writes both.

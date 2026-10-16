@@ -1,6 +1,6 @@
 // HTML of every page, as plain template strings. Every text comes from a locale's JSON and is
 // escaped with esc(); every link starts with BASE so the site works under /dawnbringer-site/.
-import { BASE, CONTACT, LOCALES, SHOTS, SITE, STORES, type Locale, type PixelFont } from "./config.ts";
+import { BASE, BETA, CONTACT, LOCALES, SHOTS, SITE, STORES, type Locale, type PixelFont } from "./config.ts";
 import type en from "../src/locales/en.json";
 
 /** The shape of a locale file (en.json is the reference; tools/check.ts checks the others). */
@@ -79,7 +79,7 @@ function topBar(c: Ctx, page: "" | "presskit/"): string {
   const { t, loc } = c;
   const home = BASE + pathOf(loc, "");
   const sections = page === ""
-    ? [["game", t.nav.game], ["story", t.nav.story], ["screens", t.nav.screens], ["features", t.nav.features], ["platforms", t.nav.platforms]]
+    ? [...(BETA ? [["beta", t.nav.beta]] : []), ["game", t.nav.game], ["story", t.nav.story], ["screens", t.nav.screens], ["features", t.nav.features], ["platforms", t.nav.platforms]]
         .map(([id, label]) => `<li><a href="#${id}">${esc(label!)}</a></li>`).join("")
     : `<li><a href="${home}">${esc(t.nav.home)}</a></li>`;
   const press = `<li><a href="${BASE + pathOf(loc, "presskit/")}"${page === "presskit/" ? ' aria-current="page"' : ""}>${esc(t.nav.press)}</a></li>`;
@@ -120,6 +120,21 @@ function store(t: Strings, s: (typeof STORES)[number]): string {
   return `<span class="btn store soon">${name}<small>${soon}</small></span>`;
 }
 
+/** The closed beta: join the Google Group, then opt in on the Google Play test page. */
+function betaSection(t: Strings, beta: NonNullable<typeof BETA>): string {
+  const step = (n: number, text: string, label: string, url: string) =>
+    `<li class="card"><h3>${n}</h3><p>${esc(text)}</p><a class="btn" href="${esc(url)}" rel="noopener">${esc(label)}</a></li>`;
+  return `<section id="beta" class="wrap" aria-labelledby="beta-title">
+<h2 id="beta-title">${esc(t.beta.title)}</h2>
+<p class="lead">${esc(t.beta.intro)}</p>
+<ol class="cards steps">
+${step(1, t.beta.step1, t.beta.step1Link, beta.group)}
+${step(2, t.beta.step2, t.beta.step2Link, beta.test)}
+</ol>
+<p>${esc(t.beta.note)}</p>
+</section>`;
+}
+
 const alternates = (page: "" | "presskit/") => LOCALES.map((l) => ({ loc: l, path: pathOf(l, page) }));
 
 export function homePage(c: Ctx): Page {
@@ -150,7 +165,7 @@ ${topBar(c, "")}
 <p class="tagline">${esc(t.hero.tagline)}</p>
 <p class="pitch">${esc(t.hero.pitch)}</p>
 <h2 class="sr">${esc(t.stores.title)}</h2>
-<ul class="stores">${STORES.map((s) => `<li>${store(t, s)}</li>`).join("")}</ul>
+<ul class="stores">${BETA ? `<li><a class="btn store" href="#beta">${esc(t.beta.title)}<small>Android</small></a></li>` : ""}${STORES.map((s) => `<li>${store(t, s)}</li>`).join("")}</ul>
 </div>
 </section>
 <section class="clip wrap" aria-labelledby="clip-title">
@@ -163,6 +178,7 @@ ${esc(t.hero.clipFallback)}
 </video>
 </div>
 </section>
+${BETA ? betaSection(t, BETA) : ""}
 <section id="game" class="wrap">
 <h2>${esc(t.about.title)}</h2>
 <p class="lead">${esc(t.about.intro)}</p>

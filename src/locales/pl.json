@@ -15,6 +15,7 @@
     "screens": "Zrzuty ekranu",
     "features": "Cechy",
     "platforms": "Platformy",
+    "beta": "Beta",
     "press": "Dla prasy",
     "language": "Język"
   },
@@ -149,6 +150,15 @@
     "androidNote": "Telefony i tablety, w Google Play.",
     "ios": "iPhone i iPad",
     "iosNote": "W App Store."
+  },
+  "beta": {
+    "title": "Dołącz do bety",
+    "intro": "Zamknięta beta jest otwarta na Androidzie. Testerzy grają przed premierą i pomagają znajdować błędy.",
+    "step1": "Dołącz do grupy testerów z kontem Google, którego używasz w Google Play.",
+    "step1Link": "Otwórz grupę",
+    "step2": "Na telefonie z Androidem otwórz stronę testu, przyjmij zaproszenie i zainstaluj Dawnbringer z Google Play.",
+    "step2Link": "Otwórz stronę testu",
+    "note": "Beta zakończy się wraz z premierą gry."
   },
   "press": {
     "title": "Dla prasy",

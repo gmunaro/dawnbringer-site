@@ -15,6 +15,7 @@
     "screens": "截圖",
     "features": "特色",
     "platforms": "平台",
+    "beta": "測試",
     "press": "媒體資料",
     "language": "語言"
   },
@@ -149,6 +150,15 @@
     "androidNote": "手機和平板，登上 Google Play。",
     "ios": "iPhone 和 iPad",
     "iosNote": "登上 App Store。"
+  },
+  "beta": {
+    "title": "加入測試",
+    "intro": "Android 封閉測試現已開放。測試者可在發售前遊玩，並協助找出錯誤。",
+    "step1": "請使用你在 Google Play 上的 Google 帳號加入測試者群組。",
+    "step1Link": "開啟群組",
+    "step2": "在 Android 手機上開啟測試頁面，接受邀請，然後從 Google Play 安裝 Dawnbringer。",
+    "step2Link": "開啟測試頁面",
+    "note": "遊戲發售時測試將結束。"
   },
   "press": {
     "title": "媒體資料包",

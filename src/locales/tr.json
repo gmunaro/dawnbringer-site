@@ -15,6 +15,7 @@
     "screens": "Ekran görüntüleri",
     "features": "Özellikler",
     "platforms": "Platformlar",
+    "beta": "Beta",
     "press": "Basın kiti",
     "language": "Dil"
   },
@@ -149,6 +150,15 @@
     "androidNote": "Telefon ve tabletler için, Google Play'de.",
     "ios": "iPhone ve iPad",
     "iosNote": "App Store'da."
+  },
+  "beta": {
+    "title": "Betaya katıl",
+    "intro": "Kapalı beta Android'de açık. Test edenler oyunu çıkıştan önce oynar ve hataları bulmaya yardım eder.",
+    "step1": "Google Play'de kullandığın Google hesabıyla test grubuna katıl.",
+    "step1Link": "Grubu aç",
+    "step2": "Android telefonunda test sayfasını aç, daveti kabul et ve Dawnbringer'ı Google Play'den yükle.",
+    "step2Link": "Test sayfasını aç",
+    "note": "Beta, oyun çıktığında kapanır."
   },
   "press": {
     "title": "Basın kiti",
