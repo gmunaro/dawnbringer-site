@@ -1,6 +1,6 @@
 // HTML of every page, as plain template strings. Every text comes from a locale's JSON and is
 // escaped with esc(); every link starts with BASE so the site works under /dawnbringer-site/.
-import { BASE, BETA, CONTACT, DEMO, demoUrl, LOCALES, SHOTS, SITE, STORES, type Locale, type PixelFont } from "./config.ts";
+import { BASE, BETA, CONTACT, LOCALES, SHOTS, SITE, STORES, type Locale, type PixelFont } from "./config.ts";
 import type en from "../src/locales/en.json";
 
 /** The shape of a locale file (en.json is the reference; tools/check.ts checks the others). */
@@ -21,14 +21,58 @@ export interface Ctx {
   zipSize: string;
   /** A size in bytes formatted for the locale ("139.5 MB"). */
   mb: (bytes: number) => string;
+  /** True when src/releases.json lists a release: the changelog page exists and the footer links it. */
+  changelog?: boolean;
+  /** The demo downloads (the newest release in src/releases.json that has them); null drops the demo section. */
+  demo?: Demo | null;
 }
+
+/** One release in src/releases.json, newest first (written by the game repo's tools/publish). */
+export interface ReleaseEntry {
+  version: string;
+  /** YYYY-MM-DD */
+  date: string;
+  min_supported: string;
+  /** Short notes per game language code (pt_BR, zh_CN...): the site code with "_" for "-". */
+  notes: Record<string, string>;
+  /** Per platform key (android, windows-demo...): the store or download page and, for the files
+   * this site hosts, the GitHub Release asset and its size in bytes. */
+  platforms: Record<string, { url: string; market?: string; file?: string; bytes?: number }>;
+  /** The release's SHA256SUMS.txt asset, when it has desktop files. */
+  checksums?: string;
+}
+
+type DemoOs = "windows" | "macos" | "linux";
+
+/** The desktop demo of one release: a file per system with its size, and the checksums file. */
+export interface Demo {
+  version: string;
+  files: Record<DemoOs, { url: string; bytes: number }>;
+  checksums?: string;
+}
+
+/** The demo downloads of the newest release that has all three systems, or null when none has. */
+export function demoOf(releases: ReleaseEntry[]): Demo | null {
+  const file = (r: ReleaseEntry, os: DemoOs) => {
+    const p = r.platforms[`${os}-demo`];
+    return p?.file && p.bytes ? { url: p.file, bytes: p.bytes } : null;
+  };
+  for (const r of releases) {
+    const windows = file(r, "windows"), macos = file(r, "macos"), linux = file(r, "linux");
+    if (windows && macos && linux) return { version: r.version, files: { windows, macos, linux }, checksums: r.checksums };
+  }
+  return null;
+}
+
+/** A localized page of the site: the home, the press kit or the changelog. */
+type PageId = "" | "presskit/" | "changelog/";
 
 export function esc(s: string): string {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
 
 const asset = (p: string) => `${BASE}assets/${p}`;
-const pathOf = (loc: Locale, page: "" | "presskit/") => `${loc.dir}${page}`;
+const pathOf = (loc: Locale, page: PageId) => `${loc.dir}${page}`;
 
 /** The heading font file of each pixel font family (tools/build.ts writes them). */
 const FONT_FILE: Record<PixelFont, string> = {
@@ -77,11 +121,11 @@ ${alt}${xDefault}
 const ogAlt = (t: Strings) => `<meta property="og:image:alt" content="${esc(t.meta.ogAlt)}">`;
 
 /** Top bar: logo link, section links (home only), press kit, language switcher. */
-function topBar(c: Ctx, page: "" | "presskit/"): string {
+function topBar(c: Ctx, page: PageId): string {
   const { t, loc } = c;
   const home = BASE + pathOf(loc, "");
   const sections = page === ""
-    ? [...(DEMO ? [["download", t.nav.demo]] : []), ...(BETA ? [["beta", t.nav.beta]] : []), ["game", t.nav.game], ["story", t.nav.story], ["screens", t.nav.screens], ["features", t.nav.features], ["platforms", t.nav.platforms]]
+    ? [...(c.demo ? [["download", t.nav.demo]] : []), ...(BETA ? [["beta", t.nav.beta]] : []), ["game", t.nav.game], ["story", t.nav.story], ["screens", t.nav.screens], ["features", t.nav.features], ["platforms", t.nav.platforms]]
         .map(([id, label]) => `<li><a href="#${id}">${esc(label!)}</a></li>`).join("")
     : `<li><a href="${home}">${esc(t.nav.home)}</a></li>`;
   const press = `<li><a href="${BASE + pathOf(loc, "presskit/")}"${page === "presskit/" ? ' aria-current="page"' : ""}>${esc(t.nav.press)}</a></li>`;
@@ -107,7 +151,7 @@ function footer(c: Ctx): string {
 <ul>
 <li><a href="${BASE}privacy.html">${esc(t.footer.privacy)}</a></li>
 <li><a href="${BASE + pathOf(loc, "presskit/")}">${esc(t.nav.press)}</a></li>
-<li>${esc(t.footer.contact)}: <a href="mailto:${CONTACT}">${CONTACT}</a></li>
+${c.changelog ? `<li><a href="${BASE + pathOf(loc, "changelog/")}">${esc(t.footer.changelog)}</a></li>\n` : ""}<li>${esc(t.footer.contact)}: <a href="mailto:${CONTACT}">${CONTACT}</a></li>
 </ul>
 <p>${esc(t.footer.bugs)} <a href="mailto:${CONTACT}">${CONTACT}</a></p>
 <p>${esc(t.footer.madeBy)} © 2026 gmunaro.</p>
@@ -161,11 +205,11 @@ ${step(3, t.beta.step3, t.beta.step3Link, beta.install)}
 }
 
 /** The desktop demo: what it holds, a download per system (with its size) and how to open each. */
-function demoSection(c: Ctx, demo: NonNullable<typeof DEMO>): string {
+function demoSection(c: Ctx, demo: Demo): string {
   const { t } = c;
-  const card = (os: keyof typeof demo.files, name: string, notes: string[], type: string) => {
+  const card = (os: DemoOs, name: string, notes: string[], type: string) => {
     const f = demo.files[os];
-    return `<li class="card"><h3>${esc(name)}</h3>${notes.map((n) => `<p>${esc(n)}</p>`).join("")}<a class="btn" href="${esc(demoUrl(demo.version, f.name))}" download>${esc(t.demo.download.replace("{size}", c.mb(f.bytes)))}<small>${type}</small></a></li>`;
+    return `<li class="card"><h3>${esc(name)}</h3>${notes.map((n) => `<p>${esc(n)}</p>`).join("")}<a class="btn" href="${esc(f.url)}" download>${esc(t.demo.download.replace("{size}", c.mb(f.bytes)))}<small>${type}</small></a></li>`;
   };
   const androidLink = BETA ? ` <a href="#beta">${esc(t.demo.androidLink)}</a>` : "";
   return `<section id="download" class="wrap" aria-labelledby="demo-title">
@@ -180,13 +224,12 @@ ${card("windows", t.demo.windows, [t.demo.windowsNote], ".exe")}
 ${card("macos", t.demo.macos, [t.demo.macosNote, t.demo.macosOpen], ".zip")}
 ${card("linux", t.demo.linux, [t.demo.linuxNote], ".tar.gz")}
 </ul>
-<p class="demo-sums"><a href="${esc(demoUrl(demo.version, "SHA256SUMS.txt"))}">${esc(t.demo.checksums)}</a></p>
-<p>${esc(t.demo.android)}${androidLink}</p>
+${demo.checksums ? `<p class="demo-sums"><a href="${esc(demo.checksums)}">${esc(t.demo.checksums)}</a></p>\n` : ""}<p>${esc(t.demo.android)}${androidLink}</p>
 <p>${esc(t.demo.ios)}</p>
 </section>`;
 }
 
-const alternates = (page: "" | "presskit/") => LOCALES.map((l) => ({ loc: l, path: pathOf(l, page) }));
+const alternates = (page: PageId) => LOCALES.map((l) => ({ loc: l, path: pathOf(l, page) }));
 
 export function homePage(c: Ctx): Page {
   const { t, loc } = c;
@@ -216,7 +259,7 @@ ${topBar(c, "")}
 <p class="tagline">${esc(t.hero.tagline)}</p>
 <p class="pitch">${esc(t.hero.pitch)}</p>
 <h2 class="sr">${esc(t.stores.title)}</h2>
-<ul class="stores">${DEMO ? `<li><a class="btn store" href="#download">${esc(t.demo.title)}<small>Windows · macOS · Linux</small></a></li>` : ""}${BETA ? `<li><a class="btn store" href="#beta">${esc(t.beta.title)}<small>Android</small></a></li>` : ""}${STORES.map((s) => `<li>${store(t, s)}</li>`).join("")}</ul>
+<ul class="stores">${c.demo ? `<li><a class="btn store" href="#download">${esc(t.demo.title)}<small>Windows · macOS · Linux</small></a></li>` : ""}${BETA ? `<li><a class="btn store" href="#beta">${esc(t.beta.title)}<small>Android</small></a></li>` : ""}${STORES.map((s) => `<li>${store(t, s)}</li>`).join("")}</ul>
 </div>
 </section>
 <section class="clip wrap" aria-labelledby="clip-title">
@@ -229,7 +272,7 @@ ${esc(t.hero.clipFallback)}
 </video>
 </div>
 </section>
-${DEMO ? demoSection(c, DEMO) : ""}
+${c.demo ? demoSection(c, c.demo) : ""}
 ${BETA ? betaSection(t, BETA) : ""}
 <section id="game" class="wrap">
 <h2>${esc(t.about.title)}</h2>
@@ -348,6 +391,43 @@ ${t.press.credits.map((x) => `<li>${esc(x)}</li>`).join("\n")}
 <h2 id="contact">${esc(t.press.contactTitle)}</h2>
 <p>${esc(t.press.contactText)} <a href="mailto:${CONTACT}">${CONTACT}</a></p>
 </section>
+</main>
+${footer(c)}
+</body>
+</html>
+`;
+  return { path, html };
+}
+
+/** System names of the platform keys in releases.json ("-demo" stripped first). */
+const SYSTEM: Record<string, string> = { android: "Android", ios: "iOS", windows: "Windows", macos: "macOS", linux: "Linux" };
+
+/** Every release with its notes in the page's language (English when a language has none). */
+export function changelogPage(c: Ctx, releases: ReleaseEntry[]): Page {
+  const { t, loc } = c;
+  const path = pathOf(loc, "changelog/");
+  const date = new Intl.DateTimeFormat(loc.code, { dateStyle: "long", timeZone: "UTC" });
+  const items = releases.map((r) => {
+    const text = r.notes[loc.code.replace("-", "_")] ?? r.notes.en ?? "";
+    const lines = text.split("\n").map((l) => l.replace(/^\s*[-*]\s*/, "").trim()).filter(Boolean);
+    // Where this version came out (a demo-only release is not on Android): system names, deduped.
+    const systems = [...new Set(Object.keys(r.platforms).map((k) => SYSTEM[k.replace(/-demo$/, "")] ?? k))].join(" · ");
+    return `<article class="panel release" id="v${esc(r.version)}">
+<h2>Dawnbringer ${esc(r.version)}</h2>
+<p><time datetime="${esc(r.date)}">${esc(date.format(new Date(`${r.date}T00:00:00Z`)))}</time> · ${esc(systems)}</p>
+<ul>
+${lines.map((l) => `<li>${esc(l)}</li>`).join("\n")}
+</ul>
+</article>`;
+  }).join("\n");
+  const html = `${head({ lang: loc.code, title: `${t.changelog.title} · Dawnbringer`, description: t.changelog.description, path, ogLocale: loc.og, font: loc.font, alternates: alternates("changelog/") })}
+${ogAlt(t)}
+<body data-page="changelog/">
+${topBar(c, "changelog/")}
+<main id="main" class="wrap prose changelog">
+<h1>${esc(t.changelog.title)}</h1>
+<p class="lead">${esc(t.changelog.description)}</p>
+${items}
 </main>
 ${footer(c)}
 </body>

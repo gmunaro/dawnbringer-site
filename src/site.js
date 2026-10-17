@@ -29,7 +29,7 @@
 
   const bar = document.getElementById("suggest");
   const want = best();
-  if (bar && (page === "" || page === "presskit/") && want && want.code !== here && !stored()) {
+  if (bar && (page === "" || page === "presskit/" || page === "changelog/") && want && want.code !== here && !stored()) {
     const p = document.createElement("p");
     p.lang = want.code;
     p.textContent = want.text + " ";

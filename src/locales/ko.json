@@ -242,7 +242,8 @@
     "privacy": "개인정보 처리방침",
     "contact": "연락처",
     "bugs": "버그를 발견했나요? 게임 내 버그 신고를 이용하거나 다음 주소로 보내 주세요:",
-    "madeBy": "Dawnbringer는 브라질의 gmunaro가 만듭니다."
+    "madeBy": "Dawnbringer는 브라질의 gmunaro가 만듭니다.",
+    "changelog": "업데이트"
   },
   "suggest": {
     "text": "이 페이지는 한국어로도 볼 수 있습니다.",
@@ -252,5 +253,9 @@
   "notFound": {
     "text": "존재하지 않는 페이지입니다.",
     "back": "홈으로 돌아가기"
+  },
+  "changelog": {
+    "title": "새 소식",
+    "description": "Dawnbringer의 모든 업데이트와 변경 내용."
   }
 }

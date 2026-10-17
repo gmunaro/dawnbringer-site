@@ -242,7 +242,8 @@
     "privacy": "Gizlilik politikası",
     "contact": "İletişim",
     "bugs": "Bir hata mı buldun? Oyundaki Hata bildir seçeneğini kullan ya da şu adrese yaz",
-    "madeBy": "Dawnbringer, Brezilya'da gmunaro tarafından yapılıyor."
+    "madeBy": "Dawnbringer, Brezilya'da gmunaro tarafından yapılıyor.",
+    "changelog": "Yenilikler"
   },
   "suggest": {
     "text": "Bu sayfa Türkçe olarak da mevcut.",
@@ -252,5 +253,9 @@
   "notFound": {
     "text": "Bu sayfa mevcut değil.",
     "back": "Ana sayfaya dön"
+  },
+  "changelog": {
+    "title": "Yenilikler",
+    "description": "Dawnbringer'ın her güncellemesi ve getirdiği değişiklikler."
   }
 }

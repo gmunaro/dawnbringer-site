@@ -242,7 +242,8 @@
     "privacy": "Privacy policy",
     "contact": "Contact",
     "bugs": "Found a bug? Use Report a bug in the game or write to",
-    "madeBy": "Dawnbringer is made by gmunaro in Brazil."
+    "madeBy": "Dawnbringer is made by gmunaro in Brazil.",
+    "changelog": "Changelog"
   },
   "suggest": {
     "text": "This page is also available in English.",
@@ -252,5 +253,9 @@
   "notFound": {
     "text": "This page does not exist.",
     "back": "Back to the home page"
+  },
+  "changelog": {
+    "title": "What's new",
+    "description": "Every Dawnbringer update and what changed in it."
   }
 }

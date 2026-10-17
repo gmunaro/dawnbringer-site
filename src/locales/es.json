@@ -242,7 +242,8 @@
     "privacy": "Política de privacidad",
     "contact": "Contacto",
     "bugs": "¿Encontraste un error? Usa Informar de un error dentro del juego o escribe a",
-    "madeBy": "Dawnbringer está hecho por gmunaro en Brasil."
+    "madeBy": "Dawnbringer está hecho por gmunaro en Brasil.",
+    "changelog": "Novedades"
   },
   "suggest": {
     "text": "Esta página también está disponible en español.",
@@ -252,5 +253,9 @@
   "notFound": {
     "text": "Esta página no existe.",
     "back": "Volver a la página de inicio"
+  },
+  "changelog": {
+    "title": "Novedades",
+    "description": "Cada actualización de Dawnbringer y lo que cambió en ella."
   }
 }

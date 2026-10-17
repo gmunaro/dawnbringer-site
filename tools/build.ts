@@ -9,7 +9,7 @@ import { zipSync, type Zippable } from "fflate";
 import { marked } from "marked";
 import subsetFont from "subset-font";
 import { BASE, LOCALES, SITE, type Locale, type PixelFont } from "./config.ts";
-import { homePage, notFoundPage, pressPage, privacyPage, PRESS_FILES, ZIP_NAME, type Ctx, type Page, type Strings } from "./pages.ts";
+import { changelogPage, demoOf, homePage, notFoundPage, pressPage, privacyPage, PRESS_FILES, ZIP_NAME, type Ctx, type Page, type ReleaseEntry, type Strings } from "./pages.ts";
 
 const ROOT = join(import.meta.dir, "..");
 const SRC = join(ROOT, "src");
@@ -17,7 +17,8 @@ const out = (p: string) => join(ROOT, p);
 
 /** Everything the build writes at the root, removed first so deleted pages do not linger. */
 function clean(): void {
-  const fixed = ["index.html", "404.html", "privacy.html", "sitemap.xml", "robots.txt", "site.webmanifest", ".nojekyll", "assets", "presskit"];
+  // latest.json is not here: the game repo's tools/publish writes it and the build leaves it alone.
+  const fixed = ["index.html", "404.html", "privacy.html", "sitemap.xml", "robots.txt", "site.webmanifest", ".nojekyll", "assets", "presskit", "changelog"];
   const dirs = LOCALES.map((l) => l.dir).filter((d) => /^[a-z]{2}(-[a-z]{2})?\/$/.test(d));
   for (const p of [...fixed, ...dirs]) rmSync(out(p), { recursive: true, force: true });
 }
@@ -25,6 +26,12 @@ function clean(): void {
 function write(p: string, data: string | Uint8Array): void {
   mkdirSync(dirname(out(p)), { recursive: true });
   writeFileSync(out(p), data);
+}
+
+/** src/releases.json (newest first), written by the game repo's tools/publish; [] before the first release. */
+async function loadReleases(): Promise<ReleaseEntry[]> {
+  const f = Bun.file(join(SRC, "releases.json"));
+  return (await f.exists()) ? ((await f.json()) as ReleaseEntry[]) : [];
 }
 
 async function loadStrings(loc: Locale): Promise<Strings> {
@@ -47,13 +54,13 @@ const PRINTABLE_ASCII = Array.from({ length: 95 }, (_, i) => String.fromCharCode
  * Language names (the switcher) are added to every font so they render in all pages, and the
  * privacy policy's text to the Latin one.
  */
-async function buildFonts(strings: Map<string, Strings>, privacy: string): Promise<void> {
+async function buildFonts(strings: Map<string, Strings>, privacy: string, notes: Map<string, string>): Promise<void> {
   const names = LOCALES.map((l) => l.name).join("");
   const sub = async (src: string, text: string, dest: string) => {
     const buf = Buffer.from(await Bun.file(join(SRC, "fonts", src)).arrayBuffer());
     write(`assets/fonts/${dest}`, await subsetFont(buf, text, { targetFormat: "woff2" }));
   };
-  const latinText = LOCALES.filter((l) => l.font === "latin").map((l) => allText(strings.get(l.code))).join("");
+  const latinText = LOCALES.filter((l) => l.font === "latin").map((l) => allText(strings.get(l.code)) + (notes.get(l.code) ?? "")).join("");
   await sub("kenney_pixel.ttf", PRINTABLE_ASCII + latinText + privacy + names + "©·…“”„«»", "kenney-pixel.woff2");
   await sub("jacquarda_bastarda_9.ttf", "Dawnbringer", "jacquarda-logo.woff2");
   const fusion: Record<Exclude<PixelFont, "latin">, string> = {
@@ -64,7 +71,7 @@ async function buildFonts(strings: Map<string, Strings>, privacy: string): Promi
   };
   for (const l of LOCALES) {
     if (l.font === "latin") continue;
-    await sub(fusion[l.font], PRINTABLE_ASCII + allText(strings.get(l.code)) + names, `fusion-${l.font}.woff2`);
+    await sub(fusion[l.font], PRINTABLE_ASCII + allText(strings.get(l.code)) + (notes.get(l.code) ?? "") + names, `fusion-${l.font}.woff2`);
   }
   for (const f of readdirSync(join(SRC, "fonts")).filter((f) => f.startsWith("LICENSE") || f.startsWith("CREDITS"))) {
     cpSync(join(SRC, "fonts", f), out(`assets/fonts/${f}`));
@@ -86,7 +93,7 @@ function buildZip(): number {
 }
 
 function sitemap(pages: Page[]): string {
-  const groups = ["", "presskit/"].map((p) => LOCALES.map((l) => l.dir + p));
+  const groups = ["", "presskit/", "changelog/"].map((p) => LOCALES.map((l) => l.dir + p));
   const urls = pages.filter((p) => p.path !== "404.html").map((p) => {
     const group = groups.find((g) => g.includes(p.path));
     const alts = group
@@ -113,12 +120,16 @@ async function main(): Promise<void> {
   clean();
   const strings = new Map<string, Strings>();
   for (const l of LOCALES) strings.set(l.code, await loadStrings(l));
+  const releases = await loadReleases();
+  // The changelog's text per locale (its own language, or English), so the fonts carry its glyphs.
+  const notes = new Map(LOCALES.map((l) => [l.code, releases.map((r) => r.notes[l.code.replace("-", "_")] ?? r.notes.en ?? "").join("")]));
+  const demo = demoOf(releases);
 
   cpSync(join(SRC, "assets"), out("assets"), { recursive: true });
   cpSync(join(SRC, "site.css"), out("assets/site.css"));
   write("assets/site.js", await buildScript(strings));
   const privacyMd = await Bun.file(join(SRC, "privacy.md")).text();
-  await buildFonts(strings, privacyMd);
+  await buildFonts(strings, privacyMd, notes);
   cpSync(join(SRC, "presskit"), out("presskit/files"), { recursive: true });
   const zipBytes = buildZip();
 
@@ -126,8 +137,9 @@ async function main(): Promise<void> {
   for (const loc of LOCALES) {
     const t = strings.get(loc.code)!;
     const mb = (bytes: number) => new Intl.NumberFormat(loc.code, { maximumFractionDigits: 1, minimumFractionDigits: 1 }).format(bytes / 1e6) + " MB";
-    const c: Ctx = { loc, t, zipSize: mb(zipBytes), mb };
+    const c: Ctx = { loc, t, zipSize: mb(zipBytes), mb, changelog: releases.length > 0, demo };
     pages.push(homePage(c), pressPage(c));
+    if (releases.length) pages.push(changelogPage(c, releases));
   }
   const en: Ctx = { loc: LOCALES[0]!, t: strings.get("en")!, zipSize: "", mb: String };
   // A Windows checkout may hold the file with CRLF line ends.

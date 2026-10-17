@@ -242,7 +242,8 @@
     "privacy": "Polityka prywatności",
     "contact": "Kontakt",
     "bugs": "Znalazłeś błąd? Użyj opcji Zgłoś błąd w grze albo napisz na adres",
-    "madeBy": "Dawnbringer tworzy gmunaro w Brazylii."
+    "madeBy": "Dawnbringer tworzy gmunaro w Brazylii.",
+    "changelog": "Nowości"
   },
   "suggest": {
     "text": "Ta strona jest dostępna także po polsku.",
@@ -252,5 +253,9 @@
   "notFound": {
     "text": "Ta strona nie istnieje.",
     "back": "Wróć na stronę główną"
+  },
+  "changelog": {
+    "title": "Nowości",
+    "description": "Każda aktualizacja Dawnbringer i co się w niej zmieniło."
   }
 }

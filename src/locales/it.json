@@ -242,7 +242,8 @@
     "privacy": "Informativa sulla privacy",
     "contact": "Contatti",
     "bugs": "Hai trovato un bug? Usa Segnala un bug nel gioco o scrivi a",
-    "madeBy": "Dawnbringer è sviluppato da gmunaro in Brasile."
+    "madeBy": "Dawnbringer è sviluppato da gmunaro in Brasile.",
+    "changelog": "Novità"
   },
   "suggest": {
     "text": "Questa pagina è disponibile anche in italiano.",
@@ -252,5 +253,9 @@
   "notFound": {
     "text": "Questa pagina non esiste.",
     "back": "Torna alla home"
+  },
+  "changelog": {
+    "title": "Novità",
+    "description": "Ogni aggiornamento di Dawnbringer e cosa è cambiato."
   }
 }

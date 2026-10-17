@@ -242,7 +242,8 @@
     "privacy": "プライバシーポリシー",
     "contact": "連絡先",
     "bugs": "バグを見つけたら、ゲーム内の「バグを報告」を使うか、こちらへご連絡ください：",
-    "madeBy": "Dawnbringerはブラジルのgmunaroが制作しています。"
+    "madeBy": "Dawnbringerはブラジルのgmunaroが制作しています。",
+    "changelog": "更新情報"
   },
   "suggest": {
     "text": "このページは日本語でも読めます。",
@@ -252,5 +253,9 @@
   "notFound": {
     "text": "このページは存在しません。",
     "back": "ホームに戻る"
+  },
+  "changelog": {
+    "title": "更新情報",
+    "description": "Dawnbringerの各アップデートと変更内容。"
   }
 }

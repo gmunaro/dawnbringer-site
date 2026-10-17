@@ -242,7 +242,8 @@
     "privacy": "Politique de confidentialité",
     "contact": "Contact",
     "bugs": "Vous avez trouvé un bug ? Utilisez Signaler un bug dans le jeu ou écrivez à",
-    "madeBy": "Dawnbringer est créé par gmunaro au Brésil."
+    "madeBy": "Dawnbringer est créé par gmunaro au Brésil.",
+    "changelog": "Nouveautés"
   },
   "suggest": {
     "text": "Cette page est aussi disponible en français.",
@@ -252,5 +253,9 @@
   "notFound": {
     "text": "Cette page n'existe pas.",
     "back": "Retour à l'accueil"
+  },
+  "changelog": {
+    "title": "Nouveautés",
+    "description": "Chaque mise à jour de Dawnbringer et ce qu'elle a changé."
   }
 }

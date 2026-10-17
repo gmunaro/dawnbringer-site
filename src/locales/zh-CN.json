@@ -242,7 +242,8 @@
     "privacy": "隐私政策",
     "contact": "联系方式",
     "bugs": "发现了错误？请使用游戏内的报告错误功能，或发送邮件至",
-    "madeBy": "Dawnbringer 由巴西的 gmunaro 制作。"
+    "madeBy": "Dawnbringer 由巴西的 gmunaro 制作。",
+    "changelog": "更新日志"
   },
   "suggest": {
     "text": "本页面也提供简体中文版。",
@@ -252,5 +253,9 @@
   "notFound": {
     "text": "此页面不存在。",
     "back": "返回首页"
+  },
+  "changelog": {
+    "title": "更新内容",
+    "description": "Dawnbringer 的每次更新及其改动。"
   }
 }

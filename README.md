@@ -26,6 +26,7 @@ bun run typecheck
 | `src/assets/` | Pictures, video, icons and the game's 9-slice frames, copied as they are. |
 | `src/fonts/` | Source pixel fonts and their licences; the build cuts them down to the glyphs each page uses. |
 | `src/presskit/` | Press kit files (logo, icon, key art, 1920x1080 screenshots), zipped by the build. |
+| `src/releases.json`, `latest.json` | Every release and the game's update feed, written by the game repo's release tool (see below). |
 | `tools/config.ts` | Base URL, languages, store links, gallery order. |
 | `tools/pages.ts`, `tools/build.ts` | Page templates and the build. |
 | `tools/capture.sh`, `tools/media.sh`, `tools/godot/` | How the pictures were made (see below). |
@@ -36,13 +37,21 @@ Edit `STORES` in `tools/config.ts`: a `url` turns the greyed-out "coming soon" b
 Steam needs the store page URL once the app id exists; Google Play's listing URL is in a comment
 there.
 
-## Demo downloads
+## Releases, changelog and demo downloads
 
-The "Download the demo" section (`#download`) links to the assets of the GitHub Release
-`demo-v<version>` of this repository; Pages cannot hold files over 100 MB. For a new demo: run
-`tools/release/package_demo.sh` in the game repo, create the release with its four files
-(`gh release create demo-v<version> --repo gmunaro/dawnbringer-site ...`), then set `DEMO` in
-`tools/config.ts` (version, file names and exact sizes in bytes) and rebuild.
+`src/releases.json` lists every release, newest first, and `latest.json` at the root is the feed
+the game reads to tell players a new version is out. Both are written by the game repo's release
+tool (`bash tools/publish/release.sh <version>`, see `docs/RELEASE.md` there), which also creates
+the GitHub Release `demo-v<version>` of this repository with the demo files (Pages cannot hold
+files over 100 MB), rebuilds and pushes. Do not edit them by hand.
+
+The build turns `src/releases.json` into:
+
+- the changelog page in every language (`changelog/`, linked from the footer), each release with
+  its notes in the page's language, or English when a language has none;
+- the "Download the demo" section (`#download`): its buttons point to the files of the newest
+  release that has the Windows, macOS and Linux demos (`platforms.<os>-demo.file`, with the size
+  from `bytes`) and to its `checksums` file. No such release, no section.
 
 ## Pictures and video
 
