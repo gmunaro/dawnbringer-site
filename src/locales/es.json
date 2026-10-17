@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: auto-battler roguelike de fantasía oscura",
-    "description": "El sol se apagó y el Terrateniente cobra el alquiler cada semana. Arma tu campeón, conoce el resultado exacto de cada combate en el camino y decide si pagas el diezmo o luchas.",
+    "description": "El sol se apagó y el Terrateniente cobra el alquiler cada semana. Arma tu campeón, lee lo que lleva cada enemigo y decide si pagas el diezmo o luchas contra el jefe.",
     "pressTitle": "Kit de prensa de Dawnbringer",
     "pressDescription": "Ficha técnica, descripción, características, logo, arte principal y capturas de Dawnbringer, un auto-battler roguelike de gmunaro.",
     "notFoundTitle": "Página no encontrada",
@@ -22,7 +22,7 @@
   },
   "hero": {
     "tagline": "El sol se apagó. Lleva su última brasa.",
-    "pitch": "Recorre una tierra a oscuras, arma tu campeón con 64 reliquias y elige bien tus peleas. El combate no usa dados: en el camino sabes el resultado antes de pelear. Cuando el Terrateniente venga a cobrar al final de la semana, paga el diezmo o lucha por su cabeza.",
+    "pitch": "Recorre una tierra a oscuras, arma tu campeón con 64 reliquias y elige bien tus peleas. El combate no usa dados: cada enemigo lleva equipo que puedes leer, y tu Piedra de la Desesperación se oscurece antes de una pelea que te mataría. Cuando el Terrateniente venga a cobrar al final de la semana, paga el diezmo o lucha por su cabeza.",
     "artAlt": "Un pequeño campeón sobre una colina se enfrenta a un Terrateniente gigante y coronado que surge de las colinas oscuras bajo una luna rojo sangre.",
     "clipTitle": "Jugabilidad",
     "clipAlt": "Clip de juego: en la noche del Terrateniente el mapa se vuelve rojo mientras el Rey Hueco viene a cobrar; su carta ofrece pagar el diezmo o luchar; luego el combate se resuelve.",
@@ -41,8 +41,8 @@
     "intro": "Cada partida dura tres semanas. Avanzas por un mapa cubierto de niebla, abres cofres, visitas santuarios y forjas y combinas reliquias antes de que termine la semana. Los combates son automáticos; la estrategia está en la ruta que trazas y en la build que armas.",
     "points": [
       {
-        "title": "Pronóstico exacto en el camino",
-        "text": "El combate es 100 % determinista. Antes de aceptar una pelea común, el juego simula el choque y muestra el resultado exacto, como \"Victoria con 29 PV restantes\". Solo contra el Terrateniente peleas a ciegas."
+        "title": "Lee al enemigo, no los dados",
+        "text": "El combate es 100 % determinista, y cada enemigo lleva objetos reales que puedes inspeccionar antes de la pelea: compara su equipo con el tuyo. Tu Piedra de la Desesperación marca cualquier enemigo cuya pelea te mataría, y no dice nada más. Contra el Terrateniente guarda silencio."
       },
       {
         "title": "Paga el alquiler o lucha",
@@ -87,9 +87,9 @@
         "caption": "El combate es automático; tu preparación decide el resultado.",
         "alt": "Un combate contra el Rey Hueco en una capilla en ruinas, con barras de vida, armadura y números de daño."
       },
-      "forecast": {
-        "caption": "El juego calcula y muestra el resultado exacto antes de que pelees.",
-        "alt": "La carta de un Bruto de Ceniza con el pronóstico: Victoria con 29 PV restantes, y los botones Luchar y Retroceder."
+      "stone": {
+        "caption": "La Piedra de la Desesperación se oscurece ante una pelea que te mataría.",
+        "alt": "La pantalla previa a la pelea de un enemigo, con sus estadísticas y los objetos que lleva, la marca de la Piedra de la Desesperación y el aviso Esta pelea te mataría, y los botones Luchar y Retroceder."
       },
       "risen": {
         "caption": "Un campeón caído en otra partida vaga ahora por el camino con su oro.",
@@ -159,7 +159,7 @@
     "includesTitle": "Qué incluye la demo",
     "includes": [
       "2 campeones: el Penitente Encadenado y la Tiradora de la Horca.",
-      "La partida completa: tres semanas en el mapa, pronósticos en el camino, eventos, tiendas, juramentos y los Terratenientes.",
+      "La partida completa: tres semanas en el mapa, eventos, tiendas, juramentos y los Terratenientes.",
       "Las 4 familias de reliquias iniciales.",
       "Sin Relicario: los demás campeones, familias de reliquias y mejoras de bolsa llegan con el juego completo.",
       "Su propia partida guardada, separada del juego completo."
@@ -219,7 +219,7 @@
     "website": "Sitio web",
     "contact": "Contacto",
     "descriptionTitle": "Descripción",
-    "description": "Dawnbringer es un auto-battler roguelike de fantasía oscura en pixel art. El sol se apagó, el oro es el único calor que queda y cada semana un Terrateniente viene a cobrar el alquiler. El jugador explora un mapa por turnos, elige combates, reúne reliquias de ocho familias y arma su build. Como el combate es automático y no usa azar, cada encuentro común muestra el resultado exacto antes de empezar; contra el Terrateniente no hay pronóstico, y hay que elegir entre pagar el diezmo o pelear. Antes de salir del campamento apuestas oro de tu banco, y tras cada semana decides si guardas las ganancias o arriesgas la bolsa en la semana siguiente. Los campeones caídos vuelven como enemigos al mapa en partidas futuras, y los vencedores pueden ocupar el trono como nuevos Terratenientes.",
+    "description": "Dawnbringer es un auto-battler roguelike de fantasía oscura en pixel art. El sol se apagó, el oro es el único calor que queda y cada semana un Terrateniente viene a cobrar el alquiler. El jugador explora un mapa por turnos, elige combates, reúne reliquias de ocho familias y arma su build. Como el combate se resuelve solo y no usa azar, y cada enemigo lleva objetos visibles, los jugadores juzgan cada pelea del camino comparando su equipo con su build; una Piedra de la Desesperación solo avisa cuando una pelea mataría al héroe. Contra el Terrateniente guarda silencio, y hay que elegir entre pagar el diezmo o pelear. Antes de salir del campamento apuestas oro de tu banco, y tras cada semana decides si guardas las ganancias o arriesgas la bolsa en la semana siguiente. Los campeones caídos vuelven como enemigos al mapa en partidas futuras, y los vencedores pueden ocupar el trono como nuevos Terratenientes.",
     "mediaTitle": "Logo, arte principal y capturas",
     "zip": "Descargar todo (.zip, {size})",
     "logo": "Logo (PNG, transparente)",

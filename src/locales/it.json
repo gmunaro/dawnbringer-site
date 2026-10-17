@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: auto-battler roguelike dark fantasy",
-    "description": "Il sole è morto e il Signore riscuote l'affitto ogni settimana. Costruisci il tuo campione, vedi l'esito esatto di ogni scontro sulla strada e decidi se pagare la decima o affrontare il boss.",
+    "description": "Il sole è morto e il Signore riscuote l'affitto ogni settimana. Costruisci il tuo campione, leggi cosa porta ogni nemico e decidi se pagare la decima o affrontare il boss.",
     "pressTitle": "Press kit di Dawnbringer",
     "pressDescription": "Scheda, descrizione, caratteristiche, logo, key art e screenshot di Dawnbringer, un auto-battler roguelike di gmunaro.",
     "notFoundTitle": "Pagina non trovata",
@@ -22,7 +22,7 @@
   },
   "hero": {
     "tagline": "Il sole è morto. Porta la sua ultima brace.",
-    "pitch": "Attraversa una terra al buio, costruisci un campione con 64 reliquie e scegli i tuoi scontri. Non ci sono dadi: sulla strada conosci l'esito esatto prima di combattere. Quando a fine settimana il Signore viene a riscuotere l'affitto, paga la decima o lotta per la sua testa.",
+    "pitch": "Attraversa una terra al buio, costruisci un campione con 64 reliquie e scegli i tuoi scontri. Non ci sono dadi: ogni nemico porta una dotazione che puoi leggere, e la tua Pietra della Disperazione si oscura prima di uno scontro che ti ucciderebbe. Quando a fine settimana il Signore viene a riscuotere l'affitto, paga la decima o lotta per la sua testa.",
     "artAlt": "Un piccolo campione su una collina affronta un gigantesco Signore incoronato che emerge dalle colline buie sotto una luna rosso sangue.",
     "clipTitle": "Gameplay",
     "clipAlt": "Clip di gameplay: nella notte del Signore la mappa diventa rossa mentre il Re Vuoto viene a riscuotere; la sua carta offre di pagare la decima o combattere; poi lo scontro si risolve.",
@@ -41,8 +41,8 @@
     "intro": "Ogni partita dura tre settimane. Avanzi su una mappa avvolta nella nebbia, apri forzieri, visiti santuari e forge e componi la tua build di reliquie prima che la settimana finisca. Gli scontri sono automatici; la strategia sta nel percorso che scegli e nella build che monti.",
     "points": [
       {
-        "title": "Previsioni esatte sulla strada",
-        "text": "Il combattimento è deterministico al 100%. Prima di accettare uno scontro comune, il gioco simula la battaglia e mostra il risultato esatto, come \"Vittoria con 29 PV rimasti\". Solo contro il Signore combatti alla cieca."
+        "title": "Leggi il nemico, non i dadi",
+        "text": "Il combattimento è deterministico al 100%, e ogni nemico porta oggetti reali che puoi ispezionare prima dello scontro: valuta la sua dotazione contro la tua. La tua Pietra della Disperazione segna ogni nemico il cui scontro ti ucciderebbe, e non dice altro. Contro il Signore resta in silenzio."
       },
       {
         "title": "Paga l'affitto o combatti",
@@ -87,9 +87,9 @@
         "caption": "Lo scontro è automatico; la tua preparazione decide l'esito.",
         "alt": "Uno scontro contro il Re Vuoto in una cappella in rovina, con barre della salute, armatura e numeri dei danni."
       },
-      "forecast": {
-        "caption": "Il gioco calcola e mostra il risultato esatto prima di combattere.",
-        "alt": "La carta di un Bruto di Cenere con la previsione: Vittoria con 29 PV rimasti, e i pulsanti Combatti e Ritirati."
+      "stone": {
+        "caption": "La Pietra della Disperazione si oscura davanti a uno scontro che ti ucciderebbe.",
+        "alt": "La schermata prima dello scontro di un nemico, con le sue statistiche e gli oggetti che porta, il segno della Pietra della Disperazione e l'avviso Questo scontro ti ucciderebbe, e i pulsanti Combatti e Ritirati."
       },
       "risen": {
         "caption": "Un campione caduto in una partita precedente vaga per la strada con il suo oro.",
@@ -159,7 +159,7 @@
     "includesTitle": "Cosa include la demo",
     "includes": [
       "2 campioni: il Penitente di Ferro e il Tiratore della Forca.",
-      "La partita completa: tre settimane sulla mappa, previsioni lungo la strada, eventi, negozi, giuramenti e i Signori.",
+      "La partita completa: tre settimane sulla mappa, eventi, negozi, giuramenti e i Signori.",
       "Le 4 famiglie di reliquie iniziali.",
       "Niente Reliquiario: gli altri campioni, famiglie di reliquie e miglioramenti della borsa arrivano con il gioco completo.",
       "Un salvataggio proprio, separato dal gioco completo."
@@ -219,7 +219,7 @@
     "website": "Sito web",
     "contact": "Contatto",
     "descriptionTitle": "Descrizione",
-    "description": "Dawnbringer è un auto-battler roguelike dark fantasy in pixel art. Il sole è morto, l'oro è l'unico calore rimasto e ogni settimana un Signore viene a riscuotere l'affitto. I giocatori esplorano una mappa a turni, scelgono gli scontri e costruiscono un campione con 64 reliquie divise in otto famiglie. Poiché i combattimenti si risolvono in automatico e senza dadi, ogni incontro sulla strada mostra in anticipo il risultato esatto; contro il Signore non c'è previsione, e bisogna pagare la decima o combattere. Prima di ogni partita punti oro dalla tua banca, e dopo ogni settimana decidi se incassare la borsa o rischiarla in una settimana più dura. I campioni caduti vagano per la mappa nelle partite successive, mentre i vincitori possono tornare sul trono di un Signore.",
+    "description": "Dawnbringer è un auto-battler roguelike dark fantasy in pixel art. Il sole è morto, l'oro è l'unico calore rimasto e ogni settimana un Signore viene a riscuotere l'affitto. I giocatori esplorano una mappa a turni, scelgono gli scontri e costruiscono un campione con 64 reliquie divise in otto famiglie. I combattimenti si risolvono in automatico senza casualità e ogni nemico porta oggetti visibili, quindi i giocatori giudicano ogni scontro sulla strada confrontando la sua dotazione con la propria build; una Pietra della Disperazione avvisa solo quando uno scontro ucciderebbe l'eroe. Contro il Signore resta in silenzio, e bisogna pagare la decima o combattere. Prima di ogni partita punti oro dalla tua banca, e dopo ogni settimana decidi se incassare la borsa o rischiarla in una settimana più dura. I campioni caduti vagano per la mappa nelle partite successive, mentre i vincitori possono tornare sul trono di un Signore.",
     "mediaTitle": "Logo, key art e screenshot",
     "zip": "Scarica tutto (.zip, {size})",
     "logo": "Logo (PNG, trasparente)",

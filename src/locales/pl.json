@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: roguelike auto-battler dark fantasy",
-    "description": "Słońce zgasło, a Właściciel co tydzień przychodzi po czynsz. Zbuduj czempiona, poznaj dokładny wynik każdej walki na szlaku i zapłać dziesięcinę albo walcz z bossem.",
+    "description": "Słońce zgasło, a Właściciel co tydzień przychodzi po czynsz. Zbuduj czempiona, czytaj, co niesie każdy wróg, i zdecyduj, czy zapłacić dziesięcinę, czy walczyć z bossem.",
     "pressTitle": "Materiały prasowe Dawnbringer",
     "pressDescription": "Karta informacyjna, opis, cechy, logo, key art i zrzuty ekranu gry Dawnbringer, roguelike auto-battlera od gmunaro.",
     "notFoundTitle": "Nie znaleziono strony",
@@ -22,7 +22,7 @@
   },
   "hero": {
     "tagline": "Słońce zgasło. Nieś jego ostatni żar.",
-    "pitch": "Przemierzaj pogrążoną w mroku krainę, zbuduj czempiona z 64 reliktów i wybieraj walki. W grze nie ma kości: na szlaku znasz dokładny wynik starcia, zanim do niego staniesz. Gdy pod koniec tygodnia Właściciel przyjdzie po czynsz, zapłać dziesięcinę albo walcz o jego głowę.",
+    "pitch": "Przemierzaj pogrążoną w mroku krainę, zbuduj czempiona z 64 reliktów i wybieraj walki. W grze nie ma kości: każdy wróg niesie przedmioty, które możesz odczytać, a twój Kamień Rozpaczy ciemnieje przed walką, która by cię zabiła. Gdy pod koniec tygodnia Właściciel przyjdzie po czynsz, zapłać dziesięcinę albo walcz o jego głowę.",
     "artAlt": "Mały czempion na wzgórzu staje naprzeciw olbrzymiego Właściciela w koronie, który wyłania się z ciemnych wzgórz pod krwistoczerwonym księżycem.",
     "clipTitle": "Rozgrywka",
     "clipAlt": "Fragment rozgrywki: w noc Właściciela mapa robi się czerwona, gdy Pusty Król przychodzi po należność; jego karta pozwala zapłacić dziesięcinę albo walczyć; potem starcie się rozstrzyga.",
@@ -41,8 +41,8 @@
     "intro": "Każda wyprawa trwa trzy tygodnie. Wędrujesz przez spowitą mgłą mapę, otwierasz skrzynie, odwiedzasz kapliczki oraz kuźnie i składasz build z reliktów przed końcem tygodnia. Walki rozgrywają się automatycznie; strategia kryje się w wybranej trasie i złożonym ekwipunku.",
     "points": [
       {
-        "title": "Dokładne prognozy na szlaku",
-        "text": "Walka jest w 100% deterministyczna. Zanim podejmiesz zwykłe starcie na drodze, gra symuluje potyczkę i pokazuje dokładny wynik, np. \"Zwycięstwo. PŻ: 29\". Tylko z Właścicielem walczysz w ciemno."
+        "title": "Czytaj wroga, nie kości",
+        "text": "Walka jest w 100% deterministyczna, a każdy wróg niesie prawdziwe przedmioty, które możesz obejrzeć przed walką: oceń jego ekwipunek względem swojego. Twój Kamień Rozpaczy oznacza każdego wroga, którego walka by cię zabiła, i nic więcej nie mówi. Przeciw Właścicielowi milczy."
       },
       {
         "title": "Zapłać czynsz albo walcz",
@@ -87,9 +87,9 @@
         "caption": "Walka toczy się sama; o wyniku decyduje twoje przygotowanie.",
         "alt": "Walka z Pustym Królem w zrujnowanej kaplicy, z paskami zdrowia, pancerzem i liczbami obrażeń."
       },
-      "forecast": {
-        "caption": "Gra wylicza i pokazuje dokładny wynik, zanim staniesz do walki.",
-        "alt": "Karta Popielnego Brutala z prognozą: Zwycięstwo. PŻ: 29, oraz przyciski Walcz i Wycofaj się."
+      "stone": {
+        "caption": "Kamień Rozpaczy ciemnieje nad walką, która by cię zabiła.",
+        "alt": "Ekran przed walką z wrogiem: jego statystyki i niesione przedmioty, znak Kamienia Rozpaczy, ostrzeżenie Ta walka by cię zabiła oraz przyciski Walcz i Wycofaj się."
       },
       "risen": {
         "caption": "Poległy czempion z dawnej wyprawy krąży po drodze ze swoim złotem.",
@@ -159,7 +159,7 @@
     "includesTitle": "Co zawiera demo",
     "includes": [
       "2 czempionów: Żelazny Pokutnik i Strzelczyni Szubienicy.",
-      "Pełna wyprawa: trzy tygodnie na mapie, prognozy na drodze, wydarzenia, sklepy, przysięgi i Właściciele.",
+      "Pełna wyprawa: trzy tygodnie na mapie, wydarzenia, sklepy, przysięgi i Właściciele.",
       "4 startowe rody reliktów.",
       "Bez Relikwiarza: pozostali czempioni, rody reliktów i ulepszenia sakiewki są w pełnej wersji.",
       "Osobny zapis gry, oddzielny od pełnej wersji."
@@ -219,7 +219,7 @@
     "website": "Strona",
     "contact": "Kontakt",
     "descriptionTitle": "Opis",
-    "description": "Dawnbringer to pikselowy roguelike auto-battler w świecie dark fantasy. Słońce zgasło, złoto jest jedynym pozostałym ciepłem, a co tydzień Właściciel przychodzi po czynsz. Gracze przemierzają turową mapę, wybierają walki i budują czempiona z 64 reliktów należących do ośmiu rodów. Ponieważ starcia rozstrzygają się automatycznie bez udziału losowości, każde spotkanie na drodze pokazuje dokładny wynik przed walką; przeciwko Właścicielowi prognozy nie ma i trzeba zapłacić dziesięcinę albo walczyć. Przed każdą wyprawą stawiasz złoto z banku, a po każdym tygodniu wypłacasz sakiewkę albo ryzykujesz ją w trudniejszym tygodniu. Polegli czempioni krążą po mapie w kolejnych wyprawach, a zwycięzcy mogą powrócić na tronie Właściciela.",
+    "description": "Dawnbringer to pikselowy roguelike auto-battler w świecie dark fantasy. Słońce zgasło, złoto jest jedynym pozostałym ciepłem, a co tydzień Właściciel przychodzi po czynsz. Gracze przemierzają turową mapę, wybierają walki i budują czempiona z 64 reliktów należących do ośmiu rodów. Ponieważ starcia rozstrzygają się automatycznie, bez losowości, a każdy wróg niesie widoczne przedmioty, gracze oceniają każdą walkę na drodze, czytając jego ekwipunek względem własnego buildu; Kamień Rozpaczy ostrzega tylko wtedy, gdy walka by zabiła bohatera. Przeciwko Właścicielowi milczy, a trzeba zapłacić dziesięcinę albo walczyć. Przed każdą wyprawą stawiasz złoto z banku, a po każdym tygodniu wypłacasz sakiewkę albo ryzykujesz ją w trudniejszym tygodniu. Polegli czempioni krążą po mapie w kolejnych wyprawach, a zwycięzcy mogą powrócić na tronie Właściciela.",
     "mediaTitle": "Logo, key art i zrzuty ekranu",
     "zip": "Pobierz wszystko (.zip, {size})",
     "logo": "Logo (PNG, przezroczyste)",
