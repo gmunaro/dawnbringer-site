@@ -61,6 +61,24 @@ export const BETA: { group: string; test: string; install: string } | null = {
 };
 
 /**
+ * The desktop demo, downloaded from the GitHub Release `demo-v<version>` of this repository (Pages
+ * cannot hold files over 100 MB). `bytes` is each asset's exact size, shown on its button; update
+ * both when a new demo is released (the game repo's tools/release/package_demo.sh writes the files).
+ * Set to null to drop the demo section.
+ */
+export const DEMO: { version: string; files: Record<"windows" | "macos" | "linux", { name: string; bytes: number }> } | null = {
+  version: "0.3.0",
+  files: {
+    windows: { name: "DawnbringerDemo-0.3.0-windows.exe", bytes: 151483104 },
+    macos: { name: "DawnbringerDemo-0.3.0-macos.zip", bytes: 108912131 },
+    linux: { name: "DawnbringerDemo-0.3.0-linux-x86_64.tar.gz", bytes: 72503752 },
+  },
+};
+/** Where a demo file is downloaded from. */
+export const demoUrl = (version: string, file: string) =>
+  `https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v${version}/${file}`;
+
+/**
  * Gallery, in order. `id` names src/assets/shots/<id>.webp (640x360) and the locale's
  * screens.items.<id> caption and alt text; the press kit holds the same picture at 1920x1080 as
  * src/presskit/screenshots/<NN>_<id>.png (NN = position, from 01). tools/media.sh writes both.

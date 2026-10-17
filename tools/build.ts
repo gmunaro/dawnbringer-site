@@ -125,11 +125,11 @@ async function main(): Promise<void> {
   const pages: Page[] = [];
   for (const loc of LOCALES) {
     const t = strings.get(loc.code)!;
-    const zipSize = new Intl.NumberFormat(loc.code, { maximumFractionDigits: 1, minimumFractionDigits: 1 }).format(zipBytes / 1e6) + " MB";
-    const c: Ctx = { loc, t, zipSize };
+    const mb = (bytes: number) => new Intl.NumberFormat(loc.code, { maximumFractionDigits: 1, minimumFractionDigits: 1 }).format(bytes / 1e6) + " MB";
+    const c: Ctx = { loc, t, zipSize: mb(zipBytes), mb };
     pages.push(homePage(c), pressPage(c));
   }
-  const en: Ctx = { loc: LOCALES[0]!, t: strings.get("en")!, zipSize: "" };
+  const en: Ctx = { loc: LOCALES[0]!, t: strings.get("en")!, zipSize: "", mb: String };
   // A Windows checkout may hold the file with CRLF line ends.
   const md = privacyMd.replace(/\r\n/g, "\n");
   const [enMd, ptMd] = md.split(/\n---\n/);

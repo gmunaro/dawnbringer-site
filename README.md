@@ -36,6 +36,14 @@ Edit `STORES` in `tools/config.ts`: a `url` turns the greyed-out "coming soon" b
 Steam needs the store page URL once the app id exists; Google Play's listing URL is in a comment
 there.
 
+## Demo downloads
+
+The "Download the demo" section (`#download`) links to the assets of the GitHub Release
+`demo-v<version>` of this repository; Pages cannot hold files over 100 MB. For a new demo: run
+`tools/release/package_demo.sh` in the game repo, create the release with its four files
+(`gh release create demo-v<version> --repo gmunaro/dawnbringer-site ...`), then set `DEMO` in
+`tools/config.ts` (version, file names and exact sizes in bytes) and rebuild.
+
 ## Pictures and video
 
 Only needed when the game's look changes. On a throwaway copy of the game (never the working

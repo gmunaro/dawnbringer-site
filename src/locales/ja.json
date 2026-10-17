@@ -15,6 +15,7 @@
     "screens": "スクリーンショット",
     "features": "特徴",
     "platforms": "プラットフォーム",
+    "demo": "体験版",
     "beta": "ベータ",
     "press": "プレスキット",
     "language": "言語"
@@ -145,11 +146,36 @@
     "title": "プラットフォーム",
     "intro": "PCおよびモバイル向けに開発中。Android版クローズドベータは現在参加可能です。",
     "pc": "PC",
-    "pcNote": "SteamにてWindows版を配信予定。macOS・Linux版も計画中。",
+    "pcNote": "SteamにてWindows版を配信予定。無料体験版はmacOSとLinuxでも動作します。",
     "android": "Android",
     "androidNote": "スマートフォン・タブレット向けにGoogle Playで配信。",
     "ios": "iPhoneとiPad",
     "iosNote": "App Storeで配信。"
+  },
+  "demo": {
+    "title": "体験版をダウンロード",
+    "intro": "Windows、macOS、Linux向けの無料体験版です。探索を最後まで遊べますが、選べる英雄と聖遺物は少なくなっています。",
+    "version": "バージョン {version}。",
+    "includesTitle": "体験版の内容",
+    "includes": [
+      "英雄2人：鉄鎖の悔悟者と絞首台の狙撃手。",
+      "探索のすべて：マップでの3週間、道中の戦闘予測、イベント、ショップ、誓約、地主。",
+      "最初から使える聖遺物の4系統。",
+      "聖遺物箱はなし：ほかの英雄、聖遺物の系統、財布の拡張は製品版で手に入ります。",
+      "製品版とは別のセーブデータ。"
+    ],
+    "windows": "Windows",
+    "windowsNote": "Windows 10または11（64ビット）。.exeファイル1つで、インストールは不要です。ファイルにはまだコード署名がないため、SmartScreenの警告が出ることがあります。「詳細情報」を押し、「実行」を押してください。",
+    "macos": "macOS",
+    "macosNote": "Apple siliconとIntelのMacに対応した1つのアプリです。解凍して、Dawnbringerを「アプリケーション」へドラッグしてください。",
+    "macosOpen": "このアプリはまだAppleの公証を受けていないため、macOSは最初の起動をブロックします。アプリを右クリック（またはControlキーを押しながらクリック）して「開く」を選んでください。「開く」ボタンが出ない場合は、「システム設定」>「プライバシーとセキュリティ」で「このまま開く」を押してください。",
+    "linux": "Linux",
+    "linuxNote": "x86_64。アーカイブを展開し、DawnbringerDemo.x86_64を実行してください。OpenGL 3.3に対応したグラフィックドライバーが必要です。",
+    "download": "ダウンロード（{size}）",
+    "checksums": "ファイルのSHA-256チェックサム",
+    "android": "Android：クローズドベータに参加できます。",
+    "androidLink": "ベータに参加",
+    "ios": "iPhoneとiPad：まだ提供していません。"
   },
   "beta": {
     "title": "ベータに参加",

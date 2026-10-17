@@ -15,6 +15,7 @@
     "screens": "Screenshot",
     "features": "Caratteristiche",
     "platforms": "Piattaforme",
+    "demo": "Demo",
     "beta": "Beta",
     "press": "Press kit",
     "language": "Lingua"
@@ -145,11 +146,36 @@
     "title": "Piattaforme",
     "intro": "In sviluppo per PC e dispositivi mobili. La beta chiusa su Android è aperta.",
     "pc": "PC",
-    "pcNote": "Windows su Steam. macOS e Linux previsti.",
+    "pcNote": "Windows su Steam. La demo gratuita funziona anche su macOS e Linux.",
     "android": "Android",
     "androidNote": "Telefoni e tablet, su Google Play.",
     "ios": "iPhone e iPad",
     "iosNote": "Sull'App Store."
+  },
+  "demo": {
+    "title": "Scarica la demo",
+    "intro": "Una demo gratuita per Windows, macOS e Linux. Contiene la partita intera, con meno campioni e reliquie tra cui scegliere.",
+    "version": "Versione {version}.",
+    "includesTitle": "Cosa include la demo",
+    "includes": [
+      "2 campioni: il Penitente di Ferro e il Tiratore della Forca.",
+      "La partita completa: tre settimane sulla mappa, previsioni lungo la strada, eventi, negozi, giuramenti e i Signori.",
+      "Le 4 famiglie di reliquie iniziali.",
+      "Niente Reliquiario: gli altri campioni, famiglie di reliquie e miglioramenti della borsa arrivano con il gioco completo.",
+      "Un salvataggio proprio, separato dal gioco completo."
+    ],
+    "windows": "Windows",
+    "windowsNote": "Windows 10 o 11, 64 bit. Un solo file .exe, senza installazione. Il file non ha ancora la firma del codice, quindi SmartScreen può avvisarti: fai clic su Ulteriori informazioni e poi su Esegui comunque.",
+    "macos": "macOS",
+    "macosNote": "Un'app per Mac con Apple silicon e Intel. Decomprimila e trascina Dawnbringer in Applicazioni.",
+    "macosOpen": "L'app non è ancora autenticata da Apple, quindi macOS blocca il primo avvio. Fai clic destro (o Control-clic) sull'app e scegli Apri. Se non compare il pulsante Apri, vai in Impostazioni di Sistema > Privacy e sicurezza e fai clic su Apri comunque.",
+    "linux": "Linux",
+    "linuxNote": "x86_64. Estrai l'archivio ed esegui DawnbringerDemo.x86_64. Servono driver grafici con OpenGL 3.3.",
+    "download": "Scarica ({size})",
+    "checksums": "Checksum SHA-256 dei file",
+    "android": "Android: la beta chiusa è aperta.",
+    "androidLink": "Partecipa alla beta",
+    "ios": "iPhone e iPad: non ancora disponibile."
   },
   "beta": {
     "title": "Partecipa alla beta",

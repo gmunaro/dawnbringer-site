@@ -1,6 +1,6 @@
 // HTML of every page, as plain template strings. Every text comes from a locale's JSON and is
 // escaped with esc(); every link starts with BASE so the site works under /dawnbringer-site/.
-import { BASE, BETA, CONTACT, LOCALES, SHOTS, SITE, STORES, type Locale, type PixelFont } from "./config.ts";
+import { BASE, BETA, CONTACT, DEMO, demoUrl, LOCALES, SHOTS, SITE, STORES, type Locale, type PixelFont } from "./config.ts";
 import type en from "../src/locales/en.json";
 
 /** The shape of a locale file (en.json is the reference; tools/check.ts checks the others). */
@@ -19,6 +19,8 @@ export interface Ctx {
   t: Strings;
   /** Press kit zip size, already formatted for the locale ("1.4 MB"). */
   zipSize: string;
+  /** A size in bytes formatted for the locale ("139.5 MB"). */
+  mb: (bytes: number) => string;
 }
 
 export function esc(s: string): string {
@@ -79,7 +81,7 @@ function topBar(c: Ctx, page: "" | "presskit/"): string {
   const { t, loc } = c;
   const home = BASE + pathOf(loc, "");
   const sections = page === ""
-    ? [...(BETA ? [["beta", t.nav.beta]] : []), ["game", t.nav.game], ["story", t.nav.story], ["screens", t.nav.screens], ["features", t.nav.features], ["platforms", t.nav.platforms]]
+    ? [...(DEMO ? [["download", t.nav.demo]] : []), ...(BETA ? [["beta", t.nav.beta]] : []), ["game", t.nav.game], ["story", t.nav.story], ["screens", t.nav.screens], ["features", t.nav.features], ["platforms", t.nav.platforms]]
         .map(([id, label]) => `<li><a href="#${id}">${esc(label!)}</a></li>`).join("")
     : `<li><a href="${home}">${esc(t.nav.home)}</a></li>`;
   const press = `<li><a href="${BASE + pathOf(loc, "presskit/")}"${page === "presskit/" ? ' aria-current="page"' : ""}>${esc(t.nav.press)}</a></li>`;
@@ -158,6 +160,32 @@ ${step(3, t.beta.step3, t.beta.step3Link, beta.install)}
 </section>`;
 }
 
+/** The desktop demo: what it holds, a download per system (with its size) and how to open each. */
+function demoSection(c: Ctx, demo: NonNullable<typeof DEMO>): string {
+  const { t } = c;
+  const card = (os: keyof typeof demo.files, name: string, notes: string[], type: string) => {
+    const f = demo.files[os];
+    return `<li class="card"><h3>${esc(name)}</h3>${notes.map((n) => `<p>${esc(n)}</p>`).join("")}<a class="btn" href="${esc(demoUrl(demo.version, f.name))}" download>${esc(t.demo.download.replace("{size}", c.mb(f.bytes)))}<small>${type}</small></a></li>`;
+  };
+  const androidLink = BETA ? ` <a href="#beta">${esc(t.demo.androidLink)}</a>` : "";
+  return `<section id="download" class="wrap" aria-labelledby="demo-title">
+<h2 id="demo-title">${esc(t.demo.title)}</h2>
+<p class="lead">${esc(t.demo.intro)} ${esc(t.demo.version.replace("{version}", demo.version))}</p>
+<h3>${esc(t.demo.includesTitle)}</h3>
+<ul class="features panel demo-includes">
+${t.demo.includes.map((x) => `<li>${esc(x)}</li>`).join("\n")}
+</ul>
+<ul class="cards platforms demo-downloads">
+${card("windows", t.demo.windows, [t.demo.windowsNote], ".exe")}
+${card("macos", t.demo.macos, [t.demo.macosNote, t.demo.macosOpen], ".zip")}
+${card("linux", t.demo.linux, [t.demo.linuxNote], ".tar.gz")}
+</ul>
+<p class="demo-sums"><a href="${esc(demoUrl(demo.version, "SHA256SUMS.txt"))}">${esc(t.demo.checksums)}</a></p>
+<p>${esc(t.demo.android)}${androidLink}</p>
+<p>${esc(t.demo.ios)}</p>
+</section>`;
+}
+
 const alternates = (page: "" | "presskit/") => LOCALES.map((l) => ({ loc: l, path: pathOf(l, page) }));
 
 export function homePage(c: Ctx): Page {
@@ -188,7 +216,7 @@ ${topBar(c, "")}
 <p class="tagline">${esc(t.hero.tagline)}</p>
 <p class="pitch">${esc(t.hero.pitch)}</p>
 <h2 class="sr">${esc(t.stores.title)}</h2>
-<ul class="stores">${BETA ? `<li><a class="btn store" href="#beta">${esc(t.beta.title)}<small>Android</small></a></li>` : ""}${STORES.map((s) => `<li>${store(t, s)}</li>`).join("")}</ul>
+<ul class="stores">${DEMO ? `<li><a class="btn store" href="#download">${esc(t.demo.title)}<small>Windows · macOS · Linux</small></a></li>` : ""}${BETA ? `<li><a class="btn store" href="#beta">${esc(t.beta.title)}<small>Android</small></a></li>` : ""}${STORES.map((s) => `<li>${store(t, s)}</li>`).join("")}</ul>
 </div>
 </section>
 <section class="clip wrap" aria-labelledby="clip-title">
@@ -201,6 +229,7 @@ ${esc(t.hero.clipFallback)}
 </video>
 </div>
 </section>
+${DEMO ? demoSection(c, DEMO) : ""}
 ${BETA ? betaSection(t, BETA) : ""}
 <section id="game" class="wrap">
 <h2>${esc(t.about.title)}</h2>

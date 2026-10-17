@@ -15,6 +15,7 @@
     "screens": "스크린샷",
     "features": "특징",
     "platforms": "플랫폼",
+    "demo": "데모",
     "beta": "베타",
     "press": "프레스 키트",
     "language": "언어"
@@ -145,11 +146,36 @@
     "title": "플랫폼",
     "intro": "PC와 모바일로 개발 중입니다. 현재 Android 비공개 베타가 열려 있습니다.",
     "pc": "PC",
-    "pcNote": "Steam에서 Windows 지원. macOS와 Linux도 계획 중입니다.",
+    "pcNote": "Steam에서 Windows 지원. 무료 데모는 macOS와 Linux에서도 실행됩니다.",
     "android": "Android",
     "androidNote": "스마트폰과 태블릿, Google Play에서.",
     "ios": "iPhone 및 iPad",
     "iosNote": "App Store에서."
+  },
+  "demo": {
+    "title": "데모 다운로드",
+    "intro": "Windows, macOS, Linux용 무료 데모입니다. 런 전체를 플레이할 수 있지만 고를 수 있는 영웅과 유물은 더 적습니다.",
+    "version": "버전 {version}.",
+    "includesTitle": "데모에 포함된 내용",
+    "includes": [
+      "영웅 2명: 쇠사슬 참회자와 교수대 사수.",
+      "런 전체: 지도 위의 3주, 길 위의 전투 예측, 이벤트, 상점, 맹세, 지주.",
+      "시작 유물 계열 4개.",
+      "성유물함 없음: 다른 영웅, 유물 계열, 지갑 업그레이드는 정식 버전에 있습니다.",
+      "정식 버전과 분리된 별도 저장 파일."
+    ],
+    "windows": "Windows",
+    "windowsNote": "Windows 10 또는 11, 64비트. .exe 파일 하나이며 설치가 필요 없습니다. 아직 코드 서명이 없어 SmartScreen 경고가 뜰 수 있습니다. 추가 정보를 누른 다음 실행을 누르세요.",
+    "macos": "macOS",
+    "macosNote": "Apple silicon과 Intel Mac에서 모두 실행되는 앱 하나입니다. 압축을 풀고 Dawnbringer를 응용 프로그램 폴더로 끌어 놓으세요.",
+    "macosOpen": "아직 Apple의 공증을 받지 않아 macOS가 첫 실행을 막습니다. 앱을 오른쪽 클릭(또는 Control 클릭)하고 열기를 선택하세요. 열기 버튼이 없으면 시스템 설정 > 개인정보 보호 및 보안에서 그래도 열기를 누르세요.",
+    "linux": "Linux",
+    "linuxNote": "x86_64. 압축을 풀고 DawnbringerDemo.x86_64를 실행하세요. OpenGL 3.3을 지원하는 그래픽 드라이버가 필요합니다.",
+    "download": "다운로드 ({size})",
+    "checksums": "파일의 SHA-256 체크섬",
+    "android": "Android: 비공개 베타에 참여할 수 있습니다.",
+    "androidLink": "베타 참여",
+    "ios": "iPhone 및 iPad: 아직 제공되지 않습니다."
   },
   "beta": {
     "title": "베타 참여",

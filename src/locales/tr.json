@@ -15,6 +15,7 @@
     "screens": "Ekran görüntüleri",
     "features": "Özellikler",
     "platforms": "Platformlar",
+    "demo": "Demo",
     "beta": "Beta",
     "press": "Basın kiti",
     "language": "Dil"
@@ -145,11 +146,36 @@
     "title": "Platformlar",
     "intro": "PC ve mobil için geliştiriliyor. Android kapalı betası şu anda açık.",
     "pc": "PC",
-    "pcNote": "Steam'de Windows. macOS ve Linux planlanıyor.",
+    "pcNote": "Steam'de Windows. Ücretsiz demo macOS ve Linux'ta da çalışır.",
     "android": "Android",
     "androidNote": "Telefon ve tabletler için, Google Play'de.",
     "ios": "iPhone ve iPad",
     "iosNote": "App Store'da."
+  },
+  "demo": {
+    "title": "Demoyu indir",
+    "intro": "Windows, macOS ve Linux için ücretsiz bir demo. Koşunun tamamını içerir, ancak seçilecek şampiyon ve relik sayısı daha azdır.",
+    "version": "Sürüm {version}.",
+    "includesTitle": "Demoda neler var",
+    "includes": [
+      "2 şampiyon: Demirci Tövbekar ve Darağacı Nişancısı.",
+      "Tam koşu: haritada üç hafta, yol tahminleri, olaylar, dükkanlar, yeminler ve Ev sahipleri.",
+      "4 başlangıç relik ailesi.",
+      "Relikarya yok: diğer şampiyonlar, relik aileleri ve kese yükseltmeleri tam sürümde.",
+      "Tam sürümden ayrı, kendi kayıt dosyası."
+    ],
+    "windows": "Windows",
+    "windowsNote": "Windows 10 veya 11, 64 bit. Tek bir .exe dosyası, kurulum yok. Dosyanın henüz kod imzası yok, bu yüzden SmartScreen uyarabilir: Daha fazla bilgi'ye, ardından Yine de çalıştır'a tıklayın.",
+    "macos": "macOS",
+    "macosNote": "Apple silicon ve Intel Mac'ler için tek bir uygulama. Arşivi açın ve Dawnbringer'ı Uygulamalar'a sürükleyin.",
+    "macosOpen": "Uygulama henüz Apple tarafından onaylanmadı, bu yüzden macOS ilk açılışı engeller. Uygulamaya sağ tıklayın (veya Control ile tıklayın) ve Aç'ı seçin. Aç düğmesi yoksa Sistem Ayarları > Gizlilik ve Güvenlik'e gidin ve Yine de Aç'a tıklayın.",
+    "linux": "Linux",
+    "linuxNote": "x86_64. Arşivi açın ve DawnbringerDemo.x86_64 dosyasını çalıştırın. OpenGL 3.3 destekli grafik sürücüleri gerekir.",
+    "download": "İndir ({size})",
+    "checksums": "Dosyaların SHA-256 sağlama toplamları",
+    "android": "Android: kapalı beta açık.",
+    "androidLink": "Betaya katıl",
+    "ios": "iPhone ve iPad: henüz mevcut değil."
   },
   "beta": {
     "title": "Betaya katıl",

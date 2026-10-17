@@ -15,6 +15,7 @@
     "screens": "Captures",
     "features": "Points forts",
     "platforms": "Plateformes",
+    "demo": "Démo",
     "beta": "Bêta",
     "press": "Dossier de presse",
     "language": "Langue"
@@ -145,11 +146,36 @@
     "title": "Plateformes",
     "intro": "En développement sur PC et mobile. La bêta fermée Android est ouverte.",
     "pc": "PC",
-    "pcNote": "Windows sur Steam. macOS et Linux prévus.",
+    "pcNote": "Windows sur Steam. La démo gratuite tourne aussi sur macOS et Linux.",
     "android": "Android",
     "androidNote": "Téléphones et tablettes, sur Google Play.",
     "ios": "iPhone et iPad",
     "iosNote": "Sur l'App Store."
+  },
+  "demo": {
+    "title": "Télécharger la démo",
+    "intro": "Une démo gratuite pour Windows, macOS et Linux. Elle contient la partie entière, avec moins de champions et de reliques au choix.",
+    "version": "Version {version}.",
+    "includesTitle": "Contenu de la démo",
+    "includes": [
+      "2 champions : le Pénitent de Fer et la Tireuse du Gibet.",
+      "La partie complète : trois semaines sur la carte, prévisions sur la route, événements, boutiques, serments et les Seigneurs.",
+      "Les 4 familles de reliques de départ.",
+      "Pas de Reliquaire : les autres champions, familles de reliques et améliorations de bourse arrivent avec le jeu complet.",
+      "Sa propre sauvegarde, séparée du jeu complet."
+    ],
+    "windows": "Windows",
+    "windowsNote": "Windows 10 ou 11, 64 bits. Un seul fichier .exe, sans installateur. Le fichier n'a pas encore de signature de code, donc SmartScreen peut afficher un avertissement : cliquez sur Informations complémentaires, puis sur Exécuter quand même.",
+    "macos": "macOS",
+    "macosNote": "Une app pour les Mac Apple silicon et Intel. Décompressez-la et glissez Dawnbringer dans Applications.",
+    "macosOpen": "L'app n'est pas encore notarisée par Apple, donc macOS bloque le premier lancement. Faites un clic droit (ou Contrôle-clic) sur l'app et choisissez Ouvrir. S'il n'y a pas de bouton Ouvrir, allez dans Réglages Système > Confidentialité et sécurité et cliquez sur Ouvrir quand même.",
+    "linux": "Linux",
+    "linuxNote": "x86_64. Extrayez l'archive et lancez DawnbringerDemo.x86_64. Nécessite des pilotes graphiques avec OpenGL 3.3.",
+    "download": "Télécharger ({size})",
+    "checksums": "Sommes SHA-256 des fichiers",
+    "android": "Android : la bêta fermée est ouverte.",
+    "androidLink": "Rejoindre la bêta",
+    "ios": "iPhone et iPad : pas encore disponible."
   },
   "beta": {
     "title": "Rejoindre la bêta",

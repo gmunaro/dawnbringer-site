@@ -15,6 +15,7 @@
     "screens": "Screenshots",
     "features": "Features",
     "platforms": "Platforms",
+    "demo": "Demo",
     "beta": "Beta",
     "press": "Press kit",
     "language": "Language"
@@ -145,11 +146,36 @@
     "title": "Platforms",
     "intro": "In development for PC and mobile. The Android closed beta is open now.",
     "pc": "PC",
-    "pcNote": "Windows on Steam. macOS and Linux planned.",
+    "pcNote": "Windows on Steam. The free demo also runs on macOS and Linux.",
     "android": "Android",
     "androidNote": "Phones and tablets, on Google Play.",
     "ios": "iPhone and iPad",
     "iosNote": "On the App Store."
+  },
+  "demo": {
+    "title": "Download the demo",
+    "intro": "A free demo for Windows, macOS and Linux. It plays the whole run, with fewer champions and relics to choose from.",
+    "version": "Version {version}.",
+    "includesTitle": "What the demo includes",
+    "includes": [
+      "2 champions: the Ironbound Penitent and the Gallows Marksman.",
+      "The full run: three weeks on the map, road forecasts, events, shops, oaths and the Landlords.",
+      "The 4 starting relic families.",
+      "No Reliquary: the other champions, relic families and purse upgrades come with the full game.",
+      "Its own save, separate from the full game."
+    ],
+    "windows": "Windows",
+    "windowsNote": "Windows 10 or 11, 64-bit. One .exe file, no installer. The file is not code-signed yet, so SmartScreen may warn you: click More info, then Run anyway.",
+    "macos": "macOS",
+    "macosNote": "One app for Apple silicon and Intel Macs. Unzip it and drag Dawnbringer to Applications.",
+    "macosOpen": "The app is not notarized by Apple yet, so macOS blocks the first launch. Right-click (or Control-click) the app and choose Open. If there is no Open button, go to System Settings > Privacy & Security and click Open Anyway.",
+    "linux": "Linux",
+    "linuxNote": "x86_64. Extract the archive and run DawnbringerDemo.x86_64. Needs graphics drivers with OpenGL 3.3.",
+    "download": "Download ({size})",
+    "checksums": "SHA-256 checksums of the files",
+    "android": "Android: the closed beta is open.",
+    "androidLink": "Join the beta",
+    "ios": "iPhone and iPad: not available yet."
   },
   "beta": {
     "title": "Join the beta",

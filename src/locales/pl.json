@@ -15,6 +15,7 @@
     "screens": "Zrzuty ekranu",
     "features": "Cechy",
     "platforms": "Platformy",
+    "demo": "Demo",
     "beta": "Beta",
     "press": "Dla prasy",
     "language": "Język"
@@ -145,11 +146,36 @@
     "title": "Platformy",
     "intro": "W produkcji na PC i urządzenia mobilne. Zamknięta beta na Androidzie jest już otwarta.",
     "pc": "PC",
-    "pcNote": "Windows na Steamie. macOS i Linux w planach.",
+    "pcNote": "Windows na Steamie. Darmowe demo działa też na macOS i Linuksie.",
     "android": "Android",
     "androidNote": "Telefony i tablety, w Google Play.",
     "ios": "iPhone i iPad",
     "iosNote": "W App Store."
+  },
+  "demo": {
+    "title": "Pobierz demo",
+    "intro": "Darmowe demo na Windows, macOS i Linuksa. Zawiera całą wyprawę, z mniejszym wyborem czempionów i reliktów.",
+    "version": "Wersja {version}.",
+    "includesTitle": "Co zawiera demo",
+    "includes": [
+      "2 czempionów: Żelazny Pokutnik i Strzelczyni Szubienicy.",
+      "Pełna wyprawa: trzy tygodnie na mapie, prognozy na drodze, wydarzenia, sklepy, przysięgi i Właściciele.",
+      "4 startowe rody reliktów.",
+      "Bez Relikwiarza: pozostali czempioni, rody reliktów i ulepszenia sakiewki są w pełnej wersji.",
+      "Osobny zapis gry, oddzielny od pełnej wersji."
+    ],
+    "windows": "Windows",
+    "windowsNote": "Windows 10 lub 11, 64-bit. Jeden plik .exe, bez instalatora. Plik nie ma jeszcze podpisu cyfrowego, więc SmartScreen może ostrzec: kliknij Więcej informacji, a potem Uruchom mimo to.",
+    "macos": "macOS",
+    "macosNote": "Jedna aplikacja na Maki z Apple silicon i Intel. Rozpakuj ją i przeciągnij Dawnbringer do Aplikacji.",
+    "macosOpen": "Aplikacja nie jest jeszcze notaryzowana przez Apple, więc macOS blokuje pierwsze uruchomienie. Kliknij aplikację prawym przyciskiem (lub z Control) i wybierz Otwórz. Jeśli nie ma przycisku Otwórz, przejdź do Ustawienia systemowe > Prywatność i ochrona i kliknij Otwórz mimo to.",
+    "linux": "Linux",
+    "linuxNote": "x86_64. Rozpakuj archiwum i uruchom DawnbringerDemo.x86_64. Wymaga sterowników graficznych z OpenGL 3.3.",
+    "download": "Pobierz ({size})",
+    "checksums": "Sumy kontrolne SHA-256 plików",
+    "android": "Android: zamknięta beta jest otwarta.",
+    "androidLink": "Dołącz do bety",
+    "ios": "iPhone i iPad: jeszcze niedostępne."
   },
   "beta": {
     "title": "Dołącz do bety",

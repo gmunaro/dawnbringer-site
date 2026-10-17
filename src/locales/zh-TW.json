@@ -15,6 +15,7 @@
     "screens": "截圖",
     "features": "特色",
     "platforms": "平台",
+    "demo": "試玩版",
     "beta": "測試",
     "press": "媒體資料",
     "language": "語言"
@@ -145,11 +146,36 @@
     "title": "平台",
     "intro": "正在面向 PC 與行動裝置開發。Android 封閉測試現已開放。",
     "pc": "PC",
-    "pcNote": "Windows 版登上 Steam。預計推出 macOS 和 Linux 版。",
+    "pcNote": "Windows 版登上 Steam。免費試玩版也能在 macOS 和 Linux 上執行。",
     "android": "Android",
     "androidNote": "手機和平板，登上 Google Play。",
     "ios": "iPhone 和 iPad",
     "iosNote": "登上 App Store。"
+  },
+  "demo": {
+    "title": "下載試玩版",
+    "intro": "適用於 Windows、macOS 和 Linux 的免費試玩版。可以玩完整的一次出征，但可選的勇士和聖物較少。",
+    "version": "版本 {version}。",
+    "includesTitle": "試玩版包含的內容",
+    "includes": [
+      "2 位勇士：鐵縛懺悔者與絞架神射手。",
+      "完整的出征：地圖上的三週、路上的戰鬥預測、事件、商店、誓約與地主。",
+      "4 個初始聖物系列。",
+      "沒有聖物匣：其他勇士、聖物系列和錢包升級包含在完整版中。",
+      "獨立存檔，與完整版分開。"
+    ],
+    "windows": "Windows",
+    "windowsNote": "Windows 10 或 11，64 位元。只有一個 .exe 檔案，不需安裝。檔案尚未進行程式碼簽署，SmartScreen 可能會發出警告：點選「其他資訊」，再點選「仍要執行」。",
+    "macos": "macOS",
+    "macosNote": "一個 App 同時支援 Apple 晶片與 Intel 的 Mac。解壓縮後把 Dawnbringer 拖到「應用程式」。",
+    "macosOpen": "此 App 尚未經過 Apple 公證，macOS 會阻擋第一次開啟。按右鍵（或按住 Control 點按）App 並選擇「打開」。如果沒有「打開」按鈕，請前往「系統設定」>「隱私權與安全性」，點按「強制打開」。",
+    "linux": "Linux",
+    "linuxNote": "x86_64。解壓縮封存檔並執行 DawnbringerDemo.x86_64。需要支援 OpenGL 3.3 的顯示卡驅動程式。",
+    "download": "下載（{size}）",
+    "checksums": "檔案的 SHA-256 檢查碼",
+    "android": "Android：封閉測試進行中。",
+    "androidLink": "加入測試",
+    "ios": "iPhone 和 iPad：尚未推出。"
   },
   "beta": {
     "title": "加入測試",

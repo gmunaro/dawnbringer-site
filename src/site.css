@@ -158,6 +158,8 @@ main > section, main > .wrap { padding-top: 64px; }
 
 .platforms .card, .steps .card { display: flex; flex-direction: column; align-items: flex-start; }
 .platforms .btn, .steps .btn { margin-top: auto; }
+.demo-includes { margin-bottom: 24px; }
+.demo-sums { margin: 16px 0 1em; }
 .steps { margin-bottom: 16px; }
 .beta-payment { margin-bottom: 24px; max-width: 52em; }
 .beta-payment strong { color: var(--gold); font-size: 1.15em; }
