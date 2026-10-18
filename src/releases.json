@@ -1,5 +1,44 @@
 [
   {
+    "version": "0.4.0",
+    "date": "2026-10-18",
+    "min_supported": "0.2.0",
+    "notes": {
+      "en": "- No more exact forecasts: read each foe's items, and your Stone of Despair darkens over a fight that would kill you\n- 19 iconic monsters, each with the item behind its trick\n- 10 NPCs with quests, their own music, and dialogue that changes as you meet them\n- Carrion and Veil families, 32 new items, 19 new events\n- A short tutorial you can skip\n- Every hero gets a name, and you can change it\n- Sharper art on phones and big screens\n- A bug button on every screen",
+      "pt_BR": "- Sem previsões exatas: leia os itens de cada inimigo, e a Pedra do Desespero escurece diante de uma luta que te mataria\n- 19 monstros icônicos, cada um com o item por trás do seu truque\n- 10 NPCs com missões, trilha própria e falas que mudam a cada encontro\n- Famílias Carniça e Véu, 32 itens novos, 19 eventos novos\n- Um tutorial curto que você pode pular\n- Cada herói ganha um nome, e você pode trocá-lo\n- Gráficos mais nítidos em celulares e telas grandes\n- Um botão de bug em todas as telas",
+      "es": "- Ya no hay pronósticos exactos: lee los objetos de cada enemigo, y tu Piedra de la Desesperación se oscurece ante un combate que te mataría\n- 19 monstruos icónicos, cada uno con el objeto tras su truco\n- 10 PNJ con misiones, música propia y diálogos cambiantes\n- Familias Carroña y Velo, 32 objetos nuevos, 19 eventos\n- Tutorial corto que puedes saltar\n- Cada héroe recibe un nombre, y puedes cambiarlo\n- Arte más nítido en móviles y pantallas grandes\n- Un botón de error en cada pantalla",
+      "fr": "- Plus de prévisions exactes : examinez les objets ennemis, votre Pierre du Désespoir s'assombrit devant un combat mortel\n- 19 monstres emblématiques, chacun avec l'objet de son astuce\n- 10 PNJ avec quêtes, musique propre, répliques évolutives\n- Familles Charogne et Voile, 32 nouveaux objets, 19 événements\n- Un tutoriel court à passer\n- Chaque héros reçoit un nom, que vous pouvez changer\n- Illustrations plus nettes sur mobile et grand écran\n- Un bouton bug sur chaque écran",
+      "de": "- Keine genauen Vorschauen mehr: Lies die Gegenstände der Gegner, und der Verzweiflungsstein warnt vor tödlichen Kämpfen\n- 19 ikonische Monster mit dem Gegenstand hinter ihrem Kniff\n- 10 NPCs mit Aufträgen, eigener Musik, wechselnden Dialogen\n- Familien Aas und Schleier, 32 neue Gegenstände, 19 neue Ereignisse\n- Kurzes Tutorial, überspringbar\n- Jeder Held bekommt einen Namen, den du ändern kannst\n- Schärfere Grafik für Handys und große Bildschirme\n- Ein Bug-Knopf auf jedem Bildschirm",
+      "it": "- Niente più previsioni esatte: leggi gli oggetti di ogni nemico, e la tua Pietra della Disperazione si oscura davanti a uno scontro che ti ucciderebbe\n- 19 mostri iconici, ognuno con l'oggetto dietro al suo trucco\n- 10 PNG con missioni, musica e dialoghi che cambiano\n- Famiglie Carogna e Velo, 32 nuovi oggetti, 19 eventi\n- Tutorial breve che puoi saltare\n- Ogni eroe riceve un nome, e puoi cambiarlo\n- Grafica più nitida su telefoni e schermi grandi\n- Un pulsante bug in ogni schermata",
+      "ru": "- Больше никаких точных прогнозов: смотрите предметы каждого врага, и Камень Отчаяния темнеет перед боем, который вас убьёт\n- 19 культовых монстров, у каждого свой предмет-фокус\n- 10 NPC с заданиями, собственной музыкой и меняющимися диалогами\n- Семейства Падаль и Вуаль, 32 новых предмета, 19 событий\n- Короткое обучение, которое можно пропустить\n- Каждый герой получает имя, и его можно поменять\n- Более чёткая графика на телефонах и больших экранах\n- Кнопка ошибок на каждом экране",
+      "uk": "- Точних прогнозів більше немає: читайте предмети ворогів, і Камінь Відчаю темніє перед боєм, що вб'є вас\n- 19 культових монстрів, і кожен має предмет, що стоїть за його трюком\n- 10 NPC: завдання, власна музика, репліки, що змінюються при зустрічі\n- Родини Мертвечина і Серпанок, 32 нові предмети, 19 нових подій\n- Коротке навчання, яке можна пропустити\n- Кожен герой отримує ім'я, і його можна змінити\n- Чіткіша графіка на телефонах і великих екранах\n- Кнопка помилок на кожному екрані",
+      "pl": "- Koniec z dokładnymi prognozami: sprawdź przedmioty każdego wroga, a Kamień Rozpaczy ściemnieje przed walką, która cię zabije\n- 19 kultowych potworów, każdy z przedmiotem, który kryje się za jego sztuczką\n- 10 PNJ-ów z zadaniami, swoją muzyką, zmiennymi dialogami\n- Rody Padliny i Kiru, 32 nowe przedmioty, 19 wydarzeń\n- Krótki samouczek do pominięcia\n- Każdy bohater dostaje imię i możesz je zmienić\n- Ostrzejsza grafika na telefonach i dużych ekranach\n- Przycisk błędu na każdym ekranie",
+      "tr": "- Artık kesin öngörü yok: her düşmanın öğelerine bak. Seni öldürecek bir dövüşte Umutsuzluk Taşın kararır\n- Hilesinin arkasındaki öğeyle birlikte 19 ikonik canavar\n- Görevleri, kendi müziği olan ve tanıdıkça diyalogları değişen 10 NPC\n- Leş ve Peçe aileleri, 32 yeni öğe, 19 yeni olay\n- Atlayabileceğin kısa bir eğitim\n- Her kahramanın bir adı olur ve bu adı değiştirebilirsin\n- Telefonlarda ve büyük ekranlarda daha keskin görseller\n- Her ekranda bir hata düğmesi",
+      "ja": "- 正確な予測は廃止：敵の所持品を確認しよう。命を落とす戦いでは絶望の石が暗く染まる\n- 象徴的なモンスター19体：それぞれの仕掛けの裏にあるアイテムを所持\n- クエストを持つNPC10人：それぞれ専用の音楽があり、出会うたびに会話が変わる\n- 屍肉と面紗の系統、新アイテム32種、新イベント19種\n- スキップできる短いチュートリアル\n- 英雄すべてに名前が付き、変更もできる\n- スマホや大画面で絵がよりくっきりと表示される\n- すべての画面にバグボタン",
+      "ko": "- 정확한 예측은 이제 없다: 적의 아이템을 확인하면, 죽음이 기다리는 싸움 앞에서 절망의 돌이 어두워진다\n- 상징적인 적 19종: 각자 수법의 바탕이 되는 아이템을 지녔다\n- 퀘스트가 있고 각자의 음악을 지녔으며, 만날 때마다 대사가 바뀌는 NPC 10명\n- 주검과 베일 계열, 새 아이템 32종, 새 이벤트 19종\n- 건너뛸 수 있는 짧은 튜토리얼\n- 모든 영웅에게 이름이 주어지며, 이름을 바꿀 수 있다\n- 휴대폰과 대형 화면에서 더 선명한 그래픽\n- 모든 화면에 버그 버튼",
+      "zh_CN": "- 不再给出精确的战况预测：查看每个敌人携带的物品，若某场战斗会致命，你的绝望之石就会变暗\n- 19个标志性怪物，每个都附带其诡计背后的物品\n- 10位NPC，各有任务、专属音乐，对话会随你每次相遇而变化\n- 腐尸与丧纱两个系列，32件新物品，19个新事件\n- 可跳过的简短教程\n- 每位英雄都有名字，也可以更改\n- 手机和大屏上的美术更清晰\n- 每个界面都有报错按钮",
+      "zh_TW": "- 不再提供精確的戰況預測：讀取每個敵人的物品，遇到會致命的戰鬥時，你的絕望之石會變暗\n- 19種經典怪物，每隻都附帶其招式背後的物品\n- 10位NPC，各有任務、專屬音樂，對話會隨你每次相遇而改變\n- 腐屍與喪紗兩個系列、32件新物品、19個新事件\n- 可跳過的簡短教學\n- 每位英雄都有名字，也可以改名\n- 手機與大螢幕上的美術更清晰\n- 每個畫面都有回報按鈕"
+    },
+    "platforms": {
+      "windows-demo": {
+        "url": "https://gmunaro.github.io/dawnbringer-site/#download",
+        "file": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.4.0/DawnbringerDemo-0.4.0-windows.exe",
+        "bytes": 163205744
+      },
+      "macos-demo": {
+        "url": "https://gmunaro.github.io/dawnbringer-site/#download",
+        "file": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.4.0/DawnbringerDemo-0.4.0-macos.zip",
+        "bytes": 116716409
+      },
+      "linux-demo": {
+        "url": "https://gmunaro.github.io/dawnbringer-site/#download",
+        "file": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.4.0/DawnbringerDemo-0.4.0-linux-x86_64.tar.gz",
+        "bytes": 80292183
+      }
+    },
+    "checksums": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.4.0/SHA256SUMS.txt"
+  },
+  {
     "version": "0.3.0",
     "date": "2026-10-17",
     "min_supported": "0.2.0",
