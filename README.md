@@ -27,13 +27,16 @@ bun run typecheck
 | `src/fonts/` | Source pixel fonts and their licences; the build cuts them down to the glyphs each page uses. |
 | `src/presskit/` | Press kit files (logo, icon, key art, 1920x1080 screenshots), zipped by the build. |
 | `src/releases.json`, `latest.json` | Every release and the game's update feed, written by the game repo's release tool (see below). |
-| `tools/config.ts` | Base URL, languages, store links, gallery order. |
+| `tools/config.ts` | Base URL, contact e-mail, social links, languages, store links, gallery order. |
 | `tools/pages.ts`, `tools/build.ts` | Page templates and the build. |
 | `tools/capture.sh`, `tools/media.sh`, `tools/godot/` | How the pictures were made (see below). |
 
 ## Store links
 
 Edit `STORES` in `tools/config.ts`: a `url` turns the greyed-out "coming soon" button into a link.
+
+Social links: add a line to `SOCIALS` in `tools/config.ts` (footer and press kit read it). Only an account
+marked `ok` with a link in the brand's `contas.md` goes there.
 Steam needs the store page URL once the app id exists; Google Play's listing URL is in a comment
 there.
 

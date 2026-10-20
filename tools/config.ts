@@ -4,7 +4,20 @@
 /** Public URL of the site (GitHub Pages project site) and the path every link starts with. */
 export const SITE = "https://gmunaro.github.io/dawnbringer-site/";
 export const BASE = "/dawnbringer-site/";
-export const CONTACT = "midiamunaro@gmail.com";
+export const CONTACT = "dawnbringergame@gmail.com";
+
+/**
+ * The game's social accounts, shown in the footer and the press kit, in this order. Only accounts
+ * marked "ok" with a link in PraiseTheCode/marca/contas.md go here (docs/RELEASE.md in the game repo);
+ * add a line when the brand front opens a new one.
+ */
+export const SOCIALS: { name: string; url: string }[] = [
+  { name: "YouTube", url: "https://www.youtube.com/@dawnbringergame" },
+  { name: "Bluesky", url: "https://bsky.app/profile/dawnbringergame.bsky.social" },
+];
+
+/** The studio behind the game, linked in the footer ("Made by"). */
+export const STUDIO = { name: "PraiseTC", url: "https://github.com/praisetcdev" };
 
 /** Which pixel font sets the headings: Kenney Pixel (Latin and Cyrillic) or a Fusion Pixel variant. */
 export type PixelFont = "latin" | "ja" | "ko" | "zh_hans" | "zh_tw";
