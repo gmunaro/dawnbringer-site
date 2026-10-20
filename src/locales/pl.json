@@ -218,6 +218,7 @@
     "engine": "Silnik",
     "website": "Strona",
     "contact": "Kontakt",
+    "social": "Media społecznościowe",
     "descriptionTitle": "Opis",
     "description": "Dawnbringer to pikselowy roguelike auto-battler w świecie dark fantasy. Słońce zgasło, złoto jest jedynym pozostałym ciepłem, a co tydzień Właściciel przychodzi po czynsz. Gracze przemierzają turową mapę, wybierają walki i budują czempiona z 64 reliktów należących do ośmiu rodów. Ponieważ starcia rozstrzygają się automatycznie bez udziału losowości, każde spotkanie na drodze pokazuje dokładny wynik przed walką; przeciwko Właścicielowi prognozy nie ma i trzeba zapłacić dziesięcinę albo walczyć. Przed każdą wyprawą stawiasz złoto z banku, a po każdym tygodniu wypłacasz sakiewkę albo ryzykujesz ją w trudniejszym tygodniu. Polegli czempioni krążą po mapie w kolejnych wyprawach, a zwycięzcy mogą powrócić na tronie Właściciela.",
     "mediaTitle": "Logo, key art i zrzuty ekranu",
@@ -243,6 +244,7 @@
     "contact": "Kontakt",
     "bugs": "Znalazłeś błąd? Użyj opcji Zgłoś błąd w grze albo napisz na adres",
     "madeBy": "Dawnbringer tworzy gmunaro w Brazylii.",
+    "studio": "Twórca:",
     "changelog": "Nowości"
   },
   "suggest": {

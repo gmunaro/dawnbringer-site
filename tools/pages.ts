@@ -1,6 +1,6 @@
 // HTML of every page, as plain template strings. Every text comes from a locale's JSON and is
 // escaped with esc(); every link starts with BASE so the site works under /dawnbringer-site/.
-import { BASE, BETA, CONTACT, LOCALES, SHOTS, SITE, STORES, type Locale, type PixelFont } from "./config.ts";
+import { BASE, BETA, CONTACT, LOCALES, SHOTS, SITE, SOCIALS, STORES, STUDIO, type Locale, type PixelFont } from "./config.ts";
 import type en from "../src/locales/en.json";
 
 /** The shape of a locale file (en.json is the reference; tools/check.ts checks the others). */
@@ -154,8 +154,16 @@ function footer(c: Ctx): string {
 ${c.changelog ? `<li><a href="${BASE + pathOf(loc, "changelog/")}">${esc(t.footer.changelog)}</a></li>\n` : ""}<li>${esc(t.footer.contact)}: <a href="mailto:${CONTACT}">${CONTACT}</a></li>
 </ul>
 <p>${esc(t.footer.bugs)} <a href="mailto:${CONTACT}">${CONTACT}</a></p>
+${socialList()}
 <p>${esc(t.footer.madeBy)} © 2026 gmunaro.</p>
+<p>${esc(t.footer.studio)} <a href="${STUDIO.url}" rel="me noopener">${STUDIO.name}</a></p>
 </footer>`;
+}
+
+/** The game's social accounts (config SOCIALS) as a list of links; "" while there is none. */
+function socialList(): string {
+  if (!SOCIALS.length) return "";
+  return `<ul class="socials">\n${SOCIALS.map((s) => `<li><a href="${s.url}" rel="me noopener">${esc(s.name)}</a></li>`).join("\n")}\n</ul>`;
 }
 
 /** A store button: a link when the store page is live, a greyed-out label otherwise. */
@@ -338,6 +346,7 @@ export function pressPage(c: Ctx): Page {
     row(t.press.engine, "Godot 4.5"),
     row(t.press.website, `<a href="${SITE + path.replace("presskit/", "")}">${SITE.replace("https://", "")}</a>`),
     row(t.press.contact, `<a href="mailto:${CONTACT}">${CONTACT}</a>`),
+    ...(SOCIALS.length ? [row(t.press.social, SOCIALS.map((s) => `<a href="${s.url}" rel="me noopener">${esc(s.name)}</a>`).join(" · "))] : []),
   ].join("\n");
   const dl = (key: keyof typeof PRESS_FILES, label: string) => `<li><a href="${files}${PRESS_FILES[key]}" download>${esc(label)}</a></li>`;
   const thumbs = SHOTS.map((id, i) => {

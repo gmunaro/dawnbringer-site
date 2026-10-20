@@ -218,6 +218,7 @@
     "engine": "Engine",
     "website": "Website",
     "contact": "Contact",
+    "social": "Social media",
     "descriptionTitle": "Description",
     "description": "Dawnbringer is a dark-fantasy roguelike auto-battler in pixel art. The sun is dead, gold is the only warmth left, and every week a Landlord comes for the rent. Players explore a turn-based map, pick fights, and build a champion from 64 relics across eight families. Because combat resolves automatically without RNG, every road encounter shows its exact outcome before you commit; against the Landlord there is no forecast, and you must either pay the tithe or fight. Before each run you stake gold from your bank, and after each week you either cash out your purse or risk it in a harder week. Fallen champions roam the map in future runs, while victorious champions can return on a Landlord's throne.",
     "mediaTitle": "Logo, key art and screenshots",
@@ -243,6 +244,7 @@
     "contact": "Contact",
     "bugs": "Found a bug? Use Report a bug in the game or write to",
     "madeBy": "Dawnbringer is made by gmunaro in Brazil.",
+    "studio": "Made by",
     "changelog": "Changelog"
   },
   "suggest": {

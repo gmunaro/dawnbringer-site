@@ -218,6 +218,7 @@
     "engine": "Engine",
     "website": "Website",
     "contact": "Kontakt",
+    "social": "Soziale Medien",
     "descriptionTitle": "Beschreibung",
     "description": "Dawnbringer ist ein Dark-Fantasy-Roguelike-Autobattler in Pixelart. Die Sonne ist tot, Gold ist die einzige verbliebene Wärme und jede Woche kommt ein Hausherr, um die Miete einzutreiben. Spieler erkunden eine rundenbasierte Karte, wählen ihre Kämpfe und bauen aus 64 Relikten in acht Familien einen Champion auf. Da die Kämpfe ohne Zufall automatisch ablaufen, zeigt jede Begegnung auf der Straße vorab ihr exaktes Ergebnis; gegen den Hausherrn gibt es keine Vorschau, und man muss entweder den Zehnt zahlen oder kämpfen. Vor jedem Lauf setzt man Gold aus seiner Bank ein, und nach jeder Woche sichert man entweder seine Börse oder riskiert sie in einer härteren Woche. Gefallene Champions streifen in späteren Läufen über die Karte, während siegreiche Champions auf dem Thron eines Hausherrn zurückkehren können.",
     "mediaTitle": "Logo, Key Art und Screenshots",
@@ -243,6 +244,7 @@
     "contact": "Kontakt",
     "bugs": "Einen Fehler gefunden? Nutze Fehler melden im Spiel oder schreib an",
     "madeBy": "Dawnbringer wird von gmunaro in Brasilien entwickelt.",
+    "studio": "Entwickelt von",
     "changelog": "Änderungen"
   },
   "suggest": {

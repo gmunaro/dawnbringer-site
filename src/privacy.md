@@ -2,7 +2,7 @@
 
 Effective date: 2026-10-15
 
-Developer: gmunaro (individual developer), contact: midiamunaro@gmail.com
+Developer: gmunaro (individual developer), contact: dawnbringergame@gmail.com
 
 *Versão em português abaixo.*
 
@@ -51,7 +51,7 @@ server. The IP address is not added to the report.
 
 Please do not type personal information (such as your name, email or phone number) in the
 description. Reports are kept while the bug is being worked on and then may be kept as part of
-the project's issue history. To have a report deleted, email midiamunaro@gmail.com with the
+the project's issue history. To have a report deleted, email dawnbringergame@gmail.com with the
 date you sent it and a few words of its description, and we will delete it.
 
 ## Children
@@ -66,7 +66,7 @@ date.
 
 ## Contact
 
-midiamunaro@gmail.com
+dawnbringergame@gmail.com
 
 ---
 
@@ -74,7 +74,7 @@ midiamunaro@gmail.com
 
 Data de vigência: 2026-10-15
 
-Desenvolvedor: gmunaro (desenvolvedor individual), contato: midiamunaro@gmail.com
+Desenvolvedor: gmunaro (desenvolvedor individual), contato: dawnbringergame@gmail.com
 
 ## Resumo
 
@@ -123,7 +123,7 @@ lê-los para corrigir problemas do servidor. O endereço IP não entra no relat�
 
 Não escreva dados pessoais (nome, e-mail, telefone) na descrição. Os relatórios ficam guardados
 enquanto o bug é tratado e podem continuar no histórico de issues do projeto. Para apagar um
-relatório, mande um e-mail para midiamunaro@gmail.com com a data do envio e algumas palavras da
+relatório, mande um e-mail para dawnbringergame@gmail.com com a data do envio e algumas palavras da
 descrição, e nós o apagaremos.
 
 ## Crianças
@@ -138,4 +138,4 @@ vigência.
 
 ## Contato
 
-midiamunaro@gmail.com
+dawnbringergame@gmail.com

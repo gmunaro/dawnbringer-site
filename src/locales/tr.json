@@ -218,6 +218,7 @@
     "engine": "Motor",
     "website": "Web sitesi",
     "contact": "İletişim",
+    "social": "Sosyal medya",
     "descriptionTitle": "Tanıtım",
     "description": "Dawnbringer, piksel sanatıyla çizilmiş karanlık fantezi bir roguelike oto-savaş oyunudur. Güneş sönmüştür, geriye kalan tek sıcaklık altındır ve her hafta bir Ev sahibi kirayı toplamaya gelir. Oyuncular sıra tabanlı bir haritayı keşfeder, savaşlarını seçer ve sekiz aileye ayrılmış 64 relikle bir şampiyon kurar. Savaşlar şans faktörü olmadan otomatik çözüldüğü için yoldaki her karşılaşma başlamadan önce kesin sonucunu gösterir; Ev sahibine karşıysa öngörü yoktur ve onda biri ödemek ya da savaşmak gerekir. Her koşudan önce bankandan altın ortaya koyar, her haftanın sonunda keseni bankaya çekmek ya da daha zor bir haftada riske atmak arasında seçim yaparsın. Düşen şampiyonlar sonraki koşularda haritada dolaşırken, kazanan şampiyonlar bir Ev sahibinin tahtında geri dönebilir.",
     "mediaTitle": "Logo, ana görsel ve ekran görüntüleri",
@@ -243,6 +244,7 @@
     "contact": "İletişim",
     "bugs": "Bir hata mı buldun? Oyundaki Hata bildir seçeneğini kullan ya da şu adrese yaz",
     "madeBy": "Dawnbringer, Brezilya'da gmunaro tarafından yapılıyor.",
+    "studio": "Yapımcı:",
     "changelog": "Yenilikler"
   },
   "suggest": {
