@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: karanlık fantezi roguelike oto-savaş oyunu",
-    "description": "Güneş söndü ve Ev sahibi her hafta kirayı toplamaya geliyor. Şampiyonunu kur, yoldaki her savaşın kesin sonucunu önceden gör ve onda biri ödemeye ya da patronla savaşmaya karar ver.",
+    "description": "Güneş söndü ve Ev sahibi her hafta kirayı toplamaya geliyor. Şampiyonunu kur, her düşmanın neyi taşıdığını oku ve onda biri ödemeye ya da patronla savaşmaya karar ver.",
     "pressTitle": "Dawnbringer basın kiti",
     "pressDescription": "gmunaro'nun roguelike oto-savaş oyunu Dawnbringer için bilgi sayfası, tanıtım, özellikler, logo, ana görsel ve ekran görüntüleri.",
     "notFoundTitle": "Sayfa bulunamadı",
@@ -22,7 +22,7 @@
   },
   "hero": {
     "tagline": "Güneş söndü. Son korunu taşı.",
-    "pitch": "Karanlığa gömülmüş bir diyarı geç, 64 relikle bir şampiyon kur ve savaşlarını seç. Savaşta zar atılmaz: yoldaki her karşılaşmanın sonucunu başlamadan önce görürsün. Hafta sonunda Ev sahibi kirayı almaya geldiğinde onda biri öde ya da kellesi için savaş.",
+    "pitch": "Karanlığa gömülmüş bir diyarı geç, 64 relikle bir şampiyon kur ve savaşlarını seç. Savaşta zar atılmaz: her düşman okuyabileceğin eşyalar taşır ve Umutsuzluk Taşın, seni öldürecek bir savaştan önce kararır. Hafta sonunda Ev sahibi kirayı almaya geldiğinde onda biri öde ya da kellesi için savaş.",
     "artAlt": "Tepedeki küçük bir şampiyon, kan kırmızısı bir ayın altında karanlık tepelerden yükselen dev, taçlı bir Ev sahibiyle yüz yüze.",
     "clipTitle": "Oynanış",
     "clipAlt": "Oynanış klibi: Ev sahibinin gecesinde Oyuk Kral tahsilata gelirken harita kızıla döner; kartı onda biri ödemeyi ya da savaşmayı sunar; ardından çatışma sonuçlanır.",
@@ -41,8 +41,8 @@
     "intro": "Her koşu üç hafta sürer. Sisli bir haritada ilerler, sandıkları açar, türbeleri ve dövümhaneleri ziyaret eder, hafta bitmeden relik düzenini kurarsın. Savaşlar otomatik işler; strateji çizdiğin rotada ve kurduğun düzendedir.",
     "points": [
       {
-        "title": "Yolda kesin savaş öngörüsü",
-        "text": "Savaşlar %100 deterministiktir. Yoldaki herhangi bir normal savaşa girmeden önce oyun çatışmayı hesaplar ve \"29 CP kalarak zafer\" gibi kesin sonucu gösterir. Yalnızca Ev sahibine karşı öngörü olmadan savaşılır."
+        "title": "Düşmanı oku, zarı değil",
+        "text": "Savaşlar %100 deterministiktir. Her düşman, savaşa girmeden inceleyebileceğin gerçek eşyalar taşır: eşyasını kendininkiyle tartarsın. Umutsuzluk Taşın, seni öldürecek bir savaşta düşmanın üstünde kararır ve başka bir şey söylemez. Ev sahibine karşı taş sessiz kalır."
       },
       {
         "title": "Kirayı öde ya da savaş",
@@ -87,9 +87,9 @@
         "caption": "Savaş kendiliğinden işler; sonucu hazırlığın belirler.",
         "alt": "Yıkık bir şapelde Oyuk Kral'a karşı bir savaş; can çubukları, zırh ve hasar sayılarıyla."
       },
-      "forecast": {
-        "caption": "Oyun sen savaşa girmeden önce kesin sonucu hesaplar ve gösterir.",
-        "alt": "Bir Kül Canavarı'nın kartı ve öngörü: 29 CP kalarak zafer; altında Savaş ve Geri çekil düğmeleri."
+      "stone": {
+        "caption": "Umutsuzluk Taşı, seni öldürecek bir savaşın üstünde kararır.",
+        "alt": "Düşmanın niteliklerini ve taşıdığı eşyaları gösteren savaş öncesi ekranı; üstünde Umutsuzluk Taşı'nın işareti ve Bu savaş seni öldürür uyarısı; altında Savaş ve Geri çekil düğmeleri."
       },
       "risen": {
         "caption": "Önceki bir koşuda düşen şampiyon, altınıyla birlikte yolda dolaşıyor.",
@@ -159,7 +159,7 @@
     "includesTitle": "Demoda neler var",
     "includes": [
       "2 şampiyon: Demirci Tövbekar ve Darağacı Nişancısı.",
-      "Tam koşu: haritada üç hafta, yol tahminleri, olaylar, dükkanlar, yeminler ve Ev sahipleri.",
+      "Tam koşu: haritada üç hafta, olaylar, dükkanlar, yeminler ve Ev sahipleri.",
       "4 başlangıç relik ailesi.",
       "Relikarya yok: diğer şampiyonlar, relik aileleri ve kese yükseltmeleri tam sürümde.",
       "Tam sürümden ayrı, kendi kayıt dosyası."
@@ -220,7 +220,7 @@
     "contact": "İletişim",
     "social": "Sosyal medya",
     "descriptionTitle": "Tanıtım",
-    "description": "Dawnbringer, piksel sanatıyla çizilmiş karanlık fantezi bir roguelike oto-savaş oyunudur. Güneş sönmüştür, geriye kalan tek sıcaklık altındır ve her hafta bir Ev sahibi kirayı toplamaya gelir. Oyuncular sıra tabanlı bir haritayı keşfeder, savaşlarını seçer ve sekiz aileye ayrılmış 64 relikle bir şampiyon kurar. Savaşlar şans faktörü olmadan otomatik çözüldüğü için yoldaki her karşılaşma başlamadan önce kesin sonucunu gösterir; Ev sahibine karşıysa öngörü yoktur ve onda biri ödemek ya da savaşmak gerekir. Her koşudan önce bankandan altın ortaya koyar, her haftanın sonunda keseni bankaya çekmek ya da daha zor bir haftada riske atmak arasında seçim yaparsın. Düşen şampiyonlar sonraki koşularda haritada dolaşırken, kazanan şampiyonlar bir Ev sahibinin tahtında geri dönebilir.",
+    "description": "Dawnbringer, piksel sanatıyla çizilmiş karanlık fantezi bir roguelike oto-savaş oyunudur. Güneş sönmüştür, geriye kalan tek sıcaklık altındır ve her hafta bir Ev sahibi kirayı toplamaya gelir. Oyuncular sıra tabanlı bir haritayı keşfeder, savaşlarını seçer ve sekiz aileye ayrılmış 64 relikle bir şampiyon kurar. Savaşlar şans faktörü olmadan otomatik çözüldüğü ve her düşman görünür eşyalar taşıdığı için oyuncular her yol savaşını düşmanın eşyalarını kendi düzenleriyle karşılaştırarak tartar; Umutsuzluk Taşı yalnızca bir savaşın öldüreceği zaman uyarır. Ev sahibine karşı taş sessiz kalır ve onda biri ödemek ya da savaşmak gerekir. Her koşudan önce bankandan altın ortaya koyar, her haftanın sonunda keseni bankaya çekmek ya da daha zor bir haftada riske atmak arasında seçim yaparsın. Düşen şampiyonlar sonraki koşularda haritada dolaşırken, kazanan şampiyonlar bir Ev sahibinin tahtında geri dönebilir.",
     "mediaTitle": "Logo, ana görsel ve ekran görüntüleri",
     "zip": "Hepsini indir (.zip, {size})",
     "logo": "Logo (PNG, şeffaf)",

@@ -17,7 +17,7 @@ last() { ls "$CAP/$1"/f*.png | tail -1; }
 # Screenshots: the last frame of each shot. 640x360 lossless WebP for the page, 1920x1080 PNG
 # (3x nearest) for the press kit. The order here is the gallery's order (tools/config.ts SHOTS).
 i=0
-for s in night:night_hollow landlord:landlord battle:clip_landlord@270 forecast:forecast risen:zmap \
+for s in night:night_hollow landlord:landlord battle:clip_landlord@270 stone:stone risen:zmap \
          legend:landlord_legend shop:shop camp:camp group:group cashout:cashout build:build event:event; do
   name=${s%%:*}; src=${s#*:}
   if [[ $src == *@* ]]; then frame=$(printf "%s/%s/f%08d.png" "$CAP" "${src%@*}" "${src#*@}"); else frame=$(last "$src"); fi

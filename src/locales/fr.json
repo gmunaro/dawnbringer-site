@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer : auto-battler roguelike de dark fantasy",
-    "description": "Le soleil est mort et le Seigneur réclame le loyer chaque semaine. Formez votre champion, voyez l'issue exacte de chaque combat sur la route et décidez de payer la dîme ou d'affronter le boss.",
+    "description": "Le soleil est mort et le Seigneur réclame le loyer chaque semaine. Formez votre champion, lisez ce que porte chaque ennemi, et décidez de payer la dîme ou d'affronter le boss.",
     "pressTitle": "Dossier de presse de Dawnbringer",
     "pressDescription": "Fiche technique, description, points forts, logo, illustration principale et captures d'écran de Dawnbringer, un auto-battler roguelike de gmunaro.",
     "notFoundTitle": "Page introuvable",
@@ -22,7 +22,7 @@
   },
   "hero": {
     "tagline": "Le soleil est mort. Portez sa dernière braise.",
-    "pitch": "Traversez une terre plongée dans le noir, équipez votre champion parmi 64 reliques et choisissez vos combats. Il n'y a pas de dés : sur la route, vous connaissez l'issue exacte avant d'engager le fer. Quand le Seigneur vient percevoir le loyer en fin de semaine, payez la dîme ou jouez sa tête.",
+    "pitch": "Traversez une terre plongée dans le noir, équipez votre champion parmi 64 reliques et choisissez vos combats. Il n'y a pas de dés : chaque ennemi porte des objets que vous pouvez lire, et votre Pierre du Désespoir s'assombrit devant un combat qui vous tuerait. Quand le Seigneur vient percevoir le loyer en fin de semaine, payez la dîme ou jouez sa tête.",
     "artAlt": "Un petit champion sur une colline fait face à un Seigneur géant et couronné qui surgit des collines sombres sous une lune rouge sang.",
     "clipTitle": "Gameplay",
     "clipAlt": "Extrait de jeu : la nuit du Seigneur, la carte vire au rouge tandis que le Roi Creux vient réclamer son dû ; sa carte propose de payer la dîme ou de combattre ; puis l'affrontement se résout.",
@@ -41,8 +41,8 @@
     "intro": "Une partie dure trois semaines. Vous avancez sur une carte couverte de brume, ouvrez des coffres, visitez sanctuaires et forges et assemblez vos reliques avant la fin de la semaine. Les combats sont automatiques ; tout se joue sur votre itinéraire et votre équipement.",
     "points": [
       {
-        "title": "Prévision exacte sur la route",
-        "text": "Le combat est 100 % déterministe. Avant d'engager un combat ordinaire, le jeu simule l'affrontement et affiche le résultat exact, comme \"Victoire avec 29 PV restants\". Seul le Seigneur s'affronte à l'aveugle."
+        "title": "Lisez l'ennemi, pas les dés",
+        "text": "Le combat est 100 % déterministe, et chaque ennemi porte de vrais objets que vous pouvez inspecter avant le combat : jugez son équipement contre le vôtre. Votre Pierre du Désespoir marque tout ennemi dont le combat vous tuerait, et ne dit rien de plus. Face au Seigneur, elle reste muette."
       },
       {
         "title": "Payer le loyer ou combattre",
@@ -87,9 +87,9 @@
         "caption": "Le combat est automatique ; votre préparation fait la différence.",
         "alt": "Un combat contre le Roi Creux dans une chapelle en ruine, avec barres de vie, armure et chiffres de dégâts."
       },
-      "forecast": {
-        "caption": "Le jeu calcule et affiche le résultat exact avant que vous engagiez le combat.",
-        "alt": "La carte d'une Brute de Cendre avec la prévision : Victoire avec 29 PV restants, et les boutons Combattre et Reculer."
+      "stone": {
+        "caption": "La Pierre du Désespoir s'assombrit devant un combat qui vous tuerait.",
+        "alt": "L'écran d'avant-combat d'un ennemi, avec ses statistiques et les objets qu'il porte, la marque de la Pierre du Désespoir et l'avertissement Ce combat vous tuerait, ainsi que les boutons Combattre et Reculer."
       },
       "risen": {
         "caption": "Un champion tombé lors d'une partie précédente rôde sur la route avec son or.",
@@ -159,7 +159,7 @@
     "includesTitle": "Contenu de la démo",
     "includes": [
       "2 champions : le Pénitent de Fer et la Tireuse du Gibet.",
-      "La partie complète : trois semaines sur la carte, prévisions sur la route, événements, boutiques, serments et les Seigneurs.",
+      "La partie complète : trois semaines sur la carte, événements, boutiques, serments et les Seigneurs.",
       "Les 4 familles de reliques de départ.",
       "Pas de Reliquaire : les autres champions, familles de reliques et améliorations de bourse arrivent avec le jeu complet.",
       "Sa propre sauvegarde, séparée du jeu complet."
@@ -220,7 +220,7 @@
     "contact": "Contact",
     "social": "Réseaux sociaux",
     "descriptionTitle": "Description",
-    "description": "Dawnbringer est un auto-battler roguelike de dark fantasy en pixel art. Le soleil est mort, l'or est la seule chaleur qui reste et chaque semaine un Seigneur vient percevoir le loyer. Le joueur explore une carte au tour par tour, choisit ses combats et équipe un champion parmi 64 reliques réparties en huit familles. Comme les combats se résolvent automatiquement sans hasard, chaque rencontre sur la route affiche son résultat exact avant de s'engager ; face au Seigneur, il n'y a aucune prévision, et il faut payer la dîme ou combattre. Avant chaque partie, vous misez de l'or de votre banque, et après chaque semaine vous choisissez d'encaisser votre bourse ou de la remettre en jeu dans une semaine plus rude. Les champions tombés errent sur la carte lors des parties suivantes, tandis que les vainqueurs peuvent revenir sur le trône d'un Seigneur.",
+    "description": "Dawnbringer est un auto-battler roguelike de dark fantasy en pixel art. Le soleil est mort, l'or est la seule chaleur qui reste et chaque semaine un Seigneur vient percevoir le loyer. Le joueur explore une carte au tour par tour, choisit ses combats et équipe un champion parmi 64 reliques réparties en huit familles. Comme les combats se résolvent automatiquement sans hasard et que chaque ennemi porte des objets visibles, les joueurs jugent chaque combat sur la route en lisant son équipement face à leur build ; une Pierre du Désespoir ne prévient que lorsqu'un combat tuerait le héros. Face au Seigneur, elle reste muette, et il faut payer la dîme ou combattre. Avant chaque partie, vous misez de l'or de votre banque, et après chaque semaine vous choisissez d'encaisser votre bourse ou de la remettre en jeu dans une semaine plus rude. Les champions tombés errent sur la carte lors des parties suivantes, tandis que les vainqueurs peuvent revenir sur le trône d'un Seigneur.",
     "mediaTitle": "Logo, illustration principale et captures",
     "zip": "Tout télécharger (.zip, {size})",
     "logo": "Logo (PNG, transparent)",

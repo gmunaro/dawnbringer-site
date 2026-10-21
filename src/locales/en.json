@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: dark-fantasy roguelike auto-battler",
-    "description": "The sun is dead and the Landlord collects every week. Build your champion, see the exact outcome of every road fight, and decide whether to pay the tithe or fight the boss.",
+    "description": "The sun is dead and the Landlord collects every week. Build your champion, read what every foe carries, and decide whether to pay the tithe or fight the boss.",
     "pressTitle": "Dawnbringer press kit",
     "pressDescription": "Fact sheet, description, features, logo, key art and screenshots of Dawnbringer, a roguelike auto-battler by gmunaro.",
     "notFoundTitle": "Page not found",
@@ -22,7 +22,7 @@
   },
   "hero": {
     "tagline": "The sun is dead. Carry its last ember.",
-    "pitch": "Cross a dark land, build a champion from 64 relics, and pick your fights. Combat uses no dice: on the road, you see the exact outcome before you commit. When the Landlord comes for the rent at week's end, pay the tithe or fight for its head.",
+    "pitch": "Cross a dark land, build a champion from 64 relics, and pick your fights. Combat uses no dice: every foe carries gear you can read, and your Stone of Despair darkens before a fight that would kill you. When the Landlord comes for the rent at week's end, pay the tithe or fight for its head.",
     "artAlt": "A small champion on a hill faces a giant crowned Landlord rising from the dark hills under a blood-red moon.",
     "clipTitle": "Gameplay",
     "clipAlt": "Gameplay clip: on the Landlord's night the map turns red as the Hollow King comes to collect; its card offers to pay the tithe or fight; then the battle resolves.",
@@ -41,8 +41,8 @@
     "intro": "A run lasts three weeks. You step across a fogged map, open chests, visit shrines and forges, and piece together a relic build before the week runs out. Fights play out automatically; the strategy is in the route you take and the build you put together.",
     "points": [
       {
-        "title": "Exact forecasts on the road",
-        "text": "Combat is 100% deterministic. Before you take any road fight, the game simulates the clash and shows the exact result, down to \"Victory with 29 HP left\". Only against the Landlord do you fight blind."
+        "title": "Read the foe, not the dice",
+        "text": "Combat is 100% deterministic, and every foe carries real items you can inspect before the fight: judge its gear against yours. Your Stone of Despair marks any foe whose fight would kill you, and says nothing more. Against the Landlord it stays silent."
       },
       {
         "title": "Pay the rent or fight",
@@ -87,9 +87,9 @@
         "caption": "Combat runs on its own; your preparation decides it.",
         "alt": "A fight against the Hollow King in a ruined chapel, with health bars, armor and damage numbers."
       },
-      "forecast": {
-        "caption": "The game calculates and shows the exact result before you fight.",
-        "alt": "The card of an Ash Brute with the forecast: Victory with 29 HP left, and the buttons Fight and Back off."
+      "stone": {
+        "caption": "The Stone of Despair darkens over a fight that would kill you.",
+        "alt": "The pre-fight screen of a foe with its stats and the items it carries, the Stone of Despair's mark and the warning This fight would kill you, and the buttons Fight and Back off."
       },
       "risen": {
         "caption": "A fallen champion from a past run roams the road with its gold.",
@@ -159,7 +159,7 @@
     "includesTitle": "What the demo includes",
     "includes": [
       "2 champions: the Ironbound Penitent and the Gallows Marksman.",
-      "The full run: three weeks on the map, road forecasts, events, shops, oaths and the Landlords.",
+      "The full run: three weeks on the map, events, shops, oaths and the Landlords.",
       "The 4 starting relic families.",
       "No Reliquary: the other champions, relic families and purse upgrades come with the full game.",
       "Its own save, separate from the full game."
@@ -220,7 +220,7 @@
     "contact": "Contact",
     "social": "Social media",
     "descriptionTitle": "Description",
-    "description": "Dawnbringer is a dark-fantasy roguelike auto-battler in pixel art. The sun is dead, gold is the only warmth left, and every week a Landlord comes for the rent. Players explore a turn-based map, pick fights, and build a champion from 64 relics across eight families. Because combat resolves automatically without RNG, every road encounter shows its exact outcome before you commit; against the Landlord there is no forecast, and you must either pay the tithe or fight. Before each run you stake gold from your bank, and after each week you either cash out your purse or risk it in a harder week. Fallen champions roam the map in future runs, while victorious champions can return on a Landlord's throne.",
+    "description": "Dawnbringer is a dark-fantasy roguelike auto-battler in pixel art. The sun is dead, gold is the only warmth left, and every week a Landlord comes for the rent. Players explore a turn-based map, pick fights, and build a champion from 64 relics across eight families. Combat resolves automatically without RNG and every foe carries visible items, so players judge each road fight by reading its gear against their build; a Stone of Despair only warns when a fight would kill the hero. Against the Landlord it stays silent, and you must either pay the tithe or fight. Before each run you stake gold from your bank, and after each week you either cash out your purse or risk it in a harder week. Fallen champions roam the map in future runs, while victorious champions can return on a Landlord's throne.",
     "mediaTitle": "Logo, key art and screenshots",
     "zip": "Download everything (.zip, {size})",
     "logo": "Logo (PNG, transparent)",

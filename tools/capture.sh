@@ -18,7 +18,7 @@ shot() { # name fps frames scene args...
 }
 N=res://tests/ui/capture/landlord_night_capture.tscn
 L=res://tests/run_ui/capture/landlord_capture.tscn
-S=res://tests/run_ui/capture/sungold_capture.tscn
+S=res://tools/capture/run_ui/despair_capture.tscn
 O=res://tests/run_ui/capture/overlay_capture.tscn
 A=res://tests/afterlife/capture/afterlife_capture.tscn
 M=res://tests/meta_ui/capture/capture.tscn
@@ -27,7 +27,7 @@ shot night_hollow 10 30 $N --shot=end --boss=the_hollow_king
 shot landlord 10 20 $L --shot=landlord
 shot landlord_legend 10 20 $L --shot=landlord --legend
 shot cashout 10 20 $L --shot=cashout
-shot forecast 10 24 $S --shot=encounter --grade=close
+shot stone 10 24 $S --shot=encounter
 shot shop 10 30 $O --shot=shop
 shot build 10 30 $O --shot=build
 shot event 10 30 $O --shot=event --event=hangmans_wager
