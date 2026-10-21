@@ -1,48 +1,48 @@
 {
   "schema": 1,
-  "version": "0.4.0",
-  "date": "2026-10-18",
+  "version": "0.5.0",
+  "date": "2026-10-21",
   "min_supported": "0.3.0",
   "changelog": "https://gmunaro.github.io/dawnbringer-site/changelog/",
   "platforms": {
     "android": {
-      "version": "0.4.0",
+      "version": "0.5.0",
       "url": "https://play.google.com/store/apps/details?id=com.gmunaro.dawnbringer",
       "market": "market://details?id=com.gmunaro.dawnbringer"
     },
     "linux-demo": {
-      "version": "0.4.0",
+      "version": "0.5.0",
       "url": "https://gmunaro.github.io/dawnbringer-site/#download",
-      "file": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.4.0/DawnbringerDemo-0.4.0-linux-x86_64.tar.gz",
-      "bytes": 80292183
+      "file": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.5.0/DawnbringerDemo-0.5.0-linux-x86_64.tar.gz",
+      "bytes": 113287224
     },
     "macos-demo": {
-      "version": "0.4.0",
+      "version": "0.5.0",
       "url": "https://gmunaro.github.io/dawnbringer-site/#download",
-      "file": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.4.0/DawnbringerDemo-0.4.0-macos.zip",
-      "bytes": 116716409
+      "file": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.5.0/DawnbringerDemo-0.5.0-macos.zip",
+      "bytes": 149723183
     },
     "windows-demo": {
-      "version": "0.4.0",
+      "version": "0.5.0",
       "url": "https://gmunaro.github.io/dawnbringer-site/#download",
-      "file": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.4.0/DawnbringerDemo-0.4.0-windows.exe",
-      "bytes": 163205744
+      "file": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.5.0/DawnbringerDemo-0.5.0-windows.exe",
+      "bytes": 199637240
     }
   },
   "notes": {
-    "en": "- No more exact forecasts: read each foe's items, and your Stone of Despair darkens over a fight that would kill you\n- 19 iconic monsters, each with the item behind its trick\n- 10 NPCs with quests, their own music, and dialogue that changes as you meet them\n- Carrion and Veil families, 32 new items, 19 new events\n- A short tutorial you can skip\n- Every hero gets a name, and you can change it\n- Sharper art on phones and big screens\n- A bug button on every screen",
-    "pt_BR": "- Sem previsões exatas: leia os itens de cada inimigo, e a Pedra do Desespero escurece diante de uma luta que te mataria\n- 19 monstros icônicos, cada um com o item por trás do seu truque\n- 10 NPCs com missões, trilha própria e falas que mudam a cada encontro\n- Famílias Carniça e Véu, 32 itens novos, 19 eventos novos\n- Um tutorial curto que você pode pular\n- Cada herói ganha um nome, e você pode trocá-lo\n- Gráficos mais nítidos em celulares e telas grandes\n- Um botão de bug em todas as telas",
-    "es": "- Ya no hay pronósticos exactos: lee los objetos de cada enemigo, y tu Piedra de la Desesperación se oscurece ante un combate que te mataría\n- 19 monstruos icónicos, cada uno con el objeto tras su truco\n- 10 PNJ con misiones, música propia y diálogos cambiantes\n- Familias Carroña y Velo, 32 objetos nuevos, 19 eventos\n- Tutorial corto que puedes saltar\n- Cada héroe recibe un nombre, y puedes cambiarlo\n- Arte más nítido en móviles y pantallas grandes\n- Un botón de error en cada pantalla",
-    "fr": "- Plus de prévisions exactes : examinez les objets ennemis, votre Pierre du Désespoir s'assombrit devant un combat mortel\n- 19 monstres emblématiques, chacun avec l'objet de son astuce\n- 10 PNJ avec quêtes, musique propre, répliques évolutives\n- Familles Charogne et Voile, 32 nouveaux objets, 19 événements\n- Un tutoriel court à passer\n- Chaque héros reçoit un nom, que vous pouvez changer\n- Illustrations plus nettes sur mobile et grand écran\n- Un bouton bug sur chaque écran",
-    "de": "- Keine genauen Vorschauen mehr: Lies die Gegenstände der Gegner, und der Verzweiflungsstein warnt vor tödlichen Kämpfen\n- 19 ikonische Monster mit dem Gegenstand hinter ihrem Kniff\n- 10 NPCs mit Aufträgen, eigener Musik, wechselnden Dialogen\n- Familien Aas und Schleier, 32 neue Gegenstände, 19 neue Ereignisse\n- Kurzes Tutorial, überspringbar\n- Jeder Held bekommt einen Namen, den du ändern kannst\n- Schärfere Grafik für Handys und große Bildschirme\n- Ein Bug-Knopf auf jedem Bildschirm",
-    "it": "- Niente più previsioni esatte: leggi gli oggetti di ogni nemico, e la tua Pietra della Disperazione si oscura davanti a uno scontro che ti ucciderebbe\n- 19 mostri iconici, ognuno con l'oggetto dietro al suo trucco\n- 10 PNG con missioni, musica e dialoghi che cambiano\n- Famiglie Carogna e Velo, 32 nuovi oggetti, 19 eventi\n- Tutorial breve che puoi saltare\n- Ogni eroe riceve un nome, e puoi cambiarlo\n- Grafica più nitida su telefoni e schermi grandi\n- Un pulsante bug in ogni schermata",
-    "ru": "- Больше никаких точных прогнозов: смотрите предметы каждого врага, и Камень Отчаяния темнеет перед боем, который вас убьёт\n- 19 культовых монстров, у каждого свой предмет-фокус\n- 10 NPC с заданиями, собственной музыкой и меняющимися диалогами\n- Семейства Падаль и Вуаль, 32 новых предмета, 19 событий\n- Короткое обучение, которое можно пропустить\n- Каждый герой получает имя, и его можно поменять\n- Более чёткая графика на телефонах и больших экранах\n- Кнопка ошибок на каждом экране",
-    "uk": "- Точних прогнозів більше немає: читайте предмети ворогів, і Камінь Відчаю темніє перед боєм, що вб'є вас\n- 19 культових монстрів, і кожен має предмет, що стоїть за його трюком\n- 10 NPC: завдання, власна музика, репліки, що змінюються при зустрічі\n- Родини Мертвечина і Серпанок, 32 нові предмети, 19 нових подій\n- Коротке навчання, яке можна пропустити\n- Кожен герой отримує ім'я, і його можна змінити\n- Чіткіша графіка на телефонах і великих екранах\n- Кнопка помилок на кожному екрані",
-    "pl": "- Koniec z dokładnymi prognozami: sprawdź przedmioty każdego wroga, a Kamień Rozpaczy ściemnieje przed walką, która cię zabije\n- 19 kultowych potworów, każdy z przedmiotem, który kryje się za jego sztuczką\n- 10 PNJ-ów z zadaniami, swoją muzyką, zmiennymi dialogami\n- Rody Padliny i Kiru, 32 nowe przedmioty, 19 wydarzeń\n- Krótki samouczek do pominięcia\n- Każdy bohater dostaje imię i możesz je zmienić\n- Ostrzejsza grafika na telefonach i dużych ekranach\n- Przycisk błędu na każdym ekranie",
-    "tr": "- Artık kesin öngörü yok: her düşmanın öğelerine bak. Seni öldürecek bir dövüşte Umutsuzluk Taşın kararır\n- Hilesinin arkasındaki öğeyle birlikte 19 ikonik canavar\n- Görevleri, kendi müziği olan ve tanıdıkça diyalogları değişen 10 NPC\n- Leş ve Peçe aileleri, 32 yeni öğe, 19 yeni olay\n- Atlayabileceğin kısa bir eğitim\n- Her kahramanın bir adı olur ve bu adı değiştirebilirsin\n- Telefonlarda ve büyük ekranlarda daha keskin görseller\n- Her ekranda bir hata düğmesi",
-    "ja": "- 正確な予測は廃止：敵の所持品を確認しよう。命を落とす戦いでは絶望の石が暗く染まる\n- 象徴的なモンスター19体：それぞれの仕掛けの裏にあるアイテムを所持\n- クエストを持つNPC10人：それぞれ専用の音楽があり、出会うたびに会話が変わる\n- 屍肉と面紗の系統、新アイテム32種、新イベント19種\n- スキップできる短いチュートリアル\n- 英雄すべてに名前が付き、変更もできる\n- スマホや大画面で絵がよりくっきりと表示される\n- すべての画面にバグボタン",
-    "ko": "- 정확한 예측은 이제 없다: 적의 아이템을 확인하면, 죽음이 기다리는 싸움 앞에서 절망의 돌이 어두워진다\n- 상징적인 적 19종: 각자 수법의 바탕이 되는 아이템을 지녔다\n- 퀘스트가 있고 각자의 음악을 지녔으며, 만날 때마다 대사가 바뀌는 NPC 10명\n- 주검과 베일 계열, 새 아이템 32종, 새 이벤트 19종\n- 건너뛸 수 있는 짧은 튜토리얼\n- 모든 영웅에게 이름이 주어지며, 이름을 바꿀 수 있다\n- 휴대폰과 대형 화면에서 더 선명한 그래픽\n- 모든 화면에 버그 버튼",
-    "zh_CN": "- 不再给出精确的战况预测：查看每个敌人携带的物品，若某场战斗会致命，你的绝望之石就会变暗\n- 19个标志性怪物，每个都附带其诡计背后的物品\n- 10位NPC，各有任务、专属音乐，对话会随你每次相遇而变化\n- 腐尸与丧纱两个系列，32件新物品，19个新事件\n- 可跳过的简短教程\n- 每位英雄都有名字，也可以更改\n- 手机和大屏上的美术更清晰\n- 每个界面都有报错按钮",
-    "zh_TW": "- 不再提供精確的戰況預測：讀取每個敵人的物品，遇到會致命的戰鬥時，你的絕望之石會變暗\n- 19種經典怪物，每隻都附帶其招式背後的物品\n- 10位NPC，各有任務、專屬音樂，對話會隨你每次相遇而改變\n- 腐屍與喪紗兩個系列、32件新物品、19個新事件\n- 可跳過的簡短教學\n- 每位英雄都有名字，也可以改名\n- 手機與大螢幕上的美術更清晰\n- 每個畫面都有回報按鈕"
+    "en": "- Each level gives 5 attribute points and a skill point for a skill tree with three paths\n- Twelve second classes: beat a Landlord, then the class master lets you advance or switch sides\n- Every character now speaks: the lore, the map's NPCs and 19 kinds of monster\n- Gear by slot: weapon, shield, head, body, cloak, boots and three charms\n- Reheat gear at the forge up to +4, and set monster cards into it\n- Speed decides how often each fighter acts, and the risen hunt you day and night",
+    "pt_BR": "- Cada nível dá 5 pontos de atributo e 1 ponto de talento para uma árvore com 3 ramos\n- 12 classes avançadas: vença um Senhorio e o mestre de classe deixa você avançar ou trocar de lado\n- Todos falam agora: as lendas, os NPCs do mapa e 19 monstros\n- Equipamento por espaço: arma, escudo, cabeça, corpo, capa, botas e 3 amuletos\n- Reaqueça o equipamento na forja até +4 e encaixe cartas de monstro nele\n- A Velocidade define quantas vezes cada lutador age, e os reerguidos caçam você de dia e de noite",
+    "es": "- Cada nivel da 5 puntos de atributo y 1 de habilidad para un árbol de 3 ramas\n- 12 clases avanzadas: vence a un Terrateniente y el maestro de clase te deja avanzar o cambiar de lado\n- Ahora todos hablan: leyendas, PNJ del mapa y 19 monstruos\n- Equipo por espacio: arma, escudo, cabeza, cuerpo, capa, botas y 3 amuletos\n- Recalienta el equipo en la forja hasta +4 e inserta cartas de monstruo en él\n- La Velocidad decide cuántas veces actúa cada luchador, y los resurgidos te cazan día y noche",
+    "fr": "- Chaque niveau : 5 points d'attribut et 1 de compétence pour un arbre à 3 branches\n- 12 classes avancées : battez un Seigneur et le maître de classe vous fait évoluer ou changer de voie\n- Tous parlent : légendes, PNJ et 19 monstres\n- Équipement par emplacement : arme, bouclier, tête, corps, cape, bottes, 3 talismans\n- Réchauffez l'équipement à la forge jusqu'à +4 et sertissez-y des cartes de monstre\n- La Vitesse fixe le rythme de chaque combattant, et les relevés vous traquent jour et nuit",
+    "de": "- Jede Stufe: 5 Attributpunkte und 1 Fertigkeitspunkt für einen Baum mit 3 Zweigen\n- 12 Aufstiegsklassen: Nach einem besiegten Hausherrn lässt dich der Klassenmeister aufsteigen oder wechseln\n- Alle sprechen jetzt: Legenden, NPCs und 19 Monsterarten\n- Ausrüstung nach Platz: Waffe, Schild, Kopf, Körper, Umhang, Stiefel, 3 Talismane\n- Glühe Ausrüstung in der Esse bis +4 nach und setze Monsterkarten ein\n- Tempo bestimmt, wie oft jeder Kämpfer handelt, und die Auferstandenen jagen dich Tag und Nacht",
+    "it": "- Ogni livello: 5 punti attributo e 1 punto abilità per un albero a 3 rami\n- 12 classi avanzate: batti un Signore e il maestro di classe ti fa avanzare o cambiare lato\n- Ora parlano tutti: leggende, NPC e 19 tipi di mostri\n- Equipaggiamento per slot: arma, scudo, testa, corpo, mantello, stivali e 3 amuleti\n- Rimetti al fuoco l'equipaggiamento alla forgia fino a +4 e incastonaci carte mostro\n- La Velocità decide quante volte agisce ogni combattente, e i risorti ti cacciano giorno e notte",
+    "ru": "- Каждый уровень даёт 5 очков характеристик и 1 очко навыков для древа с 3 ветвями\n- 12 вторых классов: победи Ростовщика, и мастер классов даст повысить класс или сменить сторону\n- Теперь говорят все персонажи: легенды, NPC на карте и 19 видов монстров\n- Снаряжение по слотам: оружие, щит, голова, тело, плащ, сапоги и 3 амулета\n- Перекаливай снаряжение в кузнице до +4 и вставляй в него карты монстров\n- Скорость решает, как часто действует каждый боец, а восставшие охотятся на тебя днём и ночью",
+    "uk": "- Кожен рівень дає 5 очок характеристик і 1 очко навичок для дерева з 3 гілками\n- 12 других класів: здолай Лихваря, і майстер класів дасть підвищити клас або змінити бік\n- Тепер говорять усі персонажі: легенди, NPC на мапі та 19 видів монстрів\n- Спорядження за слотами: зброя, щит, голова, тулуб, плащ, чоботи й 3 амулети\n- Розжарюй спорядження в кузні до +4 і вставляй у нього картки монстрів\n- Швидкість визначає, як часто діє кожен боєць, а повсталі полюють на тебе вдень і вночі",
+    "pl": "- Każdy poziom daje 5 punktów atrybutów i 1 punkt umiejętności do drzewa z 3 gałęziami\n- 12 drugich klas: pokonaj Właściciela, a mistrz klas pozwoli awansować lub zmienić stronę\n- Teraz mówią wszystkie postacie: legendy, NPC z mapy i 19 rodzajów potworów\n- Ekwipunek według miejsc: broń, tarcza, głowa, tułów, peleryna, buty i 3 amulety\n- Rozgrzewaj ekwipunek w kuźni do +4 i osadzaj w nim karty potworów\n- Szybkość decyduje, jak często działa każdy wojownik, a powstali polują na ciebie dniem i nocą",
+    "tr": "- Her seviye 5 özellik puanı ve 3 dallı bir yetenek ağacı için 1 beceri puanı verir\n- 12 ikinci sınıf: bir Ev sahibini yen, sınıf ustası ilerlemene ya da taraf değiştirmene izin versin\n- Herkes konuşuyor: efsaneler, NPC'ler ve 19 canavar türü\n- Yuvaya göre teçhizat: silah, kalkan, baş, gövde, pelerin, çizme ve 3 tılsım\n- Teçhizatı demirhanede +4'e kadar yeniden ısıt ve içine canavar kartları tak\n- Hız, her dövüşçünün ne sıklıkla hareket edeceğine karar verir; dirilenler seni gece gündüz avlar",
+    "ja": "- レベルごとにステータスポイント5と、3系統のスキルツリー用のスキルポイント1を獲得\n- 上位職12種：地主を倒すと、転職の師が転職や系統替えをさせてくれる\n- 全キャラクターがしゃべる：伝承、マップのNPC、19種のモンスター\n- 部位ごとの装備：武器、盾、頭、胴、外套、靴、護符3つ\n- 鍛冶場で装備を+4まで再加熱し、モンスターカードをはめ込める\n- 速さで各戦士の行動回数が決まり、蘇った者たちが昼も夜もあなたを狩る",
+    "ko": "- 레벨마다 능력치 포인트 5와, 3갈래 스킬 트리용 스킬 포인트 1을 얻는다\n- 2차 직업 12종: 지주를 쓰러뜨리면 직업 교관이 전직이나 진영 변경을 허락한다\n- 이제 모든 캐릭터가 말한다: 전설, 지도의 NPC, 19종의 몬스터\n- 부위별 장비: 무기, 방패, 머리, 몸통, 망토, 부츠, 부적 3개\n- 대장간에서 장비를 +4까지 재가열하고 몬스터 카드를 장착한다\n- 속도가 각 전사의 행동 횟수를 정하고, 일어선 자들이 밤낮으로 너를 쫓는다",
+    "zh_CN": "- 每级获得 5 点属性点，以及 1 点技能点用于三系技能树\n- 12 种进阶职业：击败一名地主后，职业导师会让你进阶或转换路线\n- 所有角色现在都会说话：传说人物、地图上的 NPC 和 19 种怪物\n- 按部位装备：武器、盾牌、头部、身体、披风、靴子和 3 个护符\n- 在铁匠铺把装备回炉至 +4，并镶入怪物卡\n- 速度决定每名战士的行动频率，复起者日夜追猎你",
+    "zh_TW": "- 每級獲得 5 點屬性點，以及 1 點技能點用於三系技能樹\n- 12 種進階職業：擊敗一名地主後，職業導師會讓你進階或轉換路線\n- 所有角色現在都會說話：傳說人物、地圖上的 NPC 和 19 種怪物\n- 按部位裝備：武器、盾牌、頭部、身體、披風、靴子和 3 個護符\n- 在鐵匠鋪把裝備回爐至 +4，並鑲入怪物卡\n- 速度決定每名戰士的行動頻率，復起者日夜追獵你"
   }
 }
