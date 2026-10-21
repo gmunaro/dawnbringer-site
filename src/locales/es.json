@@ -191,7 +191,6 @@
   },
   "footer": {
     "privacy": "Política de privacidad",
-    "contact": "Contacto",
     "bugs": "¿Encontraste un error? Usa Informar de un error dentro del juego o escribe a",
     "madeBy": "Dawnbringer está hecho por gmunaro en Brasil.",
     "studio": "Hecho por",
@@ -243,7 +242,6 @@
   "community": {
     "title": "Prensa y comunidad",
     "press": "Logo, arte principal, capturas y una ficha técnica para artículos y vídeos.",
-    "follow": "Sigue el juego",
-    "contact": "Contacto"
+    "follow": "Sigue el juego"
   }
 }

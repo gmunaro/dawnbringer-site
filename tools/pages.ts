@@ -145,16 +145,17 @@ function topBar(c: Ctx, page: PageId): string {
 <div class="suggest" id="suggest" hidden></div>`;
 }
 
-function footer(c: Ctx): string {
+/** The footer of every page; the home page shows the social links in its own block, so not here. */
+function footer(c: Ctx, page?: PageId): string {
   const { t, loc } = c;
   return `<footer class="foot">
 <ul>
 <li><a href="${BASE}privacy.html">${esc(t.footer.privacy)}</a></li>
 <li><a href="${BASE + pathOf(loc, "presskit/")}">${esc(t.nav.press)}</a></li>
-${c.changelog ? `<li><a href="${BASE + pathOf(loc, "changelog/")}">${esc(t.footer.changelog)}</a></li>\n` : ""}<li>${esc(t.footer.contact)}: <a href="mailto:${CONTACT}">${CONTACT}</a></li>
+${c.changelog ? `<li><a href="${BASE + pathOf(loc, "changelog/")}">${esc(t.footer.changelog)}</a></li>` : ""}
 </ul>
 <p>${esc(t.footer.bugs)} <a href="mailto:${CONTACT}">${CONTACT}</a></p>
-${socialList()}
+${page === "" ? "" : socialList()}
 <p>${esc(t.footer.madeBy)} © 2026 gmunaro.</p>
 <p>${esc(t.footer.studio)} <a href="${STUDIO.url}" rel="me noopener">${STUDIO.name}</a></p>
 </footer>`;
@@ -242,7 +243,7 @@ ${topBar(c, page)}
 <main id="main">
 ${main}
 </main>
-${footer(c)}
+${footer(c, page)}
 </body>
 </html>
 `;
@@ -301,7 +302,6 @@ ${c.changelog ? `<p><a href="${BASE + pathOf(loc, "changelog/")}">${esc(t.whatsn
 <p><a class="btn" href="${BASE + pathOf(loc, "presskit/")}">${esc(t.nav.press)}</a> ${esc(t.community.press)}</p>
 <p>${esc(t.community.follow)}:</p>
 ${socialList()}
-<p>${esc(t.community.contact)}: <a href="mailto:${CONTACT}">${CONTACT}</a></p>
 </section>`;
   return frame(c, "", t.meta.title, t.meta.description, main);
 }

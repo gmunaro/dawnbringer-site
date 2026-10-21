@@ -191,7 +191,6 @@
   },
   "footer": {
     "privacy": "Polityka prywatności",
-    "contact": "Kontakt",
     "bugs": "Znalazłeś błąd? Użyj opcji Zgłoś błąd w grze albo napisz na adres",
     "madeBy": "Dawnbringer tworzy gmunaro w Brazylii.",
     "studio": "Twórca:",
@@ -243,7 +242,6 @@
   "community": {
     "title": "Prasa i społeczność",
     "press": "Logo, key art, zrzuty ekranu i karta informacyjna do artykułów i filmów.",
-    "follow": "Śledź grę",
-    "contact": "Kontakt"
+    "follow": "Śledź grę"
   }
 }

@@ -191,7 +191,6 @@
   },
   "footer": {
     "privacy": "Informativa sulla privacy",
-    "contact": "Contatti",
     "bugs": "Hai trovato un bug? Usa Segnala un bug nel gioco o scrivi a",
     "madeBy": "Dawnbringer è sviluppato da gmunaro in Brasile.",
     "studio": "Creato da",
@@ -243,7 +242,6 @@
   "community": {
     "title": "Stampa e community",
     "press": "Logo, key art, screenshot e una scheda tecnica per articoli e video.",
-    "follow": "Segui il gioco",
-    "contact": "Contatti"
+    "follow": "Segui il gioco"
   }
 }

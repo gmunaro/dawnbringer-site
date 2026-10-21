@@ -191,7 +191,6 @@
   },
   "footer": {
     "privacy": "Politique de confidentialité",
-    "contact": "Contact",
     "bugs": "Vous avez trouvé un bug ? Utilisez Signaler un bug dans le jeu ou écrivez à",
     "madeBy": "Dawnbringer est créé par gmunaro au Brésil.",
     "studio": "Créé par",
@@ -243,7 +242,6 @@
   "community": {
     "title": "Presse et communauté",
     "press": "Logo, illustration principale, captures d'écran et fiche technique pour les articles et les vidéos.",
-    "follow": "Suivez le jeu",
-    "contact": "Contact"
+    "follow": "Suivez le jeu"
   }
 }

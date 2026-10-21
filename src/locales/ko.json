@@ -191,7 +191,6 @@
   },
   "footer": {
     "privacy": "개인정보 처리방침",
-    "contact": "연락처",
     "bugs": "버그를 발견했나요? 게임 내 버그 신고를 이용하거나 다음 주소로 보내 주세요:",
     "madeBy": "Dawnbringer는 브라질의 gmunaro가 만듭니다.",
     "studio": "제작:",
@@ -243,7 +242,6 @@
   "community": {
     "title": "프레스 및 커뮤니티",
     "press": "기사와 영상에 쓸 로고, 키 아트, 스크린샷, 팩트 시트.",
-    "follow": "게임 팔로우하기",
-    "contact": "연락처"
+    "follow": "게임 팔로우하기"
   }
 }

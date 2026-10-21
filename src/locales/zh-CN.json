@@ -191,7 +191,6 @@
   },
   "footer": {
     "privacy": "隐私政策",
-    "contact": "联系方式",
     "bugs": "发现了错误？请使用游戏内的报告错误功能，或发送邮件至",
     "madeBy": "Dawnbringer 由巴西的 gmunaro 制作。",
     "studio": "制作：",
@@ -243,7 +242,6 @@
   "community": {
     "title": "媒体与社区",
     "press": "标志、主视觉图、截图和概况表，供文章与视频使用。",
-    "follow": "关注游戏",
-    "contact": "联系我们"
+    "follow": "关注游戏"
   }
 }

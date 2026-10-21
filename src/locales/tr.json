@@ -191,7 +191,6 @@
   },
   "footer": {
     "privacy": "Gizlilik politikası",
-    "contact": "İletişim",
     "bugs": "Bir hata mı buldun? Oyundaki Hata bildir seçeneğini kullan ya da şu adrese yaz",
     "madeBy": "Dawnbringer, Brezilya'da gmunaro tarafından yapılıyor.",
     "studio": "Yapımcı:",
@@ -243,7 +242,6 @@
   "community": {
     "title": "Basın ve topluluk",
     "press": "Makaleler ve videolar için logo, ana görsel, ekran görüntüleri ve bilgi sayfası.",
-    "follow": "Oyunu takip et",
-    "contact": "İletişim"
+    "follow": "Oyunu takip et"
   }
 }
