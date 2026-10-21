@@ -1,79 +1,36 @@
 {
   "meta": {
     "title": "Dawnbringer：ダークファンタジー・ローグライク・オートバトラー",
-    "description": "太陽は消え、地主が毎週取り立てにやって来る。英雄を組み上げ、敵が何を持っているかを読み、上納金を払うかボスと戦うかを選べ。",
+    "description": "ピクセルアートのローグライク・オートバトラー。英雄を育て、敵の装備を読み、地主に上納金を払うか戦うかを選びます。",
     "pressTitle": "Dawnbringer プレスキット",
     "pressDescription": "gmunaroのローグライク・オートバトラー、Dawnbringerのファクトシート、概要、特徴、ロゴ、キーアート、スクリーンショット。",
     "notFoundTitle": "ページが見つかりません",
-    "ogAlt": "血のように赤い月の下に立つ王冠の地主と、その上のDawnbringerロゴ。"
+    "ogAlt": "血のように赤い月の下に立つ王冠の地主と、その上のDawnbringerロゴ。",
+    "betaTitle": "Androidアルファ版に参加 · Dawnbringer",
+    "betaDescription": "Google PlayでDawnbringerのクローズドアルファに参加する方法を、3つの手順で説明します。",
+    "downloadTitle": "PC体験版 · Dawnbringer",
+    "downloadDescription": "Windows、macOS、Linux向けの無料のDawnbringer体験版をダウンロードできます。"
   },
   "nav": {
     "skip": "本文へ移動",
     "home": "ホーム",
-    "game": "ゲーム",
-    "story": "物語",
-    "screens": "スクリーンショット",
-    "features": "特徴",
-    "platforms": "プラットフォーム",
-    "demo": "体験版",
-    "beta": "ベータ",
+    "why": "ゲームについて",
+    "new": "0.5の新機能",
+    "demo": "PC体験版",
+    "beta": "Androidアルファ版",
     "press": "プレスキット",
     "language": "言語"
   },
   "hero": {
-    "tagline": "太陽は消えた。最後の種火を運べ。",
-    "pitch": "闇に沈んだ地を進み、64種の聖遺物で英雄を組み上げ、戦う相手を選べ。戦闘にダイスはなく、どの敵も読める持ち物を連れている。絶望の石は、お前を殺す戦いの前に暗くなる。週末に地主が取り立てに来たら、上納金を払うか、その首を懸けて戦え。",
+    "pitch": "ピクセルアートのローグライク・オートバトラー。英雄を育て、敵の装備を読み、地主に上納金を払うか戦うかを選びます。",
     "artAlt": "血のように赤い月の下、暗い丘から立ち上がる王冠をかぶった巨大な地主と、丘の上で向き合う小さな英雄。",
     "clipTitle": "ゲームプレイ",
-    "clipAlt": "ゲームプレイ映像：地主の夜、空洞の王が取り立てに来てマップが赤く染まる。カードで上納金を払うか戦うかを選び、戦闘が決着する。",
-    "clipFallback": "お使いのブラウザではこの動画を再生できません。"
-  },
-  "stores": {
-    "title": "入手",
-    "steam": "Steam",
-    "googlePlay": "Google Play",
-    "appStore": "App Store",
-    "wishlistSoon": "ウィッシュリスト登録は近日",
-    "comingSoon": "近日登場"
-  },
-  "about": {
-    "title": "遊び方",
-    "intro": "1回の挑戦は3週間。霧に覆われたマップを歩き、宝箱を開け、祠や鍛冶場を訪ねて、週が終わる前に聖遺物のビルドを組み上げる。戦闘はオートで進み、どの道を歩きどの装備を組むかが勝負を決める。",
-    "points": [
-      {
-        "title": "サイコロではなく、敵を読め",
-        "text": "戦闘は100%決定論で進む。どの敵も、挑む前に調べられる本物の持ち物を連れている。その装備を自分の装備と比べよ。絶望の石は、お前を殺す戦いになる敵に印をつけ、それ以上は何も言わない。地主に対しては沈黙したままだ。"
-      },
-      {
-        "title": "地代を払うか、戦うか",
-        "text": "毎週の終わりに、その地の地主が取り立てに来る。財布から上納金を払って生き延びるか、報酬を狙って戦うかを選べ。勝てばゴールドを銀行に預けて帰還することも、財布ごと次の週へ持ち越して賭けを続けることもできる。"
-      },
-      {
-        "title": "最後の夜の追跡",
-        "text": "週の最後の夜になると月が赤く染まり、地主がマップに現れて一歩ごとに追ってくる。ビルドが早めに完成したなら待つ必要はない。自分から玉座へ乗り込んで倒せば、報酬のゴールドが50%増える。"
-      },
-      {
-        "title": "倒れた英雄は道に残る",
-        "text": "英雄が死ぬと、持っていた装備のまま後の挑戦のマップに居残る。昼は道をさまよい、夜はこちらを狩りに来る。打ち倒せば、失った財布の一部を取り戻せる。"
-      },
-      {
-        "title": "勝者は新たな地主となる",
-        "text": "3週間を勝ち抜いた英雄は戴冠する。後の挑戦では、その英雄が地域の玉座に就き、クリア時のビルドそのままに地代を取り立てに来ることがある。"
-      }
-    ]
-  },
-  "story": {
-    "title": "物語",
-    "paragraphs": [
-      "教会は昼の時間を切り売りし、証文として売りさばいた。買い占めた者たちは地主となり、太陽が持つ以上の光を吸い上げた。そして「最後の朝」、太陽は地に落ちた。",
-      "マザー・ヘスパーは落日を見て視力を失いながらも、前掛けで最後の種火を受け止め、「最後の野営」の火を灯した。彼女は英雄の胸に灯芯を植え、東の「門」へと送り出す。灯芯が燃え続けるのは3週間だ。",
-      "黄金とは冷え固まった陽光であり、残された唯一のぬくもりだ。毎週、月が赤い封蝋のように空を閉じると、地主たちが地代を取り立てに来る。道半ばで倒れた者も、借りを返し終えるまで歩き続ける。"
-    ],
-    "question": "まだ誰も、門の向こうへ火を届けていない。その先には何が待っているのか？"
+    "clipAlt": "ゲームプレイの動画：装備を全て身に着けた英雄が、自動で怪物の群れと戦う様子。",
+    "clipFallback": "お使いのブラウザではこの動画を再生できません。",
+    "play": "Androidアルファ版",
+    "demo": "PC体験版"
   },
   "screens": {
-    "title": "スクリーンショット",
-    "open": "原寸で開く",
     "items": {
       "night": {
         "caption": "地主に追いつかれるまで、あと2歩。",
@@ -128,31 +85,21 @@
   "features": {
     "title": "特徴",
     "items": [
-      "6 playable champions and 12 second classes.",
-      "Attribute points and a skill point every level; a skill tree of three branches.",
-      "96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
-      "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
-      "19 Landlords across 6 biomes and 3 weeks.",
-      "Patrols, packs, ambushes, guardians and mimics on the map.",
-      "Day and night: at night your sight shrinks and shadows hunt you.",
-      "Your fallen champions rise and hunt you; your winners return as Landlords.",
-      "Separate bank and purse: stake gold at the start and cash out after each Landlord.",
-      "9 optional oaths that raise both the difficulty and the payout.",
-      "Voices with emotion for every character, and ambient sound for every biome.",
-      "A herbarium, a bestiary and 12 feats in the Journal.",
-      "Native 640x360 pixel art with mouse, keyboard, controller and touch.",
-      "Translated into 14 languages."
+      "プレイ可能な英雄6人と、上位職12種。",
+      "レベルごとにステータスポイントとスキルポイント。3つの枝を持つスキルツリー。",
+      "10系統96種のアイテム。部位ごとに装備し、2、4、6個でセット効果。",
+      "鍛冶場で装備を+4まで再加熱し、モンスターカード19種類をはめ込めます。",
+      "6つのバイオームと3週間にわたる、地主19人。",
+      "マップ上の巡回、群れ、待ち伏せ、守護者、ミミック。",
+      "昼と夜：夜は視界が狭まり、影があなたを狙います。",
+      "倒れた英雄は蘇ってあなたを追います。勝ち残った英雄は地主として戻ってきます。",
+      "銀行と財布は別々。開始時にゴールドを賭け、地主を倒すたびに換金します。",
+      "任意の誓約9種。難易度と報酬の両方が上がります。",
+      "全キャラクターに感情のある声、全バイオームに環境音。",
+      "日誌に植物図鑑、小動物図鑑、功績12種があります。",
+      "ネイティブ640x360のピクセルアート。マウス、キーボード、コントローラー、タッチに対応。",
+      "14言語に翻訳済み。"
     ]
-  },
-  "platforms": {
-    "title": "プラットフォーム",
-    "intro": "PCおよびモバイル向けに開発中。Android版クローズドベータは現在参加可能です。",
-    "pc": "PC",
-    "pcNote": "SteamにてWindows版を配信予定。無料体験版はmacOSとLinuxでも動作します。",
-    "android": "Android",
-    "androidNote": "スマートフォン・タブレット向けにGoogle Playで配信。",
-    "ios": "iPhoneとiPad",
-    "iosNote": "App Storeで配信。"
   },
   "demo": {
     "title": "体験版をダウンロード",
@@ -175,12 +122,12 @@
     "linuxNote": "x86_64。アーカイブを展開し、DawnbringerDemo.x86_64を実行してください。OpenGL 3.3に対応したグラフィックドライバーが必要です。",
     "download": "ダウンロード（{size}）",
     "checksums": "ファイルのSHA-256チェックサム",
-    "android": "Android：クローズドベータに参加できます。",
-    "androidLink": "ベータに参加",
+    "android": "Android：クローズドアルファ版を公開中です。",
+    "androidLink": "アルファ版に参加",
     "ios": "iPhoneとiPad：まだ提供していません。"
   },
   "beta": {
-    "title": "ベータに参加",
+    "title": "Androidアルファ版に参加",
     "testCardCaption": "注釈付きのAndroidテスト決済画面。架空の金額をXで消し、テストカードと「これはテスト注文のため請求されません」というGoogleの案内を緑色で囲んでいます。",
     "paymentNoticeTitle": "テスト決済の金額は架空です。実際に請求されることはありません。",
     "paymentNoticeText": "Test card, always approvesを使うと、Google Playは購入をシミュレーションするだけです。R$9.99などの金額が表示されても、お金は引き落とされません。この支払い方法が選択されていることを確認してください。自分のカードなど実際の支払い方法が表示された場合は確定せず、ご連絡ください。",
@@ -191,7 +138,7 @@
     "step2Link": "テストページを開く",
     "step3": "AndroidのスマートフォンやタブレットでGoogle Playのゲームページを開き、「インストール」を押します。パソコンでは、表示された画面でAndroid端末を選び、Installまたは「インストール」を押します。",
     "step3Link": "Google Playからインストール",
-    "note": "無料のベータアクセスは発売時に終了します。テストへの参加に製品版の購入は含まれません。",
+    "note": "無料のアルファ版アクセスは発売時に終了します。テストへの参加に製品版の購入は含まれません。",
     "helpTitle": "インストールで困ったら",
     "accountHelp": "グループ、テストページ、Playストアの3か所で同じアカウントを使ってください。複数のGoogleアカウントがある場合は、各ページとストアアプリのプロフィール画像を確認してください。",
     "priceTitle": "価格や購入ボタンが表示される場合",
@@ -232,19 +179,18 @@
     "screensNote": "スクリーンショットはネイティブ解像度640x360を整数倍拡大した1920x1080のPNGです。",
     "creditsTitle": "クレジット",
     "credits": [
-      "Design, code and art: gmunaro",
-      "Music: Juhani Junkala (CC0); the Landlord's night score is original, played on VSCO 2 Community Edition samples (CC0)",
-      "Sound effects: Kenney, StarNinjas, Oiboo (CC0) and original sounds",
-      "Ambient sound: field recordings from freesound.org (CC0)",
-      "Voices: synthetic speech from ElevenLabs v4; no human voice was recorded or cloned",
-      "Fonts: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel and GNU Unifont (SIL Open Font License 1.1)"
+      "デザイン、コード、アート：gmunaro",
+      "音楽：Juhani Junkala（CC0）。地主の夜のスコアはオリジナルで、VSCO 2 Community Editionのサンプル（CC0）で演奏しています。",
+      "効果音：Kenney、StarNinjas、Oiboo（CC0）およびオリジナルの音",
+      "環境音：freesound.orgのフィールド録音（CC0）",
+      "声：ElevenLabs v4による合成音声。人の声は録音も複製もしていません。",
+      "フォント：Kenney（CC0）、Jacquarda Bastarda 9、Fusion Pixel、GNU Unifont（SIL Open Font License 1.1）"
     ],
     "contactTitle": "連絡先",
     "contactText": "取材、レビュー用キー、その他のご連絡はこちらへ："
   },
   "footer": {
     "privacy": "プライバシーポリシー",
-    "contact": "連絡先",
     "bugs": "バグを見つけたら、ゲーム内の「バグを報告」を使うか、こちらへご連絡ください：",
     "madeBy": "Dawnbringerはブラジルのgmunaroが制作しています。",
     "studio": "制作:",
@@ -263,57 +209,39 @@
     "title": "更新情報",
     "description": "Dawnbringerの各アップデートと変更内容。"
   },
-  "news": {
-    "title": "New in 0.5",
-    "intro": "Version 0.5.0 adds classes, a skill tree, gear by slot, a new combat model, voices for every character and six biomes with their own life and sound.",
+  "why": {
+    "title": "ほかのゲームとの違い",
     "items": {
-      "classes": {
-        "title": "Classes",
-        "text": "The six champions are the first classes. From week 2 the class master waits on the map, and once you have beaten a Landlord each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
-        "alt": "The class master offers a champion its two second classes."
+      "read": {
+        "title": "サイコロではなく、敵を読む",
+        "text": "戦闘は自動で進み、サイコロは振りません。どの敵も装備を見せており、絶望の石は英雄を殺す戦いの前にだけ暗くなります。",
+        "alt": "マップ上で敵の群れの上に現れた、絶望の石の印。"
       },
-      "tree": {
-        "title": "Attributes and a skill tree",
-        "text": "Every level gives attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.",
-        "alt": "The skill tree with nodes bought in two branches."
+      "build": {
+        "title": "英雄を育てる",
+        "text": "上位職を選び、スキルツリーにポイントを振り、すべての部位に装備を身に着けます。鍛冶場でアイテムを再加熱し、モンスターカードをはめ込めます。",
+        "alt": "クラスマスターが英雄に、2つの上位職を提示する。"
       },
-      "gear": {
-        "title": "Gear by slot",
-        "text": "96 items in 10 families, each worn in its slot: weapon, shield, head, body, cloak, boots and three charms. The forge reheats an item up to +4 and never fails. Monsters drop rare cards that set into your gear.",
-        "alt": "The forge with a reheated item and a monster card set into it."
-      },
-      "combat": {
-        "title": "A new way to fight",
-        "text": "Speed decides how often each fighter acts. Hard DEF takes a share off every hit, and Soft DEF soaks damage before health. Your gear shows on the hero's body, each piece in its place. The game still never tells you how a fight will end.",
-        "alt": "A hero in full gear fights a group of monsters."
-      },
-      "risen": {
-        "title": "The risen hunt you",
-        "text": "Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, slower than you walk. If one reaches you, you fight.",
-        "alt": "A risen hero walks toward the player across the map."
-      },
-      "biomes": {
-        "title": "Six biomes that breathe",
-        "text": "Every biome has its own rocks, plants, small animals, wind and particles, and its own sound by day and by night. The plants sway with the music. Your seed's map stays the same: the decoration never blocks a tile.",
-        "alt": "The six biomes of Dawnbringer, by day and by night."
-      },
-      "voices": {
-        "title": "Every character speaks",
-        "text": "The lore, the 12 NPCs on the map and every kind of monster in battle speak with emotion. The voices are synthetic speech; no human voice was recorded or cloned.",
-        "alt": "Mother Hesper speaks at the Last Camp."
-      },
-      "collection": {
-        "title": "Finds, feats and a postcard",
-        "text": "Twelve plants and animals hide in the biomes as finds for the Journal's herbarium and bestiary. Twelve feats track your runs. On Android, the share menu sends a framed postcard of your hero.",
-        "alt": "The Journal's collection with finds from each biome."
+      "return": {
+        "title": "探索が戻ってくる",
+        "text": "倒れた英雄は、後の探索で蘇ってあなたを追います。勝った英雄は、地主の玉座に座って戻ってくることがあります。",
+        "alt": "赤くマークされた蘇った英雄が、マップ上のプレイヤーに向かって歩く。"
       }
     }
   },
-  "listen": {
-    "title": "Listen",
-    "voice": "Mother Hesper, from the lore",
-    "ambience": "Drowned Vigil at night",
-    "monster": "The Tithe Taker, before a fight",
-    "fallback": "Your browser cannot play this audio."
+  "whatsnew": {
+    "title": "0.5の新機能",
+    "items": [
+      "上位職12種と、3つの枝を持つスキルツリー。",
+      "部位ごとの装備。鍛冶場で再加熱し、モンスターカードをはめ込めます。",
+      "全キャラクターに声。",
+      "6つのバイオーム。それぞれ独自の植物、小動物、音があります。"
+    ],
+    "more": "すべての変更点"
+  },
+  "community": {
+    "title": "プレスとコミュニティ",
+    "press": "記事や動画向けのロゴ、キーアート、スクリーンショット、ファクトシート。",
+    "follow": "ゲームをフォロー"
   }
 }

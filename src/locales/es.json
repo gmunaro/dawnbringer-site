@@ -1,79 +1,36 @@
 {
   "meta": {
     "title": "Dawnbringer: auto-battler roguelike de fantasía oscura",
-    "description": "El sol se apagó y el Terrateniente cobra el alquiler cada semana. Arma tu campeón, lee lo que lleva cada enemigo y decide si pagas el diezmo o luchas contra el jefe.",
+    "description": "Un auto-battler roguelike en pixel art: arma un campeón, lee el equipo de cada enemigo y luego paga al Terrateniente o lucha.",
     "pressTitle": "Kit de prensa de Dawnbringer",
     "pressDescription": "Ficha técnica, descripción, características, logo, arte principal y capturas de Dawnbringer, un auto-battler roguelike de gmunaro.",
     "notFoundTitle": "Página no encontrada",
-    "ogAlt": "El logo de Dawnbringer sobre un Terrateniente coronado bajo una luna rojo sangre."
+    "ogAlt": "El logo de Dawnbringer sobre un Terrateniente coronado bajo una luna rojo sangre.",
+    "betaTitle": "Únete a la alfa de Android · Dawnbringer",
+    "betaDescription": "Cómo unirte a la alfa cerrada de Dawnbringer en Google Play, en tres pasos.",
+    "downloadTitle": "Demo de escritorio · Dawnbringer",
+    "downloadDescription": "Descarga la demo gratuita de Dawnbringer para Windows, macOS y Linux."
   },
   "nav": {
     "skip": "Saltar al contenido",
     "home": "Inicio",
-    "game": "El juego",
-    "story": "Historia",
-    "screens": "Capturas",
-    "features": "Características",
-    "platforms": "Plataformas",
-    "demo": "Demo",
-    "beta": "Beta",
+    "why": "El juego",
+    "new": "Nuevo en la 0.5",
+    "demo": "Demo de escritorio",
+    "beta": "Alfa de Android",
     "press": "Kit de prensa",
     "language": "Idioma"
   },
   "hero": {
-    "tagline": "El sol se apagó. Lleva su última brasa.",
-    "pitch": "Recorre una tierra a oscuras, arma tu campeón con 64 reliquias y elige bien tus peleas. El combate no usa dados: cada enemigo lleva equipo que puedes leer, y tu Piedra de la Desesperación se oscurece antes de una pelea que te mataría. Cuando el Terrateniente venga a cobrar al final de la semana, paga el diezmo o lucha por su cabeza.",
+    "pitch": "Un auto-battler roguelike en pixel art: arma un campeón, lee el equipo de cada enemigo y luego paga al Terrateniente o lucha.",
     "artAlt": "Un pequeño campeón sobre una colina se enfrenta a un Terrateniente gigante y coronado que surge de las colinas oscuras bajo una luna rojo sangre.",
     "clipTitle": "Jugabilidad",
-    "clipAlt": "Clip de juego: en la noche del Terrateniente el mapa se vuelve rojo mientras el Rey Hueco viene a cobrar; su carta ofrece pagar el diezmo o luchar; luego el combate se resuelve.",
-    "clipFallback": "Tu navegador no puede reproducir este vídeo."
-  },
-  "stores": {
-    "title": "Consíguelo",
-    "steam": "Steam",
-    "googlePlay": "Google Play",
-    "appStore": "App Store",
-    "wishlistSoon": "Lista de deseados pronto",
-    "comingSoon": "Próximamente"
-  },
-  "about": {
-    "title": "Cómo se juega",
-    "intro": "Cada partida dura tres semanas. Avanzas por un mapa cubierto de niebla, abres cofres, visitas santuarios y forjas y combinas reliquias antes de que termine la semana. Los combates son automáticos; la estrategia está en la ruta que trazas y en la build que armas.",
-    "points": [
-      {
-        "title": "Lee al enemigo, no los dados",
-        "text": "El combate es 100 % determinista, y cada enemigo lleva objetos reales que puedes inspeccionar antes de la pelea: compara su equipo con el tuyo. Tu Piedra de la Desesperación marca cualquier enemigo cuya pelea te mataría, y no dice nada más. Contra el Terrateniente guarda silencio."
-      },
-      {
-        "title": "Paga el alquiler o lucha",
-        "text": "Al final de cada semana, el Terrateniente de la región viene a cobrar. Puedes pagar el diezmo con el oro de tu bolsa para seguir con vida o enfrentarlo por la recompensa. Si ganas, decides si guardas el oro en el banco y terminas la partida o lo arriesgas todo en la siguiente semana."
-      },
-      {
-        "title": "La cacería de la última noche",
-        "text": "En la última noche de la semana, la luna se tiñe de rojo y el Terrateniente entra al mapa para cazarte a cada paso. Si tu build ya está lista, no tienes que esperar: ve a su trono antes de tiempo y véncelo por un 50 % más de oro."
-      },
-      {
-        "title": "Tus muertos quedan en el camino",
-        "text": "Cuando un campeón muere, permanece en esa tierra en partidas futuras con el equipo que llevaba. De día vaga por el camino; de noche te caza. Véncelo para recuperar parte de la bolsa perdida."
-      },
-      {
-        "title": "Tus vencedores se vuelven Terratenientes",
-        "text": "Los campeones que sobreviven las tres semanas son coronados. En partidas futuras pueden ocupar el trono de una región y venir a cobrar usando exactamente la build con la que ganaron."
-      }
-    ]
-  },
-  "story": {
-    "title": "La historia",
-    "paragraphs": [
-      "La Iglesia parceló las horas del día y las vendió en escrituras. Los compradores se convirtieron en los Terratenientes y exprimieron más luz de la que el sol podía dar. En la Última Mañana, el sol se desplomó.",
-      "La Madre Hesper quedó ciega al verlo caer, pero recogió la última brasa en el delantal y encendió la hoguera del Último Campamento. Ella prende un pabilo en el pecho de cada campeón y lo envía al este, rumbo a la Puerta. Cada pabilo arde durante tres semanas.",
-      "El oro es luz solar enfriada, el único calor que queda. Cada semana la luna se cierra como un sello de lacre rojo y los Terratenientes vienen a cobrar el alquiler. Quien muere en el camino sigue andando hasta saldar su deuda."
-    ],
-    "question": "Nadie ha llevado aún la llama más allá de la Puerta. ¿Qué aguarda al otro lado?"
+    "clipAlt": "Clip de juego: un héroe con equipo completo lucha solo contra un grupo de monstruos.",
+    "clipFallback": "Tu navegador no puede reproducir este vídeo.",
+    "play": "Alfa de Android",
+    "demo": "Demo de escritorio"
   },
   "screens": {
-    "title": "Capturas",
-    "open": "Ver a tamaño completo",
     "items": {
       "night": {
         "caption": "Quedan dos pasos antes de que el Terrateniente te alcance.",
@@ -128,31 +85,21 @@
   "features": {
     "title": "Características",
     "items": [
-      "6 playable champions and 12 second classes.",
-      "Attribute points and a skill point every level; a skill tree of three branches.",
-      "96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
-      "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
-      "19 Landlords across 6 biomes and 3 weeks.",
-      "Patrols, packs, ambushes, guardians and mimics on the map.",
-      "Day and night: at night your sight shrinks and shadows hunt you.",
-      "Your fallen champions rise and hunt you; your winners return as Landlords.",
-      "Separate bank and purse: stake gold at the start and cash out after each Landlord.",
-      "9 optional oaths that raise both the difficulty and the payout.",
-      "Voices with emotion for every character, and ambient sound for every biome.",
-      "A herbarium, a bestiary and 12 feats in the Journal.",
-      "Native 640x360 pixel art with mouse, keyboard, controller and touch.",
-      "Translated into 14 languages."
+      "6 campeones jugables y 12 segundas clases.",
+      "Puntos de atributo y un punto de habilidad en cada nivel; un árbol de habilidades de tres ramas.",
+      "96 objetos en 10 familias, equipados por ranura, con bonificaciones de conjunto con 2, 4 y 6 piezas.",
+      "Recalienta el equipo hasta +4 en la forja y engarza en él 19 tipos de carta de monstruo.",
+      "19 Terratenientes en 6 biomas y 3 semanas.",
+      "Patrullas, grupos, emboscadas, guardianes y mímicos en el mapa.",
+      "Día y noche: de noche tu visión se reduce y las sombras te cazan.",
+      "Tus campeones caídos resurgen y te cazan; los vencedores vuelven como Terratenientes.",
+      "Banco y bolsa separados: apuesta oro al empezar y retírate después de cada Terrateniente.",
+      "9 juramentos opcionales que suben a la vez la dificultad y la recompensa.",
+      "Voces con emoción para cada personaje y sonido ambiente para cada bioma.",
+      "Un herbario, un bestiario y 12 logros en el Diario.",
+      "Pixel art nativo de 640x360 con ratón, teclado, mando y pantalla táctil.",
+      "Traducido a 14 idiomas."
     ]
-  },
-  "platforms": {
-    "title": "Plataformas",
-    "intro": "En desarrollo para PC y móviles. La beta cerrada ya está disponible en Android.",
-    "pc": "PC",
-    "pcNote": "Windows en Steam. La demo gratuita también funciona en macOS y Linux.",
-    "android": "Android",
-    "androidNote": "Móviles y tabletas, en Google Play.",
-    "ios": "iPhone y iPad",
-    "iosNote": "En la App Store."
   },
   "demo": {
     "title": "Descarga la demo",
@@ -175,12 +122,12 @@
     "linuxNote": "x86_64. Extrae el archivo y ejecuta DawnbringerDemo.x86_64. Necesita controladores gráficos con OpenGL 3.3.",
     "download": "Descargar ({size})",
     "checksums": "Sumas SHA-256 de los archivos",
-    "android": "Android: la beta cerrada está abierta.",
-    "androidLink": "Únete a la beta",
+    "android": "Android: la alfa cerrada está abierta.",
+    "androidLink": "Únete a la alfa",
     "ios": "iPhone y iPad: aún no disponible."
   },
   "beta": {
-    "title": "Únete a la beta",
+    "title": "Únete a la alfa de Android",
     "testCardCaption": "Captura anotada del pago de prueba en Android. La X tacha el importe ficticio. En verde, la tarjeta de prueba y el aviso de Google: es un pedido de prueba, no se te cobrará.",
     "paymentNoticeTitle": "El importe del pago de prueba es FICTICIO. NO SE TE COBRARÁ.",
     "paymentNoticeText": "Con Test card, always approves, Google Play solo simula una compra. Aunque aparezca R$9.99 u otro importe, no se descontará dinero. Comprueba que ese sea el método de pago seleccionado. Si aparece tu tarjeta personal u otro método de pago real, no confirmes y contacta con nosotros.",
@@ -191,7 +138,7 @@
     "step2Link": "Abrir la página de prueba",
     "step3": "En tu móvil o tableta Android, abre el juego en Google Play y pulsa Instalar. Desde un ordenador, elige tu dispositivo Android en la ventana y pulsa Install o Instalar.",
     "step3Link": "Instalar desde Google Play",
-    "note": "El acceso gratuito a la beta termina con el lanzamiento. Participar no incluye la compra de la versión final.",
+    "note": "El acceso gratuito a la alfa termina con el lanzamiento. Participar no incluye la compra de la versión final.",
     "helpTitle": "¿Necesitas ayuda para instalar?",
     "accountHelp": "Usa la misma cuenta en el grupo, la página de prueba y la Play Store. Si tienes varias cuentas de Google, comprueba la foto de perfil en cada página y en la aplicación de la tienda.",
     "priceTitle": "¿Aparece un precio o el botón Comprar?",
@@ -232,19 +179,18 @@
     "screensNote": "Las capturas son PNG de 1920x1080, escaladas por enteros desde la resolución nativa de 640x360.",
     "creditsTitle": "Créditos",
     "credits": [
-      "Design, code and art: gmunaro",
-      "Music: Juhani Junkala (CC0); the Landlord's night score is original, played on VSCO 2 Community Edition samples (CC0)",
-      "Sound effects: Kenney, StarNinjas, Oiboo (CC0) and original sounds",
-      "Ambient sound: field recordings from freesound.org (CC0)",
-      "Voices: synthetic speech from ElevenLabs v4; no human voice was recorded or cloned",
-      "Fonts: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel and GNU Unifont (SIL Open Font License 1.1)"
+      "Diseño, código y arte: gmunaro",
+      "Música: Juhani Junkala (CC0); la música nocturna del Terrateniente es original, interpretada con muestras de VSCO 2 Community Edition (CC0)",
+      "Efectos de sonido: Kenney, StarNinjas, Oiboo (CC0) y sonidos originales",
+      "Sonido ambiente: grabaciones de campo de freesound.org (CC0)",
+      "Voces: voz sintética de ElevenLabs v4; no se grabó ni se clonó ninguna voz humana",
+      "Fuentes: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel y GNU Unifont (SIL Open Font License 1.1)"
     ],
     "contactTitle": "Contacto",
     "contactText": "Para prensa, claves de análisis y otras consultas, escribe a"
   },
   "footer": {
     "privacy": "Política de privacidad",
-    "contact": "Contacto",
     "bugs": "¿Encontraste un error? Usa Informar de un error dentro del juego o escribe a",
     "madeBy": "Dawnbringer está hecho por gmunaro en Brasil.",
     "studio": "Hecho por",
@@ -263,57 +209,39 @@
     "title": "Novedades",
     "description": "Cada actualización de Dawnbringer y lo que cambió en ella."
   },
-  "news": {
-    "title": "New in 0.5",
-    "intro": "Version 0.5.0 adds classes, a skill tree, gear by slot, a new combat model, voices for every character and six biomes with their own life and sound.",
+  "why": {
+    "title": "Qué lo hace diferente",
     "items": {
-      "classes": {
-        "title": "Classes",
-        "text": "The six champions are the first classes. From week 2 the class master waits on the map, and once you have beaten a Landlord each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
-        "alt": "The class master offers a champion its two second classes."
+      "read": {
+        "title": "Lee al enemigo, no a los dados",
+        "text": "Las peleas se resuelven solas y nunca tiran dados. Cada enemigo muestra su equipo, y la Piedra de la Desesperación solo se oscurece ante una pelea que te mataría.",
+        "alt": "La marca de la Piedra de la Desesperación sobre un grupo de enemigos en el mapa."
       },
-      "tree": {
-        "title": "Attributes and a skill tree",
-        "text": "Every level gives attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.",
-        "alt": "The skill tree with nodes bought in two branches."
+      "build": {
+        "title": "Arma un campeón",
+        "text": "Elige una segunda clase, gasta puntos en un árbol de habilidades y equipa objetos en cada ranura. Recalienta objetos en la forja y engarza en ellos cartas de monstruo.",
+        "alt": "El maestro de clase ofrece a un campeón sus dos segundas clases."
       },
-      "gear": {
-        "title": "Gear by slot",
-        "text": "96 items in 10 families, each worn in its slot: weapon, shield, head, body, cloak, boots and three charms. The forge reheats an item up to +4 and never fails. Monsters drop rare cards that set into your gear.",
-        "alt": "The forge with a reheated item and a monster card set into it."
-      },
-      "combat": {
-        "title": "A new way to fight",
-        "text": "Speed decides how often each fighter acts. Hard DEF takes a share off every hit, and Soft DEF soaks damage before health. Your gear shows on the hero's body, each piece in its place. The game still never tells you how a fight will end.",
-        "alt": "A hero in full gear fights a group of monsters."
-      },
-      "risen": {
-        "title": "The risen hunt you",
-        "text": "Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, slower than you walk. If one reaches you, you fight.",
-        "alt": "A risen hero walks toward the player across the map."
-      },
-      "biomes": {
-        "title": "Six biomes that breathe",
-        "text": "Every biome has its own rocks, plants, small animals, wind and particles, and its own sound by day and by night. The plants sway with the music. Your seed's map stays the same: the decoration never blocks a tile.",
-        "alt": "The six biomes of Dawnbringer, by day and by night."
-      },
-      "voices": {
-        "title": "Every character speaks",
-        "text": "The lore, the 12 NPCs on the map and every kind of monster in battle speak with emotion. The voices are synthetic speech; no human voice was recorded or cloned.",
-        "alt": "Mother Hesper speaks at the Last Camp."
-      },
-      "collection": {
-        "title": "Finds, feats and a postcard",
-        "text": "Twelve plants and animals hide in the biomes as finds for the Journal's herbarium and bestiary. Twelve feats track your runs. On Android, the share menu sends a framed postcard of your hero.",
-        "alt": "The Journal's collection with finds from each biome."
+      "return": {
+        "title": "Tus partidas vuelven",
+        "text": "Los héroes caídos resurgen y te cazan en partidas posteriores. Los héroes que ganan pueden volver en el trono de un Terrateniente.",
+        "alt": "Un héroe resurgido, marcado en rojo, avanza hacia el jugador en el mapa."
       }
     }
   },
-  "listen": {
-    "title": "Listen",
-    "voice": "Mother Hesper, from the lore",
-    "ambience": "Drowned Vigil at night",
-    "monster": "The Tithe Taker, before a fight",
-    "fallback": "Your browser cannot play this audio."
+  "whatsnew": {
+    "title": "Nuevo en la 0.5",
+    "items": [
+      "Doce segundas clases y un árbol de habilidades con tres ramas.",
+      "Equipo por ranura, recalentado en la forja y con cartas de monstruo engarzadas.",
+      "Una voz para cada personaje.",
+      "Seis biomas con sus propias plantas, pequeños animales y sonido."
+    ],
+    "more": "Todos los cambios"
+  },
+  "community": {
+    "title": "Prensa y comunidad",
+    "press": "Logo, arte principal, capturas y una ficha técnica para artículos y vídeos.",
+    "follow": "Sigue el juego"
   }
 }

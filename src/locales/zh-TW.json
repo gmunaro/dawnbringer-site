@@ -1,79 +1,36 @@
 {
   "meta": {
     "title": "Dawnbringer：暗黑奇幻像素風 Roguelike 自動戰鬥遊戲",
-    "description": "太陽已熄，地主每週上門收租。打造你的勇士，看清每個敵人攜帶的物品，再決定繳納供奉還是迎戰首領。",
+    "description": "像素風 Roguelike 自動戰鬥遊戲：打造勇士，查看每個敵人的裝備，然後向地主繳納供奉或迎戰。",
     "pressTitle": "Dawnbringer 媒體資料包",
     "pressDescription": "gmunaro 開發的 Roguelike 自動戰鬥遊戲 Dawnbringer 的概況、簡介、特色、標誌、主視覺圖與截圖。",
     "notFoundTitle": "找不到頁面",
-    "ogAlt": "血紅月亮下站著一位頭戴王冠的地主，上方是 Dawnbringer 的標誌。"
+    "ogAlt": "血紅月亮下站著一位頭戴王冠的地主，上方是 Dawnbringer 的標誌。",
+    "betaTitle": "加入 Android 封閉測試 · Dawnbringer",
+    "betaDescription": "依照三個步驟，加入 Google Play 上 Dawnbringer 的 Android 封閉測試。",
+    "downloadTitle": "電腦試玩版 · Dawnbringer",
+    "downloadDescription": "下載適用於 Windows、macOS 和 Linux 的免費 Dawnbringer 試玩版。"
   },
   "nav": {
     "skip": "跳到主要內容",
     "home": "首頁",
-    "game": "遊戲",
-    "story": "故事",
-    "screens": "截圖",
-    "features": "特色",
-    "platforms": "平台",
-    "demo": "試玩版",
-    "beta": "測試",
+    "why": "遊戲介紹",
+    "new": "0.5 新內容",
+    "demo": "電腦試玩版",
+    "beta": "Android 封閉測試",
     "press": "媒體資料",
     "language": "語言"
   },
   "hero": {
-    "tagline": "太陽已熄。帶上最後的餘燼。",
-    "pitch": "穿過陷入黑暗的土地，用 64 件聖物打造勇士，挑選你的戰鬥。戰鬥不靠骰子：每個敵人都攜帶可供閱讀的裝備，而你的絕望之石會在會要你性命的戰鬥前暗下來。當週末地主上門收租時，選擇繳納供奉，或是賭上性命取它首級。",
+    "pitch": "像素風 Roguelike 自動戰鬥遊戲：打造勇士，查看每個敵人的裝備，然後向地主繳納供奉或迎戰。",
     "artAlt": "血紅的月亮下，山丘上一名渺小的勇士，面對從幽暗群山中升起、頭戴王冠的巨大地主。",
     "clipTitle": "實機畫面",
-    "clipAlt": "實機片段：地主之夜，空洞之王前來收帳，地圖染成紅色；它的卡牌給出繳納供奉或戰鬥的選擇；接著戰鬥決出勝負。",
-    "clipFallback": "你的瀏覽器無法播放這段影片。"
-  },
-  "stores": {
-    "title": "取得",
-    "steam": "Steam",
-    "googlePlay": "Google Play",
-    "appStore": "App Store",
-    "wishlistSoon": "即將開放願望清單",
-    "comingSoon": "即將推出"
-  },
-  "about": {
-    "title": "玩法機制",
-    "intro": "每次出征持續三週。你在迷霧籠罩的地圖上行進，打開寶箱，造訪神龕與鍛爐，在本週結束前拼湊出聖物構築。戰鬥自動進行；勝負取決於你規劃的路線和搭配的裝備。",
-    "points": [
-      {
-        "title": "看敵人，不看骰子",
-        "text": "戰鬥 100% 確定。每個敵人都攜帶真實可見的物品，你可以在開戰前檢視，並把它的裝備與你的相比。你的絕望之石只會標記會要你性命的敵人，且不再多說。面對地主時，它保持沉默。"
-      },
-      {
-        "title": "交租，或者開戰",
-        "text": "每週結束時，該區域的地主都會上門收帳。你可以從錢包裡掏出供奉買路活命，也可以為了賞金與它死戰。獲勝後，你能把金幣存入錢莊安全回家，或是帶著全部錢包孤注一擲進入下一週。"
-      },
-      {
-        "title": "最後一夜的追獵",
-        "text": "每週最後一夜，月亮化為血紅，地主會親自踏上地圖，隨你的每一步逼近。如果你的構築提前成型，不必原地等待：主動殺向它的王座，提前擊敗它可額外獲得 50% 金幣。"
-      },
-      {
-        "title": "陣亡者留在路上",
-        "text": "勇士死後，會帶著生前的裝備留在那片土地上，出現在未來的出征中。它白天遊蕩，夜晚獵殺你。擊敗它即可奪回部分遺失的錢包。"
-      },
-      {
-        "title": "獲勝者加冕為地主",
-        "text": "撐過全部三週的勇士將被加冕。在之後的出征裡，它們可能坐上某個區域的王座，帶著當初通關時的完整構築向你收租。"
-      }
-    ]
-  },
-  "story": {
-    "title": "故事",
-    "paragraphs": [
-      "教會將白晝的時辰切分，寫進地契出售。買下地契的人成了地主，榨取了比太陽本身還要多的光。在最後的早晨，太陽墜落了。",
-      "赫斯珀嬤嬤因目睹日落而失明，但她用圍裙接住了最後的餘燼，點燃了最後營地的營火。她在每位勇士胸口埋下一根燈芯，派他們向東前往關隘。一根燈芯可燃燒三週。",
-      "黃金是冷卻的陽光，也是世上僅存的溫暖。每週月亮都會像紅色封蠟印一樣封住夜空，地主隨之登門收租。倒在半路的人仍會繼續行走，直到還清身上的債。"
-    ],
-    "question": "至今無人帶著火種越過關隘。門的另一側究竟有什麼？"
+    "clipAlt": "遊戲實機片段：全副裝備的勇士自行與一群怪物交戰。",
+    "clipFallback": "你的瀏覽器無法播放這段影片。",
+    "play": "Android 封閉測試",
+    "demo": "電腦試玩版"
   },
   "screens": {
-    "title": "截圖",
-    "open": "檢視原圖",
     "items": {
       "night": {
         "caption": "距離地主追上你還剩兩步。",
@@ -128,31 +85,21 @@
   "features": {
     "title": "特色",
     "items": [
-      "6 playable champions and 12 second classes.",
-      "Attribute points and a skill point every level; a skill tree of three branches.",
-      "96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
-      "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
-      "19 Landlords across 6 biomes and 3 weeks.",
-      "Patrols, packs, ambushes, guardians and mimics on the map.",
-      "Day and night: at night your sight shrinks and shadows hunt you.",
-      "Your fallen champions rise and hunt you; your winners return as Landlords.",
-      "Separate bank and purse: stake gold at the start and cash out after each Landlord.",
-      "9 optional oaths that raise both the difficulty and the payout.",
-      "Voices with emotion for every character, and ambient sound for every biome.",
-      "A herbarium, a bestiary and 12 feats in the Journal.",
-      "Native 640x360 pixel art with mouse, keyboard, controller and touch.",
-      "Translated into 14 languages."
+      "6 位可操作的勇士與 12 種進階職業。",
+      "每級獲得屬性點與一點技能點；技能樹有三個分支。",
+      "96 件物品分為 10 個系列，依部位穿戴，湊齊 2、4、6 件時觸發套裝加成。",
+      "在鍛爐將裝備回爐至 +4，並可嵌入 19 種怪物卡。",
+      "6 個生態區、3 週內共有 19 位地主。",
+      "地圖上有巡邏隊、成群的敵人、伏擊、守護者與擬態怪。",
+      "晝夜交替：入夜後你的視野縮小，暗影會來追獵你。",
+      "陣亡的勇士會化為復起者來追獵你；獲勝的勇士則會以地主身分回歸。",
+      "錢莊與錢包分開：開局時押注金幣，每擊敗一位地主後兌現。",
+      "9 個可選誓約，同時提高難度與報酬。",
+      "每個角色都有富含情感的語音，每個生態區都有環境音效。",
+      "日誌中有植物標本冊、小動物圖鑑與 12 項成就。",
+      "原生 640x360 像素美術，支援滑鼠、鍵盤、手把與觸控。",
+      "已翻譯成 14 種語言。"
     ]
-  },
-  "platforms": {
-    "title": "平台",
-    "intro": "正在面向 PC 與行動裝置開發。Android 封閉測試現已開放。",
-    "pc": "PC",
-    "pcNote": "Windows 版登上 Steam。免費試玩版也能在 macOS 和 Linux 上執行。",
-    "android": "Android",
-    "androidNote": "手機和平板，登上 Google Play。",
-    "ios": "iPhone 和 iPad",
-    "iosNote": "登上 App Store。"
   },
   "demo": {
     "title": "下載試玩版",
@@ -180,7 +127,7 @@
     "ios": "iPhone 和 iPad：尚未推出。"
   },
   "beta": {
-    "title": "加入測試",
+    "title": "加入 Android 封閉測試",
     "testCardCaption": "已加註記的 Android 測試付款截圖。X 劃去虛擬金額，綠框標出測試卡及 Google 的提示：這是測試訂單，不會扣款。",
     "paymentNoticeTitle": "測試付款的金額是虛擬的。不會實際扣款。",
     "paymentNoticeText": "使用 Test card, always approves 時，Google Play 只會模擬購買。即使顯示 R$9.99 或其他金額，也不會扣除任何款項。請確認已選取此付款方式。如果顯示的是你自己的信用卡或其他真實付款方式，請勿確認並聯絡我們。",
@@ -232,19 +179,18 @@
     "screensNote": "截圖為 1920x1080 PNG，由遊戲原生 640x360 解析度以整數倍放大。",
     "creditsTitle": "製作人員",
     "credits": [
-      "Design, code and art: gmunaro",
-      "Music: Juhani Junkala (CC0); the Landlord's night score is original, played on VSCO 2 Community Edition samples (CC0)",
-      "Sound effects: Kenney, StarNinjas, Oiboo (CC0) and original sounds",
-      "Ambient sound: field recordings from freesound.org (CC0)",
-      "Voices: synthetic speech from ElevenLabs v4; no human voice was recorded or cloned",
-      "Fonts: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel and GNU Unifont (SIL Open Font License 1.1)"
+      "設計、程式與美術：gmunaro",
+      "音樂：Juhani Junkala（CC0）；地主夜晚的配樂為原創，使用 VSCO 2 Community Edition 音效樣本演奏（CC0）",
+      "音效：Kenney、StarNinjas、Oiboo（CC0）及原創音效",
+      "環境音效：來自 freesound.org 的實地錄音（CC0）",
+      "語音：由 ElevenLabs v4 生成的合成語音；未錄製或複製任何真人聲音",
+      "字型：Kenney（CC0）；Jacquarda Bastarda 9、Fusion Pixel 與 GNU Unifont（SIL Open Font License 1.1）"
     ],
     "contactTitle": "聯絡方式",
     "contactText": "媒體聯繫、索取評測序號及其他事宜，請寄信至"
   },
   "footer": {
     "privacy": "隱私權政策",
-    "contact": "聯絡方式",
     "bugs": "發現錯誤了嗎？請使用遊戲內的回報錯誤功能，或寄信至",
     "madeBy": "Dawnbringer 由巴西的 gmunaro 製作。",
     "studio": "製作：",
@@ -263,57 +209,39 @@
     "title": "更新內容",
     "description": "Dawnbringer 的每次更新及其變動。"
   },
-  "news": {
-    "title": "New in 0.5",
-    "intro": "Version 0.5.0 adds classes, a skill tree, gear by slot, a new combat model, voices for every character and six biomes with their own life and sound.",
+  "why": {
+    "title": "與眾不同之處",
     "items": {
-      "classes": {
-        "title": "Classes",
-        "text": "The six champions are the first classes. From week 2 the class master waits on the map, and once you have beaten a Landlord each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
-        "alt": "The class master offers a champion its two second classes."
+      "read": {
+        "title": "看懂敵人，而非擲骰",
+        "text": "戰鬥自動進行，從不擲骰。每個敵人都會展示裝備，絕望之石只在一場會要你性命的戰鬥前暗下來。",
+        "alt": "地圖上，絕望之石的標記籠罩著一群敵人。"
       },
-      "tree": {
-        "title": "Attributes and a skill tree",
-        "text": "Every level gives attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.",
-        "alt": "The skill tree with nodes bought in two branches."
+      "build": {
+        "title": "打造勇士",
+        "text": "選擇進階職業，在技能樹上分配點數，並在每個部位穿上裝備。在鍛爐回爐物品，並將怪物卡嵌入其中。",
+        "alt": "職業大師為勇士提供兩個可選的進階職業。"
       },
-      "gear": {
-        "title": "Gear by slot",
-        "text": "96 items in 10 families, each worn in its slot: weapon, shield, head, body, cloak, boots and three charms. The forge reheats an item up to +4 and never fails. Monsters drop rare cards that set into your gear.",
-        "alt": "The forge with a reheated item and a monster card set into it."
-      },
-      "combat": {
-        "title": "A new way to fight",
-        "text": "Speed decides how often each fighter acts. Hard DEF takes a share off every hit, and Soft DEF soaks damage before health. Your gear shows on the hero's body, each piece in its place. The game still never tells you how a fight will end.",
-        "alt": "A hero in full gear fights a group of monsters."
-      },
-      "risen": {
-        "title": "The risen hunt you",
-        "text": "Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, slower than you walk. If one reaches you, you fight.",
-        "alt": "A risen hero walks toward the player across the map."
-      },
-      "biomes": {
-        "title": "Six biomes that breathe",
-        "text": "Every biome has its own rocks, plants, small animals, wind and particles, and its own sound by day and by night. The plants sway with the music. Your seed's map stays the same: the decoration never blocks a tile.",
-        "alt": "The six biomes of Dawnbringer, by day and by night."
-      },
-      "voices": {
-        "title": "Every character speaks",
-        "text": "The lore, the 12 NPCs on the map and every kind of monster in battle speak with emotion. The voices are synthetic speech; no human voice was recorded or cloned.",
-        "alt": "Mother Hesper speaks at the Last Camp."
-      },
-      "collection": {
-        "title": "Finds, feats and a postcard",
-        "text": "Twelve plants and animals hide in the biomes as finds for the Journal's herbarium and bestiary. Twelve feats track your runs. On Android, the share menu sends a framed postcard of your hero.",
-        "alt": "The Journal's collection with finds from each biome."
+      "return": {
+        "title": "過往的出征會再度找上你",
+        "text": "陣亡的勇士會在之後的出征中復起並追獵你。獲勝的勇士則可以回到地主的王座。",
+        "alt": "地圖上，一名紅色標記的復起勇士朝玩家走去。"
       }
     }
   },
-  "listen": {
-    "title": "Listen",
-    "voice": "Mother Hesper, from the lore",
-    "ambience": "Drowned Vigil at night",
-    "monster": "The Tithe Taker, before a fight",
-    "fallback": "Your browser cannot play this audio."
+  "whatsnew": {
+    "title": "0.5 新內容",
+    "items": [
+      "十二種進階職業，以及三個分支的技能樹。",
+      "依部位分類的裝備，可在鍛爐回爐，並嵌入怪物卡。",
+      "每個角色都有自己的語音。",
+      "六個生態區，各有其植物、小動物與聲音。"
+    ],
+    "more": "所有更新內容"
+  },
+  "community": {
+    "title": "媒體與社群",
+    "press": "標誌、主視覺圖、截圖與概況表，供文章與影片使用。",
+    "follow": "追蹤遊戲"
   }
 }

@@ -1,79 +1,36 @@
 {
   "meta": {
     "title": "Dawnbringer: 다크 판타지 로그라이크 오토배틀러",
-    "description": "태양은 꺼졌고 지주는 매주 지대를 걷으러 온다. 영웅을 꾸리고 적마다 지닌 장비를 읽은 뒤, 상납금을 낼지 보스와 싸울지 결정하라.",
+    "description": "픽셀 아트 로그라이크 오토배틀러입니다. 영웅을 키우고, 적마다 장비를 살펴본 뒤 지주에게 상납금을 내거나 싸우세요.",
     "pressTitle": "Dawnbringer 프레스 키트",
     "pressDescription": "gmunaro의 로그라이크 오토배틀러 Dawnbringer의 팩트 시트, 소개, 특징, 로고, 키 아트, 스크린샷.",
     "notFoundTitle": "페이지를 찾을 수 없습니다",
-    "ogAlt": "핏빛 달 아래 서 있는 왕관 쓴 지주와 그 위의 Dawnbringer 로고."
+    "ogAlt": "핏빛 달 아래 서 있는 왕관 쓴 지주와 그 위의 Dawnbringer 로고.",
+    "betaTitle": "Android 알파 참여 · Dawnbringer",
+    "betaDescription": "Google Play에서 Dawnbringer 비공개 알파에 참여하는 방법을 세 단계로 안내합니다.",
+    "downloadTitle": "데스크톱 데모 · Dawnbringer",
+    "downloadDescription": "Windows, macOS, Linux용 무료 Dawnbringer 데모를 내려받으세요."
   },
   "nav": {
     "skip": "본문으로 건너뛰기",
     "home": "홈",
-    "game": "게임",
-    "story": "이야기",
-    "screens": "스크린샷",
-    "features": "특징",
-    "platforms": "플랫폼",
-    "demo": "데모",
-    "beta": "베타",
+    "why": "게임 소개",
+    "new": "0.5 새 기능",
+    "demo": "데스크톱 데모",
+    "beta": "Android 알파",
     "press": "프레스 키트",
     "language": "언어"
   },
   "hero": {
-    "tagline": "태양은 꺼졌다. 마지막 불씨를 옮겨라.",
-    "pitch": "어둠에 잠긴 땅을 건너며 64종의 유물로 영웅을 꾸리고 전투를 골라라. 주사위는 없다. 적마다 읽을 수 있는 장비를 지니고 있고, 절망의 돌은 너를 죽일 싸움 앞에서 어두워진다. 주말에 지주가 지대를 걷으러 오면 상납금을 내거나 그의 목을 걸고 싸워라.",
+    "pitch": "픽셀 아트 로그라이크 오토배틀러입니다. 영웅을 키우고, 적마다 장비를 살펴본 뒤 지주에게 상납금을 내거나 싸우세요.",
     "artAlt": "핏빛 달 아래, 언덕 위의 작은 영웅이 어두운 구릉에서 솟아오르는 왕관 쓴 거대한 지주와 마주한다.",
     "clipTitle": "게임플레이",
-    "clipAlt": "게임플레이 영상: 지주의 밤, 텅 빈 왕이 징수하러 오자 지도가 붉게 물든다. 카드는 상납금을 낼지 싸울지 묻고, 이어 전투가 결판난다.",
-    "clipFallback": "이 브라우저에서는 영상을 재생할 수 없습니다."
-  },
-  "stores": {
-    "title": "구매처",
-    "steam": "Steam",
-    "googlePlay": "Google Play",
-    "appStore": "App Store",
-    "wishlistSoon": "찜하기 곧 가능",
-    "comingSoon": "출시 예정"
-  },
-  "about": {
-    "title": "플레이 방식",
-    "intro": "한 번의 런은 3주 동안 진행된다. 안개 낀 지도를 걸으며 상자를 열고, 사당과 대장간을 들러 한 주가 끝나기 전에 유물 빌드를 완성한다. 전투는 자동으로 진행되며, 어떤 길을 택하고 어떤 빌드를 짜는지가 승패를 가른다.",
-    "points": [
-      {
-        "title": "주사위가 아니라 적을 읽어라",
-        "text": "전투는 100% 결정론적이다. 모든 적은 싸우기 전에 살펴볼 수 있는 실제 소지품을 지니고 있어, 적의 장비를 네 것과 견줘 판단하라. 절망의 돌은 너를 죽일 싸움이 있는 적에게 표시를 달 뿐, 그 밖에는 아무 말도 하지 않는다. 지주와 싸울 때는 침묵한다."
-      },
-      {
-        "title": "지대를 내거나 싸우거나",
-        "text": "매주 끝에 지역의 지주가 징수하러 온다. 지갑에서 상납금을 내고 목숨을 부지하거나, 현상금을 노리고 싸워라. 승리하면 골드를 은행에 넣고 귀환할 수도 있고, 지갑 전체를 걸고 다음 주로 나아갈 수도 있다."
-      },
-      {
-        "title": "마지막 밤의 추격",
-        "text": "주의 마지막 밤이 되면 달이 붉게 물들고 지주가 지도에 나타나 걸음마다 너를 추격한다. 빌드가 일찍 갖춰졌다면 기다릴 필요가 없다. 먼저 지주의 왕좌로 쳐들어가 쓰러뜨리면 골드 보상을 50% 더 받는다."
-      },
-      {
-        "title": "쓰러진 영웅은 길 위에 남는다",
-        "text": "영웅이 죽으면 지녔던 장비 그대로 다음 런의 지도에 남는다. 낮에는 길을 배회하고 밤에는 너를 사냥한다. 쓰러뜨리면 잃어버린 지갑의 일부를 되찾을 수 있다."
-      },
-      {
-        "title": "승리한 영웅은 지주가 된다",
-        "text": "3주를 모두 버텨낸 영웅은 왕관을 쓴다. 이후의 런에서 그 영웅이 지역의 왕좌를 차지하고, 승리했을 때의 빌드 그대로 지대를 걷으러 올 수 있다."
-      }
-    ]
-  },
-  "story": {
-    "title": "이야기",
-    "paragraphs": [
-      "교회는 낮의 시간을 쪼개어 증서로 팔아넘겼다. 증서를 사들인 자들은 지주가 되었고, 태양이 줄 수 있는 것보다 더 많은 빛을 뽑아냈다. 결국 '마지막 아침'에 태양이 추락했다.",
-      "어머니 헤스퍼는 태양이 떨어지는 모습을 보다 두 눈을 잃었지만, 앞치마로 마지막 불씨를 받아 '마지막 야영'의 화톳불을 피웠다. 그녀는 영웅마다 가슴에 심지를 심어 동쪽의 '관문'으로 보낸다. 심지 하나는 3주 동안 타오른다.",
-      "황금은 식어 버린 햇빛이자 유일하게 남은 온기다. 매주 달이 붉은 밀랍 인장처럼 하늘을 봉인하면 지주들이 지대를 걷으러 온다. 길에서 죽은 자들도 빚을 다 갚을 때까지 걸음을 멈추지 못한다."
-    ],
-    "question": "아직 아무도 관문 너머로 불꽃을 옮기지 못했다. 그 너머에는 무엇이 기다리고 있을까?"
+    "clipAlt": "게임플레이 영상: 완전무장한 영웅이 몬스터 무리와 스스로 싸웁니다.",
+    "clipFallback": "이 브라우저에서는 영상을 재생할 수 없습니다.",
+    "play": "Android 알파",
+    "demo": "데스크톱 데모"
   },
   "screens": {
-    "title": "스크린샷",
-    "open": "원본 크기로 보기",
     "items": {
       "night": {
         "caption": "지주가 따라잡기까지 두 걸음 남았다.",
@@ -128,31 +85,21 @@
   "features": {
     "title": "특징",
     "items": [
-      "6 playable champions and 12 second classes.",
-      "Attribute points and a skill point every level; a skill tree of three branches.",
-      "96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
-      "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
-      "19 Landlords across 6 biomes and 3 weeks.",
-      "Patrols, packs, ambushes, guardians and mimics on the map.",
-      "Day and night: at night your sight shrinks and shadows hunt you.",
-      "Your fallen champions rise and hunt you; your winners return as Landlords.",
-      "Separate bank and purse: stake gold at the start and cash out after each Landlord.",
-      "9 optional oaths that raise both the difficulty and the payout.",
-      "Voices with emotion for every character, and ambient sound for every biome.",
-      "A herbarium, a bestiary and 12 feats in the Journal.",
-      "Native 640x360 pixel art with mouse, keyboard, controller and touch.",
-      "Translated into 14 languages."
+      "플레이 가능한 영웅 6명과 2차 직업 12개.",
+      "레벨마다 능력치 포인트와 스킬 포인트를 얻습니다. 스킬 트리는 세 갈래입니다.",
+      "10개 계열의 아이템 96개를 부위별로 장착합니다. 2개, 4개, 6개를 장착하면 세트 보너스가 붙습니다.",
+      "대장간에서 장비를 +4까지 재가열하고, 몬스터 카드 19종을 장비에 끼울 수 있습니다.",
+      "6개 바이옴과 3주에 걸쳐 지주 19명이 있습니다.",
+      "지도 위에 순찰대, 무리, 매복, 수호자, 미믹이 있습니다.",
+      "낮과 밤이 있습니다. 밤에는 시야가 좁아지고 그림자가 당신을 사냥합니다.",
+      "쓰러진 영웅이 되살아나 당신을 사냥합니다. 승리한 영웅은 지주로 돌아옵니다.",
+      "은행과 지갑이 따로 있습니다. 런을 시작할 때 골드를 걸고, 지주를 물리칠 때마다 정산합니다.",
+      "난이도와 보상을 함께 올리는 선택 맹세가 9개 있습니다.",
+      "모든 캐릭터에 감정이 담긴 목소리가 있고, 모든 바이옴에 환경음이 있습니다.",
+      "일지에서 식물 도감, 작은 동물 도감, 업적 12개를 볼 수 있습니다.",
+      "네이티브 640x360 픽셀 아트. 마우스, 키보드, 컨트롤러, 터치를 지원합니다.",
+      "14개 언어로 번역되었습니다."
     ]
-  },
-  "platforms": {
-    "title": "플랫폼",
-    "intro": "PC와 모바일로 개발 중입니다. 현재 Android 비공개 베타가 열려 있습니다.",
-    "pc": "PC",
-    "pcNote": "Steam에서 Windows 지원. 무료 데모는 macOS와 Linux에서도 실행됩니다.",
-    "android": "Android",
-    "androidNote": "스마트폰과 태블릿, Google Play에서.",
-    "ios": "iPhone 및 iPad",
-    "iosNote": "App Store에서."
   },
   "demo": {
     "title": "데모 다운로드",
@@ -175,12 +122,12 @@
     "linuxNote": "x86_64. 압축을 풀고 DawnbringerDemo.x86_64를 실행하세요. OpenGL 3.3을 지원하는 그래픽 드라이버가 필요합니다.",
     "download": "다운로드 ({size})",
     "checksums": "파일의 SHA-256 체크섬",
-    "android": "Android: 비공개 베타에 참여할 수 있습니다.",
-    "androidLink": "베타 참여",
+    "android": "Android: 비공개 알파에 참여할 수 있습니다.",
+    "androidLink": "알파 참여",
     "ios": "iPhone 및 iPad: 아직 제공되지 않습니다."
   },
   "beta": {
-    "title": "베타 참여",
+    "title": "Android 알파 참여",
     "testCardCaption": "표시를 추가한 Android 테스트 결제 화면입니다. X는 가상 금액을 지우고, 녹색 테두리는 테스트 카드와 실제로 청구되지 않는 테스트 주문이라는 Google 안내를 강조합니다.",
     "paymentNoticeTitle": "테스트 결제 금액은 가상입니다. 실제로 청구되지 않습니다.",
     "paymentNoticeText": "Test card, always approves를 쓰면 Google Play는 구매를 시뮬레이션할 뿐입니다. R$9.99 등 어떤 금액이 표시되어도 돈이 빠져나가지 않습니다. 이 결제 수단이 선택되어 있는지 확인하세요. 본인 카드나 다른 실제 결제 수단이 보이면 확정하지 말고 문의해 주세요.",
@@ -191,7 +138,7 @@
     "step2Link": "테스트 페이지 열기",
     "step3": "Android 휴대폰이나 태블릿에서 Google Play의 게임 페이지를 열고 설치를 누릅니다. 컴퓨터에서는 창에 표시된 Android 기기를 선택한 뒤 Install 또는 설치를 누릅니다.",
     "step3Link": "Google Play에서 설치",
-    "note": "무료 베타 이용은 출시와 함께 끝납니다. 테스트 참여에 정식 버전 구매는 포함되지 않습니다.",
+    "note": "무료 알파 이용은 출시와 함께 끝납니다. 테스트 참여에 정식 버전 구매는 포함되지 않습니다.",
     "helpTitle": "설치에 도움이 필요한가요?",
     "accountHelp": "그룹, 테스트 페이지, Play 스토어에서 같은 계정을 쓰세요. Google 계정이 여러 개라면 각 페이지와 스토어 앱의 프로필 사진을 확인하세요.",
     "priceTitle": "가격이나 구매 버튼이 보이나요?",
@@ -232,19 +179,18 @@
     "screensNote": "스크린샷은 네이티브 640x360 해상도를 정수 배율로 확대한 1920x1080 PNG입니다.",
     "creditsTitle": "크레딧",
     "credits": [
-      "Design, code and art: gmunaro",
-      "Music: Juhani Junkala (CC0); the Landlord's night score is original, played on VSCO 2 Community Edition samples (CC0)",
-      "Sound effects: Kenney, StarNinjas, Oiboo (CC0) and original sounds",
-      "Ambient sound: field recordings from freesound.org (CC0)",
-      "Voices: synthetic speech from ElevenLabs v4; no human voice was recorded or cloned",
-      "Fonts: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel and GNU Unifont (SIL Open Font License 1.1)"
+      "디자인, 코드, 아트: gmunaro",
+      "음악: Juhani Junkala (CC0). 지주의 밤 음악은 오리지널 곡으로, VSCO 2 Community Edition 샘플(CC0)로 연주했습니다.",
+      "효과음: Kenney, StarNinjas, Oiboo (CC0) 및 오리지널 사운드",
+      "환경음: freesound.org의 현장 녹음(CC0)",
+      "음성: ElevenLabs v4의 합성 음성. 사람의 목소리는 녹음하거나 복제하지 않았습니다.",
+      "폰트: Kenney (CC0), Jacquarda Bastarda 9, Fusion Pixel, GNU Unifont (SIL Open Font License 1.1)"
     ],
     "contactTitle": "연락처",
     "contactText": "취재, 리뷰 키 요청 및 기타 문의:"
   },
   "footer": {
     "privacy": "개인정보 처리방침",
-    "contact": "연락처",
     "bugs": "버그를 발견했나요? 게임 내 버그 신고를 이용하거나 다음 주소로 보내 주세요:",
     "madeBy": "Dawnbringer는 브라질의 gmunaro가 만듭니다.",
     "studio": "제작:",
@@ -263,57 +209,39 @@
     "title": "새 소식",
     "description": "Dawnbringer의 모든 업데이트와 변경 내용."
   },
-  "news": {
-    "title": "New in 0.5",
-    "intro": "Version 0.5.0 adds classes, a skill tree, gear by slot, a new combat model, voices for every character and six biomes with their own life and sound.",
+  "why": {
+    "title": "이 게임이 다른 점",
     "items": {
-      "classes": {
-        "title": "Classes",
-        "text": "The six champions are the first classes. From week 2 the class master waits on the map, and once you have beaten a Landlord each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
-        "alt": "The class master offers a champion its two second classes."
+      "read": {
+        "title": "주사위가 아니라 적을 읽으세요",
+        "text": "전투는 스스로 진행되며 주사위를 굴리지 않습니다. 모든 적은 장비를 보여 주고, 절망의 돌은 당신을 죽일 싸움 앞에서만 어두워집니다.",
+        "alt": "지도 위 적 무리 위에 떠 있는 절망의 돌 표식."
       },
-      "tree": {
-        "title": "Attributes and a skill tree",
-        "text": "Every level gives attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.",
-        "alt": "The skill tree with nodes bought in two branches."
+      "build": {
+        "title": "영웅을 키우세요",
+        "text": "2차 직업을 고르고, 스킬 트리에 포인트를 쓰고, 모든 부위에 장비를 착용하세요. 대장간에서 아이템을 재가열하고 몬스터 카드를 끼워 넣을 수 있습니다.",
+        "alt": "직업 교관이 영웅에게 2차 직업 두 가지를 제시합니다."
       },
-      "gear": {
-        "title": "Gear by slot",
-        "text": "96 items in 10 families, each worn in its slot: weapon, shield, head, body, cloak, boots and three charms. The forge reheats an item up to +4 and never fails. Monsters drop rare cards that set into your gear.",
-        "alt": "The forge with a reheated item and a monster card set into it."
-      },
-      "combat": {
-        "title": "A new way to fight",
-        "text": "Speed decides how often each fighter acts. Hard DEF takes a share off every hit, and Soft DEF soaks damage before health. Your gear shows on the hero's body, each piece in its place. The game still never tells you how a fight will end.",
-        "alt": "A hero in full gear fights a group of monsters."
-      },
-      "risen": {
-        "title": "The risen hunt you",
-        "text": "Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, slower than you walk. If one reaches you, you fight.",
-        "alt": "A risen hero walks toward the player across the map."
-      },
-      "biomes": {
-        "title": "Six biomes that breathe",
-        "text": "Every biome has its own rocks, plants, small animals, wind and particles, and its own sound by day and by night. The plants sway with the music. Your seed's map stays the same: the decoration never blocks a tile.",
-        "alt": "The six biomes of Dawnbringer, by day and by night."
-      },
-      "voices": {
-        "title": "Every character speaks",
-        "text": "The lore, the 12 NPCs on the map and every kind of monster in battle speak with emotion. The voices are synthetic speech; no human voice was recorded or cloned.",
-        "alt": "Mother Hesper speaks at the Last Camp."
-      },
-      "collection": {
-        "title": "Finds, feats and a postcard",
-        "text": "Twelve plants and animals hide in the biomes as finds for the Journal's herbarium and bestiary. Twelve feats track your runs. On Android, the share menu sends a framed postcard of your hero.",
-        "alt": "The Journal's collection with finds from each biome."
+      "return": {
+        "title": "런은 돌아옵니다",
+        "text": "쓰러진 영웅은 이후 런에서 되살아나 당신을 사냥합니다. 승리한 영웅은 지주의 왕좌에 앉아 돌아올 수 있습니다.",
+        "alt": "붉게 표시된 되살아난 영웅이 지도 위에서 플레이어를 향해 걸어온다."
       }
     }
   },
-  "listen": {
-    "title": "Listen",
-    "voice": "Mother Hesper, from the lore",
-    "ambience": "Drowned Vigil at night",
-    "monster": "The Tithe Taker, before a fight",
-    "fallback": "Your browser cannot play this audio."
+  "whatsnew": {
+    "title": "0.5 새 기능",
+    "items": [
+      "2차 직업 12개와 세 갈래 스킬 트리.",
+      "부위별 장비를 대장간에서 재가열하고 몬스터 카드를 끼웁니다.",
+      "모든 캐릭터에 목소리를 더했습니다.",
+      "바이옴 6개, 각각 고유한 식물, 작은 동물, 소리가 있습니다."
+    ],
+    "more": "전체 변경 사항"
+  },
+  "community": {
+    "title": "프레스 및 커뮤니티",
+    "press": "기사와 영상에 쓸 로고, 키 아트, 스크린샷, 팩트 시트.",
+    "follow": "게임 팔로우하기"
   }
 }

@@ -1,5 +1,6 @@
-// Dawnbringer site script: suggests the visitor's language (never redirects), closes the language
-// menu on an outside click or Escape, and plays the gameplay clip only while it is on screen.
+// Dawnbringer site script: sends old #beta and #download links to their pages, suggests the visitor's
+// language (never redirects), closes the language menu on an outside click or Escape, and plays the
+// gameplay clip only while it is on screen.
 // tools/build.ts fills in LANGS (every locale's suggestion strings) and BASE.
 (() => {
   const LANGS = /*LANGS*/[];
@@ -7,6 +8,13 @@
   const KEY = "db-lang";
   const page = document.body.dataset.page;
   const here = document.documentElement.lang;
+
+  // Old links to the home page's #beta and #download sections (the game's update button, posts, the
+  // README) go to the pages that hold them now.
+  if (page === "" && (location.hash === "#beta" || location.hash === "#download")) {
+    location.replace(location.pathname.replace(/[^/]*$/, "") + location.hash.slice(1) + "/");
+    return;
+  }
 
   const store = (code) => { try { localStorage.setItem(KEY, code); } catch { /* storage off */ } };
   const stored = () => { try { return localStorage.getItem(KEY); } catch { return null; } };

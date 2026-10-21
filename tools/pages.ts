@@ -1,6 +1,6 @@
 // HTML of every page, as plain template strings. Every text comes from a locale's JSON and is
 // escaped with esc(); every link starts with BASE so the site works under /dawnbringer-site/.
-import { BASE, BETA, CONTACT, LISTEN, LOCALES, NEWS, SHOTS, SITE, SOCIALS, STORES, STUDIO, type Locale, type PixelFont } from "./config.ts";
+import { BASE, BETA, CONTACT, LOCALES, SHOTS, SITE, SOCIALS, STUDIO, WHY, type Locale, type PixelFont } from "./config.ts";
 import type en from "../src/locales/en.json";
 
 /** The shape of a locale file (en.json is the reference; tools/check.ts checks the others). */
@@ -65,7 +65,7 @@ export function demoOf(releases: ReleaseEntry[]): Demo | null {
 }
 
 /** A localized page of the site: the home, the press kit or the changelog. */
-type PageId = "" | "presskit/" | "changelog/";
+type PageId = "" | "presskit/" | "changelog/" | "beta/" | "download/";
 
 export function esc(s: string): string {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -124,10 +124,10 @@ const ogAlt = (t: Strings) => `<meta property="og:image:alt" content="${esc(t.me
 function topBar(c: Ctx, page: PageId): string {
   const { t, loc } = c;
   const home = BASE + pathOf(loc, "");
-  const sections = page === ""
-    ? [...(c.demo ? [["download", t.nav.demo]] : []), ...(BETA ? [["beta", t.nav.beta]] : []), ["game", t.nav.game], ["story", t.nav.story], ["screens", t.nav.screens], ["features", t.nav.features], ["platforms", t.nav.platforms]]
-        .map(([id, label]) => `<li><a href="#${id}">${esc(label!)}</a></li>`).join("")
-    : `<li><a href="${home}">${esc(t.nav.home)}</a></li>`;
+  const link = (p: PageId, label: string) =>
+    `<li><a href="${BASE + pathOf(loc, p)}"${page === p ? ' aria-current="page"' : ""}>${esc(label)}</a></li>`;
+  const sections = (page === "" ? "" : `<li><a href="${home}">${esc(t.nav.home)}</a></li>`)
+    + (BETA ? link("beta/", t.nav.beta) : "") + (c.demo ? link("download/", t.nav.demo) : "");
   const press = `<li><a href="${BASE + pathOf(loc, "presskit/")}"${page === "presskit/" ? ' aria-current="page"' : ""}>${esc(t.nav.press)}</a></li>`;
   const langs = LOCALES.map((l) => {
     const cur = l.code === loc.code ? ' aria-current="true"' : "";
@@ -145,16 +145,17 @@ function topBar(c: Ctx, page: PageId): string {
 <div class="suggest" id="suggest" hidden></div>`;
 }
 
-function footer(c: Ctx): string {
+/** The footer of every page; the home page shows the social links in its own block, so not here. */
+function footer(c: Ctx, page?: PageId): string {
   const { t, loc } = c;
   return `<footer class="foot">
 <ul>
 <li><a href="${BASE}privacy.html">${esc(t.footer.privacy)}</a></li>
 <li><a href="${BASE + pathOf(loc, "presskit/")}">${esc(t.nav.press)}</a></li>
-${c.changelog ? `<li><a href="${BASE + pathOf(loc, "changelog/")}">${esc(t.footer.changelog)}</a></li>\n` : ""}<li>${esc(t.footer.contact)}: <a href="mailto:${CONTACT}">${CONTACT}</a></li>
+${c.changelog ? `<li><a href="${BASE + pathOf(loc, "changelog/")}">${esc(t.footer.changelog)}</a></li>` : ""}
 </ul>
 <p>${esc(t.footer.bugs)} <a href="mailto:${CONTACT}">${CONTACT}</a></p>
-${socialList()}
+${page === "" ? "" : socialList()}
 <p>${esc(t.footer.madeBy)} © 2026 gmunaro.</p>
 <p>${esc(t.footer.studio)} <a href="${STUDIO.url}" rel="me noopener">${STUDIO.name}</a></p>
 </footer>`;
@@ -164,14 +165,6 @@ ${socialList()}
 function socialList(): string {
   if (!SOCIALS.length) return "";
   return `<ul class="socials">\n${SOCIALS.map((s) => `<li><a href="${s.url}" rel="me noopener">${esc(s.name)}</a></li>`).join("\n")}\n</ul>`;
-}
-
-/** A store button: a link when the store page is live, a greyed-out label otherwise. */
-function store(t: Strings, s: (typeof STORES)[number]): string {
-  const name = esc(t.stores[s.id]);
-  if (s.url) return `<a class="btn store" href="${esc(s.url)}" rel="noopener">${name}</a>`;
-  const soon = esc(s.id === "steam" ? t.stores.wishlistSoon : t.stores.comingSoon);
-  return `<span class="btn store soon">${name}<small>${soon}</small></span>`;
 }
 
 /** The closed beta: group membership, test opt-in, then the Play Store installation. */
@@ -219,7 +212,7 @@ function demoSection(c: Ctx, demo: Demo): string {
     const f = demo.files[os];
     return `<li class="card"><h3>${esc(name)}</h3>${notes.map((n) => `<p>${esc(n)}</p>`).join("")}<a class="btn" href="${esc(f.url)}" download>${esc(t.demo.download.replace("{size}", c.mb(f.bytes)))}<small>${type}</small></a></li>`;
   };
-  const androidLink = BETA ? ` <a href="#beta">${esc(t.demo.androidLink)}</a>` : "";
+  const androidLink = BETA ? ` <a href="${BASE + pathOf(c.loc, "beta/")}">${esc(t.demo.androidLink)}</a>` : "";
   return `<section id="download" class="wrap" aria-labelledby="demo-title">
 <h2 id="demo-title">${esc(t.demo.title)}</h2>
 <p class="lead">${esc(t.demo.intro)} ${esc(t.demo.version.replace("{version}", demo.version))}</p>
@@ -239,53 +232,37 @@ ${demo.checksums ? `<p class="demo-sums"><a href="${esc(demo.checksums)}">${esc(
 
 const alternates = (page: PageId) => LOCALES.map((l) => ({ loc: l, path: pathOf(l, page) }));
 
-/** The three audio samples of "Listen": a player per LISTEN id, each in ogg and mp3. */
-function listenBar(t: Strings): string {
-  const row = (k: (typeof LISTEN)[number]) => `<li><span>${esc(t.listen[k])}</span>
-<audio controls preload="none" aria-label="${esc(t.listen[k])}">
-<source src="${asset(`audio/${k}.ogg`)}" type="audio/ogg">
-<source src="${asset(`audio/${k}.mp3`)}" type="audio/mpeg">
-${esc(t.listen.fallback)}
-</audio></li>`;
-  return `<ul class="listen" aria-label="${esc(t.listen.title)}">
-${LISTEN.map(row).join("\n")}
-</ul>`;
+/** The page frame shared by the home, beta and download pages: head, top bar, main, footer. */
+function frame(c: Ctx, page: PageId, title: string, description: string, main: string): Page {
+  const { t, loc } = c;
+  const path = pathOf(loc, page);
+  const html = `${head({ lang: loc.code, title, description, path, ogLocale: loc.og, font: loc.font, alternates: alternates(page) })}
+${ogAlt(t)}
+<body data-page="${page}">
+${topBar(c, page)}
+<main id="main">
+${main}
+</main>
+${footer(c, page)}
+</body>
+</html>
+`;
+  return { path, html };
 }
 
-/** "New in 0.5": a picture and text per system; the voices item also carries the Listen samples. */
-function newsSection(t: Strings): string {
-  const items = NEWS.map((id) => {
-    const s = t.news.items[id];
-    const listen = id === "voices" ? listenBar(t) : "";
-    return `<li class="news-item"><img src="${asset(`news/${id}.webp`)}" width="640" height="360" loading="lazy" decoding="async" alt="${esc(s.alt)}"><div><h3>${esc(s.title)}</h3><p>${esc(s.text)}</p>${listen}</div></li>`;
-  }).join("\n");
-  return `<section id="new" class="wrap news" aria-labelledby="new-title">
-<h2 id="new-title">${esc(t.news.title)}</h2>
-<p class="lead">${esc(t.news.intro)}</p>
-<ul class="news-list">
-${items}
-</ul>
-</section>`;
-}
-
+/** The home page, five blocks: what the game is (one line, the clip, the alpha and demo buttons), what
+ * makes it different (WHY), what the version adds (with the changelog link), press and community, footer. */
 export function homePage(c: Ctx): Page {
   const { t, loc } = c;
-  const path = pathOf(loc, "");
-  const points = t.about.points
-    .map((p) => `<li class="card"><h3>${esc(p.title)}</h3><p>${esc(p.text)}</p></li>`).join("\n");
-  const shots = SHOTS.map((id, i) => {
-    const s = t.screens.items[id];
-    const full = `${BASE}presskit/files/screenshots/${String(i + 1).padStart(2, "0")}_${id}.png`;
-    return `<figure class="shot"><a href="${full}" title="${esc(t.screens.open)}"><img src="${asset(`shots/${id}.webp`)}" width="640" height="360" loading="lazy" decoding="async" alt="${esc(s.alt)}"></a><figcaption>${esc(s.caption)}</figcaption></figure>`;
+  const why = WHY.map(({ id, img }) => {
+    const s = t.why.items[id];
+    return `<li class="why-item"><img src="${asset(img)}" width="640" height="360" loading="lazy" decoding="async" alt="${esc(s.alt)}"><h3>${esc(s.title)}</h3><p>${esc(s.text)}</p></li>`;
   }).join("\n");
-  const plat = (name: string, note: string, id: (typeof STORES)[number]["id"]) =>
-    `<li class="card"><h3>${esc(name)}</h3><p>${esc(note)}</p>${store(t, STORES.find((s) => s.id === id)!)}</li>`;
-  const html = `${head({ lang: loc.code, title: t.meta.title, description: t.meta.description, path, ogLocale: loc.og, font: loc.font, alternates: alternates("") })}
-${ogAlt(t)}
-<body data-page="">
-${topBar(c, "")}
-<main id="main">
-<section class="hero">
+  const buttons = [
+    BETA ? `<li id="beta"><a class="btn store" href="${BASE + pathOf(loc, "beta/")}">${esc(t.hero.play)}<small>Google Play</small></a></li>` : "",
+    c.demo ? `<li id="download"><a class="btn store" href="${BASE + pathOf(loc, "download/")}">${esc(t.hero.demo)}<small>Windows · macOS · Linux</small></a></li>` : "",
+  ].join("");
+  const main = `<section class="hero">
 <picture class="hero-art">
 <source media="(min-width: 1280px)" srcset="${asset("img/hero-3x.webp")}" width="1920" height="1080">
 <source media="(min-width: 720px)" srcset="${asset("img/hero-2x.webp")}" width="1280" height="720">
@@ -293,10 +270,8 @@ ${topBar(c, "")}
 </picture>
 <div class="hero-text">
 <h1 class="logo">Dawnbringer</h1>
-<p class="tagline">${esc(t.hero.tagline)}</p>
 <p class="pitch">${esc(t.hero.pitch)}</p>
-<h2 class="sr">${esc(t.stores.title)}</h2>
-<ul class="stores">${c.demo ? `<li><a class="btn store" href="#download">${esc(t.demo.title)}<small>Windows · macOS · Linux</small></a></li>` : ""}${BETA ? `<li><a class="btn store" href="#beta">${esc(t.beta.title)}<small>Android</small></a></li>` : ""}${STORES.map((s) => `<li>${store(t, s)}</li>`).join("")}</ul>
+<ul class="stores">${buttons}</ul>
 </div>
 </section>
 <section class="clip wrap" aria-labelledby="clip-title">
@@ -309,49 +284,38 @@ ${esc(t.hero.clipFallback)}
 </video>
 </div>
 </section>
-${newsSection(t)}
-${c.demo ? demoSection(c, c.demo) : ""}
-${BETA ? betaSection(t, BETA) : ""}
-<section id="game" class="wrap">
-<h2>${esc(t.about.title)}</h2>
-<p class="lead">${esc(t.about.intro)}</p>
-<ul class="cards">
-${points}
+<section id="why" class="wrap" aria-labelledby="why-title">
+<h2 id="why-title">${esc(t.why.title)}</h2>
+<ul class="why">
+${why}
 </ul>
 </section>
-<section id="story" class="wrap story">
-<h2>${esc(t.story.title)}</h2>
-${t.story.paragraphs.map((p) => `<p>${esc(p)}</p>`).join("\n")}
-<p class="question">${esc(t.story.question)}</p>
-</section>
-<section id="screens" class="wrap">
-<h2>${esc(t.screens.title)}</h2>
-<div class="gallery">
-${shots}
-</div>
-</section>
-<section id="features" class="wrap">
-<h2>${esc(t.features.title)}</h2>
+<section id="new" class="wrap" aria-labelledby="new-title">
+<h2 id="new-title">${esc(t.whatsnew.title)}</h2>
 <ul class="features panel">
-${t.features.items.map((f) => `<li>${esc(f)}</li>`).join("\n")}
+${t.whatsnew.items.map((x) => `<li>${esc(x)}</li>`).join("\n")}
 </ul>
+${c.changelog ? `<p><a href="${BASE + pathOf(loc, "changelog/")}">${esc(t.whatsnew.more)}</a></p>` : ""}
 </section>
-<section id="platforms" class="wrap">
-<h2>${esc(t.platforms.title)}</h2>
-<p class="lead">${esc(t.platforms.intro)}</p>
-<ul class="cards platforms">
-${plat(t.platforms.pc, t.platforms.pcNote, "steam")}
-${plat(t.platforms.android, t.platforms.androidNote, "googlePlay")}
-${plat(t.platforms.ios, t.platforms.iosNote, "appStore")}
-</ul>
-</section>
-</main>
-${footer(c)}
-</body>
-</html>
-`;
-  return { path, html };
+<section id="community" class="wrap" aria-labelledby="community-title">
+<h2 id="community-title">${esc(t.community.title)}</h2>
+<p><a class="btn" href="${BASE + pathOf(loc, "presskit/")}">${esc(t.nav.press)}</a> ${esc(t.community.press)}</p>
+<p>${esc(t.community.follow)}:</p>
+${socialList()}
+</section>`;
+  return frame(c, "", t.meta.title, t.meta.description, main);
 }
+
+/** The closed alpha on Google Play: its own page, the three steps and the help (betaSection). */
+export function betaPage(c: Ctx): Page {
+  return frame(c, "beta/", c.t.meta.betaTitle, c.t.meta.betaDescription, BETA ? betaSection(c.t, BETA) : "");
+}
+
+/** The desktop demo: its own page with a download per system (demoSection). */
+export function downloadPage(c: Ctx): Page {
+  return frame(c, "download/", c.t.meta.downloadTitle, c.t.meta.downloadDescription, c.demo ? demoSection(c, c.demo) : "");
+}
+
 
 /** Files of the press kit, in src/presskit and served from presskit/files/. */
 export const PRESS_FILES = {
@@ -476,10 +440,10 @@ ${footer(c)}
 }
 
 /**
- * The privacy policy (src/privacy.md, English then Portuguese, split at the first "---"), at the
- * URL the Google Play listing points to: privacy.html.
+ * The privacy policy (src/privacy.md: English, Portuguese, then short parts in the other languages, split
+ * at "---" lines), at the URL the Google Play listing points to: privacy.html.
  */
-export function privacyPage(c: Ctx, enHtml: string, ptHtml: string): Page {
+export function privacyPage(c: Ctx, enHtml: string, ptHtml: string, otherHtml = ""): Page {
   const { t } = c;
   const html = `${head({ lang: "en", title: "Dawnbringer · Privacy Policy / Política de Privacidade", description: "Privacy policy of the game Dawnbringer. Política de privacidade do jogo Dawnbringer.", path: "privacy.html", ogLocale: "en_US" })}
 <body data-page="privacy">
@@ -492,7 +456,7 @@ ${enHtml}
 <hr>
 <article lang="pt-BR">
 ${ptHtml}
-</article>
+</article>${otherHtml.trim() ? `\n<hr>\n<article>\n${otherHtml}\n</article>` : ""}
 </main>
 ${footer(c)}
 </body>

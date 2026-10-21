@@ -1,5 +1,5 @@
-// Site-wide settings: where the site lives, its languages, its store links and its gallery.
-// Edit STORES when a store page goes live; everything else follows.
+// Site-wide settings: where the site lives, its languages, its social links and the pictures of the
+// home page and the press kit.
 
 /** Public URL of the site (GitHub Pages project site) and the path every link starts with. */
 export const SITE = "https://gmunaro.github.io/dawnbringer-site/";
@@ -54,17 +54,6 @@ export const LOCALES: Locale[] = [
 ];
 
 /**
- * Store buttons. `url: null` shows the button greyed out with "coming soon" (Steam: "wishlist
- * soon"); a url makes it a real link. Steam: set the store page URL once the app id exists.
- */
-export const STORES: { id: "steam" | "googlePlay" | "appStore"; url: string | null }[] = [
-  { id: "steam", url: null },
-  // The listing is not public yet: https://play.google.com/store/apps/details?id=com.gmunaro.dawnbringer
-  { id: "googlePlay", url: null },
-  { id: "appStore", url: null },
-];
-
-/**
  * Closed beta on Google Play: testers join the Google Group, then opt in on the test page. Set to
  * null when the beta closes and the home page drops its beta section and button.
  */
@@ -83,10 +72,11 @@ export const SHOTS = ["night", "landlord", "battle", "stone", "risen", "legend",
 export type ShotId = (typeof SHOTS)[number];
 
 /**
- * "New in 0.5" on the home page, in order. `id` names src/assets/news/<id>.webp (640x360) and the
- * locale's news.items.<id> title, text and alt text.
+ * "What makes it different" on the home page, in order: the locale's why.items.<id> title, text and
+ * alt text, and its picture under src/assets (640x360 or 1280x720, shown at 640x360).
  */
-export const NEWS = ["classes", "tree", "gear", "combat", "risen", "biomes", "voices", "collection"] as const;
-
-/** The audio samples under "Listen" (src/assets/audio/<id>.ogg and .mp3); labels are listen.<id>. */
-export const LISTEN = ["voice", "ambience", "monster"] as const;
+export const WHY: { id: "read" | "build" | "return"; img: string }[] = [
+  { id: "read", img: "shots/stone.webp" },
+  { id: "build", img: "news/classes.webp" },
+  { id: "return", img: "news/risen.webp" },
+];

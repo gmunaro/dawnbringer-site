@@ -1,79 +1,36 @@
 {
   "meta": {
     "title": "Dawnbringer：暗黑奇幻像素风 Roguelike 自动战斗游戏",
-    "description": "太阳已熄，地主每周上门收租。打造你的勇士，看清路上每个敌人携带的装备，再决定缴纳供奉还是迎战首领。",
+    "description": "像素风 Roguelike 自动战斗游戏。培养勇士，读懂每个敌人的装备，然后向地主缴纳供奉或战斗。",
     "pressTitle": "Dawnbringer 媒体资料包",
     "pressDescription": "gmunaro 开发的 Roguelike 自动战斗游戏 Dawnbringer 的概况、简介、特色、标志、主视觉图与截图。",
     "notFoundTitle": "页面未找到",
-    "ogAlt": "血红月亮下站着一位头戴王冠的地主，上方是 Dawnbringer 的标志。"
+    "ogAlt": "血红月亮下站着一位头戴王冠的地主，上方是 Dawnbringer 的标志。",
+    "betaTitle": "加入 Android 封闭测试 · Dawnbringer",
+    "betaDescription": "分三步加入 Dawnbringer 在 Google Play 上的 Android 封闭测试。",
+    "downloadTitle": "电脑端试玩版 · Dawnbringer",
+    "downloadDescription": "下载 Dawnbringer 免费试玩版，适用于 Windows、macOS 和 Linux。"
   },
   "nav": {
     "skip": "跳到正文",
     "home": "首页",
-    "game": "游戏",
-    "story": "故事",
-    "screens": "截图",
-    "features": "特色",
-    "platforms": "平台",
-    "demo": "试玩版",
-    "beta": "测试",
+    "why": "游戏介绍",
+    "new": "0.5 版新增",
+    "demo": "电脑端试玩版",
+    "beta": "Android 封闭测试",
     "press": "媒体资料",
     "language": "语言"
   },
   "hero": {
-    "tagline": "太阳已熄。带上最后的余烬。",
-    "pitch": "穿过陷入黑暗的土地，用 64 件圣物打造勇士，挑选你的战斗。战斗不靠骰子：每个敌人都携带可读的装备，你的绝望之石会在会杀死你的战斗前变暗。当周末地主上门收租时，选择缴纳供奉，或是赌上性命取它首级。",
+    "pitch": "像素风 Roguelike 自动战斗游戏：培养勇士，读懂每个敌人的装备，然后向地主缴纳供奉或战斗。",
     "artAlt": "血红的月亮下，山丘上一名渺小的勇士，面对从幽暗群山中升起、头戴王冠的巨大地主。",
     "clipTitle": "实机画面",
-    "clipAlt": "实机片段：地主之夜，空洞之王前来收账，地图染成红色；它的卡牌给出缴纳供奉或战斗的选择；随后战斗决出胜负。",
-    "clipFallback": "你的浏览器无法播放此视频。"
-  },
-  "stores": {
-    "title": "获取",
-    "steam": "Steam",
-    "googlePlay": "Google Play",
-    "appStore": "App Store",
-    "wishlistSoon": "即将开放愿望单",
-    "comingSoon": "即将推出"
-  },
-  "about": {
-    "title": "玩法机制",
-    "intro": "每次出征持续三周。你在迷雾笼罩的地图上行进，打开宝箱，造访神龛与锻炉，在本周结束前拼凑出圣物构筑。战斗自动进行；胜负取决于你规划的路线和搭配的装备。",
-    "points": [
-      {
-        "title": "看敌人，不看骰子",
-        "text": "战斗 100% 确定。每个敌人都携带真实可见的物品，你可以在开战前查看，把它的装备与你的相比较。绝望之石只会标出会杀死你的敌人，别无他言。面对地主时，它始终沉默。"
-      },
-      {
-        "title": "交租，或者开战",
-        "text": "每周结束时，该区域的地主都会上门收账。你可以从钱袋里掏出供奉买路活命，也可以为了赏金与它死战。获胜后，你能把金币存入钱庄安全回家，或是带着全部钱袋孤注一掷进入下一周。"
-      },
-      {
-        "title": "最后一夜的追猎",
-        "text": "每周最后一夜，月亮化为血红，地主会亲自踏上地图，随你的每一步逼近。如果你的构筑提前成型，不必原地等待：主动杀向它的王座，提前击败它可额外获得 50% 金币。"
-      },
-      {
-        "title": "阵亡者留在路上",
-        "text": "勇士死后，会带着生前的装备留在那片土地上，出现在未来的出征中。它白天游荡，夜晚猎杀你。击败它即可夺回部分遗失的钱袋。"
-      },
-      {
-        "title": "获胜者加冕为地主",
-        "text": "撑过全部三周的勇士将被加冕。在之后的出征里，它们可能坐上某个区域的王座，带着当初通关时的完整构筑向你收租。"
-      }
-    ]
-  },
-  "story": {
-    "title": "故事",
-    "paragraphs": [
-      "教会将白昼的时辰切分，写进地契出售。买下地契的人成了地主，榨取了比太阳本身还要多的光。在最后的早晨，太阳坠落了。",
-      "赫斯珀嬷嬷因目睹日落而失明，但她用围裙接住了最后的余烬，点燃了最后营地的篝火。她在每位勇士胸口埋下一根灯芯，派他们向东前往关隘。一根灯芯可燃烧三周。",
-      "黄金是冷却的阳光，也是世上仅存的温暖。每周月亮都会像红色火漆印一样封住夜空，地主随之登门收租。倒在半路的人仍会继续行走，直到还清身上的债。"
-    ],
-    "question": "至今无人带着火种越过关隘。门的另一侧究竟有什么？"
+    "clipAlt": "实机画面：一名身着全套装备的勇士独自与一群怪物战斗。",
+    "clipFallback": "你的浏览器无法播放此视频。",
+    "play": "Android 封闭测试",
+    "demo": "电脑端试玩版"
   },
   "screens": {
-    "title": "截图",
-    "open": "查看原图",
     "items": {
       "night": {
         "caption": "距离地主追上你还剩两步。",
@@ -128,31 +85,21 @@
   "features": {
     "title": "特色",
     "items": [
-      "6 playable champions and 12 second classes.",
-      "Attribute points and a skill point every level; a skill tree of three branches.",
-      "96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
-      "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
-      "19 Landlords across 6 biomes and 3 weeks.",
-      "Patrols, packs, ambushes, guardians and mimics on the map.",
-      "Day and night: at night your sight shrinks and shadows hunt you.",
-      "Your fallen champions rise and hunt you; your winners return as Landlords.",
-      "Separate bank and purse: stake gold at the start and cash out after each Landlord.",
-      "9 optional oaths that raise both the difficulty and the payout.",
-      "Voices with emotion for every character, and ambient sound for every biome.",
-      "A herbarium, a bestiary and 12 feats in the Journal.",
-      "Native 640x360 pixel art with mouse, keyboard, controller and touch.",
-      "Translated into 14 languages."
+      "6 名可操作勇士，12 个进阶职业。",
+      "每级获得属性点和技能点，技能树分为三条分支。",
+      "96 件物品分为 10 个系列，按部位穿戴，穿戴 2、4、6 件时触发套装加成。",
+      "在锻炉将装备回炉，最高至 +4，并可把 19 种怪物卡镶入其中。",
+      "19 位地主，分布在 6 个生态区和 3 周之中。",
+      "地图上有巡逻队、敌群、伏击、守卫和拟态怪。",
+      "昼夜交替：夜晚视野缩小，暗影会追猎你。",
+      "阵亡的勇士会作为复起者追猎你，获胜的勇士则会以地主身份归来。",
+      "钱庄与钱袋分开：出征开始时下注金币，每击败一位地主后兑现。",
+      "9 项可选誓约，会同时提高难度和收益。",
+      "每个角色都有带情绪的配音，每个生态区都有环境音效。",
+      "日志中包含植物标本册、小动物图册和 12 项成就。",
+      "原生 640x360 像素画，支持鼠标、键盘、手柄和触屏。",
+      "已翻译为 14 种语言。"
     ]
-  },
-  "platforms": {
-    "title": "平台",
-    "intro": "正在面向 PC 与移动平台开发。Android 封闭测试现已开放。",
-    "pc": "PC",
-    "pcNote": "Windows 版登陆 Steam。免费试玩版也可在 macOS 和 Linux 上运行。",
-    "android": "Android",
-    "androidNote": "手机和平板，登陆 Google Play。",
-    "ios": "iPhone 和 iPad",
-    "iosNote": "登陆 App Store。"
   },
   "demo": {
     "title": "下载试玩版",
@@ -175,12 +122,12 @@
     "linuxNote": "x86_64。解压压缩包并运行 DawnbringerDemo.x86_64。需要支持 OpenGL 3.3 的显卡驱动。",
     "download": "下载（{size}）",
     "checksums": "文件的 SHA-256 校验和",
-    "android": "Android：封闭测试正在进行。",
+    "android": "Android：封闭测试已开放。",
     "androidLink": "加入测试",
     "ios": "iPhone 和 iPad：暂未推出。"
   },
   "beta": {
-    "title": "加入测试",
+    "title": "加入 Android 封闭测试",
     "testCardCaption": "已加标注的 Android 测试支付截图。X 划去虚拟金额，绿框标出测试卡及 Google 的提示：这是测试订单，不会扣款。",
     "paymentNoticeTitle": "测试支付的金额是虚拟的。不会实际扣款。",
     "paymentNoticeText": "使用 Test card, always approves 时，Google Play 只会模拟购买。即使显示 R$9.99 或其他金额，也不会扣除任何钱款。请确认已选中此支付方式。如果显示的是你自己的银行卡或其他真实支付方式，请勿确认并联系我们。",
@@ -191,7 +138,7 @@
     "step2Link": "打开测试页面",
     "step3": "在 Android 手机或平板上打开 Google Play 的游戏页面，点击安装。在电脑上操作时，请在弹窗中选择你的 Android 设备，然后点击 Install 或安装。",
     "step3Link": "从 Google Play 安装",
-    "note": "免费测试权限将在发售时结束。参与测试不包含购买正式版。",
+    "note": "免费封闭测试权限将在发售时结束。参与测试不包含购买正式版。",
     "helpTitle": "安装时需要帮助？",
     "accountHelp": "群组、测试页面和 Play 商店必须使用同一账号。如果你有多个 Google 账号，请检查每个页面及商店应用中的头像。",
     "priceTitle": "显示价格或购买按钮？",
@@ -232,19 +179,18 @@
     "screensNote": "截图为 1920x1080 PNG，由游戏原生 640x360 分辨率按整数倍放大。",
     "creditsTitle": "制作人员",
     "credits": [
-      "Design, code and art: gmunaro",
-      "Music: Juhani Junkala (CC0); the Landlord's night score is original, played on VSCO 2 Community Edition samples (CC0)",
-      "Sound effects: Kenney, StarNinjas, Oiboo (CC0) and original sounds",
-      "Ambient sound: field recordings from freesound.org (CC0)",
-      "Voices: synthetic speech from ElevenLabs v4; no human voice was recorded or cloned",
-      "Fonts: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel and GNU Unifont (SIL Open Font License 1.1)"
+      "设计、代码与美术：gmunaro",
+      "音乐：Juhani Junkala（CC0）；地主夜晚的配乐为原创，使用 VSCO 2 Community Edition 采样（CC0）演奏。",
+      "音效：Kenney、StarNinjas、Oiboo（CC0）及原创音效",
+      "环境音：来自 freesound.org 的实地录音（CC0）",
+      "配音：ElevenLabs v4 合成语音；未录制或克隆任何真人声音。",
+      "字体：Kenney（CC0）；Jacquarda Bastarda 9、Fusion Pixel 与 GNU Unifont（SIL Open Font License 1.1）"
     ],
     "contactTitle": "联系方式",
     "contactText": "媒体联系、索取评测激活码及其他事宜，请发送邮件至"
   },
   "footer": {
     "privacy": "隐私政策",
-    "contact": "联系方式",
     "bugs": "发现了错误？请使用游戏内的报告错误功能，或发送邮件至",
     "madeBy": "Dawnbringer 由巴西的 gmunaro 制作。",
     "studio": "制作：",
@@ -263,57 +209,39 @@
     "title": "更新内容",
     "description": "Dawnbringer 的每次更新及其改动。"
   },
-  "news": {
-    "title": "New in 0.5",
-    "intro": "Version 0.5.0 adds classes, a skill tree, gear by slot, a new combat model, voices for every character and six biomes with their own life and sound.",
+  "why": {
+    "title": "与众不同之处",
     "items": {
-      "classes": {
-        "title": "Classes",
-        "text": "The six champions are the first classes. From week 2 the class master waits on the map, and once you have beaten a Landlord each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
-        "alt": "The class master offers a champion its two second classes."
+      "read": {
+        "title": "读懂敌人，而非掷骰子",
+        "text": "战斗自动进行，从不掷骰子。每个敌人都会展示自己的装备，绝望之石只会在会杀死你的战斗前变暗。",
+        "alt": "地图上，绝望之石的标记覆盖在一群敌人之上。"
       },
-      "tree": {
-        "title": "Attributes and a skill tree",
-        "text": "Every level gives attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.",
-        "alt": "The skill tree with nodes bought in two branches."
+      "build": {
+        "title": "培养勇士",
+        "text": "选择进阶职业，在技能树上分配点数，并在每个部位穿戴装备。在锻炉回炉物品，再把怪物卡镶入其中。",
+        "alt": "职业大师为勇士提供两个可选的进阶职业。"
       },
-      "gear": {
-        "title": "Gear by slot",
-        "text": "96 items in 10 families, each worn in its slot: weapon, shield, head, body, cloak, boots and three charms. The forge reheats an item up to +4 and never fails. Monsters drop rare cards that set into your gear.",
-        "alt": "The forge with a reheated item and a monster card set into it."
-      },
-      "combat": {
-        "title": "A new way to fight",
-        "text": "Speed decides how often each fighter acts. Hard DEF takes a share off every hit, and Soft DEF soaks damage before health. Your gear shows on the hero's body, each piece in its place. The game still never tells you how a fight will end.",
-        "alt": "A hero in full gear fights a group of monsters."
-      },
-      "risen": {
-        "title": "The risen hunt you",
-        "text": "Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, slower than you walk. If one reaches you, you fight.",
-        "alt": "A risen hero walks toward the player across the map."
-      },
-      "biomes": {
-        "title": "Six biomes that breathe",
-        "text": "Every biome has its own rocks, plants, small animals, wind and particles, and its own sound by day and by night. The plants sway with the music. Your seed's map stays the same: the decoration never blocks a tile.",
-        "alt": "The six biomes of Dawnbringer, by day and by night."
-      },
-      "voices": {
-        "title": "Every character speaks",
-        "text": "The lore, the 12 NPCs on the map and every kind of monster in battle speak with emotion. The voices are synthetic speech; no human voice was recorded or cloned.",
-        "alt": "Mother Hesper speaks at the Last Camp."
-      },
-      "collection": {
-        "title": "Finds, feats and a postcard",
-        "text": "Twelve plants and animals hide in the biomes as finds for the Journal's herbarium and bestiary. Twelve feats track your runs. On Android, the share menu sends a framed postcard of your hero.",
-        "alt": "The Journal's collection with finds from each biome."
+      "return": {
+        "title": "你的出征会回来",
+        "text": "阵亡的勇士会在之后的出征中复起并追猎你。获胜的勇士可以坐上地主的王座归来。",
+        "alt": "一名以红色标记的复起者在地图上朝玩家走来。"
       }
     }
   },
-  "listen": {
-    "title": "Listen",
-    "voice": "Mother Hesper, from the lore",
-    "ambience": "Drowned Vigil at night",
-    "monster": "The Tithe Taker, before a fight",
-    "fallback": "Your browser cannot play this audio."
+  "whatsnew": {
+    "title": "0.5 版新增内容",
+    "items": [
+      "十二个进阶职业，以及分为三条分支的技能树。",
+      "按部位分类的装备，可在锻炉回炉，并镶入怪物卡。",
+      "每个角色都有专属配音。",
+      "六个生态区，各有自己的植物、小动物和声音。"
+    ],
+    "more": "全部更新"
+  },
+  "community": {
+    "title": "媒体与社区",
+    "press": "标志、主视觉图、截图和概况表，供文章与视频使用。",
+    "follow": "关注游戏"
   }
 }

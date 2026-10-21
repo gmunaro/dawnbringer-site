@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Dawnbringer: roguelike auto-battler dark fantasy</title>
-<meta name="description" content="Słońce zgasło, a Właściciel co tydzień przychodzi po czynsz. Zbuduj czempiona, czytaj, co niesie każdy wróg, i zdecyduj, czy zapłacić dziesięcinę, czy walczyć z bossem.">
+<meta name="description" content="Pikselowy roguelike auto-battler. Zbuduj czempiona, sprawdź ekwipunek każdego wroga, potem zapłać Właścicielowi albo walcz.">
 <link rel="canonical" href="https://gmunaro.github.io/dawnbringer-site/pl/">
 <link rel="alternate" hreflang="en" href="https://gmunaro.github.io/dawnbringer-site/">
 <link rel="alternate" hreflang="pt-BR" href="https://gmunaro.github.io/dawnbringer-site/pt-br/">
@@ -25,7 +25,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Dawnbringer">
 <meta property="og:title" content="Dawnbringer: roguelike auto-battler dark fantasy">
-<meta property="og:description" content="Słońce zgasło, a Właściciel co tydzień przychodzi po czynsz. Zbuduj czempiona, czytaj, co niesie każdy wróg, i zdecyduj, czy zapłacić dziesięcinę, czy walczyć z bossem.">
+<meta property="og:description" content="Pikselowy roguelike auto-battler. Zbuduj czempiona, sprawdź ekwipunek każdego wroga, potem zapłać Właścicielowi albo walcz.">
 <meta property="og:url" content="https://gmunaro.github.io/dawnbringer-site/pl/">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:image" content="https://gmunaro.github.io/dawnbringer-site/assets/img/og.png">
@@ -46,7 +46,7 @@
 <a class="skip" href="#main">Przejdź do treści</a>
 <header class="top">
 <a class="brand" href="/dawnbringer-site/pl/">Dawnbringer</a>
-<nav class="sections"><ul><li><a href="#download">Demo</a></li><li><a href="#beta">Beta</a></li><li><a href="#game">Gra</a></li><li><a href="#story">Fabuła</a></li><li><a href="#screens">Zrzuty ekranu</a></li><li><a href="#features">Cechy</a></li><li><a href="#platforms">Platformy</a></li><li><a href="/dawnbringer-site/pl/presskit/">Dla prasy</a></li></ul></nav>
+<nav class="sections"><ul><li><a href="/dawnbringer-site/pl/beta/">Alfa na Androidzie</a></li><li><a href="/dawnbringer-site/pl/download/">Demo na komputer</a></li><li><a href="/dawnbringer-site/pl/presskit/">Dla prasy</a></li></ul></nav>
 <details class="lang">
 <summary><span class="sr">Język: </span>Polski</summary>
 <ul><li><a href="/dawnbringer-site/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="/dawnbringer-site/pt-br/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-BR">Português (Brasil)</a></li><li><a href="/dawnbringer-site/es/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="/dawnbringer-site/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="/dawnbringer-site/de/" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="/dawnbringer-site/it/" hreflang="it" lang="it" data-lang="it">Italiano</a></li><li><a href="/dawnbringer-site/ru/" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li><li><a href="/dawnbringer-site/uk/" hreflang="uk" lang="uk" data-lang="uk">Українська</a></li><li><a href="/dawnbringer-site/pl/" hreflang="pl" lang="pl" data-lang="pl" aria-current="true">Polski</a></li><li><a href="/dawnbringer-site/tr/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a></li><li><a href="/dawnbringer-site/ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li><li><a href="/dawnbringer-site/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li><li><a href="/dawnbringer-site/zh-cn/" hreflang="zh-CN" lang="zh-CN" data-lang="zh-CN">简体中文</a></li><li><a href="/dawnbringer-site/zh-tw/" hreflang="zh-TW" lang="zh-TW" data-lang="zh-TW">繁體中文</a></li></ul>
@@ -62,168 +62,46 @@
 </picture>
 <div class="hero-text">
 <h1 class="logo">Dawnbringer</h1>
-<p class="tagline">Słońce zgasło. Nieś jego ostatni żar.</p>
-<p class="pitch">Przemierzaj pogrążoną w mroku krainę, zbuduj czempiona z 64 reliktów i wybieraj walki. W grze nie ma kości: każdy wróg niesie przedmioty, które możesz odczytać, a twój Kamień Rozpaczy ciemnieje przed walką, która by cię zabiła. Gdy pod koniec tygodnia Właściciel przyjdzie po czynsz, zapłać dziesięcinę albo walcz o jego głowę.</p>
-<h2 class="sr">Zdobądź grę</h2>
-<ul class="stores"><li><a class="btn store" href="#download">Pobierz demo<small>Windows · macOS · Linux</small></a></li><li><a class="btn store" href="#beta">Dołącz do bety<small>Android</small></a></li><li><span class="btn store soon">Steam<small>Wkrótce na liście życzeń</small></span></li><li><span class="btn store soon">Google Play<small>Wkrótce</small></span></li><li><span class="btn store soon">App Store<small>Wkrótce</small></span></li></ul>
+<p class="pitch">Pikselowy roguelike auto-battler: zbuduj czempiona, sprawdź ekwipunek każdego wroga, potem zapłać Właścicielowi albo walcz.</p>
+<ul class="stores"><li id="beta"><a class="btn store" href="/dawnbringer-site/pl/beta/">Alfa na Androidzie<small>Google Play</small></a></li><li id="download"><a class="btn store" href="/dawnbringer-site/pl/download/">Demo na komputer<small>Windows · macOS · Linux</small></a></li></ul>
 </div>
 </section>
 <section class="clip wrap" aria-labelledby="clip-title">
 <h2 id="clip-title" class="sr">Rozgrywka</h2>
 <div class="panel video">
-<video controls muted loop playsinline preload="none" width="1280" height="720" poster="/dawnbringer-site/assets/video/clip-poster.webp" aria-label="Fragment rozgrywki: w noc Właściciela mapa robi się czerwona, gdy Pusty Król przychodzi po należność; jego karta pozwala zapłacić dziesięcinę albo walczyć; potem starcie się rozstrzyga.">
+<video controls muted loop playsinline preload="none" width="1280" height="720" poster="/dawnbringer-site/assets/video/clip-poster.webp" aria-label="Fragment rozgrywki: bohater w pełnym ekwipunku sam walczy z grupą potworów.">
 <source src="/dawnbringer-site/assets/video/clip.webm" type="video/webm">
 <source src="/dawnbringer-site/assets/video/clip.mp4" type="video/mp4">
 Twoja przeglądarka nie może odtworzyć tego filmu.
 </video>
 </div>
 </section>
-<section id="new" class="wrap news" aria-labelledby="new-title">
-<h2 id="new-title">New in 0.5</h2>
-<p class="lead">Version 0.5.0 adds classes, a skill tree, gear by slot, a new combat model, voices for every character and six biomes with their own life and sound.</p>
-<ul class="news-list">
-<li class="news-item"><img src="/dawnbringer-site/assets/news/classes.webp" width="640" height="360" loading="lazy" decoding="async" alt="The class master offers a champion its two second classes."><div><h3>Classes</h3><p>The six champions are the first classes. From week 2 the class master waits on the map, and once you have beaten a Landlord each champion advances into one of two second classes, 12 in all, and can later switch to the other.</p></div></li>
-<li class="news-item"><img src="/dawnbringer-site/assets/news/tree.webp" width="640" height="360" loading="lazy" decoding="async" alt="The skill tree with nodes bought in two branches."><div><h3>Attributes and a skill tree</h3><p>Every level gives attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.</p></div></li>
-<li class="news-item"><img src="/dawnbringer-site/assets/news/gear.webp" width="640" height="360" loading="lazy" decoding="async" alt="The forge with a reheated item and a monster card set into it."><div><h3>Gear by slot</h3><p>96 items in 10 families, each worn in its slot: weapon, shield, head, body, cloak, boots and three charms. The forge reheats an item up to +4 and never fails. Monsters drop rare cards that set into your gear.</p></div></li>
-<li class="news-item"><img src="/dawnbringer-site/assets/news/combat.webp" width="640" height="360" loading="lazy" decoding="async" alt="A hero in full gear fights a group of monsters."><div><h3>A new way to fight</h3><p>Speed decides how often each fighter acts. Hard DEF takes a share off every hit, and Soft DEF soaks damage before health. Your gear shows on the hero's body, each piece in its place. The game still never tells you how a fight will end.</p></div></li>
-<li class="news-item"><img src="/dawnbringer-site/assets/news/risen.webp" width="640" height="360" loading="lazy" decoding="async" alt="A risen hero walks toward the player across the map."><div><h3>The risen hunt you</h3><p>Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, slower than you walk. If one reaches you, you fight.</p></div></li>
-<li class="news-item"><img src="/dawnbringer-site/assets/news/biomes.webp" width="640" height="360" loading="lazy" decoding="async" alt="The six biomes of Dawnbringer, by day and by night."><div><h3>Six biomes that breathe</h3><p>Every biome has its own rocks, plants, small animals, wind and particles, and its own sound by day and by night. The plants sway with the music. Your seed's map stays the same: the decoration never blocks a tile.</p></div></li>
-<li class="news-item"><img src="/dawnbringer-site/assets/news/voices.webp" width="640" height="360" loading="lazy" decoding="async" alt="Mother Hesper speaks at the Last Camp."><div><h3>Every character speaks</h3><p>The lore, the 12 NPCs on the map and every kind of monster in battle speak with emotion. The voices are synthetic speech; no human voice was recorded or cloned.</p><ul class="listen" aria-label="Listen">
-<li><span>Mother Hesper, from the lore</span>
-<audio controls preload="none" aria-label="Mother Hesper, from the lore">
-<source src="/dawnbringer-site/assets/audio/voice.ogg" type="audio/ogg">
-<source src="/dawnbringer-site/assets/audio/voice.mp3" type="audio/mpeg">
-Your browser cannot play this audio.
-</audio></li>
-<li><span>Drowned Vigil at night</span>
-<audio controls preload="none" aria-label="Drowned Vigil at night">
-<source src="/dawnbringer-site/assets/audio/ambience.ogg" type="audio/ogg">
-<source src="/dawnbringer-site/assets/audio/ambience.mp3" type="audio/mpeg">
-Your browser cannot play this audio.
-</audio></li>
-<li><span>The Tithe Taker, before a fight</span>
-<audio controls preload="none" aria-label="The Tithe Taker, before a fight">
-<source src="/dawnbringer-site/assets/audio/monster.ogg" type="audio/ogg">
-<source src="/dawnbringer-site/assets/audio/monster.mp3" type="audio/mpeg">
-Your browser cannot play this audio.
-</audio></li>
-</ul></div></li>
-<li class="news-item"><img src="/dawnbringer-site/assets/news/collection.webp" width="640" height="360" loading="lazy" decoding="async" alt="The Journal's collection with finds from each biome."><div><h3>Finds, feats and a postcard</h3><p>Twelve plants and animals hide in the biomes as finds for the Journal's herbarium and bestiary. Twelve feats track your runs. On Android, the share menu sends a framed postcard of your hero.</p></div></li>
+<section id="why" class="wrap" aria-labelledby="why-title">
+<h2 id="why-title">Co ją wyróżnia</h2>
+<ul class="why">
+<li class="why-item"><img src="/dawnbringer-site/assets/shots/stone.webp" width="640" height="360" loading="lazy" decoding="async" alt="Znak Kamienia Rozpaczy nad grupą wrogów na mapie."><h3>Czytaj wroga, nie kości</h3><p>Walki toczą się same i nigdy nie rzucają kośćmi. Każdy wróg pokazuje swój ekwipunek, a Kamień Rozpaczy ciemnieje tylko przed walką, która by cię zabiła.</p></li>
+<li class="why-item"><img src="/dawnbringer-site/assets/news/classes.webp" width="640" height="360" loading="lazy" decoding="async" alt="Mistrz klas oferuje czempionowi jego dwie kl. zaawansowane."><h3>Zbuduj czempiona</h3><p>Wybierz kl. zaawansowaną, rozdaj punkty w drzewie umiejętności i noś przedmioty w każdym slocie. Rozgrzej przedmioty w Kuźni i wstaw w nie karty potworów.</p></li>
+<li class="why-item"><img src="/dawnbringer-site/assets/news/risen.webp" width="640" height="360" loading="lazy" decoding="async" alt="Powstały bohater, oznaczony na czerwono, idzie na mapie w stronę gracza."><h3>Twoje wyprawy wracają</h3><p>Polegli bohaterowie powstają i polują na ciebie w kolejnych wyprawach. Bohaterowie, którzy wygrają, mogą wrócić na tronie Właściciela.</p></li>
 </ul>
 </section>
-<section id="download" class="wrap" aria-labelledby="demo-title">
-<h2 id="demo-title">Pobierz demo</h2>
-<p class="lead">Darmowe demo na Windows, macOS i Linuksa. Zawiera całą wyprawę, z mniejszym wyborem czempionów i reliktów. Wersja 0.5.0.</p>
-<h3>Co zawiera demo</h3>
-<ul class="features panel demo-includes">
-<li>2 czempionów: Żelazny Pokutnik i Strzelczyni Szubienicy.</li>
-<li>Pełna wyprawa: trzy tygodnie na mapie, wydarzenia, sklepy, przysięgi i Właściciele.</li>
-<li>4 startowe rody reliktów.</li>
-<li>Bez Relikwiarza: pozostali czempioni, rody reliktów i ulepszenia sakiewki są w pełnej wersji.</li>
-<li>Osobny zapis gry, oddzielny od pełnej wersji.</li>
-</ul>
-<ul class="cards platforms demo-downloads">
-<li class="card"><h3>Windows</h3><p>Windows 10 lub 11, 64-bit. Jeden plik .exe, bez instalatora. Plik nie ma jeszcze podpisu cyfrowego, więc SmartScreen może ostrzec: kliknij Więcej informacji, a potem Uruchom mimo to.</p><a class="btn" href="https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.5.0/DawnbringerDemo-0.5.0-windows.exe" download>Pobierz (199,6 MB)<small>.exe</small></a></li>
-<li class="card"><h3>macOS</h3><p>Jedna aplikacja na Maki z Apple silicon i Intel. Rozpakuj ją i przeciągnij Dawnbringer do Aplikacji.</p><p>Aplikacja nie jest jeszcze notaryzowana przez Apple, więc macOS blokuje pierwsze uruchomienie. Kliknij aplikację prawym przyciskiem (lub z Control) i wybierz Otwórz. Jeśli nie ma przycisku Otwórz, przejdź do Ustawienia systemowe &gt; Prywatność i ochrona i kliknij Otwórz mimo to.</p><a class="btn" href="https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.5.0/DawnbringerDemo-0.5.0-macos.zip" download>Pobierz (149,7 MB)<small>.zip</small></a></li>
-<li class="card"><h3>Linux</h3><p>x86_64. Rozpakuj archiwum i uruchom DawnbringerDemo.x86_64. Wymaga sterowników graficznych z OpenGL 3.3.</p><a class="btn" href="https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.5.0/DawnbringerDemo-0.5.0-linux-x86_64.tar.gz" download>Pobierz (113,3 MB)<small>.tar.gz</small></a></li>
-</ul>
-<p class="demo-sums"><a href="https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.5.0/SHA256SUMS.txt">Sumy kontrolne SHA-256 plików</a></p>
-<p>Android: zamknięta beta jest otwarta. <a href="#beta">Dołącz do bety</a></p>
-<p>iPhone i iPad: jeszcze niedostępne.</p>
-</section>
-<section id="beta" class="wrap" aria-labelledby="beta-title">
-<h2 id="beta-title">Dołącz do bety</h2>
-<p class="lead">Zagraj za darmo w wersję na Androida przed premierą.</p>
-<aside class="panel beta-payment" aria-label="Co oznacza Test card, always approves?">
-<p><strong>Kwota płatności testowej jest FIKCYJNA. NIE ZOSTANIESZ OBCIĄŻONY.</strong></p>
-<p>Z Test card, always approves Google Play tylko symuluje zakup. Nawet jeśli widzisz R$9.99 lub inną kwotę, żadne pieniądze nie zostaną pobrane. Sprawdź, czy wybrano tę metodę płatności. Jeśli widzisz własną kartę lub inną prawdziwą metodę płatności, nie potwierdzaj i skontaktuj się z nami.</p>
-</aside>
-<ol class="cards steps">
-<li class="card"><h3>1</h3><p>Otwórz Dawnbringer Testers i kliknij Dołącz do grupy. Użyj konta Google ze Sklepu Play na swoim Androidzie. Samo otwarcie grupy nie wystarczy: potwierdź dołączenie.</p><a class="btn" href="https://groups.google.com/g/dawnbringer-testers" rel="noopener">Otwórz grupę</a></li>
-<li class="card"><h3>2</h3><p>Na tym samym koncie otwórz stronę testu i kliknij Zostań testerem. Poczekaj na potwierdzenie udziału, zanim przejdziesz dalej.</p><a class="btn" href="https://play.google.com/apps/testing/com.gmunaro.dawnbringer" rel="noopener">Otwórz stronę testu</a></li>
-<li class="card"><h3>3</h3><p>Na telefonie lub tablecie z Androidem otwórz grę w Google Play i wybierz Zainstaluj. Na komputerze wybierz urządzenie z Androidem w oknie i kliknij Install lub Zainstaluj.</p><a class="btn" href="https://play.google.com/store/apps/details?id=com.gmunaro.dawnbringer" rel="noopener">Zainstaluj z Google Play</a></li>
-</ol>
-<p>Darmowy dostęp do bety kończy się w dniu premiery. Udział w teście nie obejmuje zakupu pełnej wersji.</p>
-<figure class="beta-proof">
-<a href="/dawnbringer-site/assets/img/beta-test-card.png"><img src="/dawnbringer-site/assets/img/beta-test-card.png" width="1080" height="1408" loading="lazy" alt="Oznaczony zrzut testowej płatności na Androidzie. X przekreśla fikcyjną kwotę. Zielone ramki wskazują kartę testową i komunikat Google: to zamówienie testowe, nie zostaniesz obciążony."></a>
-<figcaption>Oznaczony zrzut testowej płatności na Androidzie. X przekreśla fikcyjną kwotę. Zielone ramki wskazują kartę testową i komunikat Google: to zamówienie testowe, nie zostaniesz obciążony.</figcaption>
-</figure>
-<div class="beta-help">
-<h3>Potrzebujesz pomocy z instalacją?</h3>
-<p>Używaj tego samego konta w grupie, na stronie testu i w Sklepie Play. Jeśli masz kilka kont Google, sprawdź zdjęcie profilowe na każdej stronie i w aplikacji sklepu.</p>
-<details>
-<summary>Widzisz cenę lub przycisk Kup?</summary>
-<p>Strona sklepu może pokazywać cenę także testerom. Najpierw wykonaj kroki 1 i 2. Na komputerze kliknij Buy lub Kup, aby wybrać urządzenie. Jeśli okno oferuje Install lub Zainstaluj, wybierz swojego Androida i kliknij ten przycisk, jak na zdjęciach. Jeśli pojawi się ekran płatności, przed potwierdzeniem przeczytaj opis karty testowej.</p>
-<div class="beta-shots">
-<figure><img src="/dawnbringer-site/assets/img/beta-store.png?v=2" width="1129" height="753" loading="lazy" alt="Na komputerze Google Play może pokazywać R$9.99 i Buy także podczas testu."><figcaption>Na komputerze Google Play może pokazywać R$9.99 i Buy także podczas testu.</figcaption></figure>
-<figure><img src="/dawnbringer-site/assets/img/beta-install.png?v=2" width="1035" height="1037" loading="lazy" alt="Kolejne okno może oferować Install. Wybierz swojego Androida, aby wysłać instalację."><figcaption>Kolejne okno może oferować Install. Wybierz swojego Androida, aby wysłać instalację.</figcaption></figure>
-</div>
-</details>
-<details><summary>Co oznacza Test card, always approves?</summary><p>To karta testowa Google Play. Jeśli metoda płatności to Test card, always approves, potwierdzenie symuluje zakup bez prawdziwej opłaty. Jeśli widzisz własną kartę lub inną prawdziwą metodę płatności, nie potwierdzaj. Sprawdź konto we wszystkich trzech krokach i skontaktuj się, jeśli problem nie zniknie.</p></details>
-<details><summary>Nie widzisz gry lub nie możesz dołączyć do testu?</summary><p>Sprawdź, czy dołączyłeś do grupy i testu na koncie ze Sklepu Play. Poczekaj kilka minut i ponownie otwórz stronę testu. Jeśli nadal nie masz dostępu, wyślij zrzut komunikatu bez danych płatniczych na adres <a href="mailto:dawnbringergame@gmail.com">dawnbringergame@gmail.com</a></p></details>
-</div>
-</section>
-<section id="game" class="wrap">
-<h2>Jak się gra</h2>
-<p class="lead">Każda wyprawa trwa trzy tygodnie. Wędrujesz przez spowitą mgłą mapę, otwierasz skrzynie, odwiedzasz kapliczki oraz kuźnie i składasz build z reliktów przed końcem tygodnia. Walki rozgrywają się automatycznie; strategia kryje się w wybranej trasie i złożonym ekwipunku.</p>
-<ul class="cards">
-<li class="card"><h3>Czytaj wroga, nie kości</h3><p>Walka jest w 100% deterministyczna, a każdy wróg niesie prawdziwe przedmioty, które możesz obejrzeć przed walką: oceń jego ekwipunek względem swojego. Twój Kamień Rozpaczy oznacza każdego wroga, którego walka by cię zabiła, i nic więcej nie mówi. Przeciw Właścicielowi milczy.</p></li>
-<li class="card"><h3>Zapłać czynsz albo walcz</h3><p>Pod koniec każdego tygodnia Właściciel regionu przychodzi po należność. Zapłać dziesięcinę z sakiewki, by ujść z życiem, albo walcz z nim o nagrodę. Jeśli wygrasz, możesz wpłacić złoto do banku i wrócić do domu albo zaryzykować całą sakiewkę w kolejnym tygodniu.</p></li>
-<li class="card"><h3>Polowanie ostatniej nocy</h3><p>Ostatniej nocy tygodnia księżyc barwi się na czerwono, a Właściciel wchodzi na mapę i ściga cię z każdym krokiem. Jeśli twój build jest gotowy wcześniej, nie musisz czekać: ruszaj do jego tronu i pokonaj go za 50% więcej złota.</p></li>
-<li class="card"><h3>Twoi zmarli zostają na szlaku</h3><p>Gdy czempion ginie, zostaje w tej krainie na kolejne wyprawy razem ze swoim ekwipunkiem. Za dnia błąka się po drodze, a nocą na ciebie poluje. Pokonaj go, by odzyskać część utraconej sakiewki.</p></li>
-<li class="card"><h3>Twoi zwycięzcy zostają Właścicielami</h3><p>Czempioni, którzy przetrwają wszystkie trzy tygodnie, otrzymują koronę. W kolejnych wyprawach mogą zasiąść na tronie regionu i przyjść po czynsz dokładnie z tym buildem, którym wygrali.</p></li>
-</ul>
-</section>
-<section id="story" class="wrap story">
-<h2>Historia</h2>
-<p>Kościół rozparcelował godziny dnia i sprzedał je w aktach własności. Nabywcy stali się Właścicielami i wyciągnęli ze słońca więcej światła, niż mogło dać. Ostatniego Poranka słońce runęło.</p>
-<p>Matka Hesper oślepła, patrząc na jego upadek, ale złapała ostatni żar w fartuch i rozpaliła ognisko Ostatniego Obozu. Wsadza knot w pierś każdego czempiona i posyła go na wschód, w stronę Bramy. Każdy knot płonie przez trzy tygodnie.</p>
-<p>Złoto to wystygłe światło słoneczne, jedyne ciepło, jakie pozostało. Co tydzień księżyc pieczętuje niebo czerwonym lakem, a Właściciele przychodzą po czynsz. Ci, którzy padną po drodze, idą dalej, dopóki nie spłacą długu.</p>
-<p class="question">Nikt jeszcze nie przeniósł płomienia za Bramę. Co czeka po drugiej stronie?</p>
-</section>
-<section id="screens" class="wrap">
-<h2>Zrzuty ekranu</h2>
-<div class="gallery">
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/01_night.png" title="Otwórz w pełnym rozmiarze"><img src="/dawnbringer-site/assets/shots/night.webp" width="640" height="360" loading="lazy" decoding="async" alt="Mapa nocą, zabarwiona na czerwono. Pusty Król stoi obok bohatera, a zegar pokazuje: Właściciel przychodzi po należność, 2 kroki."></a><figcaption>Dwa kroki, zanim Właściciel cię dopadnie.</figcaption></figure>
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/02_landlord.png" title="Otwórz w pełnym rozmiarze"><img src="/dawnbringer-site/assets/shots/landlord.webp" width="640" height="360" loading="lazy" decoding="async" alt="Karta Pustego Króla: jego statystyki, zdolność Pusta Korona, dziesięcina w wysokości 18 złota oraz przyciski Zapłać dziesięcinę i Walcz."></a><figcaption>Zapłać dziesięcinę z sakiewki albo walcz o nagrodę.</figcaption></figure>
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/03_battle.png" title="Otwórz w pełnym rozmiarze"><img src="/dawnbringer-site/assets/shots/battle.webp" width="640" height="360" loading="lazy" decoding="async" alt="Walka z Pustym Królem w zrujnowanej kaplicy, z paskami zdrowia, pancerzem i liczbami obrażeń."></a><figcaption>Walka toczy się sama; o wyniku decyduje twoje przygotowanie.</figcaption></figure>
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/04_stone.png" title="Otwórz w pełnym rozmiarze"><img src="/dawnbringer-site/assets/shots/stone.webp" width="640" height="360" loading="lazy" decoding="async" alt="Ekran przed walką z wrogiem: jego statystyki i niesione przedmioty, znak Kamienia Rozpaczy, ostrzeżenie Ta walka by cię zabiła oraz przyciski Walcz i Wycofaj się."></a><figcaption>Kamień Rozpaczy ciemnieje nad walką, która by cię zabiła.</figcaption></figure>
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/05_risen.png" title="Otwórz w pełnym rozmiarze"><img src="/dawnbringer-site/assets/shots/risen.webp" width="640" height="360" loading="lazy" decoding="async" alt="Na mapie powstała Strzelczyni Szubienicy z wcześniejszej wyprawy, z podpowiedzią pokazującą jej build i niesione złoto."></a><figcaption>Poległy czempion z dawnej wyprawy krąży po drodze ze swoim złotem.</figcaption></figure>
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/06_legend.png" title="Otwórz w pełnym rozmiarze"><img src="/dawnbringer-site/assets/shots/legend.webp" width="640" height="360" loading="lazy" decoding="async" alt="Karta Strzelczyni Szubienicy, ukoronowanej: legendy z wcześniejszej wyprawy, która zajmuje siedzibę Popielistej Dali."></a><figcaption>Zwycięski czempion z poprzedniej wyprawy rządzi jako Właściciel.</figcaption></figure>
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/07_shop.png" title="Otwórz w pełnym rozmiarze"><img src="/dawnbringer-site/assets/shots/shop.webp" width="640" height="360" loading="lazy" decoding="async" alt="Sklep z czterema reliktami do kupienia lub wygnania i porównaniem nowego przedmiotu z twoim buildem."></a><figcaption>Sklep od razu pokazuje, jak zmienią się statystyki po wymianie przedmiotu.</figcaption></figure>
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/08_camp.png" title="Otwórz w pełnym rozmiarze"><img src="/dawnbringer-site/assets/shots/camp.webp" width="640" height="360" loading="lazy" decoding="async" alt="Ekran Ostatniego Obozu z czempionami, rodami przedmiotów, przysięgami i suwakiem stawki."></a><figcaption>W Ostatnim Obozie wybierz czempiona, przysięgi i stawkę w złocie.</figcaption></figure>
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/09_group.png" title="Otwórz w pełnym rozmiarze"><img src="/dawnbringer-site/assets/shots/group.webp" width="640" height="360" loading="lazy" decoding="async" alt="Walka z grupą wrogów w Wisielczym Lesie, wśród szubienic i martwych drzew."></a><figcaption>Watahy atakują jedna po drugiej, bez leczenia między walkami.</figcaption></figure>
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/10_cashout.png" title="Otwórz w pełnym rozmiarze"><img src="/dawnbringer-site/assets/shots/cashout.webp" width="640" height="360" loading="lazy" decoding="async" alt="Po Właścicielu: wybór między powrotem do domu z sakiewką a zabraniem jej do tygodnia 2, obok karta następnego Właściciela."></a><figcaption>Po pokonaniu Właściciela wpłać zysk do banku albo zabierz sakiewkę do tygodnia 2.</figcaption></figure>
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/11_build.png" title="Otwórz w pełnym rozmiarze"><img src="/dawnbringer-site/assets/shots/build.webp" width="640" height="360" loading="lazy" decoding="async" alt="Karta buildu Żelaznego Pokutnika ze statystykami, wyposażeniem, pasem i zestawami rodzin Żelazo i Krew."></a><figcaption>Połącz 2, 4 lub 6 reliktów z tego samego rodu, by odblokować premie zestawu.</figcaption></figure>
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/12_event.png" title="Otwórz w pełnym rozmiarze"><img src="/dawnbringer-site/assets/shots/event.webp" width="640" height="360" loading="lazy" decoding="async" alt="Zdarzenie Zakład Kata z trzema wyborami."></a><figcaption>Zdarzenia na drodze wymieniają krew, złoto lub klątwy na skróty i relikty.</figcaption></figure>
-</div>
-</section>
-<section id="features" class="wrap">
-<h2>Cechy</h2>
+<section id="new" class="wrap" aria-labelledby="new-title">
+<h2 id="new-title">Nowości w 0.5</h2>
 <ul class="features panel">
-<li>6 playable champions and 12 second classes.</li>
-<li>Attribute points and a skill point every level; a skill tree of three branches.</li>
-<li>96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.</li>
-<li>Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.</li>
-<li>19 Landlords across 6 biomes and 3 weeks.</li>
-<li>Patrols, packs, ambushes, guardians and mimics on the map.</li>
-<li>Day and night: at night your sight shrinks and shadows hunt you.</li>
-<li>Your fallen champions rise and hunt you; your winners return as Landlords.</li>
-<li>Separate bank and purse: stake gold at the start and cash out after each Landlord.</li>
-<li>9 optional oaths that raise both the difficulty and the payout.</li>
-<li>Voices with emotion for every character, and ambient sound for every biome.</li>
-<li>A herbarium, a bestiary and 12 feats in the Journal.</li>
-<li>Native 640x360 pixel art with mouse, keyboard, controller and touch.</li>
-<li>Translated into 14 languages.</li>
+<li>Dwanaście kl. zaawansowanych i drzewo umiejętności o trzech gałęziach.</li>
+<li>Przedmioty według slotów, rozgrzewane w Kuźni, z wstawionymi kartami potworów.</li>
+<li>Głos dla każdej postaci.</li>
+<li>Sześć biomów z własnymi roślinami, małymi zwierzętami i dźwiękiem.</li>
 </ul>
+<p><a href="/dawnbringer-site/pl/changelog/">Wszystkie zmiany</a></p>
 </section>
-<section id="platforms" class="wrap">
-<h2>Platformy</h2>
-<p class="lead">W produkcji na PC i urządzenia mobilne. Zamknięta beta na Androidzie jest już otwarta.</p>
-<ul class="cards platforms">
-<li class="card"><h3>PC</h3><p>Windows na Steamie. Darmowe demo działa też na macOS i Linuksie.</p><span class="btn store soon">Steam<small>Wkrótce na liście życzeń</small></span></li>
-<li class="card"><h3>Android</h3><p>Telefony i tablety, w Google Play.</p><span class="btn store soon">Google Play<small>Wkrótce</small></span></li>
-<li class="card"><h3>iPhone i iPad</h3><p>W App Store.</p><span class="btn store soon">App Store<small>Wkrótce</small></span></li>
+<section id="community" class="wrap" aria-labelledby="community-title">
+<h2 id="community-title">Prasa i społeczność</h2>
+<p><a class="btn" href="/dawnbringer-site/pl/presskit/">Dla prasy</a> Logo, key art, zrzuty ekranu i karta informacyjna do artykułów i filmów.</p>
+<p>Śledź grę:</p>
+<ul class="socials">
+<li><a href="https://www.youtube.com/@dawnbringergame" rel="me noopener">YouTube</a></li>
+<li><a href="https://bsky.app/profile/dawnbringergame.bsky.social" rel="me noopener">Bluesky</a></li>
+<li><a href="https://www.reddit.com/r/Dawnbringer/" rel="me noopener">Reddit</a></li>
 </ul>
 </section>
 </main>
@@ -232,14 +110,9 @@ Your browser cannot play this audio.
 <li><a href="/dawnbringer-site/privacy.html">Polityka prywatności</a></li>
 <li><a href="/dawnbringer-site/pl/presskit/">Dla prasy</a></li>
 <li><a href="/dawnbringer-site/pl/changelog/">Nowości</a></li>
-<li>Kontakt: <a href="mailto:dawnbringergame@gmail.com">dawnbringergame@gmail.com</a></li>
 </ul>
 <p>Znalazłeś błąd? Użyj opcji Zgłoś błąd w grze albo napisz na adres <a href="mailto:dawnbringergame@gmail.com">dawnbringergame@gmail.com</a></p>
-<ul class="socials">
-<li><a href="https://www.youtube.com/@dawnbringergame" rel="me noopener">YouTube</a></li>
-<li><a href="https://bsky.app/profile/dawnbringergame.bsky.social" rel="me noopener">Bluesky</a></li>
-<li><a href="https://www.reddit.com/r/Dawnbringer/" rel="me noopener">Reddit</a></li>
-</ul>
+
 <p>Dawnbringer tworzy gmunaro w Brazylii. © 2026 gmunaro.</p>
 <p>Twórca: <a href="https://github.com/praisetcdev" rel="me noopener">PraiseTC</a></p>
 </footer>
