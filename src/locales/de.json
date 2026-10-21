@@ -1,79 +1,36 @@
 {
   "meta": {
     "title": "Dawnbringer: Dark-Fantasy-Roguelike-Autobattler",
-    "description": "Die Sonne ist tot und der Hausherr kassiert jede Woche. Bau deinen Champion, lies, was jeder Feind trägt, und entscheide, ob du den Zehnt zahlst oder den Hausherrn bekämpfst.",
+    "description": "Ein Pixelart-Roguelike-Autobattler. Stelle einen Champion zusammen, lies die Ausrüstung jedes Gegners und zahle dann dem Hausherrn den Zehnt oder kämpfe.",
     "pressTitle": "Dawnbringer-Pressekit",
     "pressDescription": "Datenblatt, Beschreibung, Features, Logo, Key Art und Screenshots von Dawnbringer, einem Roguelike-Autobattler von gmunaro.",
     "notFoundTitle": "Seite nicht gefunden",
-    "ogAlt": "Das Dawnbringer-Logo über einem gekrönten Hausherrn unter einem blutroten Mond."
+    "ogAlt": "Das Dawnbringer-Logo über einem gekrönten Hausherrn unter einem blutroten Mond.",
+    "betaTitle": "Android-Alpha beitreten · Dawnbringer",
+    "betaDescription": "So trittst du der geschlossenen Alpha von Dawnbringer auf Google Play in drei Schritten bei.",
+    "downloadTitle": "Desktop-Demo · Dawnbringer",
+    "downloadDescription": "Lade die kostenlose Dawnbringer-Demo für Windows, macOS und Linux herunter."
   },
   "nav": {
     "skip": "Zum Inhalt springen",
     "home": "Start",
-    "game": "Das Spiel",
-    "story": "Geschichte",
-    "screens": "Screenshots",
-    "features": "Features",
-    "platforms": "Plattformen",
-    "demo": "Demo",
-    "beta": "Beta",
+    "why": "Das Spiel",
+    "new": "Neu in 0.5",
+    "demo": "Desktop-Demo",
+    "beta": "Android-Alpha",
     "press": "Pressekit",
     "language": "Sprache"
   },
   "hero": {
-    "tagline": "Die Sonne ist tot. Trag ihre letzte Glut.",
-    "pitch": "Durchquere ein finsteres Land, bau einen Champion aus 64 Relikten und wähle deine Kämpfe. Gewürfelt wird nicht: Jeder Feind trägt Ausrüstung, die du lesen kannst, und dein Verzweiflungsstein verdunkelt sich vor einem Kampf, der dich töten würde. Wenn der Hausherr am Ende der Woche die Miete eintreibt, zahl den Zehnt oder kämpf um seinen Kopf.",
+    "pitch": "Ein Pixelart-Roguelike-Autobattler: Stelle einen Champion zusammen, lies die Ausrüstung jedes Gegners und zahle dann dem Hausherrn den Zehnt oder kämpfe.",
     "artAlt": "Ein kleiner Champion auf einem Hügel steht einem riesigen gekrönten Hausherrn gegenüber, der sich unter einem blutroten Mond aus den dunklen Hügeln erhebt.",
     "clipTitle": "Gameplay",
-    "clipAlt": "Gameplay-Clip: In der Nacht des Hausherrn färbt sich die Karte rot, während der Hohle König zum Kassieren kommt; seine Karte bietet an, den Zehnt zu zahlen oder zu kämpfen; dann entscheidet sich der Kampf.",
-    "clipFallback": "Dein Browser kann dieses Video nicht abspielen."
-  },
-  "stores": {
-    "title": "Hol es dir",
-    "steam": "Steam",
-    "googlePlay": "Google Play",
-    "appStore": "App Store",
-    "wishlistSoon": "Bald auf die Wunschliste",
-    "comingSoon": "Demnächst"
-  },
-  "about": {
-    "title": "Spielablauf",
-    "intro": "Ein Lauf dauert drei Wochen. Du ziehst über eine neblige Karte, öffnest Truhen, besuchst Schreine und Schmieden und stellst deinen Build aus Relikten zusammen, bevor die Woche endet. Die Kämpfe laufen automatisch ab; die Taktik liegt in deiner Route und deinem Build.",
-    "points": [
-      {
-        "title": "Den Feind lesen, nicht die Würfel",
-        "text": "Kämpfe sind zu 100 % deterministisch, und jeder Feind trägt echte Gegenstände, die du vor dem Kampf prüfen kannst: Vergleiche seine Ausrüstung mit deiner. Dein Verzweiflungsstein markiert jeden Feind, dessen Kampf dich töten würde, und sagt nicht mehr. Gegen den Hausherrn schweigt er."
-      },
-      {
-        "title": "Miete zahlen oder kämpfen",
-        "text": "Am Ende jeder Woche treibt der Hausherr der Region die Miete ein. Zahl den Zehnt aus deiner Börse, um lebend weiterzuziehen, oder kämpfe um sein Kopfgeld. Wenn du siegst, kannst du dein Gold auf die Bank bringen und heimkehren oder die gesamte Börse in der nächsten Woche riskieren."
-      },
-      {
-        "title": "Die Jagd der letzten Nacht",
-        "text": "In der letzten Nacht der Woche färbt sich der Mond blutrot und der Hausherr betritt die Karte, um dich Schritt für Schritt zu jagen. Ist dein Build schon vorher bereit, musst du nicht warten: Zieh zu seinem Thron und besiege ihn dort für 50 % mehr Gold."
-      },
-      {
-        "title": "Deine Toten bleiben auf der Straße",
-        "text": "Stirbt ein Champion, bleibt er in späteren Läufen samt seiner Ausrüstung im Land zurück. Tagsüber streift er umher, nachts macht er Jagd auf dich. Besiege ihn, um einen Teil der verlorenen Börse zurückzuholen."
-      },
-      {
-        "title": "Deine Sieger werden Hausherren",
-        "text": "Champions, die alle drei Wochen überstehen, werden gekrönt. In späteren Läufen können sie den Thron einer Region übernehmen und mit genau dem Build kassieren kommen, mit dem sie gewonnen haben."
-      }
-    ]
-  },
-  "story": {
-    "title": "Die Geschichte",
-    "paragraphs": [
-      "Die Kirche teilte die Stunden des Tageslichts auf und verkaufte sie in Urkunden. Die Käufer wurden zu den Hausherren und zogen mehr Licht aus der Sonne, als sie hergeben konnte. Am Letzten Morgen stürzte die Sonne herab.",
-      "Mutter Hesper erblindete, als sie den Sturz sah, fing aber die letzte Glut in ihrer Schürze auf und entzündete das Feuer des Letzten Lagers. Sie setzt jedem Champion einen Docht in die Brust und schickt ihn nach Osten zum Tor. Ein Docht brennt drei Wochen lang.",
-      "Gold ist erkaltetes Sonnenlicht, die einzige verbliebene Wärme. Jede Woche versiegelt der Mond den Himmel wie rotes Wachs und die Hausherren treiben die Miete ein. Wer unterwegs fällt, läuft weiter, bis seine Schuld beglichen ist."
-    ],
-    "question": "Noch hat niemand die Flamme hinter das Tor getragen. Was wartet auf der anderen Seite?"
+    "clipAlt": "Gameplay-Clip: Ein Held in voller Ausrüstung kämpft allein gegen eine Gruppe Monster.",
+    "clipFallback": "Dein Browser kann dieses Video nicht abspielen.",
+    "play": "Android-Alpha",
+    "demo": "Desktop-Demo"
   },
   "screens": {
-    "title": "Screenshots",
-    "open": "In voller Größe öffnen",
     "items": {
       "night": {
         "caption": "Noch zwei Schritte, bis der Hausherr dich einholt.",
@@ -126,33 +83,23 @@
     }
   },
   "features": {
-    "title": "Features",
+    "title": "Funktionen",
     "items": [
-      "6 playable champions and 12 second classes.",
-      "Attribute points and a skill point every level; a skill tree of three branches.",
-      "96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
-      "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
-      "19 Landlords across 6 biomes and 3 weeks.",
-      "Patrols, packs, ambushes, guardians and mimics on the map.",
-      "Day and night: at night your sight shrinks and shadows hunt you.",
-      "Your fallen champions rise and hunt you; your winners return as Landlords.",
-      "Separate bank and purse: stake gold at the start and cash out after each Landlord.",
-      "9 optional oaths that raise both the difficulty and the payout.",
-      "Voices with emotion for every character, and ambient sound for every biome.",
-      "A herbarium, a bestiary and 12 feats in the Journal.",
-      "Native 640x360 pixel art with mouse, keyboard, controller and touch.",
-      "Translated into 14 languages."
+      "6 spielbare Champions und 12 Aufstiegsklassen.",
+      "Attributpunkte und ein Fertigkeitspunkt pro Stufe; ein Fertigkeitsbaum mit drei Zweigen.",
+      "96 Gegenstände in 10 Familien, nach Slot getragen, mit Set-Boni bei 2, 4 und 6 Teilen.",
+      "Gegenstände in der Schmiede bis +4 nachglühen und 19 Arten Monsterkarten in sie einsetzen.",
+      "19 Hausherren, verteilt auf 6 Biome und 3 Wochen.",
+      "Patrouillen, Rudel, Hinterhalte, Wächter und Mimics auf der Karte.",
+      "Tag und Nacht: Nachts wird deine Sicht kleiner und Schatten jagen dich.",
+      "Deine gefallenen Champions stehen auf und jagen dich; deine Sieger kehren als Hausherren zurück.",
+      "Getrennte Bank und Börse: Setze zu Beginn Gold ein und zahle nach jedem Hausherrn aus.",
+      "9 optionale Schwüre, die sowohl die Schwierigkeit als auch den Gewinn erhöhen.",
+      "Stimmen mit Emotionen für jede Figur und Umgebungsgeräusche für jedes Biom.",
+      "Ein Herbarium, ein Bestiarium und 12 Erfolge im Journal.",
+      "Pixelgrafik nativ in 640x360, mit Maus, Tastatur, Controller und Touch.",
+      "In 14 Sprachen übersetzt."
     ]
-  },
-  "platforms": {
-    "title": "Plattformen",
-    "intro": "In Entwicklung für PC und Mobilgeräte. Die geschlossene Beta auf Android ist jetzt offen.",
-    "pc": "PC",
-    "pcNote": "Windows auf Steam. Die kostenlose Demo läuft auch unter macOS und Linux.",
-    "android": "Android",
-    "androidNote": "Smartphones und Tablets, auf Google Play.",
-    "ios": "iPhone und iPad",
-    "iosNote": "Im App Store."
   },
   "demo": {
     "title": "Demo herunterladen",
@@ -232,12 +179,12 @@
     "screensNote": "Die Screenshots sind PNG in 1920x1080, ganzzahlig skaliert aus der nativen Auflösung von 640x360.",
     "creditsTitle": "Credits",
     "credits": [
-      "Design, code and art: gmunaro",
-      "Music: Juhani Junkala (CC0); the Landlord's night score is original, played on VSCO 2 Community Edition samples (CC0)",
-      "Sound effects: Kenney, StarNinjas, Oiboo (CC0) and original sounds",
-      "Ambient sound: field recordings from freesound.org (CC0)",
-      "Voices: synthetic speech from ElevenLabs v4; no human voice was recorded or cloned",
-      "Fonts: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel and GNU Unifont (SIL Open Font License 1.1)"
+      "Design, Code und Grafik: gmunaro",
+      "Musik: Juhani Junkala (CC0). Der Nachtscore des Hausherrn ist eine Eigenproduktion, gespielt mit Samples der VSCO 2 Community Edition (CC0).",
+      "Soundeffekte: Kenney, StarNinjas, Oiboo (CC0) und eigene Sounds",
+      "Umgebungsgeräusche: Feldaufnahmen von freesound.org (CC0)",
+      "Stimmen: synthetische Sprache von ElevenLabs v4; keine menschliche Stimme wurde aufgenommen oder geklont",
+      "Schriften: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel und GNU Unifont (SIL Open Font License 1.1)"
     ],
     "contactTitle": "Kontakt",
     "contactText": "Für Presse, Testkeys und sonstige Anfragen schreib an"
@@ -263,57 +210,40 @@
     "title": "Neuigkeiten",
     "description": "Jedes Dawnbringer-Update und was sich darin geändert hat."
   },
-  "news": {
-    "title": "New in 0.5",
-    "intro": "Version 0.5.0 adds classes, a skill tree, gear by slot, a new combat model, voices for every character and six biomes with their own life and sound.",
+  "why": {
+    "title": "Was es anders macht",
     "items": {
-      "classes": {
-        "title": "Classes",
-        "text": "The six champions are the first classes. From week 2 the class master waits on the map, and once you have beaten a Landlord each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
-        "alt": "The class master offers a champion its two second classes."
+      "read": {
+        "title": "Lies den Gegner, nicht die Würfel",
+        "text": "Kämpfe laufen von selbst ab und werden nie gewürfelt. Jeder Gegner zeigt seine Ausrüstung, und der Verzweiflungsstein verdunkelt sich nur vor einem Kampf, der dich töten würde.",
+        "alt": "Das Zeichen des Verzweiflungssteins über einer Gruppe Gegner auf der Karte."
       },
-      "tree": {
-        "title": "Attributes and a skill tree",
-        "text": "Every level gives attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.",
-        "alt": "The skill tree with nodes bought in two branches."
+      "build": {
+        "title": "Baue einen Champion",
+        "text": "Wähle eine Aufstiegsklasse, verteile Punkte im Fertigkeitsbaum und trage in jedem Slot Ausrüstung. Gegenstände in der Schmiede nachglühen und Monsterkarten in sie einsetzen.",
+        "alt": "Der Klassenmeister bietet einem Champion seine zwei Aufstiegsklassen an."
       },
-      "gear": {
-        "title": "Gear by slot",
-        "text": "96 items in 10 families, each worn in its slot: weapon, shield, head, body, cloak, boots and three charms. The forge reheats an item up to +4 and never fails. Monsters drop rare cards that set into your gear.",
-        "alt": "The forge with a reheated item and a monster card set into it."
-      },
-      "combat": {
-        "title": "A new way to fight",
-        "text": "Speed decides how often each fighter acts. Hard DEF takes a share off every hit, and Soft DEF soaks damage before health. Your gear shows on the hero's body, each piece in its place. The game still never tells you how a fight will end.",
-        "alt": "A hero in full gear fights a group of monsters."
-      },
-      "risen": {
-        "title": "The risen hunt you",
-        "text": "Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, slower than you walk. If one reaches you, you fight.",
-        "alt": "A risen hero walks toward the player across the map."
-      },
-      "biomes": {
-        "title": "Six biomes that breathe",
-        "text": "Every biome has its own rocks, plants, small animals, wind and particles, and its own sound by day and by night. The plants sway with the music. Your seed's map stays the same: the decoration never blocks a tile.",
-        "alt": "The six biomes of Dawnbringer, by day and by night."
-      },
-      "voices": {
-        "title": "Every character speaks",
-        "text": "The lore, the 12 NPCs on the map and every kind of monster in battle speak with emotion. The voices are synthetic speech; no human voice was recorded or cloned.",
-        "alt": "Mother Hesper speaks at the Last Camp."
-      },
-      "collection": {
-        "title": "Finds, feats and a postcard",
-        "text": "Twelve plants and animals hide in the biomes as finds for the Journal's herbarium and bestiary. Twelve feats track your runs. On Android, the share menu sends a framed postcard of your hero.",
-        "alt": "The Journal's collection with finds from each biome."
+      "return": {
+        "title": "Deine Läufe kehren zurück",
+        "text": "Gefallene Helden stehen in späteren Läufen auf und jagen dich. Helden, die siegen, können auf dem Thron eines Hausherrn zurückkehren.",
+        "alt": "Ein auferstandener Held, rot markiert, geht auf der Karte auf den Spieler zu."
       }
     }
   },
-  "listen": {
-    "title": "Listen",
-    "voice": "Mother Hesper, from the lore",
-    "ambience": "Drowned Vigil at night",
-    "monster": "The Tithe Taker, before a fight",
-    "fallback": "Your browser cannot play this audio."
+  "whatsnew": {
+    "title": "Neu in 0.5",
+    "items": [
+      "Zwölf Aufstiegsklassen und ein Fertigkeitsbaum mit drei Zweigen.",
+      "Ausrüstung nach Slot, in der Schmiede nachgeglüht und mit Monsterkarten bestückt.",
+      "Eine Stimme für jede Figur.",
+      "Sechs Biome mit eigenen Pflanzen, kleinen Tieren und Geräuschen."
+    ],
+    "more": "Alle Änderungen"
+  },
+  "community": {
+    "title": "Presse und Community",
+    "press": "Logo, Key Art, Screenshots und ein Datenblatt für Artikel und Videos.",
+    "follow": "Folge dem Spiel",
+    "contact": "Kontakt"
   }
 }

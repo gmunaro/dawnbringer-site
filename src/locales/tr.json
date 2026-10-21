@@ -1,79 +1,36 @@
 {
   "meta": {
     "title": "Dawnbringer: karanlık fantezi roguelike oto-savaş oyunu",
-    "description": "Güneş söndü ve Ev sahibi her hafta kirayı toplamaya geliyor. Şampiyonunu kur, her düşmanın neyi taşıdığını oku ve onda biri ödemeye ya da patronla savaşmaya karar ver.",
+    "description": "Piksel sanatlı bir roguelike oto-savaş oyunu: şampiyonunu kur, her düşmanın ekipmanını oku, sonra Ev sahibinin onda birini öde ya da savaş.",
     "pressTitle": "Dawnbringer basın kiti",
     "pressDescription": "gmunaro'nun roguelike oto-savaş oyunu Dawnbringer için bilgi sayfası, tanıtım, özellikler, logo, ana görsel ve ekran görüntüleri.",
     "notFoundTitle": "Sayfa bulunamadı",
-    "ogAlt": "Kan kırmızısı bir ayın altında duran taçlı bir Ev sahibinin üzerinde Dawnbringer logosu."
+    "ogAlt": "Kan kırmızısı bir ayın altında duran taçlı bir Ev sahibinin üzerinde Dawnbringer logosu.",
+    "betaTitle": "Android alfasına katıl · Dawnbringer",
+    "betaDescription": "Dawnbringer'ın kapalı Android alfasına Google Play üzerinden üç adımda nasıl katılacağın.",
+    "downloadTitle": "Masaüstü demosu · Dawnbringer",
+    "downloadDescription": "Windows, macOS ve Linux için ücretsiz Dawnbringer demosunu indir."
   },
   "nav": {
     "skip": "İçeriğe geç",
     "home": "Ana sayfa",
-    "game": "Oyun",
-    "story": "Hikâye",
-    "screens": "Ekran görüntüleri",
-    "features": "Özellikler",
-    "platforms": "Platformlar",
-    "demo": "Demo",
-    "beta": "Beta",
+    "why": "Oyun",
+    "new": "0.5'teki yenilikler",
+    "demo": "Masaüstü demosu",
+    "beta": "Android alfa",
     "press": "Basın kiti",
     "language": "Dil"
   },
   "hero": {
-    "tagline": "Güneş söndü. Son korunu taşı.",
-    "pitch": "Karanlığa gömülmüş bir diyarı geç, 64 relikle bir şampiyon kur ve savaşlarını seç. Savaşta zar atılmaz: her düşman okuyabileceğin eşyalar taşır ve Umutsuzluk Taşın, seni öldürecek bir savaştan önce kararır. Hafta sonunda Ev sahibi kirayı almaya geldiğinde onda biri öde ya da kellesi için savaş.",
+    "pitch": "Piksel sanatlı bir roguelike oto-savaş oyunu: şampiyonunu kur, her düşmanın ekipmanını oku, sonra Ev sahibinin onda birini öde ya da savaş.",
     "artAlt": "Tepedeki küçük bir şampiyon, kan kırmızısı bir ayın altında karanlık tepelerden yükselen dev, taçlı bir Ev sahibiyle yüz yüze.",
     "clipTitle": "Oynanış",
-    "clipAlt": "Oynanış klibi: Ev sahibinin gecesinde Oyuk Kral tahsilata gelirken harita kızıla döner; kartı onda biri ödemeyi ya da savaşmayı sunar; ardından çatışma sonuçlanır.",
-    "clipFallback": "Tarayıcın bu videoyu oynatamıyor."
-  },
-  "stores": {
-    "title": "Oyunu edin",
-    "steam": "Steam",
-    "googlePlay": "Google Play",
-    "appStore": "App Store",
-    "wishlistSoon": "Yakında istek listesinde",
-    "comingSoon": "Yakında"
-  },
-  "about": {
-    "title": "Nasıl oynanır",
-    "intro": "Her koşu üç hafta sürer. Sisli bir haritada ilerler, sandıkları açar, türbeleri ve dövümhaneleri ziyaret eder, hafta bitmeden relik düzenini kurarsın. Savaşlar otomatik işler; strateji çizdiğin rotada ve kurduğun düzendedir.",
-    "points": [
-      {
-        "title": "Düşmanı oku, zarı değil",
-        "text": "Savaşlar %100 deterministiktir. Her düşman, savaşa girmeden inceleyebileceğin gerçek eşyalar taşır: eşyasını kendininkiyle tartarsın. Umutsuzluk Taşın, seni öldürecek bir savaşta düşmanın üstünde kararır ve başka bir şey söylemez. Ev sahibine karşı taş sessiz kalır."
-      },
-      {
-        "title": "Kirayı öde ya da savaş",
-        "text": "Her haftanın sonunda bölgenin Ev sahibi tahsilata gelir. Hayatta kalıp geçmek için kesenden onda biri öde ya da ödülü için onunla savaş. Kazanırsan altını bankaya yatırıp eve dönebilir ya da tüm keseyi sonraki haftada riske atabilirsin."
-      },
-      {
-        "title": "Son gecenin avı",
-        "text": "Haftanın son gecesinde ay kızıla döner ve Ev sahibi her adımda seni avlamak için haritaya iner. Düzenin erkenden hazırsa beklemek zorunda değilsin: tahtına yürü ve %50 daha fazla altın için onu erkenden yen."
-      },
-      {
-        "title": "Ölülerin yolda kalır",
-        "text": "Bir şampiyon öldüğünde, taşıdığı ekipmanla birlikte sonraki koşularda o diyarda kalır. Gündüzleri yolda dolaşır, geceleri seni avlar. Kaybettiğin kesenin bir kısmını geri almak için onu alt et."
-      },
-      {
-        "title": "Kazananların Ev sahibi olur",
-        "text": "Üç haftayı da sağ çıkaran şampiyonlar taçlanır. Sonraki koşularda bir bölgenin tahtına oturabilir ve kazandıkları düzenin birebir aynısıyla kira toplamaya gelebilirler."
-      }
-    ]
-  },
-  "story": {
-    "title": "Hikâye",
-    "paragraphs": [
-      "Kilise gün ışığının saatlerini parselleyip tapularla sattı. Alıcılar Ev sahipleri oldu ve güneşin verebileceğinden fazla ışık çektiler. Son Sabah'ta güneş yere çakıldı.",
-      "Hesper Ana onun düşüşünü izlerken kör oldu ama son koru önlüğüyle yakalayıp Son Kamp'ın ateşini yaktı. Her şampiyonun göğsüne bir fitil yerleştirir ve onu doğuya, Kapı'ya doğru gönderir. Bir fitil üç hafta boyunca yanar.",
-      "Altın soğumuş güneş ışığıdır, geriye kalan tek sıcaklıktır. Her hafta ay gökyüzünü kırmızı mum gibi mühürler ve Ev sahipleri kirayı toplamaya gelir. Yolda ölenler, borçlarını ödeyene dek yürümeye devam eder."
-    ],
-    "question": "Henüz kimse alevi Kapı'nın ötesine taşıyamadı. Diğer tarafta ne bekliyor?"
+    "clipAlt": "Oynanış videosu: tam ekipmanlı bir kahraman, tek başına bir canavar grubuna karşı savaşıyor.",
+    "clipFallback": "Tarayıcın bu videoyu oynatamıyor.",
+    "play": "Android alfa",
+    "demo": "Masaüstü demosu"
   },
   "screens": {
-    "title": "Ekran görüntüleri",
-    "open": "Tam boyutta aç",
     "items": {
       "night": {
         "caption": "Ev sahibinin sana yetişmesine iki adım kaldı.",
@@ -128,31 +85,21 @@
   "features": {
     "title": "Özellikler",
     "items": [
-      "6 playable champions and 12 second classes.",
-      "Attribute points and a skill point every level; a skill tree of three branches.",
-      "96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
-      "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
-      "19 Landlords across 6 biomes and 3 weeks.",
-      "Patrols, packs, ambushes, guardians and mimics on the map.",
-      "Day and night: at night your sight shrinks and shadows hunt you.",
-      "Your fallen champions rise and hunt you; your winners return as Landlords.",
-      "Separate bank and purse: stake gold at the start and cash out after each Landlord.",
-      "9 optional oaths that raise both the difficulty and the payout.",
-      "Voices with emotion for every character, and ambient sound for every biome.",
-      "A herbarium, a bestiary and 12 feats in the Journal.",
-      "Native 640x360 pixel art with mouse, keyboard, controller and touch.",
-      "Translated into 14 languages."
+      "6 oynanabilir şampiyon ve 12 ileri sınıf.",
+      "Özellik puanları ve her seviyede bir yetenek puanı; üç dallı bir yetenek ağacı.",
+      "10 aileye ayrılmış 96 eşya, her yuvaya göre giyilir; 2, 4 ve 6 parçada set bonusu.",
+      "Dövümhane'de eşyayı +4'e kadar Tekrar ısıt ve ona 19 türden canavar kartı yerleştir.",
+      "6 biyomda ve 3 haftada 19 Ev sahibi.",
+      "Haritada devriyeler, sürüler, pusular, bekçiler ve taklitçiler.",
+      "Gündüz ve gece: geceleri görüşün daralır ve gölgeler seni avlar.",
+      "Düşen şampiyonların dirilip seni avlar; kazanan şampiyonların Ev sahibi olarak geri döner.",
+      "Ayrı banka ve kese: başta altın ortaya koy, her Ev sahibinden sonra çekil.",
+      "Zorluğu da ödülü de artıran 9 isteğe bağlı yemin.",
+      "Her karakter için duygulu sesler ve her biyom için ortam sesi.",
+      "Günlük'te bir herbaryum, bir bestiyari ve 12 başarım.",
+      "Doğal 640x360 piksel sanatı, fare, klavye, kumanda ve dokunmatiklerle.",
+      "14 dile çevrildi."
     ]
-  },
-  "platforms": {
-    "title": "Platformlar",
-    "intro": "PC ve mobil için geliştiriliyor. Android kapalı betası şu anda açık.",
-    "pc": "PC",
-    "pcNote": "Steam'de Windows. Ücretsiz demo macOS ve Linux'ta da çalışır.",
-    "android": "Android",
-    "androidNote": "Telefon ve tabletler için, Google Play'de.",
-    "ios": "iPhone ve iPad",
-    "iosNote": "App Store'da."
   },
   "demo": {
     "title": "Demoyu indir",
@@ -232,12 +179,12 @@
     "screensNote": "Ekran görüntüleri 1920x1080 PNG'dir; oyunun doğal 640x360 çözünürlüğünden tam sayı katlarıyla büyütülmüştür.",
     "creditsTitle": "Emeği geçenler",
     "credits": [
-      "Design, code and art: gmunaro",
-      "Music: Juhani Junkala (CC0); the Landlord's night score is original, played on VSCO 2 Community Edition samples (CC0)",
-      "Sound effects: Kenney, StarNinjas, Oiboo (CC0) and original sounds",
-      "Ambient sound: field recordings from freesound.org (CC0)",
-      "Voices: synthetic speech from ElevenLabs v4; no human voice was recorded or cloned",
-      "Fonts: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel and GNU Unifont (SIL Open Font License 1.1)"
+      "Tasarım, kod ve sanat: gmunaro",
+      "Müzik: Juhani Junkala (CC0); Ev sahibinin gece müziği özgündür ve VSCO 2 Community Edition örnekleri kullanılarak çalınmıştır (CC0)",
+      "Ses efektleri: Kenney, StarNinjas, Oiboo (CC0) ve özgün sesler",
+      "Ortam sesi: freesound.org üzerindeki saha kayıtları (CC0)",
+      "Sesler: ElevenLabs v4 sentetik konuşması; hiçbir insan sesi kaydedilmedi ya da klonlanmadı",
+      "Yazı tipleri: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel ve GNU Unifont (SIL Open Font License 1.1)"
     ],
     "contactTitle": "İletişim",
     "contactText": "Basın, inceleme anahtarları ve diğer konular için şu adrese yaz"
@@ -263,57 +210,40 @@
     "title": "Yenilikler",
     "description": "Dawnbringer'ın her güncellemesi ve getirdiği değişiklikler."
   },
-  "news": {
-    "title": "New in 0.5",
-    "intro": "Version 0.5.0 adds classes, a skill tree, gear by slot, a new combat model, voices for every character and six biomes with their own life and sound.",
+  "why": {
+    "title": "Onu farklı kılan şeyler",
     "items": {
-      "classes": {
-        "title": "Classes",
-        "text": "The six champions are the first classes. From week 2 the class master waits on the map, and once you have beaten a Landlord each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
-        "alt": "The class master offers a champion its two second classes."
+      "read": {
+        "title": "Zara değil, düşmanı oku",
+        "text": "Savaşlar kendiliğinden sonuçlanır ve asla zar atılmaz. Her düşman eşyasını gösterir; Umutsuzluk Taşı yalnızca seni öldürecek bir savaştan önce kararır.",
+        "alt": "Haritada bir düşman grubunun üzerinde Umutsuzluk Taşı'nın işareti."
       },
-      "tree": {
-        "title": "Attributes and a skill tree",
-        "text": "Every level gives attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.",
-        "alt": "The skill tree with nodes bought in two branches."
+      "build": {
+        "title": "Bir şampiyon kur",
+        "text": "İleri sınıf seç, yetenek ağacında puan harca ve her yuvaya eşya tak. Dövümhane'de eşyaları Tekrar ısıt ve onlara canavar kartları yerleştir.",
+        "alt": "Sınıf ustası, bir şampiyona iki ileri sınıfını sunar."
       },
-      "gear": {
-        "title": "Gear by slot",
-        "text": "96 items in 10 families, each worn in its slot: weapon, shield, head, body, cloak, boots and three charms. The forge reheats an item up to +4 and never fails. Monsters drop rare cards that set into your gear.",
-        "alt": "The forge with a reheated item and a monster card set into it."
-      },
-      "combat": {
-        "title": "A new way to fight",
-        "text": "Speed decides how often each fighter acts. Hard DEF takes a share off every hit, and Soft DEF soaks damage before health. Your gear shows on the hero's body, each piece in its place. The game still never tells you how a fight will end.",
-        "alt": "A hero in full gear fights a group of monsters."
-      },
-      "risen": {
-        "title": "The risen hunt you",
-        "text": "Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, slower than you walk. If one reaches you, you fight.",
-        "alt": "A risen hero walks toward the player across the map."
-      },
-      "biomes": {
-        "title": "Six biomes that breathe",
-        "text": "Every biome has its own rocks, plants, small animals, wind and particles, and its own sound by day and by night. The plants sway with the music. Your seed's map stays the same: the decoration never blocks a tile.",
-        "alt": "The six biomes of Dawnbringer, by day and by night."
-      },
-      "voices": {
-        "title": "Every character speaks",
-        "text": "The lore, the 12 NPCs on the map and every kind of monster in battle speak with emotion. The voices are synthetic speech; no human voice was recorded or cloned.",
-        "alt": "Mother Hesper speaks at the Last Camp."
-      },
-      "collection": {
-        "title": "Finds, feats and a postcard",
-        "text": "Twelve plants and animals hide in the biomes as finds for the Journal's herbarium and bestiary. Twelve feats track your runs. On Android, the share menu sends a framed postcard of your hero.",
-        "alt": "The Journal's collection with finds from each biome."
+      "return": {
+        "title": "Koşuların geri döner",
+        "text": "Düşen kahramanlar sonraki koşularda dirilir ve seni avlar. Kazanan kahramanlar bir Ev sahibinin tahtında geri dönebilir.",
+        "alt": "Haritada, kırmızıyla işaretlenmiş Dirilenler'den bir kahraman oyuncuya doğru yürüyor."
       }
     }
   },
-  "listen": {
-    "title": "Listen",
-    "voice": "Mother Hesper, from the lore",
-    "ambience": "Drowned Vigil at night",
-    "monster": "The Tithe Taker, before a fight",
-    "fallback": "Your browser cannot play this audio."
+  "whatsnew": {
+    "title": "0.5'teki yenilikler",
+    "items": [
+      "On iki ileri sınıf ve üç dallı bir yetenek ağacı.",
+      "Yuvaya göre ekipman, dövümhanede tekrar ısıtılır ve canavar kartlarıyla donatılır.",
+      "Her karakter için bir ses.",
+      "Kendi bitkileri, küçük hayvanları ve sesiyle altı biyom."
+    ],
+    "more": "Tüm değişiklikler"
+  },
+  "community": {
+    "title": "Basın ve topluluk",
+    "press": "Makaleler ve videolar için logo, ana görsel, ekran görüntüleri ve bilgi sayfası.",
+    "follow": "Oyunu takip et",
+    "contact": "İletişim"
   }
 }

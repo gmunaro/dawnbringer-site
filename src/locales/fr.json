@@ -1,79 +1,36 @@
 {
   "meta": {
     "title": "Dawnbringer : auto-battler roguelike de dark fantasy",
-    "description": "Le soleil est mort et le Seigneur réclame le loyer chaque semaine. Formez votre champion, lisez ce que porte chaque ennemi, et décidez de payer la dîme ou d'affronter le boss.",
+    "description": "Un auto-battler roguelike en pixel art : composez un champion, lisez l'attirail de chaque ennemi, puis payez la dîme au Seigneur ou combattez.",
     "pressTitle": "Dossier de presse de Dawnbringer",
     "pressDescription": "Fiche technique, description, points forts, logo, illustration principale et captures d'écran de Dawnbringer, un auto-battler roguelike de gmunaro.",
     "notFoundTitle": "Page introuvable",
-    "ogAlt": "Le logo de Dawnbringer au-dessus d'un Seigneur couronné sous une lune rouge sang."
+    "ogAlt": "Le logo de Dawnbringer au-dessus d'un Seigneur couronné sous une lune rouge sang.",
+    "betaTitle": "Rejoindre l'alpha Android · Dawnbringer",
+    "betaDescription": "Comment rejoindre l'alpha fermée de Dawnbringer sur Google Play, en trois étapes.",
+    "downloadTitle": "Démo pour ordinateur · Dawnbringer",
+    "downloadDescription": "Téléchargez la démo gratuite de Dawnbringer pour Windows, macOS et Linux."
   },
   "nav": {
     "skip": "Aller au contenu",
     "home": "Accueil",
-    "game": "Le jeu",
-    "story": "Histoire",
-    "screens": "Captures",
-    "features": "Points forts",
-    "platforms": "Plateformes",
-    "demo": "Démo",
-    "beta": "Bêta",
+    "why": "Le jeu",
+    "new": "Nouveautés de la 0.5",
+    "demo": "Démo pour ordinateur",
+    "beta": "Alpha Android",
     "press": "Dossier de presse",
     "language": "Langue"
   },
   "hero": {
-    "tagline": "Le soleil est mort. Portez sa dernière braise.",
-    "pitch": "Traversez une terre plongée dans le noir, équipez votre champion parmi 64 reliques et choisissez vos combats. Il n'y a pas de dés : chaque ennemi porte des objets que vous pouvez lire, et votre Pierre du Désespoir s'assombrit devant un combat qui vous tuerait. Quand le Seigneur vient percevoir le loyer en fin de semaine, payez la dîme ou jouez sa tête.",
+    "pitch": "Un auto-battler roguelike en pixel art : composez un champion, lisez l'attirail de chaque ennemi, puis payez la dîme au Seigneur ou combattez.",
     "artAlt": "Un petit champion sur une colline fait face à un Seigneur géant et couronné qui surgit des collines sombres sous une lune rouge sang.",
     "clipTitle": "Gameplay",
-    "clipAlt": "Extrait de jeu : la nuit du Seigneur, la carte vire au rouge tandis que le Roi Creux vient réclamer son dû ; sa carte propose de payer la dîme ou de combattre ; puis l'affrontement se résout.",
-    "clipFallback": "Votre navigateur ne peut pas lire cette vidéo."
-  },
-  "stores": {
-    "title": "Où jouer",
-    "steam": "Steam",
-    "googlePlay": "Google Play",
-    "appStore": "App Store",
-    "wishlistSoon": "Liste de souhaits bientôt",
-    "comingSoon": "Bientôt disponible"
-  },
-  "about": {
-    "title": "Comment on joue",
-    "intro": "Une partie dure trois semaines. Vous avancez sur une carte couverte de brume, ouvrez des coffres, visitez sanctuaires et forges et assemblez vos reliques avant la fin de la semaine. Les combats sont automatiques ; tout se joue sur votre itinéraire et votre équipement.",
-    "points": [
-      {
-        "title": "Lisez l'ennemi, pas les dés",
-        "text": "Le combat est 100 % déterministe, et chaque ennemi porte de vrais objets que vous pouvez inspecter avant le combat : jugez son équipement contre le vôtre. Votre Pierre du Désespoir marque tout ennemi dont le combat vous tuerait, et ne dit rien de plus. Face au Seigneur, elle reste muette."
-      },
-      {
-        "title": "Payer le loyer ou combattre",
-        "text": "À la fin de chaque semaine, le Seigneur de la région vient encaisser le loyer. Payez la dîme avec votre bourse pour passer en vie, ou affrontez-le pour sa prime. En cas de victoire, vous pouvez mettre votre or à la banque et rentrer, ou tout remettre en jeu la semaine suivante."
-      },
-      {
-        "title": "La traque de la dernière nuit",
-        "text": "La dernière nuit de la semaine, la lune vire au rouge et le Seigneur entre sur la carte pour vous traquer à chaque pas. Si votre équipement est prêt plus tôt, inutile d'attendre : marchez jusqu'à son trône et battez-le pour toucher 50 % d'or en plus."
-      },
-      {
-        "title": "Vos morts restent sur la route",
-        "text": "Quand un champion meurt, il demeure sur cette terre lors des parties suivantes avec l'équipement qu'il portait. Il erre le jour et vous chasse la nuit. Battez-le pour récupérer une partie de la bourse perdue."
-      },
-      {
-        "title": "Vos vainqueurs deviennent Seigneurs",
-        "text": "Les champions qui survivent aux trois semaines sont couronnés. Lors de parties suivantes, ils peuvent occuper le trône d'une région et venir réclamer le loyer avec l'équipement exact de leur victoire."
-      }
-    ]
-  },
-  "story": {
-    "title": "L'histoire",
-    "paragraphs": [
-      "L'Église a découpé les heures du jour pour les vendre en titres de propriété. Les acheteurs sont devenus les Seigneurs et ont tiré du soleil plus de lumière qu'il n'en avait. Au Dernier Matin, le soleil est tombé.",
-      "Mère Hesper a perdu la vue en le regardant tomber, mais elle a recueilli sa dernière braise dans son tablier pour allumer le feu du Dernier Camp. Elle plante une mèche dans la poitrine de chaque champion et l'envoie vers l'est, jusqu'à la Porte. Une mèche brûle trois semaines.",
-      "L'or est de la lumière solaire refroidie, la seule chaleur qui reste. Chaque semaine, la lune scelle le ciel d'un cachet de cire rouge et le loyer arrive à échéance. Ceux qui meurent en chemin continuent de marcher jusqu'à ce que leur dette soit payée."
-    ],
-    "question": "Personne n'a encore porté la flamme au-delà de la Porte. Qu'est-ce qui attend de l'autre côté ?"
+    "clipAlt": "Extrait de jeu : un héros en attirail complet combat tout seul un groupe de monstres.",
+    "clipFallback": "Votre navigateur ne peut pas lire cette vidéo.",
+    "play": "Alpha Android",
+    "demo": "Démo pour ordinateur"
   },
   "screens": {
-    "title": "Captures d'écran",
-    "open": "Voir en taille réelle",
     "items": {
       "night": {
         "caption": "Plus que deux pas avant que le Seigneur vous rattrape.",
@@ -128,31 +85,21 @@
   "features": {
     "title": "Points forts",
     "items": [
-      "6 playable champions and 12 second classes.",
-      "Attribute points and a skill point every level; a skill tree of three branches.",
-      "96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
-      "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
-      "19 Landlords across 6 biomes and 3 weeks.",
-      "Patrols, packs, ambushes, guardians and mimics on the map.",
-      "Day and night: at night your sight shrinks and shadows hunt you.",
-      "Your fallen champions rise and hunt you; your winners return as Landlords.",
-      "Separate bank and purse: stake gold at the start and cash out after each Landlord.",
-      "9 optional oaths that raise both the difficulty and the payout.",
-      "Voices with emotion for every character, and ambient sound for every biome.",
-      "A herbarium, a bestiary and 12 feats in the Journal.",
-      "Native 640x360 pixel art with mouse, keyboard, controller and touch.",
-      "Translated into 14 languages."
+      "6 champions jouables et 12 classes avancées.",
+      "Points d'attribut et un point de compétence à chaque niveau ; un arbre de compétences à trois branches.",
+      "96 objets en 10 familles, portés par emplacement, avec des bonus d'ensemble à 2, 4 et 6 pièces.",
+      "Réchauffez l'attirail jusqu'à +4 à la Forge, et sertissez-y 19 sortes de cartes de monstre.",
+      "19 Seigneurs répartis sur 6 biomes et 3 semaines.",
+      "Patrouilles, meutes, embuscades, gardiens et mimiques sur la carte.",
+      "Jour et nuit : la nuit, votre vue se réduit et les ombres vous traquent.",
+      "Vos champions tombés se relèvent et vous traquent ; vos vainqueurs reviennent en Seigneurs.",
+      "Banque et bourse séparées : misez de l'or au départ, puis encaissez après chaque Seigneur.",
+      "9 serments facultatifs augmentent à la fois la difficulté et la récompense.",
+      "Voix chargées d'émotion pour chaque personnage, et ambiance sonore propre à chaque biome.",
+      "Un herbier, un bestiaire et 12 succès dans le Journal.",
+      "Pixel art natif en 640x360, avec souris, clavier, manette et tactile.",
+      "Traduit en 14 langues."
     ]
-  },
-  "platforms": {
-    "title": "Plateformes",
-    "intro": "En développement sur PC et mobile. La bêta fermée Android est ouverte.",
-    "pc": "PC",
-    "pcNote": "Windows sur Steam. La démo gratuite tourne aussi sur macOS et Linux.",
-    "android": "Android",
-    "androidNote": "Téléphones et tablettes, sur Google Play.",
-    "ios": "iPhone et iPad",
-    "iosNote": "Sur l'App Store."
   },
   "demo": {
     "title": "Télécharger la démo",
@@ -232,12 +179,12 @@
     "screensNote": "Les captures d'écran sont des PNG en 1920x1080, agrandies par un facteur entier depuis la résolution native 640x360.",
     "creditsTitle": "Crédits",
     "credits": [
-      "Design, code and art: gmunaro",
-      "Music: Juhani Junkala (CC0); the Landlord's night score is original, played on VSCO 2 Community Edition samples (CC0)",
-      "Sound effects: Kenney, StarNinjas, Oiboo (CC0) and original sounds",
-      "Ambient sound: field recordings from freesound.org (CC0)",
-      "Voices: synthetic speech from ElevenLabs v4; no human voice was recorded or cloned",
-      "Fonts: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel and GNU Unifont (SIL Open Font License 1.1)"
+      "Conception, code et graphismes : gmunaro",
+      "Musique : Juhani Junkala (CC0) ; la musique nocturne du Seigneur est originale, jouée avec des échantillons VSCO 2 Community Edition (CC0)",
+      "Effets sonores : Kenney, StarNinjas, Oiboo (CC0) et sons originaux",
+      "Ambiances sonores : enregistrements de terrain de freesound.org (CC0)",
+      "Voix : parole synthétique générée par ElevenLabs v4 ; aucune voix humaine n'a été enregistrée ni clonée",
+      "Polices : Kenney (CC0) ; Jacquarda Bastarda 9, Fusion Pixel et GNU Unifont (SIL Open Font License 1.1)"
     ],
     "contactTitle": "Contact",
     "contactText": "Pour la presse, les clés de test et toute autre demande, écrivez à"
@@ -263,57 +210,40 @@
     "title": "Nouveautés",
     "description": "Chaque mise à jour de Dawnbringer et ce qu'elle a changé."
   },
-  "news": {
-    "title": "New in 0.5",
-    "intro": "Version 0.5.0 adds classes, a skill tree, gear by slot, a new combat model, voices for every character and six biomes with their own life and sound.",
+  "why": {
+    "title": "Ce qui le distingue",
     "items": {
-      "classes": {
-        "title": "Classes",
-        "text": "The six champions are the first classes. From week 2 the class master waits on the map, and once you have beaten a Landlord each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
-        "alt": "The class master offers a champion its two second classes."
+      "read": {
+        "title": "Lisez l'ennemi, pas les dés",
+        "text": "Les combats se déroulent seuls et ne lancent jamais de dés. Chaque ennemi montre son attirail, et la Pierre du Désespoir ne s'assombrit que devant un combat qui vous tuerait.",
+        "alt": "La marque de la Pierre du Désespoir au-dessus d'un groupe d'ennemis sur la carte."
       },
-      "tree": {
-        "title": "Attributes and a skill tree",
-        "text": "Every level gives attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.",
-        "alt": "The skill tree with nodes bought in two branches."
+      "build": {
+        "title": "Composez un champion",
+        "text": "Choisissez une classe avancée, dépensez des points dans un arbre de compétences et équipez chaque emplacement. Réchauffez les objets à la Forge et sertissez-y des cartes de monstre.",
+        "alt": "Le maître de classe propose à un champion ses deux classes avancées."
       },
-      "gear": {
-        "title": "Gear by slot",
-        "text": "96 items in 10 families, each worn in its slot: weapon, shield, head, body, cloak, boots and three charms. The forge reheats an item up to +4 and never fails. Monsters drop rare cards that set into your gear.",
-        "alt": "The forge with a reheated item and a monster card set into it."
-      },
-      "combat": {
-        "title": "A new way to fight",
-        "text": "Speed decides how often each fighter acts. Hard DEF takes a share off every hit, and Soft DEF soaks damage before health. Your gear shows on the hero's body, each piece in its place. The game still never tells you how a fight will end.",
-        "alt": "A hero in full gear fights a group of monsters."
-      },
-      "risen": {
-        "title": "The risen hunt you",
-        "text": "Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, slower than you walk. If one reaches you, you fight.",
-        "alt": "A risen hero walks toward the player across the map."
-      },
-      "biomes": {
-        "title": "Six biomes that breathe",
-        "text": "Every biome has its own rocks, plants, small animals, wind and particles, and its own sound by day and by night. The plants sway with the music. Your seed's map stays the same: the decoration never blocks a tile.",
-        "alt": "The six biomes of Dawnbringer, by day and by night."
-      },
-      "voices": {
-        "title": "Every character speaks",
-        "text": "The lore, the 12 NPCs on the map and every kind of monster in battle speak with emotion. The voices are synthetic speech; no human voice was recorded or cloned.",
-        "alt": "Mother Hesper speaks at the Last Camp."
-      },
-      "collection": {
-        "title": "Finds, feats and a postcard",
-        "text": "Twelve plants and animals hide in the biomes as finds for the Journal's herbarium and bestiary. Twelve feats track your runs. On Android, the share menu sends a framed postcard of your hero.",
-        "alt": "The Journal's collection with finds from each biome."
+      "return": {
+        "title": "Vos parties reviennent",
+        "text": "Les héros tombés se relèvent et vous traquent dans les parties suivantes. Les héros victorieux peuvent revenir sur le trône d'un Seigneur.",
+        "alt": "Un héros relevé, marqué de rouge, avance vers le joueur sur la carte."
       }
     }
   },
-  "listen": {
-    "title": "Listen",
-    "voice": "Mother Hesper, from the lore",
-    "ambience": "Drowned Vigil at night",
-    "monster": "The Tithe Taker, before a fight",
-    "fallback": "Your browser cannot play this audio."
+  "whatsnew": {
+    "title": "Nouveautés de la 0.5",
+    "items": [
+      "Douze classes avancées et un arbre de compétences à trois branches.",
+      "Objets par emplacement, réchauffés à la Forge et sertis de cartes de monstre.",
+      "Une voix pour chaque personnage.",
+      "Six biomes, chacun avec ses plantes, ses petits animaux et son ambiance sonore."
+    ],
+    "more": "Tous les changements"
+  },
+  "community": {
+    "title": "Presse et communauté",
+    "press": "Logo, illustration principale, captures d'écran et fiche technique pour les articles et les vidéos.",
+    "follow": "Suivez le jeu",
+    "contact": "Contact"
   }
 }

@@ -1,79 +1,36 @@
 {
   "meta": {
     "title": "Dawnbringer: roguelike auto-battler dark fantasy",
-    "description": "Słońce zgasło, a Właściciel co tydzień przychodzi po czynsz. Zbuduj czempiona, czytaj, co niesie każdy wróg, i zdecyduj, czy zapłacić dziesięcinę, czy walczyć z bossem.",
+    "description": "Pikselowy roguelike auto-battler. Zbuduj czempiona, sprawdź ekwipunek każdego wroga, potem zapłać Właścicielowi albo walcz.",
     "pressTitle": "Materiały prasowe Dawnbringer",
     "pressDescription": "Karta informacyjna, opis, cechy, logo, key art i zrzuty ekranu gry Dawnbringer, roguelike auto-battlera od gmunaro.",
     "notFoundTitle": "Nie znaleziono strony",
-    "ogAlt": "Logo Dawnbringer nad ukoronowanym Właścicielem pod krwistoczerwonym księżycem."
+    "ogAlt": "Logo Dawnbringer nad ukoronowanym Właścicielem pod krwistoczerwonym księżycem.",
+    "betaTitle": "Dołącz do alfy na Androidzie · Dawnbringer",
+    "betaDescription": "Jak dołączyć do zamkniętej alfy Dawnbringer w Google Play, w trzech krokach.",
+    "downloadTitle": "Demo na komputer · Dawnbringer",
+    "downloadDescription": "Pobierz darmowe demo Dawnbringer na Windows, macOS i Linuksa."
   },
   "nav": {
     "skip": "Przejdź do treści",
     "home": "Start",
-    "game": "Gra",
-    "story": "Fabuła",
-    "screens": "Zrzuty ekranu",
-    "features": "Cechy",
-    "platforms": "Platformy",
-    "demo": "Demo",
-    "beta": "Beta",
+    "why": "O grze",
+    "new": "Nowości w 0.5",
+    "demo": "Demo na komputer",
+    "beta": "Alfa na Androidzie",
     "press": "Dla prasy",
     "language": "Język"
   },
   "hero": {
-    "tagline": "Słońce zgasło. Nieś jego ostatni żar.",
-    "pitch": "Przemierzaj pogrążoną w mroku krainę, zbuduj czempiona z 64 reliktów i wybieraj walki. W grze nie ma kości: każdy wróg niesie przedmioty, które możesz odczytać, a twój Kamień Rozpaczy ciemnieje przed walką, która by cię zabiła. Gdy pod koniec tygodnia Właściciel przyjdzie po czynsz, zapłać dziesięcinę albo walcz o jego głowę.",
+    "pitch": "Pikselowy roguelike auto-battler: zbuduj czempiona, sprawdź ekwipunek każdego wroga, potem zapłać Właścicielowi albo walcz.",
     "artAlt": "Mały czempion na wzgórzu staje naprzeciw olbrzymiego Właściciela w koronie, który wyłania się z ciemnych wzgórz pod krwistoczerwonym księżycem.",
     "clipTitle": "Rozgrywka",
-    "clipAlt": "Fragment rozgrywki: w noc Właściciela mapa robi się czerwona, gdy Pusty Król przychodzi po należność; jego karta pozwala zapłacić dziesięcinę albo walczyć; potem starcie się rozstrzyga.",
-    "clipFallback": "Twoja przeglądarka nie może odtworzyć tego filmu."
-  },
-  "stores": {
-    "title": "Zdobądź grę",
-    "steam": "Steam",
-    "googlePlay": "Google Play",
-    "appStore": "App Store",
-    "wishlistSoon": "Wkrótce na liście życzeń",
-    "comingSoon": "Wkrótce"
-  },
-  "about": {
-    "title": "Jak się gra",
-    "intro": "Każda wyprawa trwa trzy tygodnie. Wędrujesz przez spowitą mgłą mapę, otwierasz skrzynie, odwiedzasz kapliczki oraz kuźnie i składasz build z reliktów przed końcem tygodnia. Walki rozgrywają się automatycznie; strategia kryje się w wybranej trasie i złożonym ekwipunku.",
-    "points": [
-      {
-        "title": "Czytaj wroga, nie kości",
-        "text": "Walka jest w 100% deterministyczna, a każdy wróg niesie prawdziwe przedmioty, które możesz obejrzeć przed walką: oceń jego ekwipunek względem swojego. Twój Kamień Rozpaczy oznacza każdego wroga, którego walka by cię zabiła, i nic więcej nie mówi. Przeciw Właścicielowi milczy."
-      },
-      {
-        "title": "Zapłać czynsz albo walcz",
-        "text": "Pod koniec każdego tygodnia Właściciel regionu przychodzi po należność. Zapłać dziesięcinę z sakiewki, by ujść z życiem, albo walcz z nim o nagrodę. Jeśli wygrasz, możesz wpłacić złoto do banku i wrócić do domu albo zaryzykować całą sakiewkę w kolejnym tygodniu."
-      },
-      {
-        "title": "Polowanie ostatniej nocy",
-        "text": "Ostatniej nocy tygodnia księżyc barwi się na czerwono, a Właściciel wchodzi na mapę i ściga cię z każdym krokiem. Jeśli twój build jest gotowy wcześniej, nie musisz czekać: ruszaj do jego tronu i pokonaj go za 50% więcej złota."
-      },
-      {
-        "title": "Twoi zmarli zostają na szlaku",
-        "text": "Gdy czempion ginie, zostaje w tej krainie na kolejne wyprawy razem ze swoim ekwipunkiem. Za dnia błąka się po drodze, a nocą na ciebie poluje. Pokonaj go, by odzyskać część utraconej sakiewki."
-      },
-      {
-        "title": "Twoi zwycięzcy zostają Właścicielami",
-        "text": "Czempioni, którzy przetrwają wszystkie trzy tygodnie, otrzymują koronę. W kolejnych wyprawach mogą zasiąść na tronie regionu i przyjść po czynsz dokładnie z tym buildem, którym wygrali."
-      }
-    ]
-  },
-  "story": {
-    "title": "Historia",
-    "paragraphs": [
-      "Kościół rozparcelował godziny dnia i sprzedał je w aktach własności. Nabywcy stali się Właścicielami i wyciągnęli ze słońca więcej światła, niż mogło dać. Ostatniego Poranka słońce runęło.",
-      "Matka Hesper oślepła, patrząc na jego upadek, ale złapała ostatni żar w fartuch i rozpaliła ognisko Ostatniego Obozu. Wsadza knot w pierś każdego czempiona i posyła go na wschód, w stronę Bramy. Każdy knot płonie przez trzy tygodnie.",
-      "Złoto to wystygłe światło słoneczne, jedyne ciepło, jakie pozostało. Co tydzień księżyc pieczętuje niebo czerwonym lakem, a Właściciele przychodzą po czynsz. Ci, którzy padną po drodze, idą dalej, dopóki nie spłacą długu."
-    ],
-    "question": "Nikt jeszcze nie przeniósł płomienia za Bramę. Co czeka po drugiej stronie?"
+    "clipAlt": "Fragment rozgrywki: bohater w pełnym ekwipunku sam walczy z grupą potworów.",
+    "clipFallback": "Twoja przeglądarka nie może odtworzyć tego filmu.",
+    "play": "Alfa na Androidzie",
+    "demo": "Demo na komputer"
   },
   "screens": {
-    "title": "Zrzuty ekranu",
-    "open": "Otwórz w pełnym rozmiarze",
     "items": {
       "night": {
         "caption": "Dwa kroki, zanim Właściciel cię dopadnie.",
@@ -128,31 +85,21 @@
   "features": {
     "title": "Cechy",
     "items": [
-      "6 playable champions and 12 second classes.",
-      "Attribute points and a skill point every level; a skill tree of three branches.",
-      "96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
-      "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
-      "19 Landlords across 6 biomes and 3 weeks.",
-      "Patrols, packs, ambushes, guardians and mimics on the map.",
-      "Day and night: at night your sight shrinks and shadows hunt you.",
-      "Your fallen champions rise and hunt you; your winners return as Landlords.",
-      "Separate bank and purse: stake gold at the start and cash out after each Landlord.",
-      "9 optional oaths that raise both the difficulty and the payout.",
-      "Voices with emotion for every character, and ambient sound for every biome.",
-      "A herbarium, a bestiary and 12 feats in the Journal.",
-      "Native 640x360 pixel art with mouse, keyboard, controller and touch.",
-      "Translated into 14 languages."
+      "6 grywalnych czempionów i 12 kl. zaawansowanych.",
+      "Punkt atrybutu i punkt umiejętności za każdy poziom; drzewo umiejętności o trzech gałęziach.",
+      "96 przedmiotów w 10 rodach, noszonych w slotach, z premiami zestawu za 2, 4 i 6 części.",
+      "Rozgrzej przedmioty w Kuźni do +4 i wstaw w nie 19 rodzajów kart potworów.",
+      "19 Właścicieli w 6 biomach, przez 3 tygodnie.",
+      "Patrole, watahy, zasadzki, strażnicy i mimiki na mapie.",
+      "Dzień i noc: nocą pole widzenia się kurczy, a cienie na ciebie polują.",
+      "Polegli czempioni powstają i polują na ciebie; zwycięzcy wracają jako Właściciele.",
+      "Osobny bank i sakiewka: na starcie stawiasz złoto, a po każdym Właścicielu wypłacasz.",
+      "9 opcjonalnych Przysiąg, które podnoszą trudność i nagrodę.",
+      "Głosy z emocjami dla każdej postaci i dźwięki otoczenia w każdym biomie.",
+      "Zielnik, bestiariusz i 12 osiągnięć w Dzienniku.",
+      "Natywna grafika pikselowa 640x360, obsługa myszy, klawiatury, pada i dotyku.",
+      "Przetłumaczona na 14 języków."
     ]
-  },
-  "platforms": {
-    "title": "Platformy",
-    "intro": "W produkcji na PC i urządzenia mobilne. Zamknięta beta na Androidzie jest już otwarta.",
-    "pc": "PC",
-    "pcNote": "Windows na Steamie. Darmowe demo działa też na macOS i Linuksie.",
-    "android": "Android",
-    "androidNote": "Telefony i tablety, w Google Play.",
-    "ios": "iPhone i iPad",
-    "iosNote": "W App Store."
   },
   "demo": {
     "title": "Pobierz demo",
@@ -232,12 +179,12 @@
     "screensNote": "Zrzuty ekranu to pliki PNG 1920x1080, przeskalowane całkowitokrotnie z natywnej rozdzielczości 640x360.",
     "creditsTitle": "Twórcy",
     "credits": [
-      "Design, code and art: gmunaro",
-      "Music: Juhani Junkala (CC0); the Landlord's night score is original, played on VSCO 2 Community Edition samples (CC0)",
-      "Sound effects: Kenney, StarNinjas, Oiboo (CC0) and original sounds",
-      "Ambient sound: field recordings from freesound.org (CC0)",
-      "Voices: synthetic speech from ElevenLabs v4; no human voice was recorded or cloned",
-      "Fonts: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel and GNU Unifont (SIL Open Font License 1.1)"
+      "Projekt, kod i grafika: gmunaro",
+      "Muzyka: Juhani Junkala (CC0); nocna muzyka Właściciela jest oryginalna, zagrana na próbkach VSCO 2 Community Edition (CC0)",
+      "Efekty dźwiękowe: Kenney, StarNinjas, Oiboo (CC0) i oryginalne dźwięki",
+      "Dźwięki otoczenia: nagrania terenowe z freesound.org (CC0)",
+      "Głosy: syntetyczna mowa z ElevenLabs v4; nie nagrano ani nie klonowano głosu człowieka",
+      "Czcionki: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel i GNU Unifont (SIL Open Font License 1.1)"
     ],
     "contactTitle": "Kontakt",
     "contactText": "W sprawie prasy, kluczy recenzenckich i innych pytań pisz na adres"
@@ -263,57 +210,40 @@
     "title": "Nowości",
     "description": "Każda aktualizacja Dawnbringer i co się w niej zmieniło."
   },
-  "news": {
-    "title": "New in 0.5",
-    "intro": "Version 0.5.0 adds classes, a skill tree, gear by slot, a new combat model, voices for every character and six biomes with their own life and sound.",
+  "why": {
+    "title": "Co ją wyróżnia",
     "items": {
-      "classes": {
-        "title": "Classes",
-        "text": "The six champions are the first classes. From week 2 the class master waits on the map, and once you have beaten a Landlord each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
-        "alt": "The class master offers a champion its two second classes."
+      "read": {
+        "title": "Czytaj wroga, nie kości",
+        "text": "Walki toczą się same i nigdy nie rzucają kośćmi. Każdy wróg pokazuje swój ekwipunek, a Kamień Rozpaczy ciemnieje tylko przed walką, która by cię zabiła.",
+        "alt": "Znak Kamienia Rozpaczy nad grupą wrogów na mapie."
       },
-      "tree": {
-        "title": "Attributes and a skill tree",
-        "text": "Every level gives attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.",
-        "alt": "The skill tree with nodes bought in two branches."
+      "build": {
+        "title": "Zbuduj czempiona",
+        "text": "Wybierz kl. zaawansowaną, rozdaj punkty w drzewie umiejętności i noś przedmioty w każdym slocie. Rozgrzej przedmioty w Kuźni i wstaw w nie karty potworów.",
+        "alt": "Mistrz klas oferuje czempionowi jego dwie kl. zaawansowane."
       },
-      "gear": {
-        "title": "Gear by slot",
-        "text": "96 items in 10 families, each worn in its slot: weapon, shield, head, body, cloak, boots and three charms. The forge reheats an item up to +4 and never fails. Monsters drop rare cards that set into your gear.",
-        "alt": "The forge with a reheated item and a monster card set into it."
-      },
-      "combat": {
-        "title": "A new way to fight",
-        "text": "Speed decides how often each fighter acts. Hard DEF takes a share off every hit, and Soft DEF soaks damage before health. Your gear shows on the hero's body, each piece in its place. The game still never tells you how a fight will end.",
-        "alt": "A hero in full gear fights a group of monsters."
-      },
-      "risen": {
-        "title": "The risen hunt you",
-        "text": "Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, slower than you walk. If one reaches you, you fight.",
-        "alt": "A risen hero walks toward the player across the map."
-      },
-      "biomes": {
-        "title": "Six biomes that breathe",
-        "text": "Every biome has its own rocks, plants, small animals, wind and particles, and its own sound by day and by night. The plants sway with the music. Your seed's map stays the same: the decoration never blocks a tile.",
-        "alt": "The six biomes of Dawnbringer, by day and by night."
-      },
-      "voices": {
-        "title": "Every character speaks",
-        "text": "The lore, the 12 NPCs on the map and every kind of monster in battle speak with emotion. The voices are synthetic speech; no human voice was recorded or cloned.",
-        "alt": "Mother Hesper speaks at the Last Camp."
-      },
-      "collection": {
-        "title": "Finds, feats and a postcard",
-        "text": "Twelve plants and animals hide in the biomes as finds for the Journal's herbarium and bestiary. Twelve feats track your runs. On Android, the share menu sends a framed postcard of your hero.",
-        "alt": "The Journal's collection with finds from each biome."
+      "return": {
+        "title": "Twoje wyprawy wracają",
+        "text": "Polegli bohaterowie powstają i polują na ciebie w kolejnych wyprawach. Bohaterowie, którzy wygrają, mogą wrócić na tronie Właściciela.",
+        "alt": "Powstały bohater, oznaczony na czerwono, idzie na mapie w stronę gracza."
       }
     }
   },
-  "listen": {
-    "title": "Listen",
-    "voice": "Mother Hesper, from the lore",
-    "ambience": "Drowned Vigil at night",
-    "monster": "The Tithe Taker, before a fight",
-    "fallback": "Your browser cannot play this audio."
+  "whatsnew": {
+    "title": "Nowości w 0.5",
+    "items": [
+      "Dwanaście kl. zaawansowanych i drzewo umiejętności o trzech gałęziach.",
+      "Przedmioty według slotów, rozgrzewane w Kuźni, z wstawionymi kartami potworów.",
+      "Głos dla każdej postaci.",
+      "Sześć biomów z własnymi roślinami, małymi zwierzętami i dźwiękiem."
+    ],
+    "more": "Wszystkie zmiany"
+  },
+  "community": {
+    "title": "Prasa i społeczność",
+    "press": "Logo, key art, zrzuty ekranu i karta informacyjna do artykułów i filmów.",
+    "follow": "Śledź grę",
+    "contact": "Kontakt"
   }
 }

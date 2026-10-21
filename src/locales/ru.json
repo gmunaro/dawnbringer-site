@@ -1,79 +1,36 @@
 {
   "meta": {
     "title": "Dawnbringer: рогалик-автобаттлер в жанре тёмного фэнтези",
-    "description": "Солнце погасло, и Ростовщик каждую неделю приходит за платой. Соберите избранника, читайте снаряжение каждого врага и решите, платить десятину или сражаться с боссом.",
+    "description": "Пиксельный рогалик-автобаттлер. Соберите избранника, изучите снаряжение каждого врага, затем заплатите Ростовщику или сражайтесь.",
     "pressTitle": "Пресс-кит Dawnbringer",
     "pressDescription": "Факты, описание, особенности, логотип, ключевой арт и скриншоты Dawnbringer, рогалика-автобаттлера от gmunaro.",
     "notFoundTitle": "Страница не найдена",
-    "ogAlt": "Логотип Dawnbringer над коронованным Ростовщиком под кроваво-красной луной."
+    "ogAlt": "Логотип Dawnbringer над коронованным Ростовщиком под кроваво-красной луной.",
+    "betaTitle": "Вступить в закрытую бету Android · Dawnbringer",
+    "betaDescription": "Как вступить в закрытую бету Dawnbringer в Google Play, в три шага.",
+    "downloadTitle": "Демоверсия для ПК · Dawnbringer",
+    "downloadDescription": "Скачайте бесплатную демоверсию Dawnbringer для Windows, macOS и Linux."
   },
   "nav": {
     "skip": "Перейти к содержимому",
     "home": "Главная",
-    "game": "Игра",
-    "story": "Сюжет",
-    "screens": "Скриншоты",
-    "features": "Особенности",
-    "platforms": "Платформы",
-    "demo": "Демо",
-    "beta": "Бета",
+    "why": "Об игре",
+    "new": "Новое в 0.5",
+    "demo": "Демоверсия для ПК",
+    "beta": "Альфа для Android",
     "press": "Пресс-кит",
     "language": "Язык"
   },
   "hero": {
-    "tagline": "Солнце погасло. Неси его последний уголёк.",
-    "pitch": "Пройдите сквозь погружённую во мрак землю, соберите избранника из 64 реликвий и выбирайте бои. В игре нет кубиков: у каждого врага есть снаряжение, которое можно прочесть, а Камень Отчаяния темнеет перед боем, который вас убьёт. Когда в конце недели Ростовщик придёт за платой, отдайте десятину или сразитесь за его голову.",
+    "pitch": "Пиксельный рогалик-автобаттлер: соберите избранника, изучите снаряжение каждого врага, затем заплатите Ростовщику или сражайтесь.",
     "artAlt": "Маленький избранник на холме перед огромным коронованным Ростовщиком, который поднимается из тёмных холмов под кроваво-красной луной.",
     "clipTitle": "Геймплей",
-    "clipAlt": "Отрывок геймплея: в ночь Ростовщика карта краснеет, и Полый король приходит за долгом; его карточка предлагает заплатить десятину или принять бой; затем схватка разрешается.",
-    "clipFallback": "Ваш браузер не может воспроизвести это видео."
-  },
-  "stores": {
-    "title": "Где играть",
-    "steam": "Steam",
-    "googlePlay": "Google Play",
-    "appStore": "App Store",
-    "wishlistSoon": "Список желаемого скоро",
-    "comingSoon": "Скоро"
-  },
-  "about": {
-    "title": "Как устроена игра",
-    "intro": "Каждый забег длится три недели. Вы идёте по окутанной туманом карте, открываете сундуки, посещаете святилища и кузницы и собираете сборку из реликвий до конца недели. Бои проходят автоматически; стратегия заключается в выборе маршрута и сборе снаряжения.",
-    "points": [
-      {
-        "title": "Читайте врага, а не кубики",
-        "text": "Бой на 100% детерминирован, и у каждого врага есть настоящие предметы, которые можно осмотреть до боя: сверяйте его снаряжение со своим. Ваш Камень Отчаяния отмечает любого врага, бой с которым вас убьёт, и больше ничего не говорит. Против Ростовщика он молчит."
-      },
-      {
-        "title": "Заплатите ренту или примите бой",
-        "text": "В конце каждой недели Ростовщик региона приходит за долгом. Отдайте десятину из мошны, чтобы уйти живым, или сразитесь за награду. В случае победы вы можете отправить золото в банк и вернуться домой либо рискнуть всей мошной на следующей неделе."
-      },
-      {
-        "title": "Охота последней ночи",
-        "text": "В последнюю ночь недели луна наливается кровью, и Ростовщик выходит на карту, преследуя вас на каждом шагу. Если ваша сборка готова раньше срока, ждать не обязательно: идите к его трону и победите его досрочно, чтобы получить на 50% больше золота."
-      },
-      {
-        "title": "Ваши павшие остаются на дороге",
-        "text": "Когда избранник погибает, он остаётся в этих землях в следующих забегах вместе со своим снаряжением. Днём он бродит по дороге, а ночью охотится на вас. Победите его, чтобы вернуть часть потерянной мошны."
-      },
-      {
-        "title": "Ваши победители становятся Ростовщиками",
-        "text": "Избранники, пережившие все три недели, получают корону. В будущих забегах они могут занять трон региона и прийти за платой с той самой сборкой, которая принесла им победу."
-      }
-    ]
-  },
-  "story": {
-    "title": "История",
-    "paragraphs": [
-      "Церковь поделила часы дневного света и распродала их по грамотам. Покупатели стали Ростовщиками и вытянули из солнца больше света, чем оно могло дать. В Последнее утро солнце рухнуло.",
-      "Мать Геспер ослепла, глядя на его падение, но поймала последний уголёк в передник и разожгла костёр Последнего лагеря. Она вкладывает фитиль в грудь каждого избранника и отправляет их на восток, к Вратам. Один фитиль горит три недели.",
-      "Золото в этом мире не что иное, как остывший солнечный свет, единственное оставшееся тепло. Каждую неделю луна запечатывает небо красным сургучом, и Ростовщики приходят за рентой. Те, кто пал в пути, продолжают идти, пока не выплатят долг."
-    ],
-    "question": "Никто ещё не пронёс пламя за Врата. Что ждёт по ту сторону?"
+    "clipAlt": "Фрагмент геймплея: герой в полном снаряжении сам сражается с группой монстров.",
+    "clipFallback": "Ваш браузер не может воспроизвести это видео.",
+    "play": "Альфа для Android",
+    "demo": "Демоверсия для ПК"
   },
   "screens": {
-    "title": "Скриншоты",
-    "open": "Открыть в полном размере",
     "items": {
       "night": {
         "caption": "Два шага до того, как Ростовщик настигнет вас.",
@@ -128,31 +85,21 @@
   "features": {
     "title": "Особенности",
     "items": [
-      "6 playable champions and 12 second classes.",
-      "Attribute points and a skill point every level; a skill tree of three branches.",
-      "96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
-      "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
-      "19 Landlords across 6 biomes and 3 weeks.",
-      "Patrols, packs, ambushes, guardians and mimics on the map.",
-      "Day and night: at night your sight shrinks and shadows hunt you.",
-      "Your fallen champions rise and hunt you; your winners return as Landlords.",
-      "Separate bank and purse: stake gold at the start and cash out after each Landlord.",
-      "9 optional oaths that raise both the difficulty and the payout.",
-      "Voices with emotion for every character, and ambient sound for every biome.",
-      "A herbarium, a bestiary and 12 feats in the Journal.",
-      "Native 640x360 pixel art with mouse, keyboard, controller and touch.",
-      "Translated into 14 languages."
+      "6 избранников для игры и 12 вторых классов.",
+      "Очки характеристик и очко навыков на каждом уровне; древо навыков из трёх веток.",
+      "96 предметов в 10 семействах, надеваются по слотам, с бонусами набора за 2, 4 и 6 частей.",
+      "Раскаляйте снаряжение до +4 в кузнице и вставляйте в него карты монстров, 19 видов.",
+      "19 Ростовщиков в 6 биомах и за 3 недели.",
+      "Патрули, стаи, засады, стражи и мимики на карте.",
+      "День и ночь: ночью ваш обзор сужается, а тени охотятся на вас.",
+      "Ваши павшие избранники восстают и охотятся на вас; победители возвращаются как Ростовщики.",
+      "Банк и мошна раздельны: ставьте золото в начале и забирайте после каждого Ростовщика.",
+      "9 необязательных клятв, повышающих и сложность, и награду.",
+      "Озвучка с эмоциями для каждого персонажа и фоновые звуки для каждого биома.",
+      "Гербарий, бестиарий и 12 достижений в Дневнике.",
+      "Пиксельная графика в родном разрешении 640x360, управление мышью, клавиатурой, геймпадом и сенсорным экраном.",
+      "Переведена на 14 языков."
     ]
-  },
-  "platforms": {
-    "title": "Платформы",
-    "intro": "В разработке для ПК и мобильных устройств. Закрытая бета на Android уже открыта.",
-    "pc": "ПК",
-    "pcNote": "Windows в Steam. Бесплатная демоверсия работает также на macOS и Linux.",
-    "android": "Android",
-    "androidNote": "Телефоны и планшеты, в Google Play.",
-    "ios": "iPhone и iPad",
-    "iosNote": "В App Store."
   },
   "demo": {
     "title": "Скачать демо",
@@ -232,12 +179,12 @@
     "screensNote": "Скриншоты в формате PNG 1920x1080, увеличены в целое число раз из нативного разрешения 640x360.",
     "creditsTitle": "Авторы",
     "credits": [
-      "Design, code and art: gmunaro",
-      "Music: Juhani Junkala (CC0); the Landlord's night score is original, played on VSCO 2 Community Edition samples (CC0)",
-      "Sound effects: Kenney, StarNinjas, Oiboo (CC0) and original sounds",
-      "Ambient sound: field recordings from freesound.org (CC0)",
-      "Voices: synthetic speech from ElevenLabs v4; no human voice was recorded or cloned",
-      "Fonts: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel and GNU Unifont (SIL Open Font License 1.1)"
+      "Дизайн, код и арт: gmunaro",
+      "Музыка: Juhani Junkala (CC0); ночная музыка Ростовщика оригинальная, сыграна на сэмплах VSCO 2 Community Edition (CC0)",
+      "Звуковые эффекты: Kenney, StarNinjas, Oiboo (CC0) и оригинальные звуки",
+      "Фоновые звуки: полевые записи с freesound.org (CC0)",
+      "Голоса: синтетическая речь от ElevenLabs v4; человеческий голос не записывался и не клонировался.",
+      "Шрифты: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel и GNU Unifont (SIL Open Font License 1.1)"
     ],
     "contactTitle": "Контакты",
     "contactText": "Для прессы, ключей на обзор и других вопросов пишите на"
@@ -263,57 +210,40 @@
     "title": "Что нового",
     "description": "Все обновления Dawnbringer и что в них изменилось."
   },
-  "news": {
-    "title": "New in 0.5",
-    "intro": "Version 0.5.0 adds classes, a skill tree, gear by slot, a new combat model, voices for every character and six biomes with their own life and sound.",
+  "why": {
+    "title": "Чем игра отличается",
     "items": {
-      "classes": {
-        "title": "Classes",
-        "text": "The six champions are the first classes. From week 2 the class master waits on the map, and once you have beaten a Landlord each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
-        "alt": "The class master offers a champion its two second classes."
+      "read": {
+        "title": "Читайте врага, а не кубики",
+        "text": "Бои идут сами и никогда не бросают кубики. У каждого врага видно снаряжение, а Камень Отчаяния темнеет только перед боем, который вас убьёт.",
+        "alt": "Метка Камня Отчаяния над группой врагов на карте."
       },
-      "tree": {
-        "title": "Attributes and a skill tree",
-        "text": "Every level gives attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.",
-        "alt": "The skill tree with nodes bought in two branches."
+      "build": {
+        "title": "Соберите избранника",
+        "text": "Выберите второй класс, вкладывайте очки в древо навыков и носите снаряжение в каждом слоте. Раскаляйте предметы в кузнице и вставляйте в них карты монстров.",
+        "alt": "Наставник классов предлагает избраннику его два вторых класса."
       },
-      "gear": {
-        "title": "Gear by slot",
-        "text": "96 items in 10 families, each worn in its slot: weapon, shield, head, body, cloak, boots and three charms. The forge reheats an item up to +4 and never fails. Monsters drop rare cards that set into your gear.",
-        "alt": "The forge with a reheated item and a monster card set into it."
-      },
-      "combat": {
-        "title": "A new way to fight",
-        "text": "Speed decides how often each fighter acts. Hard DEF takes a share off every hit, and Soft DEF soaks damage before health. Your gear shows on the hero's body, each piece in its place. The game still never tells you how a fight will end.",
-        "alt": "A hero in full gear fights a group of monsters."
-      },
-      "risen": {
-        "title": "The risen hunt you",
-        "text": "Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, slower than you walk. If one reaches you, you fight.",
-        "alt": "A risen hero walks toward the player across the map."
-      },
-      "biomes": {
-        "title": "Six biomes that breathe",
-        "text": "Every biome has its own rocks, plants, small animals, wind and particles, and its own sound by day and by night. The plants sway with the music. Your seed's map stays the same: the decoration never blocks a tile.",
-        "alt": "The six biomes of Dawnbringer, by day and by night."
-      },
-      "voices": {
-        "title": "Every character speaks",
-        "text": "The lore, the 12 NPCs on the map and every kind of monster in battle speak with emotion. The voices are synthetic speech; no human voice was recorded or cloned.",
-        "alt": "Mother Hesper speaks at the Last Camp."
-      },
-      "collection": {
-        "title": "Finds, feats and a postcard",
-        "text": "Twelve plants and animals hide in the biomes as finds for the Journal's herbarium and bestiary. Twelve feats track your runs. On Android, the share menu sends a framed postcard of your hero.",
-        "alt": "The Journal's collection with finds from each biome."
+      "return": {
+        "title": "Ваши забеги возвращаются",
+        "text": "Павшие герои восстают и охотятся на вас в следующих забегах. Герои, которые победили, могут вернуться на троне Ростовщика.",
+        "alt": "Восставший герой, отмеченный красным, идёт к игроку по карте."
       }
     }
   },
-  "listen": {
-    "title": "Listen",
-    "voice": "Mother Hesper, from the lore",
-    "ambience": "Drowned Vigil at night",
-    "monster": "The Tithe Taker, before a fight",
-    "fallback": "Your browser cannot play this audio."
+  "whatsnew": {
+    "title": "Новое в 0.5",
+    "items": [
+      "Двенадцать вторых классов и древо навыков из трёх веток.",
+      "Снаряжение по слотам, раскаляется в кузнице и получает вставки из карт монстров.",
+      "Голос для каждого персонажа.",
+      "Шесть биомов, у каждого свои растения, мелкие животные и звуки."
+    ],
+    "more": "Все изменения"
+  },
+  "community": {
+    "title": "Пресса и сообщество",
+    "press": "Логотип, ключевой арт, скриншоты и справочный лист с фактами для статей и видео.",
+    "follow": "Следите за игрой",
+    "contact": "Контакты"
   }
 }

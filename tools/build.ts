@@ -8,8 +8,8 @@ import { dirname, join } from "node:path";
 import { zipSync, type Zippable } from "fflate";
 import { marked } from "marked";
 import subsetFont from "subset-font";
-import { BASE, LOCALES, SITE, type Locale, type PixelFont } from "./config.ts";
-import { changelogPage, demoOf, homePage, notFoundPage, pressPage, privacyPage, PRESS_FILES, ZIP_NAME, type Ctx, type Page, type ReleaseEntry, type Strings } from "./pages.ts";
+import { BASE, BETA, LOCALES, SITE, type Locale, type PixelFont } from "./config.ts";
+import { betaPage, changelogPage, demoOf, downloadPage, homePage, notFoundPage, pressPage, privacyPage, PRESS_FILES, ZIP_NAME, type Ctx, type Page, type ReleaseEntry, type Strings } from "./pages.ts";
 
 const ROOT = join(import.meta.dir, "..");
 const SRC = join(ROOT, "src");
@@ -18,7 +18,7 @@ const out = (p: string) => join(ROOT, p);
 /** Everything the build writes at the root, removed first so deleted pages do not linger. */
 function clean(): void {
   // latest.json is not here: the game repo's tools/publish writes it and the build leaves it alone.
-  const fixed = ["index.html", "404.html", "privacy.html", "sitemap.xml", "robots.txt", "site.webmanifest", ".nojekyll", "assets", "presskit", "changelog"];
+  const fixed = ["index.html", "404.html", "privacy.html", "sitemap.xml", "robots.txt", "site.webmanifest", ".nojekyll", "assets", "presskit", "changelog", "beta", "download"];
   const dirs = LOCALES.map((l) => l.dir).filter((d) => /^[a-z]{2}(-[a-z]{2})?\/$/.test(d));
   for (const p of [...fixed, ...dirs]) rmSync(out(p), { recursive: true, force: true });
 }
@@ -140,6 +140,8 @@ async function main(): Promise<void> {
     const c: Ctx = { loc, t, zipSize: mb(zipBytes), mb, changelog: releases.length > 0, demo };
     pages.push(homePage(c), pressPage(c));
     if (releases.length) pages.push(changelogPage(c, releases));
+    if (BETA) pages.push(betaPage(c));
+    if (demo) pages.push(downloadPage(c));
   }
   const en: Ctx = { loc: LOCALES[0]!, t: strings.get("en")!, zipSize: "", mb: String };
   // A Windows checkout may hold the file with CRLF line ends.
@@ -161,6 +163,9 @@ async function main(): Promise<void> {
   const size = (p: string): number => statSync(p).isDirectory() ? readdirSync(p).reduce((n, f) => n + size(join(p, f)), 0) : statSync(p).size;
   console.log(`built ${pages.length} pages, assets ${(size(out("assets")) / 1e6).toFixed(2)} MB, press kit zip ${(zipBytes / 1e6).toFixed(2)} MB in ${Math.round(performance.now() - t0)} ms`);
   if (!existsSync(out("index.html"))) throw new Error("no index.html written");
+  // Every language page translated (tools/i18n_check.ts): the build fails on English left in one.
+  const check = Bun.spawnSync(["bun", join(import.meta.dir, "i18n_check.ts")], { stdout: "inherit", stderr: "inherit" });
+  if (check.exitCode !== 0) throw new Error("i18n check failed: a language page shows English text (tools/i18n_check.ts)");
 }
 
 await main();
