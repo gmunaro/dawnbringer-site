@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Dawnbringer: dark-fantasy roguelike auto-battler</title>
-<meta name="description" content="The sun is dead and the Landlord collects every week. Build a champion with classes, a skill tree and gear you reheat at the forge, read what every foe carries, then pay the tithe or fight.">
+<meta name="description" content="A pixel-art roguelike auto-battler. Build a champion, read each foe's gear, then pay the Landlord or fight.">
 <link rel="canonical" href="https://gmunaro.github.io/dawnbringer-site/">
 <link rel="alternate" hreflang="en" href="https://gmunaro.github.io/dawnbringer-site/">
 <link rel="alternate" hreflang="pt-BR" href="https://gmunaro.github.io/dawnbringer-site/pt-br/">
@@ -25,7 +25,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Dawnbringer">
 <meta property="og:title" content="Dawnbringer: dark-fantasy roguelike auto-battler">
-<meta property="og:description" content="The sun is dead and the Landlord collects every week. Build a champion with classes, a skill tree and gear you reheat at the forge, read what every foe carries, then pay the tithe or fight.">
+<meta property="og:description" content="A pixel-art roguelike auto-battler. Build a champion, read each foe's gear, then pay the Landlord or fight.">
 <meta property="og:url" content="https://gmunaro.github.io/dawnbringer-site/">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://gmunaro.github.io/dawnbringer-site/assets/img/og.png">
@@ -46,7 +46,7 @@
 <a class="skip" href="#main">Skip to content</a>
 <header class="top">
 <a class="brand" href="/dawnbringer-site/">Dawnbringer</a>
-<nav class="sections"><ul><li><a href="#download">Demo</a></li><li><a href="#beta">Beta</a></li><li><a href="#game">The game</a></li><li><a href="#story">Story</a></li><li><a href="#screens">Screenshots</a></li><li><a href="#features">Features</a></li><li><a href="#platforms">Platforms</a></li><li><a href="/dawnbringer-site/presskit/">Press kit</a></li></ul></nav>
+<nav class="sections"><ul><li><a href="/dawnbringer-site/beta/">Android alpha</a></li><li><a href="/dawnbringer-site/download/">Desktop demo</a></li><li><a href="/dawnbringer-site/presskit/">Press kit</a></li></ul></nav>
 <details class="lang">
 <summary><span class="sr">Language: </span>English</summary>
 <ul><li><a href="/dawnbringer-site/" hreflang="en" lang="en" data-lang="en" aria-current="true">English</a></li><li><a href="/dawnbringer-site/pt-br/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-BR">Português (Brasil)</a></li><li><a href="/dawnbringer-site/es/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="/dawnbringer-site/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="/dawnbringer-site/de/" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="/dawnbringer-site/it/" hreflang="it" lang="it" data-lang="it">Italiano</a></li><li><a href="/dawnbringer-site/ru/" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li><li><a href="/dawnbringer-site/uk/" hreflang="uk" lang="uk" data-lang="uk">Українська</a></li><li><a href="/dawnbringer-site/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="/dawnbringer-site/tr/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a></li><li><a href="/dawnbringer-site/ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li><li><a href="/dawnbringer-site/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li><li><a href="/dawnbringer-site/zh-cn/" hreflang="zh-CN" lang="zh-CN" data-lang="zh-CN">简体中文</a></li><li><a href="/dawnbringer-site/zh-tw/" hreflang="zh-TW" lang="zh-TW" data-lang="zh-TW">繁體中文</a></li></ul>
@@ -62,169 +62,48 @@
 </picture>
 <div class="hero-text">
 <h1 class="logo">Dawnbringer</h1>
-<p class="tagline">The sun is dead. Carry its last ember.</p>
-<p class="pitch">Cross a dark land, pick your fights and build a champion: a second class, a skill tree, 96 items worn by slot and reheated at the forge. Combat uses no dice. Every foe carries gear you can read, and your Stone of Despair darkens before a fight that would kill you, never before a Landlord. When the Landlord comes for the rent at week's end, pay the tithe or fight for its head.</p>
-<h2 class="sr">Get it</h2>
-<ul class="stores"><li><a class="btn store" href="#download">Download the demo<small>Windows · macOS · Linux</small></a></li><li><a class="btn store" href="#beta">Join the beta<small>Android</small></a></li><li><span class="btn store soon">Steam<small>Wishlist soon</small></span></li><li><span class="btn store soon">Google Play<small>Coming soon</small></span></li><li><span class="btn store soon">App Store<small>Coming soon</small></span></li></ul>
+<p class="pitch">A pixel-art roguelike auto-battler: build a champion, read each foe's gear, then pay the Landlord or fight.</p>
+<ul class="stores"><li id="beta"><a class="btn store" href="/dawnbringer-site/beta/">Android alpha<small>Google Play</small></a></li><li id="download"><a class="btn store" href="/dawnbringer-site/download/">Desktop demo<small>Windows · macOS · Linux</small></a></li></ul>
 </div>
 </section>
 <section class="clip wrap" aria-labelledby="clip-title">
 <h2 id="clip-title" class="sr">Gameplay</h2>
 <div class="panel video">
-<video controls muted loop playsinline preload="none" width="1280" height="720" poster="/dawnbringer-site/assets/video/clip-poster.webp" aria-label="Gameplay clip: on the Landlord's night the map turns red as the Hollow King comes to collect; its card offers to pay the tithe or fight; then the battle resolves.">
+<video controls muted loop playsinline preload="none" width="1280" height="720" poster="/dawnbringer-site/assets/video/clip-poster.webp" aria-label="Gameplay clip: a hero in full gear fights a group of monsters on its own.">
 <source src="/dawnbringer-site/assets/video/clip.webm" type="video/webm">
 <source src="/dawnbringer-site/assets/video/clip.mp4" type="video/mp4">
 Your browser cannot play this video.
 </video>
 </div>
 </section>
-<section id="new" class="wrap news" aria-labelledby="new-title">
+<section id="why" class="wrap" aria-labelledby="why-title">
+<h2 id="why-title">What makes it different</h2>
+<ul class="why">
+<li class="why-item"><img src="/dawnbringer-site/assets/shots/stone.webp" width="640" height="360" loading="lazy" decoding="async" alt="The Stone of Despair's mark over a group of foes on the map."><h3>Read the foe, not the dice</h3><p>Fights play out on their own and never roll dice. Every foe shows its gear, and the Stone of Despair darkens only before a fight that would kill you.</p></li>
+<li class="why-item"><img src="/dawnbringer-site/assets/news/classes.webp" width="640" height="360" loading="lazy" decoding="async" alt="The class master offers a champion its two second classes."><h3>Build a champion</h3><p>Choose a second class, spend points in a skill tree and wear gear in every slot. Reheat items at the forge and set monster cards into them.</p></li>
+<li class="why-item"><img src="/dawnbringer-site/assets/news/risen.webp" width="640" height="360" loading="lazy" decoding="async" alt="A risen hero, marked in red, walks toward the player on the map."><h3>Your runs come back</h3><p>Fallen heroes rise and hunt you in later runs. Heroes who win can return on a Landlord's throne.</p></li>
+</ul>
+</section>
+<section id="new" class="wrap" aria-labelledby="new-title">
 <h2 id="new-title">New in 0.5</h2>
-<p class="lead">Version 0.5.0 adds classes, a skill tree, gear by slot, a new combat model, voices for every character and six biomes with their own life and sound.</p>
-<ul class="news-list">
-<li class="news-item"><img src="/dawnbringer-site/assets/news/classes.webp" width="640" height="360" loading="lazy" decoding="async" alt="The class master offers a champion its two second classes."><div><h3>Classes</h3><p>The six champions are the first classes. From week 2 the class master waits on the map, and once you have beaten a Landlord each champion advances into one of two second classes, 12 in all, and can later switch to the other.</p></div></li>
-<li class="news-item"><img src="/dawnbringer-site/assets/news/tree.webp" width="640" height="360" loading="lazy" decoding="async" alt="The skill tree with nodes bought in two branches."><div><h3>Attributes and a skill tree</h3><p>Every level gives attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.</p></div></li>
-<li class="news-item"><img src="/dawnbringer-site/assets/news/gear.webp" width="640" height="360" loading="lazy" decoding="async" alt="The forge with a reheated item and a monster card set into it."><div><h3>Gear by slot</h3><p>96 items in 10 families, each worn in its slot: weapon, shield, head, body, cloak, boots and three charms. The forge reheats an item up to +4 and never fails. Monsters drop rare cards that set into your gear.</p></div></li>
-<li class="news-item"><img src="/dawnbringer-site/assets/news/combat.webp" width="640" height="360" loading="lazy" decoding="async" alt="A hero in full gear fights a group of monsters."><div><h3>A new way to fight</h3><p>Speed decides how often each fighter acts. Hard DEF takes a share off every hit, and Soft DEF soaks damage before health. Your gear shows on the hero's body, each piece in its place. The game still never tells you how a fight will end.</p></div></li>
-<li class="news-item"><img src="/dawnbringer-site/assets/news/risen.webp" width="640" height="360" loading="lazy" decoding="async" alt="A risen hero walks toward the player across the map."><div><h3>The risen hunt you</h3><p>Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, slower than you walk. If one reaches you, you fight.</p></div></li>
-<li class="news-item"><img src="/dawnbringer-site/assets/news/biomes.webp" width="640" height="360" loading="lazy" decoding="async" alt="The six biomes of Dawnbringer, by day and by night."><div><h3>Six biomes that breathe</h3><p>Every biome has its own rocks, plants, small animals, wind and particles, and its own sound by day and by night. The plants sway with the music. Your seed's map stays the same: the decoration never blocks a tile.</p></div></li>
-<li class="news-item"><img src="/dawnbringer-site/assets/news/voices.webp" width="640" height="360" loading="lazy" decoding="async" alt="Mother Hesper speaks at the Last Camp."><div><h3>Every character speaks</h3><p>The lore, the 12 NPCs on the map and every kind of monster in battle speak with emotion. The voices are synthetic speech; no human voice was recorded or cloned.</p><ul class="listen" aria-label="Listen">
-<li><span>Mother Hesper, from the lore</span>
-<audio controls preload="none" aria-label="Mother Hesper, from the lore">
-<source src="/dawnbringer-site/assets/audio/voice.ogg" type="audio/ogg">
-<source src="/dawnbringer-site/assets/audio/voice.mp3" type="audio/mpeg">
-Your browser cannot play this audio.
-</audio></li>
-<li><span>Drowned Vigil at night</span>
-<audio controls preload="none" aria-label="Drowned Vigil at night">
-<source src="/dawnbringer-site/assets/audio/ambience.ogg" type="audio/ogg">
-<source src="/dawnbringer-site/assets/audio/ambience.mp3" type="audio/mpeg">
-Your browser cannot play this audio.
-</audio></li>
-<li><span>The Tithe Taker, before a fight</span>
-<audio controls preload="none" aria-label="The Tithe Taker, before a fight">
-<source src="/dawnbringer-site/assets/audio/monster.ogg" type="audio/ogg">
-<source src="/dawnbringer-site/assets/audio/monster.mp3" type="audio/mpeg">
-Your browser cannot play this audio.
-</audio></li>
-</ul></div></li>
-<li class="news-item"><img src="/dawnbringer-site/assets/news/collection.webp" width="640" height="360" loading="lazy" decoding="async" alt="The Journal's collection with finds from each biome."><div><h3>Finds, feats and a postcard</h3><p>Twelve plants and animals hide in the biomes as finds for the Journal's herbarium and bestiary. Twelve feats track your runs. On Android, the share menu sends a framed postcard of your hero.</p></div></li>
-</ul>
-</section>
-<section id="download" class="wrap" aria-labelledby="demo-title">
-<h2 id="demo-title">Download the demo</h2>
-<p class="lead">A free demo for Windows, macOS and Linux. It plays the whole run, with fewer champions and relics to choose from. Version 0.5.0.</p>
-<h3>What the demo includes</h3>
-<ul class="features panel demo-includes">
-<li>2 champions: the Ironbound Penitent and the Gallows Marksman.</li>
-<li>The full run: three weeks on the map, events, shops, oaths and the Landlords.</li>
-<li>The 4 starting relic families.</li>
-<li>No Reliquary: the other champions, relic families and purse upgrades come with the full game.</li>
-<li>Its own save, separate from the full game.</li>
-</ul>
-<ul class="cards platforms demo-downloads">
-<li class="card"><h3>Windows</h3><p>Windows 10 or 11, 64-bit. One .exe file, no installer. The file is not code-signed yet, so SmartScreen may warn you: click More info, then Run anyway.</p><a class="btn" href="https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.5.0/DawnbringerDemo-0.5.0-windows.exe" download>Download (199.6 MB)<small>.exe</small></a></li>
-<li class="card"><h3>macOS</h3><p>One app for Apple silicon and Intel Macs. Unzip it and drag Dawnbringer to Applications.</p><p>The app is not notarized by Apple yet, so macOS blocks the first launch. Right-click (or Control-click) the app and choose Open. If there is no Open button, go to System Settings &gt; Privacy &amp; Security and click Open Anyway.</p><a class="btn" href="https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.5.0/DawnbringerDemo-0.5.0-macos.zip" download>Download (149.7 MB)<small>.zip</small></a></li>
-<li class="card"><h3>Linux</h3><p>x86_64. Extract the archive and run DawnbringerDemo.x86_64. Needs graphics drivers with OpenGL 3.3.</p><a class="btn" href="https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.5.0/DawnbringerDemo-0.5.0-linux-x86_64.tar.gz" download>Download (113.3 MB)<small>.tar.gz</small></a></li>
-</ul>
-<p class="demo-sums"><a href="https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.5.0/SHA256SUMS.txt">SHA-256 checksums of the files</a></p>
-<p>Android: the closed beta is open. <a href="#beta">Join the beta</a></p>
-<p>iPhone and iPad: not available yet.</p>
-</section>
-<section id="beta" class="wrap" aria-labelledby="beta-title">
-<h2 id="beta-title">Join the beta</h2>
-<p class="lead">Play the Android version for free before launch.</p>
-<aside class="panel beta-payment" aria-label="What is Test card, always approves?">
-<p><strong>The test payment amount is NOT REAL. You WILL NOT BE CHARGED.</strong></p>
-<p>With Test card, always approves, Google Play only simulates a purchase. Even if R$9.99 or another amount appears, no money is taken. Check that this is the selected payment method. If your personal card or another real payment method appears, do not confirm and contact us.</p>
-</aside>
-<ol class="cards steps">
-<li class="card"><h3>1</h3><p>Open Dawnbringer Testers and click Join group. Sign in with the Google account you use in the Play Store on Android. Opening the group is not enough: confirm that you have joined.</p><a class="btn" href="https://groups.google.com/g/dawnbringer-testers" rel="noopener">Open the group</a></li>
-<li class="card"><h3>2</h3><p>With that same account, open the test page and click Become a tester. Wait for confirmation that you have joined the test before continuing.</p><a class="btn" href="https://play.google.com/apps/testing/com.gmunaro.dawnbringer" rel="noopener">Open the test page</a></li>
-<li class="card"><h3>3</h3><p>On your Android phone or tablet, open the game on Google Play and tap Install. On a computer, select your Android device in the dialog and click Install.</p><a class="btn" href="https://play.google.com/store/apps/details?id=com.gmunaro.dawnbringer" rel="noopener">Install from Google Play</a></li>
-</ol>
-<p>Free beta access ends at launch. Joining the test does not include a purchase of the final game.</p>
-<figure class="beta-proof">
-<a href="/dawnbringer-site/assets/img/beta-test-card.png"><img src="/dawnbringer-site/assets/img/beta-test-card.png" width="1080" height="1408" loading="lazy" alt="Annotated Android test payment screenshot. The X crosses out the simulated amount. Green outlines mark the test card and Google's notice: this is a test order, you will not be charged."></a>
-<figcaption>Annotated Android test payment screenshot. The X crosses out the simulated amount. Green outlines mark the test card and Google's notice: this is a test order, you will not be charged.</figcaption>
-</figure>
-<div class="beta-help">
-<h3>Need help installing?</h3>
-<p>Use the same account for all three steps: the group, the test page, and the Play Store. If you have several Google accounts, check the profile picture on each page and in the store app.</p>
-<details>
-<summary>Seeing a price or a Buy button?</summary>
-<p>The listing can show a price even for a tester. Complete steps 1 and 2 first. On a computer, click Buy to open the device selection dialog. If it offers Install, select your Android device and click that button, as shown below. If a payment screen appears, read the test card instructions before confirming.</p>
-<div class="beta-shots">
-<figure><img src="/dawnbringer-site/assets/img/beta-store.png?v=2" width="1129" height="753" loading="lazy" alt="On a computer, Google Play may show R$9.99 and Buy even during the test."><figcaption>On a computer, Google Play may show R$9.99 and Buy even during the test.</figcaption></figure>
-<figure><img src="/dawnbringer-site/assets/img/beta-install.png?v=2" width="1035" height="1037" loading="lazy" alt="The next dialog may offer Install. Select your Android device to send the installation."><figcaption>The next dialog may offer Install. Select your Android device to send the installation.</figcaption></figure>
-</div>
-</details>
-<details><summary>What is Test card, always approves?</summary><p>It is Google Play's test payment card. If the payment method says Test card, always approves, confirming makes a simulated purchase with no real charge. If you see your own card or another real payment method, do not confirm. Check the account used in all three steps and contact us if the problem continues.</p></details>
-<details><summary>Can't find the game or join the test?</summary><p>Check that you joined the group and opted into the test with your Play Store account. Wait a few minutes and reopen the test page. If you still cannot get access, send a screenshot of the message, without payment details, to <a href="mailto:dawnbringergame@gmail.com">dawnbringergame@gmail.com</a></p></details>
-</div>
-</section>
-<section id="game" class="wrap">
-<h2>How it plays</h2>
-<p class="lead">A run lasts three weeks. You step across a fogged map, open chests, visit shrines and forges, and piece together a relic build before the week runs out. Fights play out automatically; the strategy is in the route you take and the build you put together.</p>
-<ul class="cards">
-<li class="card"><h3>Read the foe, not the dice</h3><p>Combat is 100% deterministic, and every foe carries real items you can inspect before the fight: judge its gear against yours. Your Stone of Despair marks any foe whose fight would kill you, and says nothing more. Against the Landlord it stays silent.</p></li>
-<li class="card"><h3>Pay the rent or fight</h3><p>At the end of each week, the region's Landlord comes to collect. Pay the tithe from your purse to walk away alive, or fight it for its bounty. Win, and you can either bank your gold and go home or risk the whole purse in the next week.</p></li>
-<li class="card"><h3>The last night's hunt</h3><p>On the final night of the week, the moon turns red and the Landlord steps onto the map to hunt you with every move. If your build is ready early, you don't have to wait: march to its throne and beat it for a bigger reward.</p></li>
-<li class="card"><h3>Your dead stay on the road</h3><p>When a champion dies, it rises in that land on future runs with the gear it carried, and hunts you across the zone by day and by night. Kill it to recover part of the lost purse.</p></li>
-<li class="card"><h3>Your winners become Landlords</h3><p>Champions who survive all three weeks are crowned. In later runs, they can take a region's throne and come to collect using the exact build that won.</p></li>
-</ul>
-</section>
-<section id="story" class="wrap story">
-<h2>The story</h2>
-<p>The Church parceled out the hours of daylight and sold them as deeds. The buyers became the Landlords, and they drained more light than the sun had to give. On the Last Morning, the sun fell.</p>
-<p>Mother Hesper went blind watching it fall, caught its last ember in her apron, and lit the fire of the Last Camp. She plants a wick in each champion's chest and sends them east toward the Gate. A wick burns for three weeks.</p>
-<p>Gold is cold sunlight, the only warmth left. Every week the moon seals the sky in red wax and the Landlords come for the rent. Those who die on the road keep walking until their debt is paid.</p>
-<p class="question">No one has carried the flame past the Gate. What waits on the other side?</p>
-</section>
-<section id="screens" class="wrap">
-<h2>Screenshots</h2>
-<div class="gallery">
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/01_night.png" title="Open full size"><img src="/dawnbringer-site/assets/shots/night.webp" width="640" height="360" loading="lazy" decoding="async" alt="The map at night, tinted red. The Hollow King stands next to the hero and the clock reads: the Landlord comes to collect, 2 steps."></a><figcaption>Two steps before the Landlord catches up.</figcaption></figure>
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/02_landlord.png" title="Open full size"><img src="/dawnbringer-site/assets/shots/landlord.webp" width="640" height="360" loading="lazy" decoding="async" alt="The Hollow King's card: its stats, its Hollow Crown ability, the tithe of 18 gold, and the buttons Pay the tithe and Fight."></a><figcaption>Pay the tithe from your purse or fight for the bounty.</figcaption></figure>
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/03_battle.png" title="Open full size"><img src="/dawnbringer-site/assets/shots/battle.webp" width="640" height="360" loading="lazy" decoding="async" alt="A fight against the Hollow King in a ruined chapel, with health bars, armor and damage numbers."></a><figcaption>Combat runs on its own; your preparation decides it.</figcaption></figure>
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/04_stone.png" title="Open full size"><img src="/dawnbringer-site/assets/shots/stone.webp" width="640" height="360" loading="lazy" decoding="async" alt="The pre-fight screen of a foe with its stats and the items it carries, the Stone of Despair's mark and the warning This fight would kill you, and the buttons Fight and Back off."></a><figcaption>The Stone of Despair darkens over a fight that would kill you.</figcaption></figure>
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/05_risen.png" title="Open full size"><img src="/dawnbringer-site/assets/shots/risen.webp" width="640" height="360" loading="lazy" decoding="async" alt="On the map, a risen Gallows Marksman from an earlier run, with a tooltip of the build and the gold it carries."></a><figcaption>A fallen champion from a past run roams the road with its gold.</figcaption></figure>
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/06_legend.png" title="Open full size"><img src="/dawnbringer-site/assets/shots/legend.webp" width="640" height="360" loading="lazy" decoding="async" alt="The card of Gallows Marksman, crowned: a legend of an earlier run that holds the seat of the Ashen Reach."></a><figcaption>A victorious champion from an earlier run rules as Landlord.</figcaption></figure>
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/07_shop.png" title="Open full size"><img src="/dawnbringer-site/assets/shots/shop.webp" width="640" height="360" loading="lazy" decoding="async" alt="The shop with four relics to buy or banish, and a comparison of the new item with your build."></a><figcaption>The shop shows the exact stat changes before you swap an item.</figcaption></figure>
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/08_camp.png" title="Open full size"><img src="/dawnbringer-site/assets/shots/camp.webp" width="640" height="360" loading="lazy" decoding="async" alt="The Last Camp screen with the champions, the item families, the oaths and the stake slider."></a><figcaption>At the Last Camp, pick your champion, oaths, and gold stake.</figcaption></figure>
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/09_group.png" title="Open full size"><img src="/dawnbringer-site/assets/shots/group.webp" width="640" height="360" loading="lazy" decoding="async" alt="A fight against a group of foes in the Hanging Wood, with gallows and dead trees."></a><figcaption>Packs attack in a row with no healing between fights.</figcaption></figure>
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/10_cashout.png" title="Open full size"><img src="/dawnbringer-site/assets/shots/cashout.webp" width="640" height="360" loading="lazy" decoding="async" alt="After a Landlord: the choice to go home with the purse or carry it into week 2, with the next Landlord's card."></a><figcaption>After a Landlord, bank your winnings or carry the purse into week 2.</figcaption></figure>
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/11_build.png" title="Open full size"><img src="/dawnbringer-site/assets/shots/build.webp" width="640" height="360" loading="lazy" decoding="async" alt="The build sheet of the Ironbound Penitent with stats, gear, belt and the Iron and Blood family sets."></a><figcaption>Combine 2, 4, or 6 relics from the same family to unlock set bonuses.</figcaption></figure>
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/12_event.png" title="Open full size"><img src="/dawnbringer-site/assets/shots/event.webp" width="640" height="360" loading="lazy" decoding="async" alt="The event The Hangman's Wager, with three choices."></a><figcaption>Road events trade blood, gold, or curses for shortcuts and relics.</figcaption></figure>
-</div>
-</section>
-<section id="features" class="wrap">
-<h2>Features</h2>
 <ul class="features panel">
-<li>6 playable champions and 12 second classes.</li>
-<li>Attribute points and a skill point every level; a skill tree of three branches.</li>
-<li>96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.</li>
-<li>Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.</li>
-<li>19 Landlords across 6 biomes and 3 weeks.</li>
-<li>Patrols, packs, ambushes, guardians and mimics on the map.</li>
-<li>Day and night: at night your sight shrinks and shadows hunt you.</li>
-<li>Your fallen champions rise and hunt you; your winners return as Landlords.</li>
-<li>Separate bank and purse: stake gold at the start and cash out after each Landlord.</li>
-<li>9 optional oaths that raise both the difficulty and the payout.</li>
-<li>Voices with emotion for every character, and ambient sound for every biome.</li>
-<li>A herbarium, a bestiary and 12 feats in the Journal.</li>
-<li>Native 640x360 pixel art with mouse, keyboard, controller and touch.</li>
-<li>Translated into 14 languages.</li>
+<li>Twelve second classes and a skill tree with three branches.</li>
+<li>Gear by slot, reheated at the forge and set with monster cards.</li>
+<li>A voice for every character.</li>
+<li>Six biomes with their own plants, small animals and sound.</li>
 </ul>
+<p><a href="/dawnbringer-site/changelog/">All changes</a></p>
 </section>
-<section id="platforms" class="wrap">
-<h2>Platforms</h2>
-<p class="lead">In development for PC and mobile. The Android closed beta is open now.</p>
-<ul class="cards platforms">
-<li class="card"><h3>PC</h3><p>Windows on Steam. The free demo also runs on macOS and Linux.</p><span class="btn store soon">Steam<small>Wishlist soon</small></span></li>
-<li class="card"><h3>Android</h3><p>Phones and tablets, on Google Play.</p><span class="btn store soon">Google Play<small>Coming soon</small></span></li>
-<li class="card"><h3>iPhone and iPad</h3><p>On the App Store.</p><span class="btn store soon">App Store<small>Coming soon</small></span></li>
+<section id="community" class="wrap" aria-labelledby="community-title">
+<h2 id="community-title">Press and community</h2>
+<p><a class="btn" href="/dawnbringer-site/presskit/">Press kit</a> Logo, key art, screenshots and a fact sheet for articles and videos.</p>
+<p>Follow the game:</p>
+<ul class="socials">
+<li><a href="https://www.youtube.com/@dawnbringergame" rel="me noopener">YouTube</a></li>
+<li><a href="https://bsky.app/profile/dawnbringergame.bsky.social" rel="me noopener">Bluesky</a></li>
+<li><a href="https://www.reddit.com/r/Dawnbringer/" rel="me noopener">Reddit</a></li>
 </ul>
+<p>Contact: <a href="mailto:dawnbringergame@gmail.com">dawnbringergame@gmail.com</a></p>
 </section>
 </main>
 <footer class="foot">
