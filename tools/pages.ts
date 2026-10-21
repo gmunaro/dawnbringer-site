@@ -440,10 +440,10 @@ ${footer(c)}
 }
 
 /**
- * The privacy policy (src/privacy.md, English then Portuguese, split at the first "---"), at the
- * URL the Google Play listing points to: privacy.html.
+ * The privacy policy (src/privacy.md: English, Portuguese, then short parts in the other languages, split
+ * at "---" lines), at the URL the Google Play listing points to: privacy.html.
  */
-export function privacyPage(c: Ctx, enHtml: string, ptHtml: string): Page {
+export function privacyPage(c: Ctx, enHtml: string, ptHtml: string, otherHtml = ""): Page {
   const { t } = c;
   const html = `${head({ lang: "en", title: "Dawnbringer · Privacy Policy / Política de Privacidade", description: "Privacy policy of the game Dawnbringer. Política de privacidade do jogo Dawnbringer.", path: "privacy.html", ogLocale: "en_US" })}
 <body data-page="privacy">
@@ -456,7 +456,7 @@ ${enHtml}
 <hr>
 <article lang="pt-BR">
 ${ptHtml}
-</article>
+</article>${otherHtml.trim() ? `\n<hr>\n<article>\n${otherHtml}\n</article>` : ""}
 </main>
 ${footer(c)}
 </body>

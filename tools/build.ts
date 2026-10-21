@@ -74,7 +74,8 @@ async function buildFonts(strings: Map<string, Strings>, privacy: string, notes:
     await sub(fusion[l.font], PRINTABLE_ASCII + allText(strings.get(l.code)) + (notes.get(l.code) ?? "") + names, `fusion-${l.font}.woff2`);
   }
   for (const f of readdirSync(join(SRC, "fonts")).filter((f) => f.startsWith("LICENSE") || f.startsWith("CREDITS"))) {
-    cpSync(join(SRC, "fonts", f), out(`assets/fonts/${f}`));
+    // Text copied with LF line ends whatever the checkout holds, so every clone builds the same bytes.
+    write(`assets/fonts/${f}`, readFileSync(join(SRC, "fonts", f), "utf-8").replace(/\r\n/g, "\n"));
   }
 }
 
@@ -146,9 +147,10 @@ async function main(): Promise<void> {
   const en: Ctx = { loc: LOCALES[0]!, t: strings.get("en")!, zipSize: "", mb: String };
   // A Windows checkout may hold the file with CRLF line ends.
   const md = privacyMd.replace(/\r\n/g, "\n");
-  const [enMd, ptMd] = md.split(/\n---\n/);
+  // English, then Portuguese, then (optional) short parts in the other languages, split at "---" lines.
+  const [enMd, ptMd, ...otherMd] = md.split(/\n---\n/);
   if (!enMd || !ptMd) throw new Error("src/privacy.md must hold the English and Portuguese texts separated by a --- line");
-  pages.push(privacyPage(en, await marked.parse(enMd), await marked.parse(ptMd)), notFoundPage(en));
+  pages.push(privacyPage(en, await marked.parse(enMd), await marked.parse(ptMd), await marked.parse(otherMd.join("\n"))), notFoundPage(en));
 
   for (const p of pages) write(p.path.endsWith(".html") ? p.path : `${p.path}index.html`, p.html);
   write("sitemap.xml", sitemap(pages));
