@@ -81,3 +81,12 @@ export const BETA: { group: string; test: string; install: string } | null = {
  */
 export const SHOTS = ["night", "landlord", "battle", "stone", "risen", "legend", "shop", "camp", "group", "cashout", "build", "event"] as const;
 export type ShotId = (typeof SHOTS)[number];
+
+/**
+ * "New in 0.5" on the home page, in order. `id` names src/assets/news/<id>.webp (640x360) and the
+ * locale's news.items.<id> title, text and alt text.
+ */
+export const NEWS = ["classes", "tree", "gear", "combat", "risen", "biomes", "voices", "collection"] as const;
+
+/** The audio samples under "Listen" (src/assets/audio/<id>.ogg and .mp3); labels are listen.<id>. */
+export const LISTEN = ["voice", "ambience", "monster"] as const;

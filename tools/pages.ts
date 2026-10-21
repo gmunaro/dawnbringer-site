@@ -1,6 +1,6 @@
 // HTML of every page, as plain template strings. Every text comes from a locale's JSON and is
 // escaped with esc(); every link starts with BASE so the site works under /dawnbringer-site/.
-import { BASE, BETA, CONTACT, LOCALES, SHOTS, SITE, SOCIALS, STORES, STUDIO, type Locale, type PixelFont } from "./config.ts";
+import { BASE, BETA, CONTACT, LISTEN, LOCALES, NEWS, SHOTS, SITE, SOCIALS, STORES, STUDIO, type Locale, type PixelFont } from "./config.ts";
 import type en from "../src/locales/en.json";
 
 /** The shape of a locale file (en.json is the reference; tools/check.ts checks the others). */
@@ -239,6 +239,35 @@ ${demo.checksums ? `<p class="demo-sums"><a href="${esc(demo.checksums)}">${esc(
 
 const alternates = (page: PageId) => LOCALES.map((l) => ({ loc: l, path: pathOf(l, page) }));
 
+/** The three audio samples of "Listen": a player per LISTEN id, each in ogg and mp3. */
+function listenBar(t: Strings): string {
+  const row = (k: (typeof LISTEN)[number]) => `<li><span>${esc(t.listen[k])}</span>
+<audio controls preload="none" aria-label="${esc(t.listen[k])}">
+<source src="${asset(`audio/${k}.ogg`)}" type="audio/ogg">
+<source src="${asset(`audio/${k}.mp3`)}" type="audio/mpeg">
+${esc(t.listen.fallback)}
+</audio></li>`;
+  return `<ul class="listen" aria-label="${esc(t.listen.title)}">
+${LISTEN.map(row).join("\n")}
+</ul>`;
+}
+
+/** "New in 0.5": a picture and text per system; the voices item also carries the Listen samples. */
+function newsSection(t: Strings): string {
+  const items = NEWS.map((id) => {
+    const s = t.news.items[id];
+    const listen = id === "voices" ? listenBar(t) : "";
+    return `<li class="news-item"><img src="${asset(`news/${id}.webp`)}" width="640" height="360" loading="lazy" decoding="async" alt="${esc(s.alt)}"><div><h3>${esc(s.title)}</h3><p>${esc(s.text)}</p>${listen}</div></li>`;
+  }).join("\n");
+  return `<section id="new" class="wrap news" aria-labelledby="new-title">
+<h2 id="new-title">${esc(t.news.title)}</h2>
+<p class="lead">${esc(t.news.intro)}</p>
+<ul class="news-list">
+${items}
+</ul>
+</section>`;
+}
+
 export function homePage(c: Ctx): Page {
   const { t, loc } = c;
   const path = pathOf(loc, "");
@@ -280,6 +309,7 @@ ${esc(t.hero.clipFallback)}
 </video>
 </div>
 </section>
+${newsSection(t)}
 ${c.demo ? demoSection(c, c.demo) : ""}
 ${BETA ? betaSection(t, BETA) : ""}
 <section id="game" class="wrap">
