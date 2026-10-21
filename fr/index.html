@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Dawnbringer : auto-battler roguelike de dark fantasy</title>
-<meta name="description" content="Le soleil est mort et le Seigneur réclame le loyer chaque semaine. Formez votre champion, voyez l'issue exacte de chaque combat sur la route et décidez de payer la dîme ou d'affronter le boss.">
+<meta name="description" content="Le soleil est mort et le Seigneur réclame le loyer chaque semaine. Formez votre champion, lisez ce que porte chaque ennemi, et décidez de payer la dîme ou d'affronter le boss.">
 <link rel="canonical" href="https://gmunaro.github.io/dawnbringer-site/fr/">
 <link rel="alternate" hreflang="en" href="https://gmunaro.github.io/dawnbringer-site/">
 <link rel="alternate" hreflang="pt-BR" href="https://gmunaro.github.io/dawnbringer-site/pt-br/">
@@ -25,7 +25,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Dawnbringer">
 <meta property="og:title" content="Dawnbringer : auto-battler roguelike de dark fantasy">
-<meta property="og:description" content="Le soleil est mort et le Seigneur réclame le loyer chaque semaine. Formez votre champion, voyez l'issue exacte de chaque combat sur la route et décidez de payer la dîme ou d'affronter le boss.">
+<meta property="og:description" content="Le soleil est mort et le Seigneur réclame le loyer chaque semaine. Formez votre champion, lisez ce que porte chaque ennemi, et décidez de payer la dîme ou d'affronter le boss.">
 <meta property="og:url" content="https://gmunaro.github.io/dawnbringer-site/fr/">
 <meta property="og:locale" content="fr_FR">
 <meta property="og:image" content="https://gmunaro.github.io/dawnbringer-site/assets/img/og.png">
@@ -63,7 +63,7 @@
 <div class="hero-text">
 <h1 class="logo">Dawnbringer</h1>
 <p class="tagline">Le soleil est mort. Portez sa dernière braise.</p>
-<p class="pitch">Traversez une terre plongée dans le noir, équipez votre champion parmi 64 reliques et choisissez vos combats. Il n'y a pas de dés : sur la route, vous connaissez l'issue exacte avant d'engager le fer. Quand le Seigneur vient percevoir le loyer en fin de semaine, payez la dîme ou jouez sa tête.</p>
+<p class="pitch">Traversez une terre plongée dans le noir, équipez votre champion parmi 64 reliques et choisissez vos combats. Il n'y a pas de dés : chaque ennemi porte des objets que vous pouvez lire, et votre Pierre du Désespoir s'assombrit devant un combat qui vous tuerait. Quand le Seigneur vient percevoir le loyer en fin de semaine, payez la dîme ou jouez sa tête.</p>
 <h2 class="sr">Où jouer</h2>
 <ul class="stores"><li><a class="btn store" href="#download">Télécharger la démo<small>Windows · macOS · Linux</small></a></li><li><a class="btn store" href="#beta">Rejoindre la bêta<small>Android</small></a></li><li><span class="btn store soon">Steam<small>Liste de souhaits bientôt</small></span></li><li><span class="btn store soon">Google Play<small>Bientôt disponible</small></span></li><li><span class="btn store soon">App Store<small>Bientôt disponible</small></span></li></ul>
 </div>
@@ -78,13 +78,46 @@ Votre navigateur ne peut pas lire cette vidéo.
 </video>
 </div>
 </section>
+<section id="new" class="wrap news" aria-labelledby="new-title">
+<h2 id="new-title">New in 0.5</h2>
+<p class="lead">Version 0.5.0 adds classes, a skill tree, gear by slot, a new combat model, voices for every character and six biomes with their own life and sound.</p>
+<ul class="news-list">
+<li class="news-item"><img src="/dawnbringer-site/assets/news/classes.webp" width="640" height="360" loading="lazy" decoding="async" alt="The class master offers a champion its two second classes."><div><h3>Classes</h3><p>The six champions are the first classes. From week 2 the class master waits on the map, and once you have beaten a Landlord each champion advances into one of two second classes, 12 in all, and can later switch to the other.</p></div></li>
+<li class="news-item"><img src="/dawnbringer-site/assets/news/tree.webp" width="640" height="360" loading="lazy" decoding="async" alt="The skill tree with nodes bought in two branches."><div><h3>Attributes and a skill tree</h3><p>Every level gives attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.</p></div></li>
+<li class="news-item"><img src="/dawnbringer-site/assets/news/gear.webp" width="640" height="360" loading="lazy" decoding="async" alt="The forge with a reheated item and a monster card set into it."><div><h3>Gear by slot</h3><p>96 items in 10 families, each worn in its slot: weapon, shield, head, body, cloak, boots and three charms. The forge reheats an item up to +4 and never fails. Monsters drop rare cards that set into your gear.</p></div></li>
+<li class="news-item"><img src="/dawnbringer-site/assets/news/combat.webp" width="640" height="360" loading="lazy" decoding="async" alt="A hero in full gear fights a group of monsters."><div><h3>A new way to fight</h3><p>Speed decides how often each fighter acts. Hard DEF takes a share off every hit, and Soft DEF soaks damage before health. Your gear shows on the hero's body, each piece in its place. The game still never tells you how a fight will end.</p></div></li>
+<li class="news-item"><img src="/dawnbringer-site/assets/news/risen.webp" width="640" height="360" loading="lazy" decoding="async" alt="A risen hero walks toward the player across the map."><div><h3>The risen hunt you</h3><p>Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, slower than you walk. If one reaches you, you fight.</p></div></li>
+<li class="news-item"><img src="/dawnbringer-site/assets/news/biomes.webp" width="640" height="360" loading="lazy" decoding="async" alt="The six biomes of Dawnbringer, by day and by night."><div><h3>Six biomes that breathe</h3><p>Every biome has its own rocks, plants, small animals, wind and particles, and its own sound by day and by night. The plants sway with the music. Your seed's map stays the same: the decoration never blocks a tile.</p></div></li>
+<li class="news-item"><img src="/dawnbringer-site/assets/news/voices.webp" width="640" height="360" loading="lazy" decoding="async" alt="Mother Hesper speaks at the Last Camp."><div><h3>Every character speaks</h3><p>The lore, the 12 NPCs on the map and every kind of monster in battle speak with emotion. The voices are synthetic speech; no human voice was recorded or cloned.</p><ul class="listen" aria-label="Listen">
+<li><span>Mother Hesper, from the lore</span>
+<audio controls preload="none" aria-label="Mother Hesper, from the lore">
+<source src="/dawnbringer-site/assets/audio/voice.ogg" type="audio/ogg">
+<source src="/dawnbringer-site/assets/audio/voice.mp3" type="audio/mpeg">
+Your browser cannot play this audio.
+</audio></li>
+<li><span>Drowned Vigil at night</span>
+<audio controls preload="none" aria-label="Drowned Vigil at night">
+<source src="/dawnbringer-site/assets/audio/ambience.ogg" type="audio/ogg">
+<source src="/dawnbringer-site/assets/audio/ambience.mp3" type="audio/mpeg">
+Your browser cannot play this audio.
+</audio></li>
+<li><span>The Tithe Taker, before a fight</span>
+<audio controls preload="none" aria-label="The Tithe Taker, before a fight">
+<source src="/dawnbringer-site/assets/audio/monster.ogg" type="audio/ogg">
+<source src="/dawnbringer-site/assets/audio/monster.mp3" type="audio/mpeg">
+Your browser cannot play this audio.
+</audio></li>
+</ul></div></li>
+<li class="news-item"><img src="/dawnbringer-site/assets/news/collection.webp" width="640" height="360" loading="lazy" decoding="async" alt="The Journal's collection with finds from each biome."><div><h3>Finds, feats and a postcard</h3><p>Twelve plants and animals hide in the biomes as finds for the Journal's herbarium and bestiary. Twelve feats track your runs. On Android, the share menu sends a framed postcard of your hero.</p></div></li>
+</ul>
+</section>
 <section id="download" class="wrap" aria-labelledby="demo-title">
 <h2 id="demo-title">Télécharger la démo</h2>
 <p class="lead">Une démo gratuite pour Windows, macOS et Linux. Elle contient la partie entière, avec moins de champions et de reliques au choix. Version 0.5.0.</p>
 <h3>Contenu de la démo</h3>
 <ul class="features panel demo-includes">
 <li>2 champions : le Pénitent de Fer et la Tireuse du Gibet.</li>
-<li>La partie complète : trois semaines sur la carte, prévisions sur la route, événements, boutiques, serments et les Seigneurs.</li>
+<li>La partie complète : trois semaines sur la carte, événements, boutiques, serments et les Seigneurs.</li>
 <li>Les 4 familles de reliques de départ.</li>
 <li>Pas de Reliquaire : les autres champions, familles de reliques et améliorations de bourse arrivent avec le jeu complet.</li>
 <li>Sa propre sauvegarde, séparée du jeu complet.</li>
@@ -134,7 +167,7 @@ Votre navigateur ne peut pas lire cette vidéo.
 <h2>Comment on joue</h2>
 <p class="lead">Une partie dure trois semaines. Vous avancez sur une carte couverte de brume, ouvrez des coffres, visitez sanctuaires et forges et assemblez vos reliques avant la fin de la semaine. Les combats sont automatiques ; tout se joue sur votre itinéraire et votre équipement.</p>
 <ul class="cards">
-<li class="card"><h3>Prévision exacte sur la route</h3><p>Le combat est 100 % déterministe. Avant d'engager un combat ordinaire, le jeu simule l'affrontement et affiche le résultat exact, comme &quot;Victoire avec 29 PV restants&quot;. Seul le Seigneur s'affronte à l'aveugle.</p></li>
+<li class="card"><h3>Lisez l'ennemi, pas les dés</h3><p>Le combat est 100 % déterministe, et chaque ennemi porte de vrais objets que vous pouvez inspecter avant le combat : jugez son équipement contre le vôtre. Votre Pierre du Désespoir marque tout ennemi dont le combat vous tuerait, et ne dit rien de plus. Face au Seigneur, elle reste muette.</p></li>
 <li class="card"><h3>Payer le loyer ou combattre</h3><p>À la fin de chaque semaine, le Seigneur de la région vient encaisser le loyer. Payez la dîme avec votre bourse pour passer en vie, ou affrontez-le pour sa prime. En cas de victoire, vous pouvez mettre votre or à la banque et rentrer, ou tout remettre en jeu la semaine suivante.</p></li>
 <li class="card"><h3>La traque de la dernière nuit</h3><p>La dernière nuit de la semaine, la lune vire au rouge et le Seigneur entre sur la carte pour vous traquer à chaque pas. Si votre équipement est prêt plus tôt, inutile d'attendre : marchez jusqu'à son trône et battez-le pour toucher 50 % d'or en plus.</p></li>
 <li class="card"><h3>Vos morts restent sur la route</h3><p>Quand un champion meurt, il demeure sur cette terre lors des parties suivantes avec l'équipement qu'il portait. Il erre le jour et vous chasse la nuit. Battez-le pour récupérer une partie de la bourse perdue.</p></li>
@@ -154,7 +187,7 @@ Votre navigateur ne peut pas lire cette vidéo.
 <figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/01_night.png" title="Voir en taille réelle"><img src="/dawnbringer-site/assets/shots/night.webp" width="640" height="360" loading="lazy" decoding="async" alt="La carte de nuit, teintée de rouge. Le Roi Creux se tient près du héros et l'horloge indique : Le Seigneur vient réclamer son dû, 2 pas."></a><figcaption>Plus que deux pas avant que le Seigneur vous rattrape.</figcaption></figure>
 <figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/02_landlord.png" title="Voir en taille réelle"><img src="/dawnbringer-site/assets/shots/landlord.webp" width="640" height="360" loading="lazy" decoding="async" alt="La carte du Roi Creux : ses stats, sa capacité Couronne Creuse, la dîme de 18 or et les boutons Payer la dîme et Combattre."></a><figcaption>Payez la dîme avec votre bourse ou battez-vous pour la prime.</figcaption></figure>
 <figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/03_battle.png" title="Voir en taille réelle"><img src="/dawnbringer-site/assets/shots/battle.webp" width="640" height="360" loading="lazy" decoding="async" alt="Un combat contre le Roi Creux dans une chapelle en ruine, avec barres de vie, armure et chiffres de dégâts."></a><figcaption>Le combat est automatique ; votre préparation fait la différence.</figcaption></figure>
-<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/04_forecast.png" title="Voir en taille réelle"><img src="/dawnbringer-site/assets/shots/forecast.webp" width="640" height="360" loading="lazy" decoding="async" alt="La carte d'une Brute de Cendre avec la prévision : Victoire avec 29 PV restants, et les boutons Combattre et Reculer."></a><figcaption>Le jeu calcule et affiche le résultat exact avant que vous engagiez le combat.</figcaption></figure>
+<figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/04_stone.png" title="Voir en taille réelle"><img src="/dawnbringer-site/assets/shots/stone.webp" width="640" height="360" loading="lazy" decoding="async" alt="L'écran d'avant-combat d'un ennemi, avec ses statistiques et les objets qu'il porte, la marque de la Pierre du Désespoir et l'avertissement Ce combat vous tuerait, ainsi que les boutons Combattre et Reculer."></a><figcaption>La Pierre du Désespoir s'assombrit devant un combat qui vous tuerait.</figcaption></figure>
 <figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/05_risen.png" title="Voir en taille réelle"><img src="/dawnbringer-site/assets/shots/risen.webp" width="640" height="360" loading="lazy" decoding="async" alt="Sur la carte, une Tireuse du Gibet relevée d'une partie précédente, avec une infobulle qui montre son attirail et l'or qu'elle porte."></a><figcaption>Un champion tombé lors d'une partie précédente rôde sur la route avec son or.</figcaption></figure>
 <figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/06_legend.png" title="Voir en taille réelle"><img src="/dawnbringer-site/assets/shots/legend.webp" width="640" height="360" loading="lazy" decoding="async" alt="La carte de la Tireuse du Gibet, couronnée : une légende d'une partie précédente qui occupe le trône des Confins Cendrés."></a><figcaption>Un champion victorieux d'une ancienne partie règne comme Seigneur.</figcaption></figure>
 <figure class="shot"><a href="/dawnbringer-site/presskit/files/screenshots/07_shop.png" title="Voir en taille réelle"><img src="/dawnbringer-site/assets/shots/shop.webp" width="640" height="360" loading="lazy" decoding="async" alt="La boutique avec quatre reliques à acheter ou bannir, et une comparaison du nouvel objet avec votre attirail."></a><figcaption>La boutique affiche les changements exacts de stats avant de remplacer un objet.</figcaption></figure>
@@ -168,18 +201,20 @@ Votre navigateur ne peut pas lire cette vidéo.
 <section id="features" class="wrap">
 <h2>Points forts</h2>
 <ul class="features panel">
-<li>6 champions jouables, chacun avec son arme de départ et son passif.</li>
-<li>64 reliques réparties en 8 familles, avec bonus d'ensemble à 2, 4 et 6 pièces.</li>
-<li>19 Seigneurs sur 6 régions et 3 semaines.</li>
-<li>77 ennemis sur la carte : patrouilles, embuscades, meutes, gardiens et mimiques.</li>
-<li>Cycle jour et nuit : la nuit, votre vue baisse et les ombres vous traquent.</li>
-<li>Effroi : chaque ennemi tué rend la région plus dangereuse et augmente le butin en or.</li>
-<li>Banque et bourse séparées : misez de l'or au départ et encaissez après chaque Seigneur.</li>
-<li>9 serments optionnels qui durcissent la route et augmentent les gains.</li>
-<li>17 bénédictions, 8 consommables de ceinture, 12 événements, forges, feux de camp et puits.</li>
-<li>Vos anciennes parties laissent des Échos, des champions relevés et des Seigneurs couronnés sur la carte.</li>
-<li>Pixel art natif en 640x360, jouable à la souris, au clavier ou au tactile.</li>
-<li>Traduit en 14 langues.</li>
+<li>6 playable champions and 12 second classes.</li>
+<li>Attribute points and a skill point every level; a skill tree of three branches.</li>
+<li>96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.</li>
+<li>Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.</li>
+<li>19 Landlords across 6 biomes and 3 weeks.</li>
+<li>Patrols, packs, ambushes, guardians and mimics on the map.</li>
+<li>Day and night: at night your sight shrinks and shadows hunt you.</li>
+<li>Your fallen champions rise and hunt you; your winners return as Landlords.</li>
+<li>Separate bank and purse: stake gold at the start and cash out after each Landlord.</li>
+<li>9 optional oaths that raise both the difficulty and the payout.</li>
+<li>Voices with emotion for every character, and ambient sound for every biome.</li>
+<li>A herbarium, a bestiary and 12 feats in the Journal.</li>
+<li>Native 640x360 pixel art with mouse, keyboard, controller and touch.</li>
+<li>Translated into 14 languages.</li>
 </ul>
 </section>
 <section id="platforms" class="wrap">
@@ -203,7 +238,7 @@ Votre navigateur ne peut pas lire cette vidéo.
 <ul class="socials">
 <li><a href="https://www.youtube.com/@dawnbringergame" rel="me noopener">YouTube</a></li>
 <li><a href="https://bsky.app/profile/dawnbringergame.bsky.social" rel="me noopener">Bluesky</a></li>
-<li><a href="https://www.reddit.com/user/dawnbringergame" rel="me noopener">Reddit</a></li>
+<li><a href="https://www.reddit.com/r/Dawnbringer/" rel="me noopener">Reddit</a></li>
 </ul>
 <p>Dawnbringer est créé par gmunaro au Brésil. © 2026 gmunaro.</p>
 <p>Créé par <a href="https://github.com/praisetcdev" rel="me noopener">PraiseTC</a></p>

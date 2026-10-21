@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer : auto-battler roguelike de dark fantasy",
-    "description": "Le soleil est mort et le Seigneur réclame le loyer chaque semaine. Formez votre champion, voyez l'issue exacte de chaque combat sur la route et décidez de payer la dîme ou d'affronter le boss.",
+    "description": "Le soleil est mort et le Seigneur réclame le loyer chaque semaine. Formez votre champion, lisez ce que porte chaque ennemi, et décidez de payer la dîme ou d'affronter le boss.",
     "pressTitle": "Dossier de presse de Dawnbringer",
     "pressDescription": "Fiche technique, description, points forts, logo, illustration principale et captures d'écran de Dawnbringer, un auto-battler roguelike de gmunaro.",
     "notFoundTitle": "Page introuvable",
@@ -22,7 +22,7 @@
   },
   "hero": {
     "tagline": "Le soleil est mort. Portez sa dernière braise.",
-    "pitch": "Traversez une terre plongée dans le noir, équipez votre champion parmi 64 reliques et choisissez vos combats. Il n'y a pas de dés : sur la route, vous connaissez l'issue exacte avant d'engager le fer. Quand le Seigneur vient percevoir le loyer en fin de semaine, payez la dîme ou jouez sa tête.",
+    "pitch": "Traversez une terre plongée dans le noir, équipez votre champion parmi 64 reliques et choisissez vos combats. Il n'y a pas de dés : chaque ennemi porte des objets que vous pouvez lire, et votre Pierre du Désespoir s'assombrit devant un combat qui vous tuerait. Quand le Seigneur vient percevoir le loyer en fin de semaine, payez la dîme ou jouez sa tête.",
     "artAlt": "Un petit champion sur une colline fait face à un Seigneur géant et couronné qui surgit des collines sombres sous une lune rouge sang.",
     "clipTitle": "Gameplay",
     "clipAlt": "Extrait de jeu : la nuit du Seigneur, la carte vire au rouge tandis que le Roi Creux vient réclamer son dû ; sa carte propose de payer la dîme ou de combattre ; puis l'affrontement se résout.",
@@ -41,8 +41,8 @@
     "intro": "Une partie dure trois semaines. Vous avancez sur une carte couverte de brume, ouvrez des coffres, visitez sanctuaires et forges et assemblez vos reliques avant la fin de la semaine. Les combats sont automatiques ; tout se joue sur votre itinéraire et votre équipement.",
     "points": [
       {
-        "title": "Prévision exacte sur la route",
-        "text": "Le combat est 100 % déterministe. Avant d'engager un combat ordinaire, le jeu simule l'affrontement et affiche le résultat exact, comme \"Victoire avec 29 PV restants\". Seul le Seigneur s'affronte à l'aveugle."
+        "title": "Lisez l'ennemi, pas les dés",
+        "text": "Le combat est 100 % déterministe, et chaque ennemi porte de vrais objets que vous pouvez inspecter avant le combat : jugez son équipement contre le vôtre. Votre Pierre du Désespoir marque tout ennemi dont le combat vous tuerait, et ne dit rien de plus. Face au Seigneur, elle reste muette."
       },
       {
         "title": "Payer le loyer ou combattre",
@@ -87,9 +87,9 @@
         "caption": "Le combat est automatique ; votre préparation fait la différence.",
         "alt": "Un combat contre le Roi Creux dans une chapelle en ruine, avec barres de vie, armure et chiffres de dégâts."
       },
-      "forecast": {
-        "caption": "Le jeu calcule et affiche le résultat exact avant que vous engagiez le combat.",
-        "alt": "La carte d'une Brute de Cendre avec la prévision : Victoire avec 29 PV restants, et les boutons Combattre et Reculer."
+      "stone": {
+        "caption": "La Pierre du Désespoir s'assombrit devant un combat qui vous tuerait.",
+        "alt": "L'écran d'avant-combat d'un ennemi, avec ses statistiques et les objets qu'il porte, la marque de la Pierre du Désespoir et l'avertissement Ce combat vous tuerait, ainsi que les boutons Combattre et Reculer."
       },
       "risen": {
         "caption": "Un champion tombé lors d'une partie précédente rôde sur la route avec son or.",
@@ -128,18 +128,20 @@
   "features": {
     "title": "Points forts",
     "items": [
-      "6 champions jouables, chacun avec son arme de départ et son passif.",
-      "64 reliques réparties en 8 familles, avec bonus d'ensemble à 2, 4 et 6 pièces.",
-      "19 Seigneurs sur 6 régions et 3 semaines.",
-      "77 ennemis sur la carte : patrouilles, embuscades, meutes, gardiens et mimiques.",
-      "Cycle jour et nuit : la nuit, votre vue baisse et les ombres vous traquent.",
-      "Effroi : chaque ennemi tué rend la région plus dangereuse et augmente le butin en or.",
-      "Banque et bourse séparées : misez de l'or au départ et encaissez après chaque Seigneur.",
-      "9 serments optionnels qui durcissent la route et augmentent les gains.",
-      "17 bénédictions, 8 consommables de ceinture, 12 événements, forges, feux de camp et puits.",
-      "Vos anciennes parties laissent des Échos, des champions relevés et des Seigneurs couronnés sur la carte.",
-      "Pixel art natif en 640x360, jouable à la souris, au clavier ou au tactile.",
-      "Traduit en 14 langues."
+      "6 playable champions and 12 second classes.",
+      "Attribute points and a skill point every level; a skill tree of three branches.",
+      "96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
+      "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
+      "19 Landlords across 6 biomes and 3 weeks.",
+      "Patrols, packs, ambushes, guardians and mimics on the map.",
+      "Day and night: at night your sight shrinks and shadows hunt you.",
+      "Your fallen champions rise and hunt you; your winners return as Landlords.",
+      "Separate bank and purse: stake gold at the start and cash out after each Landlord.",
+      "9 optional oaths that raise both the difficulty and the payout.",
+      "Voices with emotion for every character, and ambient sound for every biome.",
+      "A herbarium, a bestiary and 12 feats in the Journal.",
+      "Native 640x360 pixel art with mouse, keyboard, controller and touch.",
+      "Translated into 14 languages."
     ]
   },
   "platforms": {
@@ -159,7 +161,7 @@
     "includesTitle": "Contenu de la démo",
     "includes": [
       "2 champions : le Pénitent de Fer et la Tireuse du Gibet.",
-      "La partie complète : trois semaines sur la carte, prévisions sur la route, événements, boutiques, serments et les Seigneurs.",
+      "La partie complète : trois semaines sur la carte, événements, boutiques, serments et les Seigneurs.",
       "Les 4 familles de reliques de départ.",
       "Pas de Reliquaire : les autres champions, familles de reliques et améliorations de bourse arrivent avec le jeu complet.",
       "Sa propre sauvegarde, séparée du jeu complet."
@@ -220,7 +222,7 @@
     "contact": "Contact",
     "social": "Réseaux sociaux",
     "descriptionTitle": "Description",
-    "description": "Dawnbringer est un auto-battler roguelike de dark fantasy en pixel art. Le soleil est mort, l'or est la seule chaleur qui reste et chaque semaine un Seigneur vient percevoir le loyer. Le joueur explore une carte au tour par tour, choisit ses combats et équipe un champion parmi 64 reliques réparties en huit familles. Comme les combats se résolvent automatiquement sans hasard, chaque rencontre sur la route affiche son résultat exact avant de s'engager ; face au Seigneur, il n'y a aucune prévision, et il faut payer la dîme ou combattre. Avant chaque partie, vous misez de l'or de votre banque, et après chaque semaine vous choisissez d'encaisser votre bourse ou de la remettre en jeu dans une semaine plus rude. Les champions tombés errent sur la carte lors des parties suivantes, tandis que les vainqueurs peuvent revenir sur le trône d'un Seigneur.",
+    "description": "Dawnbringer est un auto-battler roguelike de dark fantasy en pixel art. Le soleil est mort, l'or est la seule chaleur qui reste et chaque semaine un Seigneur vient percevoir le loyer. Le joueur explore une carte au tour par tour, choisit ses combats et équipe un champion parmi 64 reliques réparties en huit familles. Comme les combats se résolvent automatiquement sans hasard et que chaque ennemi porte des objets visibles, les joueurs jugent chaque combat sur la route en lisant son équipement face à leur build ; une Pierre du Désespoir ne prévient que lorsqu'un combat tuerait le héros. Face au Seigneur, elle reste muette, et il faut payer la dîme ou combattre. Avant chaque partie, vous misez de l'or de votre banque, et après chaque semaine vous choisissez d'encaisser votre bourse ou de la remettre en jeu dans une semaine plus rude. Les champions tombés errent sur la carte lors des parties suivantes, tandis que les vainqueurs peuvent revenir sur le trône d'un Seigneur.",
     "mediaTitle": "Logo, illustration principale et captures",
     "zip": "Tout télécharger (.zip, {size})",
     "logo": "Logo (PNG, transparent)",
@@ -230,11 +232,12 @@
     "screensNote": "Les captures d'écran sont des PNG en 1920x1080, agrandies par un facteur entier depuis la résolution native 640x360.",
     "creditsTitle": "Crédits",
     "credits": [
-      "Conception, code et graphismes : gmunaro",
-      "Musique : Juhani Junkala (CC0) ; la partition de la nuit du Seigneur est originale, jouée avec les samples de VSCO 2 Community Edition (CC0)",
-      "Effets sonores : Kenney, StarNinjas, Oiboo (CC0) et sons originaux",
-      "Voix : parole synthétique générée avec Qwen3-TTS (équipe Qwen d'Alibaba) ; aucune voix humaine n'a été enregistrée ni clonée",
-      "Polices : Kenney (CC0) ; Jacquarda Bastarda 9, Fusion Pixel et GNU Unifont (SIL Open Font License 1.1)"
+      "Design, code and art: gmunaro",
+      "Music: Juhani Junkala (CC0); the Landlord's night score is original, played on VSCO 2 Community Edition samples (CC0)",
+      "Sound effects: Kenney, StarNinjas, Oiboo (CC0) and original sounds",
+      "Ambient sound: field recordings from freesound.org (CC0)",
+      "Voices: synthetic speech from ElevenLabs v4; no human voice was recorded or cloned",
+      "Fonts: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel and GNU Unifont (SIL Open Font License 1.1)"
     ],
     "contactTitle": "Contact",
     "contactText": "Pour la presse, les clés de test et toute autre demande, écrivez à"
@@ -259,5 +262,58 @@
   "changelog": {
     "title": "Nouveautés",
     "description": "Chaque mise à jour de Dawnbringer et ce qu'elle a changé."
+  },
+  "news": {
+    "title": "New in 0.5",
+    "intro": "Version 0.5.0 adds classes, a skill tree, gear by slot, a new combat model, voices for every character and six biomes with their own life and sound.",
+    "items": {
+      "classes": {
+        "title": "Classes",
+        "text": "The six champions are the first classes. From week 2 the class master waits on the map, and once you have beaten a Landlord each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
+        "alt": "The class master offers a champion its two second classes."
+      },
+      "tree": {
+        "title": "Attributes and a skill tree",
+        "text": "Every level gives attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.",
+        "alt": "The skill tree with nodes bought in two branches."
+      },
+      "gear": {
+        "title": "Gear by slot",
+        "text": "96 items in 10 families, each worn in its slot: weapon, shield, head, body, cloak, boots and three charms. The forge reheats an item up to +4 and never fails. Monsters drop rare cards that set into your gear.",
+        "alt": "The forge with a reheated item and a monster card set into it."
+      },
+      "combat": {
+        "title": "A new way to fight",
+        "text": "Speed decides how often each fighter acts. Hard DEF takes a share off every hit, and Soft DEF soaks damage before health. Your gear shows on the hero's body, each piece in its place. The game still never tells you how a fight will end.",
+        "alt": "A hero in full gear fights a group of monsters."
+      },
+      "risen": {
+        "title": "The risen hunt you",
+        "text": "Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, slower than you walk. If one reaches you, you fight.",
+        "alt": "A risen hero walks toward the player across the map."
+      },
+      "biomes": {
+        "title": "Six biomes that breathe",
+        "text": "Every biome has its own rocks, plants, small animals, wind and particles, and its own sound by day and by night. The plants sway with the music. Your seed's map stays the same: the decoration never blocks a tile.",
+        "alt": "The six biomes of Dawnbringer, by day and by night."
+      },
+      "voices": {
+        "title": "Every character speaks",
+        "text": "The lore, the 12 NPCs on the map and every kind of monster in battle speak with emotion. The voices are synthetic speech; no human voice was recorded or cloned.",
+        "alt": "Mother Hesper speaks at the Last Camp."
+      },
+      "collection": {
+        "title": "Finds, feats and a postcard",
+        "text": "Twelve plants and animals hide in the biomes as finds for the Journal's herbarium and bestiary. Twelve feats track your runs. On Android, the share menu sends a framed postcard of your hero.",
+        "alt": "The Journal's collection with finds from each biome."
+      }
+    }
+  },
+  "listen": {
+    "title": "Listen",
+    "voice": "Mother Hesper, from the lore",
+    "ambience": "Drowned Vigil at night",
+    "monster": "The Tithe Taker, before a fight",
+    "fallback": "Your browser cannot play this audio."
   }
 }

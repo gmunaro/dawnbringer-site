@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: Dark-Fantasy-Roguelike-Autobattler",
-    "description": "Die Sonne ist tot und der Hausherr kassiert jede Woche Miete. Bau deinen Champion, sieh das genaue Ergebnis jedes Straßenkampfs voraus und zahl den Zehnt oder kämpfe.",
+    "description": "Die Sonne ist tot und der Hausherr kassiert jede Woche. Bau deinen Champion, lies, was jeder Feind trägt, und entscheide, ob du den Zehnt zahlst oder den Hausherrn bekämpfst.",
     "pressTitle": "Dawnbringer-Pressekit",
     "pressDescription": "Datenblatt, Beschreibung, Features, Logo, Key Art und Screenshots von Dawnbringer, einem Roguelike-Autobattler von gmunaro.",
     "notFoundTitle": "Seite nicht gefunden",
@@ -22,7 +22,7 @@
   },
   "hero": {
     "tagline": "Die Sonne ist tot. Trag ihre letzte Glut.",
-    "pitch": "Durchquere ein finsteres Land, bau einen Champion aus 64 Relikten und wähle deine Kämpfe. Gewürfelt wird nicht: Auf der Straße siehst du den Ausgang jedes Kampfes vorab. Wenn der Hausherr am Ende der Woche die Miete eintreibt, zahl den Zehnt oder kämpf um seinen Kopf.",
+    "pitch": "Durchquere ein finsteres Land, bau einen Champion aus 64 Relikten und wähle deine Kämpfe. Gewürfelt wird nicht: Jeder Feind trägt Ausrüstung, die du lesen kannst, und dein Verzweiflungsstein verdunkelt sich vor einem Kampf, der dich töten würde. Wenn der Hausherr am Ende der Woche die Miete eintreibt, zahl den Zehnt oder kämpf um seinen Kopf.",
     "artAlt": "Ein kleiner Champion auf einem Hügel steht einem riesigen gekrönten Hausherrn gegenüber, der sich unter einem blutroten Mond aus den dunklen Hügeln erhebt.",
     "clipTitle": "Gameplay",
     "clipAlt": "Gameplay-Clip: In der Nacht des Hausherrn färbt sich die Karte rot, während der Hohle König zum Kassieren kommt; seine Karte bietet an, den Zehnt zu zahlen oder zu kämpfen; dann entscheidet sich der Kampf.",
@@ -41,8 +41,8 @@
     "intro": "Ein Lauf dauert drei Wochen. Du ziehst über eine neblige Karte, öffnest Truhen, besuchst Schreine und Schmieden und stellst deinen Build aus Relikten zusammen, bevor die Woche endet. Die Kämpfe laufen automatisch ab; die Taktik liegt in deiner Route und deinem Build.",
     "points": [
       {
-        "title": "Genaue Kampfprognose auf der Straße",
-        "text": "Kämpfe sind zu 100 % deterministisch. Vor jedem normalen Kampf simuliert das Spiel das Gefecht und zeigt das exakte Ergebnis, etwa \"Sieg mit 29 LP übrig\". Nur gegen den Hausherrn kämpfst du ohne Vorschau."
+        "title": "Den Feind lesen, nicht die Würfel",
+        "text": "Kämpfe sind zu 100 % deterministisch, und jeder Feind trägt echte Gegenstände, die du vor dem Kampf prüfen kannst: Vergleiche seine Ausrüstung mit deiner. Dein Verzweiflungsstein markiert jeden Feind, dessen Kampf dich töten würde, und sagt nicht mehr. Gegen den Hausherrn schweigt er."
       },
       {
         "title": "Miete zahlen oder kämpfen",
@@ -87,9 +87,9 @@
         "caption": "Der Kampf läuft automatisch; deine Vorbereitung entscheidet.",
         "alt": "Ein Kampf gegen den Hohlen König in einer verfallenen Kapelle, mit Lebensbalken, Rüstung und Schadenszahlen."
       },
-      "forecast": {
-        "caption": "Das Spiel berechnet und zeigt das genaue Ergebnis, bevor du kämpfst.",
-        "alt": "Die Gegnerkarte Aschenbrute mit der Vorschau: Sieg mit 29 LP übrig, und die Knöpfe Kämpfen und Zurückweichen."
+      "stone": {
+        "caption": "Der Verzweiflungsstein verdunkelt sich über einem Kampf, der dich töten würde.",
+        "alt": "Der Kampfbildschirm eines Feindes mit Werten und den Gegenständen, die er trägt, dem Zeichen des Verzweiflungssteins und der Warnung Dieser Kampf würde dich töten, dazu die Knöpfe Kämpfen und Zurückweichen."
       },
       "risen": {
         "caption": "Ein gefallener Champion aus einem früheren Lauf streift mit seinem Gold über die Straße.",
@@ -128,18 +128,20 @@
   "features": {
     "title": "Features",
     "items": [
-      "6 spielbare Champions mit jeweils eigener Startwaffe und passiver Fähigkeit.",
-      "64 Relikte in 8 Familien, mit Set-Boni bei 2, 4 und 6 Teilen.",
-      "19 Hausherren in 6 Regionen und 3 Wochen.",
-      "77 Gegner auf der Karte, darunter Patrouillen, Hinterhalte, Rudel, Wächter und Mimiks.",
-      "Tag-und-Nacht-Wechsel: Nachts schrumpft deine Sicht und Schatten jagen dich.",
-      "Grauen: Jeder Kill macht die Region gefährlicher und erhöht die Goldbeute.",
-      "Getrennte Bank und Börse: Setz zu Beginn Gold ein und sichere es nach jedem Hausherrn.",
-      "9 optionale Schwüre, die sowohl den Schwierigkeitsgrad als auch die Auszahlung erhöhen.",
-      "17 Segen, 8 Gürtel-Verbrauchsgüter, 12 Ereignisse, Schmieden, Lagerfeuer und Brunnen.",
-      "Frühere Läufe hinterlassen Echos, auferstandene Champions und gekrönte Hausherren auf der Karte.",
-      "Native 640x360-Pixelart mit Steuerung per Maus, Tastatur und Touchscreen.",
-      "Übersetzt in 14 Sprachen."
+      "6 playable champions and 12 second classes.",
+      "Attribute points and a skill point every level; a skill tree of three branches.",
+      "96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
+      "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
+      "19 Landlords across 6 biomes and 3 weeks.",
+      "Patrols, packs, ambushes, guardians and mimics on the map.",
+      "Day and night: at night your sight shrinks and shadows hunt you.",
+      "Your fallen champions rise and hunt you; your winners return as Landlords.",
+      "Separate bank and purse: stake gold at the start and cash out after each Landlord.",
+      "9 optional oaths that raise both the difficulty and the payout.",
+      "Voices with emotion for every character, and ambient sound for every biome.",
+      "A herbarium, a bestiary and 12 feats in the Journal.",
+      "Native 640x360 pixel art with mouse, keyboard, controller and touch.",
+      "Translated into 14 languages."
     ]
   },
   "platforms": {
@@ -159,7 +161,7 @@
     "includesTitle": "Was die Demo enthält",
     "includes": [
       "2 Champions: der Eisengebundene Büßer und die Galgenschützin.",
-      "Der komplette Lauf: drei Wochen auf der Karte, Prognosen unterwegs, Ereignisse, Läden, Schwüre und die Hausherren.",
+      "Der komplette Lauf: drei Wochen auf der Karte, Ereignisse, Läden, Schwüre und die Hausherren.",
       "Die 4 Start-Reliktfamilien.",
       "Kein Reliquiar: die übrigen Champions, Reliktfamilien und Börsen-Upgrades gibt es im Vollspiel.",
       "Ein eigener Spielstand, getrennt vom Vollspiel."
@@ -220,7 +222,7 @@
     "contact": "Kontakt",
     "social": "Soziale Medien",
     "descriptionTitle": "Beschreibung",
-    "description": "Dawnbringer ist ein Dark-Fantasy-Roguelike-Autobattler in Pixelart. Die Sonne ist tot, Gold ist die einzige verbliebene Wärme und jede Woche kommt ein Hausherr, um die Miete einzutreiben. Spieler erkunden eine rundenbasierte Karte, wählen ihre Kämpfe und bauen aus 64 Relikten in acht Familien einen Champion auf. Da die Kämpfe ohne Zufall automatisch ablaufen, zeigt jede Begegnung auf der Straße vorab ihr exaktes Ergebnis; gegen den Hausherrn gibt es keine Vorschau, und man muss entweder den Zehnt zahlen oder kämpfen. Vor jedem Lauf setzt man Gold aus seiner Bank ein, und nach jeder Woche sichert man entweder seine Börse oder riskiert sie in einer härteren Woche. Gefallene Champions streifen in späteren Läufen über die Karte, während siegreiche Champions auf dem Thron eines Hausherrn zurückkehren können.",
+    "description": "Dawnbringer ist ein Dark-Fantasy-Roguelike-Autobattler in Pixelart. Die Sonne ist tot, Gold ist die einzige verbliebene Wärme und jede Woche kommt ein Hausherr, um die Miete einzutreiben. Spieler erkunden eine rundenbasierte Karte, wählen ihre Kämpfe und bauen aus 64 Relikten in acht Familien einen Champion auf. Da die Kämpfe ohne Zufall automatisch ablaufen und jeder Feind sichtbare Gegenstände trägt, beurteilen Spieler jeden Straßenkampf, indem sie dessen Ausrüstung mit ihrem Build vergleichen; ein Verzweiflungsstein warnt nur, wenn ein Kampf den Helden töten würde. Gegen den Hausherrn schweigt er, und man muss entweder den Zehnt zahlen oder kämpfen. Vor jedem Lauf setzt man Gold aus seiner Bank ein, und nach jeder Woche sichert man entweder seine Börse oder riskiert sie in einer härteren Woche. Gefallene Champions streifen in späteren Läufen über die Karte, während siegreiche Champions auf dem Thron eines Hausherrn zurückkehren können.",
     "mediaTitle": "Logo, Key Art und Screenshots",
     "zip": "Alles herunterladen (.zip, {size})",
     "logo": "Logo (PNG, transparent)",
@@ -230,11 +232,12 @@
     "screensNote": "Die Screenshots sind PNG in 1920x1080, ganzzahlig skaliert aus der nativen Auflösung von 640x360.",
     "creditsTitle": "Credits",
     "credits": [
-      "Design, Code und Grafik: gmunaro",
-      "Musik: Juhani Junkala (CC0); die Musik zur Nacht des Hausherrn ist eigens komponiert, gespielt mit Samples von VSCO 2 Community Edition (CC0)",
-      "Soundeffekte: Kenney, StarNinjas, Oiboo (CC0) und eigene Sounds",
-      "Stimmen: synthetische Sprache, erzeugt mit Qwen3-TTS (Qwen-Team von Alibaba); keine menschliche Stimme wurde aufgenommen oder geklont",
-      "Schriften: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel und GNU Unifont (SIL Open Font License 1.1)"
+      "Design, code and art: gmunaro",
+      "Music: Juhani Junkala (CC0); the Landlord's night score is original, played on VSCO 2 Community Edition samples (CC0)",
+      "Sound effects: Kenney, StarNinjas, Oiboo (CC0) and original sounds",
+      "Ambient sound: field recordings from freesound.org (CC0)",
+      "Voices: synthetic speech from ElevenLabs v4; no human voice was recorded or cloned",
+      "Fonts: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel and GNU Unifont (SIL Open Font License 1.1)"
     ],
     "contactTitle": "Kontakt",
     "contactText": "Für Presse, Testkeys und sonstige Anfragen schreib an"
@@ -259,5 +262,58 @@
   "changelog": {
     "title": "Neuigkeiten",
     "description": "Jedes Dawnbringer-Update und was sich darin geändert hat."
+  },
+  "news": {
+    "title": "New in 0.5",
+    "intro": "Version 0.5.0 adds classes, a skill tree, gear by slot, a new combat model, voices for every character and six biomes with their own life and sound.",
+    "items": {
+      "classes": {
+        "title": "Classes",
+        "text": "The six champions are the first classes. From week 2 the class master waits on the map, and once you have beaten a Landlord each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
+        "alt": "The class master offers a champion its two second classes."
+      },
+      "tree": {
+        "title": "Attributes and a skill tree",
+        "text": "Every level gives attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.",
+        "alt": "The skill tree with nodes bought in two branches."
+      },
+      "gear": {
+        "title": "Gear by slot",
+        "text": "96 items in 10 families, each worn in its slot: weapon, shield, head, body, cloak, boots and three charms. The forge reheats an item up to +4 and never fails. Monsters drop rare cards that set into your gear.",
+        "alt": "The forge with a reheated item and a monster card set into it."
+      },
+      "combat": {
+        "title": "A new way to fight",
+        "text": "Speed decides how often each fighter acts. Hard DEF takes a share off every hit, and Soft DEF soaks damage before health. Your gear shows on the hero's body, each piece in its place. The game still never tells you how a fight will end.",
+        "alt": "A hero in full gear fights a group of monsters."
+      },
+      "risen": {
+        "title": "The risen hunt you",
+        "text": "Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, slower than you walk. If one reaches you, you fight.",
+        "alt": "A risen hero walks toward the player across the map."
+      },
+      "biomes": {
+        "title": "Six biomes that breathe",
+        "text": "Every biome has its own rocks, plants, small animals, wind and particles, and its own sound by day and by night. The plants sway with the music. Your seed's map stays the same: the decoration never blocks a tile.",
+        "alt": "The six biomes of Dawnbringer, by day and by night."
+      },
+      "voices": {
+        "title": "Every character speaks",
+        "text": "The lore, the 12 NPCs on the map and every kind of monster in battle speak with emotion. The voices are synthetic speech; no human voice was recorded or cloned.",
+        "alt": "Mother Hesper speaks at the Last Camp."
+      },
+      "collection": {
+        "title": "Finds, feats and a postcard",
+        "text": "Twelve plants and animals hide in the biomes as finds for the Journal's herbarium and bestiary. Twelve feats track your runs. On Android, the share menu sends a framed postcard of your hero.",
+        "alt": "The Journal's collection with finds from each biome."
+      }
+    }
+  },
+  "listen": {
+    "title": "Listen",
+    "voice": "Mother Hesper, from the lore",
+    "ambience": "Drowned Vigil at night",
+    "monster": "The Tithe Taker, before a fight",
+    "fallback": "Your browser cannot play this audio."
   }
 }

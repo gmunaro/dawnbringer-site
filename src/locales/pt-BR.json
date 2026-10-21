@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: roguelike auto-battler de fantasia sombria",
-    "description": "O sol apagou e o Senhorio cobra o aluguel toda semana. Monte seu campeão, veja o resultado exato de cada luta na estrada e decida se paga o dízimo ou enfrenta o chefe.",
+    "description": "O sol apagou e o Senhorio cobra o aluguel toda semana. Monte seu campeão, leia o que cada inimigo carrega e decida se paga o dízimo ou enfrenta o chefe.",
     "pressTitle": "Kit de imprensa do Dawnbringer",
     "pressDescription": "Ficha técnica, descrição, recursos, logo, arte principal e capturas de tela do Dawnbringer, um auto-battler roguelike de gmunaro.",
     "notFoundTitle": "Página não encontrada",
@@ -22,7 +22,7 @@
   },
   "hero": {
     "tagline": "O sol apagou. Leve a última brasa.",
-    "pitch": "Explore uma terra às escuras, monte seu campeão com 64 relíquias e escolha bem suas lutas. O combate não tem dados: na estrada, você sabe o resultado antes de lutar. Quando o Senhorio vier cobrar o aluguel no fim da semana, pague o dízimo ou lute pela cabeça dele.",
+    "pitch": "Explore uma terra às escuras, monte seu campeão com 64 relíquias e escolha bem suas lutas. O combate não tem dados: cada inimigo carrega equipamento que você pode ler, e sua Pedra do Desespero escurece antes de uma luta que mataria você. Quando o Senhorio vier cobrar o aluguel no fim da semana, pague o dízimo ou lute pela cabeça dele.",
     "artAlt": "Um pequeno campeão numa colina encara um Senhorio gigante e coroado que se ergue das colinas escuras sob uma lua vermelho-sangue.",
     "clipTitle": "Gameplay",
     "clipAlt": "Clipe de gameplay: na noite do Senhorio o mapa fica vermelho enquanto o Rei Oco vem cobrar; a carta dele oferece pagar o dízimo ou lutar; depois o combate se resolve.",
@@ -41,8 +41,8 @@
     "intro": "Cada partida dura três semanas. Você caminha por um mapa coberto de névoa, abre baús, visita santuários e forjas e combina relíquias antes que a semana acabe. As lutas são automáticas; a estratégia está no caminho que você traça e na build que você monta.",
     "points": [
       {
-        "title": "Previsão exata na estrada",
-        "text": "O combate é 100% determinístico. Antes de aceitar qualquer luta comum, o jogo simula o embate e mostra o resultado exato, como \"Vitória com 29 PV restantes\". Só contra o Senhorio você luta no escuro."
+        "title": "Leia o inimigo, não os dados",
+        "text": "O combate é 100% determinístico, e cada inimigo carrega itens reais que você pode inspecionar antes da luta: compare o equipamento dele com o seu. Sua Pedra do Desespero marca qualquer inimigo cuja luta mataria você, e não diz mais nada. Contra o Senhorio ela fica em silêncio."
       },
       {
         "title": "Pague o aluguel ou lute",
@@ -87,9 +87,9 @@
         "caption": "O combate é automático; a preparação define a luta.",
         "alt": "Uma luta contra o Rei Oco numa capela em ruínas, com barras de vida, armadura e números de dano."
       },
-      "forecast": {
-        "caption": "O jogo calcula e mostra o resultado antes de você aceitar a luta.",
-        "alt": "A carta de um Bruto de Cinzas com a previsão: Vitória com 29 PV restantes, e os botões Lutar e Recuar."
+      "stone": {
+        "caption": "A Pedra do Desespero escurece sobre uma luta que mataria você.",
+        "alt": "A tela de pré-luta de um inimigo, com seus atributos e os itens que ele carrega, a marca da Pedra do Desespero e o aviso Esta luta mataria você, e os botões Lutar e Recuar."
       },
       "risen": {
         "caption": "Um campeão morto em outra partida agora vaga pela estrada com seu ouro.",
@@ -128,18 +128,20 @@
   "features": {
     "title": "Recursos",
     "items": [
-      "6 campeões jogáveis, cada um com arma inicial e passiva exclusivas.",
-      "64 relíquias em 8 famílias, com bônus de conjunto para 2, 4 e 6 peças.",
-      "19 Senhorios distribuídos em 6 regiões e 3 semanas.",
-      "77 inimigos pelo mapa, incluindo patrulhas, emboscadas, bandos, guardiões e mímicos.",
-      "Ciclo de dia e noite: à noite a visão diminui e as sombras caçam você.",
-      "Pavor: cada abate deixa a região mais perigosa e aumenta o ouro dos inimigos.",
-      "Banco e bolsa separados: aposte ouro no início e saque após cada Senhorio.",
-      "9 juramentos opcionais que endurecem a partida e aumentam o pagamento.",
-      "17 bênçãos, 8 consumíveis de cinto, 12 eventos, forjas, fogueiras e poços.",
-      "Suas partidas passadas deixam Ecos, campeões reerguidos e Senhorios coroados no mapa.",
-      "Pixel art nativa em 640x360, com controles para mouse, teclado e toque.",
-      "Traduzido para 14 idiomas."
+      "6 playable champions and 12 second classes.",
+      "Attribute points and a skill point every level; a skill tree of three branches.",
+      "96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
+      "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
+      "19 Landlords across 6 biomes and 3 weeks.",
+      "Patrols, packs, ambushes, guardians and mimics on the map.",
+      "Day and night: at night your sight shrinks and shadows hunt you.",
+      "Your fallen champions rise and hunt you; your winners return as Landlords.",
+      "Separate bank and purse: stake gold at the start and cash out after each Landlord.",
+      "9 optional oaths that raise both the difficulty and the payout.",
+      "Voices with emotion for every character, and ambient sound for every biome.",
+      "A herbarium, a bestiary and 12 feats in the Journal.",
+      "Native 640x360 pixel art with mouse, keyboard, controller and touch.",
+      "Translated into 14 languages."
     ]
   },
   "platforms": {
@@ -159,7 +161,7 @@
     "includesTitle": "O que a demo inclui",
     "includes": [
       "2 campeões: o Penitente de Ferro e a Atiradora da Forca.",
-      "A partida completa: três semanas no mapa, previsões na estrada, eventos, lojas, juramentos e os Senhorios.",
+      "A partida completa: três semanas no mapa, eventos, lojas, juramentos e os Senhorios.",
       "As 4 famílias de relíquias iniciais.",
       "Sem Relicário: os outros campeões, famílias de relíquias e melhorias de bolsa vêm no jogo completo.",
       "Um save próprio, separado do jogo completo."
@@ -220,7 +222,7 @@
     "contact": "Contato",
     "social": "Redes sociais",
     "descriptionTitle": "Descrição",
-    "description": "Dawnbringer é um auto-battler roguelike de fantasia sombria em pixel art. O sol apagou, o ouro é o único calor que resta e toda semana um Senhorio vem cobrar o aluguel. O jogador explora um mapa em turnos, escolhe lutas, coleta relíquias de oito famílias e monta sua build. Como o combate é automático e não usa sorte, cada encontro comum mostra o resultado exato antes de começar; contra o Senhorio não há previsão, e é preciso escolher entre pagar o dízimo ou lutar. Antes de sair do acampamento, você aposta ouro do banco, e após cada semana decide se guarda o lucro ou arrisca a bolsa na semana seguinte. Campeões mortos voltam como inimigos no mapa em partidas futuras, e os vencedores podem assumir o trono como novos Senhorios.",
+    "description": "Dawnbringer é um auto-battler roguelike de fantasia sombria em pixel art. O sol apagou, o ouro é o único calor que resta e toda semana um Senhorio vem cobrar o aluguel. O jogador explora um mapa em turnos, escolhe lutas, coleta relíquias de oito famílias e monta sua build. Como o combate é automático e não usa sorte, e cada inimigo carrega itens visíveis, o jogador julga cada luta na estrada lendo o equipamento do inimigo contra a própria build; a Pedra do Desespero só avisa quando uma luta mataria o herói. Contra o Senhorio ela fica em silêncio, e é preciso escolher entre pagar o dízimo ou lutar. Antes de sair do acampamento, você aposta ouro do banco, e após cada semana decide se guarda o lucro ou arrisca a bolsa na semana seguinte. Campeões mortos voltam como inimigos no mapa em partidas futuras, e os vencedores podem assumir o trono como novos Senhorios.",
     "mediaTitle": "Logo, arte principal e capturas de tela",
     "zip": "Baixar tudo (.zip, {size})",
     "logo": "Logo (PNG, transparente)",
@@ -230,11 +232,12 @@
     "screensNote": "As capturas de tela são PNG em 1920x1080, ampliadas em escala inteira a partir da resolução nativa de 640x360.",
     "creditsTitle": "Créditos",
     "credits": [
-      "Design, código e arte: gmunaro",
-      "Música: Juhani Junkala (CC0); a trilha da noite do Senhorio é original, tocada com samples do VSCO 2 Community Edition (CC0)",
-      "Efeitos sonoros: Kenney, StarNinjas, Oiboo (CC0) e sons originais",
-      "Vozes: fala sintética gerada com Qwen3-TTS (equipe Qwen da Alibaba); nenhuma voz humana foi gravada ou clonada",
-      "Fontes: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel e GNU Unifont (SIL Open Font License 1.1)"
+      "Design, code and art: gmunaro",
+      "Music: Juhani Junkala (CC0); the Landlord's night score is original, played on VSCO 2 Community Edition samples (CC0)",
+      "Sound effects: Kenney, StarNinjas, Oiboo (CC0) and original sounds",
+      "Ambient sound: field recordings from freesound.org (CC0)",
+      "Voices: synthetic speech from ElevenLabs v4; no human voice was recorded or cloned",
+      "Fonts: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel and GNU Unifont (SIL Open Font License 1.1)"
     ],
     "contactTitle": "Contato",
     "contactText": "Para imprensa, chaves de avaliação e outros assuntos, escreva para"
@@ -259,5 +262,58 @@
   "changelog": {
     "title": "Novidades",
     "description": "Cada atualização do Dawnbringer e o que mudou nela."
+  },
+  "news": {
+    "title": "New in 0.5",
+    "intro": "Version 0.5.0 adds classes, a skill tree, gear by slot, a new combat model, voices for every character and six biomes with their own life and sound.",
+    "items": {
+      "classes": {
+        "title": "Classes",
+        "text": "The six champions are the first classes. From week 2 the class master waits on the map, and once you have beaten a Landlord each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
+        "alt": "The class master offers a champion its two second classes."
+      },
+      "tree": {
+        "title": "Attributes and a skill tree",
+        "text": "Every level gives attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.",
+        "alt": "The skill tree with nodes bought in two branches."
+      },
+      "gear": {
+        "title": "Gear by slot",
+        "text": "96 items in 10 families, each worn in its slot: weapon, shield, head, body, cloak, boots and three charms. The forge reheats an item up to +4 and never fails. Monsters drop rare cards that set into your gear.",
+        "alt": "The forge with a reheated item and a monster card set into it."
+      },
+      "combat": {
+        "title": "A new way to fight",
+        "text": "Speed decides how often each fighter acts. Hard DEF takes a share off every hit, and Soft DEF soaks damage before health. Your gear shows on the hero's body, each piece in its place. The game still never tells you how a fight will end.",
+        "alt": "A hero in full gear fights a group of monsters."
+      },
+      "risen": {
+        "title": "The risen hunt you",
+        "text": "Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, slower than you walk. If one reaches you, you fight.",
+        "alt": "A risen hero walks toward the player across the map."
+      },
+      "biomes": {
+        "title": "Six biomes that breathe",
+        "text": "Every biome has its own rocks, plants, small animals, wind and particles, and its own sound by day and by night. The plants sway with the music. Your seed's map stays the same: the decoration never blocks a tile.",
+        "alt": "The six biomes of Dawnbringer, by day and by night."
+      },
+      "voices": {
+        "title": "Every character speaks",
+        "text": "The lore, the 12 NPCs on the map and every kind of monster in battle speak with emotion. The voices are synthetic speech; no human voice was recorded or cloned.",
+        "alt": "Mother Hesper speaks at the Last Camp."
+      },
+      "collection": {
+        "title": "Finds, feats and a postcard",
+        "text": "Twelve plants and animals hide in the biomes as finds for the Journal's herbarium and bestiary. Twelve feats track your runs. On Android, the share menu sends a framed postcard of your hero.",
+        "alt": "The Journal's collection with finds from each biome."
+      }
+    }
+  },
+  "listen": {
+    "title": "Listen",
+    "voice": "Mother Hesper, from the lore",
+    "ambience": "Drowned Vigil at night",
+    "monster": "The Tithe Taker, before a fight",
+    "fallback": "Your browser cannot play this audio."
   }
 }
