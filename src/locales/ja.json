@@ -128,18 +128,20 @@
   "features": {
     "title": "特徴",
     "items": [
-      "固有の初期武器とパッシブを持つ6人のプレイアブル英雄。",
-      "8系統・全64種の聖遺物。2、4、6個でセット効果が発動。",
-      "6つの地域と3週間に待ち受ける19体の地主。",
-      "巡回、伏兵、群れ、守護者、ミミックなどマップ上の敵77種。",
-      "昼夜のサイクル：夜は視界が狭まり、影が迫ってくる。",
-      "戦慄システム：敵を倒すほど地域の危険度と獲得ゴールドが上昇。",
-      "銀行と財布の分離：出発前にゴールドを賭け、地主撃破ごとに換金できる。",
-      "難度と報酬の両方を引き上げる9つの誓約。",
-      "祝福17種、ベルト消耗品8種、イベント12種、鍛冶場、焚き火、泉。",
-      "過去の挑戦が残響、蘇った英雄、戴冠した地主としてマップに残る。",
-      "640x360ネイティブのピクセルアート。マウス、キーボード、タッチ操作に対応。",
-      "14言語に翻訳済み。"
+      "6 playable champions and 12 second classes.",
+      "5 attribute points and a skill point per level; a skill tree of three branches.",
+      "96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
+      "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
+      "19 Landlords across 6 biomes and 3 weeks.",
+      "Patrols, packs, ambushes, guardians and mimics on the map.",
+      "Day and night: at night your sight shrinks and shadows hunt you.",
+      "Your fallen champions rise and hunt you; your winners return as Landlords.",
+      "Separate bank and purse: stake gold at the start and cash out after each Landlord.",
+      "9 optional oaths that raise both the difficulty and the payout.",
+      "Voices with emotion for every character, and ambient sound for every biome.",
+      "A herbarium, a bestiary and 12 feats in the Journal.",
+      "Native 640x360 pixel art with mouse, keyboard, controller and touch.",
+      "Translated into 14 languages."
     ]
   },
   "platforms": {
@@ -230,11 +232,12 @@
     "screensNote": "スクリーンショットはネイティブ解像度640x360を整数倍拡大した1920x1080のPNGです。",
     "creditsTitle": "クレジット",
     "credits": [
-      "デザイン、プログラム、アート：gmunaro",
-      "音楽：Juhani Junkala（CC0）。地主の夜の楽曲はオリジナルで、VSCO 2 Community Editionのサンプル（CC0）で演奏",
-      "効果音：Kenney、StarNinjas、Oiboo（CC0）およびオリジナル音源",
-      "ボイス：Qwen3-TTS（Alibaba Qwen チーム）で生成した合成音声。人間の声の録音や複製は行っていません",
-      "フォント：Kenney（CC0）、Jacquarda Bastarda 9、Fusion Pixel、GNU Unifont（SIL Open Font License 1.1）"
+      "Design, code and art: gmunaro",
+      "Music: Juhani Junkala (CC0); the Landlord's night score is original, played on VSCO 2 Community Edition samples (CC0)",
+      "Sound effects: Kenney, StarNinjas, Oiboo (CC0) and original sounds",
+      "Ambient sound: field recordings from freesound.org (CC0)",
+      "Voices: synthetic speech from ElevenLabs v4; no human voice was recorded or cloned",
+      "Fonts: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel and GNU Unifont (SIL Open Font License 1.1)"
     ],
     "contactTitle": "連絡先",
     "contactText": "取材、レビュー用キー、その他のご連絡はこちらへ："
@@ -259,5 +262,58 @@
   "changelog": {
     "title": "更新情報",
     "description": "Dawnbringerの各アップデートと変更内容。"
+  },
+  "news": {
+    "title": "New in 0.5",
+    "intro": "Version 0.5.0 adds classes, a skill tree, gear by slot, a new combat model, voices for every character and six biomes with their own life and sound.",
+    "items": {
+      "classes": {
+        "title": "Classes",
+        "text": "The six champions are the first classes. After your first Landlord, the class master waits on the map: each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
+        "alt": "The class master offers a champion its two second classes."
+      },
+      "tree": {
+        "title": "Attributes and a skill tree",
+        "text": "Every level gives 5 attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.",
+        "alt": "The skill tree with nodes bought in two branches."
+      },
+      "gear": {
+        "title": "Gear by slot",
+        "text": "96 items in 10 families, each worn in its slot: weapon, shield, head, body, cloak, boots and three charms. The forge reheats an item up to +4 and never fails. Monsters drop rare cards that set into your gear.",
+        "alt": "The forge with a reheated item and a monster card set into it."
+      },
+      "combat": {
+        "title": "A new way to fight",
+        "text": "Speed decides how often each fighter acts. Hard DEF takes a share off every hit, and Soft DEF soaks damage before health. Your gear shows on the hero's body, each piece in its place. The game still never tells you how a fight will end.",
+        "alt": "A hero in full gear fights a group of monsters."
+      },
+      "risen": {
+        "title": "The risen hunt you",
+        "text": "Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, one step for every five of yours. If one reaches you, you fight.",
+        "alt": "A risen hero walks toward the player across the map."
+      },
+      "biomes": {
+        "title": "Six biomes that breathe",
+        "text": "Every biome has its own rocks, plants, small animals, wind and particles, and its own sound by day and by night. The plants sway with the music. Your seed's map stays the same: the decoration never blocks a tile.",
+        "alt": "The six biomes of Dawnbringer, by day and by night."
+      },
+      "voices": {
+        "title": "Every character speaks",
+        "text": "The lore, the 12 NPCs on the map and every kind of monster in battle speak with emotion. The voices are synthetic speech; no human voice was recorded or cloned.",
+        "alt": "Mother Hesper speaks at the Last Camp."
+      },
+      "collection": {
+        "title": "Finds, feats and a postcard",
+        "text": "Twelve plants and animals hide in the biomes as finds for the Journal's herbarium and bestiary. Twelve feats track your runs. On Android, the share menu sends a framed postcard of your hero.",
+        "alt": "The Journal's collection with finds from each biome."
+      }
+    }
+  },
+  "listen": {
+    "title": "Listen",
+    "voice": "Mother Hesper, from the lore",
+    "ambience": "Drowned Vigil at night",
+    "monster": "A monster in battle",
+    "fallback": "Your browser cannot play this audio."
   }
 }

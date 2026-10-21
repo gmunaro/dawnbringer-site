@@ -128,18 +128,20 @@
   "features": {
     "title": "Características",
     "items": [
-      "6 campeones jugables, cada uno con arma inicial y pasiva propias.",
-      "64 reliquias en 8 familias, con bonificaciones de conjunto de 2, 4 y 6 piezas.",
-      "19 Terratenientes repartidos en 6 regiones y 3 semanas.",
-      "77 enemigos en el mapa, entre patrullas, emboscadas, hordas, guardianes y mímicos.",
-      "Ciclo de día y noche: de noche se reduce la visión y las sombras te cazan.",
-      "Pavor: cada baja vuelve la región más peligrosa y aumenta el oro que sueltan los enemigos.",
-      "Banco y bolsa separados: apuesta oro al salir y retira las ganancias tras cada Terrateniente.",
-      "9 juramentos opcionales que endurecen la partida y aumentan la paga.",
-      "17 bendiciones, 8 consumibles de cinturón, 12 eventos, forjas, hogueras y pozos.",
-      "Tus partidas anteriores dejan Ecos, campeones resurgidos y Terratenientes coronados en el mapa.",
-      "Pixel art nativo a 640x360 con control por ratón, teclado y pantalla táctil.",
-      "Traducido a 14 idiomas."
+      "6 playable champions and 12 second classes.",
+      "5 attribute points and a skill point per level; a skill tree of three branches.",
+      "96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
+      "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
+      "19 Landlords across 6 biomes and 3 weeks.",
+      "Patrols, packs, ambushes, guardians and mimics on the map.",
+      "Day and night: at night your sight shrinks and shadows hunt you.",
+      "Your fallen champions rise and hunt you; your winners return as Landlords.",
+      "Separate bank and purse: stake gold at the start and cash out after each Landlord.",
+      "9 optional oaths that raise both the difficulty and the payout.",
+      "Voices with emotion for every character, and ambient sound for every biome.",
+      "A herbarium, a bestiary and 12 feats in the Journal.",
+      "Native 640x360 pixel art with mouse, keyboard, controller and touch.",
+      "Translated into 14 languages."
     ]
   },
   "platforms": {
@@ -230,11 +232,12 @@
     "screensNote": "Las capturas son PNG de 1920x1080, escaladas por enteros desde la resolución nativa de 640x360.",
     "creditsTitle": "Créditos",
     "credits": [
-      "Diseño, código y arte: gmunaro",
-      "Música: Juhani Junkala (CC0); la partitura de la noche del Terrateniente es original, interpretada con samples de VSCO 2 Community Edition (CC0)",
-      "Efectos de sonido: Kenney, StarNinjas, Oiboo (CC0) y sonidos originales",
-      "Voces: habla sintética generada con Qwen3-TTS (equipo Qwen de Alibaba); no se grabó ni clonó ninguna voz humana",
-      "Fuentes: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel y GNU Unifont (SIL Open Font License 1.1)"
+      "Design, code and art: gmunaro",
+      "Music: Juhani Junkala (CC0); the Landlord's night score is original, played on VSCO 2 Community Edition samples (CC0)",
+      "Sound effects: Kenney, StarNinjas, Oiboo (CC0) and original sounds",
+      "Ambient sound: field recordings from freesound.org (CC0)",
+      "Voices: synthetic speech from ElevenLabs v4; no human voice was recorded or cloned",
+      "Fonts: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel and GNU Unifont (SIL Open Font License 1.1)"
     ],
     "contactTitle": "Contacto",
     "contactText": "Para prensa, claves de análisis y otras consultas, escribe a"
@@ -259,5 +262,58 @@
   "changelog": {
     "title": "Novedades",
     "description": "Cada actualización de Dawnbringer y lo que cambió en ella."
+  },
+  "news": {
+    "title": "New in 0.5",
+    "intro": "Version 0.5.0 adds classes, a skill tree, gear by slot, a new combat model, voices for every character and six biomes with their own life and sound.",
+    "items": {
+      "classes": {
+        "title": "Classes",
+        "text": "The six champions are the first classes. After your first Landlord, the class master waits on the map: each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
+        "alt": "The class master offers a champion its two second classes."
+      },
+      "tree": {
+        "title": "Attributes and a skill tree",
+        "text": "Every level gives 5 attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.",
+        "alt": "The skill tree with nodes bought in two branches."
+      },
+      "gear": {
+        "title": "Gear by slot",
+        "text": "96 items in 10 families, each worn in its slot: weapon, shield, head, body, cloak, boots and three charms. The forge reheats an item up to +4 and never fails. Monsters drop rare cards that set into your gear.",
+        "alt": "The forge with a reheated item and a monster card set into it."
+      },
+      "combat": {
+        "title": "A new way to fight",
+        "text": "Speed decides how often each fighter acts. Hard DEF takes a share off every hit, and Soft DEF soaks damage before health. Your gear shows on the hero's body, each piece in its place. The game still never tells you how a fight will end.",
+        "alt": "A hero in full gear fights a group of monsters."
+      },
+      "risen": {
+        "title": "The risen hunt you",
+        "text": "Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, one step for every five of yours. If one reaches you, you fight.",
+        "alt": "A risen hero walks toward the player across the map."
+      },
+      "biomes": {
+        "title": "Six biomes that breathe",
+        "text": "Every biome has its own rocks, plants, small animals, wind and particles, and its own sound by day and by night. The plants sway with the music. Your seed's map stays the same: the decoration never blocks a tile.",
+        "alt": "The six biomes of Dawnbringer, by day and by night."
+      },
+      "voices": {
+        "title": "Every character speaks",
+        "text": "The lore, the 12 NPCs on the map and every kind of monster in battle speak with emotion. The voices are synthetic speech; no human voice was recorded or cloned.",
+        "alt": "Mother Hesper speaks at the Last Camp."
+      },
+      "collection": {
+        "title": "Finds, feats and a postcard",
+        "text": "Twelve plants and animals hide in the biomes as finds for the Journal's herbarium and bestiary. Twelve feats track your runs. On Android, the share menu sends a framed postcard of your hero.",
+        "alt": "The Journal's collection with finds from each biome."
+      }
+    }
+  },
+  "listen": {
+    "title": "Listen",
+    "voice": "Mother Hesper, from the lore",
+    "ambience": "Drowned Vigil at night",
+    "monster": "A monster in battle",
+    "fallback": "Your browser cannot play this audio."
   }
 }
