@@ -22,7 +22,7 @@
   },
   "hero": {
     "tagline": "The sun is dead. Carry its last ember.",
-    "pitch": "Cross a dark land, pick your fights and build a champion: a second class, a skill tree, 96 items worn by slot and reheated at the forge. Combat uses no dice. Every foe carries gear you can read, and your Stone of Despair darkens before a fight that would kill you. When the Landlord comes for the rent at week's end, pay the tithe or fight for its head.",
+    "pitch": "Cross a dark land, pick your fights and build a champion: a second class, a skill tree, 96 items worn by slot and reheated at the forge. Combat uses no dice. Every foe carries gear you can read, and your Stone of Despair darkens before a fight that would kill you, never before a Landlord. When the Landlord comes for the rent at week's end, pay the tithe or fight for its head.",
     "artAlt": "A small champion on a hill faces a giant crowned Landlord rising from the dark hills under a blood-red moon.",
     "clipTitle": "Gameplay",
     "clipAlt": "Gameplay clip: on the Landlord's night the map turns red as the Hollow King comes to collect; its card offers to pay the tithe or fight; then the battle resolves.",
@@ -269,7 +269,7 @@
     "items": {
       "classes": {
         "title": "Classes",
-        "text": "The six champions are the first classes. After your first Landlord, the class master waits on the map: each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
+        "text": "The six champions are the first classes. From week 2 the class master waits on the map, and once you have beaten a Landlord each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
         "alt": "The class master offers a champion its two second classes."
       },
       "tree": {

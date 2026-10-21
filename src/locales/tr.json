@@ -269,7 +269,7 @@
     "items": {
       "classes": {
         "title": "Classes",
-        "text": "The six champions are the first classes. After your first Landlord, the class master waits on the map: each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
+        "text": "The six champions are the first classes. From week 2 the class master waits on the map, and once you have beaten a Landlord each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
         "alt": "The class master offers a champion its two second classes."
       },
       "tree": {

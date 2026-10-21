@@ -14,7 +14,7 @@ export const CONTACT = "dawnbringergame@gmail.com";
 export const SOCIALS: { name: string; url: string }[] = [
   { name: "YouTube", url: "https://www.youtube.com/@dawnbringergame" },
   { name: "Bluesky", url: "https://bsky.app/profile/dawnbringergame.bsky.social" },
-  { name: "Reddit", url: "https://www.reddit.com/user/dawnbringergame" },
+  { name: "Reddit", url: "https://www.reddit.com/r/Dawnbringer/" },
 ];
 
 /** The studio behind the game, linked in the footer ("Made by"). */
