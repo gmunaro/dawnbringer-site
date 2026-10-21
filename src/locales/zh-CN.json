@@ -122,12 +122,12 @@
     "linuxNote": "x86_64。解压压缩包并运行 DawnbringerDemo.x86_64。需要支持 OpenGL 3.3 的显卡驱动。",
     "download": "下载（{size}）",
     "checksums": "文件的 SHA-256 校验和",
-    "android": "Android：封闭测试正在进行。",
+    "android": "Android：封闭测试已开放。",
     "androidLink": "加入测试",
     "ios": "iPhone 和 iPad：暂未推出。"
   },
   "beta": {
-    "title": "加入测试",
+    "title": "加入 Android 封闭测试",
     "testCardCaption": "已加标注的 Android 测试支付截图。X 划去虚拟金额，绿框标出测试卡及 Google 的提示：这是测试订单，不会扣款。",
     "paymentNoticeTitle": "测试支付的金额是虚拟的。不会实际扣款。",
     "paymentNoticeText": "使用 Test card, always approves 时，Google Play 只会模拟购买。即使显示 R$9.99 或其他金额，也不会扣除任何钱款。请确认已选中此支付方式。如果显示的是你自己的银行卡或其他真实支付方式，请勿确认并联系我们。",
@@ -138,7 +138,7 @@
     "step2Link": "打开测试页面",
     "step3": "在 Android 手机或平板上打开 Google Play 的游戏页面，点击安装。在电脑上操作时，请在弹窗中选择你的 Android 设备，然后点击 Install 或安装。",
     "step3Link": "从 Google Play 安装",
-    "note": "免费测试权限将在发售时结束。参与测试不包含购买正式版。",
+    "note": "免费封闭测试权限将在发售时结束。参与测试不包含购买正式版。",
     "helpTitle": "安装时需要帮助？",
     "accountHelp": "群组、测试页面和 Play 商店必须使用同一账号。如果你有多个 Google 账号，请检查每个页面及商店应用中的头像。",
     "priceTitle": "显示价格或购买按钮？",
