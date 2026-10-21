@@ -129,7 +129,7 @@
     "title": "特徴",
     "items": [
       "6 playable champions and 12 second classes.",
-      "5 attribute points and a skill point per level; a skill tree of three branches.",
+      "Attribute points and a skill point every level; a skill tree of three branches.",
       "96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
       "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
       "19 Landlords across 6 biomes and 3 weeks.",
@@ -274,7 +274,7 @@
       },
       "tree": {
         "title": "Attributes and a skill tree",
-        "text": "Every level gives 5 attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.",
+        "text": "Every level gives attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.",
         "alt": "The skill tree with nodes bought in two branches."
       },
       "gear": {
@@ -289,7 +289,7 @@
       },
       "risen": {
         "title": "The risen hunt you",
-        "text": "Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, one step for every five of yours. If one reaches you, you fight.",
+        "text": "Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, slower than you walk. If one reaches you, you fight.",
         "alt": "A risen hero walks toward the player across the map."
       },
       "biomes": {
