@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: auto-battler roguelike dark fantasy",
-    "description": "Il sole è morto e il Signore riscuote l'affitto ogni settimana. Costruisci il tuo campione, leggi cosa porta ogni nemico e decidi se pagare la decima o affrontare il boss.",
+    "description": "Il sole è morto e il Signore riscuote l'affitto ogni settimana. Costruisci un campione con classi, un albero delle abilità e una dotazione che rimetti al fuoco alla forgia; leggi cosa porta ogni nemico, poi paga la decima o combatti.",
     "pressTitle": "Press kit di Dawnbringer",
     "pressDescription": "Scheda, descrizione, caratteristiche, logo, key art e screenshot di Dawnbringer, un auto-battler roguelike di gmunaro.",
     "notFoundTitle": "Pagina non trovata",
@@ -17,12 +17,12 @@
     "platforms": "Piattaforme",
     "demo": "Demo",
     "beta": "Beta",
-    "press": "Press kit",
+    "press": "Kit stampa",
     "language": "Lingua"
   },
   "hero": {
     "tagline": "Il sole è morto. Porta la sua ultima brace.",
-    "pitch": "Attraversa una terra al buio, costruisci un campione con 64 reliquie e scegli i tuoi scontri. Non ci sono dadi: ogni nemico porta una dotazione che puoi leggere, e la tua Pietra della Disperazione si oscura prima di uno scontro che ti ucciderebbe. Quando a fine settimana il Signore viene a riscuotere l'affitto, paga la decima o lotta per la sua testa.",
+    "pitch": "Attraversa una terra oscura, scegli i tuoi scontri e costruisci un campione: una seconda classe, un albero delle abilità, 96 oggetti da indossare negli slot e rimessi al fuoco alla forgia. Il combattimento non usa dadi. Ogni nemico porta una dotazione che puoi leggere, e la tua Pietra della Disperazione si oscura prima di uno scontro che ti ucciderebbe, mai davanti a un Signore. Quando a fine settimana il Signore viene a riscuotere l'affitto, paga la decima o combatti per la sua testa.",
     "artAlt": "Un piccolo campione su una collina affronta un gigantesco Signore incoronato che emerge dalle colline buie sotto una luna rosso sangue.",
     "clipTitle": "Gameplay",
     "clipAlt": "Clip di gameplay: nella notte del Signore la mappa diventa rossa mentre il Re Vuoto viene a riscuotere; la sua carta offre di pagare la decima o combattere; poi lo scontro si risolve.",
@@ -50,11 +50,11 @@
       },
       {
         "title": "La caccia dell'ultima notte",
-        "text": "Nell'ultima notte della settimana la luna si tinge di rosso e il Signore entra nella mappa per darti la caccia a ogni passo. Se la tua build è pronta in anticipo, non devi aspettare: marcia fino al suo trono e battilo per ottenere il 50% di oro in più."
+        "text": "Nell'ultima notte della settimana la luna si tinge di rosso e il Signore entra nella mappa per darti la caccia a ogni passo. Se il tuo assetto è pronto in anticipo, non devi aspettare: marcia fino al suo trono e battilo per una ricompensa più ricca."
       },
       {
         "title": "I tuoi morti restano lungo la strada",
-        "text": "Quando un campione muore, resta in quella terra nelle partite successive con l'equipaggiamento che portava. Di giorno vaga per la strada; di notte ti dà la caccia. Sconfiggilo per recuperare parte della borsa perduta."
+        "text": "Quando un campione muore, nelle partite future risorge in quella terra con la dotazione che portava e ti dà la caccia nella zona, di giorno e di notte. Sconfiggilo per recuperare parte della borsa perduta."
       },
       {
         "title": "I tuoi vincitori diventano Signori",
@@ -128,20 +128,20 @@
   "features": {
     "title": "Caratteristiche",
     "items": [
-      "6 playable champions and 12 second classes.",
-      "Attribute points and a skill point every level; a skill tree of three branches.",
-      "96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
-      "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
-      "19 Landlords across 6 biomes and 3 weeks.",
-      "Patrols, packs, ambushes, guardians and mimics on the map.",
-      "Day and night: at night your sight shrinks and shadows hunt you.",
-      "Your fallen champions rise and hunt you; your winners return as Landlords.",
-      "Separate bank and purse: stake gold at the start and cash out after each Landlord.",
-      "9 optional oaths that raise both the difficulty and the payout.",
-      "Voices with emotion for every character, and ambient sound for every biome.",
-      "A herbarium, a bestiary and 12 feats in the Journal.",
-      "Native 640x360 pixel art with mouse, keyboard, controller and touch.",
-      "Translated into 14 languages."
+      "6 campioni giocabili e 12 seconde classi.",
+      "Punti attributo e un punto abilità a ogni livello; un albero delle abilità con tre rami.",
+      "96 oggetti in 10 famiglie, indossati per slot, con bonus di set a 2, 4 e 6 pezzi.",
+      "Dotazione rimessa al fuoco fino a +4 alla forgia, e 19 tipi di carta mostro da incastonarvi.",
+      "19 Signori in 6 biomi e 3 settimane.",
+      "Pattuglie, branchi, imboscate, guardiani e mimici sulla mappa.",
+      "Giorno e notte: di notte la tua vista si restringe e le ombre ti danno la caccia.",
+      "I campioni caduti risorgono e ti danno la caccia; i vincitori tornano come Signori.",
+      "Banca e borsa separate: all'inizio punti oro dalla banca e dopo ogni Signore incassi la borsa.",
+      "9 giuramenti facoltativi che alzano sia la difficoltà sia la ricompensa.",
+      "Voci cariche di emozione per ogni personaggio e suoni ambientali per ogni bioma.",
+      "Un erbario, un bestiario e 12 imprese nel Diario.",
+      "Pixel art nativa 640x360, con mouse, tastiera, controller e touch.",
+      "Tradotto in 14 lingue."
     ]
   },
   "platforms": {
@@ -204,7 +204,7 @@
     "unavailableHelp": "Controlla di esserti iscritto al gruppo e al test con l'account del Play Store. Attendi qualche minuto e riapri la pagina del test. Se non hai ancora accesso, invia una schermata del messaggio, senza dati di pagamento, a"
   },
   "press": {
-    "title": "Press kit",
+    "title": "Kit stampa",
     "intro": "Scheda tecnica, key art, loghi e screenshot liberi da usare in articoli e video.",
     "factsTitle": "Scheda",
     "developer": "Sviluppatore",
@@ -222,7 +222,7 @@
     "contact": "Contatto",
     "social": "Social",
     "descriptionTitle": "Descrizione",
-    "description": "Dawnbringer è un auto-battler roguelike dark fantasy in pixel art. Il sole è morto, l'oro è l'unico calore rimasto e ogni settimana un Signore viene a riscuotere l'affitto. I giocatori esplorano una mappa a turni, scelgono gli scontri e costruiscono un campione con 64 reliquie divise in otto famiglie. I combattimenti si risolvono in automatico senza casualità e ogni nemico porta oggetti visibili, quindi i giocatori giudicano ogni scontro sulla strada confrontando la sua dotazione con la propria build; una Pietra della Disperazione avvisa solo quando uno scontro ucciderebbe l'eroe. Contro il Signore resta in silenzio, e bisogna pagare la decima o combattere. Prima di ogni partita punti oro dalla tua banca, e dopo ogni settimana decidi se incassare la borsa o rischiarla in una settimana più dura. I campioni caduti vagano per la mappa nelle partite successive, mentre i vincitori possono tornare sul trono di un Signore.",
+    "description": "Dawnbringer è un auto-battler roguelike dark fantasy in pixel art. Il sole è morto, l'oro è l'unico calore rimasto e ogni settimana un Signore viene a riscuotere l'affitto. Chi gioca attraversa una mappa a turni, sceglie gli scontri e costruisce un campione: una seconda classe tra 12, un albero delle abilità, punti attributo e 96 oggetti indossati negli slot, rimessi al fuoco alla forgia e incastonati con carte mostro. Il combattimento si risolve in automatico senza dadi, e il gioco non mostra mai come finirà uno scontro: ogni nemico porta oggetti visibili, quindi chi gioca giudica ogni scontro leggendone la dotazione e confrontandola con il proprio assetto; la Pietra della Disperazione si oscura solo quando uno scontro ucciderebbe l'eroe. Contro il Signore resta in silenzio, e chi gioca deve pagare la decima o combattere. Prima di ogni partita si punta oro dalla banca e, alla fine di ogni settimana, si incassa la borsa o la si rischia in una settimana più dura. I campioni caduti risorgono e danno la caccia a chi gioca nelle partite successive, mentre i campioni vincitori possono tornare sul trono di un Signore. Ogni personaggio parla con una voce sintetica, e ciascuno dei sei biomi ha le proprie piante, i propri animali e suoni ambientali.",
     "mediaTitle": "Logo, key art e screenshot",
     "zip": "Scarica tutto (.zip, {size})",
     "logo": "Logo (PNG, trasparente)",
@@ -232,12 +232,12 @@
     "screensNote": "Gli screenshot sono PNG a 1920x1080, ingranditi con scala intera dalla risoluzione nativa di 640x360.",
     "creditsTitle": "Crediti",
     "credits": [
-      "Design, code and art: gmunaro",
-      "Music: Juhani Junkala (CC0); the Landlord's night score is original, played on VSCO 2 Community Edition samples (CC0)",
-      "Sound effects: Kenney, StarNinjas, Oiboo (CC0) and original sounds",
-      "Ambient sound: field recordings from freesound.org (CC0)",
-      "Voices: synthetic speech from ElevenLabs v4; no human voice was recorded or cloned",
-      "Fonts: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel and GNU Unifont (SIL Open Font License 1.1)"
+      "Design, codice e grafica: gmunaro",
+      "Musica: Juhani Junkala (CC0); la colonna sonora notturna del Signore è originale, suonata con i campioni di VSCO 2 Community Edition (CC0)",
+      "Effetti sonori: Kenney, StarNinjas, Oiboo (CC0) e suoni originali",
+      "Suoni ambientali: registrazioni sul campo da freesound.org (CC0)",
+      "Voci: sintesi vocale da ElevenLabs v4; nessuna voce umana è stata registrata o clonata",
+      "Font: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel e GNU Unifont (SIL Open Font License 1.1)"
     ],
     "contactTitle": "Contatti",
     "contactText": "Per stampa, chiavi di recensione e altre richieste, scrivi a"
@@ -264,56 +264,56 @@
     "description": "Ogni aggiornamento di Dawnbringer e cosa è cambiato."
   },
   "news": {
-    "title": "New in 0.5",
-    "intro": "Version 0.5.0 adds classes, a skill tree, gear by slot, a new combat model, voices for every character and six biomes with their own life and sound.",
+    "title": "Novità nella 0.5",
+    "intro": "La versione 0.5.0 aggiunge classi, un albero delle abilità, dotazione per slot, un nuovo modello di combattimento, voci per ogni personaggio e sei biomi con vita e suono propri.",
     "items": {
       "classes": {
-        "title": "Classes",
-        "text": "The six champions are the first classes. From week 2 the class master waits on the map, and once you have beaten a Landlord each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
-        "alt": "The class master offers a champion its two second classes."
+        "title": "Classi",
+        "text": "I sei campioni sono le prime classi. Dalla settimana 2 il maestro di classe attende sulla mappa; una volta sconfitto un Signore, ogni campione avanza in una delle due seconde classi, 12 in tutto, e in seguito può passare all'altra.",
+        "alt": "Il maestro di classe offre a un campione le sue due seconde classi."
       },
       "tree": {
-        "title": "Attributes and a skill tree",
-        "text": "Every level gives attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.",
-        "alt": "The skill tree with nodes bought in two branches."
+        "title": "Attributi e albero delle abilità",
+        "text": "Ogni livello dà punti attributo e un punto abilità per un albero di tre rami, con cinque nodi ciascuno. I Signori e alcuni eventi danno punti extra. Ilse, la sarta del campo, disfa un assetto per oro.",
+        "alt": "L'albero delle abilità, con nodi acquistati in due rami."
       },
       "gear": {
-        "title": "Gear by slot",
-        "text": "96 items in 10 families, each worn in its slot: weapon, shield, head, body, cloak, boots and three charms. The forge reheats an item up to +4 and never fails. Monsters drop rare cards that set into your gear.",
-        "alt": "The forge with a reheated item and a monster card set into it."
+        "title": "Dotazione per slot",
+        "text": "96 oggetti in 10 famiglie, ognuno indossato nel suo slot: arma, scudo, testa, corpo, mantello, stivali e tre amuleti. La forgia rimette al fuoco un oggetto fino a +4 e non fallisce mai. I mostri lasciano carte rare che si incastonano nella dotazione.",
+        "alt": "La forgia con un oggetto rimesso al fuoco e una carta mostro incastonata."
       },
       "combat": {
-        "title": "A new way to fight",
-        "text": "Speed decides how often each fighter acts. Hard DEF takes a share off every hit, and Soft DEF soaks damage before health. Your gear shows on the hero's body, each piece in its place. The game still never tells you how a fight will end.",
-        "alt": "A hero in full gear fights a group of monsters."
+        "title": "Un nuovo modo di combattere",
+        "text": "La velocità decide quante volte agisce ogni combattente. La difesa rigida toglie una quota a ogni colpo, e la difesa morbida assorbe il danno prima dei PV. La tua dotazione si vede sul corpo dell'eroe, ogni pezzo al suo posto. Il gioco continua a non dirti mai come finirà uno scontro.",
+        "alt": "Un eroe con la dotazione completa combatte un gruppo di mostri."
       },
       "risen": {
-        "title": "The risen hunt you",
-        "text": "Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, slower than you walk. If one reaches you, you fight.",
-        "alt": "A risen hero walks toward the player across the map."
+        "title": "I risorti ti danno la caccia",
+        "text": "I tuoi eroi caduti risorgono dove sono morti, portando la dotazione con cui sono morti, e ti danno la caccia nella zona di giorno e di notte, più lenti del tuo passo. Se uno ti raggiunge, si combatte.",
+        "alt": "Un eroe risorto avanza verso chi gioca attraverso la mappa."
       },
       "biomes": {
-        "title": "Six biomes that breathe",
-        "text": "Every biome has its own rocks, plants, small animals, wind and particles, and its own sound by day and by night. The plants sway with the music. Your seed's map stays the same: the decoration never blocks a tile.",
-        "alt": "The six biomes of Dawnbringer, by day and by night."
+        "title": "Sei biomi che respirano",
+        "text": "Ogni bioma ha le proprie rocce, piante, piccoli animali, vento e particelle, e un proprio suono di giorno e di notte. Le piante ondeggiano al ritmo della musica. La mappa del tuo seme resta identica: la decorazione non blocca mai una casella.",
+        "alt": "I sei biomi di Dawnbringer, di giorno e di notte."
       },
       "voices": {
-        "title": "Every character speaks",
-        "text": "The lore, the 12 NPCs on the map and every kind of monster in battle speak with emotion. The voices are synthetic speech; no human voice was recorded or cloned.",
-        "alt": "Mother Hesper speaks at the Last Camp."
+        "title": "Ogni personaggio parla",
+        "text": "I testi narrativi, i 12 PNG sulla mappa e ogni tipo di mostro in battaglia parlano con emozione. Sono voci sintetiche; nessuna voce umana è stata registrata o clonata.",
+        "alt": "Madre Hesper parla all'Ultimo Campo."
       },
       "collection": {
-        "title": "Finds, feats and a postcard",
-        "text": "Twelve plants and animals hide in the biomes as finds for the Journal's herbarium and bestiary. Twelve feats track your runs. On Android, the share menu sends a framed postcard of your hero.",
-        "alt": "The Journal's collection with finds from each biome."
+        "title": "Ritrovamenti, imprese e una cartolina",
+        "text": "Dodici piante e animali si nascondono nei biomi come ritrovamenti per l'erbario e il bestiario del Diario. Dodici imprese registrano le tue partite. Su Android, il menu di condivisione invia una cartolina incorniciata del tuo eroe.",
+        "alt": "La raccolta del Diario, con i ritrovamenti di ogni bioma."
       }
     }
   },
   "listen": {
-    "title": "Listen",
-    "voice": "Mother Hesper, from the lore",
-    "ambience": "Drowned Vigil at night",
-    "monster": "The Tithe Taker, before a fight",
-    "fallback": "Your browser cannot play this audio."
+    "title": "Ascolta",
+    "voice": "Madre Hesper, dai testi narrativi",
+    "ambience": "Veglia Annegata di notte",
+    "monster": "L'Esattore, prima di uno scontro",
+    "fallback": "Il tuo browser non può riprodurre questo audio."
   }
 }

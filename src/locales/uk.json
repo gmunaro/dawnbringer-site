@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: рогалик-автобатлер у жанрі темного фентезі",
-    "description": "Сонце згасло, і Лихвар щотижня приходить по плату. Зберіть обранця, читайте, що несе кожен ворог, і вирішіть: платити десятину чи битися з босом.",
+    "description": "Сонце згасло, і Лихвар щотижня збирає ренту. Зберіть обранця з класами, деревом навичок і спорядженням, яке можна розжарити в кузні. Читайте, що несе кожен ворог, а потім або платіть десятину, або бийтеся.",
     "pressTitle": "Прес-кит Dawnbringer",
     "pressDescription": "Факти, опис, особливості, логотип, ключовий арт і скриншоти Dawnbringer, рогалика-автобатлера від gmunaro.",
     "notFoundTitle": "Сторінку не знайдено",
@@ -22,7 +22,7 @@
   },
   "hero": {
     "tagline": "Сонце згасло. Неси його останню жарину.",
-    "pitch": "Пройдіть крізь занурений у темряву край, зберіть обранця з 64 реліквій та обирайте бої. У грі немає кубиків: кожен ворог несе спорядження, яке можна прочитати, а ваш Камінь Відчаю темніє перед боєм, що вас уб'є. Коли наприкінці тижня Лихвар прийде по плату, віддайте десятину або бийтеся за його голову.",
+    "pitch": "Перетніть темний край, обирайте бої й зберіть обранця: другий клас, дерево навичок, 96 предметів, кожен у своєму слоті, які можна розжарити в кузні. Бої обходяться без кубиків. Кожен ворог несе спорядження, яке можна прочитати, а ваш Камінь Відчаю темніє перед боєм, що вас уб'є, але ніколи перед Лихварем. Коли наприкінці тижня Лихвар прийде по ренту, платіть десятину або бийтеся за його голову.",
     "artAlt": "Маленький обранець на пагорбі перед велетенським коронованим Лихварем, що здіймається з темних пагорбів під криваво-червоним місяцем.",
     "clipTitle": "Геймплей",
     "clipAlt": "Уривок геймплею: у ніч Лихваря карта червоніє, і Порожній король приходить по своє; його картка пропонує сплатити десятину або битися; далі сутичка вирішується.",
@@ -50,11 +50,11 @@
       },
       {
         "title": "Полювання останньої ночі",
-        "text": "Останньої ночі тижня місяць стає криваво-червоним, і Лихвар виходить на карту, переслідуючи вас на кожному кроці. Якщо ваша збірка готова раніше, чекати не обов'язково: рушайте до його трону й здолайте його достроково за 50% більше золота."
+        "text": "Останньої ночі тижня місяць стає криваво-червоним, і Лихвар виходить на карту, щоб полювати на вас з кожним вашим ходом. Якщо збірка готова раніше, чекати не обов'язково: рушайте до його трону й переможіть його достроково за більшу нагороду."
       },
       {
         "title": "Ваші полеглі лишаються на дорозі",
-        "text": "Коли обранець гине, він залишається в цих землях у наступних забігах разом зі своїм спорядженням. Удень він блукає дорогою, а вночі полює на вас. Здолайте його, щоб повернути частину втраченої калити."
+        "text": "Коли обранець гине, він повстає в цих землях у наступних забігах зі спорядженням, яке мав, і полює на вас по всій зоні вдень і вночі. Здолайте його, щоб повернути частину втраченої калити."
       },
       {
         "title": "Ваші переможці стають Лихварями",
@@ -128,20 +128,20 @@
   "features": {
     "title": "Особливості",
     "items": [
-      "6 playable champions and 12 second classes.",
-      "Attribute points and a skill point every level; a skill tree of three branches.",
-      "96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
-      "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
-      "19 Landlords across 6 biomes and 3 weeks.",
-      "Patrols, packs, ambushes, guardians and mimics on the map.",
-      "Day and night: at night your sight shrinks and shadows hunt you.",
-      "Your fallen champions rise and hunt you; your winners return as Landlords.",
-      "Separate bank and purse: stake gold at the start and cash out after each Landlord.",
-      "9 optional oaths that raise both the difficulty and the payout.",
-      "Voices with emotion for every character, and ambient sound for every biome.",
-      "A herbarium, a bestiary and 12 feats in the Journal.",
-      "Native 640x360 pixel art with mouse, keyboard, controller and touch.",
-      "Translated into 14 languages."
+      "6 обранців, за яких можна грати, і 12 других класів.",
+      "Очки характеристик і очко навички за кожен рівень; дерево навичок із трьох гілок.",
+      "96 предметів у 10 родинах, кожен у своєму слоті, з бонусами набору при 2, 4 і 6 деталях.",
+      "Розжарюйте спорядження до +4 у кузні й вставляйте в нього 19 видів карток монстрів.",
+      "19 Лихварів у 6 біомах і 3 тижнях.",
+      "Дозори, зграї, засідники, вартові й мімікі на карті.",
+      "День і ніч: уночі ваш огляд звужується, а тіні полюють на вас.",
+      "Полеглі обранці повстають і полюють на вас; ваші переможці повертаються Лихварями.",
+      "Банк і калита окремо: ставте золото на початку й після кожного Лихваря винесіть калиту в банк.",
+      "9 необов'язкових обітниць, які підвищують і складність, і виплату.",
+      "Голоси з емоціями для кожного персонажа й фоновий звук для кожного біома.",
+      "Гербарій, бестіарій і 12 досягнень у Журналі.",
+      "Піксель-арт у нативних 640x360 з мишею, клавіатурою, контролером і сенсорним керуванням.",
+      "Переклад 14 мовами."
     ]
   },
   "platforms": {
@@ -222,7 +222,7 @@
     "contact": "Контакти",
     "social": "Соцмережі",
     "descriptionTitle": "Опис",
-    "description": "Dawnbringer являє собою рогалик-автобатлер у жанрі темного фентезі з піксельною графікою. Сонце згасло, золото залишилося єдиним теплом, і щотижня Лихвар приходить по ренту. Гравці досліджують покрокову карту, обирають сутички та збирають обранця з 64 реліквій восьми родин. Оскільки бої відбуваються автоматично й без випадковості, кожен ворог несе видимі предмети, тож гравці оцінюють кожну сутичку на дорозі, порівнюючи його спорядження з власною збіркою; Камінь Відчаю попереджає лише тоді, коли бій уб'є героя. Проти Лихваря він мовчить, тож доводиться або платити десятину, або битися. Перед кожним забігом ви ставите золото з банку, а наприкінці кожного тижня вирішуєте, забрати калиту чи ризикнути нею наступного, важчого тижня. Полеглі обранці блукають картою в майбутніх забігах, а переможці можуть повернутися на троні Лихваря.",
+    "description": "Dawnbringer — рогалик-автобатлер у жанрі темного фентезі з піксель-артом. Сонце згасло, золото лишилося єдиним теплом, а щотижня Лихвар приходить по ренту. Гравці проходять покрокову карту, обирають бої й будують обранця: другий клас із 12, дерево навичок, очки характеристик і 96 предметів, кожен у своєму слоті, які можна розжарити в кузні та вставити в них картки монстрів. Бої вирішуються автоматично, без кубиків, і гра ніколи не показує, чим закінчиться бій: кожен ворог несе видимі предмети, тож гравці оцінюють кожен бій, порівнюючи його спорядження зі своєю збіркою. Камінь Відчаю темніє лише тоді, коли бій уб'є героя. Проти Лихваря він мовчить, і гравцеві доводиться платити десятину або битися. Перед кожним забігом гравці ставлять золото з банку, а після кожного тижня або виводять калиту, або ризикують нею на важчому тижні. Полеглі обранці полюють на гравця в наступних забігах, а переможні можуть повернутися на троні Лихваря. Кожен персонаж говорить синтетичним голосом, а в кожному з шести біомів свої рослини, тварини й фоновий звук.",
     "mediaTitle": "Логотип, ключовий арт і скриншоти",
     "zip": "Завантажити все (.zip, {size})",
     "logo": "Логотип (PNG, прозорий фон)",
@@ -232,12 +232,12 @@
     "screensNote": "Скриншоти у форматі PNG 1920x1080, збільшені в ціле число разів із нативної роздільної здатності 640x360.",
     "creditsTitle": "Автори",
     "credits": [
-      "Design, code and art: gmunaro",
-      "Music: Juhani Junkala (CC0); the Landlord's night score is original, played on VSCO 2 Community Edition samples (CC0)",
-      "Sound effects: Kenney, StarNinjas, Oiboo (CC0) and original sounds",
-      "Ambient sound: field recordings from freesound.org (CC0)",
-      "Voices: synthetic speech from ElevenLabs v4; no human voice was recorded or cloned",
-      "Fonts: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel and GNU Unifont (SIL Open Font License 1.1)"
+      "Дизайн, код і арт: gmunaro",
+      "Музика: Juhani Junkala (CC0); нічний саундтрек Лихваря оригінальний, зіграний на семплах VSCO 2 Community Edition (CC0)",
+      "Звукові ефекти: Kenney, StarNinjas, Oiboo (CC0) і оригінальні звуки",
+      "Фоновий звук: польові записи з freesound.org (CC0)",
+      "Голоси: синтетична мова ElevenLabs v4; жоден людський голос не записувався й не клонувався",
+      "Шрифти: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel і GNU Unifont (SIL Open Font License 1.1)"
     ],
     "contactTitle": "Контакти",
     "contactText": "Щодо преси, оглядових ключів та інших питань пишіть на"
@@ -264,56 +264,56 @@
     "description": "Усі оновлення Dawnbringer і що в них змінилося."
   },
   "news": {
-    "title": "New in 0.5",
-    "intro": "Version 0.5.0 adds classes, a skill tree, gear by slot, a new combat model, voices for every character and six biomes with their own life and sound.",
+    "title": "Нове у 0.5",
+    "intro": "Версія 0.5.0 додає класи, дерево навичок, спорядження за слотами, нову бойову модель, голоси для кожного персонажа та шість біомів зі власним життям і звуком.",
     "items": {
       "classes": {
-        "title": "Classes",
-        "text": "The six champions are the first classes. From week 2 the class master waits on the map, and once you have beaten a Landlord each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
-        "alt": "The class master offers a champion its two second classes."
+        "title": "Класи",
+        "text": "Шість обранців — це перші класи. З другого тижня майстер класу чекає на карті, а після перемоги над Лихварем кожен обранець переходить до одного з двох других класів (усього 12) і пізніше може перейти до іншого.",
+        "alt": "Майстер класу пропонує обранцю два його других класи."
       },
       "tree": {
-        "title": "Attributes and a skill tree",
-        "text": "Every level gives attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.",
-        "alt": "The skill tree with nodes bought in two branches."
+        "title": "Характеристики й дерево навичок",
+        "text": "Кожен рівень дає очки характеристик і очко навички для дерева з трьох гілок по п'ять вузлів. Лихварі та деякі події дають додаткові очки. Ільзе, кравчиня в таборі, розпорює збірку за золото.",
+        "alt": "Дерево навичок, де вузли купують у двох гілках."
       },
       "gear": {
-        "title": "Gear by slot",
-        "text": "96 items in 10 families, each worn in its slot: weapon, shield, head, body, cloak, boots and three charms. The forge reheats an item up to +4 and never fails. Monsters drop rare cards that set into your gear.",
-        "alt": "The forge with a reheated item and a monster card set into it."
+        "title": "Спорядження за слотами",
+        "text": "96 предметів у 10 родинах, кожен носиться у своєму слоті: зброя, щит, голова, тулуб, плащ, чоботи й три амулети. Кузня розжарює предмет до +4 і ніколи не завершується невдачею. Монстри випадають рідкісними картками, які вставляються в спорядження.",
+        "alt": "Кузня з розжареним предметом і карткою монстра, вставленою в нього."
       },
       "combat": {
-        "title": "A new way to fight",
-        "text": "Speed decides how often each fighter acts. Hard DEF takes a share off every hit, and Soft DEF soaks damage before health. Your gear shows on the hero's body, each piece in its place. The game still never tells you how a fight will end.",
-        "alt": "A hero in full gear fights a group of monsters."
+        "title": "Новий спосіб битися",
+        "text": "Швидкість визначає, як часто кожен боєць діє. Твердий захист знімає частку з кожного удару, а м'який захист поглинає шкоду раніше за ОЗ. Ваше спорядження видно на тілі героя, кожен предмет на своєму місці. Гра й досі ніколи не скаже, як закінчиться бій.",
+        "alt": "Герой у повному спорядженні б'ється з групою монстрів."
       },
       "risen": {
-        "title": "The risen hunt you",
-        "text": "Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, slower than you walk. If one reaches you, you fight.",
-        "alt": "A risen hero walks toward the player across the map."
+        "title": "Повсталі полюють на вас",
+        "text": "Полеглі герої повстають там, де загинули, із спорядженням, з яким загинули, і полюють на вас по всій зоні вдень і вночі, повільніше, ніж ходите ви. Якщо один із них дістанеться до вас, доведеться битися.",
+        "alt": "Повсталий герой іде картою до гравця."
       },
       "biomes": {
-        "title": "Six biomes that breathe",
-        "text": "Every biome has its own rocks, plants, small animals, wind and particles, and its own sound by day and by night. The plants sway with the music. Your seed's map stays the same: the decoration never blocks a tile.",
-        "alt": "The six biomes of Dawnbringer, by day and by night."
+        "title": "Шість біомів, що дихають",
+        "text": "Кожен біом має власні скелі, рослини, дрібних тварин, вітер і частинки, а також власний звук удень і вночі. Рослини колихаються в такт музиці. Мапа вашого сіду не змінюється: декорація ніколи не блокує клітинку.",
+        "alt": "Шість біомів Dawnbringer удень і вночі."
       },
       "voices": {
-        "title": "Every character speaks",
-        "text": "The lore, the 12 NPCs on the map and every kind of monster in battle speak with emotion. The voices are synthetic speech; no human voice was recorded or cloned.",
-        "alt": "Mother Hesper speaks at the Last Camp."
+        "title": "Говорить кожен персонаж",
+        "text": "Лор, 12 НПС на карті та кожен вид монстрів у бою говорять з емоціями. Голоси синтетичні; жоден людський голос не записувався й не клонувався.",
+        "alt": "Мати Hesper говорить в Останньому таборі."
       },
       "collection": {
-        "title": "Finds, feats and a postcard",
-        "text": "Twelve plants and animals hide in the biomes as finds for the Journal's herbarium and bestiary. Twelve feats track your runs. On Android, the share menu sends a framed postcard of your hero.",
-        "alt": "The Journal's collection with finds from each biome."
+        "title": "Знахідки, досягнення й листівка",
+        "text": "Дванадцять рослин і тварин ховаються в біомах як знахідки для гербарію й бестіарію Журналу. Дванадцять досягнень відстежують ваші забіги. На Android меню «Поділитися» надсилає рамковану листівку з вашим героєм.",
+        "alt": "Колекція Журналу зі знахідками з кожного біома."
       }
     }
   },
   "listen": {
-    "title": "Listen",
-    "voice": "Mother Hesper, from the lore",
-    "ambience": "Drowned Vigil at night",
-    "monster": "The Tithe Taker, before a fight",
-    "fallback": "Your browser cannot play this audio."
+    "title": "Слухати",
+    "voice": "Мати Hesper, з лору",
+    "ambience": "Утоплена варта вночі",
+    "monster": "Десятинник перед боєм",
+    "fallback": "Ваш браузер не може відтворити цей звук."
   }
 }

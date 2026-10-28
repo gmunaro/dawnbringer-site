@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: 다크 판타지 로그라이크 오토배틀러",
-    "description": "태양은 꺼졌고 지주는 매주 지대를 걷으러 온다. 영웅을 꾸리고 적마다 지닌 장비를 읽은 뒤, 상납금을 낼지 보스와 싸울지 결정하라.",
+    "description": "태양은 죽었고 지주는 매주 지대를 걷으러 온다. 직업, 스킬 트리, 대장간에서 재가열하는 장비로 영웅을 키우고, 적마다 지닌 장비를 읽은 뒤 상납금을 낼지 싸울지 정하라.",
     "pressTitle": "Dawnbringer 프레스 키트",
     "pressDescription": "gmunaro의 로그라이크 오토배틀러 Dawnbringer의 팩트 시트, 소개, 특징, 로고, 키 아트, 스크린샷.",
     "notFoundTitle": "페이지를 찾을 수 없습니다",
@@ -22,7 +22,7 @@
   },
   "hero": {
     "tagline": "태양은 꺼졌다. 마지막 불씨를 옮겨라.",
-    "pitch": "어둠에 잠긴 땅을 건너며 64종의 유물로 영웅을 꾸리고 전투를 골라라. 주사위는 없다. 적마다 읽을 수 있는 장비를 지니고 있고, 절망의 돌은 너를 죽일 싸움 앞에서 어두워진다. 주말에 지주가 지대를 걷으러 오면 상납금을 내거나 그의 목을 걸고 싸워라.",
+    "pitch": "어두운 땅을 건너며 싸움을 고르고 영웅을 키워라. 2차 직업, 스킬 트리, 부위별로 착용하고 대장간에서 재가열하는 유물 96종이 있다. 전투에는 주사위가 쓰이지 않는다. 모든 적은 읽을 수 있는 장비를 지니고 있으며, 절망의 돌은 너를 죽일 싸움 앞에서만 어두워지고 지주 앞에서는 어두워지지 않는다. 한 주가 끝나 지주가 지대를 걷으러 오면 상납금을 내거나 지주의 목을 걸고 싸워라.",
     "artAlt": "핏빛 달 아래, 언덕 위의 작은 영웅이 어두운 구릉에서 솟아오르는 왕관 쓴 거대한 지주와 마주한다.",
     "clipTitle": "게임플레이",
     "clipAlt": "게임플레이 영상: 지주의 밤, 텅 빈 왕이 징수하러 오자 지도가 붉게 물든다. 카드는 상납금을 낼지 싸울지 묻고, 이어 전투가 결판난다.",
@@ -50,11 +50,11 @@
       },
       {
         "title": "마지막 밤의 추격",
-        "text": "주의 마지막 밤이 되면 달이 붉게 물들고 지주가 지도에 나타나 걸음마다 너를 추격한다. 빌드가 일찍 갖춰졌다면 기다릴 필요가 없다. 먼저 지주의 왕좌로 쳐들어가 쓰러뜨리면 골드 보상을 50% 더 받는다."
+        "text": "한 주의 마지막 밤이 되면 달이 붉어지고, 지주가 지도에 나타나 걸음마다 너를 추격한다. 빌드가 일찍 갖춰졌다면 기다릴 필요가 없다. 지주의 왕좌로 쳐들어가 쓰러뜨리면 더 큰 보상을 받는다."
       },
       {
         "title": "쓰러진 영웅은 길 위에 남는다",
-        "text": "영웅이 죽으면 지녔던 장비 그대로 다음 런의 지도에 남는다. 낮에는 길을 배회하고 밤에는 너를 사냥한다. 쓰러뜨리면 잃어버린 지갑의 일부를 되찾을 수 있다."
+        "text": "영웅이 죽으면 지녔던 장비를 그대로 지닌 채 이후 런에서 그 땅에 되살아나, 낮과 밤 구분 없이 구역 곳곳에서 너를 쫓는다. 쓰러뜨리면 잃어버린 지갑의 일부를 되찾을 수 있다."
       },
       {
         "title": "승리한 영웅은 지주가 된다",
@@ -128,20 +128,20 @@
   "features": {
     "title": "특징",
     "items": [
-      "6 playable champions and 12 second classes.",
-      "Attribute points and a skill point every level; a skill tree of three branches.",
-      "96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
-      "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
-      "19 Landlords across 6 biomes and 3 weeks.",
-      "Patrols, packs, ambushes, guardians and mimics on the map.",
-      "Day and night: at night your sight shrinks and shadows hunt you.",
-      "Your fallen champions rise and hunt you; your winners return as Landlords.",
-      "Separate bank and purse: stake gold at the start and cash out after each Landlord.",
-      "9 optional oaths that raise both the difficulty and the payout.",
-      "Voices with emotion for every character, and ambient sound for every biome.",
-      "A herbarium, a bestiary and 12 feats in the Journal.",
-      "Native 640x360 pixel art with mouse, keyboard, controller and touch.",
-      "Translated into 14 languages."
+      "플레이 가능한 영웅 6명과 2차 직업 12개.",
+      "레벨마다 능력치 포인트와 스킬 포인트를 얻는다. 세 갈래짜리 스킬 트리.",
+      "10개 계열의 유물 96종을 부위별로 착용하며, 2·4·6부위 세트 효과가 있다.",
+      "대장간에서 장비를 +4까지 재가열하고, 몬스터 카드 19종을 장비에 장착한다.",
+      "6개 바이옴과 3주에 걸쳐 지주 19명.",
+      "지도에 순찰, 무리, 매복자, 수호자, 미믹이 있다.",
+      "낮과 밤: 밤에는 시야가 줄고 그림자가 너를 사냥한다.",
+      "쓰러진 영웅은 일어나 너를 쫓고, 승리한 영웅은 지주로 돌아온다.",
+      "은행과 지갑을 따로 둔다. 런을 시작할 때 골드를 판돈으로 걸고, 지주가 끝날 때마다 정산한다.",
+      "난이도와 보상을 함께 높이는 선택 맹세 9개.",
+      "모든 인물에게 감정을 담은 음성, 모든 바이옴에 환경음.",
+      "일지에 식물 표본집, 몬스터 도감, 업적 12개.",
+      "네이티브 640x360 픽셀 아트, 마우스·키보드·컨트롤러·터치 지원.",
+      "14개 언어로 번역되었다."
     ]
   },
   "platforms": {
@@ -222,7 +222,7 @@
     "contact": "연락처",
     "social": "SNS",
     "descriptionTitle": "소개",
-    "description": "Dawnbringer는 픽셀 아트로 제작된 다크 판타지 로그라이크 오토배틀러입니다. 태양은 꺼지고 황금만이 유일한 온기로 남은 세계에서 매주 지주가 지대를 걷으러 옵니다. 플레이어는 턴제 지도를 탐험하며 전투를 고르고, 8개 계열 64종 유물로 영웅을 육성합니다. 전투는 무작위 요소 없이 자동으로 진행되고 모든 적은 눈에 보이는 소지품을 지니므로, 플레이어는 길 위의 전투마다 그 장비를 자신의 빌드와 견주어 판단합니다. 절망의 돌은 영웅을 죽일 싸움이 있을 때만 경고하며, 지주 앞에서는 침묵합니다. 그래서 상납금을 내거나 싸워야 합니다. 매 런을 시작할 때 은행에서 골드를 걸고, 매주가 끝날 때마다 지갑의 수익을 정산할지 더 험난한 다음 주로 가져갈지 선택합니다. 쓰러진 영웅은 이후 런에서 지도 위의 적으로 배회하고, 승리한 영웅은 지주의 왕좌에 앉아 다시 등장할 수 있습니다.",
+    "description": "Dawnbringer는 픽셀 아트로 제작된 다크 판타지 로그라이크 오토배틀러입니다. 태양은 죽었고 황금만이 유일한 온기로 남았으며, 매주 지주가 지대를 걷으러 옵니다. 플레이어는 턴제 지도를 탐험하며 싸움을 고르고 영웅을 키웁니다. 영웅은 12개 2차 직업 중 하나, 스킬 트리, 능력치 포인트, 그리고 부위별로 착용하며 대장간에서 재가열하고 몬스터 카드를 장착하는 유물 96종으로 성장합니다. 전투는 주사위 없이 자동으로 해결되며, 게임은 싸움의 결과를 미리 보여 주지 않습니다. 모든 적은 눈에 보이는 장비를 지니므로, 플레이어는 그 장비를 자신의 빌드와 견주어 싸움마다 판단합니다. 절망의 돌은 영웅을 죽일 싸움일 때만 어두워지고, 지주 앞에서는 침묵합니다. 그래서 플레이어는 상납금을 내거나 싸워야 합니다. 매 런을 시작하기 전에 은행의 골드를 판돈으로 걸고, 매주가 끝날 때마다 지갑을 정산하거나 더 어려운 다음 주에 걸 수 있습니다. 쓰러진 영웅은 이후 런에서 플레이어를 쫓고, 승리한 영웅은 지주의 왕좌에 앉아 다시 등장할 수 있습니다. 모든 인물은 합성 음성으로 말하며, 여섯 바이옴 각각은 고유한 식물, 동물, 환경음을 지닙니다.",
     "mediaTitle": "로고, 키 아트, 스크린샷",
     "zip": "전체 다운로드(.zip, {size})",
     "logo": "로고(PNG, 투명 배경)",
@@ -232,12 +232,12 @@
     "screensNote": "스크린샷은 네이티브 640x360 해상도를 정수 배율로 확대한 1920x1080 PNG입니다.",
     "creditsTitle": "크레딧",
     "credits": [
-      "Design, code and art: gmunaro",
-      "Music: Juhani Junkala (CC0); the Landlord's night score is original, played on VSCO 2 Community Edition samples (CC0)",
-      "Sound effects: Kenney, StarNinjas, Oiboo (CC0) and original sounds",
-      "Ambient sound: field recordings from freesound.org (CC0)",
-      "Voices: synthetic speech from ElevenLabs v4; no human voice was recorded or cloned",
-      "Fonts: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel and GNU Unifont (SIL Open Font License 1.1)"
+      "기획, 코드, 아트: gmunaro",
+      "음악: Juhani Junkala (CC0); 지주의 밤 음악은 오리지널 곡이며 VSCO 2 Community Edition 샘플(CC0)로 연주했습니다.",
+      "효과음: Kenney, StarNinjas, Oiboo (CC0) 및 오리지널 사운드",
+      "환경음: freesound.org의 현장 녹음 (CC0)",
+      "음성: ElevenLabs v4의 합성 음성. 사람의 목소리는 녹음하거나 복제하지 않았습니다.",
+      "글꼴: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel, GNU Unifont (SIL Open Font License 1.1)"
     ],
     "contactTitle": "연락처",
     "contactText": "취재, 리뷰 키 요청 및 기타 문의:"
@@ -264,56 +264,56 @@
     "description": "Dawnbringer의 모든 업데이트와 변경 내용."
   },
   "news": {
-    "title": "New in 0.5",
-    "intro": "Version 0.5.0 adds classes, a skill tree, gear by slot, a new combat model, voices for every character and six biomes with their own life and sound.",
+    "title": "0.5 새 기능",
+    "intro": "0.5.0 버전은 직업, 스킬 트리, 부위별 장비, 새 전투 방식, 모든 인물의 음성, 고유한 생명체와 소리를 지닌 여섯 바이옴을 추가합니다.",
     "items": {
       "classes": {
-        "title": "Classes",
-        "text": "The six champions are the first classes. From week 2 the class master waits on the map, and once you have beaten a Landlord each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
-        "alt": "The class master offers a champion its two second classes."
+        "title": "직업",
+        "text": "여섯 영웅이 첫 직업입니다. 2주차부터 지도에서 직업 교관이 기다리며, 지주를 한 번 쓰러뜨리면 각 영웅은 두 2차 직업 중 하나로 전직할 수 있습니다. 2차 직업은 모두 12개이며, 이후 다른 쪽으로 직업을 바꿀 수도 있습니다.",
+        "alt": "직업 교관이 영웅에게 2차 직업 두 가지를 제시합니다."
       },
       "tree": {
-        "title": "Attributes and a skill tree",
-        "text": "Every level gives attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.",
-        "alt": "The skill tree with nodes bought in two branches."
+        "title": "능력치와 스킬 트리",
+        "text": "레벨마다 능력치 포인트와 스킬 포인트를 얻습니다. 스킬 트리는 세 갈래이며 갈래마다 노드가 다섯 개 있습니다. 지주와 일부 이벤트는 포인트를 추가로 줍니다. 야영지의 재봉사 일세는 골드를 받고 빌드를 초기화해 줍니다.",
+        "alt": "두 갈래에서 노드를 구매한 스킬 트리."
       },
       "gear": {
-        "title": "Gear by slot",
-        "text": "96 items in 10 families, each worn in its slot: weapon, shield, head, body, cloak, boots and three charms. The forge reheats an item up to +4 and never fails. Monsters drop rare cards that set into your gear.",
-        "alt": "The forge with a reheated item and a monster card set into it."
+        "title": "부위별 장비",
+        "text": "10개 계열의 유물 96종이며, 각각 자기 부위에 착용합니다: 무기, 방패, 머리, 몸통, 망토, 부츠, 부적 3개. 대장간은 유물을 +4까지 재가열하며 실패하지 않습니다. 몬스터는 희귀 카드를 떨어뜨리며, 이 카드는 장비에 장착됩니다.",
+        "alt": "재가열한 유물과 몬스터 카드가 장착된 대장간."
       },
       "combat": {
-        "title": "A new way to fight",
-        "text": "Speed decides how often each fighter acts. Hard DEF takes a share off every hit, and Soft DEF soaks damage before health. Your gear shows on the hero's body, each piece in its place. The game still never tells you how a fight will end.",
-        "alt": "A hero in full gear fights a group of monsters."
+        "title": "새로운 전투 방식",
+        "text": "속도는 각 전투원이 얼마나 자주 행동하는지 정합니다. 고정 방어는 모든 공격에서 일정 비율을 덜어 내고, 유동 방어는 HP보다 먼저 피해를 흡수합니다. 장비는 영웅의 모습에 그대로 드러나며 부위마다 제자리에 놓입니다. 게임은 여전히 싸움이 어떻게 끝날지 알려 주지 않습니다.",
+        "alt": "장비를 모두 갖춘 영웅이 몬스터 무리와 싸웁니다."
       },
       "risen": {
-        "title": "The risen hunt you",
-        "text": "Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, slower than you walk. If one reaches you, you fight.",
-        "alt": "A risen hero walks toward the player across the map."
+        "title": "일어선 자들이 너를 쫓는다",
+        "text": "쓰러진 영웅은 죽은 자리에서 일어나, 죽을 때 지녔던 장비를 그대로 갖춘 채 낮과 밤 구분 없이 구역을 가로질러 플레이어를 쫓습니다. 플레이어가 걷는 것보다 느리지만, 한 명이라도 닿으면 싸워야 합니다.",
+        "alt": "일어선 영웅이 지도 위에서 플레이어를 향해 걸어옵니다."
       },
       "biomes": {
-        "title": "Six biomes that breathe",
-        "text": "Every biome has its own rocks, plants, small animals, wind and particles, and its own sound by day and by night. The plants sway with the music. Your seed's map stays the same: the decoration never blocks a tile.",
-        "alt": "The six biomes of Dawnbringer, by day and by night."
+        "title": "숨 쉬는 여섯 바이옴",
+        "text": "바이옴마다 고유한 바위, 식물, 작은 동물, 바람과 입자 효과가 있으며, 낮과 밤에 따라 고유한 소리가 납니다. 식물은 음악에 맞춰 흔들립니다. 시드의 지도는 그대로이며, 장식물이 칸을 막는 일은 없습니다.",
+        "alt": "낮과 밤의 Dawnbringer 여섯 바이옴."
       },
       "voices": {
-        "title": "Every character speaks",
-        "text": "The lore, the 12 NPCs on the map and every kind of monster in battle speak with emotion. The voices are synthetic speech; no human voice was recorded or cloned.",
-        "alt": "Mother Hesper speaks at the Last Camp."
+        "title": "모든 인물이 말한다",
+        "text": "세계관 설정, 지도의 NPC 12명, 전투 중 모든 몬스터 종류가 감정을 담아 말합니다. 음성은 합성 음성이며, 사람의 목소리는 녹음하거나 복제하지 않았습니다.",
+        "alt": "헤스퍼 어머니가 마지막 야영에서 말합니다."
       },
       "collection": {
-        "title": "Finds, feats and a postcard",
-        "text": "Twelve plants and animals hide in the biomes as finds for the Journal's herbarium and bestiary. Twelve feats track your runs. On Android, the share menu sends a framed postcard of your hero.",
-        "alt": "The Journal's collection with finds from each biome."
+        "title": "발견물, 업적, 엽서",
+        "text": "식물과 동물 12종이 바이옴 곳곳에 숨어 있으며, 일지의 표본집과 도감에 발견물로 기록됩니다. 업적 12개가 런을 추적합니다. Android에서는 공유 메뉴로 영웅의 액자형 엽서를 보낼 수 있습니다.",
+        "alt": "바이옴마다의 발견물이 담긴 일지 수집 화면."
       }
     }
   },
   "listen": {
-    "title": "Listen",
-    "voice": "Mother Hesper, from the lore",
-    "ambience": "Drowned Vigil at night",
-    "monster": "The Tithe Taker, before a fight",
-    "fallback": "Your browser cannot play this audio."
+    "title": "듣기",
+    "voice": "헤스퍼 어머니, 세계관 설정에서",
+    "ambience": "밤의 침수된 철야",
+    "monster": "싸움 전의 상납금 징수자",
+    "fallback": "브라우저에서 이 오디오를 재생할 수 없습니다."
   }
 }

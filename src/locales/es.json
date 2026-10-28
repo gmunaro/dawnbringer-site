@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: auto-battler roguelike de fantasía oscura",
-    "description": "El sol se apagó y el Terrateniente cobra el alquiler cada semana. Arma tu campeón, lee lo que lleva cada enemigo y decide si pagas el diezmo o luchas contra el jefe.",
+    "description": "El sol ha muerto y el Terrateniente cobra cada semana. Arma un campeón con clases, un árbol de habilidades y equipo que recalientas en la forja; lee lo que lleva cada enemigo y luego paga el diezmo o lucha.",
     "pressTitle": "Kit de prensa de Dawnbringer",
     "pressDescription": "Ficha técnica, descripción, características, logo, arte principal y capturas de Dawnbringer, un auto-battler roguelike de gmunaro.",
     "notFoundTitle": "Página no encontrada",
@@ -22,7 +22,7 @@
   },
   "hero": {
     "tagline": "El sol se apagó. Lleva su última brasa.",
-    "pitch": "Recorre una tierra a oscuras, arma tu campeón con 64 reliquias y elige bien tus peleas. El combate no usa dados: cada enemigo lleva equipo que puedes leer, y tu Piedra de la Desesperación se oscurece antes de una pelea que te mataría. Cuando el Terrateniente venga a cobrar al final de la semana, paga el diezmo o lucha por su cabeza.",
+    "pitch": "Recorre una tierra en sombras, elige tus combates y arma un campeón: una segunda clase, un árbol de habilidades y 96 objetos equipados por ranura que se recalientan en la forja. El combate no usa dados. Cada enemigo lleva equipo que puedes leer, y tu Piedra de la Desesperación se oscurece antes de una pelea que te mataría, pero nunca frente a un Terrateniente. Cuando el Terrateniente venga a cobrar el alquiler al final de la semana, paga el diezmo o lucha por su cabeza.",
     "artAlt": "Un pequeño campeón sobre una colina se enfrenta a un Terrateniente gigante y coronado que surge de las colinas oscuras bajo una luna rojo sangre.",
     "clipTitle": "Jugabilidad",
     "clipAlt": "Clip de juego: en la noche del Terrateniente el mapa se vuelve rojo mientras el Rey Hueco viene a cobrar; su carta ofrece pagar el diezmo o luchar; luego el combate se resuelve.",
@@ -50,11 +50,11 @@
       },
       {
         "title": "La cacería de la última noche",
-        "text": "En la última noche de la semana, la luna se tiñe de rojo y el Terrateniente entra al mapa para cazarte a cada paso. Si tu build ya está lista, no tienes que esperar: ve a su trono antes de tiempo y véncelo por un 50 % más de oro."
+        "text": "En la última noche de la semana, la luna se vuelve roja y el Terrateniente entra en el mapa para cazarte en cada movimiento. Si tu build está lista antes, no tienes que esperar: ve a su trono y véncelo por una recompensa mayor."
       },
       {
         "title": "Tus muertos quedan en el camino",
-        "text": "Cuando un campeón muere, permanece en esa tierra en partidas futuras con el equipo que llevaba. De día vaga por el camino; de noche te caza. Véncelo para recuperar parte de la bolsa perdida."
+        "text": "Cuando un campeón muere, se levanta en esa tierra en partidas futuras con el equipo que llevaba y te caza por toda la zona, de día y de noche. Derrótalo para recuperar parte de la bolsa perdida."
       },
       {
         "title": "Tus vencedores se vuelven Terratenientes",
@@ -128,20 +128,20 @@
   "features": {
     "title": "Características",
     "items": [
-      "6 playable champions and 12 second classes.",
-      "Attribute points and a skill point every level; a skill tree of three branches.",
-      "96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
-      "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
-      "19 Landlords across 6 biomes and 3 weeks.",
-      "Patrols, packs, ambushes, guardians and mimics on the map.",
-      "Day and night: at night your sight shrinks and shadows hunt you.",
-      "Your fallen champions rise and hunt you; your winners return as Landlords.",
-      "Separate bank and purse: stake gold at the start and cash out after each Landlord.",
-      "9 optional oaths that raise both the difficulty and the payout.",
-      "Voices with emotion for every character, and ambient sound for every biome.",
-      "A herbarium, a bestiary and 12 feats in the Journal.",
-      "Native 640x360 pixel art with mouse, keyboard, controller and touch.",
-      "Translated into 14 languages."
+      "6 campeones jugables y 12 segundas clases.",
+      "Puntos de atributo y un punto de habilidad en cada nivel; un árbol de habilidades de tres ramas.",
+      "96 objetos en 10 familias, equipados por ranura, con bonificaciones de conjunto por 2, 4 y 6 piezas.",
+      "Recalienta el equipo hasta +4 en la forja y engasta en él 19 tipos de carta de monstruo.",
+      "19 Terratenientes en 6 biomas y 3 semanas.",
+      "Patrullas, hordas, emboscadas, guardianes y mímicos en el mapa.",
+      "Día y noche: de noche, tu visión se reduce y las sombras te cazan.",
+      "Tus campeones caídos se levantan y te cazan; tus vencedores regresan como Terratenientes.",
+      "Banco y bolsa separados: apuesta oro al empezar y retírate tras cada Terrateniente.",
+      "9 juramentos opcionales que suben a la vez la dificultad y la recompensa.",
+      "Voces con emoción para cada personaje y sonido ambiental para cada bioma.",
+      "Un herbario, un bestiario y 12 hazañas en el Diario.",
+      "Pixel art nativo de 640x360, con ratón, teclado, mando y táctil.",
+      "Traducido a 14 idiomas."
     ]
   },
   "platforms": {
@@ -222,7 +222,7 @@
     "contact": "Contacto",
     "social": "Redes sociales",
     "descriptionTitle": "Descripción",
-    "description": "Dawnbringer es un auto-battler roguelike de fantasía oscura en pixel art. El sol se apagó, el oro es el único calor que queda y cada semana un Terrateniente viene a cobrar el alquiler. El jugador explora un mapa por turnos, elige combates, reúne reliquias de ocho familias y arma su build. Como el combate se resuelve solo y no usa azar, y cada enemigo lleva objetos visibles, los jugadores juzgan cada pelea del camino comparando su equipo con su build; una Piedra de la Desesperación solo avisa cuando una pelea mataría al héroe. Contra el Terrateniente guarda silencio, y hay que elegir entre pagar el diezmo o pelear. Antes de salir del campamento apuestas oro de tu banco, y tras cada semana decides si guardas las ganancias o arriesgas la bolsa en la semana siguiente. Los campeones caídos vuelven como enemigos al mapa en partidas futuras, y los vencedores pueden ocupar el trono como nuevos Terratenientes.",
+    "description": "Dawnbringer es un auto-battler roguelike de fantasía oscura en pixel art. El sol ha muerto, el oro es el único calor que queda y cada semana el Terrateniente viene a cobrar el alquiler. Los jugadores recorren un mapa por turnos, eligen combates y arman un campeón: una segunda clase de un total de 12, un árbol de habilidades, puntos de atributo y 96 objetos equipados por ranura, que se recalientan en la forja y se engastan con cartas de monstruo. El combate se resuelve solo y sin dados, y el juego nunca muestra cómo terminará una pelea: cada enemigo lleva objetos visibles, así que los jugadores juzgan cada combate comparando su equipo con su build, y la Piedra de la Desesperación solo se oscurece cuando una pelea mataría al héroe. Frente al Terrateniente, la piedra guarda silencio y el jugador debe pagar el diezmo o luchar. Antes de cada partida los jugadores apuestan oro de su banco, y tras cada semana retiran la bolsa o la arriesgan en una semana más difícil. Los campeones caídos se levantan y cazan al jugador en partidas posteriores, y los campeones vencedores pueden ocupar el trono como Terratenientes. Cada personaje habla con voz sintética, y cada uno de los seis biomas tiene sus propias plantas, animales y sonido ambiental.",
     "mediaTitle": "Logo, arte principal y capturas",
     "zip": "Descargar todo (.zip, {size})",
     "logo": "Logo (PNG, transparente)",
@@ -232,12 +232,12 @@
     "screensNote": "Las capturas son PNG de 1920x1080, escaladas por enteros desde la resolución nativa de 640x360.",
     "creditsTitle": "Créditos",
     "credits": [
-      "Design, code and art: gmunaro",
-      "Music: Juhani Junkala (CC0); the Landlord's night score is original, played on VSCO 2 Community Edition samples (CC0)",
-      "Sound effects: Kenney, StarNinjas, Oiboo (CC0) and original sounds",
-      "Ambient sound: field recordings from freesound.org (CC0)",
-      "Voices: synthetic speech from ElevenLabs v4; no human voice was recorded or cloned",
-      "Fonts: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel and GNU Unifont (SIL Open Font License 1.1)"
+      "Diseño, código y arte: gmunaro",
+      "Música: Juhani Junkala (CC0); la partitura nocturna del Terrateniente es original, interpretada con muestras de VSCO 2 Community Edition (CC0)",
+      "Efectos de sonido: Kenney, StarNinjas, Oiboo (CC0) y sonidos originales",
+      "Sonido ambiental: grabaciones de campo de freesound.org (CC0)",
+      "Voces: habla sintética de ElevenLabs v4; no se grabó ni clonó ninguna voz humana",
+      "Tipografías: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel y GNU Unifont (SIL Open Font License 1.1)"
     ],
     "contactTitle": "Contacto",
     "contactText": "Para prensa, claves de análisis y otras consultas, escribe a"
@@ -264,56 +264,56 @@
     "description": "Cada actualización de Dawnbringer y lo que cambió en ella."
   },
   "news": {
-    "title": "New in 0.5",
-    "intro": "Version 0.5.0 adds classes, a skill tree, gear by slot, a new combat model, voices for every character and six biomes with their own life and sound.",
+    "title": "Novedades en 0.5",
+    "intro": "La versión 0.5.0 añade clases, un árbol de habilidades, equipo por ranura, un nuevo modelo de combate, voces para cada personaje y seis biomas con vida y sonido propios.",
     "items": {
       "classes": {
-        "title": "Classes",
-        "text": "The six champions are the first classes. From week 2 the class master waits on the map, and once you have beaten a Landlord each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
-        "alt": "The class master offers a champion its two second classes."
+        "title": "Clases",
+        "text": "Los seis campeones son las primeras clases. Desde la semana 2, el maestro de clases espera en el mapa; cuando hayas vencido a un Terrateniente, cada campeón avanza a una de dos segundas clases (12 en total) y más adelante puede cambiar a la otra.",
+        "alt": "El maestro de clases ofrece a un campeón sus dos segundas clases."
       },
       "tree": {
-        "title": "Attributes and a skill tree",
-        "text": "Every level gives attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.",
-        "alt": "The skill tree with nodes bought in two branches."
+        "title": "Atributos y árbol de habilidades",
+        "text": "Cada nivel da puntos de atributo y un punto de habilidad para un árbol de tres ramas con cinco nodos cada una. Los Terratenientes y algunos eventos dan puntos extra. Ilse, la sastra del campamento, deshace una build a cambio de oro.",
+        "alt": "El árbol de habilidades, con nodos comprados en dos ramas."
       },
       "gear": {
-        "title": "Gear by slot",
-        "text": "96 items in 10 families, each worn in its slot: weapon, shield, head, body, cloak, boots and three charms. The forge reheats an item up to +4 and never fails. Monsters drop rare cards that set into your gear.",
-        "alt": "The forge with a reheated item and a monster card set into it."
+        "title": "Equipo por ranura",
+        "text": "96 objetos en 10 familias, cada uno equipado en su ranura: arma, escudo, cabeza, cuerpo, capa, botas y tres amuletos. La forja recalienta un objeto hasta +4 y nunca falla. Los monstruos sueltan cartas raras que se engastan en tu equipo.",
+        "alt": "La forja, con un objeto recalentado y una carta de monstruo engastada."
       },
       "combat": {
-        "title": "A new way to fight",
-        "text": "Speed decides how often each fighter acts. Hard DEF takes a share off every hit, and Soft DEF soaks damage before health. Your gear shows on the hero's body, each piece in its place. The game still never tells you how a fight will end.",
-        "alt": "A hero in full gear fights a group of monsters."
+        "title": "Una nueva forma de luchar",
+        "text": "La velocidad decide con qué frecuencia actúa cada luchador. La DEF dura resta una parte de cada golpe, y la DEF blanda absorbe daño antes que la vida. Tu equipo se ve en el cuerpo del héroe, cada pieza en su lugar. El juego sigue sin decirte cómo terminará una pelea.",
+        "alt": "Un héroe con equipo completo lucha contra un grupo de monstruos."
       },
       "risen": {
-        "title": "The risen hunt you",
-        "text": "Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, slower than you walk. If one reaches you, you fight.",
-        "alt": "A risen hero walks toward the player across the map."
+        "title": "Los caídos resurgen y te cazan",
+        "text": "Tus héroes caídos se levantan donde murieron, con el equipo con el que murieron, y te cazan por toda la zona, de día y de noche, más lentos de lo que tú caminas. Si alguno te alcanza, hay pelea.",
+        "alt": "Un héroe caído avanza hacia el jugador por el mapa."
       },
       "biomes": {
-        "title": "Six biomes that breathe",
-        "text": "Every biome has its own rocks, plants, small animals, wind and particles, and its own sound by day and by night. The plants sway with the music. Your seed's map stays the same: the decoration never blocks a tile.",
-        "alt": "The six biomes of Dawnbringer, by day and by night."
+        "title": "Seis biomas que respiran",
+        "text": "Cada bioma tiene sus propias rocas, plantas, animales pequeños, viento y partículas, y su propio sonido de día y de noche. Las plantas se mecen con la música. El mapa de tu semilla no cambia: la decoración nunca bloquea una casilla.",
+        "alt": "Los seis biomas de Dawnbringer, de día y de noche."
       },
       "voices": {
-        "title": "Every character speaks",
-        "text": "The lore, the 12 NPCs on the map and every kind of monster in battle speak with emotion. The voices are synthetic speech; no human voice was recorded or cloned.",
-        "alt": "Mother Hesper speaks at the Last Camp."
+        "title": "Cada personaje habla",
+        "text": "El trasfondo, los 12 PNJ del mapa y cada tipo de monstruo en combate hablan con emoción. Las voces son habla sintética; no se grabó ni clonó ninguna voz humana.",
+        "alt": "La Madre Hesper habla en el Último Campamento."
       },
       "collection": {
-        "title": "Finds, feats and a postcard",
-        "text": "Twelve plants and animals hide in the biomes as finds for the Journal's herbarium and bestiary. Twelve feats track your runs. On Android, the share menu sends a framed postcard of your hero.",
-        "alt": "The Journal's collection with finds from each biome."
+        "title": "Hallazgos, hazañas y una postal",
+        "text": "Doce plantas y animales se esconden en los biomas como hallazgos para el herbario y el bestiario del Diario. Doce hazañas registran tus partidas. En Android, el menú de compartir envía una postal enmarcada de tu héroe.",
+        "alt": "La colección del Diario, con hallazgos de cada bioma."
       }
     }
   },
   "listen": {
-    "title": "Listen",
-    "voice": "Mother Hesper, from the lore",
-    "ambience": "Drowned Vigil at night",
-    "monster": "The Tithe Taker, before a fight",
-    "fallback": "Your browser cannot play this audio."
+    "title": "Escuchar",
+    "voice": "Madre Hesper, del trasfondo",
+    "ambience": "Vigilia Ahogada de noche",
+    "monster": "El Recaudador, antes de un combate",
+    "fallback": "Tu navegador no puede reproducir este audio."
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer：ダークファンタジー・ローグライク・オートバトラー",
-    "description": "太陽は消え、地主が毎週取り立てにやって来る。英雄を組み上げ、敵が何を持っているかを読み、上納金を払うかボスと戦うかを選べ。",
+    "description": "太陽は消え、地主が毎週取り立てにやって来る。職業とスキルツリーで英雄を組み上げ、鍛冶場で再加熱する装備を整え、敵の持ち物を読み、上納金を払うか戦うかを選べ。",
     "pressTitle": "Dawnbringer プレスキット",
     "pressDescription": "gmunaroのローグライク・オートバトラー、Dawnbringerのファクトシート、概要、特徴、ロゴ、キーアート、スクリーンショット。",
     "notFoundTitle": "ページが見つかりません",
@@ -22,7 +22,7 @@
   },
   "hero": {
     "tagline": "太陽は消えた。最後の種火を運べ。",
-    "pitch": "闇に沈んだ地を進み、64種の聖遺物で英雄を組み上げ、戦う相手を選べ。戦闘にダイスはなく、どの敵も読める持ち物を連れている。絶望の石は、お前を殺す戦いの前に暗くなる。週末に地主が取り立てに来たら、上納金を払うか、その首を懸けて戦え。",
+    "pitch": "暗い大地を渡り、戦う相手を選びながら英雄を組み上げろ。上位職、スキルツリー、部位ごとに身につける96種の装備（鍛冶場で再加熱できる）。戦闘にダイスは使わない。どの敵も読める装備を連れており、絶望の石は、お前を殺す戦いの前でだけ暗くなる。地主との戦いの前では暗くならない。週末に地主が家賃の取り立てに来たら、上納金を払うか、その首を懸けて戦え。",
     "artAlt": "血のように赤い月の下、暗い丘から立ち上がる王冠をかぶった巨大な地主と、丘の上で向き合う小さな英雄。",
     "clipTitle": "ゲームプレイ",
     "clipAlt": "ゲームプレイ映像：地主の夜、空洞の王が取り立てに来てマップが赤く染まる。カードで上納金を払うか戦うかを選び、戦闘が決着する。",
@@ -50,11 +50,11 @@
       },
       {
         "title": "最後の夜の追跡",
-        "text": "週の最後の夜になると月が赤く染まり、地主がマップに現れて一歩ごとに追ってくる。ビルドが早めに完成したなら待つ必要はない。自分から玉座へ乗り込んで倒せば、報酬のゴールドが50%増える。"
+        "text": "週の最後の夜、月は赤く染まり、地主がマップに現れて一歩ごとにお前を狩りに来る。ビルドが早く整ったなら待つ必要はない。地主の玉座へ乗り込んで倒せば、より大きな報酬が得られる。"
       },
       {
         "title": "倒れた英雄は道に残る",
-        "text": "英雄が死ぬと、持っていた装備のまま後の挑戦のマップに居残る。昼は道をさまよい、夜はこちらを狩りに来る。打ち倒せば、失った財布の一部を取り戻せる。"
+        "text": "英雄が死ぬと、後の挑戦でもその土地に、持っていた装備のまま蘇る。昼も夜も区域の中でお前を狩りに来る。打ち倒せば、失った財布の一部を取り戻せる。"
       },
       {
         "title": "勝者は新たな地主となる",
@@ -128,20 +128,20 @@
   "features": {
     "title": "特徴",
     "items": [
-      "6 playable champions and 12 second classes.",
-      "Attribute points and a skill point every level; a skill tree of three branches.",
-      "96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
-      "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
-      "19 Landlords across 6 biomes and 3 weeks.",
-      "Patrols, packs, ambushes, guardians and mimics on the map.",
-      "Day and night: at night your sight shrinks and shadows hunt you.",
-      "Your fallen champions rise and hunt you; your winners return as Landlords.",
-      "Separate bank and purse: stake gold at the start and cash out after each Landlord.",
-      "9 optional oaths that raise both the difficulty and the payout.",
-      "Voices with emotion for every character, and ambient sound for every biome.",
-      "A herbarium, a bestiary and 12 feats in the Journal.",
-      "Native 640x360 pixel art with mouse, keyboard, controller and touch.",
-      "Translated into 14 languages."
+      "操作可能な英雄6人と、上位職12種。",
+      "レベルごとにステータスポイントとスキルポイントを得る。3系統のスキルツリー。",
+      "96種の装備を10系統に分け、部位ごとに身につける。2点、4点、6点でセットボーナスが発動。",
+      "鍛冶場で装備を+4まで再加熱し、19種のモンスターカードを挿せる。",
+      "6バイオームと3週にわたる、19体の地主。",
+      "マップには巡回、群れ、伏兵、守護者、ミミックがいる。",
+      "昼と夜：夜は視界が狭まり、影がお前を狩りに来る。",
+      "倒れた英雄は蘇ってお前を狩り、勝ち抜いた英雄は地主として戻ってくる。",
+      "銀行と財布は別々。挑戦の初めに銀行のゴールドを賭け、地主ごとに財布を換金する。",
+      "任意の誓約9種。難度も報酬も上がる。",
+      "全キャラクターに感情のこもった声、全バイオームに環境音。",
+      "日誌には植物標本、魔物図鑑、12の功績がある。",
+      "ネイティブ640x360のピクセルアート。マウス、キーボード、コントローラー、タッチに対応。",
+      "14言語に翻訳済み。"
     ]
   },
   "platforms": {
@@ -222,7 +222,7 @@
     "contact": "連絡先",
     "social": "SNS",
     "descriptionTitle": "概要",
-    "description": "Dawnbringerはダークファンタジーのピクセルアート・ローグライク・オートバトラーです。太陽は消え、黄金だけが唯一のぬくもりとして残る世界で、毎週地主が地代を取り立てに来ます。プレイヤーはターン制のマップを探索して戦いを選び、8系統64種の聖遺物から英雄のビルドを組み上げます。戦闘は乱数なしで自動進行し、どの敵も読める持ち物を連れています。プレイヤーは敵の装備を自分のビルドと比べて、道中の戦いを判断します。絶望の石は、英雄を殺す戦いの前にだけ警告します。地主戦では沈黙したままで、上納金を払うか戦うかを選ばなければなりません。出発前に銀行からゴールドを賭け、各週の終わりには財布のゴールドを持ち帰るか、より過酷な次の週へ持ち越すかを決めます。倒れた英雄は後の挑戦で敵としてマップをさまよい、勝ち抜いた英雄は地主の玉座に就いて立ちはだかることがあります。",
+    "description": "Dawnbringerはダークファンタジーのピクセルアート・ローグライク・オートバトラーです。太陽は消え、黄金だけが残ったぬくもりとなった世界で、毎週地主が家賃の取り立てにやって来ます。プレイヤーはターン制のマップを進み、戦いを選び、英雄を組み上げます。英雄は12種の上位職から一つを選び、スキルツリー、ステータスポイント、部位ごとに装備する96種の装備を持ちます。装備は鍛冶場で再加熱し、モンスターカードを挿して強化します。戦闘はダイスを使わず自動で進み、ゲームは戦いの結末を明かしません。どの敵も見える装備を連れているため、プレイヤーは敵の装備を自分のビルドと比べて戦いを判断します。絶望の石は、英雄を殺す戦いの前でのみ暗くなります。地主との戦いでは沈黙し、プレイヤーは上納金を払うか戦うかを選ばなければなりません。挑戦の前に銀行からゴールドを賭け、各週の後に財布を換金するか、より過酷な次の週へ持ち越すかを選びます。倒れた英雄は後の挑戦で蘇ってプレイヤーを狩り、勝ち抜いた英雄は地主の玉座に就くことがあります。全キャラクターが合成音声で話し、6つのバイオームにはそれぞれ固有の植物、動物、環境音があります。",
     "mediaTitle": "ロゴ、キーアート、スクリーンショット",
     "zip": "すべてダウンロード（.zip、{size}）",
     "logo": "ロゴ（PNG、透過）",
@@ -232,12 +232,12 @@
     "screensNote": "スクリーンショットはネイティブ解像度640x360を整数倍拡大した1920x1080のPNGです。",
     "creditsTitle": "クレジット",
     "credits": [
-      "Design, code and art: gmunaro",
-      "Music: Juhani Junkala (CC0); the Landlord's night score is original, played on VSCO 2 Community Edition samples (CC0)",
-      "Sound effects: Kenney, StarNinjas, Oiboo (CC0) and original sounds",
-      "Ambient sound: field recordings from freesound.org (CC0)",
-      "Voices: synthetic speech from ElevenLabs v4; no human voice was recorded or cloned",
-      "Fonts: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel and GNU Unifont (SIL Open Font License 1.1)"
+      "企画・コード・美術：gmunaro",
+      "音楽：Juhani Junkala（CC0）。地主の夜の楽曲はオリジナルで、VSCO 2 Community Edition のサンプル（CC0）を使用。",
+      "効果音：Kenney、StarNinjas、Oiboo（CC0）およびオリジナル音源",
+      "環境音：freesound.org のフィールドレコーディング（CC0）",
+      "声：ElevenLabs v4 による合成音声。人の声は録音も複製もしていません。",
+      "フォント：Kenney（CC0）、Jacquarda Bastarda 9、Fusion Pixel、GNU Unifont（SIL Open Font License 1.1）"
     ],
     "contactTitle": "連絡先",
     "contactText": "取材、レビュー用キー、その他のご連絡はこちらへ："
@@ -264,56 +264,56 @@
     "description": "Dawnbringerの各アップデートと変更内容。"
   },
   "news": {
-    "title": "New in 0.5",
-    "intro": "Version 0.5.0 adds classes, a skill tree, gear by slot, a new combat model, voices for every character and six biomes with their own life and sound.",
+    "title": "0.5の新機能",
+    "intro": "バージョン0.5.0では、職業、スキルツリー、部位別の装備、新しい戦闘モデル、全キャラクターの声、それぞれ独自の生き物と音を持つ6つのバイオームが加わりました。",
     "items": {
       "classes": {
-        "title": "Classes",
-        "text": "The six champions are the first classes. From week 2 the class master waits on the map, and once you have beaten a Landlord each champion advances into one of two second classes, 12 in all, and can later switch to the other.",
-        "alt": "The class master offers a champion its two second classes."
+        "title": "職業",
+        "text": "6人の英雄が最初の職業です。2週目からマップに転職の師が現れ、地主を一度倒すと、各英雄は二つの上位職のうち一つに転職できます。上位職は全12種です。後から、もう一方の上位職へ転職し直すこともできます。",
+        "alt": "転職の師が、英雄に二つの上位職を示している。"
       },
       "tree": {
-        "title": "Attributes and a skill tree",
-        "text": "Every level gives attribute points and a skill point for a tree of three branches with five nodes each. Landlords and some events give extra points. Ilse, the tailor at camp, unpicks a build for gold.",
-        "alt": "The skill tree with nodes bought in two branches."
+        "title": "ステータスとスキルツリー",
+        "text": "レベルごとにステータスポイントとスキルポイントが入ります。スキルツリーは3系統で、各系統に5つのノードがあります。地主や一部のイベントで、ポイントが追加で入ります。野営地の仕立て屋イルゼは、ゴールドを払えばビルドを振り直せます。",
+        "alt": "二つの系統でノードを習得したスキルツリー。"
       },
       "gear": {
-        "title": "Gear by slot",
-        "text": "96 items in 10 families, each worn in its slot: weapon, shield, head, body, cloak, boots and three charms. The forge reheats an item up to +4 and never fails. Monsters drop rare cards that set into your gear.",
-        "alt": "The forge with a reheated item and a monster card set into it."
+        "title": "部位ごとの装備",
+        "text": "96種の装備が10系統にあり、部位ごとに身につけます：武器、盾、頭、胴、外套、靴、護符3つ。鍛冶場では装備を+4まで再加熱でき、失敗はありません。モンスターは稀にカードを落とし、それを装備に挿せます。",
+        "alt": "鍛冶場。再加熱された装備に、モンスターカードが挿されている。"
       },
       "combat": {
-        "title": "A new way to fight",
-        "text": "Speed decides how often each fighter acts. Hard DEF takes a share off every hit, and Soft DEF soaks damage before health. Your gear shows on the hero's body, each piece in its place. The game still never tells you how a fight will end.",
-        "alt": "A hero in full gear fights a group of monsters."
+        "title": "新しい戦い方",
+        "text": "速さが、各戦闘員の行動頻度を決めます。固定防御は全ての攻撃から一定の割合を差し引き、可変防御はHPより先にダメージを受け止めます。装備は英雄の体に表示され、それぞれ決まった位置に付きます。それでも、ゲームは戦いの結末を教えません。",
+        "alt": "全身に装備を固めた英雄が、モンスターの一団と戦っている。"
       },
       "risen": {
-        "title": "The risen hunt you",
-        "text": "Your fallen heroes rise where they died, carrying the gear they died with, and hunt you across the zone by day and by night, slower than you walk. If one reaches you, you fight.",
-        "alt": "A risen hero walks toward the player across the map."
+        "title": "蘇った者が狩りに来る",
+        "text": "倒れた英雄は、死んだ場所で死んだときの装備を連れて蘇り、昼も夜も区域の中を追って来ます。プレイヤーより歩みは遅いものの、追いつかれたら戦闘になります。",
+        "alt": "蘇った英雄が、マップ上をプレイヤーに向かって歩いてくる。"
       },
       "biomes": {
-        "title": "Six biomes that breathe",
-        "text": "Every biome has its own rocks, plants, small animals, wind and particles, and its own sound by day and by night. The plants sway with the music. Your seed's map stays the same: the decoration never blocks a tile.",
-        "alt": "The six biomes of Dawnbringer, by day and by night."
+        "title": "息づく6つのバイオーム",
+        "text": "各バイオームには、固有の岩、植物、小動物、風と粒子があり、昼と夜でそれぞれ固有の音が鳴ります。植物は音楽に合わせて揺れます。シードで決まるマップは変わらず、装飾がタイルを塞ぐことはありません。",
+        "alt": "Dawnbringerの6つのバイオーム。昼と夜の姿。"
       },
       "voices": {
-        "title": "Every character speaks",
-        "text": "The lore, the 12 NPCs on the map and every kind of monster in battle speak with emotion. The voices are synthetic speech; no human voice was recorded or cloned.",
-        "alt": "Mother Hesper speaks at the Last Camp."
+        "title": "全キャラクターが声を持つ",
+        "text": "伝承の語り、マップ上の12人のNPC、戦闘に現れる全種類のモンスターが、感情をこめて話します。声は合成音声で、人の声は録音も複製もしていません。",
+        "alt": "マザー・ヘスパーが最後の野営地で話している。"
       },
       "collection": {
-        "title": "Finds, feats and a postcard",
-        "text": "Twelve plants and animals hide in the biomes as finds for the Journal's herbarium and bestiary. Twelve feats track your runs. On Android, the share menu sends a framed postcard of your hero.",
-        "alt": "The Journal's collection with finds from each biome."
+        "title": "発見、功績、そして絵はがき",
+        "text": "12種の植物と動物がバイオームに潜んでおり、日誌の植物標本と魔物図鑑に記録される発見になります。12の功績が挑戦の歩みを記録します。Androidでは、共有メニューから英雄の額入り絵はがきを送れます。",
+        "alt": "日誌のコレクション。各バイオームの発見が並んでいる。"
       }
     }
   },
   "listen": {
-    "title": "Listen",
-    "voice": "Mother Hesper, from the lore",
-    "ambience": "Drowned Vigil at night",
-    "monster": "The Tithe Taker, before a fight",
-    "fallback": "Your browser cannot play this audio."
+    "title": "聴く",
+    "voice": "マザー・ヘスパー（伝承より）",
+    "ambience": "夜の沈んだ夜番",
+    "monster": "取立人（戦闘前）",
+    "fallback": "お使いのブラウザでは、この音声を再生できません。"
   }
 }
