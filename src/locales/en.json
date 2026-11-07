@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: dark-fantasy roguelike auto-battler",
-    "description": "A pixel-art roguelike auto-battler. Build a champion, read each foe's gear, then pay the Landlord or fight.",
+    "description": "A pixel-art roguelike auto-battler. Build a hunter, read each foe's gear, then pay the Landlord or fight.",
     "pressTitle": "Dawnbringer press kit",
     "pressDescription": "Fact sheet, description, features, logo, key art and screenshots of Dawnbringer, a roguelike auto-battler by gmunaro.",
     "notFoundTitle": "Page not found",
@@ -15,15 +15,15 @@
     "skip": "Skip to content",
     "home": "Home",
     "why": "The game",
-    "new": "New in 0.5",
+    "new": "New in 0.7.2",
     "demo": "Desktop demo",
     "beta": "Android alpha",
     "press": "Press kit",
     "language": "Language"
   },
   "hero": {
-    "pitch": "A pixel-art roguelike auto-battler: build a champion, read each foe's gear, then pay the Landlord or fight.",
-    "artAlt": "A small champion on a hill faces a giant crowned Landlord rising from the dark hills under a blood-red moon.",
+    "pitch": "A pixel-art roguelike auto-battler: build a hunter, read each foe's gear, then pay the Landlord or fight.",
+    "artAlt": "A small hunter on a hill faces a giant crowned Landlord rising from the dark hills under a blood-red moon.",
     "clipTitle": "Gameplay",
     "clipAlt": "Gameplay clip: a hero in full gear fights a group of monsters on its own.",
     "clipFallback": "Your browser cannot play this video.",
@@ -49,11 +49,11 @@
         "alt": "The pre-fight screen of a foe with its stats and the items it carries, the Stone of Despair's mark and the warning This fight would kill you, and the buttons Fight and Back off."
       },
       "risen": {
-        "caption": "A fallen champion from a past run roams the road with its gold.",
+        "caption": "A fallen hunter from a past run roams the road with its gold.",
         "alt": "On the map, a risen Gallows Marksman from an earlier run, with a tooltip of the build and the gold it carries."
       },
       "legend": {
-        "caption": "A victorious champion from an earlier run rules as Landlord.",
+        "caption": "A fallen hunter from an earlier run sits in a Landlord's seat as a heretic.",
         "alt": "The card of Gallows Marksman, crowned: a legend of an earlier run that holds the seat of the Ashen Reach."
       },
       "shop": {
@@ -61,8 +61,8 @@
         "alt": "The shop with four relics to buy or banish, and a comparison of the new item with your build."
       },
       "camp": {
-        "caption": "At the Last Camp, pick your champion, oaths, and gold stake.",
-        "alt": "The Last Camp screen with the champions, the item families, the oaths and the stake slider."
+        "caption": "In the house, build your hunter, pick vows and the gold you carry.",
+        "alt": "The house screen with the hunter's creation, the item families, the vows and the carry slider."
       },
       "group": {
         "caption": "Packs attack in a row with no healing between fights.",
@@ -85,14 +85,14 @@
   "features": {
     "title": "Features",
     "items": [
-      "6 playable champions and 12 second classes.",
+      "6 first classes and 12 second classes.",
       "Attribute points and a skill point every level; a skill tree of three branches.",
       "96 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
       "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
       "19 Landlords across 6 biomes and 3 weeks.",
       "Patrols, packs, ambushes, guardians and mimics on the map.",
       "Day and night: at night your sight shrinks and shadows hunt you.",
-      "Your fallen champions rise and hunt you; your winners return as Landlords.",
+      "Your fallen hunters rise and hunt you; one of them can take a Landlord's seat as a heretic.",
       "Separate bank and purse: stake gold at the start and cash out after each Landlord.",
       "9 optional oaths that raise both the difficulty and the payout.",
       "Voices with emotion for every character, and ambient sound for every biome.",
@@ -169,7 +169,7 @@
     "contact": "Contact",
     "social": "Social media",
     "descriptionTitle": "Description",
-    "description": "Dawnbringer is a dark-fantasy roguelike auto-battler in pixel art. The sun is dead, gold is the only warmth left, and every week a Landlord comes for the rent. Players cross a turn-based map, pick fights, and build a champion: a second class out of 12, a skill tree, attribute points, and 96 items worn by slot, reheated at the forge and set with monster cards. Combat resolves automatically without dice, and the game never shows how a fight will end: every foe carries visible items, so players judge each fight by reading its gear against their build, and a Stone of Despair only darkens when a fight would kill the hero. Against the Landlord it stays silent, and the player must pay the tithe or fight. Before each run players stake gold from their bank, and after each week they cash out the purse or risk it in a harder week. Fallen champions rise and hunt the player in later runs, while victorious champions can return on a Landlord's throne. Every character speaks with a synthetic voice, and each of the six biomes has its own plants, animals and ambient sound.",
+    "description": "Dawnbringer is a dark-fantasy roguelike auto-battler in pixel art. The sun is dead, gold is the only warmth left, and every week a Landlord comes for the rent. Players cross a turn-based map, pick fights, and build a hunter: a second class out of 12, a skill tree, attribute points, and 96 items worn by slot, reheated at the forge and set with monster cards. Combat resolves automatically without dice, and the game never shows how a fight will end: every foe carries visible items, so players judge each fight by reading its gear against their build, and a Stone of Despair only darkens when a fight would kill the hero. Against the Landlord it stays silent, and the player must pay the tithe or fight. Before each run players stake gold from their bank, and after each week they cash out the purse or risk it in a harder week. Fallen hunters rise and hunt the player in later runs, and one of them can take a Landlord's seat as a heretic. Every character speaks with a synthetic voice, and each of the six biomes has its own plants, animals and ambient sound.",
     "mediaTitle": "Logo, key art and screenshots",
     "zip": "Download everything (.zip, {size})",
     "logo": "Logo (PNG, transparent)",
@@ -218,24 +218,24 @@
         "alt": "The Stone of Despair's mark over a group of foes on the map."
       },
       "build": {
-        "title": "Build a champion",
-        "text": "Choose a second class, spend points in a skill tree and wear gear in every slot. Reheat items at the forge and set monster cards into them.",
-        "alt": "The class master offers a champion its two second classes."
+        "title": "Build your hunter",
+        "text": "Pick your hunter's look, bonus and weapon, learn a class in two steps, spend points on a skill map and wear gear in every slot. Reheat items at the forge and set monster cards into them.",
+        "alt": "The class master offers the six first classes."
       },
       "return": {
         "title": "Your runs come back",
-        "text": "Fallen heroes rise and hunt you in later runs. Heroes who win can return on a Landlord's throne.",
-        "alt": "A risen hero, marked in red, walks toward the player on the map."
+        "text": "Fallen hunters rise and hunt you in later runs, and one of them can take a Landlord's seat as a heretic.",
+        "alt": "A risen hunter, marked in red, walks toward the player on the map."
       }
     }
   },
   "whatsnew": {
-    "title": "New in 0.5",
+    "title": "New in 0.7.2",
     "items": [
-      "Twelve second classes and a skill tree with three branches.",
-      "Gear by slot, reheated at the forge and set with monster cards.",
-      "A voice for every character.",
-      "Six biomes with their own plants, small animals and sound."
+      "Build your own hunter before each run, and spend the bank on the rooms of a house.",
+      "Classes in two steps, and a skill tree that is one map you can zoom and drag.",
+      "Four guilds, and a door each week that picks the region you walk.",
+      "Def and Shield, and foes that stomp, charge, throw or spit."
     ],
     "more": "All changes"
   },

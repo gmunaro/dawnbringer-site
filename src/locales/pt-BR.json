@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: roguelike auto-battler de fantasia sombria",
-    "description": "Um auto-battler roguelike em pixel art. Monte um campeão, leia o equipamento de cada inimigo e depois pague o dízimo ou lute.",
+    "description": "Um auto-battler roguelike em pixel art. Monte um caçador, leia o equipamento de cada inimigo e depois pague o dízimo ou lute.",
     "pressTitle": "Kit de imprensa do Dawnbringer",
     "pressDescription": "Ficha técnica, descrição, recursos, logo, arte principal e capturas de tela do Dawnbringer, um auto-battler roguelike de gmunaro.",
     "notFoundTitle": "Página não encontrada",
@@ -15,15 +15,15 @@
     "skip": "Pular para o conteúdo",
     "home": "Início",
     "why": "O jogo",
-    "new": "Novidades na 0.5",
+    "new": "Novidades na 0.7.2",
     "demo": "Demo para desktop",
     "beta": "Alfa Android",
     "press": "Kit de imprensa",
     "language": "Idioma"
   },
   "hero": {
-    "pitch": "Um auto-battler roguelike em pixel art: monte um campeão, leia o equipamento de cada inimigo e depois pague o Senhorio ou lute.",
-    "artAlt": "Um pequeno campeão numa colina encara um Senhorio gigante e coroado que se ergue das colinas escuras sob uma lua vermelho-sangue.",
+    "pitch": "Um auto-battler roguelike em pixel art: monte um caçador, leia o equipamento de cada inimigo e depois pague o Senhorio ou lute.",
+    "artAlt": "Um pequeno caçador numa colina encara um Senhorio gigante e coroado que se ergue das colinas escuras sob uma lua vermelho-sangue.",
     "clipTitle": "Gameplay",
     "clipAlt": "Trecho de gameplay: um herói com equipamento completo luta sozinho contra um grupo de monstros.",
     "clipFallback": "Seu navegador não consegue reproduzir este vídeo.",
@@ -49,11 +49,11 @@
         "alt": "A tela de pré-luta de um inimigo, com seus atributos e os itens que ele carrega, a marca da Pedra do Desespero e o aviso Esta luta mataria você, e os botões Lutar e Recuar."
       },
       "risen": {
-        "caption": "Um campeão morto em outra partida agora vaga pela estrada com seu ouro.",
+        "caption": "Um caçador caído numa partida passada vaga pela estrada com seu ouro.",
         "alt": "No mapa, uma Atiradora da Forca reerguida de uma partida anterior, com uma dica que mostra a build e o ouro que ela carrega."
       },
       "legend": {
-        "caption": "Um campeão vitorioso de outra partida governa como Senhorio.",
+        "caption": "Um caçador caído numa partida anterior ocupa o assento de um Senhorio como herege.",
         "alt": "A carta da Atiradora da Forca, coroada: uma lenda de uma partida anterior que ocupa o assento dos Confins Cinzentos."
       },
       "shop": {
@@ -61,8 +61,8 @@
         "alt": "A loja com quatro relíquias para comprar ou banir, e uma comparação do item novo com a sua build."
       },
       "camp": {
-        "caption": "No Último Acampamento, escolha o campeão, os juramentos e o valor da aposta.",
-        "alt": "A tela do Último Acampamento com os campeões, as famílias de itens, os juramentos e o controle da aposta."
+        "caption": "Na casa, monte seu caçador e escolha os votos e o ouro que você leva.",
+        "alt": "A tela da casa com a criação do caçador, as famílias de itens, os votos e o controle do ouro que você leva."
       },
       "group": {
         "caption": "Bandos atacam em fila, sem cura entre uma luta e outra.",
@@ -85,14 +85,14 @@
   "features": {
     "title": "Recursos",
     "items": [
-      "6 campeões jogáveis e 12 classes avançadas.",
+      "6 primeiras classes e 12 classes avançadas.",
       "Pontos de atributo e um ponto de talento a cada nível; uma árvore de talentos com três ramos.",
       "96 itens em 10 famílias, equipados por slot, com bônus de conjunto para 2, 4 e 6 peças.",
       "Reaquecer equipamentos até +4 na Forja e encaixar neles 19 tipos de carta de monstro.",
       "19 Senhorios em 6 biomas e 3 semanas.",
       "Patrulhas, bandos, emboscadas, guardiões e mímicos no mapa.",
       "Dia e noite: à noite, sua visão diminui e as sombras caçam você.",
-      "Seus campeões caídos voltam como Reerguidos e caçam você; os vencedores governam como Senhorios.",
+      "Seus caçadores caídos se reerguem e caçam você; um deles pode tomar o assento de um Senhorio como herege.",
       "Banco e bolsa separados: aposte ouro no começo e saque após cada Senhorio.",
       "9 juramentos opcionais que aumentam a dificuldade e a recompensa.",
       "Vozes com emoção para cada personagem e som ambiente para cada bioma.",
@@ -169,7 +169,7 @@
     "contact": "Contato",
     "social": "Redes sociais",
     "descriptionTitle": "Descrição",
-    "description": "Dawnbringer é um auto-battler roguelike de fantasia sombria em pixel art. O sol apagou, o ouro é o único calor que resta e toda semana um Senhorio vem cobrar o aluguel. O jogador explora um mapa em turnos, escolhe lutas, coleta relíquias de oito famílias e monta sua build. Como o combate é automático e não usa sorte, e cada inimigo carrega itens visíveis, o jogador julga cada luta na estrada lendo o equipamento do inimigo contra a própria build; a Pedra do Desespero só avisa quando uma luta mataria o herói. Contra o Senhorio ela fica em silêncio, e é preciso escolher entre pagar o dízimo ou lutar. Antes de sair do acampamento, você aposta ouro do banco, e após cada semana decide se guarda o lucro ou arrisca a bolsa na semana seguinte. Campeões mortos voltam como inimigos no mapa em partidas futuras, e os vencedores podem assumir o trono como novos Senhorios.",
+    "description": "Dawnbringer é um auto-battler roguelike de fantasia sombria em pixel art. O sol apagou, o ouro é o único calor que resta e toda semana um Senhorio vem cobrar o aluguel. O jogador explora um mapa em turnos, escolhe lutas, coleta relíquias de oito famílias e monta sua build. Como o combate é automático e não usa sorte, e cada inimigo carrega itens visíveis, o jogador julga cada luta na estrada lendo o equipamento do inimigo contra a própria build; a Pedra do Desespero só avisa quando uma luta mataria o herói. Contra o Senhorio ela fica em silêncio, e é preciso escolher entre pagar o dízimo ou lutar. Antes de sair do acampamento, você aposta ouro do banco, e após cada semana decide se guarda o lucro ou arrisca a bolsa na semana seguinte. Caçadores mortos voltam como inimigos no mapa em partidas futuras, e um deles pode assumir o assento de um Senhorio como herege.",
     "mediaTitle": "Logo, arte principal e capturas de tela",
     "zip": "Baixar tudo (.zip, {size})",
     "logo": "Logo (PNG, transparente)",
@@ -218,24 +218,24 @@
         "alt": "A marca da Pedra do Desespero sobre um grupo de inimigos no mapa."
       },
       "build": {
-        "title": "Monte um campeão",
-        "text": "Escolha uma classe avançada, distribua pontos na árvore de talentos e use equipamento em todos os slots. Reaqueça itens na Forja e encaixe neles cartas de monstro.",
-        "alt": "O mestre de classes oferece ao campeão suas duas classes avançadas."
+        "title": "Monte seu caçador",
+        "text": "Escolha o visual, o bônus e a arma do caçador, aprenda uma classe em duas etapas, gaste pontos num mapa de habilidades e use equipamento em todos os slots. Reaqueça itens na Forja e encaixe neles cartas de monstro.",
+        "alt": "O mestre de classes oferece as seis primeiras classes."
       },
       "return": {
         "title": "Suas partidas voltam",
-        "text": "Heróis caídos se reerguem e caçam você em partidas futuras. Heróis que vencem podem voltar no trono de um Senhorio.",
-        "alt": "Um herói reerguido, marcado em vermelho, avança em direção ao jogador no mapa."
+        "text": "Caçadores caídos se reerguem e caçam você em partidas futuras, e um deles pode tomar o lugar de um Senhorio como herege.",
+        "alt": "Um caçador reerguido, marcado em vermelho, avança em direção ao jogador no mapa."
       }
     }
   },
   "whatsnew": {
-    "title": "Novidades na 0.5",
+    "title": "Novidades na 0.7.2",
     "items": [
-      "Doze classes avançadas e uma árvore de talentos com três ramos.",
-      "Equipamento por slot, reaquecido na Forja e com cartas de monstro encaixadas.",
-      "Uma voz para cada personagem.",
-      "Seis biomas com plantas, pequenos animais e sons próprios."
+      "Monte seu próprio caçador antes de cada partida e gaste o cofre nos cômodos de uma casa.",
+      "Classes em duas etapas e uma árvore de habilidades que é um mapa único para ampliar e arrastar.",
+      "Quatro guildas e, a cada semana, uma porta que escolhe a região que você percorre.",
+      "Defesa e Escudo, e inimigos que pisoteiam, investem, arremessam ou cospem."
     ],
     "more": "Todas as mudanças"
   },

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: auto-battler roguelike de fantasía oscura",
-    "description": "Un auto-battler roguelike en pixel art: arma un campeón, lee el equipo de cada enemigo y luego paga al Terrateniente o lucha.",
+    "description": "Un auto-battler roguelike en pixel art: arma un cazador, lee el equipo de cada enemigo y luego paga al Terrateniente o lucha.",
     "pressTitle": "Kit de prensa de Dawnbringer",
     "pressDescription": "Ficha técnica, descripción, características, logo, arte principal y capturas de Dawnbringer, un auto-battler roguelike de gmunaro.",
     "notFoundTitle": "Página no encontrada",
@@ -15,15 +15,15 @@
     "skip": "Saltar al contenido",
     "home": "Inicio",
     "why": "El juego",
-    "new": "Nuevo en la 0.5",
+    "new": "Nuevo en la 0.7.2",
     "demo": "Demo de escritorio",
     "beta": "Alfa de Android",
     "press": "Kit de prensa",
     "language": "Idioma"
   },
   "hero": {
-    "pitch": "Un auto-battler roguelike en pixel art: arma un campeón, lee el equipo de cada enemigo y luego paga al Terrateniente o lucha.",
-    "artAlt": "Un pequeño campeón sobre una colina se enfrenta a un Terrateniente gigante y coronado que surge de las colinas oscuras bajo una luna rojo sangre.",
+    "pitch": "Un auto-battler roguelike en pixel art: arma un cazador, lee el equipo de cada enemigo y luego paga al Terrateniente o lucha.",
+    "artAlt": "Un pequeño cazador sobre una colina se enfrenta a un Terrateniente gigante y coronado que surge de las colinas oscuras bajo una luna rojo sangre.",
     "clipTitle": "Jugabilidad",
     "clipAlt": "Clip de juego: un héroe con equipo completo lucha solo contra un grupo de monstruos.",
     "clipFallback": "Tu navegador no puede reproducir este vídeo.",
@@ -49,11 +49,11 @@
         "alt": "La pantalla previa a la pelea de un enemigo, con sus estadísticas y los objetos que lleva, la marca de la Piedra de la Desesperación y el aviso Esta pelea te mataría, y los botones Luchar y Retroceder."
       },
       "risen": {
-        "caption": "Un campeón caído en otra partida vaga ahora por el camino con su oro.",
+        "caption": "Un cazador caído en una partida pasada vaga por el camino con su oro.",
         "alt": "En el mapa, una Tiradora de la Horca resurgida de una partida anterior, con una ventana que muestra su build y el oro que lleva."
       },
       "legend": {
-        "caption": "Un campeón victorioso de otra partida gobierna como Terrateniente.",
+        "caption": "Un cazador caído en otra partida ocupa el asiento de un Terrateniente como hereje.",
         "alt": "La carta de la Tiradora de la Horca, coronada: una leyenda de una partida anterior que ocupa el asiento del Alcance Ceniciento."
       },
       "shop": {
@@ -61,8 +61,8 @@
         "alt": "La tienda con cuatro reliquias para comprar o desterrar, y una comparación del objeto nuevo con tu build."
       },
       "camp": {
-        "caption": "En el Último Campamento, elige al campeón, los juramentos y la apuesta de oro.",
-        "alt": "La pantalla del Último campamento con los campeones, las familias de objetos, los juramentos y el control de la apuesta."
+        "caption": "En la casa, crea a tu cazador y elige los votos y el oro que llevas.",
+        "alt": "La pantalla de la casa con la creación del cazador, las familias de objetos, los votos y el control del oro que llevas."
       },
       "group": {
         "caption": "Las hordas atacan en fila, sin curación entre un combate y otro.",
@@ -85,14 +85,14 @@
   "features": {
     "title": "Características",
     "items": [
-      "6 campeones jugables y 12 segundas clases.",
+      "6 primeras clases y 12 segundas clases.",
       "Puntos de atributo y un punto de habilidad en cada nivel; un árbol de habilidades de tres ramas.",
       "96 objetos en 10 familias, equipados por ranura, con bonificaciones de conjunto con 2, 4 y 6 piezas.",
       "Recalienta el equipo hasta +4 en la forja y engarza en él 19 tipos de carta de monstruo.",
       "19 Terratenientes en 6 biomas y 3 semanas.",
       "Patrullas, grupos, emboscadas, guardianes y mímicos en el mapa.",
       "Día y noche: de noche tu visión se reduce y las sombras te cazan.",
-      "Tus campeones caídos resurgen y te cazan; los vencedores vuelven como Terratenientes.",
+      "Tus cazadores caídos resurgen y te cazan; uno de ellos puede ocupar el asiento de un Terrateniente como hereje.",
       "Banco y bolsa separados: apuesta oro al empezar y retírate después de cada Terrateniente.",
       "9 juramentos opcionales que suben a la vez la dificultad y la recompensa.",
       "Voces con emoción para cada personaje y sonido ambiente para cada bioma.",
@@ -169,7 +169,7 @@
     "contact": "Contacto",
     "social": "Redes sociales",
     "descriptionTitle": "Descripción",
-    "description": "Dawnbringer es un auto-battler roguelike de fantasía oscura en pixel art. El sol se apagó, el oro es el único calor que queda y cada semana un Terrateniente viene a cobrar el alquiler. El jugador explora un mapa por turnos, elige combates, reúne reliquias de ocho familias y arma su build. Como el combate se resuelve solo y no usa azar, y cada enemigo lleva objetos visibles, los jugadores juzgan cada pelea del camino comparando su equipo con su build; una Piedra de la Desesperación solo avisa cuando una pelea mataría al héroe. Contra el Terrateniente guarda silencio, y hay que elegir entre pagar el diezmo o pelear. Antes de salir del campamento apuestas oro de tu banco, y tras cada semana decides si guardas las ganancias o arriesgas la bolsa en la semana siguiente. Los campeones caídos vuelven como enemigos al mapa en partidas futuras, y los vencedores pueden ocupar el trono como nuevos Terratenientes.",
+    "description": "Dawnbringer es un auto-battler roguelike de fantasía oscura en pixel art. El sol se apagó, el oro es el único calor que queda y cada semana un Terrateniente viene a cobrar el alquiler. El jugador explora un mapa por turnos, elige combates, reúne reliquias de ocho familias y arma su build. Como el combate se resuelve solo y no usa azar, y cada enemigo lleva objetos visibles, los jugadores juzgan cada pelea del camino comparando su equipo con su build; una Piedra de la Desesperación solo avisa cuando una pelea mataría al héroe. Contra el Terrateniente guarda silencio, y hay que elegir entre pagar el diezmo o pelear. Antes de salir del campamento apuestas oro de tu banco, y tras cada semana decides si guardas las ganancias o arriesgas la bolsa en la semana siguiente. Los cazadores caídos vuelven como enemigos al mapa en partidas futuras, y uno de ellos puede ocupar el asiento de un Terrateniente como hereje.",
     "mediaTitle": "Logo, arte principal y capturas",
     "zip": "Descargar todo (.zip, {size})",
     "logo": "Logo (PNG, transparente)",
@@ -218,24 +218,24 @@
         "alt": "La marca de la Piedra de la Desesperación sobre un grupo de enemigos en el mapa."
       },
       "build": {
-        "title": "Arma un campeón",
-        "text": "Elige una segunda clase, gasta puntos en un árbol de habilidades y equipa objetos en cada ranura. Recalienta objetos en la forja y engarza en ellos cartas de monstruo.",
-        "alt": "El maestro de clase ofrece a un campeón sus dos segundas clases."
+        "title": "Crea a tu cazador",
+        "text": "Elige el aspecto, la bonificación y el arma de tu cazador, aprende una clase en dos etapas, gasta puntos en un mapa de habilidades y equipa objetos en cada ranura. Recalienta objetos en la forja y engarza en ellos cartas de monstruo.",
+        "alt": "El maestro de clase ofrece las seis primeras clases."
       },
       "return": {
         "title": "Tus partidas vuelven",
-        "text": "Los héroes caídos resurgen y te cazan en partidas posteriores. Los héroes que ganan pueden volver en el trono de un Terrateniente.",
-        "alt": "Un héroe resurgido, marcado en rojo, avanza hacia el jugador en el mapa."
+        "text": "Los cazadores caídos resurgen y te cazan en partidas posteriores, y uno de ellos puede ocupar el asiento de un Terrateniente como hereje.",
+        "alt": "Un cazador resurgido, marcado en rojo, avanza hacia el jugador en el mapa."
       }
     }
   },
   "whatsnew": {
-    "title": "Nuevo en la 0.5",
+    "title": "Nuevo en la 0.7.2",
     "items": [
-      "Doce segundas clases y un árbol de habilidades con tres ramas.",
-      "Equipo por ranura, recalentado en la forja y con cartas de monstruo engarzadas.",
-      "Una voz para cada personaje.",
-      "Seis biomas con sus propias plantas, pequeños animales y sonido."
+      "Crea tu propio cazador antes de cada partida y gasta el banco en las estancias de una casa.",
+      "Clases en dos etapas y un árbol de habilidades que es un único mapa para ampliar y arrastrar.",
+      "Cuatro gremios y, cada semana, una puerta que elige la región que recorres.",
+      "Defensa y Escudo, y enemigos que pisotean, embisten, lanzan o escupen."
     ],
     "more": "Todos los cambios"
   },
