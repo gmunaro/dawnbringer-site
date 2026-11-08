@@ -50,15 +50,15 @@
       },
       "risen": {
         "caption": "Un chasseur tombé lors d'une partie passée rôde sur la route avec son or.",
-        "alt": "Sur la carte, une Tireuse du Gibet relevée d'une partie précédente, avec une infobulle qui montre son attirail et l'or qu'elle porte."
+        "alt": "Sur la carte, un chasseur relevé d'une partie précédente, vert, armé d'une arbalète et marqué d'un crâne rouge, à côté de votre chasseur."
       },
       "legend": {
         "caption": "Un chasseur tombé lors d'une partie précédente occupe le siège d'un Seigneur en hérétique.",
-        "alt": "La carte de la Tireuse du Gibet, couronnée : une légende d'une partie précédente qui occupe le trône des Confins Cendrés."
+        "alt": "La carte d'un hérétique, un chasseur tombé lors d'une partie précédente qui occupe le siège du Seigneur du Champ de Poussière, avec ce qu'il porte, une dîme de 18 sur vos 60 or et les boutons Payer la dîme et Combattre."
       },
       "shop": {
         "caption": "La boutique affiche les changements exacts de stats avant de remplacer un objet.",
-        "alt": "La boutique avec quatre reliques à acheter ou bannir, et une comparaison du nouvel objet avec votre attirail."
+        "alt": "La boutique avec quatre objets à acheter ou bannir, et une comparaison du nouvel objet avec votre attirail."
       },
       "camp": {
         "caption": "Dans la maison, formez votre chasseur, choisissez vos vœux et l'or que vous emportez.",
@@ -73,12 +73,12 @@
         "alt": "Après un Seigneur : le choix de rentrer avec la bourse ou de l'emporter en semaine 2, avec la carte du Seigneur suivant."
       },
       "build": {
-        "caption": "Réunissez 2, 4 ou 6 reliques d'une même famille pour activer les bonus d'ensemble.",
-        "alt": "L'attirail du Pénitent de Fer avec ses stats, son équipement, sa ceinture et les ensembles des familles Fer et Sang."
+        "caption": "Réunissez 2, 4 ou 6 objets d'une même famille pour activer les bonus d'ensemble.",
+        "alt": "L'attirail d'un chasseur avec ses stats, son équipement, sa ceinture, ses compétences et les ensembles des familles Fournaise, Fer, Gibet et Peste."
       },
       "event": {
-        "caption": "Les événements de route échangent sang, or ou malédictions contre raccourcis et reliques.",
-        "alt": "L'événement Le Pari du Bourreau, avec trois choix."
+        "caption": "Les événements de route offrent trois choix, et certains coûtent de l'or ou ajoutent de l'Effroi.",
+        "alt": "L'événement Le Puits de la Chapelle, avec trois choix : l'un coûte 8 or et un autre ajoute 4 d'Effroi."
       }
     }
   },

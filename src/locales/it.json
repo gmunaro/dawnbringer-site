@@ -50,15 +50,15 @@
       },
       "risen": {
         "caption": "Un cacciatore caduto in una partita passata vaga per la strada con il suo oro.",
-        "alt": "Sulla mappa, un Tiratore della Forca risorto da una partita precedente, con un tooltip della build e dell'oro che porta."
+        "alt": "Sulla mappa, un cacciatore risorto da una partita precedente, verde, armato di balestra e segnato da un teschio rosso, accanto al tuo cacciatore."
       },
       "legend": {
         "caption": "Un cacciatore caduto in una partita precedente siede sul seggio di un Signore come eretico.",
-        "alt": "La carta di Tiratore della Forca, incoronato: una leggenda di una partita precedente che occupa il seggio della Distesa Cinerea."
+        "alt": "La carta di un eretico, un cacciatore caduto in una partita precedente che occupa il seggio del Signore del Campo della Polvere, con ciò che porta, una decima di 18 dei tuoi 60 oro e i pulsanti Paga la decima e Combatti."
       },
       "shop": {
         "caption": "La bottega mostra subito come cambiano le statistiche prima di sostituire un oggetto.",
-        "alt": "La bottega con quattro reliquie da comprare o bandire e un confronto del nuovo oggetto con la tua build."
+        "alt": "La bottega con quattro oggetti da comprare o bandire e un confronto del nuovo oggetto con la tua build."
       },
       "camp": {
         "caption": "In casa, costruisci il cacciatore e scegli i voti e l'oro che porti con te.",
@@ -73,12 +73,12 @@
         "alt": "Dopo un Signore: la scelta di tornare a casa con la borsa o portarla nella settimana 2, con la carta del Signore successivo."
       },
       "build": {
-        "caption": "Combina 2, 4 o 6 reliquie della stessa famiglia per attivare i bonus di set.",
-        "alt": "La scheda della build del Penitente di Ferro con statistiche, dotazione, cintura e i set di famiglia Ferro e Sangue."
+        "caption": "Combina 2, 4 o 6 oggetti della stessa famiglia per attivare i bonus di set.",
+        "alt": "La scheda della build di un cacciatore con statistiche, dotazione, cintura, abilità e i set di famiglia Fornace, Ferro, Forca e Peste."
       },
       "event": {
-        "caption": "Gli eventi lungo la strada scambiano sangue, oro o maledizioni con scorciatoie e reliquie.",
-        "alt": "L'evento La Scommessa del Boia, con tre scelte."
+        "caption": "Gli eventi lungo la strada offrono tre scelte, e alcune costano oro o aggiungono Terrore.",
+        "alt": "L'evento Il pozzo della cappella, con tre scelte: una costa 8 oro e una aggiunge 4 di Terrore."
       }
     }
   },

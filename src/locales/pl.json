@@ -50,15 +50,15 @@
       },
       "risen": {
         "caption": "Poległy łowca z dawnej wyprawy krąży po drodze ze swoim złotem.",
-        "alt": "Na mapie powstała Strzelczyni Szubienicy z wcześniejszej wyprawy, z podpowiedzią pokazującą jej build i niesione złoto."
+        "alt": "Na mapie obok twojego łowcy stoi zielony, powstały łowca z wcześniejszej wyprawy, z kuszą i czerwoną czaszką nad głową."
       },
       "legend": {
         "caption": "Poległy łowca z poprzedniej wyprawy zasiada na tronie Właściciela jako heretyk.",
-        "alt": "Karta Strzelczyni Szubienicy, ukoronowanej: legendy z wcześniejszej wyprawy, która zajmuje siedzibę Popielistej Dali."
+        "alt": "Karta heretyka, poległego łowcy z wcześniejszej wyprawy, który zajmuje miejsce Właściciela Pola Pyłu, z tym, co niesie, dziesięciną 18 z twoich 60 złota oraz przyciskami Zapłać dziesięcinę i Walcz."
       },
       "shop": {
         "caption": "Sklep od razu pokazuje, jak zmienią się statystyki po wymianie przedmiotu.",
-        "alt": "Sklep z czterema reliktami do kupienia lub wygnania i porównaniem nowego przedmiotu z twoim buildem."
+        "alt": "Sklep z czterema przedmiotami do kupienia lub wygnania i porównaniem nowego przedmiotu z twoim buildem."
       },
       "camp": {
         "caption": "W domu zbuduj łowcę, wybierz śluby i złoto, które zabierasz.",
@@ -73,12 +73,12 @@
         "alt": "Po Właścicielu: wybór między powrotem do domu z sakiewką a zabraniem jej do tygodnia 2, obok karta następnego Właściciela."
       },
       "build": {
-        "caption": "Połącz 2, 4 lub 6 reliktów z tego samego rodu, by odblokować premie zestawu.",
-        "alt": "Karta buildu Żelaznego Pokutnika ze statystykami, wyposażeniem, pasem i zestawami rodzin Żelazo i Krew."
+        "caption": "Połącz 2, 4 lub 6 przedmiotów z tego samego rodu, by odblokować premie zestawu.",
+        "alt": "Karta buildu łowcy ze statystykami, wyposażeniem, pasem, umiejętnościami i zestawami rodzin Piec, Żelazo, Szubienica i Zaraza."
       },
       "event": {
-        "caption": "Zdarzenia na drodze wymieniają krew, złoto lub klątwy na skróty i relikty.",
-        "alt": "Zdarzenie Zakład Kata z trzema wyborami."
+        "caption": "Zdarzenia na drodze dają trzy wybory, a niektóre kosztują złoto lub dodają Grozę.",
+        "alt": "Zdarzenie Studnia kaplicy z trzema wyborami: jeden kosztuje 8 złota, a inny dodaje 4 Grozy."
       }
     }
   },

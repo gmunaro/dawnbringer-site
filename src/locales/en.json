@@ -50,15 +50,15 @@
       },
       "risen": {
         "caption": "A fallen hunter from a past run roams the road with its gold.",
-        "alt": "On the map, a risen Gallows Marksman from an earlier run, with a tooltip of the build and the gold it carries."
+        "alt": "On the map, a green risen hunter from an earlier run, armed with a crossbow and marked with a red skull, stands next to your hunter."
       },
       "legend": {
         "caption": "A fallen hunter from an earlier run sits in a Landlord's seat as a heretic.",
-        "alt": "The card of Gallows Marksman, crowned: a legend of an earlier run that holds the seat of the Ashen Reach."
+        "alt": "The card of a heretic, a fallen hunter from an earlier run that holds the Landlord's seat of Dustfall Reach, with what it carries, a tithe of 18 of your 60 gold, and the buttons Pay the tithe and Fight."
       },
       "shop": {
         "caption": "The shop shows the exact stat changes before you swap an item.",
-        "alt": "The shop with four relics to buy or banish, and a comparison of the new item with your build."
+        "alt": "The shop with four items to buy or banish, and a comparison of the new item with your build."
       },
       "camp": {
         "caption": "In the house, build your hunter, pick vows and the gold you carry.",
@@ -73,12 +73,12 @@
         "alt": "After a Landlord: the choice to go home with the purse or carry it into week 2, with the next Landlord's card."
       },
       "build": {
-        "caption": "Combine 2, 4, or 6 relics from the same family to unlock set bonuses.",
-        "alt": "The build sheet of the Ironbound Penitent with stats, gear, belt and the Iron and Blood family sets."
+        "caption": "Combine 2, 4, or 6 items from the same family to unlock set bonuses.",
+        "alt": "A hunter's build sheet with stats, gear, belt, skills and the Furnace, Iron, Gallows and Plague family sets."
       },
       "event": {
-        "caption": "Road events trade blood, gold, or curses for shortcuts and relics.",
-        "alt": "The event The Hangman's Wager, with three choices."
+        "caption": "Road events offer three choices, and some cost gold or add Dread.",
+        "alt": "The event The Chapel Well, with three choices: one costs 8 gold and one adds 4 Dread."
       }
     }
   },
