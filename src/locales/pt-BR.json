@@ -50,15 +50,15 @@
       },
       "risen": {
         "caption": "Um caçador caído numa partida passada vaga pela estrada com seu ouro.",
-        "alt": "No mapa, uma Atiradora da Forca reerguida de uma partida anterior, com uma dica que mostra a build e o ouro que ela carrega."
+        "alt": "No mapa, um caçador reerguido de uma partida anterior, verde, armado com uma besta e marcado com uma caveira vermelha, ao lado do seu caçador."
       },
       "legend": {
         "caption": "Um caçador caído numa partida anterior ocupa o assento de um Senhorio como herege.",
-        "alt": "A carta da Atiradora da Forca, coroada: uma lenda de uma partida anterior que ocupa o assento dos Confins Cinzentos."
+        "alt": "A carta de um herege, um caçador caído numa partida anterior que ocupa o assento do Senhorio do Campo do Pó, com o que ele carrega, o dízimo de 18 dos seus 60 de ouro e os botões Pagar o dízimo e Lutar."
       },
       "shop": {
         "caption": "A loja mostra na hora o que muda nos seus atributos ao trocar um item.",
-        "alt": "A loja com quatro relíquias para comprar ou banir, e uma comparação do item novo com a sua build."
+        "alt": "A loja com quatro itens para comprar ou banir, e uma comparação do item novo com a sua build."
       },
       "camp": {
         "caption": "Na casa, monte seu caçador e escolha os votos e o ouro que você leva.",
@@ -73,12 +73,12 @@
         "alt": "Depois de um Senhorio: a escolha entre voltar para casa com a bolsa ou levá-la para a semana 2, com a carta do próximo Senhorio."
       },
       "build": {
-        "caption": "Junte 2, 4 ou 6 relíquias da mesma família para ativar bônus de conjunto.",
-        "alt": "A ficha do Penitente de Ferro com atributos, equipamento, cinto e os conjuntos de família Ferro e Sangue."
+        "caption": "Junte 2, 4 ou 6 itens da mesma família para ativar bônus de conjunto.",
+        "alt": "A ficha de build de um caçador com atributos, equipamento, cinto, habilidades e os conjuntos de família Fornalha, Ferro, Forca e Peste."
       },
       "event": {
-        "caption": "Eventos de estrada trocam sangue, ouro ou maldições por atalhos e relíquias.",
-        "alt": "O evento A Aposta do Carrasco, com três escolhas."
+        "caption": "Eventos de estrada oferecem três escolhas, e algumas custam ouro ou somam Pavor.",
+        "alt": "O evento O Poço da Capela, com três escolhas: uma custa 8 de ouro e outra soma 4 de Pavor."
       }
     }
   },

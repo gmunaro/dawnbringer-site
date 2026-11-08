@@ -33,30 +33,44 @@
 <main id="main" class="wrap prose">
 <article>
 <h1>Dawnbringer: Privacy Policy</h1>
-<p>Effective date: 2026-10-21</p>
+<p>Effective date: 2026-11-07</p>
 <p>Developer: gmunaro (individual developer), contact: <a href="mailto:dawnbringergame@gmail.com">dawnbringergame@gmail.com</a></p>
 <p><em>Versão em português abaixo.</em></p>
 <h2>Summary</h2>
-<p>Dawnbringer does not have accounts, ads, analytics, tracking or in-app purchases. Your game
-progress stays on your device. The game sends something over the internet only when you choose to
-send a bug report and, in the Google Play version for Android, to check that your Google account
-owns the game.</p>
+<p>Dawnbringer does not have accounts, ads, tracking or in-app purchases, and it has no third-party
+analytics. Your game progress stays on your device. The game sends data over the internet when you
+choose to send a bug report and, only if you turn them on, a record of each run when the run ends.
+In the Google Play version for Android it also checks that your Google account owns the game, and
+every version asks this website once a day at most whether a newer version exists. Voice notes for
+bug reports are turned into text on your phone: no sound is sent.</p>
 <h2>Data stored on your device</h2>
-<p>The game saves your progress (profile, unlocked champions, saved builds) and your settings
-(language, volume, display options) in the app&#39;s private storage on your device. This data is
-not sent to us or to anyone else, and it is not included in Android cloud backups. On Android,
-uninstalling the game deletes it; on PC it stays in your user data folder until you delete it. If a bug report you sent could not be delivered (for example, you were
+<p>The game saves your progress (the gold you keep between runs, what you unlocked in the House, the
+hunter you made, the hunters that fell or won in earlier runs, your quests, your collection and
+your totals) and your settings (language, volume, display options) in the app&#39;s private storage on
+your device. This save is not sent to us or to anyone else, and it is not included in Android cloud
+backups. On Android, uninstalling the game deletes it; on PC it stays in your user data folder
+until you delete it. If a bug report you sent could not be delivered (for example, you were
 offline), the game keeps it in the same storage and tries again the next times you open the game,
-then deletes it.</p>
+then deletes it. The name you typed in the bug reporter and its random id are kept in the game&#39;s
+settings. If you turn on run records, the game also keeps your answer and the random id described
+below in its settings, and keeps up to 20 records it could not deliver until it can send them.</p>
 <h2>Bug reports (only when you send one)</h2>
 <p>The game has an in-game bug reporter. Nothing is sent unless you open it and press Send. A report
 contains:</p>
 <ul>
-<li>the description you type;</li>
+<li>the description you type, or dictate with Voice note (see &quot;Voice notes&quot; below);</li>
+<li>the name you type in &quot;Your name (optional)&quot;, if you type one. Without it the report is anonymous.
+The game keeps the name on your device for your next reports;</li>
+<li>a random id the game creates on your device for bug reports, so that the reports of one install
+can be counted together. It is separate from the id of the run records (below), so a report
+cannot be tied to your run records, and it is not linked to your Google account or to your
+device&#39;s identifiers. &quot;Delete my data&quot; in Options gives you a new one and makes the game forget
+the name you typed; the reports you already sent stay on the server (see the last paragraph of
+this section to have them deleted);</li>
 <li>a screenshot of the game screen, unless you untick &quot;Attach this screenshot&quot; before sending;</li>
 <li>the game version, the operating system name and version, and the game&#39;s language setting;</li>
-<li>where you were in the game: the current screen and, during a run, the champion, week, day and
-the run&#39;s seed (the number that generates the run&#39;s map);</li>
+<li>where you were in the game: the current screen and, during a run, your hunter&#39;s trade, week, day
+and the run&#39;s seed (the number that generates the run&#39;s map);</li>
 <li>an excerpt of the game&#39;s own log (technical messages from the game, such as errors). The game
 removes the path of its data folder from the excerpt; other file paths, such as the folder the
 game is installed in, may still appear. On Android the game keeps no log file, so no excerpt is
@@ -67,16 +81,86 @@ Cloudflare Workers (Cloudflare, Inc.), which files it as an issue in a private G
 and stores the screenshot in the same repository (GitHub, Inc. hosts it as our service provider).
 We use reports only to find and fix bugs. We do not sell them, share them with third parties for
 their own use, or use them for advertising.</p>
-<p>Like any internet connection, the server sees your IP address while receiving the report. To stop
-abuse, it keeps a count of reports per IP address (for IPv6, per network prefix) for up to two
+<p>Like any internet connection, the server sees your IP address while receiving the report. From it,
+Cloudflare estimates where the connection comes from: the country, the region, the city and
+coordinates that the server rounds to about 11 km. That place is often only the nearest large city.
+The server adds the city and the country to the report. It also stores the place, with the report&#39;s
+number and time, the name, the id, the game version, the platform, the language, the screen and
+your hunter&#39;s trade, in a database on Cloudflare (Cloudflare D1), so that we can see where bugs
+come from. The IP address itself is not stored with the report or in that database. To stop abuse,
+the server keeps a count of reports per IP address (for IPv6, per network prefix) for up to two
 hours, then the count is deleted automatically. The server also keeps technical logs of each
 request (Cloudflare Workers Logs), which may include your IP address, for a few days (at most 7)
 before they are deleted automatically; the developer can read them to fix problems with the
-server. The IP address is not added to the report.</p>
-<p>Please do not type personal information (such as your name, email or phone number) in the
-description. Reports are kept while the bug is being worked on and then may be kept as part of
-the project&#39;s issue history. To have a report deleted, email <a href="mailto:dawnbringergame@gmail.com">dawnbringergame@gmail.com</a> with the
-date you sent it and a few words of its description, and we will delete it.</p>
+server.</p>
+<p>Please do not type other personal information (such as your email or phone number) in the
+description or in &quot;Your name&quot;; a first name or a nickname is enough. Reports are kept while the bug
+is being worked on and then may be kept as part of the project&#39;s issue history, with their row in
+the database. &quot;Delete my data&quot; does not delete reports already sent. To have a report deleted,
+email <a href="mailto:dawnbringergame@gmail.com">dawnbringergame@gmail.com</a> with the date you sent it and a few words of its description, and
+we will delete it.</p>
+<h2>Voice notes (Android only, only when you use them)</h2>
+<p>The bug button has a Voice note option. It works only on an Android phone that can recognize speech
+on the device itself (Android 12 or later); anywhere else the option is turned off. The first time
+you use it, Android asks for permission to use the microphone. The game listens only after you tap
+Voice note, until you tap it again or for 60 seconds at most.</p>
+<p>The speech is recognized by the recognizer built into Android, on your phone. The game does not use
+an online recognizer, and it does not record, store or send the sound. Only the words it
+recognized are added to the description of your bug report, as if you had typed them. They show
+beside the button and in the report panel, where you can edit them before you send the report.
+The game uses the microphone for nothing else.</p>
+<h2>Run records (only if you turn them on)</h2>
+<p>Used only to tune Dawnbringer&#39;s difficulty and balance. Nothing is sold or shared, and no name,
+text or photo is sent.</p>
+<p>When you first open the game, it asks whether it may send a record of each run when the run ends.
+If you choose &quot;Later&quot;, it asks once more when your next run ends, and a yes there also sends that
+run. If you answer &quot;No, thanks&quot;, it does not ask again. We use the records only to tune the game&#39;s
+difficulty and balance: to learn in which run players win for the first time, where runs end and
+which choices lead there. Nothing is sent unless you answer yes, and you can turn this on or off at
+any time in Options.</p>
+<p>A record is sent only when a run ends, never while you play it. If you are offline when the run
+ends, the game keeps it and sends it the next time you open the game, or later while you are not
+in a run. The game keeps at most 20 unsent records and drops the oldest past that. A record
+contains:</p>
+<ul>
+<li>the game version, the platform (for example Android or Windows) and the version of the record&#39;s
+format;</li>
+<li>a random id the game creates on your device, so that the records of one install can be counted
+together. It is not linked to your Google account, to your device&#39;s identifiers or to anything
+else about you. Options shows its first and last four characters. Each record also carries a
+random id of its own, so that a record sent twice is counted once;</li>
+<li>the run&#39;s number in your profile and whether you had won a run before;</li>
+<li>how the run was set up: its seed (the number the game draws the run from), your hunter&#39;s trade,
+the item families in play, how much gold you took from the bank, the vows, the game speed and the
+game&#39;s language;</li>
+<li>every choice you made in the run, in order: where you went on the map, the events and the option
+you picked, the items you were offered, bought, sold, forged and refined, the cards, the Oddities
+you took, the classes offered and taken, the skills and attribute points, resetting your build,
+guild contracts and posts, being expelled from or leaving a guild, and whether you went home or
+went on after each Landlord;</li>
+<li>every fight: the enemies, whether you won, and your health before and after; and the people of
+the world you met or killed on the way;</li>
+<li>how your hunter was built as the run went on: gold, health, level, attributes, gear and build,
+the Dread, whether you carried the mark for killing one of the people of the world, and which
+event choices opened later events;</li>
+<li>the Landlords you faced, how the run ended (you won, died, abandoned the run, went home or went
+down into the Tolleth) and what defeated you;</li>
+<li>how long you played the run, in minutes, and how many steps you walked on the map.</li>
+</ul>
+<p>A record never contains text you typed, your hunter&#39;s name, screenshots or anything else that
+identifies you.</p>
+<p>Records are sent over an encrypted connection (HTTPS) to the same server as bug reports (Cloudflare
+Workers) and stored in a database on Cloudflare (Cloudflare D1), with the date, not the time, they
+arrived. Cloudflare, Inc. hosts them as our service provider. We do not sell the records, share
+them with third parties for their own use, or use them for advertising. The server uses your IP
+address only to limit how many records can be sent per minute; the IP address is not stored with
+the records. The server&#39;s technical logs are the same as for bug reports, described above.</p>
+<p>Records are deleted automatically 12 months after they arrive. To delete yours sooner, press
+&quot;Delete my data&quot; in Options: the game asks the server to delete every record sent with your id,
+then creates a new id. You can also email <a href="mailto:dawnbringergame@gmail.com">dawnbringergame@gmail.com</a> with the id shown in Options,
+and we will delete them. If you turn records off, the game sends nothing more and deletes the
+records it had not sent yet. Records already sent stay until the 12 months pass or you delete
+them.</p>
 <h2>Google Play license check (Android, Google Play version only)</h2>
 <p>When you open the game, it sends a one-time token from Google Play and a random number to the same
 server as bug reports, which asks Google whether your Google account owns the game and answers only
@@ -84,6 +168,12 @@ yes or no. The game keeps that answer on your device; the server keeps nothing a
 beyond a short-lived count of requests per IP address to stop abuse and the technical logs described
 above. Other versions of the game do not
 make this check.</p>
+<h2>Update check</h2>
+<p>On the title screen, the game downloads the file latest.json from this website
+(gmunaro.github.io/dawnbringer-site) to see whether a newer version exists. It asks once a day at
+most and keeps the answer on your device. The request has no id, no cookie and nothing about you.
+Like any web request, it shows your IP address to the server that hosts this website (GitHub
+Pages, GitHub, Inc.).</p>
 <h2>Children</h2>
 <p>Dawnbringer is not directed at children under 13, and we do not knowingly collect personal
 information from children.</p>
@@ -97,30 +187,45 @@ date.</p>
 <hr>
 <article lang="pt-BR">
 <h1>Dawnbringer: Política de Privacidade</h1>
-<p>Data de vigência: 2026-10-21</p>
+<p>Data de vigência: 2026-11-07</p>
 <p>Desenvolvedor: gmunaro (desenvolvedor individual), contato: <a href="mailto:dawnbringergame@gmail.com">dawnbringergame@gmail.com</a></p>
 <h2>Resumo</h2>
-<p>Dawnbringer não tem contas, anúncios, analytics, rastreamento nem compras no app. Seu progresso
-fica no seu aparelho. O jogo só envia algo pela internet quando você decide mandar um relatório
-de bug e, na versão do Google Play para Android, para conferir se a sua conta Google tem o jogo.</p>
+<p>Dawnbringer não tem contas, anúncios, rastreamento nem compras no app, e não usa analytics de
+terceiros. Seu progresso fica no seu aparelho. O jogo envia dados pela internet quando você decide
+mandar um relatório de bug e, só se você ativar, um registro de cada partida quando ela termina.
+Na versão do Google Play para Android, ele também confere se a sua conta Google tem o jogo, e todas
+as versões perguntam a este site, no máximo uma vez por dia, se existe uma versão mais nova. A nota
+de voz dos relatórios de bug vira texto no seu celular: nenhum som é enviado.</p>
 <h2>Dados guardados no seu aparelho</h2>
-<p>O jogo salva seu progresso (perfil, campeões desbloqueados, builds salvas) e suas configurações
-(idioma, volume, opções de tela) no armazenamento privado do app no seu aparelho. Esses dados não
-são enviados para nós nem para ninguém e não entram no backup em nuvem do Android. No Android,
-desinstalar o jogo apaga esses dados; no PC eles ficam na sua pasta de dados de usuário até você
-apagá-la. Se um relatório de bug que você enviou não puder ser entregue (por exemplo,
-sem internet), o jogo o guarda nesse mesmo armazenamento e tenta de novo nas próximas vezes que
-você abrir o jogo; depois o apaga.</p>
+<p>O jogo salva seu progresso (o ouro que você guarda entre as partidas, o que você desbloqueou na
+Casa, o caçador que você criou, os caçadores que caíram ou venceram em partidas anteriores, suas
+missões, sua coleção e seus totais) e suas configurações (idioma, volume, opções de tela) no
+armazenamento privado do app no seu aparelho. Esse save não é enviado para nós nem para ninguém e
+não entra no backup em nuvem do Android. No Android, desinstalar o jogo apaga esses dados; no PC
+eles ficam na sua pasta de dados de usuário até você apagá-la. Se um relatório de bug que você
+enviou não puder ser entregue (por exemplo, sem internet), o jogo o guarda nesse mesmo
+armazenamento e tenta de novo nas próximas vezes que você abrir o jogo; depois o apaga. O nome que
+você digitou no relator de bugs e o id aleatório dele ficam nas configurações do jogo. Se você
+ativar os registros de partida, o jogo também guarda sua resposta e o id aleatório descrito abaixo
+nas configurações, e guarda até 20 registros que não conseguiu entregar até poder enviá-los.</p>
 <h2>Relatórios de bug (só quando você envia)</h2>
 <p>O jogo tem um relator de bugs. Nada é enviado a menos que você o abra e toque em Enviar. Um
 relatório contém:</p>
 <ul>
-<li>a descrição que você digitar;</li>
+<li>a descrição que você digitar, ou ditar com a Nota de voz (veja &quot;Notas de voz&quot; abaixo);</li>
+<li>o nome que você digitar em &quot;Seu nome (opcional)&quot;, se digitar. Sem ele o relatório é anônimo. O
+jogo guarda o nome no seu aparelho para os próximos relatórios;</li>
+<li>um id aleatório que o jogo cria no seu aparelho para os relatórios de bug, para que os
+relatórios de uma instalação possam ser contados juntos. Ele é separado do id dos registros de
+partida (abaixo), então um relatório não pode ser ligado aos seus registros de partida, e não tem
+ligação com a sua conta Google nem com os identificadores do seu aparelho. &quot;Apagar meus dados&quot;,
+nas Opções, cria um id novo e faz o jogo esquecer o nome que você digitou; os relatórios que você
+já enviou continuam no servidor (veja o último parágrafo desta seção para apagá-los);</li>
 <li>uma captura da tela do jogo, a menos que você desmarque &quot;Anexar esta captura de tela&quot; antes de
 enviar;</li>
 <li>a versão do jogo, o nome e a versão do sistema operacional e o idioma configurado no jogo;</li>
-<li>onde você estava no jogo: a tela atual e, durante uma partida, o campeão, a semana, o dia e a
-semente da partida (o número que gera o mapa da partida);</li>
+<li>onde você estava no jogo: a tela atual e, durante uma partida, o ofício do seu caçador, a semana,
+o dia e a semente da partida (o número que gera o mapa da partida);</li>
 <li>um trecho do log do próprio jogo (mensagens técnicas do jogo, como erros). O jogo tira do trecho
 o caminho da sua pasta de dados; outros caminhos de arquivo, como a pasta onde o jogo está
 instalado, ainda podem aparecer. No Android o jogo não grava arquivo de log, então nenhum
@@ -131,16 +236,88 @@ Workers (Cloudflare, Inc.), que o registra como uma issue num repositório priva
 guarda a captura de tela nesse mesmo repositório (o GitHub, Inc. hospeda como nosso prestador de
 serviço). Usamos os relatórios só para achar e corrigir bugs. Não vendemos, não compartilhamos com
 terceiros para uso próprio deles e não usamos para publicidade.</p>
-<p>Como em qualquer conexão à internet, o servidor vê seu endereço IP ao receber o relatório. Para
-evitar abuso, ele guarda uma contagem de relatórios por endereço IP (no IPv6, por prefixo de rede)
-por até duas horas, e depois a contagem é apagada automaticamente. O servidor também guarda
-registros técnicos de cada requisição (Cloudflare Workers Logs), que podem incluir seu endereço IP,
-por alguns dias (no máximo 7), e depois eles são apagados automaticamente; o desenvolvedor pode
-lê-los para corrigir problemas do servidor. O endereço IP não entra no relatório.</p>
-<p>Não escreva dados pessoais (nome, e-mail, telefone) na descrição. Os relatórios ficam guardados
-enquanto o bug é tratado e podem continuar no histórico de issues do projeto. Para apagar um
-relatório, mande um e-mail para <a href="mailto:dawnbringergame@gmail.com">dawnbringergame@gmail.com</a> com a data do envio e algumas palavras da
-descrição, e nós o apagaremos.</p>
+<p>Como em qualquer conexão à internet, o servidor vê seu endereço IP ao receber o relatório. A
+partir dele, a Cloudflare estima de onde vem a conexão: o país, a região, a cidade e coordenadas
+que o servidor arredonda para cerca de 11 km. Esse lugar muitas vezes é só a cidade grande mais
+próxima. O servidor acrescenta a cidade e o país ao relatório. Ele também guarda o lugar, com o
+número e a hora do relatório, o nome, o id, a versão do jogo, a plataforma, o idioma, a tela e o
+ofício do seu caçador, num banco de dados na Cloudflare (Cloudflare D1), para sabermos de onde vêm
+os bugs. O endereço IP em si não é guardado no relatório nem nesse banco. Para evitar abuso, o
+servidor guarda uma contagem de relatórios por endereço IP (no IPv6, por prefixo de rede) por até
+duas horas, e depois a contagem é apagada automaticamente. O servidor também guarda registros
+técnicos de cada requisição (Cloudflare Workers Logs), que podem incluir seu endereço IP, por
+alguns dias (no máximo 7), e depois eles são apagados automaticamente; o desenvolvedor pode lê-los
+para corrigir problemas do servidor.</p>
+<p>Não escreva outros dados pessoais (como e-mail ou telefone) na descrição nem em &quot;Seu nome&quot;; um
+primeiro nome ou apelido basta. Os relatórios ficam guardados enquanto o bug é tratado e podem
+continuar no histórico de issues do projeto, com a linha deles no banco de dados. &quot;Apagar meus
+dados&quot; não apaga os relatórios já enviados. Para apagar um relatório, mande um e-mail para
+<a href="mailto:dawnbringergame@gmail.com">dawnbringergame@gmail.com</a> com a data do envio e algumas palavras da descrição, e nós o apagaremos.</p>
+<h2>Notas de voz (só Android, só quando você usa)</h2>
+<p>O botão de bug tem a opção Nota de voz. Ela só funciona num celular Android que reconhece fala no
+próprio aparelho (Android 12 ou mais novo); em qualquer outro lugar a opção fica desligada. Na
+primeira vez que você a usa, o Android pede permissão para usar o microfone. O jogo só escuta
+depois que você toca em Nota de voz, até você tocar de novo ou por 60 segundos no máximo.</p>
+<p>A fala é reconhecida pelo reconhecedor embutido no Android, no seu celular. O jogo não usa
+reconhecedor online e não grava, não guarda nem envia o som. Só as palavras reconhecidas entram na
+descrição do seu relatório de bug, como se você as tivesse digitado. Elas aparecem ao lado do botão
+e no painel do relatório, onde você pode editá-las antes de enviar. O jogo não usa o microfone para
+mais nada.</p>
+<h2>Registros de partida (só se você ativar)</h2>
+<p>Usado só para ajustar a dificuldade e o equilíbrio do Dawnbringer. Nada é vendido nem
+compartilhado, e não vai nome, texto nem foto.</p>
+<p>Na primeira vez que você abre o jogo, ele pergunta se pode enviar um registro de cada partida
+quando ela termina. Se você escolher &quot;Depois&quot;, ele pergunta mais uma vez quando a sua próxima
+partida terminar, e um sim ali também envia essa partida. Se você responder &quot;Não, obrigado&quot;, ele
+não pergunta de novo. Usamos os registros só para ajustar a dificuldade e o equilíbrio do jogo:
+saber em que partida os jogadores vencem pela primeira vez, onde as partidas terminam e que
+escolhas levam até lá. Nada é enviado a menos que você responda sim, e você pode ativar ou
+desativar isso quando quiser nas Opções.</p>
+<p>Um registro só é enviado quando a partida termina, nunca enquanto você joga. Se você estiver sem
+internet quando a partida terminar, o jogo o guarda e envia na próxima vez que você abrir o jogo,
+ou depois, quando você não estiver numa partida. O jogo guarda no máximo 20 registros não enviados
+e descarta os mais antigos além disso. Um registro contém:</p>
+<ul>
+<li>a versão do jogo, a plataforma (por exemplo Android ou Windows) e a versão do formato do
+registro;</li>
+<li>um id aleatório que o jogo cria no seu aparelho, para que os registros de uma instalação possam
+ser contados juntos. Ele não tem ligação com a sua conta Google, com os identificadores do seu
+aparelho nem com nada mais sobre você. As Opções mostram os quatro primeiros e os quatro últimos
+caracteres dele. Cada registro também leva um id aleatório próprio, para que um registro enviado
+duas vezes seja contado uma vez só;</li>
+<li>o número da partida no seu perfil e se você já tinha vencido uma partida antes;</li>
+<li>como a partida começou: a semente (o número a partir do qual o jogo sorteia a partida), o ofício
+do seu caçador, as famílias de itens em jogo, quanto ouro você tirou do banco, os votos, a
+velocidade do jogo e o idioma do jogo;</li>
+<li>cada escolha que você fez na partida, em ordem: por onde você andou no mapa, os eventos e a opção
+escolhida, os itens que lhe foram oferecidos, comprados, vendidos, forjados e refinados, as
+cartas, as Oddities que você pegou, as classes oferecidas e escolhidas, as habilidades e os
+pontos de atributo, o reinício da sua build, os contratos e os postos nas guildas, a expulsão de
+uma guilda ou a saída dela, e se você voltou para casa ou seguiu depois de cada Senhorio;</li>
+<li>cada luta: os inimigos, se você venceu e a sua vida antes e depois; e as pessoas do mundo que
+você encontrou ou matou pelo caminho;</li>
+<li>como o seu caçador estava montado ao longo da partida: ouro, vida, nível, atributos, equipamento
+e build, o Pavor, se você carregava a marca de quem matou uma das pessoas do mundo e que escolhas
+de evento abriram eventos seguintes;</li>
+<li>os Senhorios que você enfrentou, como a partida acabou (você venceu, morreu, abandonou a
+partida, voltou para casa ou desceu ao Tolleth) e o que derrotou você;</li>
+<li>quanto tempo você jogou a partida, em minutos, e quantos passos você andou no mapa.</li>
+</ul>
+<p>Um registro nunca contém texto que você digitou, o nome do seu caçador, capturas de tela nem nada
+mais que identifique você.</p>
+<p>Os registros são enviados por uma conexão criptografada (HTTPS) para o mesmo servidor dos
+relatórios de bug (Cloudflare Workers) e guardados num banco de dados na Cloudflare (Cloudflare
+D1), com a data, não a hora, em que chegaram. A Cloudflare, Inc. os hospeda como nossa prestadora
+de serviço. Não vendemos os registros, não os compartilhamos com terceiros para uso deles e não os
+usamos para publicidade. O servidor usa o seu endereço IP só para limitar quantos registros podem
+ser enviados por minuto; o endereço IP não é guardado com os registros. Os registros técnicos do
+servidor são os mesmos dos relatórios de bug, descritos acima.</p>
+<p>Os registros são apagados automaticamente 12 meses depois de chegarem. Para apagar os seus antes,
+toque em &quot;Apagar meus dados&quot; nas Opções: o jogo pede ao servidor que apague todos os registros
+enviados com o seu id e depois cria um id novo. Você também pode mandar um e-mail para
+<a href="mailto:dawnbringergame@gmail.com">dawnbringergame@gmail.com</a> com o id mostrado nas Opções, e nós os apagamos. Se você desativar os
+registros, o jogo não envia mais nada e apaga os registros que ainda não tinha enviado. Os
+registros já enviados ficam até passarem os 12 meses ou até você apagá-los.</p>
 <h2>Verificação de licença do Google Play (só Android, versão do Google Play)</h2>
 <p>Quando você abre o jogo, ele envia um código de uso único do Google Play e um número aleatório ao
 mesmo servidor dos relatórios de bug, que pergunta ao Google se a sua conta Google tem o jogo e
@@ -148,6 +325,11 @@ responde só sim ou não. O jogo guarda essa resposta no seu aparelho; o servido
 verificação além de uma contagem breve de pedidos por endereço IP, contra abuso, e dos registros
 técnicos descritos acima. As outras
 versões do jogo não fazem essa verificação.</p>
+<h2>Verificação de atualização</h2>
+<p>Na tela de título, o jogo baixa o arquivo latest.json deste site (gmunaro.github.io/dawnbringer-site)
+para ver se existe uma versão mais nova. Ele pergunta no máximo uma vez por dia e guarda a resposta
+no seu aparelho. O pedido não leva id, cookie nem nada sobre você. Como em qualquer pedido web, ele
+mostra o seu endereço IP ao servidor que hospeda este site (GitHub Pages, GitHub, Inc.).</p>
 <h2>Crianças</h2>
 <p>Dawnbringer não é direcionado a menores de 13 anos, e não coletamos dados pessoais de crianças
 de propósito.</p>

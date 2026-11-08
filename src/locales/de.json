@@ -50,15 +50,15 @@
       },
       "risen": {
         "caption": "Ein gefallener Jäger aus einem früheren Lauf streift mit seinem Gold über die Straße.",
-        "alt": "Auf der Karte eine auferstandene Galgenschützin aus einem früheren Lauf, mit einem Tooltip zu ihrem Build und dem Gold, das sie trägt."
+        "alt": "Auf der Karte ein auferstandener Jäger aus einem früheren Lauf, grün, mit Armbrust und einem roten Totenkopf darüber, neben deinem Jäger."
       },
       "legend": {
         "caption": "Ein gefallener Jäger aus einem früheren Lauf sitzt als Ketzer auf dem Platz eines Hausherrn.",
-        "alt": "Die Karte von Galgenschützin, gekrönt: eine Legende aus einem früheren Lauf, die den Sitz der Aschenweite hält."
+        "alt": "Die Karte eines Ketzers, eines gefallenen Jägers aus einem früheren Lauf, der den Platz des Hausherrn im Staubfeld hält, mit seiner Ausrüstung, einem Zehnt von 18 deiner 60 Gold und den Knöpfen Zehnt zahlen und Kämpfen."
       },
       "shop": {
         "caption": "Der Laden zeigt dir vor dem Tausch genau, wie sich deine Werte ändern.",
-        "alt": "Der Laden mit vier Relikten zum Kaufen oder Verbannen und einem Vergleich des neuen Gegenstands mit deinem Build."
+        "alt": "Der Laden mit vier Gegenständen zum Kaufen oder Verbannen und einem Vergleich des neuen Gegenstands mit deinem Build."
       },
       "camp": {
         "caption": "Baue im Haus deinen Jäger und wähle Gelübde und das Gold, das du mitnimmst.",
@@ -73,12 +73,12 @@
         "alt": "Nach einem Hausherrn: die Wahl, mit der Börse nach Hause zu gehen oder sie in Woche 2 mitzunehmen, daneben die Karte des nächsten Hausherrn."
       },
       "build": {
-        "caption": "Kombiniere 2, 4 oder 6 Relikte derselben Familie, um Set-Boni freizuschalten.",
-        "alt": "Das Build-Blatt des Eisengebundenen Büßers mit Werten, Ausrüstung, Gürtel und den Familiensets Eisen und Blut."
+        "caption": "Kombiniere 2, 4 oder 6 Gegenstände derselben Familie, um Set-Boni freizuschalten.",
+        "alt": "Das Build-Blatt eines Jägers mit Werten, Ausrüstung, Gürtel, Fertigkeiten und den Familiensets Glutofen, Eisen, Galgen und Pest."
       },
       "event": {
-        "caption": "Straßenereignisse tauschen Blut, Gold oder Flüche gegen Abkürzungen und Relikte.",
-        "alt": "Das Ereignis Die Wette des Henkers, mit drei Wahlmöglichkeiten."
+        "caption": "Straßenereignisse bieten drei Wahlmöglichkeiten, und manche kosten Gold oder fügen Grauen hinzu.",
+        "alt": "Das Ereignis Der Kapellenbrunnen, mit drei Wahlmöglichkeiten: eine kostet 8 Gold, eine fügt 4 Grauen hinzu."
       }
     }
   },

@@ -50,15 +50,15 @@
       },
       "risen": {
         "caption": "Önceki bir koşuda düşen avcı, altınıyla birlikte yolda dolaşıyor.",
-        "alt": "Haritada, önceki bir koşudan dirilmiş bir Darağacı Nişancısı; düzenini ve taşıdığı altını gösteren bir ipucu kutusuyla."
+        "alt": "Haritada, avcının yanında duran, önceki bir koşudan dirilmiş yeşil bir avcı; elinde arbalet var, başının üstünde kırmızı bir kuru kafa görünüyor."
       },
       "legend": {
         "caption": "Önceki bir koşuda düşen avcı, sapkın olarak bir Ev sahibinin yerinde oturuyor.",
-        "alt": "Darağacı Nişancısı, taçlanmış kartı: Küllü Diyar'ın tahtını tutan, önceki bir koşudan kalma bir efsane."
+        "alt": "Bir sapkının kartı: önceki bir koşuda düşmüş, Toz Ovası'nın Ev sahibi yerini tutan avcı; taşıdıkları, 60 altınından 18'lik onda bir ve Onda biri öde ile Savaş düğmeleri."
       },
       "shop": {
         "caption": "Dükkân, bir eşyayı değiştirmeden önce niteliklerinin nasıl değişeceğini gösterir.",
-        "alt": "Satın almak ya da sürgün etmek için dört relik sunan dükkân ve yeni eşyanın düzeninle karşılaştırması."
+        "alt": "Satın almak ya da sürgün etmek için dört eşya sunan dükkân ve yeni eşyanın düzeninle karşılaştırması."
       },
       "camp": {
         "caption": "Hanede avcını kur, adaklarını ve yanına alacağın altını seç.",
@@ -73,12 +73,12 @@
         "alt": "Bir Ev sahibinden sonra: keseyle eve dönmek ya da onu 2. haftaya taşımak arasında seçim; yanında bir sonraki Ev sahibinin kartı."
       },
       "build": {
-        "caption": "Set bonuslarını açmak için aynı aileden 2, 4 veya 6 relik birleştir.",
-        "alt": "Demirci Tövbekar'ın düzen sayfası: nitelikler, ekipman, kemer ve Demir ile Kan aile setleri."
+        "caption": "Set bonuslarını açmak için aynı aileden 2, 4 veya 6 eşya birleştir.",
+        "alt": "Bir avcının düzen sayfası: nitelikler, ekipman, kemer, yetenekler ve Fırın, Demir, Darağacı ile Veba aile setleri."
       },
       "event": {
-        "caption": "Yol olayları kan, altın veya lanet karşılığında kestirmeler ve relikler sunar.",
-        "alt": "Üç seçenekli Cellat Bahsi olayı."
+        "caption": "Yol olayları üç seçenek sunar; bazıları altına mal olur ya da Dehşet ekler.",
+        "alt": "Üç seçenekli Şapel Kuyusu olayı: biri 8 altına mal olur, biri 4 Dehşet ekler."
       }
     }
   },

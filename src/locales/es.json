@@ -50,15 +50,15 @@
       },
       "risen": {
         "caption": "Un cazador caído en una partida pasada vaga por el camino con su oro.",
-        "alt": "En el mapa, una Tiradora de la Horca resurgida de una partida anterior, con una ventana que muestra su build y el oro que lleva."
+        "alt": "En el mapa, un cazador resurgido de una partida anterior, verde, armado con una ballesta y marcado con una calavera roja, junto a tu cazador."
       },
       "legend": {
         "caption": "Un cazador caído en otra partida ocupa el asiento de un Terrateniente como hereje.",
-        "alt": "La carta de la Tiradora de la Horca, coronada: una leyenda de una partida anterior que ocupa el asiento del Alcance Ceniciento."
+        "alt": "La carta de un hereje, un cazador caído en otra partida que ocupa el asiento del Terrateniente del Campo del Polvo, con lo que lleva, un diezmo de 18 de tus 60 de oro y los botones Pagar el diezmo y Luchar."
       },
       "shop": {
         "caption": "La tienda muestra al instante qué cambia en tus atributos al reemplazar un objeto.",
-        "alt": "La tienda con cuatro reliquias para comprar o desterrar, y una comparación del objeto nuevo con tu build."
+        "alt": "La tienda con cuatro objetos para comprar o desterrar, y una comparación del objeto nuevo con tu build."
       },
       "camp": {
         "caption": "En la casa, crea a tu cazador y elige los votos y el oro que llevas.",
@@ -73,12 +73,12 @@
         "alt": "Tras un Terrateniente: la elección entre volver a casa con la bolsa o llevarla a la semana 2, con la carta del siguiente Terrateniente."
       },
       "build": {
-        "caption": "Reúne 2, 4 o 6 reliquias de la misma familia para activar bonificaciones de conjunto.",
-        "alt": "La ficha del Penitente Encadenado con estadísticas, equipo, cinturón y los conjuntos de familia Hierro y Sangre."
+        "caption": "Reúne 2, 4 o 6 objetos de la misma familia para activar bonificaciones de conjunto.",
+        "alt": "La ficha de build de un cazador con estadísticas, equipo, cinturón, habilidades y los conjuntos de familia Horno, Hierro, Horca y Peste."
       },
       "event": {
-        "caption": "Los eventos de camino cambian sangre, oro o maldiciones por atajos y reliquias.",
-        "alt": "El evento La Apuesta del Verdugo, con tres opciones."
+        "caption": "Los eventos de camino ofrecen tres opciones, y algunas cuestan oro o suman Pavor.",
+        "alt": "El evento El pozo de la capilla, con tres opciones: una cuesta 8 de oro y otra suma 4 de Pavor."
       }
     }
   },
