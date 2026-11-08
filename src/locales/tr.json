@@ -86,8 +86,8 @@
     "title": "Özellikler",
     "items": [
       "6 ilk sınıf ve 12 ileri sınıf.",
-      "Özellik puanları ve her seviyede bir yetenek puanı; üç dallı bir yetenek ağacı.",
-      "10 aileye ayrılmış 96 eşya, her yuvaya göre giyilir; 2, 4 ve 6 parçada set bonusu.",
+      "Özellik puanları ve her seviyede bir yetenek puanı; tek bir harita olan bir yetenek ağacı.",
+      "10 aileye ayrılmış 105 eşya, her yuvaya göre giyilir; 2, 4 ve 6 parçada set bonusu.",
       "Dövümhane'de eşyayı +4'e kadar Tekrar ısıt ve ona 19 türden canavar kartı yerleştir.",
       "6 biyomda ve 3 haftada 19 Ev sahibi.",
       "Haritada devriyeler, sürüler, pusular, bekçiler ve taklitçiler.",
@@ -96,21 +96,23 @@
       "Ayrı banka ve kese: başta altın ortaya koy, her Ev sahibinden sonra çekil.",
       "Zorluğu da ödülü de artıran 9 isteğe bağlı yemin.",
       "Her karakter için duygulu sesler ve her biyom için ortam sesi.",
-      "Günlük'te bir herbaryum, bir bestiyari ve 12 başarım.",
+      "Günlük'te bir herbaryum, bir bestiyari ve 16 başarım.",
       "Doğal 640x360 piksel sanatı, fare, klavye, kumanda ve dokunmatiklerle.",
       "14 dile çevrildi."
     ]
   },
   "demo": {
     "title": "Demoyu indir",
-    "intro": "Windows, macOS ve Linux için ücretsiz bir demo. Koşunun tamamını içerir, ancak seçilecek şampiyon ve relik sayısı daha azdır.",
+    "intro": "Windows, macOS ve Linux için ücretsiz bir demo. Koşunun tamamını içerir; avcını kurarken seçenekler daha azdır ve hanenin odaları kapalı kalır.",
     "version": "Sürüm {version}.",
     "includesTitle": "Demoda neler var",
     "includes": [
-      "2 şampiyon: Demirci Tövbekar ve Darağacı Nişancısı.",
+      "Koşudan önce kurduğun kendi avcın: cinsiyet, ten, gözler, saç, kıyafet ve ad.",
+      "Bir başlangıç bonusu, Karşılık ya da İlk Kan, ve bir silah: Mezar Demiri Topuz ya da Cellat Arbaleti.",
+      "Sınıflar: Kılıç Ustası ve Okçu, sonra Haçlı ve Şövalye ya da Avcı ve Ozan.",
       "Tam koşu: haritada üç hafta, olaylar, dükkanlar, yeminler ve Ev sahipleri.",
-      "4 başlangıç relik ailesi.",
-      "Relikarya yok: diğer şampiyonlar, relik aileleri ve kese yükseltmeleri tam sürümde.",
+      "4 başlangıç eşya ailesi.",
+      "22 odası kapalı Hane: diğer bonuslar, silahlar, sınıflar ve eşya aileleri ile daha büyük keseler tam sürümde.",
       "Tam sürümden ayrı, kendi kayıt dosyası."
     ],
     "windows": "Windows",
@@ -169,7 +171,7 @@
     "contact": "İletişim",
     "social": "Sosyal medya",
     "descriptionTitle": "Tanıtım",
-    "description": "Dawnbringer, piksel sanatıyla çizilmiş karanlık fantezi bir roguelike oto-savaş oyunudur. Güneş sönmüştür, geriye kalan tek sıcaklık altındır ve her hafta bir Ev sahibi kirayı toplamaya gelir. Oyuncular sıra tabanlı bir haritayı keşfeder, savaşlarını seçer ve sekiz aileye ayrılmış 64 relikle bir avcı kurar. Savaşlar şans faktörü olmadan otomatik çözüldüğü ve her düşman görünür eşyalar taşıdığı için oyuncular her yol savaşını düşmanın eşyalarını kendi düzenleriyle karşılaştırarak tartar; Umutsuzluk Taşı yalnızca bir savaşın öldüreceği zaman uyarır. Ev sahibine karşı taş sessiz kalır ve onda biri ödemek ya da savaşmak gerekir. Her koşudan önce bankandan altın ortaya koyar, her haftanın sonunda keseni bankaya çekmek ya da daha zor bir haftada riske atmak arasında seçim yaparsın. Düşen avcılar sonraki koşularda haritada dolaşır ve içlerinden biri sapkın olarak bir Ev sahibinin yerini alabilir.",
+    "description": "Dawnbringer, piksel sanatıyla çizilmiş karanlık fantezi bir roguelike oto-savaş oyunudur. Güneş sönmüştür, geriye kalan tek sıcaklık altındır ve her hafta bir Ev sahibi kirayı toplamaya gelir. Oyuncular sıra tabanlı bir haritayı keşfeder, savaşlarını seçer ve bir avcı kurar: avcıyı her koşudan önce yaratır, ardından iki adımlı bir sınıfla, bir yetenek ağacıyla, özellik puanlarıyla ve yuvaya göre giyilen, 10 aileye ayrılmış 105 eşyayla geliştirir; eşyalar tekrar ısıtılır ve canavar kartlarıyla donatılır. Savaşlar şans faktörü olmadan otomatik çözüldüğü ve her düşman görünür eşyalar taşıdığı için oyuncular her yol savaşını düşmanın eşyalarını kendi düzenleriyle karşılaştırarak tartar; Umutsuzluk Taşı yalnızca bir savaşın öldüreceği zaman uyarır. Ev sahibine karşı taş sessiz kalır ve onda biri ödemek ya da savaşmak gerekir. Her koşudan önce bankandan altın ortaya koyar, her haftanın sonunda keseni bankaya çekmek ya da daha zor bir haftada riske atmak arasında seçim yaparsın. Koşular arasında bankayı bir hanenin odalarına harcarsın; her oda, bir bonusu ya da sınıfı öğreten, silah yapan, bir eşya ailesini açan ya da daha büyük bir kese veren birini getirir. Düşen avcılar sonraki koşularda haritada dolaşır ve içlerinden biri sapkın olarak bir Ev sahibinin yerini alabilir.",
     "mediaTitle": "Logo, ana görsel ve ekran görüntüleri",
     "zip": "Hepsini indir (.zip, {size})",
     "logo": "Logo (PNG, şeffaf)",
