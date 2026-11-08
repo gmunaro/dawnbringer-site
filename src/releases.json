@@ -1,5 +1,48 @@
 [
   {
+    "version": "0.7.2",
+    "date": "2026-11-07",
+    "min_supported": "0.3.0",
+    "notes": {
+      "en": "- Build your hunter before each run: body, hair, outfit and weapon\n- Heat rooms of the House with your bank: each brings a teacher, an artisan or a bigger purse\n- Classes advance in two steps, after the first two Landlords\n- The skill tree is one map to zoom and drag\n- Four guilds, with ranks, a contract per run and a rival\n- Doors show the region, its enemies and the items it favors\n- Each enemy attacks its own way: stomp, charge, throw or spit",
+      "pt_BR": "- Monte seu caçador antes de cada run: corpo, cabelo, roupa e arma\n- Aqueça cômodos da Casa com o cofre: cada um traz um mestre, um artesão ou uma bolsa maior\n- As classes vêm em duas etapas, após os dois primeiros Senhorios\n- A árvore de habilidades é um mapa com zoom e arrasto\n- Quatro guildas, com postos, contrato por run e um rival\n- As portas mostram a região, os inimigos e os itens favorecidos\n- Cada inimigo ataca do seu jeito: pisão, investida, arremesso ou cuspe",
+      "es": "- Crea tu cazador antes de cada partida: cuerpo, pelo, ropa y arma\n- Caldea estancias de la Casa con tu banco: cada una trae un maestro, un artesano o una bolsa mayor\n- Clases en dos pasos, tras los dos primeros Terratenientes\n- El árbol de habilidades es un mapa con zoom y arrastre\n- Cuatro gremios: rangos, un contrato por partida y un rival\n- Las puertas muestran región, enemigos y objetos favorecidos\n- Cada enemigo ataca a su modo: pisotón, carga, lanzamiento o escupitajo",
+      "fr": "- Créez votre chasseur avant chaque partie : corps, cheveux, tenue, arme\n- Chauffez les pièces de la maison avec la banque : un maître, un artisan ou une bourse plus grosse\n- Classes en deux étapes, après les deux premiers Seigneurs\n- L'arbre de compétences : une carte zoomable et déplaçable\n- Quatre guildes : rangs, contrat par partie et rival\n- Les portes montrent région, ennemis et objets favoris\n- Chaque ennemi attaque à sa façon : piétinement, charge, lancer, crachat",
+      "de": "- Erschaffe deinen Jäger vor jedem Lauf: Körper, Haare, Outfit, Waffe\n- Heize Zimmer im Haus mit der Bank: jedes bringt Lehrer, Handwerker oder eine größere Börse\n- Klassen in zwei Stufen, nach den ersten beiden Hausherren\n- Der Fertigkeitsbaum ist eine Karte zum Zoomen und Ziehen\n- Vier Gilden: Ränge, ein Vertrag pro Lauf, ein Rivale\n- Türen zeigen Region, Gegner und begünstigte Gegenstände\n- Jeder Gegner greift anders an: Stampfen, Ansturm, Wurf oder Spucke",
+      "it": "- Crea il tuo cacciatore prima di ogni partita: corpo, capelli, abiti, arma\n- Scalda le stanze della Casa con la banca: ognuna porta un maestro, un artigiano o una borsa più grande\n- Classi in due fasi, dopo i primi due Signori\n- L'albero delle abilità è una mappa con zoom e trascinamento\n- Quattro gilde, con gradi, un contratto a partita e un rivale\n- Le porte mostrano la regione, i nemici e gli oggetti che favorisce\n- Ogni nemico attacca a modo suo: pestone, carica, lancio o sputo",
+      "ru": "- Создавай охотника перед каждым забегом: тело, волосы, наряд, оружие\n- Протапливай комнаты Дома из банка: каждая приводит наставника, ремесленника или даёт мошну больше\n- Классы в два этапа: после первых двух Ростовщиков\n- Древо навыков — одна карта с масштабом и перетаскиванием\n- Четыре гильдии: ранги, контракт на забег и соперник\n- Двери показывают регион, его врагов и предметы, которым он благоволит\n- Каждый враг бьёт по-своему: топот, рывок, бросок или плевок",
+      "uk": "- Створюй мисливця перед кожним забігом: тіло, волосся, вбрання, зброя\n- Натоплюй кімнати Дому з банку: кожна приводить наставника, ремісника або дає більшу калиту\n- Класи у два етапи: після перших двох Лихварів\n- Дерево навичок — одна мапа з масштабуванням і перетягуванням\n- Чотири гільдії: ранги, контракт на забіг і суперник\n- Двері показують регіон, його ворогів і предмети, яким він сприяє\n- Кожен ворог б'є по-своєму: тупіт, ривок, кидок або плювок",
+      "pl": "- Stwórz łowcę przed każdą wyprawą: ciało, włosy, strój i broń\n- Napal izby Domu z banku: każda sprowadza nauczyciela, rzemieślnika lub daje większą sakiewkę\n- Klasy w dwóch etapach, po dwóch pierwszych Właścicielach\n- Drzewo umiejętności to jedna mapa z zoomem i przeciąganiem\n- Cztery gildie: rangi, kontrakt na wyprawę i rywal\n- Drzwi pokazują region, jego wrogów i przedmioty, którym sprzyja\n- Każdy wróg atakuje po swojemu: tupnięcie, szarża, rzut lub plucie",
+      "tr": "- Her koşudan önce avcını yarat: beden, saç, kıyafet ve silah\n- Bankayla Hane'nin odalarını ısıt: her biri bir usta, bir zanaatkâr ya da daha büyük kese getirir\n- Sınıflar iki adımda gelir, ilk iki Ev sahibinden sonra\n- Yetenek ağacı yakınlaştırıp sürükleyebileceğin tek bir harita\n- Dört lonca: rütbeler, koşu başına sözleşme ve bir rakip\n- Kapılar bölgeyi, düşmanlarını ve kayırdığı eşyaları gösterir\n- Her düşman kendi tarzında saldırır: tepme, hücum, fırlatma, tükürük",
+      "ja": "- 挑戦の前に狩人を作ろう：体、髪、衣装、武器\n- 銀行の資金で家の部屋を暖めよう：師匠、職人、大きな財布のどれかが手に入る\n- クラスは2段階で、最初の2人の地主を倒すたびに登場\n- スキルツリーはズームとドラッグができる1枚のマップに\n- 4つのギルドが登場。ランク、挑戦ごとの契約、ライバルつき\n- 扉に地域、出現する敵、出やすいアイテムを表示\n- 敵ごとに攻撃が違う：踏みつけ、突進、投てき、吐きかけ",
+      "ko": "- 런마다 사냥꾼을 직접 만드세요: 몸, 머리, 옷, 무기\n- 은행 돈으로 집의 방을 데우세요: 스승, 장인, 더 큰 지갑 중 하나가 생깁니다\n- 직업은 두 단계로, 처음 두 지주를 쓰러뜨릴 때마다 열립니다\n- 스킬 트리는 확대와 드래그가 되는 하나의 지도입니다\n- 길드 네 곳: 등급, 런마다 계약, 맞수\n- 문에 지역, 적, 그 지역이 선호하는 아이템이 표시됩니다\n- 적마다 공격 방식이 다릅니다: 짓밟기, 돌진, 투척, 침 뱉기",
+      "zh_CN": "- 每次出征前打造你的猎人：身体、头发、服装、武器\n- 用钱庄的钱给宅子的房间生火：每间带来一位师傅、一位工匠或更大的钱袋\n- 职业分两步解锁，击败前两位地主后各一步\n- 技能树是一张可缩放、可拖动的地图\n- 四个公会，有军阶、每次出征的合约和一名对手\n- 门会显示地区、其中的敌人和更易出现的物品\n- 每种敌人攻击方式不同：践踏、冲锋、投掷或喷吐",
+      "zh_TW": "- 每次出征前打造你的獵人：身體、頭髮、服裝、武器\n- 用錢莊的錢給宅子的房間生火：每間帶來一位師傅、一位工匠或更大的錢包\n- 職業分兩步解鎖，擊敗前兩位地主後各一步\n- 技能樹是一張可縮放、可拖曳的地圖\n- 四個公會，有階級、每次出征的合約和一名對手\n- 門會顯示地區、其中的敵人和更易出現的物品\n- 每種敵人攻擊方式不同：踐踏、衝鋒、投擲或噴吐"
+    },
+    "platforms": {
+      "android": {
+        "url": "https://play.google.com/store/apps/details?id=com.gmunaro.dawnbringer",
+        "market": "market://details?id=com.gmunaro.dawnbringer"
+      },
+      "windows-demo": {
+        "url": "https://gmunaro.github.io/dawnbringer-site/#download",
+        "file": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.7.2/DawnbringerDemo-0.7.2-windows.exe",
+        "bytes": 234661608
+      },
+      "macos-demo": {
+        "url": "https://gmunaro.github.io/dawnbringer-site/#download",
+        "file": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.7.2/DawnbringerDemo-0.7.2-macos.zip",
+        "bytes": 166428282
+      },
+      "linux-demo": {
+        "url": "https://gmunaro.github.io/dawnbringer-site/#download",
+        "file": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.7.2/DawnbringerDemo-0.7.2-linux-x86_64.tar.gz",
+        "bytes": 130037441
+      }
+    },
+    "checksums": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.7.2/SHA256SUMS.txt"
+  },
+  {
     "version": "0.5.0",
     "date": "2026-10-21",
     "min_supported": "0.3.0",
