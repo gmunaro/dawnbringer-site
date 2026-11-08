@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: Dark-Fantasy-Roguelike-Autobattler",
-    "description": "Ein Pixelart-Roguelike-Autobattler. Stelle einen Champion zusammen, lies die Ausrüstung jedes Gegners und zahle dann dem Hausherrn den Zehnt oder kämpfe.",
+    "description": "Ein Pixelart-Roguelike-Autobattler. Baue einen Jäger, lies die Ausrüstung jedes Gegners und zahle dann dem Hausherrn den Zehnt oder kämpfe.",
     "pressTitle": "Dawnbringer-Pressekit",
     "pressDescription": "Datenblatt, Beschreibung, Features, Logo, Key Art und Screenshots von Dawnbringer, einem Roguelike-Autobattler von gmunaro.",
     "notFoundTitle": "Seite nicht gefunden",
@@ -15,15 +15,15 @@
     "skip": "Zum Inhalt springen",
     "home": "Start",
     "why": "Das Spiel",
-    "new": "Neu in 0.5",
+    "new": "Neu in 0.7.2",
     "demo": "Desktop-Demo",
     "beta": "Android-Alpha",
     "press": "Pressekit",
     "language": "Sprache"
   },
   "hero": {
-    "pitch": "Ein Pixelart-Roguelike-Autobattler: Stelle einen Champion zusammen, lies die Ausrüstung jedes Gegners und zahle dann dem Hausherrn den Zehnt oder kämpfe.",
-    "artAlt": "Ein kleiner Champion auf einem Hügel steht einem riesigen gekrönten Hausherrn gegenüber, der sich unter einem blutroten Mond aus den dunklen Hügeln erhebt.",
+    "pitch": "Ein Pixelart-Roguelike-Autobattler: Baue einen Jäger, lies die Ausrüstung jedes Gegners und zahle dann dem Hausherrn den Zehnt oder kämpfe.",
+    "artAlt": "Ein kleiner Jäger auf einem Hügel steht einem riesigen gekrönten Hausherrn gegenüber, der sich unter einem blutroten Mond aus den dunklen Hügeln erhebt.",
     "clipTitle": "Gameplay",
     "clipAlt": "Gameplay-Clip: Ein Held in voller Ausrüstung kämpft allein gegen eine Gruppe Monster.",
     "clipFallback": "Dein Browser kann dieses Video nicht abspielen.",
@@ -49,11 +49,11 @@
         "alt": "Der Kampfbildschirm eines Feindes mit Werten und den Gegenständen, die er trägt, dem Zeichen des Verzweiflungssteins und der Warnung Dieser Kampf würde dich töten, dazu die Knöpfe Kämpfen und Zurückweichen."
       },
       "risen": {
-        "caption": "Ein gefallener Champion aus einem früheren Lauf streift mit seinem Gold über die Straße.",
+        "caption": "Ein gefallener Jäger aus einem früheren Lauf streift mit seinem Gold über die Straße.",
         "alt": "Auf der Karte eine auferstandene Galgenschützin aus einem früheren Lauf, mit einem Tooltip zu ihrem Build und dem Gold, das sie trägt."
       },
       "legend": {
-        "caption": "Ein siegreicher Champion aus einem früheren Lauf herrscht als Hausherr.",
+        "caption": "Ein gefallener Jäger aus einem früheren Lauf sitzt als Ketzer auf dem Platz eines Hausherrn.",
         "alt": "Die Karte von Galgenschützin, gekrönt: eine Legende aus einem früheren Lauf, die den Sitz der Aschenweite hält."
       },
       "shop": {
@@ -61,8 +61,8 @@
         "alt": "Der Laden mit vier Relikten zum Kaufen oder Verbannen und einem Vergleich des neuen Gegenstands mit deinem Build."
       },
       "camp": {
-        "caption": "Wähle im Letzten Lager deinen Champion, deine Schwüre und deinen Goldeinsatz.",
-        "alt": "Der Bildschirm des Letzten Lagers mit den Champions, den Gegenstandsfamilien, den Schwüren und dem Einsatzregler."
+        "caption": "Baue im Haus deinen Jäger und wähle Gelübde und das Gold, das du mitnimmst.",
+        "alt": "Der Bildschirm des Hauses mit der Jägererstellung, den Gegenstandsfamilien, den Gelübden und dem Regler für das mitgenommene Gold."
       },
       "group": {
         "caption": "Rudel greifen nacheinander an, ohne Heilung zwischen den Kämpfen.",
@@ -85,14 +85,14 @@
   "features": {
     "title": "Funktionen",
     "items": [
-      "6 spielbare Champions und 12 Aufstiegsklassen.",
+      "6 Grundklassen und 12 Aufstiegsklassen.",
       "Attributpunkte und ein Fertigkeitspunkt pro Stufe; ein Fertigkeitsbaum mit drei Zweigen.",
       "96 Gegenstände in 10 Familien, nach Slot getragen, mit Set-Boni bei 2, 4 und 6 Teilen.",
       "Gegenstände in der Schmiede bis +4 nachglühen und 19 Arten Monsterkarten in sie einsetzen.",
       "19 Hausherren, verteilt auf 6 Biome und 3 Wochen.",
       "Patrouillen, Rudel, Hinterhalte, Wächter und Mimics auf der Karte.",
       "Tag und Nacht: Nachts wird deine Sicht kleiner und Schatten jagen dich.",
-      "Deine gefallenen Champions stehen auf und jagen dich; deine Sieger kehren als Hausherren zurück.",
+      "Deine gefallenen Jäger stehen auf und jagen dich; einer von ihnen kann als Ketzer den Sitz eines Hausherrn einnehmen.",
       "Getrennte Bank und Börse: Setze zu Beginn Gold ein und zahle nach jedem Hausherrn aus.",
       "9 optionale Schwüre, die sowohl die Schwierigkeit als auch den Gewinn erhöhen.",
       "Stimmen mit Emotionen für jede Figur und Umgebungsgeräusche für jedes Biom.",
@@ -169,7 +169,7 @@
     "contact": "Kontakt",
     "social": "Soziale Medien",
     "descriptionTitle": "Beschreibung",
-    "description": "Dawnbringer ist ein Dark-Fantasy-Roguelike-Autobattler in Pixelart. Die Sonne ist tot, Gold ist die einzige verbliebene Wärme und jede Woche kommt ein Hausherr, um die Miete einzutreiben. Spieler erkunden eine rundenbasierte Karte, wählen ihre Kämpfe und bauen aus 64 Relikten in acht Familien einen Champion auf. Da die Kämpfe ohne Zufall automatisch ablaufen und jeder Feind sichtbare Gegenstände trägt, beurteilen Spieler jeden Straßenkampf, indem sie dessen Ausrüstung mit ihrem Build vergleichen; ein Verzweiflungsstein warnt nur, wenn ein Kampf den Helden töten würde. Gegen den Hausherrn schweigt er, und man muss entweder den Zehnt zahlen oder kämpfen. Vor jedem Lauf setzt man Gold aus seiner Bank ein, und nach jeder Woche sichert man entweder seine Börse oder riskiert sie in einer härteren Woche. Gefallene Champions streifen in späteren Läufen über die Karte, während siegreiche Champions auf dem Thron eines Hausherrn zurückkehren können.",
+    "description": "Dawnbringer ist ein Dark-Fantasy-Roguelike-Autobattler in Pixelart. Die Sonne ist tot, Gold ist die einzige verbliebene Wärme und jede Woche kommt ein Hausherr, um die Miete einzutreiben. Spieler erkunden eine rundenbasierte Karte, wählen ihre Kämpfe und bauen aus 64 Relikten in acht Familien einen Jäger auf. Da die Kämpfe ohne Zufall automatisch ablaufen und jeder Feind sichtbare Gegenstände trägt, beurteilen Spieler jeden Straßenkampf, indem sie dessen Ausrüstung mit ihrem Build vergleichen; ein Verzweiflungsstein warnt nur, wenn ein Kampf den Helden töten würde. Gegen den Hausherrn schweigt er, und man muss entweder den Zehnt zahlen oder kämpfen. Vor jedem Lauf setzt man Gold aus seiner Bank ein, und nach jeder Woche sichert man entweder seine Börse oder riskiert sie in einer härteren Woche. Gefallene Jäger streifen in späteren Läufen über die Karte, und einer von ihnen kann als Ketzer den Sitz eines Hausherrn einnehmen.",
     "mediaTitle": "Logo, Key Art und Screenshots",
     "zip": "Alles herunterladen (.zip, {size})",
     "logo": "Logo (PNG, transparent)",
@@ -218,24 +218,24 @@
         "alt": "Das Zeichen des Verzweiflungssteins über einer Gruppe Gegner auf der Karte."
       },
       "build": {
-        "title": "Baue einen Champion",
-        "text": "Wähle eine Aufstiegsklasse, verteile Punkte im Fertigkeitsbaum und trage in jedem Slot Ausrüstung. Gegenstände in der Schmiede nachglühen und Monsterkarten in sie einsetzen.",
-        "alt": "Der Klassenmeister bietet einem Champion seine zwei Aufstiegsklassen an."
+        "title": "Baue deinen Jäger",
+        "text": "Wähle Aussehen, Bonus und Waffe deines Jägers, lerne eine Klasse in zwei Stufen, verteile Punkte auf der Fertigkeitskarte und trage in jedem Slot Ausrüstung. Glühe Gegenstände in der Schmiede nach und setze Monsterkarten in sie ein.",
+        "alt": "Der Klassenmeister bietet die sechs Grundklassen an."
       },
       "return": {
         "title": "Deine Läufe kehren zurück",
-        "text": "Gefallene Helden stehen in späteren Läufen auf und jagen dich. Helden, die siegen, können auf dem Thron eines Hausherrn zurückkehren.",
-        "alt": "Ein auferstandener Held, rot markiert, geht auf der Karte auf den Spieler zu."
+        "text": "Gefallene Jäger stehen in späteren Läufen auf und jagen dich, und einer von ihnen kann als Ketzer den Sitz eines Hausherrn einnehmen.",
+        "alt": "Ein auferstandener Jäger, rot markiert, geht auf der Karte auf den Spieler zu."
       }
     }
   },
   "whatsnew": {
-    "title": "Neu in 0.5",
+    "title": "Neu in 0.7.2",
     "items": [
-      "Zwölf Aufstiegsklassen und ein Fertigkeitsbaum mit drei Zweigen.",
-      "Ausrüstung nach Slot, in der Schmiede nachgeglüht und mit Monsterkarten bestückt.",
-      "Eine Stimme für jede Figur.",
-      "Sechs Biome mit eigenen Pflanzen, kleinen Tieren und Geräuschen."
+      "Baue vor jedem Lauf deinen eigenen Jäger und gib die Bank für die Zimmer eines Hauses aus.",
+      "Klassen in zwei Stufen und ein Fertigkeitsbaum, der eine Karte zum Zoomen und Ziehen ist.",
+      "Vier Gilden und jede Woche eine Tür, die die Region wählt, durch die du ziehst.",
+      "Verteidigung und Schild, und Feinde, die stampfen, stürmen, werfen oder spucken."
     ],
     "more": "Alle Änderungen"
   },

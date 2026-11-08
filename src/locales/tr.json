@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: karanlık fantezi roguelike oto-savaş oyunu",
-    "description": "Piksel sanatlı bir roguelike oto-savaş oyunu: şampiyonunu kur, her düşmanın ekipmanını oku, sonra Ev sahibinin onda birini öde ya da savaş.",
+    "description": "Piksel sanatlı bir roguelike oto-savaş oyunu: bir avcı kur, her düşmanın ekipmanını oku, sonra Ev sahibinin onda birini öde ya da savaş.",
     "pressTitle": "Dawnbringer basın kiti",
     "pressDescription": "gmunaro'nun roguelike oto-savaş oyunu Dawnbringer için bilgi sayfası, tanıtım, özellikler, logo, ana görsel ve ekran görüntüleri.",
     "notFoundTitle": "Sayfa bulunamadı",
@@ -15,15 +15,15 @@
     "skip": "İçeriğe geç",
     "home": "Ana sayfa",
     "why": "Oyun",
-    "new": "0.5'teki yenilikler",
+    "new": "0.7.2'deki yenilikler",
     "demo": "Masaüstü demosu",
     "beta": "Android alfa",
     "press": "Basın kiti",
     "language": "Dil"
   },
   "hero": {
-    "pitch": "Piksel sanatlı bir roguelike oto-savaş oyunu: şampiyonunu kur, her düşmanın ekipmanını oku, sonra Ev sahibinin onda birini öde ya da savaş.",
-    "artAlt": "Tepedeki küçük bir şampiyon, kan kırmızısı bir ayın altında karanlık tepelerden yükselen dev, taçlı bir Ev sahibiyle yüz yüze.",
+    "pitch": "Piksel sanatlı bir roguelike oto-savaş oyunu: bir avcı kur, her düşmanın ekipmanını oku, sonra Ev sahibinin onda birini öde ya da savaş.",
+    "artAlt": "Tepedeki küçük bir avcı, kan kırmızısı bir ayın altında karanlık tepelerden yükselen dev, taçlı bir Ev sahibiyle yüz yüze.",
     "clipTitle": "Oynanış",
     "clipAlt": "Oynanış videosu: tam ekipmanlı bir kahraman, tek başına bir canavar grubuna karşı savaşıyor.",
     "clipFallback": "Tarayıcın bu videoyu oynatamıyor.",
@@ -49,11 +49,11 @@
         "alt": "Düşmanın niteliklerini ve taşıdığı eşyaları gösteren savaş öncesi ekranı; üstünde Umutsuzluk Taşı'nın işareti ve Bu savaş seni öldürür uyarısı; altında Savaş ve Geri çekil düğmeleri."
       },
       "risen": {
-        "caption": "Önceki bir koşuda düşen şampiyon, altınıyla birlikte yolda dolaşıyor.",
+        "caption": "Önceki bir koşuda düşen avcı, altınıyla birlikte yolda dolaşıyor.",
         "alt": "Haritada, önceki bir koşudan dirilmiş bir Darağacı Nişancısı; düzenini ve taşıdığı altını gösteren bir ipucu kutusuyla."
       },
       "legend": {
-        "caption": "Önceki bir koşunun muzaffer şampiyonu Ev sahibi olarak hüküm sürüyor.",
+        "caption": "Önceki bir koşuda düşen avcı, sapkın olarak bir Ev sahibinin yerinde oturuyor.",
         "alt": "Darağacı Nişancısı, taçlanmış kartı: Küllü Diyar'ın tahtını tutan, önceki bir koşudan kalma bir efsane."
       },
       "shop": {
@@ -61,8 +61,8 @@
         "alt": "Satın almak ya da sürgün etmek için dört relik sunan dükkân ve yeni eşyanın düzeninle karşılaştırması."
       },
       "camp": {
-        "caption": "Son Kamp'ta şampiyonunu, yeminlerini ve ortaya koyacağın altını seç.",
-        "alt": "Şampiyonlar, eşya aileleri, yeminler ve bahis kaydırıcısıyla Son Kamp ekranı."
+        "caption": "Hanede avcını kur, adaklarını ve yanına alacağın altını seç.",
+        "alt": "Avcının oluşturulması, eşya aileleri, adaklar ve taşınan altın kaydırıcısıyla hane ekranı."
       },
       "group": {
         "caption": "Sürüler arada iyileşme olmadan arka arkaya saldırır.",
@@ -85,14 +85,14 @@
   "features": {
     "title": "Özellikler",
     "items": [
-      "6 oynanabilir şampiyon ve 12 ileri sınıf.",
+      "6 ilk sınıf ve 12 ileri sınıf.",
       "Özellik puanları ve her seviyede bir yetenek puanı; üç dallı bir yetenek ağacı.",
       "10 aileye ayrılmış 96 eşya, her yuvaya göre giyilir; 2, 4 ve 6 parçada set bonusu.",
       "Dövümhane'de eşyayı +4'e kadar Tekrar ısıt ve ona 19 türden canavar kartı yerleştir.",
       "6 biyomda ve 3 haftada 19 Ev sahibi.",
       "Haritada devriyeler, sürüler, pusular, bekçiler ve taklitçiler.",
       "Gündüz ve gece: geceleri görüşün daralır ve gölgeler seni avlar.",
-      "Düşen şampiyonların dirilip seni avlar; kazanan şampiyonların Ev sahibi olarak geri döner.",
+      "Düşen avcılar dirilir ve seni avlar; içlerinden biri sapkın olarak bir Ev sahibinin yerini alabilir.",
       "Ayrı banka ve kese: başta altın ortaya koy, her Ev sahibinden sonra çekil.",
       "Zorluğu da ödülü de artıran 9 isteğe bağlı yemin.",
       "Her karakter için duygulu sesler ve her biyom için ortam sesi.",
@@ -169,7 +169,7 @@
     "contact": "İletişim",
     "social": "Sosyal medya",
     "descriptionTitle": "Tanıtım",
-    "description": "Dawnbringer, piksel sanatıyla çizilmiş karanlık fantezi bir roguelike oto-savaş oyunudur. Güneş sönmüştür, geriye kalan tek sıcaklık altındır ve her hafta bir Ev sahibi kirayı toplamaya gelir. Oyuncular sıra tabanlı bir haritayı keşfeder, savaşlarını seçer ve sekiz aileye ayrılmış 64 relikle bir şampiyon kurar. Savaşlar şans faktörü olmadan otomatik çözüldüğü ve her düşman görünür eşyalar taşıdığı için oyuncular her yol savaşını düşmanın eşyalarını kendi düzenleriyle karşılaştırarak tartar; Umutsuzluk Taşı yalnızca bir savaşın öldüreceği zaman uyarır. Ev sahibine karşı taş sessiz kalır ve onda biri ödemek ya da savaşmak gerekir. Her koşudan önce bankandan altın ortaya koyar, her haftanın sonunda keseni bankaya çekmek ya da daha zor bir haftada riske atmak arasında seçim yaparsın. Düşen şampiyonlar sonraki koşularda haritada dolaşırken, kazanan şampiyonlar bir Ev sahibinin tahtında geri dönebilir.",
+    "description": "Dawnbringer, piksel sanatıyla çizilmiş karanlık fantezi bir roguelike oto-savaş oyunudur. Güneş sönmüştür, geriye kalan tek sıcaklık altındır ve her hafta bir Ev sahibi kirayı toplamaya gelir. Oyuncular sıra tabanlı bir haritayı keşfeder, savaşlarını seçer ve sekiz aileye ayrılmış 64 relikle bir avcı kurar. Savaşlar şans faktörü olmadan otomatik çözüldüğü ve her düşman görünür eşyalar taşıdığı için oyuncular her yol savaşını düşmanın eşyalarını kendi düzenleriyle karşılaştırarak tartar; Umutsuzluk Taşı yalnızca bir savaşın öldüreceği zaman uyarır. Ev sahibine karşı taş sessiz kalır ve onda biri ödemek ya da savaşmak gerekir. Her koşudan önce bankandan altın ortaya koyar, her haftanın sonunda keseni bankaya çekmek ya da daha zor bir haftada riske atmak arasında seçim yaparsın. Düşen avcılar sonraki koşularda haritada dolaşır ve içlerinden biri sapkın olarak bir Ev sahibinin yerini alabilir.",
     "mediaTitle": "Logo, ana görsel ve ekran görüntüleri",
     "zip": "Hepsini indir (.zip, {size})",
     "logo": "Logo (PNG, şeffaf)",
@@ -218,24 +218,24 @@
         "alt": "Haritada bir düşman grubunun üzerinde Umutsuzluk Taşı'nın işareti."
       },
       "build": {
-        "title": "Bir şampiyon kur",
-        "text": "İleri sınıf seç, yetenek ağacında puan harca ve her yuvaya eşya tak. Dövümhane'de eşyaları Tekrar ısıt ve onlara canavar kartları yerleştir.",
-        "alt": "Sınıf ustası, bir şampiyona iki ileri sınıfını sunar."
+        "title": "Avcını kur",
+        "text": "Avcının görünüşünü, bonusunu ve silahını seç, bir sınıfı iki adımda öğren, puanlarını bir yetenek haritasında harca ve her yuvaya ekipman tak. Eşyaları dövümhanede tekrar ısıt ve onlara canavar kartları yerleştir.",
+        "alt": "Sınıf ustası altı ilk sınıfı sunar."
       },
       "return": {
         "title": "Koşuların geri döner",
-        "text": "Düşen kahramanlar sonraki koşularda dirilir ve seni avlar. Kazanan kahramanlar bir Ev sahibinin tahtında geri dönebilir.",
-        "alt": "Haritada, kırmızıyla işaretlenmiş Dirilenler'den bir kahraman oyuncuya doğru yürüyor."
+        "text": "Düşen avcılar sonraki koşularda dirilir ve seni avlar; içlerinden biri sapkın olarak bir Ev sahibinin yerini alabilir.",
+        "alt": "Haritada, kırmızıyla işaretlenmiş dirilmiş bir avcı oyuncuya doğru yürüyor."
       }
     }
   },
   "whatsnew": {
-    "title": "0.5'teki yenilikler",
+    "title": "0.7.2'deki yenilikler",
     "items": [
-      "On iki ileri sınıf ve üç dallı bir yetenek ağacı.",
-      "Yuvaya göre ekipman, dövümhanede tekrar ısıtılır ve canavar kartlarıyla donatılır.",
-      "Her karakter için bir ses.",
-      "Kendi bitkileri, küçük hayvanları ve sesiyle altı biyom."
+      "Her koşudan önce kendi avcını kur ve bankayı bir hanenin odalarına harca.",
+      "İki adımda sınıflar ve yakınlaştırıp sürükleyebildiğin tek bir harita olan yetenek ağacı.",
+      "Dört lonca ve her hafta yürüyeceğin bölgeyi seçen bir kapı.",
+      "Savunma ve Kalkan, ezen, hücum eden, fırlatan ya da tüküren düşmanlar."
     ],
     "more": "Tüm değişiklikler"
   },

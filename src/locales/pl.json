@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: roguelike auto-battler dark fantasy",
-    "description": "Pikselowy roguelike auto-battler. Zbuduj czempiona, sprawdź ekwipunek każdego wroga, potem zapłać Właścicielowi albo walcz.",
+    "description": "Pikselowy roguelike auto-battler. Zbuduj łowcę, sprawdź ekwipunek każdego wroga, potem zapłać Właścicielowi albo walcz.",
     "pressTitle": "Materiały prasowe Dawnbringer",
     "pressDescription": "Karta informacyjna, opis, cechy, logo, key art i zrzuty ekranu gry Dawnbringer, roguelike auto-battlera od gmunaro.",
     "notFoundTitle": "Nie znaleziono strony",
@@ -15,15 +15,15 @@
     "skip": "Przejdź do treści",
     "home": "Start",
     "why": "O grze",
-    "new": "Nowości w 0.5",
+    "new": "Nowości w 0.7.2",
     "demo": "Demo na komputer",
     "beta": "Alfa na Androidzie",
     "press": "Dla prasy",
     "language": "Język"
   },
   "hero": {
-    "pitch": "Pikselowy roguelike auto-battler: zbuduj czempiona, sprawdź ekwipunek każdego wroga, potem zapłać Właścicielowi albo walcz.",
-    "artAlt": "Mały czempion na wzgórzu staje naprzeciw olbrzymiego Właściciela w koronie, który wyłania się z ciemnych wzgórz pod krwistoczerwonym księżycem.",
+    "pitch": "Pikselowy roguelike auto-battler: zbuduj łowcę, sprawdź ekwipunek każdego wroga, potem zapłać Właścicielowi albo walcz.",
+    "artAlt": "Mały łowca na wzgórzu staje naprzeciw olbrzymiego Właściciela w koronie, który wyłania się z ciemnych wzgórz pod krwistoczerwonym księżycem.",
     "clipTitle": "Rozgrywka",
     "clipAlt": "Fragment rozgrywki: bohater w pełnym ekwipunku sam walczy z grupą potworów.",
     "clipFallback": "Twoja przeglądarka nie może odtworzyć tego filmu.",
@@ -49,11 +49,11 @@
         "alt": "Ekran przed walką z wrogiem: jego statystyki i niesione przedmioty, znak Kamienia Rozpaczy, ostrzeżenie Ta walka by cię zabiła oraz przyciski Walcz i Wycofaj się."
       },
       "risen": {
-        "caption": "Poległy czempion z dawnej wyprawy krąży po drodze ze swoim złotem.",
+        "caption": "Poległy łowca z dawnej wyprawy krąży po drodze ze swoim złotem.",
         "alt": "Na mapie powstała Strzelczyni Szubienicy z wcześniejszej wyprawy, z podpowiedzią pokazującą jej build i niesione złoto."
       },
       "legend": {
-        "caption": "Zwycięski czempion z poprzedniej wyprawy rządzi jako Właściciel.",
+        "caption": "Poległy łowca z poprzedniej wyprawy zasiada na tronie Właściciela jako heretyk.",
         "alt": "Karta Strzelczyni Szubienicy, ukoronowanej: legendy z wcześniejszej wyprawy, która zajmuje siedzibę Popielistej Dali."
       },
       "shop": {
@@ -61,8 +61,8 @@
         "alt": "Sklep z czterema reliktami do kupienia lub wygnania i porównaniem nowego przedmiotu z twoim buildem."
       },
       "camp": {
-        "caption": "W Ostatnim Obozie wybierz czempiona, przysięgi i stawkę w złocie.",
-        "alt": "Ekran Ostatniego Obozu z czempionami, rodami przedmiotów, przysięgami i suwakiem stawki."
+        "caption": "W domu zbuduj łowcę, wybierz śluby i złoto, które zabierasz.",
+        "alt": "Ekran domu z tworzeniem łowcy, rodami przedmiotów, ślubami i suwakiem zabieranego złota."
       },
       "group": {
         "caption": "Watahy atakują jedna po drugiej, bez leczenia między walkami.",
@@ -85,14 +85,14 @@
   "features": {
     "title": "Cechy",
     "items": [
-      "6 grywalnych czempionów i 12 kl. zaawansowanych.",
+      "6 pierwszych klas i 12 drugich klas.",
       "Punkt atrybutu i punkt umiejętności za każdy poziom; drzewo umiejętności o trzech gałęziach.",
       "96 przedmiotów w 10 rodach, noszonych w slotach, z premiami zestawu za 2, 4 i 6 części.",
       "Rozgrzej przedmioty w Kuźni do +4 i wstaw w nie 19 rodzajów kart potworów.",
       "19 Właścicieli w 6 biomach, przez 3 tygodnie.",
       "Patrole, watahy, zasadzki, strażnicy i mimiki na mapie.",
       "Dzień i noc: nocą pole widzenia się kurczy, a cienie na ciebie polują.",
-      "Polegli czempioni powstają i polują na ciebie; zwycięzcy wracają jako Właściciele.",
+      "Polegli łowcy powstają i polują na ciebie; jeden z nich może zasiąść na tronie Właściciela jako heretyk.",
       "Osobny bank i sakiewka: na starcie stawiasz złoto, a po każdym Właścicielu wypłacasz.",
       "9 opcjonalnych Przysiąg, które podnoszą trudność i nagrodę.",
       "Głosy z emocjami dla każdej postaci i dźwięki otoczenia w każdym biomie.",
@@ -169,7 +169,7 @@
     "contact": "Kontakt",
     "social": "Media społecznościowe",
     "descriptionTitle": "Opis",
-    "description": "Dawnbringer to pikselowy roguelike auto-battler w świecie dark fantasy. Słońce zgasło, złoto jest jedynym pozostałym ciepłem, a co tydzień Właściciel przychodzi po czynsz. Gracze przemierzają turową mapę, wybierają walki i budują czempiona z 64 reliktów należących do ośmiu rodów. Ponieważ starcia rozstrzygają się automatycznie, bez losowości, a każdy wróg niesie widoczne przedmioty, gracze oceniają każdą walkę na drodze, czytając jego ekwipunek względem własnego buildu; Kamień Rozpaczy ostrzega tylko wtedy, gdy walka by zabiła bohatera. Przeciwko Właścicielowi milczy, a trzeba zapłacić dziesięcinę albo walczyć. Przed każdą wyprawą stawiasz złoto z banku, a po każdym tygodniu wypłacasz sakiewkę albo ryzykujesz ją w trudniejszym tygodniu. Polegli czempioni krążą po mapie w kolejnych wyprawach, a zwycięzcy mogą powrócić na tronie Właściciela.",
+    "description": "Dawnbringer to pikselowy roguelike auto-battler w świecie dark fantasy. Słońce zgasło, złoto jest jedynym pozostałym ciepłem, a co tydzień Właściciel przychodzi po czynsz. Gracze przemierzają turową mapę, wybierają walki i budują łowcę z 64 reliktów należących do ośmiu rodów. Ponieważ starcia rozstrzygają się automatycznie, bez losowości, a każdy wróg niesie widoczne przedmioty, gracze oceniają każdą walkę na drodze, czytając jego ekwipunek względem własnego buildu; Kamień Rozpaczy ostrzega tylko wtedy, gdy walka by zabiła bohatera. Przeciwko Właścicielowi milczy, a trzeba zapłacić dziesięcinę albo walczyć. Przed każdą wyprawą stawiasz złoto z banku, a po każdym tygodniu wypłacasz sakiewkę albo ryzykujesz ją w trudniejszym tygodniu. Polegli łowcy krążą po mapie w kolejnych wyprawach, a jeden z nich może zasiąść na tronie Właściciela jako heretyk.",
     "mediaTitle": "Logo, key art i zrzuty ekranu",
     "zip": "Pobierz wszystko (.zip, {size})",
     "logo": "Logo (PNG, przezroczyste)",
@@ -218,24 +218,24 @@
         "alt": "Znak Kamienia Rozpaczy nad grupą wrogów na mapie."
       },
       "build": {
-        "title": "Zbuduj czempiona",
-        "text": "Wybierz kl. zaawansowaną, rozdaj punkty w drzewie umiejętności i noś przedmioty w każdym slocie. Rozgrzej przedmioty w Kuźni i wstaw w nie karty potworów.",
-        "alt": "Mistrz klas oferuje czempionowi jego dwie kl. zaawansowane."
+        "title": "Zbuduj swojego łowcę",
+        "text": "Wybierz wygląd, bonus i broń łowcy, poznaj klasę w dwóch krokach, wydawaj punkty na mapie umiejętności i noś przedmioty w każdym slocie. Rozgrzej przedmioty w Kuźni i wstaw w nie karty potworów.",
+        "alt": "Mistrz klas oferuje sześć pierwszych klas."
       },
       "return": {
         "title": "Twoje wyprawy wracają",
-        "text": "Polegli bohaterowie powstają i polują na ciebie w kolejnych wyprawach. Bohaterowie, którzy wygrają, mogą wrócić na tronie Właściciela.",
-        "alt": "Powstały bohater, oznaczony na czerwono, idzie na mapie w stronę gracza."
+        "text": "Polegli łowcy powstają i polują na ciebie w kolejnych wyprawach, a jeden z nich może zasiąść na tronie Właściciela jako heretyk.",
+        "alt": "Powstały łowca, oznaczony na czerwono, idzie na mapie w stronę gracza."
       }
     }
   },
   "whatsnew": {
-    "title": "Nowości w 0.5",
+    "title": "Nowości w 0.7.2",
     "items": [
-      "Dwanaście kl. zaawansowanych i drzewo umiejętności o trzech gałęziach.",
-      "Przedmioty według slotów, rozgrzewane w Kuźni, z wstawionymi kartami potworów.",
-      "Głos dla każdej postaci.",
-      "Sześć biomów z własnymi roślinami, małymi zwierzętami i dźwiękiem."
+      "Zbuduj własnego łowcę przed każdą wyprawą i wydawaj bank na izby domu.",
+      "Klasy w dwóch krokach i drzewo umiejętności, które jest jedną mapą do przybliżania i przeciągania.",
+      "Cztery gildie i drzwi co tydzień, które wybierają region, przez który idziesz.",
+      "Obrona i Tarcza oraz wrogowie, którzy tratują, szarżują, rzucają albo plują."
     ],
     "more": "Wszystkie zmiany"
   },
