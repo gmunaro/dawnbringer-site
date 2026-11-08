@@ -167,39 +167,44 @@ function socialList(): string {
   return `<ul class="socials">\n${SOCIALS.map((s) => `<li><a href="${s.url}" rel="me noopener">${esc(s.name)}</a></li>`).join("\n")}\n</ul>`;
 }
 
-/** The closed beta: group membership, test opt-in, then the Play Store installation. */
+/** A real screenshot of one beta step; the button to press is outlined in green in the picture. */
+type Shot = { file: string; w: number; h: number; caption: string };
+
+/** The closed beta in four steps (join the group, opt in, install, pay with the test card), each with
+ * the screenshots of the screens the player sees and, where there is one, the link that opens it. */
 function betaSection(t: Strings, beta: NonNullable<typeof BETA>): string {
-  const step = (n: number, text: string, label: string, url: string) =>
-    `<li class="card"><h3>${n}</h3><p>${esc(text)}</p><a class="btn" href="${esc(url)}" rel="noopener">${esc(label)}</a></li>`;
+  const b = t.beta;
+  const shot = (s: Shot) =>
+    `<figure><a href="${asset(`img/${s.file}`)}"><img src="${asset(`img/${s.file}`)}" width="${s.w}" height="${s.h}" loading="lazy" alt="${esc(s.caption)}"></a><figcaption>${esc(s.caption)}</figcaption></figure>`;
+  const step = (n: number, title: string, text: string, shots: Shot[], link?: { label: string; url: string }) =>
+    `<li class="panel beta-step"><h3><span class="beta-n">${n}</span> ${esc(title)}</h3><p>${esc(text)}</p>`
+    + (link ? `<p><a class="btn" href="${esc(link.url)}" rel="noopener">${esc(link.label)}</a></p>` : "")
+    + `<div class="beta-shots">${shots.map(shot).join("")}</div></li>`;
   return `<section id="beta" class="wrap" aria-labelledby="beta-title">
-<h2 id="beta-title">${esc(t.beta.title)}</h2>
-<p class="lead">${esc(t.beta.intro)}</p>
-<aside class="panel beta-payment" aria-label="${esc(t.beta.paymentTitle)}">
-<p><strong>${esc(t.beta.paymentNoticeTitle)}</strong></p>
-<p>${esc(t.beta.paymentNoticeText)}</p>
+<h2 id="beta-title">${esc(b.title)}</h2>
+<p class="lead">${esc(b.intro)}</p>
+<aside class="panel beta-payment" aria-label="${esc(b.paymentTitle)}">
+<p><strong>${esc(b.paymentNoticeTitle)}</strong></p>
+<p>${esc(b.paymentNoticeText)}</p>
 </aside>
-<ol class="cards steps">
-${step(1, t.beta.step1, t.beta.step1Link, beta.group)}
-${step(2, t.beta.step2, t.beta.step2Link, beta.test)}
-${step(3, t.beta.step3, t.beta.step3Link, beta.install)}
+<p>${esc(b.buttonsNote)}</p>
+<ol class="beta-steps">
+${step(1, b.step1Title, b.step1, [
+  { file: "beta-1-group.webp", w: 1100, h: 324, caption: b.shotGroup },
+  { file: "beta-2-join.webp", w: 735, h: 720, caption: b.shotJoin },
+], { label: b.step1Link, url: beta.group })}
+${step(2, b.step2Title, b.step2, [
+  { file: "beta-3-optin.webp", w: 1100, h: 408, caption: b.shotOptin },
+  { file: "beta-4-tester.webp", w: 1100, h: 471, caption: b.shotTester },
+], { label: b.step2Link, url: beta.test })}
+${step(3, b.step3Title, b.step3, [{ file: "beta-5-store.webp", w: 720, h: 647, caption: b.shotStore }], { label: b.step3Link, url: beta.install })}
+${step(4, b.step4Title, b.step4, [{ file: "beta-test-card.png", w: 1080, h: 1408, caption: b.testCardCaption }])}
 </ol>
-<p>${esc(t.beta.note)}</p>
-<figure class="beta-proof">
-<a href="${asset("img/beta-test-card.png")}"><img src="${asset("img/beta-test-card.png")}" width="1080" height="1408" loading="lazy" alt="${esc(t.beta.testCardCaption)}"></a>
-<figcaption>${esc(t.beta.testCardCaption)}</figcaption>
-</figure>
+<p>${esc(b.note)}</p>
 <div class="beta-help">
-<h3>${esc(t.beta.helpTitle)}</h3>
-<p>${esc(t.beta.accountHelp)}</p>
-<details>
-<summary>${esc(t.beta.priceTitle)}</summary>
-<p>${esc(t.beta.priceHelp)}</p>
-<div class="beta-shots">
-<figure><img src="${asset("img/beta-store.png?v=2")}" width="1129" height="753" loading="lazy" alt="${esc(t.beta.storeCaption)}"><figcaption>${esc(t.beta.storeCaption)}</figcaption></figure>
-<figure><img src="${asset("img/beta-install.png?v=2")}" width="1035" height="1037" loading="lazy" alt="${esc(t.beta.installCaption)}"><figcaption>${esc(t.beta.installCaption)}</figcaption></figure>
-</div>
-</details>
-<details><summary>${esc(t.beta.paymentTitle)}</summary><p>${esc(t.beta.paymentHelp)}</p></details>
+<h3>${esc(b.helpTitle)}</h3>
+<p>${esc(b.accountHelp)}</p>
+<details><summary>${esc(b.paymentTitle)}</summary><p>${esc(t.beta.paymentHelp)}</p></details>
 <details><summary>${esc(t.beta.unavailableTitle)}</summary><p>${esc(t.beta.unavailableHelp)} <a href="mailto:${CONTACT}">${CONTACT}</a></p></details>
 </div>
 </section>`;
@@ -306,7 +311,7 @@ ${socialList()}
   return frame(c, "", t.meta.title, t.meta.description, main);
 }
 
-/** The closed alpha on Google Play: its own page, the three steps and the help (betaSection). */
+/** The closed alpha on Google Play: its own page, the four steps and the help (betaSection). */
 export function betaPage(c: Ctx): Page {
   return frame(c, "beta/", c.t.meta.betaTitle, c.t.meta.betaDescription, BETA ? betaSection(c.t, BETA) : "");
 }
