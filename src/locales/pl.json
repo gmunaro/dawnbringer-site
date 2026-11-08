@@ -86,8 +86,8 @@
     "title": "Cechy",
     "items": [
       "6 pierwszych klas i 12 drugich klas.",
-      "Punkt atrybutu i punkt umiejętności za każdy poziom; drzewo umiejętności o trzech gałęziach.",
-      "96 przedmiotów w 10 rodach, noszonych w slotach, z premiami zestawu za 2, 4 i 6 części.",
+      "Punkt atrybutu i punkt umiejętności za każdy poziom; drzewo umiejętności, które jest jedną mapą.",
+      "105 przedmiotów w 10 rodach, noszonych w slotach, z premiami zestawu za 2, 4 i 6 części.",
       "Rozgrzej przedmioty w Kuźni do +4 i wstaw w nie 19 rodzajów kart potworów.",
       "19 Właścicieli w 6 biomach, przez 3 tygodnie.",
       "Patrole, watahy, zasadzki, strażnicy i mimiki na mapie.",
@@ -96,21 +96,23 @@
       "Osobny bank i sakiewka: na starcie stawiasz złoto, a po każdym Właścicielu wypłacasz.",
       "9 opcjonalnych Przysiąg, które podnoszą trudność i nagrodę.",
       "Głosy z emocjami dla każdej postaci i dźwięki otoczenia w każdym biomie.",
-      "Zielnik, bestiariusz i 12 osiągnięć w Dzienniku.",
+      "Zielnik, bestiariusz i 16 osiągnięć w Dzienniku.",
       "Natywna grafika pikselowa 640x360, obsługa myszy, klawiatury, pada i dotyku.",
       "Przetłumaczona na 14 języków."
     ]
   },
   "demo": {
     "title": "Pobierz demo",
-    "intro": "Darmowe demo na Windows, macOS i Linuksa. Zawiera całą wyprawę, z mniejszym wyborem czempionów i reliktów.",
+    "intro": "Darmowe demo na Windows, macOS i Linuksa. Zawiera całą wyprawę, z mniejszym wyborem przy tworzeniu łowcy, a izby domu pozostają zamknięte.",
     "version": "Wersja {version}.",
     "includesTitle": "Co zawiera demo",
     "includes": [
-      "2 czempionów: Żelazny Pokutnik i Strzelczyni Szubienicy.",
+      "Własny łowca, stworzony przed wyprawą: płeć, skóra, oczy, włosy, strój i imię.",
+      "Premia na start, Riposta albo Pierwsza Krew, i broń: Grobowa Buława albo Arbalet Kata.",
+      "Klasy: Szermierz i Łucznik, a potem Krzyżowiec i Rycerz albo Łowca i Bard.",
       "Pełna wyprawa: trzy tygodnie na mapie, wydarzenia, sklepy, przysięgi i Właściciele.",
-      "4 startowe rody reliktów.",
-      "Bez Relikwiarza: pozostali czempioni, rody reliktów i ulepszenia sakiewki są w pełnej wersji.",
+      "4 startowe rody przedmiotów.",
+      "Dom z 22 zamkniętymi izbami: pozostałe premie, bronie, klasy i rody przedmiotów oraz większe sakiewki są w pełnej wersji.",
       "Osobny zapis gry, oddzielny od pełnej wersji."
     ],
     "windows": "Windows",
@@ -169,7 +171,7 @@
     "contact": "Kontakt",
     "social": "Media społecznościowe",
     "descriptionTitle": "Opis",
-    "description": "Dawnbringer to pikselowy roguelike auto-battler w świecie dark fantasy. Słońce zgasło, złoto jest jedynym pozostałym ciepłem, a co tydzień Właściciel przychodzi po czynsz. Gracze przemierzają turową mapę, wybierają walki i budują łowcę z 64 reliktów należących do ośmiu rodów. Ponieważ starcia rozstrzygają się automatycznie, bez losowości, a każdy wróg niesie widoczne przedmioty, gracze oceniają każdą walkę na drodze, czytając jego ekwipunek względem własnego buildu; Kamień Rozpaczy ostrzega tylko wtedy, gdy walka by zabiła bohatera. Przeciwko Właścicielowi milczy, a trzeba zapłacić dziesięcinę albo walczyć. Przed każdą wyprawą stawiasz złoto z banku, a po każdym tygodniu wypłacasz sakiewkę albo ryzykujesz ją w trudniejszym tygodniu. Polegli łowcy krążą po mapie w kolejnych wyprawach, a jeden z nich może zasiąść na tronie Właściciela jako heretyk.",
+    "description": "Dawnbringer to pikselowy roguelike auto-battler w świecie dark fantasy. Słońce zgasło, złoto jest jedynym pozostałym ciepłem, a co tydzień Właściciel przychodzi po czynsz. Gracze przemierzają turową mapę, wybierają walki i budują łowcę: tworzą go przed każdą wyprawą i rozwijają klasą w dwóch krokach, drzewem umiejętności, punktami atrybutów oraz 105 przedmiotami w 10 rodach, noszonymi w slotach, rozgrzewanymi w kuźni i wzbogacanymi o karty potworów. Ponieważ starcia rozstrzygają się automatycznie, bez losowości, a każdy wróg niesie widoczne przedmioty, gracze oceniają każdą walkę na drodze, czytając jego ekwipunek względem własnego buildu; Kamień Rozpaczy ostrzega tylko wtedy, gdy walka by zabiła bohatera. Przeciwko Właścicielowi milczy, a trzeba zapłacić dziesięcinę albo walczyć. Przed każdą wyprawą stawiasz złoto z banku, a po każdym tygodniu wypłacasz sakiewkę albo ryzykujesz ją w trudniejszym tygodniu. Między wyprawami wydajesz bank na izby domu; każda izba sprowadza kogoś, kto uczy premii lub klasy, wykuwa broń, otwiera ród przedmiotów albo daje większą sakiewkę. Polegli łowcy krążą po mapie w kolejnych wyprawach, a jeden z nich może zasiąść na tronie Właściciela jako heretyk.",
     "mediaTitle": "Logo, key art i zrzuty ekranu",
     "zip": "Pobierz wszystko (.zip, {size})",
     "logo": "Logo (PNG, przezroczyste)",

@@ -86,8 +86,8 @@
     "title": "Funktionen",
     "items": [
       "6 Grundklassen und 12 Aufstiegsklassen.",
-      "Attributpunkte und ein Fertigkeitspunkt pro Stufe; ein Fertigkeitsbaum mit drei Zweigen.",
-      "96 Gegenstände in 10 Familien, nach Slot getragen, mit Set-Boni bei 2, 4 und 6 Teilen.",
+      "Attributpunkte und ein Fertigkeitspunkt pro Stufe; ein Fertigkeitsbaum, der eine einzige Karte ist.",
+      "105 Gegenstände in 10 Familien, nach Slot getragen, mit Set-Boni bei 2, 4 und 6 Teilen.",
       "Gegenstände in der Schmiede bis +4 nachglühen und 19 Arten Monsterkarten in sie einsetzen.",
       "19 Hausherren, verteilt auf 6 Biome und 3 Wochen.",
       "Patrouillen, Rudel, Hinterhalte, Wächter und Mimics auf der Karte.",
@@ -96,21 +96,23 @@
       "Getrennte Bank und Börse: Setze zu Beginn Gold ein und zahle nach jedem Hausherrn aus.",
       "9 optionale Schwüre, die sowohl die Schwierigkeit als auch den Gewinn erhöhen.",
       "Stimmen mit Emotionen für jede Figur und Umgebungsgeräusche für jedes Biom.",
-      "Ein Herbarium, ein Bestiarium und 12 Erfolge im Journal.",
+      "Ein Herbarium, ein Bestiarium und 16 Erfolge im Journal.",
       "Pixelgrafik nativ in 640x360, mit Maus, Tastatur, Controller und Touch.",
       "In 14 Sprachen übersetzt."
     ]
   },
   "demo": {
     "title": "Demo herunterladen",
-    "intro": "Eine kostenlose Demo für Windows, macOS und Linux. Sie enthält den ganzen Lauf, mit weniger Champions und Relikten zur Auswahl.",
+    "intro": "Eine kostenlose Demo für Windows, macOS und Linux. Sie enthält den ganzen Lauf, mit weniger Auswahl beim Bauen deines Jägers; die Zimmer des Hauses bleiben geschlossen.",
     "version": "Version {version}.",
     "includesTitle": "Was die Demo enthält",
     "includes": [
-      "2 Champions: der Eisengebundene Büßer und die Galgenschützin.",
+      "Dein eigener Jäger, vor dem Lauf gebaut: Geschlecht, Haut, Augen, Haar, Kleidung und Name.",
+      "Ein Start-Bonus, Riposte oder Erstes Blut, und eine Waffe, die Grabeisenkeule oder die Armbrust des Henkers.",
+      "Klassen: Schwertkämpfer und Bogenschütze, danach Kreuzritter und Ritter oder Jäger und Barde.",
       "Der komplette Lauf: drei Wochen auf der Karte, Ereignisse, Läden, Schwüre und die Hausherren.",
-      "Die 4 Start-Reliktfamilien.",
-      "Kein Reliquiar: die übrigen Champions, Reliktfamilien und Börsen-Upgrades gibt es im Vollspiel.",
+      "Die 4 Start-Gegenstandsfamilien.",
+      "Das Haus mit seinen 22 Zimmern, alle geschlossen: die übrigen Boni, Waffen, Klassen und Gegenstandsfamilien sowie die größeren Börsen gibt es im Vollspiel.",
       "Ein eigener Spielstand, getrennt vom Vollspiel."
     ],
     "windows": "Windows",
@@ -169,7 +171,7 @@
     "contact": "Kontakt",
     "social": "Soziale Medien",
     "descriptionTitle": "Beschreibung",
-    "description": "Dawnbringer ist ein Dark-Fantasy-Roguelike-Autobattler in Pixelart. Die Sonne ist tot, Gold ist die einzige verbliebene Wärme und jede Woche kommt ein Hausherr, um die Miete einzutreiben. Spieler erkunden eine rundenbasierte Karte, wählen ihre Kämpfe und bauen aus 64 Relikten in acht Familien einen Jäger auf. Da die Kämpfe ohne Zufall automatisch ablaufen und jeder Feind sichtbare Gegenstände trägt, beurteilen Spieler jeden Straßenkampf, indem sie dessen Ausrüstung mit ihrem Build vergleichen; ein Verzweiflungsstein warnt nur, wenn ein Kampf den Helden töten würde. Gegen den Hausherrn schweigt er, und man muss entweder den Zehnt zahlen oder kämpfen. Vor jedem Lauf setzt man Gold aus seiner Bank ein, und nach jeder Woche sichert man entweder seine Börse oder riskiert sie in einer härteren Woche. Gefallene Jäger streifen in späteren Läufen über die Karte, und einer von ihnen kann als Ketzer den Sitz eines Hausherrn einnehmen.",
+    "description": "Dawnbringer ist ein Dark-Fantasy-Roguelike-Autobattler in Pixelart. Die Sonne ist tot, Gold ist die einzige verbliebene Wärme und jede Woche kommt ein Hausherr, um die Miete einzutreiben. Spieler erkunden eine rundenbasierte Karte, wählen ihre Kämpfe und bauen einen Jäger: Sie erschaffen ihn vor jedem Lauf und entwickeln ihn mit einer Klasse in zwei Stufen, einem Fertigkeitsbaum, Attributpunkten und 105 Gegenständen in 10 Familien weiter, die nach Slot getragen, in der Schmiede nachgeglüht und mit Monsterkarten besetzt werden. Da die Kämpfe ohne Zufall automatisch ablaufen und jeder Feind sichtbare Gegenstände trägt, beurteilen Spieler jeden Straßenkampf, indem sie dessen Ausrüstung mit ihrem Build vergleichen; ein Verzweiflungsstein warnt nur, wenn ein Kampf den Helden töten würde. Gegen den Hausherrn schweigt er, und man muss entweder den Zehnt zahlen oder kämpfen. Vor jedem Lauf setzt man Gold aus seiner Bank ein, und nach jeder Woche sichert man entweder seine Börse oder riskiert sie in einer härteren Woche. Zwischen den Läufen gibt man die Bank für die Zimmer eines Hauses aus; jedes Zimmer bringt jemanden mit, der einen Bonus oder eine Klasse lehrt, eine Waffe fertigt, eine Gegenstandsfamilie öffnet oder eine größere Börse bringt. Gefallene Jäger streifen in späteren Läufen über die Karte, und einer von ihnen kann als Ketzer den Sitz eines Hausherrn einnehmen.",
     "mediaTitle": "Logo, Key Art und Screenshots",
     "zip": "Alles herunterladen (.zip, {size})",
     "logo": "Logo (PNG, transparent)",

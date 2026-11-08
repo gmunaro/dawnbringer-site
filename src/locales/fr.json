@@ -86,8 +86,8 @@
     "title": "Points forts",
     "items": [
       "6 premières classes et 12 classes avancées.",
-      "Points d'attribut et un point de compétence à chaque niveau ; un arbre de compétences à trois branches.",
-      "96 objets en 10 familles, portés par emplacement, avec des bonus d'ensemble à 2, 4 et 6 pièces.",
+      "Points d'attribut et un point de compétence à chaque niveau ; un arbre de compétences qui est une seule carte.",
+      "105 objets en 10 familles, portés par emplacement, avec des bonus d'ensemble à 2, 4 et 6 pièces.",
       "Réchauffez l'attirail jusqu'à +4 à la Forge, et sertissez-y 19 sortes de cartes de monstre.",
       "19 Seigneurs répartis sur 6 biomes et 3 semaines.",
       "Patrouilles, meutes, embuscades, gardiens et mimiques sur la carte.",
@@ -96,21 +96,23 @@
       "Banque et bourse séparées : misez de l'or au départ, puis encaissez après chaque Seigneur.",
       "9 serments facultatifs augmentent à la fois la difficulté et la récompense.",
       "Voix chargées d'émotion pour chaque personnage, et ambiance sonore propre à chaque biome.",
-      "Un herbier, un bestiaire et 12 succès dans le Journal.",
+      "Un herbier, un bestiaire et 16 succès dans le Journal.",
       "Pixel art natif en 640x360, avec souris, clavier, manette et tactile.",
       "Traduit en 14 langues."
     ]
   },
   "demo": {
     "title": "Télécharger la démo",
-    "intro": "Une démo gratuite pour Windows, macOS et Linux. Elle contient la partie entière, avec moins de champions et de reliques au choix.",
+    "intro": "Une démo gratuite pour Windows, macOS et Linux. Elle contient la partie entière, avec moins de choix pour former votre chasseur, et les pièces de la maison restent fermées.",
     "version": "Version {version}.",
     "includesTitle": "Contenu de la démo",
     "includes": [
-      "2 champions : le Pénitent de Fer et la Tireuse du Gibet.",
+      "Votre propre chasseur, formé avant la partie : sexe, peau, yeux, cheveux, tenue et nom.",
+      "Un bonus de départ, Riposte ou Premier Sang, et une arme, la Masse de Fer Funèbre ou l'Arbalète du Bourreau.",
+      "Classes : Épéiste et Archer, puis Croisé et Chevalier, ou Chasseur et Barde.",
       "La partie complète : trois semaines sur la carte, événements, boutiques, serments et les Seigneurs.",
-      "Les 4 familles de reliques de départ.",
-      "Pas de Reliquaire : les autres champions, familles de reliques et améliorations de bourse arrivent avec le jeu complet.",
+      "Les 4 familles d'objets de départ.",
+      "La maison et ses 22 pièces fermées : les autres bonus, armes, classes et familles d'objets, et les bourses plus grandes, arrivent avec le jeu complet.",
       "Sa propre sauvegarde, séparée du jeu complet."
     ],
     "windows": "Windows",
@@ -169,7 +171,7 @@
     "contact": "Contact",
     "social": "Réseaux sociaux",
     "descriptionTitle": "Description",
-    "description": "Dawnbringer est un auto-battler roguelike de dark fantasy en pixel art. Le soleil est mort, l'or est la seule chaleur qui reste et chaque semaine un Seigneur vient percevoir le loyer. Le joueur explore une carte au tour par tour, choisit ses combats et équipe un chasseur parmi 64 reliques réparties en huit familles. Comme les combats se résolvent automatiquement sans hasard et que chaque ennemi porte des objets visibles, les joueurs jugent chaque combat sur la route en lisant son équipement face à leur build ; une Pierre du Désespoir ne prévient que lorsqu'un combat tuerait le héros. Face au Seigneur, elle reste muette, et il faut payer la dîme ou combattre. Avant chaque partie, vous misez de l'or de votre banque, et après chaque semaine vous choisissez d'encaisser votre bourse ou de la remettre en jeu dans une semaine plus rude. Les chasseurs tombés errent sur la carte lors des parties suivantes, et l'un d'eux peut prendre le siège d'un Seigneur en hérétique.",
+    "description": "Dawnbringer est un auto-battler roguelike de dark fantasy en pixel art. Le soleil est mort, l'or est la seule chaleur qui reste et chaque semaine un Seigneur vient percevoir le loyer. Le joueur explore une carte au tour par tour, choisit ses combats et forme un chasseur : il le crée avant chaque partie, puis le fait grandir avec une classe en deux étapes, un arbre de compétences, des points d'attribut et 105 objets répartis en 10 familles, portés par emplacement, réchauffés à la forge et sertis de cartes de monstre. Comme les combats se résolvent automatiquement sans hasard et que chaque ennemi porte des objets visibles, les joueurs jugent chaque combat sur la route en lisant son équipement face à leur build ; une Pierre du Désespoir ne prévient que lorsqu'un combat tuerait le héros. Face au Seigneur, elle reste muette, et il faut payer la dîme ou combattre. Avant chaque partie, vous misez de l'or de votre banque, et après chaque semaine vous choisissez d'encaisser votre bourse ou de la remettre en jeu dans une semaine plus rude. Entre deux parties, vous dépensez la banque dans les pièces d'une maison ; chaque pièce amène quelqu'un qui enseigne un bonus ou une classe, forge une arme, ouvre une famille d'objets ou offre une bourse plus grande. Les chasseurs tombés errent sur la carte lors des parties suivantes, et l'un d'eux peut prendre le siège d'un Seigneur en hérétique.",
     "mediaTitle": "Logo, illustration principale et captures",
     "zip": "Tout télécharger (.zip, {size})",
     "logo": "Logo (PNG, transparent)",
