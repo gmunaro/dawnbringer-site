@@ -12,8 +12,12 @@ export const CONTACT = "dawnbringergame@gmail.com";
  * add a line when the brand front opens a new one.
  */
 export const SOCIALS: { name: string; url: string }[] = [
+  { name: "Discord", url: "https://discord.gg/vHQMuzdb7J" },
   { name: "YouTube", url: "https://www.youtube.com/@dawnbringergame" },
   { name: "Bluesky", url: "https://bsky.app/profile/dawnbringergame.bsky.social" },
+  { name: "Mastodon", url: "https://mastodon.gamedev.place/@dawnbringergame" },
+  { name: "Instagram", url: "https://www.instagram.com/dawnbringergame/" },
+  { name: "Threads", url: "https://www.threads.com/@dawnbringergame" },
   { name: "Reddit", url: "https://www.reddit.com/r/Dawnbringer/" },
 ];
 
