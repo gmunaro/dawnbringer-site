@@ -9,7 +9,9 @@
     "betaTitle": "Android alfasına katıl · Dawnbringer",
     "betaDescription": "Dawnbringer'ın Google Play'deki kapalı alfasına katılma, ekran görüntüleriyle dört adımda.",
     "downloadTitle": "Masaüstü demosu · Dawnbringer",
-    "downloadDescription": "Windows, macOS ve Linux için ücretsiz Dawnbringer demosunu indir."
+    "downloadDescription": "Windows, macOS ve Linux için ücretsiz Dawnbringer demosunu indir.",
+    "duelTitle": "Düello kodu · Dawnbringer",
+    "duelDescription": "Bir arkadaşınızın paylaştığı düello kodunu kopyalayın ve Dawnbringer'a yapıştırın."
   },
   "nav": {
     "skip": "İçeriğe geç",
@@ -158,6 +160,20 @@
     "shotStore": "Telefonda Google Play. Mavi fiyat düğmesine dokun.",
     "step4Title": "Test kartıyla onayla",
     "step4": "Google Play ödeme ekranını açar. Ödeme yönteminde \"Test card, always approves\" yazdığını ve ekranın bunun bir test siparişi olduğunu söylediğini kontrol et, sonra \"1-tap buy\" düğmesine dokun. Oyun yüklenir ve hiçbir ücret alınmaz."
+  },
+  "duel": {
+    "title": "Düello kodu",
+    "lead": "Bir arkadaşınız size düello kodu gönderdi. Kodu kopyalayıp oyuna yapıştırın.",
+    "copy": "Kodu kopyala",
+    "copied": "Kod kopyalandı.",
+    "copyFailed": "Otomatik kopyalanamadı. Kod seçili: elle kopyalayın.",
+    "steps": "Dawnbringer'ı açın, Düello'ya dokunun ve kodu yapıştırın.",
+    "noGame": "Oyun henüz sizde yok mu?",
+    "get": "Dawnbringer'ı indir",
+    "noCodeTitle": "Bu bağlantıda düello kodu yok",
+    "noCode": "Bu bağlantıda geçerli bir kod yok. Kopyalanırken ya da gönderilirken kesilmiş olabilir.",
+    "howTo": "Arkadaşınızdan Dawnbringer'ı açıp Düello'ya, sonra Paylaş'a dokunmasını ve size yeni bağlantıyı göndermesini isteyin.",
+    "needsJs": "Bu sayfa kodu göstermek için JavaScript'e ihtiyaç duyar."
   },
   "press": {
     "title": "Basın kiti",

@@ -9,7 +9,9 @@
     "betaTitle": "加入 Android 封闭测试 · Dawnbringer",
     "betaDescription": "如何在 Google Play 加入 Dawnbringer 的封闭 Alpha 测试:四步,附截图。",
     "downloadTitle": "电脑端试玩版 · Dawnbringer",
-    "downloadDescription": "下载 Dawnbringer 免费试玩版，适用于 Windows、macOS 和 Linux。"
+    "downloadDescription": "下载 Dawnbringer 免费试玩版，适用于 Windows、macOS 和 Linux。",
+    "duelTitle": "决斗代码 · Dawnbringer",
+    "duelDescription": "复制朋友分享的决斗代码，粘贴到 Dawnbringer 中。"
   },
   "nav": {
     "skip": "跳到正文",
@@ -158,6 +160,20 @@
     "shotStore": "手机上的 Google Play。点按蓝色的价格按钮。",
     "step4Title": "用测试卡确认",
     "step4": "Google Play 会打开付款页面。确认付款方式写的是“Test card, always approves”,并且页面说明这是测试订单,然后点按“1-tap buy”。游戏会安装,不会扣任何钱。"
+  },
+  "duel": {
+    "title": "决斗代码",
+    "lead": "朋友给你发来了决斗代码。复制后粘贴到游戏里即可。",
+    "copy": "复制代码",
+    "copied": "已复制代码。",
+    "copyFailed": "无法自动复制。代码已选中，请手动复制。",
+    "steps": "打开 Dawnbringer，点按“决斗”，然后粘贴代码。",
+    "noGame": "还没有这款游戏？",
+    "get": "下载 Dawnbringer",
+    "noCodeTitle": "此链接中没有决斗代码",
+    "noCode": "此链接没有有效的代码。可能在复制或发送时被截断了。",
+    "howTo": "请朋友打开 Dawnbringer，依次点按“决斗”和“分享”，然后把新链接发给你。",
+    "needsJs": "此页面需要 JavaScript 才能显示代码。"
   },
   "press": {
     "title": "媒体资料包",

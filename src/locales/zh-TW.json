@@ -9,7 +9,9 @@
     "betaTitle": "加入 Android 封閉測試 · Dawnbringer",
     "betaDescription": "如何在 Google Play 加入 Dawnbringer 的封閉 Alpha 測試:四步,附截圖。",
     "downloadTitle": "電腦試玩版 · Dawnbringer",
-    "downloadDescription": "下載適用於 Windows、macOS 和 Linux 的免費 Dawnbringer 試玩版。"
+    "downloadDescription": "下載適用於 Windows、macOS 和 Linux 的免費 Dawnbringer 試玩版。",
+    "duelTitle": "決鬥代碼 · Dawnbringer",
+    "duelDescription": "複製朋友分享的決鬥代碼，貼到 Dawnbringer 中。"
   },
   "nav": {
     "skip": "跳到主要內容",
@@ -158,6 +160,20 @@
     "shotStore": "手機上的 Google Play。輕觸藍色的價格按鈕。",
     "step4Title": "用測試卡確認",
     "step4": "Google Play 會打開付款頁面。確認付款方式寫的是「Test card, always approves」,而且頁面說明這是測試訂單,然後輕觸「1-tap buy」。遊戲會安裝,不會收取任何費用。"
+  },
+  "duel": {
+    "title": "決鬥代碼",
+    "lead": "朋友傳來了決鬥代碼。複製後貼到遊戲裡即可。",
+    "copy": "複製代碼",
+    "copied": "已複製代碼。",
+    "copyFailed": "無法自動複製。代碼已選取，請手動複製。",
+    "steps": "開啟 Dawnbringer，點按「決鬥」，然後貼上代碼。",
+    "noGame": "還沒有這款遊戲？",
+    "get": "下載 Dawnbringer",
+    "noCodeTitle": "此連結中沒有決鬥代碼",
+    "noCode": "此連結沒有有效的代碼。可能在複製或傳送時被截斷了。",
+    "howTo": "請朋友開啟 Dawnbringer，依序點按「決鬥」和「分享」，然後把新連結傳給你。",
+    "needsJs": "此頁面需要 JavaScript 才能顯示代碼。"
   },
   "press": {
     "title": "媒體資料包",

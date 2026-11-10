@@ -56,9 +56,10 @@ for (const rel of pages) {
   if (!/<title>[^<]+<\/title>/.test(html)) bad(`${where}: no title`);
   if (!/<meta name="description" content="[^"]+"/.test(html)) bad(`${where}: no description`);
   if (!html.includes('property="og:image"')) bad(`${where}: no og:image`);
-  if (rel !== "404.html" && !html.includes('rel="canonical"')) bad(`${where}: no canonical`);
+  // 404.html and the duel pages are noindex and carry no canonical.
+  if (rel !== "404.html" && !html.includes('name="robots" content="noindex"') && !html.includes('rel="canonical"')) bad(`${where}: no canonical`);
   const isLocalized = rel === "index.html" || /^([a-z-]+\/)?((presskit|changelog)\/)?index\.html$/.test(rel);
-  if (isLocalized) {
+  if (isLocalized && !html.includes('name="robots" content="noindex"')) {
     const langs = attr(html, /<link rel="alternate" hreflang="([^"]+)"/g);
     for (const l of [...LOCALES.map((x) => x.code), "x-default"]) if (!langs.includes(l)) bad(`${where}: hreflang ${l} missing`);
   }

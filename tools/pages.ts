@@ -64,8 +64,8 @@ export function demoOf(releases: ReleaseEntry[]): Demo | null {
   return null;
 }
 
-/** A localized page of the site: the home, the press kit or the changelog. */
-type PageId = "" | "presskit/" | "changelog/" | "beta/" | "download/";
+/** A localized page of the site: the home, the press kit, the changelog, the alpha, the demo or the duel code. */
+type PageId = "" | "presskit/" | "changelog/" | "beta/" | "download/" | "duelo/";
 
 export function esc(s: string): string {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -238,10 +238,10 @@ ${demo.checksums ? `<p class="demo-sums"><a href="${esc(demo.checksums)}">${esc(
 const alternates = (page: PageId) => LOCALES.map((l) => ({ loc: l, path: pathOf(l, page) }));
 
 /** The page frame shared by the home, beta and download pages: head, top bar, main, footer. */
-function frame(c: Ctx, page: PageId, title: string, description: string, main: string): Page {
+function frame(c: Ctx, page: PageId, title: string, description: string, main: string, noindex = false): Page {
   const { t, loc } = c;
   const path = pathOf(loc, page);
-  const html = `${head({ lang: loc.code, title, description, path, ogLocale: loc.og, font: loc.font, alternates: alternates(page) })}
+  const html = `${head({ lang: loc.code, title, description, path, ogLocale: loc.og, font: loc.font, alternates: noindex ? undefined : alternates(page), noindex })}
 ${ogAlt(t)}
 <body data-page="${page}">
 ${topBar(c, page)}
@@ -321,6 +321,33 @@ export function downloadPage(c: Ctx): Page {
   return frame(c, "download/", c.t.meta.downloadTitle, c.t.meta.downloadDescription, c.demo ? demoSection(c, c.demo) : "");
 }
 
+/**
+ * The page a duel link opens: the game shares /duelo/#DB1.<code> and src/site.js reads the code from the
+ * fragment, shows it with a copy button, or explains that the link has no code. Without a code the page
+ * has nothing to say, so it is noindex and left out of the sitemap.
+ */
+export function duelPage(c: Ctx): Page {
+  const d = c.t.duel;
+  // The game: the desktop demo page when there is one, else the alpha's page, else the home page.
+  const get = BASE + pathOf(c.loc, c.demo ? "download/" : BETA ? "beta/" : "");
+  const main = `<section class="wrap prose duel" aria-labelledby="duel-title">
+<h1 id="duel-title">${esc(d.title)}</h1>
+<noscript><p>${esc(d.needsJs)}</p></noscript>
+<div id="duel-ok" hidden>
+<p class="lead">${esc(d.lead)}</p>
+<textarea id="duel-code" class="duel-code" readonly rows="6" spellcheck="false" autocomplete="off" autocapitalize="off" aria-label="${esc(d.title)}"></textarea>
+<p class="duel-actions"><button type="button" id="duel-copy" class="btn" data-copied="${esc(d.copied)}" data-failed="${esc(d.copyFailed)}">${esc(d.copy)}</button> <span id="duel-status" role="status"></span></p>
+<p>${esc(d.steps)}</p>
+</div>
+<div id="duel-bad" hidden>
+<h2>${esc(d.noCodeTitle)}</h2>
+<p>${esc(d.noCode)}</p>
+<p>${esc(d.howTo)}</p>
+</div>
+<p>${esc(d.noGame)} <a href="${get}">${esc(d.get)}</a></p>
+</section>`;
+  return frame(c, "duelo/", c.t.meta.duelTitle, c.t.meta.duelDescription, main, true);
+}
 
 /** Files of the press kit, in src/presskit and served from presskit/files/. */
 export const PRESS_FILES = {
