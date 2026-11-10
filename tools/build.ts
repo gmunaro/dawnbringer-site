@@ -9,7 +9,7 @@ import { zipSync, type Zippable } from "fflate";
 import { marked } from "marked";
 import subsetFont from "subset-font";
 import { BASE, BETA, LOCALES, SITE, type Locale, type PixelFont } from "./config.ts";
-import { betaPage, changelogPage, demoOf, downloadPage, homePage, notFoundPage, pressPage, privacyPage, PRESS_FILES, ZIP_NAME, type Ctx, type Page, type ReleaseEntry, type Strings } from "./pages.ts";
+import { betaPage, changelogPage, demoOf, downloadPage, duelPage, homePage, notFoundPage, pressPage, privacyPage, PRESS_FILES, ZIP_NAME, type Ctx, type Page, type ReleaseEntry, type Strings } from "./pages.ts";
 
 const ROOT = join(import.meta.dir, "..");
 const SRC = join(ROOT, "src");
@@ -18,7 +18,7 @@ const out = (p: string) => join(ROOT, p);
 /** Everything the build writes at the root, removed first so deleted pages do not linger. */
 function clean(): void {
   // latest.json is not here: the game repo's tools/publish writes it and the build leaves it alone.
-  const fixed = ["index.html", "404.html", "privacy.html", "sitemap.xml", "robots.txt", "site.webmanifest", ".nojekyll", "assets", "presskit", "changelog", "beta", "download"];
+  const fixed = ["index.html", "404.html", "privacy.html", "sitemap.xml", "robots.txt", "site.webmanifest", ".nojekyll", "assets", "presskit", "changelog", "beta", "download", "duelo"];
   const dirs = LOCALES.map((l) => l.dir).filter((d) => /^[a-z]{2}(-[a-z]{2})?\/$/.test(d));
   for (const p of [...fixed, ...dirs]) rmSync(out(p), { recursive: true, force: true });
 }
@@ -95,7 +95,8 @@ function buildZip(): number {
 
 function sitemap(pages: Page[]): string {
   const groups = ["", "presskit/", "changelog/"].map((p) => LOCALES.map((l) => l.dir + p));
-  const urls = pages.filter((p) => p.path !== "404.html").map((p) => {
+  // 404.html and the duel pages (noindex, empty without a code) stay out of the sitemap.
+  const urls = pages.filter((p) => p.path !== "404.html" && !p.path.endsWith("duelo/")).map((p) => {
     const group = groups.find((g) => g.includes(p.path));
     const alts = group
       ? group.map((g, i) => `<xhtml:link rel="alternate" hreflang="${LOCALES[i]!.code}" href="${SITE + g}"/>`).join("") +
@@ -139,7 +140,7 @@ async function main(): Promise<void> {
     const t = strings.get(loc.code)!;
     const mb = (bytes: number) => new Intl.NumberFormat(loc.code, { maximumFractionDigits: 1, minimumFractionDigits: 1 }).format(bytes / 1e6) + " MB";
     const c: Ctx = { loc, t, zipSize: mb(zipBytes), mb, changelog: releases.length > 0, demo };
-    pages.push(homePage(c), pressPage(c));
+    pages.push(homePage(c), pressPage(c), duelPage(c));
     if (releases.length) pages.push(changelogPage(c, releases));
     if (BETA) pages.push(betaPage(c));
     if (demo) pages.push(downloadPage(c));

@@ -1,6 +1,7 @@
 // Dawnbringer site script: sends old #beta and #download links to their pages, suggests the visitor's
 // language (never redirects), closes the language menu on an outside click or Escape, and plays the
-// gameplay clip only while it is on screen.
+// gameplay clip only while it is on screen. On the duel page (duelo/) it shows the code in the link's
+// fragment and copies it.
 // tools/build.ts fills in LANGS (every locale's suggestion strings) and BASE.
 (() => {
   const LANGS = /*LANGS*/[];
@@ -15,6 +16,17 @@
     location.replace(location.pathname.replace(/[^/]*$/, "") + location.hash.slice(1) + "/");
     return;
   }
+
+  // Duel page: the game shares https://.../duelo/#DB1.<code>. The code stays in the fragment (browsers
+  // never send it to a server); this script shows it and copies it, and never decodes or sends it.
+  const DUEL_CODE = /^DB1\.[A-Za-z0-9_-]+$/;
+  const DUEL_MAX = 8192;
+  const duelCode = (hash) => {
+    const code = hash.startsWith("#") ? hash.slice(1) : hash;
+    return code.length <= DUEL_MAX && DUEL_CODE.test(code) ? code : null;
+  };
+  // "#<code>" of the current URL when it holds a valid code, else "": what a link to this page in another language carries.
+  const duelHash = () => { const code = duelCode(location.hash); return code ? "#" + code : ""; };
 
   const store = (code) => { try { localStorage.setItem(KEY, code); } catch { /* storage off */ } };
   const stored = () => { try { return localStorage.getItem(KEY); } catch { return null; } };
@@ -37,12 +49,12 @@
 
   const bar = document.getElementById("suggest");
   const want = best();
-  if (bar && (page === "" || page === "presskit/" || page === "changelog/") && want && want.code !== here && !stored()) {
+  if (bar && (page === "" || page === "presskit/" || page === "changelog/" || page === "duelo/") && want && want.code !== here && !stored()) {
     const p = document.createElement("p");
     p.lang = want.code;
     p.textContent = want.text + " ";
     const go = document.createElement("a");
-    go.href = BASE + want.dir + page;
+    go.href = BASE + want.dir + page + (page === "duelo/" ? duelHash() : "");
     go.hreflang = want.code;
     go.textContent = want.go;
     go.addEventListener("click", () => store(want.code));
@@ -54,6 +66,39 @@
     p.append(go);
     bar.append(p, close);
     bar.hidden = false;
+  }
+
+  if (page === "duelo/") {
+    const ok = document.getElementById("duel-ok");
+    const bad = document.getElementById("duel-bad");
+    const box = document.getElementById("duel-code");
+    const copy = document.getElementById("duel-copy");
+    const status = document.getElementById("duel-status");
+    // The language links in the top bar carry the code, so switching language keeps it.
+    const langLinks = [...document.querySelectorAll("[data-lang]")].map((a) => [a, a.getAttribute("href")]);
+    const show = () => {
+      const hash = duelHash();
+      for (const [a, href] of langLinks) a.setAttribute("href", href + hash);
+      ok.hidden = !hash;
+      bad.hidden = !!hash;
+      box.value = hash.slice(1);
+      status.textContent = "";
+    };
+    show();
+    addEventListener("hashchange", show);
+    box.addEventListener("focus", () => box.select());
+    copy.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(box.value);
+        status.textContent = copy.dataset.copied;
+        return;
+      } catch { /* no clipboard API or permission: select the text and try the old way */ }
+      box.focus();
+      box.setSelectionRange(0, box.value.length);
+      let done = false;
+      try { done = document.execCommand("copy"); } catch { /* blocked */ }
+      status.textContent = done ? copy.dataset.copied : copy.dataset.failed;
+    });
   }
 
   const menu = document.querySelector("details.lang");

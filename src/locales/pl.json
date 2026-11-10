@@ -9,7 +9,9 @@
     "betaTitle": "Dołącz do alfy na Androidzie · Dawnbringer",
     "betaDescription": "Jak dołączyć do zamkniętej alfy Dawnbringer w Google Play, w czterech krokach ze zrzutami ekranu.",
     "downloadTitle": "Demo na komputer · Dawnbringer",
-    "downloadDescription": "Pobierz darmowe demo Dawnbringer na Windows, macOS i Linuksa."
+    "downloadDescription": "Pobierz darmowe demo Dawnbringer na Windows, macOS i Linuksa.",
+    "duelTitle": "Kod pojedynku · Dawnbringer",
+    "duelDescription": "Skopiuj kod pojedynku, który udostępnił znajomy, i wklej go w Dawnbringer."
   },
   "nav": {
     "skip": "Przejdź do treści",
@@ -158,6 +160,20 @@
     "shotStore": "Google Play na telefonie. Dotknij niebieskiego przycisku z ceną.",
     "step4Title": "Potwierdź kartą testową",
     "step4": "Google Play otworzy ekran płatności. Sprawdź, czy metoda płatności to „Test card, always approves” i czy ekran mówi o zamówieniu testowym, a potem dotknij „1-tap buy”. Gra się zainstaluje i nic nie zostanie pobrane."
+  },
+  "duel": {
+    "title": "Kod pojedynku",
+    "lead": "Znajomy przysłał kod pojedynku. Skopiuj go i wklej w grze.",
+    "copy": "Kopiuj kod",
+    "copied": "Kod skopiowany.",
+    "copyFailed": "Nie udało się skopiować automatycznie. Kod jest zaznaczony: skopiuj go ręcznie.",
+    "steps": "Otwórz Dawnbringer, dotknij Pojedynek i wklej kod.",
+    "noGame": "Nie masz jeszcze gry?",
+    "get": "Pobierz Dawnbringer",
+    "noCodeTitle": "Ten link nie zawiera kodu pojedynku",
+    "noCode": "Ten link nie ma prawidłowego kodu. Mógł zostać ucięty przy kopiowaniu lub wysyłaniu.",
+    "howTo": "Poproś znajomego, żeby otworzył Dawnbringer, dotknął Pojedynek, potem Udostępnij, i przysłał nowy link.",
+    "needsJs": "Ta strona potrzebuje JavaScriptu, żeby pokazać kod."
   },
   "press": {
     "title": "Dla prasy",

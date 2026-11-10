@@ -10,7 +10,7 @@ import { LOCALES } from "./config.ts";
 
 const ROOT = join(import.meta.dir, "..");
 /** Pages built once per language, by their path under a language folder. */
-const PAGES = ["index.html", "presskit/index.html", "changelog/index.html", "beta/index.html", "download/index.html"];
+const PAGES = ["index.html", "presskit/index.html", "changelog/index.html", "beta/index.html", "download/index.html", "duelo/index.html"];
 const LISTS: { allow: string[]; same: Record<string, string[]> } = JSON.parse(readFileSync(join(import.meta.dir, "i18n_allow.json"), "utf-8"));
 
 function decode(s: string): string {

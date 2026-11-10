@@ -9,7 +9,9 @@
     "betaTitle": "Join the Android alpha · Dawnbringer",
     "betaDescription": "How to join the closed alpha of Dawnbringer on Google Play, in four steps with screenshots.",
     "downloadTitle": "Desktop demo · Dawnbringer",
-    "downloadDescription": "Download the free Dawnbringer demo for Windows, macOS and Linux."
+    "downloadDescription": "Download the free Dawnbringer demo for Windows, macOS and Linux.",
+    "duelTitle": "Duel code · Dawnbringer",
+    "duelDescription": "Copy the duel code a friend shared and paste it in Dawnbringer."
   },
   "nav": {
     "skip": "Skip to content",
@@ -158,6 +160,20 @@
     "shotStore": "Google Play on the phone. Tap the blue price button.",
     "step4Title": "Confirm with the test card",
     "step4": "Google Play opens the payment screen. Check that the payment method says \"Test card, always approves\" and that the screen says it is a test order, then tap \"1-tap buy\". The game installs and nothing is charged."
+  },
+  "duel": {
+    "title": "Duel code",
+    "lead": "A friend sent you a duel code. Copy it and paste it in the game.",
+    "copy": "Copy code",
+    "copied": "Code copied.",
+    "copyFailed": "Could not copy on its own. The code is selected: copy it by hand.",
+    "steps": "Open Dawnbringer, tap Duel and paste the code.",
+    "noGame": "Do not have the game yet?",
+    "get": "Download Dawnbringer",
+    "noCodeTitle": "No duel code in this link",
+    "noCode": "This link has no valid code. It may have been cut short when it was copied or sent.",
+    "howTo": "Ask your friend to open Dawnbringer, tap Duel, then Share, and send you the new link.",
+    "needsJs": "This page needs JavaScript to show the code."
   },
   "press": {
     "title": "Press kit",

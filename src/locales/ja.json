@@ -9,7 +9,9 @@
     "betaTitle": "Androidアルファ版に参加 · Dawnbringer",
     "betaDescription": "Google Play で Dawnbringer のクローズドアルファに参加する方法。画像付きの 4 ステップ。",
     "downloadTitle": "PC体験版 · Dawnbringer",
-    "downloadDescription": "Windows、macOS、Linux向けの無料のDawnbringer体験版をダウンロードできます。"
+    "downloadDescription": "Windows、macOS、Linux向けの無料のDawnbringer体験版をダウンロードできます。",
+    "duelTitle": "決闘コード · Dawnbringer",
+    "duelDescription": "友だちが共有した決闘コードをコピーして、Dawnbringerに貼り付けてください。"
   },
   "nav": {
     "skip": "本文へ移動",
@@ -158,6 +160,20 @@
     "shotStore": "スマホの Google Play。価格の青いボタンをタップ。",
     "step4Title": "テスト用カードで確定",
     "step4": "Google Play が支払い画面を開きます。支払い方法が「Test card, always approves」で、画面にテスト注文と書かれていることを確かめてから、「1-tap buy」をタップします。ゲームがインストールされ、料金はかかりません。"
+  },
+  "duel": {
+    "title": "決闘コード",
+    "lead": "友だちから決闘コードが届きました。コピーして、ゲームに貼り付けてください。",
+    "copy": "コードをコピー",
+    "copied": "コピーしました。",
+    "copyFailed": "自動でコピーできませんでした。コードを選択してあるので、手動でコピーしてください。",
+    "steps": "Dawnbringerを開き、「決闘」をタップして、コードを貼り付けてください。",
+    "noGame": "まだゲームを持っていませんか？",
+    "get": "Dawnbringerをダウンロード",
+    "noCodeTitle": "このリンクには決闘コードがありません",
+    "noCode": "このリンクには有効なコードがありません。コピーや送信の途中で切れた可能性があります。",
+    "howTo": "友だちに、Dawnbringerを開いて「決闘」、続けて「共有」をタップし、新しいリンクを送ってもらってください。",
+    "needsJs": "コードを表示するには、このページでJavaScriptが必要です。"
   },
   "press": {
     "title": "プレスキット",

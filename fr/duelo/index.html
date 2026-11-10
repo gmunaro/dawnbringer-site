@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Code de duel · Dawnbringer</title>
+<meta name="description" content="Copiez le code de duel qu'un ami a partagé et collez-le dans Dawnbringer.">
+<meta name="robots" content="noindex">
+
+<meta name="theme-color" content="#0B0710">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Dawnbringer">
+<meta property="og:title" content="Code de duel · Dawnbringer">
+<meta property="og:description" content="Copiez le code de duel qu'un ami a partagé et collez-le dans Dawnbringer.">
+<meta property="og:url" content="https://gmunaro.github.io/dawnbringer-site/fr/duelo/">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://gmunaro.github.io/dawnbringer-site/assets/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/dawnbringer-site/assets/icons/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/dawnbringer-site/assets/icons/icon-32.png">
+<link rel="apple-touch-icon" href="/dawnbringer-site/assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="/dawnbringer-site/site.webmanifest">
+<link rel="preload" href="/dawnbringer-site/assets/fonts/kenney-pixel.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/dawnbringer-site/assets/fonts/jacquarda-logo.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/dawnbringer-site/assets/site.css">
+<script src="/dawnbringer-site/assets/site.js" defer></script>
+</head>
+<meta property="og:image:alt" content="Le logo de Dawnbringer au-dessus d'un Seigneur couronné sous une lune rouge sang.">
+<body data-page="duelo/">
+<a class="skip" href="#main">Aller au contenu</a>
+<header class="top">
+<a class="brand" href="/dawnbringer-site/fr/">Dawnbringer</a>
+<nav class="sections"><ul><li><a href="/dawnbringer-site/fr/">Accueil</a></li><li><a href="/dawnbringer-site/fr/beta/">Alpha Android</a></li><li><a href="/dawnbringer-site/fr/download/">Démo pour ordinateur</a></li><li><a href="/dawnbringer-site/fr/presskit/">Dossier de presse</a></li></ul></nav>
+<details class="lang">
+<summary><span class="sr">Langue: </span>Français</summary>
+<ul><li><a href="/dawnbringer-site/duelo/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="/dawnbringer-site/pt-br/duelo/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-BR">Português (Brasil)</a></li><li><a href="/dawnbringer-site/es/duelo/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="/dawnbringer-site/fr/duelo/" hreflang="fr" lang="fr" data-lang="fr" aria-current="true">Français</a></li><li><a href="/dawnbringer-site/de/duelo/" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="/dawnbringer-site/it/duelo/" hreflang="it" lang="it" data-lang="it">Italiano</a></li><li><a href="/dawnbringer-site/ru/duelo/" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li><li><a href="/dawnbringer-site/uk/duelo/" hreflang="uk" lang="uk" data-lang="uk">Українська</a></li><li><a href="/dawnbringer-site/pl/duelo/" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="/dawnbringer-site/tr/duelo/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a></li><li><a href="/dawnbringer-site/ja/duelo/" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li><li><a href="/dawnbringer-site/ko/duelo/" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li><li><a href="/dawnbringer-site/zh-cn/duelo/" hreflang="zh-CN" lang="zh-CN" data-lang="zh-CN">简体中文</a></li><li><a href="/dawnbringer-site/zh-tw/duelo/" hreflang="zh-TW" lang="zh-TW" data-lang="zh-TW">繁體中文</a></li></ul>
+</details>
+</header>
+<div class="suggest" id="suggest" hidden></div>
+<main id="main">
+<section class="wrap prose duel" aria-labelledby="duel-title">
+<h1 id="duel-title">Code de duel</h1>
+<noscript><p>Cette page a besoin de JavaScript pour afficher le code.</p></noscript>
+<div id="duel-ok" hidden>
+<p class="lead">Un ami vous a envoyé un code de duel. Copiez-le et collez-le dans le jeu.</p>
+<textarea id="duel-code" class="duel-code" readonly rows="6" spellcheck="false" autocomplete="off" autocapitalize="off" aria-label="Code de duel"></textarea>
+<p class="duel-actions"><button type="button" id="duel-copy" class="btn" data-copied="Code copié." data-failed="La copie automatique a échoué. Le code est sélectionné : copiez-le à la main.">Copier le code</button> <span id="duel-status" role="status"></span></p>
+<p>Ouvrez Dawnbringer, touchez Duel et collez le code.</p>
+</div>
+<div id="duel-bad" hidden>
+<h2>Aucun code de duel dans ce lien</h2>
+<p>Ce lien n'a pas de code valide. Il a peut-être été coupé quand il a été copié ou envoyé.</p>
+<p>Demandez à votre ami d'ouvrir Dawnbringer, de toucher Duel puis Partager, et de vous envoyer le nouveau lien.</p>
+</div>
+<p>Vous n'avez pas encore le jeu ? <a href="/dawnbringer-site/fr/download/">Télécharger Dawnbringer</a></p>
+</section>
+</main>
+<footer class="foot">
+<ul>
+<li><a href="/dawnbringer-site/privacy.html">Politique de confidentialité</a></li>
+<li><a href="/dawnbringer-site/fr/presskit/">Dossier de presse</a></li>
+<li><a href="/dawnbringer-site/fr/changelog/">Nouveautés</a></li>
+</ul>
+<p>Vous avez trouvé un bug ? Utilisez Signaler un bug dans le jeu ou écrivez à <a href="mailto:dawnbringergame@gmail.com">dawnbringergame@gmail.com</a></p>
+<ul class="socials">
+<li><a href="https://discord.gg/vHQMuzdb7J" rel="me noopener">Discord</a></li>
+<li><a href="https://www.youtube.com/@dawnbringergame" rel="me noopener">YouTube</a></li>
+<li><a href="https://bsky.app/profile/dawnbringergame.bsky.social" rel="me noopener">Bluesky</a></li>
+<li><a href="https://mastodon.gamedev.place/@dawnbringergame" rel="me noopener">Mastodon</a></li>
+<li><a href="https://www.instagram.com/dawnbringergame/" rel="me noopener">Instagram</a></li>
+<li><a href="https://www.threads.com/@dawnbringergame" rel="me noopener">Threads</a></li>
+<li><a href="https://www.reddit.com/r/Dawnbringer/" rel="me noopener">Reddit</a></li>
+</ul>
+<p>Dawnbringer est créé par gmunaro au Brésil. © 2026 gmunaro.</p>
+<p>Créé par <a href="https://github.com/praisetcdev" rel="me noopener">PraiseTC</a></p>
+</footer>
+</body>
+</html>
