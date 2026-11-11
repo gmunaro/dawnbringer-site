@@ -26,7 +26,11 @@ until you delete it. If a bug report you sent could not be delivered (for exampl
 offline), the game keeps it in the same storage and tries again the next times you open the game,
 then deletes it. The name you typed in the bug reporter and its random id are kept in the game's
 settings. If you turn on run records, the game also keeps your answer and the random id described
-below in its settings, and keeps up to 20 records it could not deliver until it can send them.
+below in its settings, and keeps up to 20 records it could not deliver until it can send them
+(and, from version 0.8.0, up to 10 duel records). The heroes you keep for duels, your own and the
+codes friends sent you, stay in your game profile. A duel code you share holds your hero's build,
+name and looks; it leaves your device only when you send it yourself, and the duel page of this
+site reads it in your browser without sending it to us.
 
 ## Bug reports (only when you send one)
 
@@ -134,6 +138,16 @@ contains:
 A record never contains text you typed, your hunter's name, screenshots or anything else that
 identifies you.
 
+If you turn run records on, the game also sends a short record of each duel you fight on the Duel
+screen (from version 0.8.0), after the duel and never during a run. It contains the game version,
+the platform, the random id described above, an id of the duel made from that id and the two heroes
+(so the same duel sent twice is counted once), the version of the fight rules, whether the duel was
+against a friend's code or on the same device, who won, how many rounds it lasted and whether the
+round limit decided it; and, for each of the two heroes, the champion, the class, the level, the
+vows, the Oddities and the share of health left at the end. A duel record never contains the duel
+code, a hero's name or looks, or anything else that identifies you or your friend. It is used, kept
+and deleted like the run records.
+
 Records are sent over an encrypted connection (HTTPS) to the same server as bug reports (Cloudflare
 Workers) and stored in a database on Cloudflare (Cloudflare D1), with the date, not the time, they
 arrived. Cloudflare, Inc. hosts them as our service provider. We do not sell the records, share
@@ -208,7 +222,11 @@ enviou não puder ser entregue (por exemplo, sem internet), o jogo o guarda ness
 armazenamento e tenta de novo nas próximas vezes que você abrir o jogo; depois o apaga. O nome que
 você digitou no relator de bugs e o id aleatório dele ficam nas configurações do jogo. Se você
 ativar os registros de partida, o jogo também guarda sua resposta e o id aleatório descrito abaixo
-nas configurações, e guarda até 20 registros que não conseguiu entregar até poder enviá-los.
+nas configurações, e guarda até 20 registros que não conseguiu entregar até poder enviá-los (e, a
+partir da versão 0.8.0, até 10 registros de duelo). Os heróis que você guarda para duelos, os seus
+e os códigos que amigos mandaram, ficam no seu perfil do jogo. Um código de duelo que você
+compartilha leva a build, o nome e a aparência do seu herói; ele só sai do seu aparelho quando você
+mesmo o envia, e a página de duelo deste site o lê no seu navegador, sem enviá-lo para nós.
 
 ## Relatórios de bug (só quando você envia)
 
@@ -317,6 +335,16 @@ e descarta os mais antigos além disso. Um registro contém:
 
 Um registro nunca contém texto que você digitou, o nome do seu caçador, capturas de tela nem nada
 mais que identifique você.
+
+Se você ativar os registros de partida, o jogo também envia um registro curto de cada duelo que
+você lutar na tela de Duelo (a partir da versão 0.8.0), depois do duelo e nunca durante uma partida.
+Ele contém a versão do jogo, a plataforma, o id aleatório descrito acima, um id do duelo feito desse
+id e dos dois heróis (para que o mesmo duelo enviado duas vezes conte uma vez só), a versão das
+regras de luta, se o duelo foi contra o código de um amigo ou no mesmo aparelho, quem venceu,
+quantas rodadas durou e se o limite de rodadas decidiu; e, para cada um dos dois heróis, o campeão,
+a classe, o nível, os votos, as Oddities e a parte da vida que sobrou no fim. Um registro de duelo
+nunca contém o código do duelo, o nome ou a aparência de um herói, nem nada mais que identifique
+você ou o seu amigo. Ele é usado, guardado e apagado como os registros de partida.
 
 Os registros são enviados por uma conexão criptografada (HTTPS) para o mesmo servidor dos
 relatórios de bug (Cloudflare Workers) e guardados num banco de dados na Cloudflare (Cloudflare
