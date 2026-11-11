@@ -1,6 +1,6 @@
 # Dawnbringer: Privacy Policy
 
-Effective date: 2026-11-07
+Effective date: 2026-11-11
 
 Developer: gmunaro (individual developer), contact: dawnbringergame@gmail.com
 
@@ -197,7 +197,7 @@ dawnbringergame@gmail.com
 
 # Dawnbringer: Política de Privacidade
 
-Data de vigência: 2026-11-07
+Data de vigência: 2026-11-11
 
 Desenvolvedor: gmunaro (desenvolvedor individual), contato: dawnbringergame@gmail.com
 
