@@ -174,7 +174,7 @@ them.
 as rivals. Nothing is sold or shared, and no name or text you type is sent.**
 
 Duels with a friend by code work without the internet and send nothing to us. The online weekly
-board is optional: nothing about it is sent until you join it.
+board is optional: your runs and your id are sent only after you join it.
 
 When you open the weekly board before joining, the game asks our server which place your connection
 seems to come from. Cloudflare estimates it from your IP address; it is often only the nearest large
@@ -450,7 +450,7 @@ para o seu jogo como rivais. Nada é vendido nem compartilhado, e não vai nome 
 você.**
 
 Duelos com um amigo por código funcionam sem internet e não nos enviam nada. O placar da semana
-online é opcional: nada dele é enviado até você entrar.
+online é opcional: suas partidas e o seu id só são enviados depois que você entra.
 
 Quando você abre o placar da semana antes de entrar, o jogo pergunta ao nosso servidor de que local
 sua conexão parece vir. A Cloudflare estima a partir do seu endereço IP; muitas vezes é só a cidade
