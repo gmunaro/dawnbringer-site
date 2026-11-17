@@ -227,16 +227,20 @@ or press "Delete my data" before taking the code.
 "Delete my data" on the weekly board, after you confirm it with "Delete", asks the server to delete
 every run sent with your id, its place on the board and its rivals; then the game forgets the id,
 and joining again creates a new one. As with the place, the made-up name of your runs may still show
-on some players' copy of the board for up to 5 minutes. If the server does not answer, your device
+on some players' copy of the board for up to 5 minutes. A rival that another player's game already
+fetched from your runs is not reached: it stays in that game, in memory, until one of their runs
+meets it or the game closes, and if it defeats their hunter, its made-up name stays in the record of
+that fall. It carries only the made-up name and the hunter's build, nothing that identifies you. The
+board's question before "Delete" says so. If the server does not answer, your device
 keeps the id and the board says so; the server may or may not have deleted the runs, so press
 "Delete my data" again later. Another device that took your transfer code still has the id: if it
 sends a run, the id is used again. Delete the data there too, or do not share the code.
 
 Legal basis: your consent (LGPD art. 7, I; GDPR art. 6(1)(a)). You give it when you join the weekly
 board, and you choose separately whether a place goes with your runs. You can withdraw it at any
-time, and the withdrawal reaches what was already sent: "No place" takes the place off the runs you
-already sent, and "Delete my data" deletes every run sent with your id (LGPD art. 8, §5; GDPR art.
-7(3)). Withdrawing does not make unlawful what was done with your consent before it.
+time, and the withdrawal reaches what was already sent to our server: "No place" takes the place off the runs
+you already sent, and "Delete my data" deletes every run sent with your id (LGPD art. 8, §5; GDPR art.
+7(3)); a rival another player already fetched stays in their game, as said above. Withdrawing does not make unlawful what was done with your consent before it.
 
 ## Google Play license check (Android, Google Play version only)
 
@@ -508,17 +512,21 @@ código.
 "Apagar meus dados", no placar da semana, depois que você confirma com "Apagar", pede ao servidor
 que apague todas as partidas enviadas com o seu id, o lugar dele no placar e os rivais; depois o
 jogo esquece o id, e entrar de novo cria um novo. Como com o local, o nome inventado das suas
-partidas ainda pode aparecer na cópia do placar de alguns jogadores por até 5 minutos. Se o servidor
-não responder, seu aparelho mantém o id e o placar avisa; o servidor pode ter apagado as partidas ou
+partidas ainda pode aparecer na cópia do placar de alguns jogadores por até 5 minutos. Um rival que o jogo de outro jogador já baixou das suas
+partidas não é alcançado: ele fica naquele jogo, na memória, até uma partida dele encontrá-lo ou o
+jogo fechar, e, se derrotar o caçador desse jogador, o nome inventado fica no registro dessa queda.
+Ele leva só o nome inventado e a build do caçador, nada que identifique você. A pergunta do placar
+antes de "Apagar" avisa isso. Se o servidor não responder, seu aparelho mantém o id e o placar avisa; o servidor pode ter apagado as partidas ou
 não, então toque em "Apagar meus dados" de novo mais tarde. Outro aparelho que usou o seu código de
 transferência continua com o id: se ele enviar uma partida, o id volta a ser usado. Apague os dados
 lá também, ou não compartilhe o código.
 
 Base legal: o seu consentimento (LGPD art. 7º, I; GDPR art. 6(1)(a)). Você o dá quando entra no
 placar da semana, e escolhe à parte se um local vai com as suas partidas. Você pode retirá-lo quando
-quiser, e a retirada alcança o que já foi enviado: "Sem local" tira o local das partidas que você já
-enviou, e "Apagar meus dados" apaga todas as partidas enviadas com o seu id (LGPD art. 8º, §5º; GDPR
-art. 7(3)). A retirada não torna ilegal o que foi feito antes dela com o seu consentimento.
+quiser, e a retirada alcança o que já foi enviado ao nosso servidor: "Sem local" tira o local das partidas que
+você já enviou, e "Apagar meus dados" apaga todas as partidas enviadas com o seu id (LGPD art. 8º,
+§5º; GDPR art. 7(3)); um rival que outro jogador já baixou fica no jogo dele, como dito acima. A
+retirada não torna ilegal o que foi feito antes dela com o seu consentimento.
 
 ## Verificação de licença do Google Play (só Android, versão do Google Play)
 
