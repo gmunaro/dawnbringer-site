@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: roguelike auto-battler de fantasia sombria",
-    "description": "Um auto-battler roguelike de fantasia sombria. Monte um caçador, leia o equipamento de cada inimigo e depois pague o dízimo ou lute.",
+    "description": "Um auto-battler roguelike de fantasia sombria. Monte um caçador, leia o equipamento de cada inimigo e depois pague o Senhorio ou lute.",
     "pressTitle": "Kit de imprensa do Dawnbringer",
     "pressDescription": "Ficha técnica, descrição, recursos, logo, arte principal e capturas de tela do Dawnbringer, um auto-battler roguelike de gmunaro.",
     "notFoundTitle": "Página não encontrada",
@@ -35,12 +35,12 @@
   "screens": {
     "items": {
       "night": {
-        "caption": "Faltam dois passos para o Senhorio alcançar você.",
-        "alt": "O mapa à noite, tingido de vermelho. O Rei Oco está ao lado do herói e o relógio diz: O Senhorio vem cobrar, 2 passos."
+        "caption": "Noite no Bosque dos Enforcados: a névoa esconde a estrada e o que espera nela.",
+        "alt": "O mapa do Bosque dos Enforcados à noite: o caçador numa trilha da floresta, com um monstro à frente e lutas marcadas e um baú ao lado do caminho, e nas bordas a vida, o ouro, o Senhorio da semana, o mapa da região e o cinto."
       },
       "landlord": {
         "caption": "Pague o dízimo com a bolsa ou lute pela recompensa.",
-        "alt": "A carta do Rei Oco: atributos, a habilidade Coroa Oca, o dízimo de 18 de ouro e os botões Pagar o dízimo e Lutar."
+        "alt": "A carta do Devorador de Pomares: o Senhorio do Campo do Pó, com atributos, a habilidade Crosta de Geada, o que ele carrega, o dízimo de 18 dos seus 60 de ouro e os botões Pagar o dízimo e Lutar."
       },
       "battle": {
         "caption": "O combate é automático; a preparação define a luta.",
@@ -48,35 +48,35 @@
       },
       "stone": {
         "caption": "A Pedra do Desespero escurece sobre uma luta que mataria você.",
-        "alt": "A tela de pré-luta de um inimigo, com seus atributos e os itens que ele carrega, a marca da Pedra do Desespero e o aviso Esta luta mataria você, e os botões Lutar e Recuar."
+        "alt": "No mapa, a carta de um bando liderado pelo Podador Calejado: o que ele carrega, os dois inimigos que o acompanham e o aviso da Pedra do Desespero de que esta luta mataria você."
       },
       "risen": {
         "caption": "Um caçador caído numa partida passada vaga pela estrada com seu ouro.",
         "alt": "No mapa, um caçador reerguido de uma partida anterior, verde, armado com uma besta e marcado com uma caveira vermelha, ao lado do seu caçador."
       },
-      "legend": {
-        "caption": "Um caçador caído numa partida anterior ocupa o assento de um Senhorio como herege.",
-        "alt": "A carta de um herege, um caçador caído numa partida anterior que ocupa o assento do Senhorio do Campo do Pó, com o que ele carrega, o dízimo de 18 dos seus 60 de ouro e os botões Pagar o dízimo e Lutar."
+      "rival": {
+        "caption": "Entre no placar da semana e o caçador de outro jogador pode esperar num covil como seu rival.",
+        "alt": "A carta de Ash Vey, caçador de outro jogador e Guardião: atributos, os dois itens que ele carrega, os espólios por vencê-lo, uma nota de que ele vem do placar da semana online e os botões Lutar e Recuar."
+      },
+      "board": {
+        "caption": "O servidor confere cada partida e depois a classifica na sua cidade, região ou país.",
+        "alt": "O placar da semana de Toronto, ON, CA: dez caçadores com classe e pontuação, sua melhor marca, 2140, em 4º lugar, e os botões Mudar local, Transferir, Apagar meus dados e Voltar."
+      },
+      "camp": {
+        "caption": "Na casa, monte seu caçador e escolha os votos e o ouro que você leva.",
+        "alt": "A casa: a criação do caçador com sexo, pele, olhos, cabelo e traje, o bônus Revide e a Clava de Ferro, o pote das famílias de itens, os votos e o ouro a levar."
       },
       "shop": {
         "caption": "A loja mostra na hora o que muda nos seus atributos ao trocar um item.",
         "alt": "A loja com quatro itens para comprar ou banir, e uma comparação do item novo com a sua build."
       },
-      "camp": {
-        "caption": "Na casa, monte seu caçador e escolha os votos e o ouro que você leva.",
-        "alt": "A tela da casa com a criação do caçador, as famílias de itens, os votos e o controle do ouro que você leva."
-      },
-      "group": {
-        "caption": "Bandos atacam em fila, sem cura entre uma luta e outra.",
-        "alt": "Uma luta contra um grupo de inimigos no Bosque dos Enforcados, com forcas e árvores mortas."
-      },
-      "cashout": {
-        "caption": "Depois do Senhorio, guarde o lucro no banco ou dobre a aposta na semana 2.",
-        "alt": "Depois de um Senhorio: a escolha entre voltar para casa com a bolsa ou levá-la para a semana 2, com a carta do próximo Senhorio."
-      },
       "build": {
         "caption": "Junte 2, 4 ou 6 itens da mesma família para ativar bônus de conjunto.",
         "alt": "A ficha de build de um caçador com atributos, equipamento, cinto, habilidades e os conjuntos de família Fornalha, Ferro, Forca e Peste."
+      },
+      "a11y": {
+        "caption": "Paletas para a visão de cores, marcas de forma em cada pista de cor e controle por voz.",
+        "alt": "As opções de Acessibilidade: paleta, marcas de forma, controle por voz, idioma da voz e quanto tempo o texto fica na tela, ao lado de um quadro das cores do jogo para cada tipo de visão de cores."
       },
       "event": {
         "caption": "Eventos de estrada oferecem três escolhas, e algumas custam ouro ou somam Pavor.",
@@ -101,14 +101,14 @@
       "Todo personagem fala, um narrador comenta a partida e cada região tem o próprio som, de dia e de noite.",
       "Paletas para daltonismo, marcas de forma, controle por voz no Android e um diagrama para cada opção.",
       "Um herbário, um bestiário e 16 conquistas no Diário.",
-      "Caçadores, monstros, equipamentos e efeitos desenhados em arte vetorial no Android.",
+      "Caçadores, monstros, equipamentos e efeitos desenhados em arte vetorial.",
       "Mouse, teclado, controle e toque, em tela cheia em celulares, tablets e PCs.",
       "Traduzido para 14 idiomas e dublado em português (Brasil)."
     ]
   },
   "demo": {
     "title": "Baixe a demo",
-    "intro": "Uma demo gratuita para Windows, macOS e Linux, e também no Android. Ela tem a partida inteira, com menos escolhas ao montar seu caçador, e os cômodos da casa ficam fechados. A demo de computador ainda usa a pixel art anterior do jogo; os apps Android têm a arte vetorial.",
+    "intro": "Uma demo gratuita para Windows, macOS e Linux, e também no Android. Ela tem a partida inteira, com menos escolhas ao montar seu caçador, e os cômodos da casa ficam fechados.",
     "version": "Versão {version}.",
     "includesTitle": "O que a demo inclui",
     "includes": [
@@ -201,21 +201,21 @@
     "contact": "Contato",
     "social": "Redes sociais",
     "descriptionTitle": "Descrição",
-    "description": "Dawnbringer é um auto-battler roguelike de fantasia sombria. O sol apagou, o ouro é o único calor que resta e toda semana um Senhorio vem cobrar o aluguel. O jogador explora um mapa em turnos, escolhe lutas e monta seu caçador: ele o cria antes de cada partida e o desenvolve com uma classe em duas etapas, uma árvore de habilidades com habilidades ativas, pontos de atributo e 105 itens em 10 famílias, equipados por slot, reaquecidos na forja e encaixados com cartas de monstro. Como o combate é automático e não usa sorte, e cada inimigo carrega itens visíveis, o jogador julga cada luta na estrada lendo o equipamento do inimigo contra a própria build; a Pedra do Desespero só avisa quando uma luta mataria o herói. Contra o Senhorio ela fica em silêncio, e é preciso escolher entre pagar o dízimo ou lutar. Antes de sair do acampamento, você aposta ouro do cofre, e após cada semana decide se guarda o lucro ou arrisca a bolsa na semana seguinte. Entre uma partida e outra, você gasta o cofre nos cômodos de uma casa; cada cômodo traz alguém que ensina um bônus ou uma classe, faz uma arma, abre uma família de itens ou dá uma bolsa maior. Caçadores mortos voltam como inimigos no mapa em partidas futuras, e um deles pode assumir o assento de um Senhorio como herege. Toda semana o desafio é a mesma partida para todos os jogadores, e um placar online a classifica por cidade, região ou país; quem entra pode encontrar o caçador de outro jogador como rival num covil, e dois heróis podem duelar por código ou no mesmo aparelho. No Android, caçadores, monstros, equipamentos e efeitos são desenhados em arte vetorial. Todo personagem fala com voz sintética, um narrador comenta a partida e o jogo é dublado em português (Brasil). As opções incluem paletas para daltonismo, marcas de forma e controle por voz no Android.",
+    "description": "Dawnbringer é um auto-battler roguelike de fantasia sombria. O sol se partiu e o mundo congelou, as lascas que caíram viraram dinheiro, e toda semana um Senhorio vem cobrar. Os jogadores cruzam um mapa em turnos, escolhem lutas e montam um caçador: criado antes de cada partida e depois desenvolvido com uma classe em duas etapas, uma árvore de habilidades com habilidades ativas, pontos de atributo e 105 itens em 10 famílias, equipados por slot, reaquecidos na forja e encaixados com cartas de monstro. O combate se resolve sozinho, sem dados, e o jogo nunca mostra como uma luta vai terminar: cada inimigo carrega itens visíveis, então o jogador julga cada luta lendo o equipamento dele contra a própria build, e a Pedra do Desespero só escurece quando uma luta mataria o herói. Contra o Senhorio ela fica em silêncio, e o jogador precisa pagar o dízimo ou lutar. Antes de cada partida, o jogador aposta ouro do cofre, e depois de cada semana guarda a bolsa no cofre ou a arrisca numa semana mais difícil. Entre as partidas, o jogador gasta o cofre nos cômodos de uma casa; cada cômodo traz alguém que ensina um bônus ou uma classe, faz uma arma, abre uma família de itens ou dá uma bolsa maior. Caçadores caídos se reerguem e caçam o jogador em partidas futuras, e um deles pode tomar o assento de um Senhorio como herege. Toda semana uma partida de desafio é a mesma para todos os jogadores, e um placar online a classifica por cidade, região ou país; quem entra pode encontrar o caçador de outro jogador como rival num covil, e dois heróis podem duelar por código ou no mesmo aparelho. Caçadores, monstros, equipamentos e efeitos são desenhados em arte vetorial. Todo personagem fala com voz sintética, um narrador comenta a partida e o jogo é dublado em português (Brasil). As opções incluem paletas para daltonismo, marcas de forma e controle por voz no Android.",
     "mediaTitle": "Logo, arte principal e capturas de tela",
     "zip": "Baixar tudo (.zip, {size})",
     "logo": "Logo (PNG, transparente)",
     "icon": "Ícone (PNG, 512x512)",
     "keyart": "Arte principal (PNG, 1920x1080)",
     "keyartNoLogo": "Arte principal sem logo (PNG, 1920x1080)",
-    "screensNote": "As capturas de tela são PNG em 1920x1080 da versão Android, com a arte vetorial dela.",
+    "screensNote": "As capturas de tela são PNG em 1920x1080 da arte vetorial do jogo.",
     "creditsTitle": "Créditos",
     "credits": [
       "Design, código e arte: gmunaro",
       "Música: Juhani Junkala (CC0); a trilha noturna do Senhorio é original, tocada com amostras do VSCO 2 Community Edition (CC0)",
       "Efeitos sonoros: Kenney, StarNinjas, Oiboo (CC0) e sons originais",
       "Sons ambiente: gravações de campo do freesound.org (CC0)",
-      "Vozes: fala sintética do ElevenLabs v4 e Google Gemini TTS para o narrador; nenhuma voz humana foi gravada ou clonada",
+      "Vozes: fala sintética do ElevenLabs v4, e do Google Gemini TTS para o narrador; nenhuma voz humana foi gravada ou clonada",
       "Fontes: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel e GNU Unifont (SIL Open Font License 1.1)"
     ],
     "contactTitle": "Contato",
@@ -264,8 +264,8 @@
   "whatsnew": {
     "title": "Novidades na 0.8",
     "items": [
-      "No Android, caçadores, monstros, equipamentos e efeitos são desenhados em arte vetorial, nítida em qualquer tela.",
-      "Um desafio da semana: a mesma partida para todo caçador. Entre no placar online para comparar com jogadores da sua cidade, região ou país (você escolhe que local compartilhar), e o caçador de outro jogador pode esperar num covil como seu rival.",
+      "Caçadores, monstros, Senhorios, equipamentos e efeitos são desenhados em arte vetorial, nítida em qualquer tela.",
+      "Um desafio da semana: a mesma partida para todo caçador. Entre no placar online para comparar sua partida com a de jogadores da sua cidade, região ou país (você escolhe que local compartilhar), e o caçador de outro jogador pode esperar num covil como seu rival.",
       "Duelos: mande o código de um herói a um amigo, ou escolha dois heróis salvos e lute no mesmo aparelho.",
       "Seu caçador fala com uma voz do sexo que você escolher, um narrador comenta a partida e, em português (Brasil), os personagens falam português.",
       "Acessibilidade: paletas para protanopia, deuteranopia e tritanopia, marcas de forma nas pistas de cor, controle por voz no Android e um diagrama que explica cada opção.",

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer : auto-battler roguelike de dark fantasy",
-    "description": "Un auto-battler roguelike de dark fantasy : composez un chasseur, lisez l'attirail de chaque ennemi, puis payez la dîme au Seigneur ou combattez.",
+    "description": "Un auto-battler roguelike de dark fantasy : composez un chasseur, lisez l'attirail de chaque ennemi, puis payez le Seigneur ou combattez.",
     "pressTitle": "Dossier de presse de Dawnbringer",
     "pressDescription": "Fiche technique, description, points forts, logo, illustration principale et captures d'écran de Dawnbringer, un auto-battler roguelike de gmunaro.",
     "notFoundTitle": "Page introuvable",
@@ -24,7 +24,7 @@
     "language": "Langue"
   },
   "hero": {
-    "pitch": "Un auto-battler roguelike de dark fantasy : composez un chasseur, lisez l'attirail de chaque ennemi, puis payez la dîme au Seigneur ou combattez.",
+    "pitch": "Un auto-battler roguelike de dark fantasy : composez un chasseur, lisez l'attirail de chaque ennemi, puis payez le Seigneur ou combattez.",
     "artAlt": "Un petit chasseur sur une colline fait face à un Seigneur géant et couronné qui surgit des collines sombres sous une lune rouge sang.",
     "clipTitle": "Gameplay",
     "clipAlt": "Extrait de jeu : un héros en attirail complet combat tout seul un groupe de monstres.",
@@ -35,12 +35,12 @@
   "screens": {
     "items": {
       "night": {
-        "caption": "Plus que deux pas avant que le Seigneur vous rattrape.",
-        "alt": "La carte de nuit, teintée de rouge. Le Roi Creux se tient près du héros et l'horloge indique : Le Seigneur vient réclamer son dû, 2 pas."
+        "caption": "Nuit dans le Bois des Pendus : le brouillard cache la route et ce qui y attend.",
+        "alt": "La carte du Bois des Pendus de nuit : le chasseur sur un sentier forestier, un monstre devant lui, des combats signalés et un coffre au bord du chemin, avec sur les bords la vie, l'or, le Seigneur de la semaine, la carte de la région et la ceinture."
       },
       "landlord": {
         "caption": "Payez la dîme avec votre bourse ou battez-vous pour la prime.",
-        "alt": "La carte du Roi Creux : ses stats, sa capacité Couronne Creuse, la dîme de 18 or et les boutons Payer la dîme et Combattre."
+        "alt": "La carte du Dévoreur de Vergers : le Seigneur du Champ de Poussière, avec ses stats, sa capacité Croûte de givre, ce qu'il porte, la dîme de 18 sur vos 60 or et les boutons Payer la dîme et Combattre."
       },
       "battle": {
         "caption": "Le combat est automatique ; votre préparation fait la différence.",
@@ -48,35 +48,35 @@
       },
       "stone": {
         "caption": "La Pierre du Désespoir s'assombrit devant un combat qui vous tuerait.",
-        "alt": "L'écran d'avant-combat d'un ennemi, avec ses statistiques et les objets qu'il porte, la marque de la Pierre du Désespoir et l'avertissement Ce combat vous tuerait, ainsi que les boutons Combattre et Reculer."
+        "alt": "Sur la carte, la fiche d'une meute menée par l'Émondeur Calleux : ce qu'il porte, les deux ennemis qui l'accompagnent et l'avertissement de la Pierre du Désespoir : ce combat vous tuerait."
       },
       "risen": {
         "caption": "Un chasseur tombé lors d'une partie passée rôde sur la route avec son or.",
         "alt": "Sur la carte, un chasseur relevé d'une partie précédente, vert, armé d'une arbalète et marqué d'un crâne rouge, à côté de votre chasseur."
       },
-      "legend": {
-        "caption": "Un chasseur tombé lors d'une partie précédente occupe le siège d'un Seigneur en hérétique.",
-        "alt": "La carte d'un hérétique, un chasseur tombé lors d'une partie précédente qui occupe le siège du Seigneur du Champ de Poussière, avec ce qu'il porte, une dîme de 18 sur vos 60 or et les boutons Payer la dîme et Combattre."
+      "rival": {
+        "caption": "Rejoignez le classement hebdo et le chasseur d'un autre joueur peut vous attendre dans une tanière comme rival.",
+        "alt": "La carte d'Ash Vey, le chasseur d'un autre joueur et un Gardien : ses stats, les deux objets qu'il porte, le butin pour le vaincre, une note indiquant qu'il vient du classement hebdo en ligne, et les boutons Combattre et Reculer."
+      },
+      "board": {
+        "caption": "Le serveur vérifie chaque partie, puis la classe dans votre ville, votre région ou votre pays.",
+        "alt": "Le classement hebdo de Toronto, ON, CA : dix chasseurs avec leur classe et leur score, votre meilleur score de 2140 à la 4e place, et les boutons Changer de lieu, Code de transfert, Supprimer mes données et Retour."
+      },
+      "camp": {
+        "caption": "Dans la maison, formez votre chasseur, choisissez vos vœux et l'or que vous emportez.",
+        "alt": "La maison : la création du chasseur avec sexe, peau, yeux, cheveux et tenue, le bonus Riposte et la Massue de Fer, le bocal des familles d'objets, les vœux et l'or à emporter."
       },
       "shop": {
         "caption": "La boutique affiche les changements exacts de stats avant de remplacer un objet.",
         "alt": "La boutique avec quatre objets à acheter ou bannir, et une comparaison du nouvel objet avec votre attirail."
       },
-      "camp": {
-        "caption": "Dans la maison, formez votre chasseur, choisissez vos vœux et l'or que vous emportez.",
-        "alt": "L'écran de la maison avec la création du chasseur, les familles d'objets, les vœux et le curseur de l'or emporté."
-      },
-      "group": {
-        "caption": "Les meutes attaquent à la suite, sans soin entre les combats.",
-        "alt": "Un combat contre un groupe d'ennemis dans le Bois des Pendus, avec gibets et arbres morts."
-      },
-      "cashout": {
-        "caption": "Après un Seigneur, mettez vos gains à la banque ou emportez la bourse en semaine 2.",
-        "alt": "Après un Seigneur : le choix de rentrer avec la bourse ou de l'emporter en semaine 2, avec la carte du Seigneur suivant."
-      },
       "build": {
         "caption": "Réunissez 2, 4 ou 6 objets d'une même famille pour activer les bonus d'ensemble.",
         "alt": "L'attirail d'un chasseur avec ses stats, son équipement, sa ceinture, ses compétences et les ensembles des familles Fournaise, Fer, Gibet et Peste."
+      },
+      "a11y": {
+        "caption": "Des palettes pour la vision des couleurs, des repères de forme sur chaque indice de couleur et la commande vocale.",
+        "alt": "Les options d'Accessibilité : palette, repères de forme, commande vocale, langue de la voix et durée d'affichage du texte, à côté d'un tableau des couleurs du jeu pour chaque type de vision des couleurs."
       },
       "event": {
         "caption": "Les événements de route offrent trois choix, et certains coûtent de l'or ou ajoutent de l'Effroi.",
@@ -101,14 +101,14 @@
       "Chaque personnage parle, un narrateur commente la partie, et chaque région a son propre son, de jour comme de nuit.",
       "Palettes pour daltoniens, repères de forme, commande vocale sur Android et un schéma pour chaque option.",
       "Un herbier, un bestiaire et 16 succès dans le Journal.",
-      "Chasseurs, monstres, équipement et effets dessinés en art vectoriel sur Android.",
+      "Chasseurs, monstres, équipement et effets dessinés en art vectoriel.",
       "Souris, clavier, manette et tactile, en plein écran sur téléphones, tablettes et PC.",
       "Traduit en 14 langues, et doublé en portugais (Brésil)."
     ]
   },
   "demo": {
     "title": "Télécharger la démo",
-    "intro": "Une démo gratuite pour Windows, macOS et Linux, et aussi sur Android. Elle contient la partie entière, avec moins de choix pour former votre chasseur, et les pièces de la maison restent fermées. La démo pour ordinateur utilise encore le pixel art précédent du jeu ; les applis Android ont l'art vectoriel.",
+    "intro": "Une démo gratuite pour Windows, macOS et Linux, et aussi sur Android. Elle contient la partie entière, avec moins de choix pour former votre chasseur, et les pièces de la maison restent fermées.",
     "version": "Version {version}.",
     "includesTitle": "Contenu de la démo",
     "includes": [
@@ -201,14 +201,14 @@
     "contact": "Contact",
     "social": "Réseaux sociaux",
     "descriptionTitle": "Description",
-    "description": "Dawnbringer est un auto-battler roguelike de dark fantasy. Le soleil est mort, l'or est la seule chaleur qui reste et chaque semaine un Seigneur vient percevoir le loyer. Le joueur explore une carte au tour par tour, choisit ses combats et forme un chasseur : il le crée avant chaque partie, puis le fait grandir avec une classe en deux étapes, un arbre de compétences avec des compétences actives, des points d'attribut et 105 objets répartis en 10 familles, portés par emplacement, réchauffés à la forge et sertis de cartes de monstre. Comme les combats se résolvent automatiquement sans hasard et que chaque ennemi porte des objets visibles, les joueurs jugent chaque combat sur la route en lisant son équipement face à leur build ; une Pierre du Désespoir ne prévient que lorsqu'un combat tuerait le héros. Face au Seigneur, elle reste muette, et il faut payer la dîme ou combattre. Avant chaque partie, vous misez de l'or de votre banque, et après chaque semaine vous choisissez d'encaisser votre bourse ou de la remettre en jeu dans une semaine plus rude. Entre deux parties, vous dépensez la banque dans les pièces d'une maison ; chaque pièce amène quelqu'un qui enseigne un bonus ou une classe, forge une arme, ouvre une famille d'objets ou offre une bourse plus grande. Les chasseurs tombés errent sur la carte lors des parties suivantes, et l'un d'eux peut prendre le siège d'un Seigneur en hérétique. Chaque semaine, le défi est une même partie pour tous les joueurs, et un classement en ligne la classe par ville, région ou pays ; les joueurs qui le rejoignent peuvent croiser le chasseur d'un autre joueur comme rival dans une tanière, et deux héros peuvent s'affronter en duel par code ou sur un même appareil. Sur Android, les chasseurs, monstres, équipements et effets sont dessinés en art vectoriel. Chaque personnage parle avec une voix synthétique, un narrateur commente la partie, et le jeu est doublé en portugais (Brésil). Les options comprennent des palettes pour daltoniens, des repères de forme et la commande vocale sur Android.",
+    "description": "Dawnbringer est un auto-battler roguelike de dark fantasy. Le soleil s'est brisé et le monde a gelé, les éclats tombés sont devenus de l'argent, et chaque semaine un Seigneur vient réclamer son dû. Les joueurs traversent une carte au tour par tour, choisissent leurs combats et forment un chasseur : créé avant chaque partie, puis développé avec une classe en deux étapes, un arbre de compétences avec des compétences actives, des points d'attribut et 105 objets répartis en 10 familles, portés par emplacement, réchauffés à la forge et sertis de cartes de monstre. Les combats se résolvent automatiquement, sans dés, et le jeu ne montre jamais comment un combat finira : chaque ennemi porte des objets visibles, alors les joueurs jugent chaque combat en lisant son équipement face à leur build, et une Pierre du Désespoir ne s'assombrit que lorsqu'un combat tuerait le héros. Face au Seigneur, elle reste muette, et le joueur doit payer la dîme ou combattre. Avant chaque partie, les joueurs misent de l'or de leur banque, et après chaque semaine ils encaissent leur bourse ou la risquent dans une semaine plus rude. Entre deux parties, ils dépensent la banque dans les pièces d'une maison ; chaque pièce amène quelqu'un qui enseigne un bonus ou une classe, forge une arme, ouvre une famille d'objets ou offre une bourse plus grande. Les chasseurs tombés se relèvent et traquent le joueur dans les parties suivantes, et l'un d'eux peut prendre le siège d'un Seigneur en hérétique. Chaque semaine, une partie de défi est la même pour tous les joueurs, et un classement en ligne la range par ville, région ou pays ; les joueurs qui le rejoignent peuvent croiser le chasseur d'un autre joueur comme rival dans une tanière, et deux héros peuvent s'affronter en duel par code ou sur un même appareil. Les chasseurs, monstres, équipements et effets sont dessinés en art vectoriel. Chaque personnage parle avec une voix synthétique, un narrateur commente la partie, et le jeu est doublé en portugais (Brésil). Les options comprennent des palettes pour daltoniens, des repères de forme et la commande vocale sur Android.",
     "mediaTitle": "Logo, illustration principale et captures",
     "zip": "Tout télécharger (.zip, {size})",
     "logo": "Logo (PNG, transparent)",
     "icon": "Icône (PNG, 512x512)",
     "keyart": "Illustration principale (PNG, 1920x1080)",
     "keyartNoLogo": "Illustration principale sans logo (PNG, 1920x1080)",
-    "screensNote": "Les captures d'écran sont des PNG en 1920x1080 de la version Android, avec son art vectoriel.",
+    "screensNote": "Les captures d'écran sont des PNG en 1920x1080 de l'art vectoriel du jeu.",
     "creditsTitle": "Crédits",
     "credits": [
       "Conception, code et graphismes : gmunaro",
@@ -264,7 +264,7 @@
   "whatsnew": {
     "title": "Nouveautés de la 0.8",
     "items": [
-      "Sur Android, chasseurs, monstres, équipement et effets sont dessinés en art vectoriel, net sur tout écran.",
+      "Chasseurs, monstres, Seigneurs, équipement et effets sont dessinés en art vectoriel, net sur tout écran.",
       "Un défi de la semaine : la même partie pour tous les chasseurs. Rejoignez le classement en ligne pour vous comparer aux joueurs de votre ville, région ou pays (vous choisissez le lieu à partager), et le chasseur d'un autre joueur peut vous attendre dans une tanière comme rival.",
       "Des duels : envoyez le code d'un héros à un ami, ou choisissez deux héros enregistrés et combattez sur un même appareil.",
       "Votre chasseur parle avec une voix du sexe que vous choisissez, un narrateur commente la partie et, en portugais (Brésil), les personnages parlent portugais.",

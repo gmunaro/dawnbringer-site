@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: Dark-Fantasy-Roguelike-Autobattler",
-    "description": "Ein Dark-Fantasy-Roguelike-Autobattler. Baue einen Jäger, lies die Ausrüstung jedes Gegners und zahle dann dem Hausherrn den Zehnt oder kämpfe.",
+    "description": "Ein Dark-Fantasy-Roguelike-Autobattler. Baue einen Jäger, lies die Ausrüstung jedes Gegners und bezahle dann den Hausherrn oder kämpfe.",
     "pressTitle": "Dawnbringer-Pressekit",
     "pressDescription": "Datenblatt, Beschreibung, Features, Logo, Key Art und Screenshots von Dawnbringer, einem Roguelike-Autobattler von gmunaro.",
     "notFoundTitle": "Seite nicht gefunden",
@@ -24,7 +24,7 @@
     "language": "Sprache"
   },
   "hero": {
-    "pitch": "Ein Dark-Fantasy-Roguelike-Autobattler: Baue einen Jäger, lies die Ausrüstung jedes Gegners und zahle dann dem Hausherrn den Zehnt oder kämpfe.",
+    "pitch": "Ein Dark-Fantasy-Roguelike-Autobattler: Baue einen Jäger, lies die Ausrüstung jedes Gegners und bezahle dann den Hausherrn oder kämpfe.",
     "artAlt": "Ein kleiner Jäger auf einem Hügel steht einem riesigen gekrönten Hausherrn gegenüber, der sich unter einem blutroten Mond aus den dunklen Hügeln erhebt.",
     "clipTitle": "Gameplay",
     "clipAlt": "Gameplay-Clip: Ein Held in voller Ausrüstung kämpft allein gegen eine Gruppe Monster.",
@@ -35,12 +35,12 @@
   "screens": {
     "items": {
       "night": {
-        "caption": "Noch zwei Schritte, bis der Hausherr dich einholt.",
-        "alt": "Die Karte bei Nacht, rot getönt. Der Hohle König steht neben dem Helden, und die Uhr zeigt: Der Hausherr kommt zum Kassieren, 2 Schritte."
+        "caption": "Nacht im Hängenden Wald: Der Nebel verbirgt die Straße und das, was auf ihr wartet.",
+        "alt": "Die Karte des Hängenden Waldes bei Nacht: der Jäger auf einem Waldweg, vor ihm ein Monster, neben dem Weg markierte Kämpfe und eine Truhe, an den Rändern Lebenspunkte, Gold, der Hausherr der Woche, die Regionskarte und der Gürtel."
       },
       "landlord": {
         "caption": "Zahl den Zehnt aus deiner Börse oder kämpfe um das Kopfgeld.",
-        "alt": "Die Karte des Hohlen Königs: seine Werte, seine Fähigkeit Hohle Krone, der Zehnt von 18 Gold und die Knöpfe Zehnt zahlen und Kämpfen."
+        "alt": "Die Karte des Obstgartenfressers: der Hausherr des Staubfelds mit seinen Werten, seiner Fähigkeit Reifkruste, dem, was er trägt, dem Zehnt von 18 deiner 60 Gold und den Knöpfen Zehnt zahlen und Kämpfen."
       },
       "battle": {
         "caption": "Der Kampf läuft automatisch; deine Vorbereitung entscheidet.",
@@ -48,35 +48,35 @@
       },
       "stone": {
         "caption": "Der Verzweiflungsstein verdunkelt sich über einem Kampf, der dich töten würde.",
-        "alt": "Der Kampfbildschirm eines Feindes mit Werten und den Gegenständen, die er trägt, dem Zeichen des Verzweiflungssteins und der Warnung Dieser Kampf würde dich töten, dazu die Knöpfe Kämpfen und Zurückweichen."
+        "alt": "Auf der Weltkarte die Karte eines Rudels, angeführt vom Schwieligen Beschneider: was er trägt, die zwei Gegner bei ihm und die Warnung des Verzweiflungssteins, dass dieser Kampf dich töten würde."
       },
       "risen": {
         "caption": "Ein gefallener Jäger aus einem früheren Lauf streift mit seinem Gold über die Straße.",
         "alt": "Auf der Karte ein auferstandener Jäger aus einem früheren Lauf, grün, mit Armbrust und einem roten Totenkopf darüber, neben deinem Jäger."
       },
-      "legend": {
-        "caption": "Ein gefallener Jäger aus einem früheren Lauf sitzt als Ketzer auf dem Platz eines Hausherrn.",
-        "alt": "Die Karte eines Ketzers, eines gefallenen Jägers aus einem früheren Lauf, der den Platz des Hausherrn im Staubfeld hält, mit seiner Ausrüstung, einem Zehnt von 18 deiner 60 Gold und den Knöpfen Zehnt zahlen und Kämpfen."
+      "rival": {
+        "caption": "Tritt der Wochen-Bestenliste bei, und der Jäger eines anderen Spielers kann als dein Rivale in einer Höhle warten.",
+        "alt": "Die Karte von Ash Vey, dem Jäger eines anderen Spielers und einem Wächter: seine Werte, die zwei Gegenstände, die er trägt, die Beute für einen Sieg über ihn, ein Hinweis, dass er aus der Online-Wochen-Bestenliste kommt, und die Knöpfe Kämpfen und Zurückweichen."
+      },
+      "board": {
+        "caption": "Der Server prüft jeden Lauf und reiht ihn dann in deiner Stadt, deiner Region oder deinem Land ein.",
+        "alt": "Die Wochen-Bestenliste für Toronto, ON, CA: zehn Jäger mit Klasse und Punktzahl, dein Bestwert von 2140 auf Platz 4 und die Knöpfe Ort ändern, Transfercode, Meine Daten löschen und Zurück."
+      },
+      "camp": {
+        "caption": "Baue im Haus deinen Jäger und wähle Gelübde und das Gold, das du mitnimmst.",
+        "alt": "Das Haus: die Jägererstellung mit Geschlecht, Haut, Augen, Haar und Kleidung, der Bonus Riposte und die Eisenkeule, das Glas mit den Gegenstandsfamilien, die Gelübde und das mitgenommene Gold."
       },
       "shop": {
         "caption": "Der Laden zeigt dir vor dem Tausch genau, wie sich deine Werte ändern.",
         "alt": "Der Laden mit vier Gegenständen zum Kaufen oder Verbannen und einem Vergleich des neuen Gegenstands mit deinem Build."
       },
-      "camp": {
-        "caption": "Baue im Haus deinen Jäger und wähle Gelübde und das Gold, das du mitnimmst.",
-        "alt": "Der Bildschirm des Hauses mit der Jägererstellung, den Gegenstandsfamilien, den Gelübden und dem Regler für das mitgenommene Gold."
-      },
-      "group": {
-        "caption": "Rudel greifen nacheinander an, ohne Heilung zwischen den Kämpfen.",
-        "alt": "Ein Kampf gegen eine Gruppe von Gegnern im Hängenden Wald, mit Galgen und toten Bäumen."
-      },
-      "cashout": {
-        "caption": "Nach einem Hausherrn kannst du deinen Gewinn sichern oder die Börse mit in Woche 2 nehmen.",
-        "alt": "Nach einem Hausherrn: die Wahl, mit der Börse nach Hause zu gehen oder sie in Woche 2 mitzunehmen, daneben die Karte des nächsten Hausherrn."
-      },
       "build": {
         "caption": "Kombiniere 2, 4 oder 6 Gegenstände derselben Familie, um Set-Boni freizuschalten.",
         "alt": "Das Build-Blatt eines Jägers mit Werten, Ausrüstung, Gürtel, Fertigkeiten und den Familiensets Glutofen, Eisen, Galgen und Pest."
+      },
+      "a11y": {
+        "caption": "Paletten für das Farbsehen, Formmarken an jedem Farbhinweis und Sprachsteuerung.",
+        "alt": "Die Optionen zur Barrierefreiheit: Palette, Formmarken, Sprachsteuerung, Sprache der Stimme und wie lange Text sichtbar bleibt, neben einer Tafel mit den Farben des Spiels für jede Art des Farbsehens."
       },
       "event": {
         "caption": "Straßenereignisse bieten drei Wahlmöglichkeiten, und manche kosten Gold oder fügen Grauen hinzu.",
@@ -97,18 +97,18 @@
       "Deine gefallenen Jäger stehen auf und jagen dich; einer von ihnen kann als Ketzer den Sitz eines Hausherrn einnehmen.",
       "Getrennte Bank und Börse: Setze zu Beginn Gold ein und zahle nach jedem Hausherrn aus.",
       "9 optionale Gelübde, die den Weg grausamer und die Auszahlung größer machen.",
-      "Eine Wochen-Challenge mit Online-Bestenliste, Rivalen anderer Spieler und Duelle mit Freunden.",
+      "Eine Wochen-Challenge mit Online-Bestenliste, Rivalen anderer Spieler und Duellen mit Freunden.",
       "Jede Figur spricht, ein Erzähler kommentiert den Lauf, und jede Region hat ihren eigenen Klang bei Tag und Nacht.",
       "Paletten für Farbenblindheit, Formmarken, Sprachsteuerung auf Android und ein Diagramm für jede Option.",
       "Ein Herbarium, ein Bestiarium und 16 Erfolge im Journal.",
-      "Jäger, Monster, Ausrüstung und Effekte als Vektorgrafik auf Android.",
+      "Jäger, Monster, Ausrüstung und Effekte als Vektorgrafik gezeichnet.",
       "Maus, Tastatur, Controller und Touch, im Vollbild auf Handys, Tablets und PCs.",
       "In 14 Sprachen übersetzt und auf Portugiesisch (Brasilien) vertont."
     ]
   },
   "demo": {
     "title": "Demo herunterladen",
-    "intro": "Eine kostenlose Demo für Windows, macOS und Linux sowie für Android. Sie enthält den ganzen Lauf, mit weniger Auswahl beim Bauen deines Jägers; die Zimmer des Hauses bleiben geschlossen. Die Desktop-Demo nutzt noch die frühere Pixelgrafik des Spiels; die Android-Apps haben die Vektorgrafik.",
+    "intro": "Eine kostenlose Demo für Windows, macOS und Linux sowie für Android. Sie enthält den ganzen Lauf, mit weniger Auswahl beim Bauen deines Jägers; die Zimmer des Hauses bleiben geschlossen.",
     "version": "Version {version}.",
     "includesTitle": "Was die Demo enthält",
     "includes": [
@@ -201,14 +201,14 @@
     "contact": "Kontakt",
     "social": "Soziale Medien",
     "descriptionTitle": "Beschreibung",
-    "description": "Dawnbringer ist ein Dark-Fantasy-Roguelike-Autobattler. Die Sonne ist tot, Gold ist die einzige verbliebene Wärme und jede Woche kommt ein Hausherr, um die Miete einzutreiben. Spieler erkunden eine rundenbasierte Karte, wählen ihre Kämpfe und bauen einen Jäger: Sie erschaffen ihn vor jedem Lauf und entwickeln ihn mit einer Klasse in zwei Stufen, einem Fertigkeitsbaum mit aktiven Fertigkeiten, Attributpunkten und 105 Gegenständen in 10 Familien weiter, die nach Slot getragen, in der Schmiede nachgeglüht und mit Monsterkarten besetzt werden. Da die Kämpfe ohne Zufall automatisch ablaufen und jeder Feind sichtbare Gegenstände trägt, beurteilen Spieler jeden Straßenkampf, indem sie dessen Ausrüstung mit ihrem Build vergleichen; ein Verzweiflungsstein warnt nur, wenn ein Kampf den Helden töten würde. Gegen den Hausherrn schweigt er, und man muss entweder den Zehnt zahlen oder kämpfen. Vor jedem Lauf setzt man Gold aus seiner Bank ein, und nach jeder Woche sichert man entweder seine Börse oder riskiert sie in einer härteren Woche. Zwischen den Läufen gibt man die Bank für die Zimmer eines Hauses aus; jedes Zimmer bringt jemanden mit, der einen Bonus oder eine Klasse lehrt, eine Waffe fertigt, eine Gegenstandsfamilie öffnet oder eine größere Börse bringt. Gefallene Jäger streifen in späteren Läufen über die Karte, und einer von ihnen kann als Ketzer den Sitz eines Hausherrn einnehmen. Jede Woche ist ein Lauf der Wochen-Challenge für alle Spieler gleich, und eine Online-Bestenliste reiht ihn nach Stadt, Region oder Land ein; wer beitritt, kann in einer Höhle dem Jäger eines anderen Spielers als Rivale begegnen, und zwei Helden können per Code oder auf einem Gerät ein Duell austragen. Auf Android sind Jäger, Monster, Ausrüstung und Effekte als Vektorgrafik gezeichnet. Jede Figur spricht mit synthetischer Stimme, ein Erzähler kommentiert den Lauf, und das Spiel ist auf Portugiesisch (Brasilien) vertont. Zu den Optionen gehören Paletten für Farbenblindheit, Formmarken und Sprachsteuerung auf Android.",
+    "description": "Dawnbringer ist ein Dark-Fantasy-Roguelike-Autobattler. Die Sonne zerbrach und die Welt fror ein, die herabgefallenen Splitter wurden zu Geld, und jede Woche kommt ein Hausherr zum Kassieren. Spieler durchqueren eine rundenbasierte Karte, wählen ihre Kämpfe und bauen einen Jäger: vor jedem Lauf erschaffen, dann weiterentwickelt mit einer Klasse in zwei Stufen, einem Fertigkeitsbaum mit aktiven Fertigkeiten, Attributpunkten und 105 Gegenständen in 10 Familien, die nach Slot getragen, in der Schmiede nachgeglüht und mit Monsterkarten besetzt werden. Kämpfe laufen automatisch und ohne Würfel ab, und das Spiel zeigt nie, wie ein Kampf ausgeht: Jeder Gegner trägt sichtbare Gegenstände, also beurteilen Spieler jeden Kampf, indem sie seine Ausrüstung mit ihrem Build vergleichen, und ein Verzweiflungsstein verdunkelt sich nur, wenn ein Kampf den Helden töten würde. Gegen den Hausherrn schweigt er, und der Spieler muss den Zehnt zahlen oder kämpfen. Vor jedem Lauf setzen Spieler Gold aus ihrer Bank ein, und nach jeder Woche sichern sie die Börse oder riskieren sie in einer härteren Woche. Zwischen den Läufen geben Spieler die Bank für die Zimmer eines Hauses aus; jedes Zimmer bringt jemanden, der einen Bonus oder eine Klasse lehrt, eine Waffe fertigt, eine Gegenstandsfamilie öffnet oder eine größere Börse gibt. Gefallene Jäger stehen auf und jagen den Spieler in späteren Läufen, und einer von ihnen kann als Ketzer den Sitz eines Hausherrn einnehmen. Jede Woche ist ein Challenge-Lauf für alle Spieler gleich, und eine Online-Bestenliste ordnet ihn nach Stadt, Region oder Land; wer beitritt, kann dem Jäger eines anderen Spielers als Rivalen in einer Höhle begegnen, und zwei Helden können sich per Code oder auf einem Gerät duellieren. Jäger, Monster, Ausrüstung und Effekte sind als Vektorgrafik gezeichnet. Jede Figur spricht mit synthetischer Stimme, ein Erzähler kommentiert den Lauf, und das Spiel ist auf Portugiesisch (Brasilien) vertont. Zu den Optionen gehören Paletten für Farbenblindheit, Formmarken und Sprachsteuerung auf Android.",
     "mediaTitle": "Logo, Key Art und Screenshots",
     "zip": "Alles herunterladen (.zip, {size})",
     "logo": "Logo (PNG, transparent)",
     "icon": "Icon (PNG, 512x512)",
     "keyart": "Key Art (PNG, 1920x1080)",
     "keyartNoLogo": "Key Art ohne Logo (PNG, 1920x1080)",
-    "screensNote": "Die Screenshots sind PNG in 1920x1080 von der Android-Version, mit ihrer Vektorgrafik.",
+    "screensNote": "Die Screenshots sind PNG in 1920x1080 von der Vektorgrafik des Spiels.",
     "creditsTitle": "Credits",
     "credits": [
       "Design, Code und Grafik: gmunaro",
@@ -264,9 +264,9 @@
   "whatsnew": {
     "title": "Neu in 0.8",
     "items": [
-      "Auf Android sind Jäger, Monster, Ausrüstung und Effekte als Vektorgrafik gezeichnet, scharf auf jedem Bildschirm.",
-      "Eine Wochen-Challenge: derselbe Lauf für jeden Jäger. Tritt der Online-Bestenliste bei und miss dich mit Spielern aus deiner Stadt, Region oder deinem Land (du wählst, welchen Ort du teilst); und der Jäger eines anderen Spielers kann als dein Rivale in einer Höhle warten.",
-      "Duelle: Schicke den Code eines Helden an einen Freund oder wähle zwei gespeicherte Helden und kämpft auf einem Gerät.",
+      "Jäger, Monster, Hausherren, Ausrüstung und Effekte sind als Vektorgrafik gezeichnet, scharf auf jedem Bildschirm.",
+      "Eine Wochen-Challenge: derselbe Lauf für jeden Jäger. Tritt der Online-Bestenliste bei und miss dich mit Spielern aus deiner Stadt, Region oder deinem Land (du wählst, welchen Ort du teilst), und der Jäger eines anderen Spielers kann als dein Rivale in einer Höhle warten.",
+      "Duelle: Schicke den Code eines Helden an einen Freund oder wähle zwei gespeicherte Helden und kämpfe auf einem Gerät.",
       "Dein Jäger spricht mit der Stimme des Geschlechts, das du wählst, ein Erzähler kommentiert den Lauf, und auf Portugiesisch (Brasilien) sprechen die Figuren Portugiesisch.",
       "Barrierefreiheit: Paletten für Protanopie, Deuteranopie und Tritanopie, Formmarken bei Farbhinweisen, Sprachsteuerung auf Android und ein Diagramm, das jede Option erklärt.",
       "Eine kostenlose Demo für Android, in einer eigenen App."

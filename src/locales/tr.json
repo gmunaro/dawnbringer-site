@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: karanlık fantezi roguelike oto-savaş oyunu",
-    "description": "Karanlık fantezi bir roguelike oto-savaş oyunu: bir avcı kur, her düşmanın ekipmanını oku, sonra Ev sahibinin onda birini öde ya da savaş.",
+    "description": "Karanlık fantezi bir roguelike oto-savaş oyunu: bir avcı kur, her düşmanın ekipmanını oku, sonra Ev sahibine öde ya da savaş.",
     "pressTitle": "Dawnbringer basın kiti",
     "pressDescription": "gmunaro'nun roguelike oto-savaş oyunu Dawnbringer için bilgi sayfası, tanıtım, özellikler, logo, ana görsel ve ekran görüntüleri.",
     "notFoundTitle": "Sayfa bulunamadı",
@@ -24,7 +24,7 @@
     "language": "Dil"
   },
   "hero": {
-    "pitch": "Karanlık fantezi bir roguelike oto-savaş oyunu: bir avcı kur, her düşmanın ekipmanını oku, sonra Ev sahibinin onda birini öde ya da savaş.",
+    "pitch": "Karanlık fantezi bir roguelike oto-savaş oyunu: bir avcı kur, her düşmanın ekipmanını oku, sonra Ev sahibine öde ya da savaş.",
     "artAlt": "Tepedeki küçük bir avcı, kan kırmızısı bir ayın altında karanlık tepelerden yükselen dev, taçlı bir Ev sahibiyle yüz yüze.",
     "clipTitle": "Oynanış",
     "clipAlt": "Oynanış videosu: tam ekipmanlı bir kahraman, tek başına bir canavar grubuna karşı savaşıyor.",
@@ -35,12 +35,12 @@
   "screens": {
     "items": {
       "night": {
-        "caption": "Ev sahibinin sana yetişmesine iki adım kaldı.",
-        "alt": "Gece, kırmızıya boyanmış harita. Oyuk Kral kahramanın yanında duruyor ve saatte şu yazıyor: Ev sahibi tahsilata geliyor, 2 adım."
+        "caption": "Asılı Orman'da gece: sis yolu ve yolda bekleyeni gizliyor.",
+        "alt": "Gece Asılı Orman haritası: orman patikasında avcı, önünde bir canavar, patikanın yanında işaretli savaşlar ve bir sandık; kenarlarda can, altın, haftanın Ev sahibi, bölge haritası ve kemer."
       },
       "landlord": {
         "caption": "Kesenden onda biri öde ya da ödül için savaş.",
-        "alt": "Oyuk Kral'ın kartı: nitelikleri, Oyuk Taç yeteneği, 18 altınlık onda bir ve Onda biri öde ile Savaş düğmeleri."
+        "alt": "Meyve Bahçesi Yiyicisi'nin kartı: Toz Ovası'nın Ev sahibi; nitelikleri, Kırağı Kabuğu yeteneği, taşıdıkları, 60 altınından 18'lik onda bir ve Onda biri öde ile Savaş düğmeleri."
       },
       "battle": {
         "caption": "Savaş kendiliğinden işler; sonucu hazırlığın belirler.",
@@ -48,35 +48,35 @@
       },
       "stone": {
         "caption": "Umutsuzluk Taşı, seni öldürecek bir savaşın üstünde kararır.",
-        "alt": "Düşmanın niteliklerini ve taşıdığı eşyaları gösteren savaş öncesi ekranı; üstünde Umutsuzluk Taşı'nın işareti ve Bu savaş seni öldürür uyarısı; altında Savaş ve Geri çekil düğmeleri."
+        "alt": "Haritada, Nasırlı Budayıcı'nın önderlik ettiği bir sürünün kartı: taşıdıkları, yanındaki iki düşman ve Umutsuzluk Taşı'nın bu savaşın seni öldüreceği uyarısı."
       },
       "risen": {
         "caption": "Önceki bir koşuda düşen avcı, altınıyla birlikte yolda dolaşıyor.",
         "alt": "Haritada, avcının yanında duran, önceki bir koşudan dirilmiş yeşil bir avcı; elinde arbalet var, başının üstünde kırmızı bir kuru kafa görünüyor."
       },
-      "legend": {
-        "caption": "Önceki bir koşuda düşen avcı, sapkın olarak bir Ev sahibinin yerinde oturuyor.",
-        "alt": "Bir sapkının kartı: önceki bir koşuda düşmüş, Toz Ovası'nın Ev sahibi yerini tutan avcı; taşıdıkları, 60 altınından 18'lik onda bir ve Onda biri öde ile Savaş düğmeleri."
+      "rival": {
+        "caption": "Haftalık sıralamaya katıl; başka bir oyuncunun avcısı bir inde rakibin olarak bekleyebilir.",
+        "alt": "Başka bir oyuncunun avcısı ve bir Muhafız olan Ash Vey'in kartı: nitelikleri, taşıdığı iki eşya, onu yenmenin ganimeti, çevrim içi haftalık sıralamadan geldiğini belirten bir not ve Savaş ile Geri çekil düğmeleri."
+      },
+      "board": {
+        "caption": "Sunucu her koşuyu denetler, sonra onu şehrinde, bölgende ya da ülkende sıralar.",
+        "alt": "Toronto, ON, CA için haftalık sıralama: sınıfı ve puanıyla on avcı, 4. sırada 2140 ile en iyi skorun ve Yeri değiştir, Aktarım kodu, Verilerimi sil ve Geri düğmeleri."
+      },
+      "camp": {
+        "caption": "Hanede avcını kur, adaklarını ve yanına alacağın altını seç.",
+        "alt": "Hane: cinsiyet, ten, gözler, saç ve kıyafetle avcının oluşturulması, Karşılık bonusu ve Demir Gürz, eşya ailelerinin kavanozu, adaklar ve yanına alınacak altın."
       },
       "shop": {
         "caption": "Dükkân, bir eşyayı değiştirmeden önce niteliklerinin nasıl değişeceğini gösterir.",
         "alt": "Satın almak ya da sürgün etmek için dört eşya sunan dükkân ve yeni eşyanın düzeninle karşılaştırması."
       },
-      "camp": {
-        "caption": "Hanede avcını kur, adaklarını ve yanına alacağın altını seç.",
-        "alt": "Avcının oluşturulması, eşya aileleri, adaklar ve taşınan altın kaydırıcısıyla hane ekranı."
-      },
-      "group": {
-        "caption": "Sürüler arada iyileşme olmadan arka arkaya saldırır.",
-        "alt": "Asılı Orman'da, darağaçları ve ölü ağaçlar arasında bir düşman grubuna karşı savaş."
-      },
-      "cashout": {
-        "caption": "Bir Ev sahibinden sonra kazancını bankaya yatır ya da keseyi 2. haftaya taşı.",
-        "alt": "Bir Ev sahibinden sonra: keseyle eve dönmek ya da onu 2. haftaya taşımak arasında seçim; yanında bir sonraki Ev sahibinin kartı."
-      },
       "build": {
         "caption": "Set bonuslarını açmak için aynı aileden 2, 4 veya 6 eşya birleştir.",
         "alt": "Bir avcının düzen sayfası: nitelikler, ekipman, kemer, yetenekler ve Fırın, Demir, Darağacı ile Veba aile setleri."
+      },
+      "a11y": {
+        "caption": "Renk görüşü için paletler, her renk ipucunda şekil işaretleri ve sesle kontrol.",
+        "alt": "Erişilebilirlik ayarları: palet, şekil işaretleri, sesle kontrol, ses dili ve metnin ekranda ne kadar kaldığı; yanında her renk görüşü türü için oyunun renklerini gösteren bir tablo."
       },
       "event": {
         "caption": "Yol olayları üç seçenek sunar; bazıları altına mal olur ya da Dehşet ekler.",
@@ -101,14 +101,14 @@
       "Her karakter konuşur, bir anlatıcı koşuyu yorumlar ve her bölgenin gündüz ve gece kendi sesi vardır.",
       "Renk körlüğü için paletler, şekil işaretleri, Android'de sesle kontrol ve her ayar için bir şema.",
       "Günlük'te bir herbaryum, bir bestiyari ve 16 başarım.",
-      "Android'de avcılar, canavarlar, donanım ve efektler vektör sanatıyla çizilir.",
+      "Avcılar, canavarlar, donanım ve efektler vektör sanatıyla çizilir.",
       "Fare, klavye, kumanda ve dokunmatik; telefonlarda, tabletlerde ve bilgisayarlarda tam ekran.",
       "14 dile çevrildi ve Brezilya Portekizcesi dublajı var."
     ]
   },
   "demo": {
     "title": "Demoyu indir",
-    "intro": "Windows, macOS ve Linux için ve Android'de ücretsiz bir demo. Koşunun tamamını içerir; avcını kurarken seçenekler daha azdır ve hanenin odaları kapalı kalır. Masaüstü demosu hâlâ oyunun önceki piksel sanatını kullanır; Android uygulamalarında vektör sanatı var.",
+    "intro": "Windows, macOS ve Linux için ve Android'de ücretsiz bir demo. Koşunun tamamını içerir; avcını kurarken seçenekler daha azdır ve hanenin odaları kapalı kalır.",
     "version": "Sürüm {version}.",
     "includesTitle": "Demoda neler var",
     "includes": [
@@ -164,7 +164,7 @@
     "step4Title": "Test kartıyla onayla",
     "step4": "Google Play ödeme ekranını açar. Ödeme yönteminde \"Test card, always approves\" yazdığını ve ekranın bunun bir test siparişi olduğunu söylediğini kontrol et, sonra \"1-tap buy\" düğmesine dokun. Oyun yüklenir ve hiçbir ücret alınmaz.",
     "demoTitle": "Android'de ücretsiz demo",
-    "demoText": "Demo ayrı bir uygulamadır, Dawnbringer Demo, ve ödeme adımı yoktur. 1. adımdan sonra aynı hesapla demonun test sayfasını aç, \"Become a tester\" düğmesine tıkla, sonra Google Play'den yükle.",
+    "demoText": "Demo, Dawnbringer Demo adında ayrı bir uygulamadır ve ödeme adımı yoktur. 1. adımdan sonra aynı hesapla demonun test sayfasını aç, \"Become a tester\" düğmesine tıkla, sonra Google Play'den yükle.",
     "demoTestLink": "Demonun test sayfasını aç",
     "demoInstallLink": "Demoyu yükle"
   },
@@ -201,14 +201,14 @@
     "contact": "İletişim",
     "social": "Sosyal medya",
     "descriptionTitle": "Tanıtım",
-    "description": "Dawnbringer, karanlık fantezi bir roguelike oto-savaş oyunudur. Güneş sönmüştür, geriye kalan tek sıcaklık altındır ve her hafta bir Ev sahibi kirayı toplamaya gelir. Oyuncular sıra tabanlı bir haritayı keşfeder, savaşlarını seçer ve bir avcı kurar: avcıyı her koşudan önce yaratır, ardından iki adımlı bir sınıfla, aktif yetenekleri olan bir yetenek ağacıyla, özellik puanlarıyla ve yuvaya göre giyilen, 10 aileye ayrılmış 105 eşyayla geliştirir; eşyalar tekrar ısıtılır ve canavar kartlarıyla donatılır. Savaşlar şans faktörü olmadan otomatik çözüldüğü ve her düşman görünür eşyalar taşıdığı için oyuncular her yol savaşını düşmanın eşyalarını kendi düzenleriyle karşılaştırarak tartar; Umutsuzluk Taşı yalnızca bir savaşın öldüreceği zaman uyarır. Ev sahibine karşı taş sessiz kalır ve onda biri ödemek ya da savaşmak gerekir. Her koşudan önce bankandan altın ortaya koyar, her haftanın sonunda keseni bankaya çekmek ya da daha zor bir haftada riske atmak arasında seçim yaparsın. Koşular arasında bankayı bir hanenin odalarına harcarsın; her oda, bir bonusu ya da sınıfı öğreten, silah yapan, bir eşya ailesini açan ya da daha büyük bir kese veren birini getirir. Düşen avcılar sonraki koşularda haritada dolaşır ve içlerinden biri sapkın olarak bir Ev sahibinin yerini alabilir. Her hafta bir meydan okuma koşusu her oyuncu için aynıdır ve çevrim içi bir sıralama onu şehre, bölgeye ya da ülkeye göre dizer; katılan oyuncular başka bir oyuncunun avcısıyla bir inde rakip olarak karşılaşabilir, iki kahraman da kodla ya da tek cihazda düello edebilir. Android'de avcılar, canavarlar, donanım ve efektler vektör sanatıyla çizilir. Her karakter sentetik bir sesle konuşur, bir anlatıcı koşuyu yorumlar ve oyun Brezilya Portekizcesi olarak dublajlıdır. Ayarlar arasında renk körlüğü için paletler, şekil işaretleri ve Android'de sesle kontrol var.",
+    "description": "Dawnbringer, karanlık fantezi bir roguelike oto-savaş oyunudur. Güneş kırıldı ve dünya dondu, düşen kıymıklar paraya dönüştü ve her hafta bir Ev sahibi tahsilata gelir. Oyuncular sıra tabanlı bir haritayı geçer, savaşlarını seçer ve bir avcı kurar: avcı her koşudan önce yaratılır, ardından iki adımlı bir sınıfla, aktif yetenekleri olan bir yetenek ağacıyla, özellik puanlarıyla ve yuvaya göre giyilen, dövümhanede yeniden ısıtılan ve canavar kartlarıyla donatılan, 10 aileye ayrılmış 105 eşyayla geliştirilir. Savaş zar olmadan otomatik çözülür ve oyun bir savaşın nasıl biteceğini asla göstermez: her düşman görünür eşyalar taşır, bu yüzden oyuncular her savaşı onun ekipmanını kendi düzenleriyle karşılaştırarak tartar ve Umutsuzluk Taşı yalnızca bir savaş kahramanı öldürecekse kararır. Ev sahibine karşı taş sessiz kalır ve oyuncu onda biri ödemek ya da savaşmak zorundadır. Her koşudan önce oyuncular bankalarından altın ortaya koyar, her haftanın sonunda da keseyi bankaya çeker ya da daha zor bir haftada riske atar. Koşular arasında oyuncular bankayı bir hanenin odalarına harcar; her oda, bir bonusu ya da sınıfı öğreten, silah yapan, bir eşya ailesini açan ya da daha büyük bir kese veren birini getirir. Düşen avcılar dirilir ve sonraki koşularda oyuncuyu avlar; içlerinden biri sapkın olarak bir Ev sahibinin yerini alabilir. Her hafta bir meydan okuma koşusu her oyuncu için aynıdır ve çevrim içi bir sıralama onu şehre, bölgeye ya da ülkeye göre dizer; katılan oyuncular bir inde başka bir oyuncunun avcısıyla rakip olarak karşılaşabilir, iki kahraman da kodla ya da tek cihazda düello edebilir. Avcılar, canavarlar, donanım ve efektler vektör sanatıyla çizilir. Her karakter sentetik bir sesle konuşur, bir anlatıcı koşuyu yorumlar ve oyunun Brezilya Portekizcesi dublajı vardır. Ayarlar arasında renk körlüğü için paletler, şekil işaretleri ve Android'de sesle kontrol var.",
     "mediaTitle": "Logo, ana görsel ve ekran görüntüleri",
     "zip": "Hepsini indir (.zip, {size})",
     "logo": "Logo (PNG, şeffaf)",
     "icon": "Simge (PNG, 512x512)",
     "keyart": "Ana görsel (PNG, 1920x1080)",
     "keyartNoLogo": "Logosuz ana görsel (PNG, 1920x1080)",
-    "screensNote": "Ekran görüntüleri, vektör sanatıyla Android sürümünün 1920x1080 PNG'leridir.",
+    "screensNote": "Ekran görüntüleri, oyunun vektör sanatından 1920x1080 PNG'lerdir.",
     "creditsTitle": "Emeği geçenler",
     "credits": [
       "Tasarım, kod ve sanat: gmunaro",
@@ -264,7 +264,7 @@
   "whatsnew": {
     "title": "0.8'deki yenilikler",
     "items": [
-      "Android'de avcılar, canavarlar, donanım ve efektler vektör sanatıyla çizilir; her ekranda net.",
+      "Avcılar, canavarlar, Ev sahipleri, donanım ve efektler vektör sanatıyla çizilir; her ekranda net.",
       "Haftalık meydan okuma: her avcı için aynı koşu. Çevrim içi sıralamaya katıl ve şehrindeki, bölgendeki ya da ülkendeki oyuncularla yarış (hangi yeri paylaşacağını sen seçersin); başka bir oyuncunun avcısı bir inde rakibin olarak bekleyebilir.",
       "Düellolar: bir kahramanın kodunu bir arkadaşına gönder ya da kayıtlı iki kahraman seç ve tek cihazda dövüş.",
       "Avcın seçtiğin cinsiyette bir sesle konuşur, bir anlatıcı koşuyu yorumlar ve Brezilya Portekizcesinde karakterler Portekizce konuşur.",

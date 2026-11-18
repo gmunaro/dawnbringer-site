@@ -35,12 +35,12 @@
   "screens": {
     "items": {
       "night": {
-        "caption": "Dwa kroki, zanim Właściciel cię dopadnie.",
-        "alt": "Mapa nocą, zabarwiona na czerwono. Pusty Król stoi obok bohatera, a zegar pokazuje: Właściciel przychodzi po należność, 2 kroki."
+        "caption": "Noc w Wisielczym Lesie: mgła skrywa drogę i to, co na niej czeka.",
+        "alt": "Mapa Wisielczego Lasu nocą: łowca na leśnej ścieżce, przed nim potwór, przy ścieżce oznaczone walki i skrzynia, a na krawędziach zdrowie, złoto, Właściciel tygodnia, mapa regionu i pas."
       },
       "landlord": {
         "caption": "Zapłać dziesięcinę z sakiewki albo walcz o nagrodę.",
-        "alt": "Karta Pustego Króla: jego statystyki, zdolność Pusta Korona, dziesięcina w wysokości 18 złota oraz przyciski Zapłać dziesięcinę i Walcz."
+        "alt": "Karta Pożeracza Sadów, Właściciela Pola Pyłu: jego statystyki, zdolność Skorupa Szronu, to, co niesie, dziesięcina 18 z twoich 60 złota oraz przyciski Zapłać dziesięcinę i Walcz."
       },
       "battle": {
         "caption": "Walka toczy się sama; o wyniku decyduje twoje przygotowanie.",
@@ -48,35 +48,35 @@
       },
       "stone": {
         "caption": "Kamień Rozpaczy ciemnieje nad walką, która by cię zabiła.",
-        "alt": "Ekran przed walką z wrogiem: jego statystyki i niesione przedmioty, znak Kamienia Rozpaczy, ostrzeżenie Ta walka by cię zabiła oraz przyciski Walcz i Wycofaj się."
+        "alt": "Na mapie karta watahy prowadzonej przez Stwardniałego Przycinacza: to, co niesie, dwóch towarzyszących mu wrogów i ostrzeżenie Kamienia Rozpaczy, że ta walka by cię zabiła."
       },
       "risen": {
         "caption": "Poległy łowca z dawnej wyprawy krąży po drodze ze swoim złotem.",
         "alt": "Na mapie obok twojego łowcy stoi zielony, powstały łowca z wcześniejszej wyprawy, z kuszą i czerwoną czaszką nad głową."
       },
-      "legend": {
-        "caption": "Poległy łowca z poprzedniej wyprawy zasiada na tronie Właściciela jako heretyk.",
-        "alt": "Karta heretyka, poległego łowcy z wcześniejszej wyprawy, który zajmuje miejsce Właściciela Pola Pyłu, z tym, co niesie, dziesięciną 18 z twoich 60 złota oraz przyciskami Zapłać dziesięcinę i Walcz."
+      "rival": {
+        "caption": "Dołącz do tablicy tygodnia, a łowca innego gracza może czekać w legowisku jako twój rywal.",
+        "alt": "Karta Ash Vey, łowcy innego gracza i Strażnika: jego statystyki, dwa niesione przedmioty, łupy za zwycięstwo nad nim, adnotacja, że pochodzi z tablicy tygodnia online, oraz przyciski Walcz i Wycofaj się."
+      },
+      "board": {
+        "caption": "Serwer sprawdza każdą wyprawę, a potem klasyfikuje ją w twoim mieście, regionie lub kraju.",
+        "alt": "Tablica tygodnia dla Toronto, ON, CA: dziesięciu łowców z klasą i wynikiem, twój najlepszy wynik 2140 na 4. miejscu oraz przyciski Zmień miejsce, Kod transferu, Usuń moje dane i Wstecz."
+      },
+      "camp": {
+        "caption": "W domu zbuduj łowcę, wybierz śluby i złoto, które zabierasz.",
+        "alt": "Dom: tworzenie łowcy z płcią, skórą, oczami, włosami i strojem, premia Riposta i Żelazna Maczuga, słoik rodów przedmiotów, śluby i złoto do zabrania."
       },
       "shop": {
         "caption": "Sklep od razu pokazuje, jak zmienią się statystyki po wymianie przedmiotu.",
         "alt": "Sklep z czterema przedmiotami do kupienia lub wygnania i porównaniem nowego przedmiotu z twoim buildem."
       },
-      "camp": {
-        "caption": "W domu zbuduj łowcę, wybierz śluby i złoto, które zabierasz.",
-        "alt": "Ekran domu z tworzeniem łowcy, rodami przedmiotów, ślubami i suwakiem zabieranego złota."
-      },
-      "group": {
-        "caption": "Watahy atakują jedna po drugiej, bez leczenia między walkami.",
-        "alt": "Walka z grupą wrogów w Wisielczym Lesie, wśród szubienic i martwych drzew."
-      },
-      "cashout": {
-        "caption": "Po pokonaniu Właściciela wpłać zysk do banku albo zabierz sakiewkę do tygodnia 2.",
-        "alt": "Po Właścicielu: wybór między powrotem do domu z sakiewką a zabraniem jej do tygodnia 2, obok karta następnego Właściciela."
-      },
       "build": {
         "caption": "Połącz 2, 4 lub 6 przedmiotów z tego samego rodu, by odblokować premie zestawu.",
         "alt": "Karta buildu łowcy ze statystykami, wyposażeniem, pasem, umiejętnościami i zestawami rodzin Piec, Żelazo, Szubienica i Zaraza."
+      },
+      "a11y": {
+        "caption": "Palety dla różnych typów widzenia barw, znaczniki kształtu przy każdym sygnale kolorem i sterowanie głosem.",
+        "alt": "Opcje dostępności: paleta, znaczniki kształtu, sterowanie głosem, język głosu i czas, przez jaki tekst zostaje na ekranie, obok tabeli kolorów gry dla każdego typu widzenia barw."
       },
       "event": {
         "caption": "Zdarzenia na drodze dają trzy wybory, a niektóre kosztują złoto lub dodają Grozę.",
@@ -88,7 +88,7 @@
     "title": "Cechy",
     "items": [
       "6 pierwszych klas i 12 drugich klas.",
-      "Punkt atrybutu i punkt umiejętności za każdy poziom; drzewo umiejętności, które jest jedną mapą, z 8 aktywnymi umiejętnościami, które odnawiają się w rundach.",
+      "Punkty atrybutów i punkt umiejętności za każdy poziom; drzewo umiejętności, które jest jedną mapą, z 8 aktywnymi umiejętnościami odnawiającymi się w rundach.",
       "105 przedmiotów w 10 rodach, noszonych w slotach, z premiami zestawu za 2, 4 i 6 części.",
       "Rozgrzej przedmioty w Kuźni do +4 i wstaw w nie 19 rodzajów kart potworów.",
       "19 Właścicieli w 6 regionach, przez 3 tygodnie.",
@@ -97,18 +97,18 @@
       "Polegli łowcy powstają i polują na ciebie; jeden z nich może zasiąść na tronie Właściciela jako heretyk.",
       "Osobny bank i sakiewka: na starcie stawiasz złoto, a po każdym Właścicielu wypłacasz.",
       "9 opcjonalnych ślubów, które czynią drogę okrutniejszą, a wypłatę większą.",
-      "Wyzwanie tygodnia z tablicą online, rywale od innych graczy i pojedynki z przyjaciółmi.",
+      "Wyzwanie tygodnia z tablicą online, rywalami od innych graczy i pojedynkami z przyjaciółmi.",
       "Każda postać mówi, narrator komentuje wyprawę, a każdy region ma własny dźwięk we dnie i w nocy.",
       "Palety dla daltonistów, znaczniki kształtu, sterowanie głosem na Androidzie i schemat do każdej opcji.",
       "Zielnik, bestiariusz i 16 osiągnięć w Dzienniku.",
-      "Łowcy, potwory, ekwipunek i efekty narysowane w grafice wektorowej na Androidzie.",
+      "Łowców, potwory, ekwipunek i efekty narysowano w grafice wektorowej.",
       "Mysz, klawiatura, pad i dotyk, na pełnym ekranie na telefonach, tabletach i komputerach.",
       "Przetłumaczona na 14 języków i zdubbingowana po portugalsku (Brazylia)."
     ]
   },
   "demo": {
     "title": "Pobierz demo",
-    "intro": "Darmowe demo na Windows, macOS i Linuksa oraz na Androida. Zawiera całą wyprawę, z mniejszym wyborem przy tworzeniu łowcy, a izby domu pozostają zamknięte. Demo na komputery wciąż używa dawnej grafiki pikselowej gry; aplikacje na Androida mają grafikę wektorową.",
+    "intro": "Darmowe demo na Windows, macOS i Linuksa oraz na Androida. Zawiera całą wyprawę, z mniejszym wyborem przy tworzeniu łowcy, a izby domu pozostają zamknięte.",
     "version": "Wersja {version}.",
     "includesTitle": "Co zawiera demo",
     "includes": [
@@ -201,14 +201,14 @@
     "contact": "Kontakt",
     "social": "Media społecznościowe",
     "descriptionTitle": "Opis",
-    "description": "Dawnbringer to roguelike auto-battler w świecie dark fantasy. Słońce zgasło, złoto jest jedynym pozostałym ciepłem, a co tydzień Właściciel przychodzi po czynsz. Gracze przemierzają turową mapę, wybierają walki i budują łowcę: tworzą go przed każdą wyprawą i rozwijają klasą w dwóch krokach, drzewem umiejętności z aktywnymi umiejętnościami, punktami atrybutów oraz 105 przedmiotami w 10 rodach, noszonymi w slotach, rozgrzewanymi w kuźni i wzbogacanymi o karty potworów. Ponieważ starcia rozstrzygają się automatycznie, bez losowości, a każdy wróg niesie widoczne przedmioty, gracze oceniają każdą walkę na drodze, czytając jego ekwipunek względem własnego buildu; Kamień Rozpaczy ostrzega tylko wtedy, gdy walka by zabiła bohatera. Przeciwko Właścicielowi milczy, a trzeba zapłacić dziesięcinę albo walczyć. Przed każdą wyprawą stawiasz złoto z banku, a po każdym tygodniu wypłacasz sakiewkę albo ryzykujesz ją w trudniejszym tygodniu. Między wyprawami wydajesz bank na izby domu; każda izba sprowadza kogoś, kto uczy premii lub klasy, wykuwa broń, otwiera ród przedmiotów albo daje większą sakiewkę. Polegli łowcy krążą po mapie w kolejnych wyprawach, a jeden z nich może zasiąść na tronie Właściciela jako heretyk. Co tydzień wyprawa z wyzwania jest taka sama dla wszystkich graczy, a tablica online szereguje ją według miasta, regionu lub kraju; gracze, którzy dołączą, mogą w legowisku spotkać łowcę innego gracza jako rywala, a dwóch bohaterów może stanąć do pojedynku przez kod albo na jednym urządzeniu. Na Androidzie łowcy, potwory, ekwipunek i efekty są narysowane w grafice wektorowej. Każda postać mówi syntetycznym głosem, narrator komentuje wyprawę, a gra jest zdubbingowana po portugalsku (Brazylia). Wśród opcji są palety dla daltonistów, znaczniki kształtu i sterowanie głosem na Androidzie.",
+    "description": "Dawnbringer to roguelike auto-battler w świecie dark fantasy. Słońce pękło i świat zamarzł, odłamki, które spadły, stały się pieniędzmi, a co tydzień Właściciel przychodzi po należność. Gracze przemierzają turową mapę, wybierają walki i budują łowcę: tworzą go przed każdą wyprawą, a potem rozwijają klasą w dwóch krokach, drzewem umiejętności z aktywnymi umiejętnościami, punktami atrybutów oraz 105 przedmiotami w 10 rodach, noszonymi w slotach, rozgrzewanymi w kuźni i wzbogacanymi o karty potworów. Walka rozstrzyga się automatycznie, bez kości, a gra nigdy nie pokazuje, jak skończy się starcie: każdy wróg niesie widoczne przedmioty, więc gracze oceniają każdą walkę, czytając jego ekwipunek względem własnego buildu, a Kamień Rozpaczy ciemnieje tylko wtedy, gdy walka zabiłaby bohatera. Wobec Właściciela milczy, a gracz musi zapłacić dziesięcinę albo walczyć. Przed każdą wyprawą gracze stawiają złoto z banku, a po każdym tygodniu wypłacają sakiewkę albo ryzykują ją w trudniejszym tygodniu. Między wyprawami gracze wydają bank na izby domu; każda izba sprowadza kogoś, kto uczy premii lub klasy, wykuwa broń, otwiera ród przedmiotów albo daje większą sakiewkę. Polegli łowcy powstają i polują na gracza w kolejnych wyprawach, a jeden z nich może zająć miejsce Właściciela jako heretyk. Co tydzień wyprawa wyzwania jest taka sama dla wszystkich graczy, a tablica online szereguje ją według miasta, regionu lub kraju; gracze, którzy dołączą, mogą spotkać w legowisku łowcę innego gracza jako rywala, a dwóch bohaterów może stoczyć pojedynek przez kod albo na jednym urządzeniu. Łowców, potwory, ekwipunek i efekty narysowano w grafice wektorowej. Każda postać mówi syntetycznym głosem, narrator komentuje wyprawę, a gra ma dubbing po portugalsku (Brazylia). Wśród opcji są palety dla daltonistów, znaczniki kształtu i sterowanie głosem na Androidzie.",
     "mediaTitle": "Logo, key art i zrzuty ekranu",
     "zip": "Pobierz wszystko (.zip, {size})",
     "logo": "Logo (PNG, przezroczyste)",
     "icon": "Ikona (PNG, 512x512)",
     "keyart": "Key art (PNG, 1920x1080)",
     "keyartNoLogo": "Key art bez logo (PNG, 1920x1080)",
-    "screensNote": "Zrzuty ekranu to pliki PNG 1920x1080 z wersji na Androida, z jej grafiką wektorową.",
+    "screensNote": "Zrzuty ekranu to pliki PNG 1920x1080 z grafiką wektorową gry.",
     "creditsTitle": "Twórcy",
     "credits": [
       "Projekt, kod i grafika: gmunaro",
@@ -264,10 +264,10 @@
   "whatsnew": {
     "title": "Nowości w 0.8",
     "items": [
-      "Na Androidzie łowcy, potwory, ekwipunek i efekty są narysowane w grafice wektorowej, ostrej na każdym ekranie.",
+      "Łowców, potwory, Właścicieli, ekwipunek i efekty narysowano w grafice wektorowej, ostrej na każdym ekranie.",
       "Wyzwanie tygodnia: ta sama wyprawa dla każdego łowcy. Dołącz do tablicy online, by porównać się z graczami z twojego miasta, regionu lub kraju (sam wybierasz, jakie miejsce udostępnić); łowca innego gracza może czekać w legowisku jako twój rywal.",
-      "Pojedynki: wyślij kod bohatera przyjacielowi albo wybierz dwóch zapisanych bohaterów i walczcie na jednym urządzeniu.",
-      "Twój łowca mówi głosem wybranej przez ciebie płci, narrator komentuje wyprawę, a po portugalsku (Brazylia) postacie mówią po portugalsku.",
+      "Pojedynki: wyślij kod bohatera przyjacielowi albo wybierz dwóch zapisanych bohaterów i walcz na jednym urządzeniu.",
+      "Twój łowca mówi głosem wybranej przez ciebie płci, narrator komentuje wyprawę, a w wersji portugalskiej (Brazylia) postacie mówią po portugalsku.",
       "Dostępność: palety dla protanopii, deuteranopii i tritanopii, znaczniki kształtu przy sygnałach kolorem, sterowanie głosem na Androidzie i schemat, który wyjaśnia każdą opcję.",
       "Darmowe demo na Androida, w osobnej aplikacji."
     ],

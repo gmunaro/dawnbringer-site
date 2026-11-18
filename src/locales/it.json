@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: auto-battler roguelike dark fantasy",
-    "description": "Un auto-battler roguelike dark fantasy. Costruisci un cacciatore, leggi la dotazione di ogni nemico, poi paga la decima al Signore o combatti.",
+    "description": "Un auto-battler roguelike dark fantasy. Costruisci un cacciatore, leggi la dotazione di ogni nemico, poi paga il Signore o combatti.",
     "pressTitle": "Press kit di Dawnbringer",
     "pressDescription": "Scheda, descrizione, caratteristiche, logo, key art e screenshot di Dawnbringer, un auto-battler roguelike di gmunaro.",
     "notFoundTitle": "Pagina non trovata",
@@ -24,7 +24,7 @@
     "language": "Lingua"
   },
   "hero": {
-    "pitch": "Un auto-battler roguelike dark fantasy: costruisci un cacciatore, leggi la dotazione di ogni nemico, poi paga la decima al Signore o combatti.",
+    "pitch": "Un auto-battler roguelike dark fantasy: costruisci un cacciatore, leggi la dotazione di ogni nemico, poi paga il Signore o combatti.",
     "artAlt": "Un piccolo cacciatore su una collina affronta un gigantesco Signore incoronato che emerge dalle colline buie sotto una luna rosso sangue.",
     "clipTitle": "Gameplay",
     "clipAlt": "Video di gameplay: un eroe con tutta la dotazione combatte da solo contro un gruppo di mostri.",
@@ -35,12 +35,12 @@
   "screens": {
     "items": {
       "night": {
-        "caption": "Mancano due passi prima che il Signore ti raggiunga.",
-        "alt": "La mappa di notte, tinta di rosso. Il Re Vuoto è accanto all'eroe e l'orologio dice: Il Signore viene a riscuotere, 2 passi."
+        "caption": "Notte nel Bosco degli Impiccati: la nebbia nasconde la strada e ciò che vi attende.",
+        "alt": "La mappa del Bosco degli Impiccati di notte: il cacciatore su un sentiero nel bosco, con un mostro davanti e scontri segnati e un forziere accanto al sentiero, e ai bordi salute, oro, il Signore della settimana, la mappa della regione e la cintura."
       },
       "landlord": {
         "caption": "Paga la decima con la tua borsa o combatti per la taglia.",
-        "alt": "La carta del Re Vuoto: le sue statistiche, la sua abilità Corona Vuota, la decima di 18 oro e i pulsanti Paga la decima e Combatti."
+        "alt": "La carta del Divoratore di Frutteti: il Signore del Campo della Polvere con le sue statistiche, la sua abilità Crosta di Brina, ciò che porta, la decima di 18 dei tuoi 60 oro e i pulsanti Paga la decima e Combatti."
       },
       "battle": {
         "caption": "Lo scontro è automatico; la tua preparazione decide l'esito.",
@@ -48,35 +48,35 @@
       },
       "stone": {
         "caption": "La Pietra della Disperazione si oscura davanti a uno scontro che ti ucciderebbe.",
-        "alt": "La schermata prima dello scontro di un nemico, con le sue statistiche e gli oggetti che porta, il segno della Pietra della Disperazione e l'avviso Questo scontro ti ucciderebbe, e i pulsanti Combatti e Ritirati."
+        "alt": "Sulla mappa, la carta di un branco guidato dal Potatore Calloso: ciò che porta, i due nemici che lo accompagnano e l'avviso della Pietra della Disperazione che questo scontro ti ucciderebbe."
       },
       "risen": {
         "caption": "Un cacciatore caduto in una partita passata vaga per la strada con il suo oro.",
         "alt": "Sulla mappa, un cacciatore risorto da una partita precedente, verde, armato di balestra e segnato da un teschio rosso, accanto al tuo cacciatore."
       },
-      "legend": {
-        "caption": "Un cacciatore caduto in una partita precedente siede sul seggio di un Signore come eretico.",
-        "alt": "La carta di un eretico, un cacciatore caduto in una partita precedente che occupa il seggio del Signore del Campo della Polvere, con ciò che porta, una decima di 18 dei tuoi 60 oro e i pulsanti Paga la decima e Combatti."
+      "rival": {
+        "caption": "Entra nella classifica settimanale e il cacciatore di un altro giocatore può aspettarti in una tana come rivale.",
+        "alt": "La carta di Ash Vey, il cacciatore di un altro giocatore e un Guardiano: le sue statistiche, i due oggetti che porta, il bottino per batterlo, una nota che dice che viene dalla classifica settimanale online e i pulsanti Combatti e Ritirati."
+      },
+      "board": {
+        "caption": "Il server controlla ogni partita, poi la classifica nella tua città, regione o nazione.",
+        "alt": "La classifica settimanale di Toronto, ON, CA: dieci cacciatori con classe e punteggio, il tuo record di 2140 al 4º posto e i pulsanti Cambia luogo, Trasferisci, Elimina i miei dati e Indietro."
+      },
+      "camp": {
+        "caption": "In casa, costruisci il cacciatore e scegli i voti e l'oro che porti con te.",
+        "alt": "La casa: la creazione del cacciatore con sesso, pelle, occhi, capelli e tenuta, il bonus Riposta e la Clava di Ferro, il barattolo delle famiglie di oggetti, i voti e l'oro da portare."
       },
       "shop": {
         "caption": "La bottega mostra subito come cambiano le statistiche prima di sostituire un oggetto.",
         "alt": "La bottega con quattro oggetti da comprare o bandire e un confronto del nuovo oggetto con la tua build."
       },
-      "camp": {
-        "caption": "In casa, costruisci il cacciatore e scegli i voti e l'oro che porti con te.",
-        "alt": "La schermata della casa con la creazione del cacciatore, le famiglie di oggetti, i voti e il cursore dell'oro che porti con te."
-      },
-      "group": {
-        "caption": "I branchi attaccano in fila, senza cure tra uno scontro e l'altro.",
-        "alt": "Uno scontro contro un gruppo di nemici nel Bosco degli Impiccati, tra forche e alberi morti."
-      },
-      "cashout": {
-        "caption": "Dopo un Signore, metti i guadagni in banca o porta la borsa nella settimana 2.",
-        "alt": "Dopo un Signore: la scelta di tornare a casa con la borsa o portarla nella settimana 2, con la carta del Signore successivo."
-      },
       "build": {
         "caption": "Combina 2, 4 o 6 oggetti della stessa famiglia per attivare i bonus di set.",
         "alt": "La scheda della build di un cacciatore con statistiche, dotazione, cintura, abilità e i set di famiglia Fornace, Ferro, Forca e Peste."
+      },
+      "a11y": {
+        "caption": "Tavolozze per la visione dei colori, segni di forma su ogni segnale di colore e controllo vocale.",
+        "alt": "Le opzioni di Accessibilità: tavolozza, segni di forma, controllo vocale, lingua della voce e quanto resta a schermo il testo, accanto a una tabella dei colori del gioco per ogni tipo di visione dei colori."
       },
       "event": {
         "caption": "Gli eventi lungo la strada offrono tre scelte, e alcune costano oro o aggiungono Terrore.",
@@ -101,14 +101,14 @@
       "Ogni personaggio parla, un narratore commenta la partita e ogni regione ha i suoi suoni, di giorno e di notte.",
       "Tavolozze per daltonici, segni di forma, controllo vocale su Android e un diagramma per ogni opzione.",
       "Un erbario, un bestiario e 16 imprese nel Diario.",
-      "Cacciatori, mostri, dotazione ed effetti disegnati in grafica vettoriale su Android.",
+      "Cacciatori, mostri, dotazione ed effetti disegnati in grafica vettoriale.",
       "Mouse, tastiera, controller e touch, a schermo intero su telefoni, tablet e PC.",
       "Tradotto in 14 lingue e doppiato in portoghese (Brasile)."
     ]
   },
   "demo": {
     "title": "Scarica la demo",
-    "intro": "Una demo gratuita per Windows, macOS e Linux, e anche su Android. Contiene la partita intera, con meno scelte quando costruisci il tuo cacciatore, e le stanze della casa restano chiuse. La demo per computer usa ancora la pixel art precedente del gioco; le app Android hanno la grafica vettoriale.",
+    "intro": "Una demo gratuita per Windows, macOS e Linux, e anche su Android. Contiene la partita intera, con meno scelte quando costruisci il tuo cacciatore, e le stanze della casa restano chiuse.",
     "version": "Versione {version}.",
     "includesTitle": "Cosa include la demo",
     "includes": [
@@ -201,14 +201,14 @@
     "contact": "Contatto",
     "social": "Social",
     "descriptionTitle": "Descrizione",
-    "description": "Dawnbringer è un auto-battler roguelike dark fantasy. Il sole è morto, l'oro è l'unico calore rimasto e ogni settimana un Signore viene a riscuotere l'affitto. I giocatori esplorano una mappa a turni, scelgono gli scontri e costruiscono un cacciatore: lo creano prima di ogni partita e lo fanno crescere con una classe in due passi, un albero delle abilità con abilità attive, punti attributo e 105 oggetti in 10 famiglie, indossati per slot, riscaldati di nuovo alla forgia e dotati di carte mostro. I combattimenti si risolvono in automatico senza casualità e ogni nemico porta oggetti visibili, quindi i giocatori giudicano ogni scontro sulla strada confrontando la sua dotazione con la propria build; una Pietra della Disperazione avvisa solo quando uno scontro ucciderebbe l'eroe. Contro il Signore resta in silenzio, e bisogna pagare la decima o combattere. Prima di ogni partita punti oro dalla tua banca, e dopo ogni settimana decidi se incassare la borsa o rischiarla in una settimana più dura. Tra una partita e l'altra spendi la banca per le stanze di una casa; ogni stanza porta qualcuno che insegna un bonus o una classe, fabbrica un'arma, apre una famiglia di oggetti o dà una borsa più grande. I cacciatori caduti vagano per la mappa nelle partite successive, e uno di loro può sedere sul seggio di un Signore come eretico. Ogni settimana la sfida è una stessa partita per tutti i giocatori, e una classifica online la ordina per città, regione o nazione; chi si iscrive può incontrare il cacciatore di un altro giocatore come rivale in una tana, e due eroi possono duellare con un codice o su uno stesso dispositivo. Su Android cacciatori, mostri, dotazione ed effetti sono disegnati in grafica vettoriale. Ogni personaggio parla con voce sintetica, un narratore commenta la partita e il gioco è doppiato in portoghese (Brasile). Le opzioni includono tavolozze per daltonici, segni di forma e controllo vocale su Android.",
+    "description": "Dawnbringer è un auto-battler roguelike dark fantasy. Il sole si è spezzato e il mondo si è congelato, le schegge cadute sono diventate denaro, e ogni settimana un Signore viene a riscuotere. I giocatori attraversano una mappa a turni, scelgono gli scontri e costruiscono un cacciatore: creato prima di ogni partita, poi fatto crescere con una classe in due passi, un albero delle abilità con abilità attive, punti attributo e 105 oggetti in 10 famiglie, indossati per slot, riscaldati alla forgia e incastonati con carte mostro. Gli scontri si risolvono in automatico, senza dadi, e il gioco non mostra mai come finirà uno scontro: ogni nemico porta oggetti visibili, quindi i giocatori giudicano ogni scontro leggendo la sua dotazione rispetto alla propria build, e una Pietra della Disperazione si oscura solo quando uno scontro ucciderebbe l'eroe. Contro il Signore resta in silenzio, e il giocatore deve pagare la decima o combattere. Prima di ogni partita i giocatori puntano oro dalla loro banca, e dopo ogni settimana incassano la borsa o la rischiano in una settimana più dura. Tra una partita e l'altra spendono la banca per le stanze di una casa; ogni stanza porta qualcuno che insegna un bonus o una classe, fabbrica un'arma, apre una famiglia di oggetti o dà una borsa più grande. I cacciatori caduti risorgono e danno la caccia al giocatore nelle partite successive, e uno di loro può prendere il seggio di un Signore come eretico. Ogni settimana la partita della sfida è la stessa per tutti i giocatori, e una classifica online la ordina per città, regione o nazione; chi si iscrive può incontrare il cacciatore di un altro giocatore come rivale in una tana, e due eroi possono duellare con un codice o su uno stesso dispositivo. Cacciatori, mostri, dotazione ed effetti sono disegnati in grafica vettoriale. Ogni personaggio parla con voce sintetica, un narratore commenta la partita e il gioco è doppiato in portoghese (Brasile). Le opzioni includono tavolozze per daltonici, segni di forma e controllo vocale su Android.",
     "mediaTitle": "Logo, key art e screenshot",
     "zip": "Scarica tutto (.zip, {size})",
     "logo": "Logo (PNG, trasparente)",
     "icon": "Icona (PNG, 512x512)",
     "keyart": "Key art (PNG, 1920x1080)",
     "keyartNoLogo": "Key art senza logo (PNG, 1920x1080)",
-    "screensNote": "Gli screenshot sono PNG a 1920x1080 della versione Android, con la sua grafica vettoriale.",
+    "screensNote": "Gli screenshot sono PNG a 1920x1080 della grafica vettoriale del gioco.",
     "creditsTitle": "Crediti",
     "credits": [
       "Design, codice e arte: gmunaro",
@@ -256,7 +256,7 @@
       },
       "return": {
         "title": "Le tue partite tornano",
-        "text": "I cacciatori caduti risorgono e ti danno la caccia nelle partite successive, e uno di loro può sedere sul trono di un Signore come eretico. Entra nella classifica online e il cacciatore di un altro giocatore può aspettarti in una tana come tuo rivale.",
+        "text": "I cacciatori caduti risorgono e ti danno la caccia nelle partite successive, e uno di loro può sedere sul seggio di un Signore come eretico. Entra nella classifica online e il cacciatore di un altro giocatore può aspettarti in una tana come tuo rivale.",
         "alt": "Un cacciatore risorto, segnato in rosso, avanza verso il giocatore sulla mappa."
       }
     }
@@ -264,7 +264,7 @@
   "whatsnew": {
     "title": "Novità nella 0.8",
     "items": [
-      "Su Android cacciatori, mostri, dotazione ed effetti sono disegnati in grafica vettoriale, nitida su ogni schermo.",
+      "Cacciatori, mostri, Signori, dotazione ed effetti sono disegnati in grafica vettoriale, nitida su ogni schermo.",
       "Una sfida della settimana: la stessa partita per ogni cacciatore. Entra nella classifica online per confrontarti con i giocatori della tua città, regione o nazione (scegli tu quale luogo condividere), e il cacciatore di un altro giocatore può aspettarti in una tana come rivale.",
       "Duelli: invia il codice di un eroe a un amico, oppure scegli due eroi salvati e combatti su un solo dispositivo.",
       "Il tuo cacciatore parla con una voce del sesso che scegli, un narratore commenta la partita e, in portoghese (Brasile), i personaggi parlano portoghese.",
