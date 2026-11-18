@@ -171,22 +171,21 @@ function socialList(): string {
 type Shot = { file: string; w: number; h: number; caption: string };
 
 /** The closed beta in four steps (join the group, opt in, install, pay with the test card), each with
- * the screenshots of the screens the player sees and, where there is one, the link that opens it. */
+ * the screenshots of the screens the player sees and, where there is one, the link that opens it. The
+ * payment notice sits inside step 4, where it matters, not above the steps. */
 function betaSection(t: Strings, beta: NonNullable<typeof BETA>): string {
   const b = t.beta;
   const shot = (s: Shot) =>
     `<figure><a href="${asset(`img/${s.file}`)}"><img src="${asset(`img/${s.file}`)}" width="${s.w}" height="${s.h}" loading="lazy" alt="${esc(s.caption)}"></a><figcaption>${esc(s.caption)}</figcaption></figure>`;
-  const step = (n: number, title: string, text: string, shots: Shot[], link?: { label: string; url: string }) =>
+  const mail = `<a href="mailto:${CONTACT}">${CONTACT}</a>`;
+  const step = (n: number, title: string, text: string, shots: Shot[], link?: { label: string; url: string }, extra = "") =>
     `<li class="panel beta-step"><h3><span class="beta-n">${n}</span> ${esc(title)}</h3><p>${esc(text)}</p>`
     + (link ? `<p><a class="btn" href="${esc(link.url)}" rel="noopener">${esc(link.label)}</a></p>` : "")
+    + extra
     + `<div class="beta-shots">${shots.map(shot).join("")}</div></li>`;
   return `<section id="beta" class="wrap" aria-labelledby="beta-title">
 <h2 id="beta-title">${esc(b.title)}</h2>
 <p class="lead">${esc(b.intro)}</p>
-<aside class="panel beta-payment" aria-label="${esc(b.paymentTitle)}">
-<p><strong>${esc(b.paymentNoticeTitle)}</strong></p>
-<p>${esc(b.paymentNoticeText)}</p>
-</aside>
 <p>${esc(b.buttonsNote)}</p>
 <ol class="beta-steps">
 ${step(1, b.step1Title, b.step1, [
@@ -198,14 +197,18 @@ ${step(2, b.step2Title, b.step2, [
   { file: "beta-4-tester.webp", w: 1100, h: 471, caption: b.shotTester },
 ], { label: b.step2Link, url: beta.test })}
 ${step(3, b.step3Title, b.step3, [{ file: "beta-5-store.webp", w: 720, h: 647, caption: b.shotStore }], { label: b.step3Link, url: beta.install })}
-${step(4, b.step4Title, b.step4, [{ file: "beta-test-card.png", w: 1080, h: 1408, caption: b.testCardCaption }])}
+${step(4, b.step4Title, b.step4, [{ file: "beta-test-card.png", w: 1080, h: 1408, caption: b.testCardCaption }], undefined, `
+<aside class="panel beta-payment" aria-label="${esc(b.paymentTitle)}">
+<p><strong>${esc(b.paymentNoticeTitle)}</strong></p>
+<p>${esc(b.paymentNoticeText)} ${mail}</p>
+</aside>`)}
 </ol>
 <p>${esc(b.note)}</p>
 <div class="beta-help">
 <h3>${esc(b.helpTitle)}</h3>
 <p>${esc(b.accountHelp)}</p>
-<details><summary>${esc(b.paymentTitle)}</summary><p>${esc(t.beta.paymentHelp)}</p></details>
-<details><summary>${esc(t.beta.unavailableTitle)}</summary><p>${esc(t.beta.unavailableHelp)} <a href="mailto:${CONTACT}">${CONTACT}</a></p></details>
+<details><summary>${esc(b.paymentTitle)}</summary><p>${esc(t.beta.paymentHelp)} ${mail}</p></details>
+<details><summary>${esc(t.beta.unavailableTitle)}</summary><p>${esc(t.beta.unavailableHelp)} ${mail}</p></details>
 </div>
 </section>`;
 }
