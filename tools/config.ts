@@ -61,10 +61,13 @@ export const LOCALES: Locale[] = [
  * Closed beta on Google Play: testers join the Google Group, then opt in on the test page. Set to
  * null when the beta closes and the home page drops its beta section and button.
  */
-export const BETA: { group: string; test: string; install: string } | null = {
+export const BETA: { group: string; test: string; install: string; demoTest: string; demoInstall: string } | null = {
   group: "https://groups.google.com/g/dawnbringer-testers",
   test: "https://play.google.com/apps/testing/com.gmunaro.dawnbringer",
   install: "https://play.google.com/store/apps/details?id=com.gmunaro.dawnbringer",
+  // The free demo is its own app on Play, in a closed test for the same Google Group.
+  demoTest: "https://play.google.com/apps/testing/com.gmunaro.dawnbringer.demo",
+  demoInstall: "https://play.google.com/store/apps/details?id=com.gmunaro.dawnbringer.demo",
 };
 
 /**

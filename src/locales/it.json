@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: auto-battler roguelike dark fantasy",
-    "description": "Un auto-battler roguelike in pixel art. Costruisci un cacciatore, leggi la dotazione di ogni nemico, poi paga la decima al Signore o combatti.",
+    "description": "Un auto-battler roguelike dark fantasy. Costruisci un cacciatore, leggi la dotazione di ogni nemico, poi paga la decima al Signore o combatti.",
     "pressTitle": "Press kit di Dawnbringer",
     "pressDescription": "Scheda, descrizione, caratteristiche, logo, key art e screenshot di Dawnbringer, un auto-battler roguelike di gmunaro.",
     "notFoundTitle": "Pagina non trovata",
@@ -17,14 +17,14 @@
     "skip": "Vai al contenuto",
     "home": "Home",
     "why": "Il gioco",
-    "new": "Novità nella 0.7.2",
+    "new": "Novità nella 0.8",
     "demo": "Demo per desktop",
     "beta": "Alpha Android",
     "press": "Press kit",
     "language": "Lingua"
   },
   "hero": {
-    "pitch": "Un auto-battler roguelike in pixel art: costruisci un cacciatore, leggi la dotazione di ogni nemico, poi paga la decima al Signore o combatti.",
+    "pitch": "Un auto-battler roguelike dark fantasy: costruisci un cacciatore, leggi la dotazione di ogni nemico, poi paga la decima al Signore o combatti.",
     "artAlt": "Un piccolo cacciatore su una collina affronta un gigantesco Signore incoronato che emerge dalle colline buie sotto una luna rosso sangue.",
     "clipTitle": "Gameplay",
     "clipAlt": "Video di gameplay: un eroe con tutta la dotazione combatte da solo contro un gruppo di mostri.",
@@ -88,31 +88,34 @@
     "title": "Caratteristiche",
     "items": [
       "6 prime classi e 12 seconde classi.",
-      "Punti attributo e un punto abilità a ogni livello; un albero delle abilità che è una sola mappa.",
+      "Punti attributo e un punto abilità a ogni livello; un albero delle abilità che è una sola mappa, con 8 abilità attive che si ricaricano a round.",
       "105 oggetti in 10 famiglie, indossati per slot, con bonus di set a 2, 4 e 6 pezzi.",
       "Rimetti la dotazione fino a +4 alla Forgia e inserisci in essa 19 tipi di carta mostro.",
-      "19 Signori in 6 biomi e 3 settimane.",
+      "19 Signori in 6 regioni e 3 settimane.",
       "Pattuglie, branchi, imboscate, guardiani e mimic sulla mappa.",
       "Giorno e notte: di notte la tua vista si restringe e le ombre ti danno la caccia.",
       "I tuoi cacciatori caduti risorgono e ti danno la caccia; uno di loro può sedere sul seggio di un Signore come eretico.",
       "Banca e borsa separate: punta l'oro all'inizio e incassa dopo ogni Signore.",
-      "9 giuramenti facoltativi che alzano sia la difficoltà sia la ricompensa.",
-      "Voci espressive per ogni personaggio e suoni ambientali per ogni bioma.",
+      "9 voti facoltativi che rendono la strada più crudele e il premio più ricco.",
+      "Una sfida della settimana con classifica online, rivali di altri giocatori e duelli con gli amici.",
+      "Ogni personaggio parla, un narratore commenta la partita e ogni regione ha i suoi suoni, di giorno e di notte.",
+      "Tavolozze per daltonici, segni di forma, controllo vocale su Android e un diagramma per ogni opzione.",
       "Un erbario, un bestiario e 16 imprese nel Diario.",
-      "Pixel art nativa 640x360, con mouse, tastiera, controller e touch.",
-      "Tradotto in 14 lingue."
+      "Cacciatori, mostri, dotazione ed effetti disegnati in grafica vettoriale su Android.",
+      "Mouse, tastiera, controller e touch, a schermo intero su telefoni, tablet e PC.",
+      "Tradotto in 14 lingue e doppiato in portoghese (Brasile)."
     ]
   },
   "demo": {
     "title": "Scarica la demo",
-    "intro": "Una demo gratuita per Windows, macOS e Linux. Contiene la partita intera, con meno scelte quando costruisci il tuo cacciatore, e le stanze della casa restano chiuse.",
+    "intro": "Una demo gratuita per Windows, macOS e Linux, e anche su Android. Contiene la partita intera, con meno scelte quando costruisci il tuo cacciatore, e le stanze della casa restano chiuse. La demo per computer usa ancora la pixel art precedente del gioco; le app Android hanno la grafica vettoriale.",
     "version": "Versione {version}.",
     "includesTitle": "Cosa include la demo",
     "includes": [
       "Il tuo cacciatore, costruito prima della partita: sesso, pelle, occhi, capelli, tenuta e nome.",
-      "Un bonus iniziale, Riposta o Primo Sangue, e un'arma, la Mazza di Ferro Tombale o la Balestra del Boia.",
+      "Un bonus iniziale, Riposta o Primo Sangue, e un'arma, la Clava di Ferro o la Vecchia Balestra.",
       "Classi: Spadaccino e Arciere, poi Crociato e Cavaliere, oppure Cacciatore e Bardo.",
-      "La partita completa: tre settimane sulla mappa, eventi, negozi, giuramenti e i Signori.",
+      "La partita completa: tre settimane sulla mappa, eventi, negozi, voti e i Signori.",
       "Le 4 famiglie di oggetti iniziali.",
       "La Casa con le sue 22 stanze chiuse: gli altri bonus, armi, classi e famiglie di oggetti, e le borse più grandi, arrivano con il gioco completo.",
       "Un salvataggio proprio, separato dal gioco completo."
@@ -126,8 +129,8 @@
     "linuxNote": "x86_64. Estrai l'archivio ed esegui DawnbringerDemo.x86_64. Servono driver grafici con OpenGL 3.3.",
     "download": "Scarica ({size})",
     "checksums": "Checksum SHA-256 dei file",
-    "android": "Android: l'alpha chiusa è aperta.",
-    "androidLink": "Partecipa all'alpha",
+    "android": "Android: il gioco completo e la demo gratuita sono in test chiuso su Google Play.",
+    "androidLink": "Partecipa al test",
     "ios": "iPhone e iPad: non ancora disponibile."
   },
   "beta": {
@@ -159,7 +162,11 @@
     "step3Title": "Apri il gioco sul telefono",
     "shotStore": "Google Play sul telefono. Tocca il pulsante blu del prezzo.",
     "step4Title": "Conferma con la carta di prova",
-    "step4": "Google Play apre la schermata di pagamento. Controlla che il metodo di pagamento dica \"Test card, always approves\" e che la schermata parli di un ordine di prova, poi tocca \"1-tap buy\". Il gioco si installa e non viene addebitato nulla."
+    "step4": "Google Play apre la schermata di pagamento. Controlla che il metodo di pagamento dica \"Test card, always approves\" e che la schermata parli di un ordine di prova, poi tocca \"1-tap buy\". Il gioco si installa e non viene addebitato nulla.",
+    "demoTitle": "La demo gratuita su Android",
+    "demoText": "La demo è un'app separata, Dawnbringer Demo, e non ha un passaggio di pagamento. Dopo il passaggio 1, apri la pagina del test della demo con lo stesso account, fai clic su \"Become a tester\", poi installala da Google Play.",
+    "demoTestLink": "Apri la pagina del test della demo",
+    "demoInstallLink": "Installa la demo"
   },
   "duel": {
     "title": "Codice duello",
@@ -184,9 +191,9 @@
     "release": "Data di uscita",
     "releaseValue": "Da annunciare",
     "platforms": "Piattaforme",
-    "platformsValue": "PC (Steam), Android (Google Play), iPhone e iPad (App Store)",
+    "platformsValue": "Android (Google Play, test chiuso). Demo gratuita per Android, Windows, macOS e Linux. Steam e l'App Store sono previsti.",
     "price": "Prezzo",
-    "priceValue": "US$ 4.99 (previsto)",
+    "priceValue": "US$ 4.99; la demo è gratuita",
     "languages": "Lingue",
     "languagesValue": "14: inglese, portoghese (Brasile), spagnolo, francese, tedesco, italiano, russo, ucraino, polacco, turco, giapponese, coreano, cinese semplificato, cinese tradizionale",
     "engine": "Motore",
@@ -194,21 +201,21 @@
     "contact": "Contatto",
     "social": "Social",
     "descriptionTitle": "Descrizione",
-    "description": "Dawnbringer è un auto-battler roguelike dark fantasy in pixel art. Il sole è morto, l'oro è l'unico calore rimasto e ogni settimana un Signore viene a riscuotere l'affitto. I giocatori esplorano una mappa a turni, scelgono gli scontri e costruiscono un cacciatore: lo creano prima di ogni partita e lo fanno crescere con una classe in due passi, un albero delle abilità, punti attributo e 105 oggetti in 10 famiglie, indossati per slot, riscaldati di nuovo alla forgia e dotati di carte mostro. I combattimenti si risolvono in automatico senza casualità e ogni nemico porta oggetti visibili, quindi i giocatori giudicano ogni scontro sulla strada confrontando la sua dotazione con la propria build; una Pietra della Disperazione avvisa solo quando uno scontro ucciderebbe l'eroe. Contro il Signore resta in silenzio, e bisogna pagare la decima o combattere. Prima di ogni partita punti oro dalla tua banca, e dopo ogni settimana decidi se incassare la borsa o rischiarla in una settimana più dura. Tra una partita e l'altra spendi la banca per le stanze di una casa; ogni stanza porta qualcuno che insegna un bonus o una classe, fabbrica un'arma, apre una famiglia di oggetti o dà una borsa più grande. I cacciatori caduti vagano per la mappa nelle partite successive, e uno di loro può sedere sul seggio di un Signore come eretico.",
+    "description": "Dawnbringer è un auto-battler roguelike dark fantasy. Il sole è morto, l'oro è l'unico calore rimasto e ogni settimana un Signore viene a riscuotere l'affitto. I giocatori esplorano una mappa a turni, scelgono gli scontri e costruiscono un cacciatore: lo creano prima di ogni partita e lo fanno crescere con una classe in due passi, un albero delle abilità con abilità attive, punti attributo e 105 oggetti in 10 famiglie, indossati per slot, riscaldati di nuovo alla forgia e dotati di carte mostro. I combattimenti si risolvono in automatico senza casualità e ogni nemico porta oggetti visibili, quindi i giocatori giudicano ogni scontro sulla strada confrontando la sua dotazione con la propria build; una Pietra della Disperazione avvisa solo quando uno scontro ucciderebbe l'eroe. Contro il Signore resta in silenzio, e bisogna pagare la decima o combattere. Prima di ogni partita punti oro dalla tua banca, e dopo ogni settimana decidi se incassare la borsa o rischiarla in una settimana più dura. Tra una partita e l'altra spendi la banca per le stanze di una casa; ogni stanza porta qualcuno che insegna un bonus o una classe, fabbrica un'arma, apre una famiglia di oggetti o dà una borsa più grande. I cacciatori caduti vagano per la mappa nelle partite successive, e uno di loro può sedere sul seggio di un Signore come eretico. Ogni settimana la sfida è una stessa partita per tutti i giocatori, e una classifica online la ordina per città, regione o nazione; chi si iscrive può incontrare il cacciatore di un altro giocatore come rivale in una tana, e due eroi possono duellare con un codice o su uno stesso dispositivo. Su Android cacciatori, mostri, dotazione ed effetti sono disegnati in grafica vettoriale. Ogni personaggio parla con voce sintetica, un narratore commenta la partita e il gioco è doppiato in portoghese (Brasile). Le opzioni includono tavolozze per daltonici, segni di forma e controllo vocale su Android.",
     "mediaTitle": "Logo, key art e screenshot",
     "zip": "Scarica tutto (.zip, {size})",
     "logo": "Logo (PNG, trasparente)",
     "icon": "Icona (PNG, 512x512)",
     "keyart": "Key art (PNG, 1920x1080)",
     "keyartNoLogo": "Key art senza logo (PNG, 1920x1080)",
-    "screensNote": "Gli screenshot sono PNG a 1920x1080, ingranditi con scala intera dalla risoluzione nativa di 640x360.",
+    "screensNote": "Gli screenshot sono PNG a 1920x1080 della versione Android, con la sua grafica vettoriale.",
     "creditsTitle": "Crediti",
     "credits": [
       "Design, codice e arte: gmunaro",
       "Musica: Juhani Junkala (CC0); la colonna sonora notturna del Signore è originale, suonata con i sample VSCO 2 Community Edition (CC0)",
       "Effetti sonori: Kenney, StarNinjas, Oiboo (CC0) e suoni originali",
       "Suoni ambientali: registrazioni sul campo da freesound.org (CC0)",
-      "Voci: parlato sintetico da ElevenLabs v4; nessuna voce umana è stata registrata o clonata",
+      "Voci: parlato sintetico da ElevenLabs v4 e Google Gemini TTS per il narratore; nessuna voce umana è stata registrata o clonata",
       "Font: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel e GNU Unifont (SIL Open Font License 1.1)"
     ],
     "contactTitle": "Contatti",
@@ -249,18 +256,20 @@
       },
       "return": {
         "title": "Le tue partite tornano",
-        "text": "I cacciatori caduti risorgono e ti danno la caccia nelle partite successive, e uno di loro può sedere sul trono di un Signore come eretico.",
+        "text": "I cacciatori caduti risorgono e ti danno la caccia nelle partite successive, e uno di loro può sedere sul trono di un Signore come eretico. Entra nella classifica online e il cacciatore di un altro giocatore può aspettarti in una tana come tuo rivale.",
         "alt": "Un cacciatore risorto, segnato in rosso, avanza verso il giocatore sulla mappa."
       }
     }
   },
   "whatsnew": {
-    "title": "Novità nella 0.7.2",
+    "title": "Novità nella 0.8",
     "items": [
-      "Costruisci il tuo cacciatore prima di ogni partita e spendi la banca per le stanze di una casa.",
-      "Classi in due passi e un albero delle abilità che è una sola mappa da ingrandire e trascinare.",
-      "Quattro gilde e, ogni settimana, una porta che sceglie la regione che percorri.",
-      "Difesa e Scudo, e nemici che calpestano, caricano, lanciano o sputano."
+      "Su Android cacciatori, mostri, dotazione ed effetti sono disegnati in grafica vettoriale, nitida su ogni schermo.",
+      "Una sfida della settimana: la stessa partita per ogni cacciatore. Entra nella classifica online per confrontarti con i giocatori della tua città, regione o nazione (scegli tu quale luogo condividere), e il cacciatore di un altro giocatore può aspettarti in una tana come rivale.",
+      "Duelli: invia il codice di un eroe a un amico, oppure scegli due eroi salvati e combatti su un solo dispositivo.",
+      "Il tuo cacciatore parla con una voce del sesso che scegli, un narratore commenta la partita e, in portoghese (Brasile), i personaggi parlano portoghese.",
+      "Accessibilità: tavolozze per protanopia, deuteranopia e tritanopia, segni di forma sui segnali di colore, controllo vocale su Android e un diagramma che spiega ogni opzione.",
+      "Una demo gratuita per Android, in un'app a sé."
     ],
     "more": "Tutte le modifiche"
   },

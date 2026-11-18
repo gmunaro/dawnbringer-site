@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: auto-battler roguelike de fantasía oscura",
-    "description": "Un auto-battler roguelike en pixel art: arma un cazador, lee el equipo de cada enemigo y luego paga al Terrateniente o lucha.",
+    "description": "Un auto-battler roguelike de fantasía oscura: arma un cazador, lee el equipo de cada enemigo y luego paga al Terrateniente o lucha.",
     "pressTitle": "Kit de prensa de Dawnbringer",
     "pressDescription": "Ficha técnica, descripción, características, logo, arte principal y capturas de Dawnbringer, un auto-battler roguelike de gmunaro.",
     "notFoundTitle": "Página no encontrada",
@@ -17,14 +17,14 @@
     "skip": "Saltar al contenido",
     "home": "Inicio",
     "why": "El juego",
-    "new": "Nuevo en la 0.7.2",
+    "new": "Nuevo en la 0.8",
     "demo": "Demo de escritorio",
     "beta": "Alfa de Android",
     "press": "Kit de prensa",
     "language": "Idioma"
   },
   "hero": {
-    "pitch": "Un auto-battler roguelike en pixel art: arma un cazador, lee el equipo de cada enemigo y luego paga al Terrateniente o lucha.",
+    "pitch": "Un auto-battler roguelike de fantasía oscura: arma un cazador, lee el equipo de cada enemigo y luego paga al Terrateniente o lucha.",
     "artAlt": "Un pequeño cazador sobre una colina se enfrenta a un Terrateniente gigante y coronado que surge de las colinas oscuras bajo una luna rojo sangre.",
     "clipTitle": "Jugabilidad",
     "clipAlt": "Clip de juego: un héroe con equipo completo lucha solo contra un grupo de monstruos.",
@@ -88,31 +88,34 @@
     "title": "Características",
     "items": [
       "6 primeras clases y 12 segundas clases.",
-      "Puntos de atributo y un punto de habilidad en cada nivel; un árbol de habilidades que es un único mapa.",
+      "Puntos de atributo y un punto de habilidad en cada nivel; un árbol de habilidades que es un único mapa, con 8 habilidades activas que se recargan por rondas.",
       "105 objetos en 10 familias, equipados por ranura, con bonificaciones de conjunto con 2, 4 y 6 piezas.",
       "Recalienta el equipo hasta +4 en la forja y engarza en él 19 tipos de carta de monstruo.",
-      "19 Terratenientes en 6 biomas y 3 semanas.",
+      "19 Terratenientes en 6 regiones y 3 semanas.",
       "Patrullas, grupos, emboscadas, guardianes y mímicos en el mapa.",
       "Día y noche: de noche tu visión se reduce y las sombras te cazan.",
       "Tus cazadores caídos resurgen y te cazan; uno de ellos puede ocupar el asiento de un Terrateniente como hereje.",
       "Banco y bolsa separados: apuesta oro al empezar y retírate después de cada Terrateniente.",
-      "9 juramentos opcionales que suben a la vez la dificultad y la recompensa.",
-      "Voces con emoción para cada personaje y sonido ambiente para cada bioma.",
+      "9 votos opcionales que vuelven el camino más cruel y la recompensa mayor.",
+      "Un desafío semanal con tablero en línea, rivales de otros jugadores y duelos con amigos.",
+      "Cada personaje habla, un narrador comenta la partida y cada región tiene su propio sonido, de día y de noche.",
+      "Paletas para daltonismo, marcas de forma, control por voz en Android y un diagrama para cada opción.",
       "Un herbario, un bestiario y 16 logros en el Diario.",
-      "Pixel art nativo de 640x360 con ratón, teclado, mando y pantalla táctil.",
-      "Traducido a 14 idiomas."
+      "Cazadores, monstruos, equipo y efectos dibujados en arte vectorial en Android.",
+      "Ratón, teclado, mando y pantalla táctil, a pantalla completa en teléfonos, tabletas y PC.",
+      "Traducido a 14 idiomas y doblado al portugués (Brasil)."
     ]
   },
   "demo": {
     "title": "Descarga la demo",
-    "intro": "Una demo gratuita para Windows, macOS y Linux. Incluye la partida entera, con menos opciones al crear tu cazador, y las estancias de la casa siguen cerradas.",
+    "intro": "Una demo gratuita para Windows, macOS y Linux, y también en Android. Incluye la partida entera, con menos opciones al crear tu cazador, y las estancias de la casa siguen cerradas. La demo de escritorio aún usa el pixel art anterior del juego; las apps de Android tienen el arte vectorial.",
     "version": "Versión {version}.",
     "includesTitle": "Qué incluye la demo",
     "includes": [
       "Tu propio cazador, creado antes de la partida: sexo, piel, ojos, cabello, traje y nombre.",
-      "Una bonificación inicial, Riposta o Primera Sangre, y un arma, la Maza de Hierro Sepulcral o la Ballesta del Verdugo.",
+      "Una bonificación inicial, Riposta o Primera Sangre, y un arma, la Porra de Hierro o la Ballesta Vieja.",
       "Clases: Espadachín y Arquero, y después Cruzado y Caballero, o Cazador y Bardo.",
-      "La partida completa: tres semanas en el mapa, eventos, tiendas, juramentos y los Terratenientes.",
+      "La partida completa: tres semanas en el mapa, eventos, tiendas, votos y los Terratenientes.",
       "Las 4 familias de objetos iniciales.",
       "La Casa con sus 22 estancias cerradas: las demás bonificaciones, armas, clases y familias de objetos, y las bolsas mayores, llegan con el juego completo.",
       "Su propia partida guardada, separada del juego completo."
@@ -126,8 +129,8 @@
     "linuxNote": "x86_64. Extrae el archivo y ejecuta DawnbringerDemo.x86_64. Necesita controladores gráficos con OpenGL 3.3.",
     "download": "Descargar ({size})",
     "checksums": "Sumas SHA-256 de los archivos",
-    "android": "Android: la alfa cerrada está abierta.",
-    "androidLink": "Únete a la alfa",
+    "android": "Android: el juego completo y la demo gratuita están en una prueba cerrada en Google Play.",
+    "androidLink": "Únete a la prueba",
     "ios": "iPhone y iPad: aún no disponible."
   },
   "beta": {
@@ -159,7 +162,11 @@
     "step3Title": "Abre el juego en el móvil",
     "shotStore": "Google Play en el móvil. Toca el botón azul del precio.",
     "step4Title": "Confirma con la tarjeta de prueba",
-    "step4": "Google Play abre la pantalla de pago. Comprueba que el método de pago dice \"Test card, always approves\" y que la pantalla avisa de que es un pedido de prueba, y toca \"1-tap buy\". El juego se instala y no se cobra nada."
+    "step4": "Google Play abre la pantalla de pago. Comprueba que el método de pago dice \"Test card, always approves\" y que la pantalla avisa de que es un pedido de prueba, y toca \"1-tap buy\". El juego se instala y no se cobra nada.",
+    "demoTitle": "La demo gratuita en Android",
+    "demoText": "La demo es una app aparte, Dawnbringer Demo, y no tiene paso de pago. Después del paso 1, abre la página de prueba de la demo con la misma cuenta, haz clic en \"Become a tester\" y instálala desde Google Play.",
+    "demoTestLink": "Abrir la página de prueba de la demo",
+    "demoInstallLink": "Instalar la demo"
   },
   "duel": {
     "title": "Código de duelo",
@@ -184,9 +191,9 @@
     "release": "Fecha de lanzamiento",
     "releaseValue": "Por anunciar",
     "platforms": "Plataformas",
-    "platformsValue": "PC (Steam), Android (Google Play), iPhone y iPad (App Store)",
+    "platformsValue": "Android (Google Play, prueba cerrada). Demo gratuita para Android, Windows, macOS y Linux. Steam y la App Store están previstos.",
     "price": "Precio",
-    "priceValue": "US$ 4.99 (previsto)",
+    "priceValue": "US$ 4.99; la demo es gratuita",
     "languages": "Idiomas",
     "languagesValue": "14: inglés, portugués (Brasil), español, francés, alemán, italiano, ruso, ucraniano, polaco, turco, japonés, coreano, chino simplificado, chino tradicional",
     "engine": "Motor",
@@ -194,21 +201,21 @@
     "contact": "Contacto",
     "social": "Redes sociales",
     "descriptionTitle": "Descripción",
-    "description": "Dawnbringer es un auto-battler roguelike de fantasía oscura en pixel art. El sol se apagó, el oro es el único calor que queda y cada semana un Terrateniente viene a cobrar el alquiler. El jugador explora un mapa por turnos, elige combates y arma su cazador: lo crea antes de cada partida y lo desarrolla con una clase en dos etapas, un árbol de habilidades, puntos de atributo y 105 objetos en 10 familias, equipados por ranura, recalentados en la forja y engarzados con cartas de monstruo. Como el combate se resuelve solo y no usa azar, y cada enemigo lleva objetos visibles, los jugadores juzgan cada pelea del camino comparando su equipo con su build; una Piedra de la Desesperación solo avisa cuando una pelea mataría al héroe. Contra el Terrateniente guarda silencio, y hay que elegir entre pagar el diezmo o pelear. Antes de salir del campamento apuestas oro de tu banco, y tras cada semana decides si guardas las ganancias o arriesgas la bolsa en la semana siguiente. Entre una partida y otra gastas el banco en las estancias de una casa; cada estancia trae a alguien que enseña una bonificación o una clase, hace un arma, abre una familia de objetos o da una bolsa mayor. Los cazadores caídos vuelven como enemigos al mapa en partidas futuras, y uno de ellos puede ocupar el asiento de un Terrateniente como hereje.",
+    "description": "Dawnbringer es un auto-battler roguelike de fantasía oscura. El sol se apagó, el oro es el único calor que queda y cada semana un Terrateniente viene a cobrar el alquiler. El jugador explora un mapa por turnos, elige combates y arma su cazador: lo crea antes de cada partida y lo desarrolla con una clase en dos etapas, un árbol de habilidades con habilidades activas, puntos de atributo y 105 objetos en 10 familias, equipados por ranura, recalentados en la forja y engarzados con cartas de monstruo. Como el combate se resuelve solo y no usa azar, y cada enemigo lleva objetos visibles, los jugadores juzgan cada pelea del camino comparando su equipo con su build; una Piedra de la Desesperación solo avisa cuando una pelea mataría al héroe. Contra el Terrateniente guarda silencio, y hay que elegir entre pagar el diezmo o pelear. Antes de salir del campamento apuestas oro de tu banco, y tras cada semana decides si guardas las ganancias o arriesgas la bolsa en la semana siguiente. Entre una partida y otra gastas el banco en las estancias de una casa; cada estancia trae a alguien que enseña una bonificación o una clase, hace un arma, abre una familia de objetos o da una bolsa mayor. Los cazadores caídos vuelven como enemigos al mapa en partidas futuras, y uno de ellos puede ocupar el asiento de un Terrateniente como hereje. Cada semana el desafío es la misma partida para todos los jugadores, y un tablero en línea la clasifica por ciudad, región o país; quien se une puede encontrarse con el cazador de otro jugador como rival en una guarida, y dos héroes pueden batirse en duelo por código o en un mismo dispositivo. En Android, los cazadores, monstruos, el equipo y los efectos están dibujados en arte vectorial. Cada personaje habla con voz sintética, un narrador comenta la partida y el juego está doblado al portugués (Brasil). Las opciones incluyen paletas para daltonismo, marcas de forma y control por voz en Android.",
     "mediaTitle": "Logo, arte principal y capturas",
     "zip": "Descargar todo (.zip, {size})",
     "logo": "Logo (PNG, transparente)",
     "icon": "Icono (PNG, 512x512)",
     "keyart": "Arte principal (PNG, 1920x1080)",
     "keyartNoLogo": "Arte principal sin logo (PNG, 1920x1080)",
-    "screensNote": "Las capturas son PNG de 1920x1080, escaladas por enteros desde la resolución nativa de 640x360.",
+    "screensNote": "Las capturas son PNG de 1920x1080 de la versión de Android, con su arte vectorial.",
     "creditsTitle": "Créditos",
     "credits": [
       "Diseño, código y arte: gmunaro",
       "Música: Juhani Junkala (CC0); la música nocturna del Terrateniente es original, interpretada con muestras de VSCO 2 Community Edition (CC0)",
       "Efectos de sonido: Kenney, StarNinjas, Oiboo (CC0) y sonidos originales",
       "Sonido ambiente: grabaciones de campo de freesound.org (CC0)",
-      "Voces: voz sintética de ElevenLabs v4; no se grabó ni se clonó ninguna voz humana",
+      "Voces: voz sintética de ElevenLabs v4 y Google Gemini TTS para el narrador; no se grabó ni se clonó ninguna voz humana",
       "Fuentes: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel y GNU Unifont (SIL Open Font License 1.1)"
     ],
     "contactTitle": "Contacto",
@@ -249,18 +256,20 @@
       },
       "return": {
         "title": "Tus partidas vuelven",
-        "text": "Los cazadores caídos resurgen y te cazan en partidas posteriores, y uno de ellos puede ocupar el asiento de un Terrateniente como hereje.",
+        "text": "Los cazadores caídos resurgen y te cazan en partidas posteriores, y uno de ellos puede ocupar el asiento de un Terrateniente como hereje. Únete al tablero en línea y el cazador de otro jugador puede esperarte en una guarida como tu rival.",
         "alt": "Un cazador resurgido, marcado en rojo, avanza hacia el jugador en el mapa."
       }
     }
   },
   "whatsnew": {
-    "title": "Nuevo en la 0.7.2",
+    "title": "Nuevo en la 0.8",
     "items": [
-      "Crea tu propio cazador antes de cada partida y gasta el banco en las estancias de una casa.",
-      "Clases en dos etapas y un árbol de habilidades que es un único mapa para ampliar y arrastrar.",
-      "Cuatro gremios y, cada semana, una puerta que elige la región que recorres.",
-      "Defensa y Escudo, y enemigos que pisotean, embisten, lanzan o escupen."
+      "En Android, los cazadores, monstruos, el equipo y los efectos están dibujados en arte vectorial, nítido en cualquier pantalla.",
+      "Un desafío semanal: la misma partida para todos los cazadores. Únete al tablero en línea para compararte con jugadores de tu ciudad, región o país (tú eliges qué lugar compartir), y el cazador de otro jugador puede esperarte en una guarida como tu rival.",
+      "Duelos: envía el código de un héroe a un amigo, o elige dos héroes guardados y combate en un mismo dispositivo.",
+      "Tu cazador habla con una voz del sexo que elijas, un narrador comenta la partida y, en portugués (Brasil), los personajes hablan portugués.",
+      "Accesibilidad: paletas para protanopía, deuteranopía y tritanopía, marcas de forma en las señales de color, control por voz en Android y un diagrama que explica cada opción.",
+      "Una demo gratuita para Android, en su propia app."
     ],
     "more": "Todos los cambios"
   },

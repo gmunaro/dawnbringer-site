@@ -164,6 +164,8 @@ main > section, main > .wrap { padding-top: 64px; }
 .beta-payment strong { color: var(--gold); font-size: 1.15em; }
 .beta-payment p:last-child { margin-bottom: 0; }
 .beta-step .btn { max-width: 100%; overflow-wrap: anywhere; text-align: center; }
+.beta-demo { margin-bottom: 24px; max-width: 64em; }
+.beta-demo .btn { max-width: 100%; overflow-wrap: anywhere; text-align: center; margin: 4px 8px 4px 0; }
 .beta-steps { margin: 0 0 24px; padding: 0; list-style: none; display: grid; gap: 20px; max-width: 64em; }
 .beta-step h3 { color: var(--gold); }
 .beta-n { display: inline-block; min-width: 1.6em; text-align: center; background: var(--blood); color: var(--parchment); margin-right: 6px; }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: roguelike auto-battler dark fantasy",
-    "description": "Pikselowy roguelike auto-battler. Zbuduj łowcę, sprawdź ekwipunek każdego wroga, potem zapłać Właścicielowi albo walcz.",
+    "description": "Roguelike auto-battler w świecie dark fantasy. Zbuduj łowcę, sprawdź ekwipunek każdego wroga, potem zapłać Właścicielowi albo walcz.",
     "pressTitle": "Materiały prasowe Dawnbringer",
     "pressDescription": "Karta informacyjna, opis, cechy, logo, key art i zrzuty ekranu gry Dawnbringer, roguelike auto-battlera od gmunaro.",
     "notFoundTitle": "Nie znaleziono strony",
@@ -17,14 +17,14 @@
     "skip": "Przejdź do treści",
     "home": "Start",
     "why": "O grze",
-    "new": "Nowości w 0.7.2",
+    "new": "Nowości w 0.8",
     "demo": "Demo na komputer",
     "beta": "Alfa na Androidzie",
     "press": "Dla prasy",
     "language": "Język"
   },
   "hero": {
-    "pitch": "Pikselowy roguelike auto-battler: zbuduj łowcę, sprawdź ekwipunek każdego wroga, potem zapłać Właścicielowi albo walcz.",
+    "pitch": "Roguelike auto-battler w świecie dark fantasy: zbuduj łowcę, sprawdź ekwipunek każdego wroga, potem zapłać Właścicielowi albo walcz.",
     "artAlt": "Mały łowca na wzgórzu staje naprzeciw olbrzymiego Właściciela w koronie, który wyłania się z ciemnych wzgórz pod krwistoczerwonym księżycem.",
     "clipTitle": "Rozgrywka",
     "clipAlt": "Fragment rozgrywki: bohater w pełnym ekwipunku sam walczy z grupą potworów.",
@@ -88,31 +88,34 @@
     "title": "Cechy",
     "items": [
       "6 pierwszych klas i 12 drugich klas.",
-      "Punkt atrybutu i punkt umiejętności za każdy poziom; drzewo umiejętności, które jest jedną mapą.",
+      "Punkt atrybutu i punkt umiejętności za każdy poziom; drzewo umiejętności, które jest jedną mapą, z 8 aktywnymi umiejętnościami, które odnawiają się w rundach.",
       "105 przedmiotów w 10 rodach, noszonych w slotach, z premiami zestawu za 2, 4 i 6 części.",
       "Rozgrzej przedmioty w Kuźni do +4 i wstaw w nie 19 rodzajów kart potworów.",
-      "19 Właścicieli w 6 biomach, przez 3 tygodnie.",
+      "19 Właścicieli w 6 regionach, przez 3 tygodnie.",
       "Patrole, watahy, zasadzki, strażnicy i mimiki na mapie.",
       "Dzień i noc: nocą pole widzenia się kurczy, a cienie na ciebie polują.",
       "Polegli łowcy powstają i polują na ciebie; jeden z nich może zasiąść na tronie Właściciela jako heretyk.",
       "Osobny bank i sakiewka: na starcie stawiasz złoto, a po każdym Właścicielu wypłacasz.",
-      "9 opcjonalnych Przysiąg, które podnoszą trudność i nagrodę.",
-      "Głosy z emocjami dla każdej postaci i dźwięki otoczenia w każdym biomie.",
+      "9 opcjonalnych ślubów, które czynią drogę okrutniejszą, a wypłatę większą.",
+      "Wyzwanie tygodnia z tablicą online, rywale od innych graczy i pojedynki z przyjaciółmi.",
+      "Każda postać mówi, narrator komentuje wyprawę, a każdy region ma własny dźwięk we dnie i w nocy.",
+      "Palety dla daltonistów, znaczniki kształtu, sterowanie głosem na Androidzie i schemat do każdej opcji.",
       "Zielnik, bestiariusz i 16 osiągnięć w Dzienniku.",
-      "Natywna grafika pikselowa 640x360, obsługa myszy, klawiatury, pada i dotyku.",
-      "Przetłumaczona na 14 języków."
+      "Łowcy, potwory, ekwipunek i efekty narysowane w grafice wektorowej na Androidzie.",
+      "Mysz, klawiatura, pad i dotyk, na pełnym ekranie na telefonach, tabletach i komputerach.",
+      "Przetłumaczona na 14 języków i zdubbingowana po portugalsku (Brazylia)."
     ]
   },
   "demo": {
     "title": "Pobierz demo",
-    "intro": "Darmowe demo na Windows, macOS i Linuksa. Zawiera całą wyprawę, z mniejszym wyborem przy tworzeniu łowcy, a izby domu pozostają zamknięte.",
+    "intro": "Darmowe demo na Windows, macOS i Linuksa oraz na Androida. Zawiera całą wyprawę, z mniejszym wyborem przy tworzeniu łowcy, a izby domu pozostają zamknięte. Demo na komputery wciąż używa dawnej grafiki pikselowej gry; aplikacje na Androida mają grafikę wektorową.",
     "version": "Wersja {version}.",
     "includesTitle": "Co zawiera demo",
     "includes": [
       "Własny łowca, stworzony przed wyprawą: płeć, skóra, oczy, włosy, strój i imię.",
-      "Premia na start, Riposta albo Pierwsza Krew, i broń: Grobowa Buława albo Arbalet Kata.",
+      "Premia na start, Riposta albo Pierwsza Krew, i broń: Żelazna Maczuga albo Stara Kusza.",
       "Klasy: Szermierz i Łucznik, a potem Krzyżowiec i Rycerz albo Łowca i Bard.",
-      "Pełna wyprawa: trzy tygodnie na mapie, wydarzenia, sklepy, przysięgi i Właściciele.",
+      "Pełna wyprawa: trzy tygodnie na mapie, wydarzenia, sklepy, śluby i Właściciele.",
       "4 startowe rody przedmiotów.",
       "Dom z 22 zamkniętymi izbami: pozostałe premie, bronie, klasy i rody przedmiotów oraz większe sakiewki są w pełnej wersji.",
       "Osobny zapis gry, oddzielny od pełnej wersji."
@@ -126,8 +129,8 @@
     "linuxNote": "x86_64. Rozpakuj archiwum i uruchom DawnbringerDemo.x86_64. Wymaga sterowników graficznych z OpenGL 3.3.",
     "download": "Pobierz ({size})",
     "checksums": "Sumy kontrolne SHA-256 plików",
-    "android": "Android: zamknięta alfa jest otwarta.",
-    "androidLink": "Dołącz do alfy",
+    "android": "Android: pełna gra i darmowe demo są w zamkniętym teście w Google Play.",
+    "androidLink": "Dołącz do testu",
     "ios": "iPhone i iPad: jeszcze niedostępne."
   },
   "beta": {
@@ -159,7 +162,11 @@
     "step3Title": "Otwórz grę na telefonie",
     "shotStore": "Google Play na telefonie. Dotknij niebieskiego przycisku z ceną.",
     "step4Title": "Potwierdź kartą testową",
-    "step4": "Google Play otworzy ekran płatności. Sprawdź, czy metoda płatności to „Test card, always approves” i czy ekran mówi o zamówieniu testowym, a potem dotknij „1-tap buy”. Gra się zainstaluje i nic nie zostanie pobrane."
+    "step4": "Google Play otworzy ekran płatności. Sprawdź, czy metoda płatności to „Test card, always approves” i czy ekran mówi o zamówieniu testowym, a potem dotknij „1-tap buy”. Gra się zainstaluje i nic nie zostanie pobrane.",
+    "demoTitle": "Darmowe demo na Androidzie",
+    "demoText": "Demo to osobna aplikacja, Dawnbringer Demo, i nie ma w niej kroku z płatnością. Po kroku 1 otwórz na tym samym koncie stronę testu dema, kliknij „Become a tester”, a potem zainstaluj je z Google Play.",
+    "demoTestLink": "Otwórz stronę testu dema",
+    "demoInstallLink": "Zainstaluj demo"
   },
   "duel": {
     "title": "Kod pojedynku",
@@ -184,9 +191,9 @@
     "release": "Data premiery",
     "releaseValue": "Zostanie ogłoszona",
     "platforms": "Platformy",
-    "platformsValue": "PC (Steam), Android (Google Play), iPhone i iPad (App Store)",
+    "platformsValue": "Android (Google Play, zamknięty test). Darmowe demo na Androida, Windows, macOS i Linuksa. Steam i App Store są planowane.",
     "price": "Cena",
-    "priceValue": "US$ 4.99 (planowana)",
+    "priceValue": "US$ 4.99; demo jest darmowe",
     "languages": "Języki",
     "languagesValue": "14: angielski, portugalski (Brazylia), hiszpański, francuski, niemiecki, włoski, rosyjski, ukraiński, polski, turecki, japoński, koreański, chiński uproszczony, chiński tradycyjny",
     "engine": "Silnik",
@@ -194,21 +201,21 @@
     "contact": "Kontakt",
     "social": "Media społecznościowe",
     "descriptionTitle": "Opis",
-    "description": "Dawnbringer to pikselowy roguelike auto-battler w świecie dark fantasy. Słońce zgasło, złoto jest jedynym pozostałym ciepłem, a co tydzień Właściciel przychodzi po czynsz. Gracze przemierzają turową mapę, wybierają walki i budują łowcę: tworzą go przed każdą wyprawą i rozwijają klasą w dwóch krokach, drzewem umiejętności, punktami atrybutów oraz 105 przedmiotami w 10 rodach, noszonymi w slotach, rozgrzewanymi w kuźni i wzbogacanymi o karty potworów. Ponieważ starcia rozstrzygają się automatycznie, bez losowości, a każdy wróg niesie widoczne przedmioty, gracze oceniają każdą walkę na drodze, czytając jego ekwipunek względem własnego buildu; Kamień Rozpaczy ostrzega tylko wtedy, gdy walka by zabiła bohatera. Przeciwko Właścicielowi milczy, a trzeba zapłacić dziesięcinę albo walczyć. Przed każdą wyprawą stawiasz złoto z banku, a po każdym tygodniu wypłacasz sakiewkę albo ryzykujesz ją w trudniejszym tygodniu. Między wyprawami wydajesz bank na izby domu; każda izba sprowadza kogoś, kto uczy premii lub klasy, wykuwa broń, otwiera ród przedmiotów albo daje większą sakiewkę. Polegli łowcy krążą po mapie w kolejnych wyprawach, a jeden z nich może zasiąść na tronie Właściciela jako heretyk.",
+    "description": "Dawnbringer to roguelike auto-battler w świecie dark fantasy. Słońce zgasło, złoto jest jedynym pozostałym ciepłem, a co tydzień Właściciel przychodzi po czynsz. Gracze przemierzają turową mapę, wybierają walki i budują łowcę: tworzą go przed każdą wyprawą i rozwijają klasą w dwóch krokach, drzewem umiejętności z aktywnymi umiejętnościami, punktami atrybutów oraz 105 przedmiotami w 10 rodach, noszonymi w slotach, rozgrzewanymi w kuźni i wzbogacanymi o karty potworów. Ponieważ starcia rozstrzygają się automatycznie, bez losowości, a każdy wróg niesie widoczne przedmioty, gracze oceniają każdą walkę na drodze, czytając jego ekwipunek względem własnego buildu; Kamień Rozpaczy ostrzega tylko wtedy, gdy walka by zabiła bohatera. Przeciwko Właścicielowi milczy, a trzeba zapłacić dziesięcinę albo walczyć. Przed każdą wyprawą stawiasz złoto z banku, a po każdym tygodniu wypłacasz sakiewkę albo ryzykujesz ją w trudniejszym tygodniu. Między wyprawami wydajesz bank na izby domu; każda izba sprowadza kogoś, kto uczy premii lub klasy, wykuwa broń, otwiera ród przedmiotów albo daje większą sakiewkę. Polegli łowcy krążą po mapie w kolejnych wyprawach, a jeden z nich może zasiąść na tronie Właściciela jako heretyk. Co tydzień wyprawa z wyzwania jest taka sama dla wszystkich graczy, a tablica online szereguje ją według miasta, regionu lub kraju; gracze, którzy dołączą, mogą w legowisku spotkać łowcę innego gracza jako rywala, a dwóch bohaterów może stanąć do pojedynku przez kod albo na jednym urządzeniu. Na Androidzie łowcy, potwory, ekwipunek i efekty są narysowane w grafice wektorowej. Każda postać mówi syntetycznym głosem, narrator komentuje wyprawę, a gra jest zdubbingowana po portugalsku (Brazylia). Wśród opcji są palety dla daltonistów, znaczniki kształtu i sterowanie głosem na Androidzie.",
     "mediaTitle": "Logo, key art i zrzuty ekranu",
     "zip": "Pobierz wszystko (.zip, {size})",
     "logo": "Logo (PNG, przezroczyste)",
     "icon": "Ikona (PNG, 512x512)",
     "keyart": "Key art (PNG, 1920x1080)",
     "keyartNoLogo": "Key art bez logo (PNG, 1920x1080)",
-    "screensNote": "Zrzuty ekranu to pliki PNG 1920x1080, przeskalowane całkowitokrotnie z natywnej rozdzielczości 640x360.",
+    "screensNote": "Zrzuty ekranu to pliki PNG 1920x1080 z wersji na Androida, z jej grafiką wektorową.",
     "creditsTitle": "Twórcy",
     "credits": [
       "Projekt, kod i grafika: gmunaro",
       "Muzyka: Juhani Junkala (CC0); nocna muzyka Właściciela jest oryginalna, zagrana na próbkach VSCO 2 Community Edition (CC0)",
       "Efekty dźwiękowe: Kenney, StarNinjas, Oiboo (CC0) i oryginalne dźwięki",
       "Dźwięki otoczenia: nagrania terenowe z freesound.org (CC0)",
-      "Głosy: syntetyczna mowa z ElevenLabs v4; nie nagrano ani nie klonowano głosu człowieka",
+      "Głosy: syntetyczna mowa z ElevenLabs v4, a dla narratora Google Gemini TTS; nie nagrano ani nie klonowano głosu człowieka",
       "Czcionki: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel i GNU Unifont (SIL Open Font License 1.1)"
     ],
     "contactTitle": "Kontakt",
@@ -249,18 +256,20 @@
       },
       "return": {
         "title": "Twoje wyprawy wracają",
-        "text": "Polegli łowcy powstają i polują na ciebie w kolejnych wyprawach, a jeden z nich może zasiąść na tronie Właściciela jako heretyk.",
+        "text": "Polegli łowcy powstają i polują na ciebie w kolejnych wyprawach, a jeden z nich może zasiąść na tronie Właściciela jako heretyk. Dołącz do tablicy online, a łowca innego gracza może czekać w legowisku jako twój rywal.",
         "alt": "Powstały łowca, oznaczony na czerwono, idzie na mapie w stronę gracza."
       }
     }
   },
   "whatsnew": {
-    "title": "Nowości w 0.7.2",
+    "title": "Nowości w 0.8",
     "items": [
-      "Zbuduj własnego łowcę przed każdą wyprawą i wydawaj bank na izby domu.",
-      "Klasy w dwóch krokach i drzewo umiejętności, które jest jedną mapą do przybliżania i przeciągania.",
-      "Cztery gildie i drzwi co tydzień, które wybierają region, przez który idziesz.",
-      "Obrona i Tarcza oraz wrogowie, którzy tratują, szarżują, rzucają albo plują."
+      "Na Androidzie łowcy, potwory, ekwipunek i efekty są narysowane w grafice wektorowej, ostrej na każdym ekranie.",
+      "Wyzwanie tygodnia: ta sama wyprawa dla każdego łowcy. Dołącz do tablicy online, by porównać się z graczami z twojego miasta, regionu lub kraju (sam wybierasz, jakie miejsce udostępnić); łowca innego gracza może czekać w legowisku jako twój rywal.",
+      "Pojedynki: wyślij kod bohatera przyjacielowi albo wybierz dwóch zapisanych bohaterów i walczcie na jednym urządzeniu.",
+      "Twój łowca mówi głosem wybranej przez ciebie płci, narrator komentuje wyprawę, a po portugalsku (Brazylia) postacie mówią po portugalsku.",
+      "Dostępność: palety dla protanopii, deuteranopii i tritanopii, znaczniki kształtu przy sygnałach kolorem, sterowanie głosem na Androidzie i schemat, który wyjaśnia każdą opcję.",
+      "Darmowe demo na Androida, w osobnej aplikacji."
     ],
     "more": "Wszystkie zmiany"
   },
