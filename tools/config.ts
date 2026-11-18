@@ -75,7 +75,7 @@ export const BETA: { group: string; test: string; install: string; demoTest: str
  * screens.items.<id> caption and alt text; the press kit holds the same picture at 1920x1080 as
  * src/presskit/screenshots/<NN>_<id>.png (NN = position, from 01). tools/media.sh writes both.
  */
-export const SHOTS = ["night", "landlord", "battle", "stone", "risen", "legend", "shop", "camp", "group", "cashout", "build", "event"] as const;
+export const SHOTS = ["night", "landlord", "battle", "stone", "risen", "rival", "board", "camp", "shop", "build", "a11y", "event"] as const;
 export type ShotId = (typeof SHOTS)[number];
 
 /**
