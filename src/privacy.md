@@ -1,6 +1,6 @@
 # Dawnbringer: Privacy Policy
 
-Effective date: 2026-11-07
+Effective date: 2026-11-18
 
 Developer: gmunaro (individual developer), contact: dawnbringergame@gmail.com
 
@@ -14,6 +14,8 @@ choose to send a bug report and, only if you turn them on, a record of each run 
 In the Google Play version for Android it also checks that your Google account owns the game, and
 every version asks this website once a day at most whether a newer version exists. Voice notes for
 bug reports are turned into text on your phone: no sound is sent.
+If you join the online weekly challenge, the game also sends your challenge runs and the place you
+chose for the weekly board.
 
 ## Data stored on your device
 
@@ -31,6 +33,10 @@ below in its settings, and keeps up to 20 records it could not deliver until it 
 codes friends sent you, stay in your game profile. A duel code you share holds your hero's build,
 name and looks; it leaves your device only when you send it yourself, and the duel page of this
 site reads it in your browser without sending it to us.
+If you join the online weekly challenge, the game keeps, apart from your profile, the challenge's
+random id and the place you chose, up to 12 challenge runs with what became of each, and the place
+each of the last 4 weeks was sent with. A challenge run finished before you join waits there and is
+sent only if you join.
 
 ## Bug reports (only when you send one)
 
@@ -162,6 +168,80 @@ and we will delete them. If you turn records off, the game sends nothing more an
 records it had not sent yet. Records already sent stay until the 12 months pass or you delete
 them.
 
+## Online weekly challenge (only if you join)
+
+**Used only to rank the weekly challenge's runs and to bring other players' hunters into your game
+as rivals. Nothing is sold or shared, and no name or text you type is sent.**
+
+Duels with a friend by code work without the internet and send nothing to us. The online weekly
+board is optional: your runs and your id are sent only after you join it.
+
+When you open the weekly board before joining, the game asks our server which place your connection
+seems to come from. Cloudflare estimates it from your IP address; it is often only the nearest large
+city. The game shows that place and you choose: "Confirm city", "Country only" or "No place". With
+no place your runs are still checked, but you are on no public board. "Change place" on the board
+gives the same choice again at any time. A new city counts at once for a week in which you have not
+sent a run yet; the weeks in which you already sent one keep the city they were sent with until the
+next week. "No place", and "Country only" in the same country, apply at once, also to the runs you
+already sent this week and last week: the server removes the city, or the whole place, from them and
+from the board. If you are now in another country, choose "No place" to take the place off the runs
+already sent. The board is kept for up to 5 minutes to answer quickly, so the name of your runs may
+still show on some players' copy of the board for up to 5 minutes.
+
+When you join, the game creates a random code on your device for the challenge. It is separate from
+the ids of bug reports and run records, and it is not linked to your Google account or to your
+device's identifiers. The game sends it with each run and each question about your own runs; the
+server stores only a one-way fingerprint of it (SHA-256), which is your id on the board. The board
+never shows the id: each run there shows a name the server makes up for that week.
+
+When a challenge run ends and you have joined, the game sends:
+
+- your random code, described above;
+- the run's code: the week, the game version, every choice of the run in order and its result, so
+  that a computer run by the developer can play the run again and check it. From that replay the
+  server takes the score and the hunter you ended with (champion, gear, level and build), which
+  other players may meet as a rival in their own runs and see on the board under the made-up name;
+- the place you chose: city, region and country, the country only, or none.
+
+To show the board, the game asks for the week's ranking of your place (the country, region and city
+you chose, without your code). To fetch a rival, it sends only the version of the fight rules.
+
+The server does not store your IP address or coordinates with any of this. It uses the IP address
+only to tell you the place it estimates, to check that the country and region you chose match your
+connection, and to limit how many requests can be made per minute. The server's technical logs are
+the same as for bug reports, described above. Runs are stored in a database on Cloudflare
+(Cloudflare D1); Cloudflare, Inc. hosts them as our service provider.
+
+A week's runs, ranking and rivals are deleted automatically when the week leaves the board: at the
+latest the day after the following week ends, so at most 15 days after the week starts. The code of
+a refused run is emptied after 7 days.
+
+"Transfer code" on the board shows your random code, so that you can use the same id on another
+device: "Copy code" puts it on the clipboard, and on the other device "Paste code" or "Use code"
+takes it, after which you choose the place again for that device. Anyone who has the code can send
+runs and delete your data as you, so keep it to yourself. The code leaves your device only to our
+server, and when you copy or share it yourself. Taking a code makes the device stop using its
+previous id: the runs sent with that id stay on the server until they are deleted with their week,
+or press "Delete my data" before taking the code.
+
+"Delete my data" on the weekly board, after you confirm it with "Delete", asks the server to delete
+every run sent with your id, its place on the board and its rivals; then the game forgets the id,
+and joining again creates a new one. As with the place, the made-up name of your runs may still show
+on some players' copy of the board for up to 5 minutes. A rival that another player's game already
+fetched from your runs is not reached: it stays in that game, in memory, until one of their runs
+meets it or the game closes, and if it defeats their hunter, its made-up name stays in the record of
+that fall. It carries only the made-up name and the hunter's build, nothing that identifies you. The
+board's question before "Delete" says so. If the server does not answer, your device
+keeps the id and the board says so; the server may or may not have deleted the runs, so press
+"Delete my data" again later. Another device that took your transfer code still has the id: if it
+sends a run, the id is used again. Delete the data there too, or do not share the code.
+
+Legal basis: your consent (LGPD art. 7, I; GDPR art. 6(1)(a)). You give it when you join the weekly
+board, and you choose separately whether a place goes with your runs. You can withdraw it at any
+time, and the withdrawal reaches what was already sent to our server: "No place" takes the place off the runs
+you already sent, and "Delete my data" deletes every run sent with your id (LGPD art. 8, §5; GDPR art.
+7(3)); a rival another player already fetched stays in their game, as said above. Withdrawing does not make unlawful what was done with your consent before it.
+
 ## Google Play license check (Android, Google Play version only)
 
 When you open the game, it sends a one-time token from Google Play and a random number to the same
@@ -197,7 +277,7 @@ dawnbringergame@gmail.com
 
 # Dawnbringer: Política de Privacidade
 
-Data de vigência: 2026-11-07
+Data de vigência: 2026-11-18
 
 Desenvolvedor: gmunaro (desenvolvedor individual), contato: dawnbringergame@gmail.com
 
@@ -209,6 +289,8 @@ mandar um relatório de bug e, só se você ativar, um registro de cada partida 
 Na versão do Google Play para Android, ele também confere se a sua conta Google tem o jogo, e todas
 as versões perguntam a este site, no máximo uma vez por dia, se existe uma versão mais nova. A nota
 de voz dos relatórios de bug vira texto no seu celular: nenhum som é enviado.
+Se você entrar no desafio da semana online, o jogo também envia suas partidas do desafio e o local
+que você escolheu para o placar da semana.
 
 ## Dados guardados no seu aparelho
 
@@ -227,6 +309,10 @@ partir da versão 0.8.0, até 10 registros de duelo). Os heróis que você guard
 e os códigos que amigos mandaram, ficam no seu perfil do jogo. Um código de duelo que você
 compartilha leva a build, o nome e a aparência do seu herói; ele só sai do seu aparelho quando você
 mesmo o envia, e a página de duelo deste site o lê no seu navegador, sem enviá-lo para nós.
+Se você entrar no desafio da semana online, o jogo guarda, fora do seu perfil, o id aleatório do
+desafio e o local que você escolheu, até 12 partidas do desafio com o que aconteceu com cada uma, e
+o local com que cada uma das últimas 4 semanas foi enviada. Uma partida do desafio terminada antes
+de você entrar espera ali e só é enviada se você entrar.
 
 ## Relatórios de bug (só quando você envia)
 
@@ -360,6 +446,87 @@ enviados com o seu id e depois cria um id novo. Você também pode mandar um e-m
 dawnbringergame@gmail.com com o id mostrado nas Opções, e nós os apagamos. Se você desativar os
 registros, o jogo não envia mais nada e apaga os registros que ainda não tinha enviado. Os
 registros já enviados ficam até passarem os 12 meses ou até você apagá-los.
+
+## Desafio da semana online (só se você entrar)
+
+**Usado só para classificar as partidas do desafio da semana e trazer caçadores de outros jogadores
+para o seu jogo como rivais. Nada é vendido nem compartilhado, e não vai nome nem texto digitado por
+você.**
+
+Duelos com um amigo por código funcionam sem internet e não nos enviam nada. O placar da semana
+online é opcional: suas partidas e o seu id só são enviados depois que você entra.
+
+Quando você abre o placar da semana antes de entrar, o jogo pergunta ao nosso servidor de que local
+sua conexão parece vir. A Cloudflare estima a partir do seu endereço IP; muitas vezes é só a cidade
+grande mais próxima. O jogo mostra esse local e você escolhe: "Confirmar cidade", "Só o país" ou
+"Sem local". Sem local, suas partidas ainda são conferidas, mas você não aparece em nenhum placar
+público. "Mudar local", no placar, dá a mesma escolha de novo quando você quiser. Uma cidade nova
+vale na hora numa semana em que você ainda não enviou partida; as semanas em que você já enviou uma
+ficam com a cidade com que foram enviadas até a semana seguinte. "Sem local", e "Só o país" no mesmo
+país, valem na hora, inclusive para as partidas que você já enviou nesta semana e na anterior: o
+servidor tira delas, e do placar, a cidade ou o local inteiro. Se agora você estiver em outro país,
+escolha "Sem local" para tirar o local das partidas já enviadas. O placar fica guardado por até 5
+minutos para responder rápido, então o nome das suas partidas ainda pode aparecer na cópia do placar
+de alguns jogadores por até 5 minutos.
+
+Quando você entra, o jogo cria um código aleatório no seu aparelho para o desafio. Ele é separado
+dos ids dos relatórios de bug e dos registros de partida, e não tem ligação com a sua conta Google
+nem com os identificadores do seu aparelho. O jogo o envia com cada partida e com cada pergunta
+sobre as suas partidas; o servidor guarda só uma impressão digital dele, de mão única (SHA-256), que
+é o seu id no placar. O placar nunca mostra o id: cada partida ali aparece com um nome que o
+servidor inventa para aquela semana.
+
+Quando uma partida do desafio termina e você já entrou, o jogo envia:
+
+- o seu código aleatório, descrito acima;
+- o código da partida: a semana, a versão do jogo, cada escolha da partida em ordem e o resultado,
+  para que um computador do desenvolvedor possa jogar a partida de novo e conferi-la. Dessa
+  repetição o servidor tira a pontuação e o caçador com que você terminou (campeão, equipamento,
+  nível e build), que outros jogadores podem encontrar como rival nas partidas deles e ver no placar
+  com o nome inventado;
+- o local que você escolheu: cidade, estado e país, só o país, ou nenhum.
+
+Para mostrar o placar, o jogo pede a classificação da semana do seu local (o país, o estado e a
+cidade que você escolheu, sem o seu código). Para buscar um rival, envia só a versão das regras de
+luta.
+
+O servidor não guarda seu endereço IP nem coordenadas com nada disso. Ele usa o IP só para dizer o
+local que estima, para conferir que o país e o estado escolhidos batem com a sua conexão e para
+limitar quantos pedidos podem ser feitos por minuto. Os registros técnicos do servidor são os mesmos
+dos relatórios de bug, descritos acima. As partidas ficam num banco de dados na Cloudflare
+(Cloudflare D1); a Cloudflare, Inc. as hospeda como nossa prestadora de serviço.
+
+As partidas, a classificação e os rivais de uma semana são apagados automaticamente quando a semana
+sai do placar: no máximo no dia seguinte ao fim da semana seguinte, ou seja, até 15 dias depois do
+começo da semana. O código de uma partida recusada é esvaziado depois de 7 dias.
+
+"Transferir", no placar, mostra o seu código aleatório, para você usar o mesmo id em outro aparelho:
+"Copiar código" o coloca na área de transferência, e no outro aparelho "Colar código" ou "Usar
+código" o recebe, e depois você escolhe o local de novo para aquele aparelho. Quem tiver o código
+pode enviar partidas e apagar os seus dados como se fosse você, então guarde-o só para você. O
+código só sai do seu aparelho para o nosso servidor, e quando você mesmo o copia ou compartilha.
+Usar um código faz o aparelho deixar o id que tinha: as partidas enviadas com esse id ficam no
+servidor até serem apagadas com a semana delas, ou toque em "Apagar meus dados" antes de usar o
+código.
+
+"Apagar meus dados", no placar da semana, depois que você confirma com "Apagar", pede ao servidor
+que apague todas as partidas enviadas com o seu id, o lugar dele no placar e os rivais; depois o
+jogo esquece o id, e entrar de novo cria um novo. Como com o local, o nome inventado das suas
+partidas ainda pode aparecer na cópia do placar de alguns jogadores por até 5 minutos. Um rival que o jogo de outro jogador já baixou das suas
+partidas não é alcançado: ele fica naquele jogo, na memória, até uma partida dele encontrá-lo ou o
+jogo fechar, e, se derrotar o caçador desse jogador, o nome inventado fica no registro dessa queda.
+Ele leva só o nome inventado e a build do caçador, nada que identifique você. A pergunta do placar
+antes de "Apagar" avisa isso. Se o servidor não responder, seu aparelho mantém o id e o placar avisa; o servidor pode ter apagado as partidas ou
+não, então toque em "Apagar meus dados" de novo mais tarde. Outro aparelho que usou o seu código de
+transferência continua com o id: se ele enviar uma partida, o id volta a ser usado. Apague os dados
+lá também, ou não compartilhe o código.
+
+Base legal: o seu consentimento (LGPD art. 7º, I; GDPR art. 6(1)(a)). Você o dá quando entra no
+placar da semana, e escolhe à parte se um local vai com as suas partidas. Você pode retirá-lo quando
+quiser, e a retirada alcança o que já foi enviado ao nosso servidor: "Sem local" tira o local das partidas que
+você já enviou, e "Apagar meus dados" apaga todas as partidas enviadas com o seu id (LGPD art. 8º,
+§5º; GDPR art. 7(3)); um rival que outro jogador já baixou fica no jogo dele, como dito acima. A
+retirada não torna ilegal o que foi feito antes dela com o seu consentimento.
 
 ## Verificação de licença do Google Play (só Android, versão do Google Play)
 
