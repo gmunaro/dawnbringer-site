@@ -118,7 +118,7 @@
       "Su propia partida guardada, separada del juego completo."
     ],
     "windows": "Windows",
-    "windowsNote": "Windows 10 u 11, 64 bits. Un solo archivo .exe, sin instalador. El archivo aún no tiene firma de código, así que SmartScreen puede avisar: haz clic en Más información y luego en Ejecutar de todas formas.",
+    "windowsNote": "Windows 10 u 11, 64 bits. Un archivo .zip, sin instalador: descomprímelo y ejecuta DawnbringerDemo.exe. El archivo aún no tiene firma de código, así que SmartScreen puede avisar: haz clic en Más información y luego en Ejecutar de todas formas.",
     "macos": "macOS",
     "macosNote": "Una app para Mac con Apple silicon e Intel. Descomprímela y arrastra Dawnbringer a Aplicaciones.",
     "macosOpen": "Apple aún no ha notarizado la app, así que macOS bloquea la primera apertura. Haz clic derecho (o Control-clic) en la app y elige Abrir. Si no aparece el botón Abrir, ve a Ajustes del Sistema > Privacidad y seguridad y haz clic en Abrir igualmente.",

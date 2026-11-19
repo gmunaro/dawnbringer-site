@@ -118,7 +118,7 @@
       "Ein eigener Spielstand, getrennt vom Vollspiel."
     ],
     "windows": "Windows",
-    "windowsNote": "Windows 10 oder 11, 64 Bit. Eine einzige .exe-Datei, ohne Installer. Die Datei ist noch nicht codesigniert, daher kann SmartScreen warnen: Klicke auf Weitere Informationen und dann auf Trotzdem ausführen.",
+    "windowsNote": "Windows 10 oder 11, 64 Bit. Eine .zip-Datei ohne Installer: entpacken und DawnbringerDemo.exe starten. Die Datei ist noch nicht codesigniert, daher kann SmartScreen warnen: Klicke auf Weitere Informationen und dann auf Trotzdem ausführen.",
     "macos": "macOS",
     "macosNote": "Eine App für Macs mit Apple Silicon und Intel. Entpacke sie und ziehe Dawnbringer in den Ordner Programme.",
     "macosOpen": "Die App ist noch nicht von Apple notarisiert, daher blockiert macOS den ersten Start. Klicke mit der rechten Maustaste (oder bei gedrückter Ctrl-Taste) auf die App und wähle Öffnen. Gibt es keinen Öffnen-Button, gehe zu Systemeinstellungen > Datenschutz & Sicherheit und klicke auf Dennoch öffnen.",
