@@ -24,13 +24,13 @@
     "language": "Sprache"
   },
   "hero": {
-    "pitch": "Ein Dark-Fantasy-Roguelike-Autobattler: Baue einen Jäger, lies die Ausrüstung jedes Gegners und bezahle dann den Hausherrn oder kämpfe.",
+    "pitch": "Ein Dark-Fantasy-Roguelike, in dem Kämpfe von selbst ablaufen: Baue einen Jäger, lies die Ausrüstung jedes Gegners und bezahle dann den Hausherrn oder kämpfe. Teste es kostenlos auf dem Computer.",
     "artAlt": "Ein kleiner Jäger auf einem Hügel steht einem riesigen gekrönten Hausherrn gegenüber, der unter einem blutroten Mond vor den dunklen Hügeln steht.",
     "clipTitle": "Gameplay",
     "clipAlt": "Gameplay-Clip: Ein Held in voller Ausrüstung kämpft allein gegen eine Gruppe Monster.",
     "clipFallback": "Dein Browser kann dieses Video nicht abspielen.",
-    "play": "Android-Alpha",
-    "demo": "Desktop-Demo"
+    "play": "Zur Android-Alpha anmelden",
+    "demo": "Kostenlose Demo spielen"
   },
   "screens": {
     "items": {

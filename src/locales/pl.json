@@ -24,13 +24,13 @@
     "language": "Język"
   },
   "hero": {
-    "pitch": "Roguelike auto-battler w świecie dark fantasy: zbuduj łowcę, sprawdź ekwipunek każdego wroga, potem zapłać Właścicielowi albo walcz.",
+    "pitch": "Roguelike w świecie dark fantasy, w którym walki toczą się same: zbuduj łowcę, sprawdź ekwipunek każdego wroga, potem zapłać Właścicielowi albo walcz. Wypróbuj za darmo na komputerze.",
     "artAlt": "Mały łowca na wzgórzu staje naprzeciw olbrzymiego Właściciela w koronie, który stoi przed ciemnymi wzgórzami pod krwistoczerwonym księżycem.",
     "clipTitle": "Rozgrywka",
     "clipAlt": "Fragment rozgrywki: bohater w pełnym ekwipunku sam walczy z grupą potworów.",
     "clipFallback": "Twoja przeglądarka nie może odtworzyć tego filmu.",
-    "play": "Alfa na Androidzie",
-    "demo": "Demo na komputer"
+    "play": "Dołącz do alfy na Androidzie",
+    "demo": "Zagraj w darmowe demo"
   },
   "screens": {
     "items": {

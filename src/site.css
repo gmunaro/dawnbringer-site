@@ -119,6 +119,7 @@ a.btn:active { border-image-source: url(ui/button_pressed.png); }
 .tagline { font-size: calc(var(--px) * 2); color: var(--bone); margin: 4px 0 12px; line-height: 1.2; }
 .pitch { max-width: 34em; }
 .stores { display: flex; flex-wrap: wrap; gap: 12px; margin: 16px 0 0; padding: 0; list-style: none; }
+.stores .btn { max-width: 100%; text-align: center; }
 @media (min-width: 720px) {
   .hero-art img { height: 640px; object-position: 64% 100%; }
   .hero-text {

@@ -24,13 +24,13 @@
     "language": "Langue"
   },
   "hero": {
-    "pitch": "Un auto-battler roguelike de dark fantasy : composez un chasseur, lisez l'attirail de chaque ennemi, puis payez le Seigneur ou combattez.",
+    "pitch": "Un roguelike de dark fantasy où les combats se jouent tout seuls : composez un chasseur, lisez l'attirail de chaque ennemi, puis payez le Seigneur ou combattez. Essayez-le gratuitement sur ordinateur.",
     "artAlt": "Un petit chasseur sur une colline fait face à un Seigneur géant et couronné dressé devant les collines sombres sous une lune rouge sang.",
     "clipTitle": "Gameplay",
     "clipAlt": "Extrait de jeu : un héros en attirail complet combat tout seul un groupe de monstres.",
     "clipFallback": "Votre navigateur ne peut pas lire cette vidéo.",
-    "play": "Alpha Android",
-    "demo": "Démo pour ordinateur"
+    "play": "Rejoindre l'alpha Android",
+    "demo": "Jouer à la démo gratuite"
   },
   "screens": {
     "items": {

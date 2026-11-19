@@ -24,13 +24,13 @@
     "language": "Lingua"
   },
   "hero": {
-    "pitch": "Un auto-battler roguelike dark fantasy: costruisci un cacciatore, leggi la dotazione di ogni nemico, poi paga il Signore o combatti.",
+    "pitch": "Un roguelike dark fantasy in cui i combattimenti si svolgono da soli: costruisci un cacciatore, leggi la dotazione di ogni nemico, poi paga il Signore o combatti. Provalo gratis sul computer.",
     "artAlt": "Un piccolo cacciatore su una collina affronta un gigantesco Signore incoronato che si erge davanti alle colline buie sotto una luna rosso sangue.",
     "clipTitle": "Gameplay",
     "clipAlt": "Video di gameplay: un eroe con tutta la dotazione combatte da solo contro un gruppo di mostri.",
     "clipFallback": "Il tuo browser non può riprodurre questo video.",
-    "play": "Alpha Android",
-    "demo": "Demo per desktop"
+    "play": "Partecipa all'alpha Android",
+    "demo": "Gioca la demo gratuita"
   },
   "screens": {
     "items": {

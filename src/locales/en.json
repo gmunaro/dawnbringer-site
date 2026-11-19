@@ -24,13 +24,13 @@
     "language": "Language"
   },
   "hero": {
-    "pitch": "A dark-fantasy roguelike auto-battler: build a hunter, read each foe's gear, then pay the Landlord or fight.",
+    "pitch": "A dark-fantasy roguelike where fights play out on their own: build a hunter, read each foe's gear, then pay the Landlord or fight. Try it free on your computer.",
     "artAlt": "A small hunter on a hill faces a giant crowned Landlord standing before the dark hills under a blood-red moon.",
     "clipTitle": "Gameplay",
     "clipAlt": "Gameplay clip: a hero in full gear fights a group of monsters on its own.",
     "clipFallback": "Your browser cannot play this video.",
-    "play": "Android alpha",
-    "demo": "Desktop demo"
+    "play": "Join the Android alpha",
+    "demo": "Play the free demo"
   },
   "screens": {
     "items": {
