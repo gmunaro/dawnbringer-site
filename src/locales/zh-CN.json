@@ -121,7 +121,7 @@
       "独立存档，与完整版分开。"
     ],
     "windows": "Windows",
-    "windowsNote": "Windows 10 或 11，64 位。只有一个 .exe 文件，无需安装。文件暂未进行代码签名，SmartScreen 可能会发出警告：点击“更多信息”，再点击“仍要运行”。",
+    "windowsNote": "Windows 10 或 11，64 位。只有一个 .zip 文件，无需安装：解压后运行 DawnbringerDemo.exe。文件暂未进行代码签名，SmartScreen 可能会发出警告：点击“更多信息”，再点击“仍要运行”。",
     "macos": "macOS",
     "macosNote": "一个应用同时支持 Apple 芯片和 Intel 的 Mac。解压后把 Dawnbringer 拖到“应用程序”。",
     "macosOpen": "该应用尚未经过 Apple 公证，macOS 会阻止首次打开。右键点按（或按住 Control 点按）应用并选择“打开”。如果没有“打开”按钮，请前往“系统设置”>“隐私与安全性”，点按“仍要打开”。",

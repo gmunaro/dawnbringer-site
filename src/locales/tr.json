@@ -121,7 +121,7 @@
       "Tam sürümden ayrı, kendi kayıt dosyası."
     ],
     "windows": "Windows",
-    "windowsNote": "Windows 10 veya 11, 64 bit. Tek bir .exe dosyası, kurulum yok. Dosyanın henüz kod imzası yok, bu yüzden SmartScreen uyarabilir: Daha fazla bilgi'ye, ardından Yine de çalıştır'a tıklayın.",
+    "windowsNote": "Windows 10 veya 11, 64 bit. Tek bir .zip dosyası, kurulum yok: arşivi açın ve DawnbringerDemo.exe'yi çalıştırın. Dosyanın henüz kod imzası yok, bu yüzden SmartScreen uyarabilir: Daha fazla bilgi'ye, ardından Yine de çalıştır'a tıklayın.",
     "macos": "macOS",
     "macosNote": "Apple silicon ve Intel Mac'ler için tek bir uygulama. Arşivi açın ve Dawnbringer'ı Uygulamalar'a sürükleyin.",
     "macosOpen": "Uygulama henüz Apple tarafından onaylanmadı, bu yüzden macOS ilk açılışı engeller. Uygulamaya sağ tıklayın (veya Control ile tıklayın) ve Aç'ı seçin. Aç düğmesi yoksa Sistem Ayarları > Gizlilik ve Güvenlik'e gidin ve Yine de Aç'a tıklayın.",

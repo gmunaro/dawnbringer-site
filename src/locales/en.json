@@ -121,7 +121,7 @@
       "Its own save, separate from the full game."
     ],
     "windows": "Windows",
-    "windowsNote": "Windows 10 or 11, 64-bit. One .exe file, no installer. The file is not code-signed yet, so SmartScreen may warn you: click More info, then Run anyway.",
+    "windowsNote": "Windows 10 or 11, 64-bit. One .zip file, no installer: extract it and run DawnbringerDemo.exe. The file is not code-signed yet, so SmartScreen may warn you: click More info, then Run anyway.",
     "macos": "macOS",
     "macosNote": "One app for Apple silicon and Intel Macs. Unzip it and drag Dawnbringer to Applications.",
     "macosOpen": "The app is not notarized by Apple yet, so macOS blocks the first launch. Right-click (or Control-click) the app and choose Open. If there is no Open button, go to System Settings > Privacy & Security and click Open Anyway.",

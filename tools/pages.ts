@@ -234,7 +234,7 @@ function demoSection(c: Ctx, demo: Demo): string {
 ${t.demo.includes.map((x) => `<li>${esc(x)}</li>`).join("\n")}
 </ul>
 <ul class="cards platforms demo-downloads">
-${card("windows", t.demo.windows, [t.demo.windowsNote], ".exe")}
+${card("windows", t.demo.windows, [t.demo.windowsNote], ".zip")}
 ${card("macos", t.demo.macos, [t.demo.macosNote, t.demo.macosOpen], ".zip")}
 ${card("linux", t.demo.linux, [t.demo.linuxNote], ".tar.gz")}
 </ul>

@@ -1,48 +1,53 @@
 {
   "schema": 1,
-  "version": "0.7.2",
-  "date": "2026-11-07",
+  "version": "0.8.0",
+  "date": "2026-11-19",
   "min_supported": "0.3.0",
   "changelog": "https://gmunaro.github.io/dawnbringer-site/changelog/",
   "platforms": {
     "android": {
-      "version": "0.7.2",
+      "version": "0.8.0",
       "url": "https://play.google.com/store/apps/details?id=com.gmunaro.dawnbringer",
       "market": "market://details?id=com.gmunaro.dawnbringer"
     },
+    "android-demo": {
+      "version": "0.8.0",
+      "url": "https://play.google.com/store/apps/details?id=com.gmunaro.dawnbringer.demo",
+      "market": "market://details?id=com.gmunaro.dawnbringer.demo"
+    },
     "linux-demo": {
-      "version": "0.7.2",
+      "version": "0.8.0",
       "url": "https://gmunaro.github.io/dawnbringer-site/#download",
-      "file": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.7.2/DawnbringerDemo-0.7.2-linux-x86_64.tar.gz",
-      "bytes": 130037441
+      "file": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.8.0/DawnbringerDemo-0.8.0-linux-x86_64.tar.gz",
+      "bytes": 356321304
     },
     "macos-demo": {
-      "version": "0.7.2",
+      "version": "0.8.0",
       "url": "https://gmunaro.github.io/dawnbringer-site/#download",
-      "file": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.7.2/DawnbringerDemo-0.7.2-macos.zip",
-      "bytes": 166428282
+      "file": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.8.0/DawnbringerDemo-0.8.0-macos.zip",
+      "bytes": 392617816
     },
     "windows-demo": {
-      "version": "0.7.2",
+      "version": "0.8.0",
       "url": "https://gmunaro.github.io/dawnbringer-site/#download",
-      "file": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.7.2/DawnbringerDemo-0.7.2-windows.exe",
-      "bytes": 234661608
+      "file": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.8.0/DawnbringerDemo-0.8.0-windows.zip",
+      "bytes": 360245825
     }
   },
   "notes": {
-    "en": "- Build your hunter before each run: body, hair, outfit and weapon\n- Heat rooms of the House with your bank: each brings a teacher, an artisan or a bigger purse\n- Classes advance in two steps, after the first two Landlords\n- The skill tree is one map to zoom and drag\n- Four guilds, with ranks, a contract per run and a rival\n- Doors show the region, its enemies and the items it favors\n- Each enemy attacks its own way: stomp, charge, throw or spit",
-    "pt_BR": "- Monte seu caçador antes de cada run: corpo, cabelo, roupa e arma\n- Aqueça cômodos da Casa com o cofre: cada um traz um mestre, um artesão ou uma bolsa maior\n- As classes vêm em duas etapas, após os dois primeiros Senhorios\n- A árvore de habilidades é um mapa com zoom e arrasto\n- Quatro guildas, com postos, contrato por run e um rival\n- As portas mostram a região, os inimigos e os itens favorecidos\n- Cada inimigo ataca do seu jeito: pisão, investida, arremesso ou cuspe",
-    "es": "- Crea tu cazador antes de cada partida: cuerpo, pelo, ropa y arma\n- Caldea estancias de la Casa con tu banco: cada una trae un maestro, un artesano o una bolsa mayor\n- Clases en dos pasos, tras los dos primeros Terratenientes\n- El árbol de habilidades es un mapa con zoom y arrastre\n- Cuatro gremios: rangos, un contrato por partida y un rival\n- Las puertas muestran región, enemigos y objetos favorecidos\n- Cada enemigo ataca a su modo: pisotón, carga, lanzamiento o escupitajo",
-    "fr": "- Créez votre chasseur avant chaque partie : corps, cheveux, tenue, arme\n- Chauffez les pièces de la maison avec la banque : un maître, un artisan ou une bourse plus grosse\n- Classes en deux étapes, après les deux premiers Seigneurs\n- L'arbre de compétences : une carte zoomable et déplaçable\n- Quatre guildes : rangs, contrat par partie et rival\n- Les portes montrent région, ennemis et objets favoris\n- Chaque ennemi attaque à sa façon : piétinement, charge, lancer, crachat",
-    "de": "- Erschaffe deinen Jäger vor jedem Lauf: Körper, Haare, Outfit, Waffe\n- Heize Zimmer im Haus mit der Bank: jedes bringt Lehrer, Handwerker oder eine größere Börse\n- Klassen in zwei Stufen, nach den ersten beiden Hausherren\n- Der Fertigkeitsbaum ist eine Karte zum Zoomen und Ziehen\n- Vier Gilden: Ränge, ein Vertrag pro Lauf, ein Rivale\n- Türen zeigen Region, Gegner und begünstigte Gegenstände\n- Jeder Gegner greift anders an: Stampfen, Ansturm, Wurf oder Spucke",
-    "it": "- Crea il tuo cacciatore prima di ogni partita: corpo, capelli, abiti, arma\n- Scalda le stanze della Casa con la banca: ognuna porta un maestro, un artigiano o una borsa più grande\n- Classi in due fasi, dopo i primi due Signori\n- L'albero delle abilità è una mappa con zoom e trascinamento\n- Quattro gilde, con gradi, un contratto a partita e un rivale\n- Le porte mostrano la regione, i nemici e gli oggetti che favorisce\n- Ogni nemico attacca a modo suo: pestone, carica, lancio o sputo",
-    "ru": "- Создавай охотника перед каждым забегом: тело, волосы, наряд, оружие\n- Протапливай комнаты Дома из банка: каждая приводит наставника, ремесленника или даёт мошну больше\n- Классы в два этапа: после первых двух Ростовщиков\n- Древо навыков — одна карта с масштабом и перетаскиванием\n- Четыре гильдии: ранги, контракт на забег и соперник\n- Двери показывают регион, его врагов и предметы, которым он благоволит\n- Каждый враг бьёт по-своему: топот, рывок, бросок или плевок",
-    "uk": "- Створюй мисливця перед кожним забігом: тіло, волосся, вбрання, зброя\n- Натоплюй кімнати Дому з банку: кожна приводить наставника, ремісника або дає більшу калиту\n- Класи у два етапи: після перших двох Лихварів\n- Дерево навичок — одна мапа з масштабуванням і перетягуванням\n- Чотири гільдії: ранги, контракт на забіг і суперник\n- Двері показують регіон, його ворогів і предмети, яким він сприяє\n- Кожен ворог б'є по-своєму: тупіт, ривок, кидок або плювок",
-    "pl": "- Stwórz łowcę przed każdą wyprawą: ciało, włosy, strój i broń\n- Napal izby Domu z banku: każda sprowadza nauczyciela, rzemieślnika lub daje większą sakiewkę\n- Klasy w dwóch etapach, po dwóch pierwszych Właścicielach\n- Drzewo umiejętności to jedna mapa z zoomem i przeciąganiem\n- Cztery gildie: rangi, kontrakt na wyprawę i rywal\n- Drzwi pokazują region, jego wrogów i przedmioty, którym sprzyja\n- Każdy wróg atakuje po swojemu: tupnięcie, szarża, rzut lub plucie",
-    "tr": "- Her koşudan önce avcını yarat: beden, saç, kıyafet ve silah\n- Bankayla Hane'nin odalarını ısıt: her biri bir usta, bir zanaatkâr ya da daha büyük kese getirir\n- Sınıflar iki adımda gelir, ilk iki Ev sahibinden sonra\n- Yetenek ağacı yakınlaştırıp sürükleyebileceğin tek bir harita\n- Dört lonca: rütbeler, koşu başına sözleşme ve bir rakip\n- Kapılar bölgeyi, düşmanlarını ve kayırdığı eşyaları gösterir\n- Her düşman kendi tarzında saldırır: tepme, hücum, fırlatma, tükürük",
-    "ja": "- 挑戦の前に狩人を作ろう：体、髪、衣装、武器\n- 銀行の資金で家の部屋を暖めよう：師匠、職人、大きな財布のどれかが手に入る\n- クラスは2段階で、最初の2人の地主を倒すたびに登場\n- スキルツリーはズームとドラッグができる1枚のマップに\n- 4つのギルドが登場。ランク、挑戦ごとの契約、ライバルつき\n- 扉に地域、出現する敵、出やすいアイテムを表示\n- 敵ごとに攻撃が違う：踏みつけ、突進、投てき、吐きかけ",
-    "ko": "- 런마다 사냥꾼을 직접 만드세요: 몸, 머리, 옷, 무기\n- 은행 돈으로 집의 방을 데우세요: 스승, 장인, 더 큰 지갑 중 하나가 생깁니다\n- 직업은 두 단계로, 처음 두 지주를 쓰러뜨릴 때마다 열립니다\n- 스킬 트리는 확대와 드래그가 되는 하나의 지도입니다\n- 길드 네 곳: 등급, 런마다 계약, 맞수\n- 문에 지역, 적, 그 지역이 선호하는 아이템이 표시됩니다\n- 적마다 공격 방식이 다릅니다: 짓밟기, 돌진, 투척, 침 뱉기",
-    "zh_CN": "- 每次出征前打造你的猎人：身体、头发、服装、武器\n- 用钱庄的钱给宅子的房间生火：每间带来一位师傅、一位工匠或更大的钱袋\n- 职业分两步解锁，击败前两位地主后各一步\n- 技能树是一张可缩放、可拖动的地图\n- 四个公会，有军阶、每次出征的合约和一名对手\n- 门会显示地区、其中的敌人和更易出现的物品\n- 每种敌人攻击方式不同：践踏、冲锋、投掷或喷吐",
-    "zh_TW": "- 每次出征前打造你的獵人：身體、頭髮、服裝、武器\n- 用錢莊的錢給宅子的房間生火：每間帶來一位師傅、一位工匠或更大的錢包\n- 職業分兩步解鎖，擊敗前兩位地主後各一步\n- 技能樹是一張可縮放、可拖曳的地圖\n- 四個公會，有階級、每次出征的合約和一名對手\n- 門會顯示地區、其中的敵人和更易出現的物品\n- 每種敵人攻擊方式不同：踐踏、衝鋒、投擲或噴吐"
+    "en": "- Duel a friend: trade hunter codes and fight, or pick two hunters on one device\n- Weekly challenge: one run, the same for everyone, ranked on an online board for your city\n- Other players' hunters can wait in the lair as your rival\n- The Margin narrates your run aloud\n- 8 active skills and 18 rule-changing nodes in the skill tree\n- Voice control on Android, colorblind palettes and bigger buttons\n- Full screen on phones, tablets and PCs",
+    "pt_BR": "- Duelo com um amigo: troquem códigos de caçador e lutem, ou escolham dois caçadores no mesmo aparelho\n- Desafio da semana: uma run igual para todos, com ranking num placar online da sua cidade\n- Caçadores de outros jogadores podem esperar no covil como seu rival\n- A Margem narra sua run em voz alta\n- 8 habilidades ativas e 18 nós que mudam as regras na árvore de habilidades\n- Controle por voz no Android, paletas para daltonismo e botões maiores\n- Tela cheia em celulares, tablets e PCs",
+    "es": "- Duelo con un amigo: intercambia códigos de cazador y lucha, o elige dos cazadores en un dispositivo\n- Desafío semanal: una partida igual para todos, con tablero en línea de tu ciudad\n- Cazadores de otros jugadores pueden esperar en la guarida como tu rival\n- El Margen narra tu partida en voz alta\n- 8 habilidades activas y 18 nodos que cambian reglas en el árbol de habilidades\n- Control por voz en Android, paletas para daltonismo y botones mayores\n- Pantalla completa en móviles, tabletas y PC",
+    "fr": "- Duel : échangez des codes de chasseur et battez-vous, ou prenez deux chasseurs sur un appareil\n- Défi de la semaine : une partie, la même pour tous, classement en ligne de la ville\n- Les chasseurs d'autres joueurs vous attendent en tanière comme rival\n- La Marge raconte votre partie à voix haute\n- Arbre de compétences : 8 compétences actives et 18 nœuds qui changent les règles\n- Commande vocale sur Android, palettes pour daltoniens et gros boutons\n- Plein écran sur téléphones, tablettes et PC",
+    "de": "- Duell mit einem Freund: Tauscht Jäger-Codes und kämpft, oder wählt zwei Jäger auf einem Gerät\n- Wochen-Challenge: ein Lauf, für alle gleich, in einer Online-Bestenliste für deine Stadt gewertet\n- Jäger anderer Spieler können in der Höhle als dein Rivale warten\n- Die Randschrift erzählt deinen Lauf laut\n- 8 aktive Fertigkeiten und 18 regeländernde Knoten im Fertigkeitsbaum\n- Sprachsteuerung auf Android, Farbenblind-Paletten und größere Tasten\n- Vollbild auf Handys, Tablets und PCs",
+    "it": "- Duello con un amico: scambiate codici di cacciatore e combattete, o scegliete due cacciatori su un dispositivo\n- Sfida della settimana: una partita uguale per tutti, classifica online della tua città\n- Cacciatori di altri giocatori ti aspettano nella tana come rivale\n- Il Margine racconta la partita a voce alta\n- 8 abilità attive e 18 nodi che cambiano le regole nell'albero\n- Controllo vocale su Android, tavolozze per daltonici e pulsanti più grandi\n- Schermo intero su telefoni, tablet e PC",
+    "ru": "- Дуэль с другом: меняйтесь кодами охотников и сражайтесь или выберите двух охотников на одном устройстве\n- Испытание недели: один забег, одинаковый для всех, с онлайн-рейтингом для твоего города\n- Охотники других игроков могут ждать в логове как твой соперник\n- Поля вслух рассказывают о твоём забеге\n- 8 активных навыков и 18 узлов, меняющих правила, в древе навыков\n- Голосовое управление на Android, палитры для дальтоников и кнопки покрупнее\n- Полный экран на телефонах, планшетах и ПК",
+    "uk": "- Дуель з другом: обмінюйтеся кодами мисливців і б'йтеся або оберіть двох мисливців на одному пристрої\n- Виклик тижня: один забіг, однаковий для всіх, з онлайн-рейтингом для твого міста\n- Мисливці інших гравців можуть чекати в лігві як твій суперник\n- Поля вголос розповідають про твій забіг\n- 8 активних навичок і 18 вузлів, що змінюють правила, у дереві навичок\n- Голосове керування на Android, палітри для дальтоніків і більші кнопки\n- Повноекранний режим на телефонах, планшетах і ПК",
+    "pl": "- Pojedynek z przyjacielem: wymieńcie kody łowców i walczcie albo wybierzcie dwóch łowców na jednym urządzeniu\n- Wyzwanie tygodnia: jedna wyprawa, ta sama dla wszystkich, ranking online twojego miasta\n- Łowcy innych graczy czekają w legowisku jako twój rywal\n- Margines opowiada o twojej wyprawie na głos\n- 8 aktywnych umiejętności i 18 węzłów zmieniających zasady w drzewie\n- Sterowanie głosem na Androidzie, palety dla daltonistów i większe przyciski\n- Pełny ekran na telefonach, tabletach i PC",
+    "tr": "- Arkadaşınla düello: avcı kodlarını takas edip dövüş ya da tek cihazda iki avcı seç\n- Haftalık meydan okuma: herkes için aynı tek bir koşu, şehrine özel çevrimiçi sıralamayla\n- Başka oyuncuların avcıları inde rakibin olarak bekleyebilir\n- Kenar Notu koşunu sesli anlatır\n- Yetenek ağacında 8 aktif yetenek ve kuralları değiştiren 18 düğüm\n- Android'de sesle kontrol, renk körlüğü paletleri ve daha büyük düğmeler\n- Telefonlarda, tabletlerde ve PC'lerde tam ekran",
+    "ja": "- 友達と決闘：狩人コードを交換して戦うか、1台で2人の狩人を選ぼう\n- 週替わりチャレンジ：全員同じ内容の1回の挑戦。あなたの都市のオンラインランキングに載る\n- 他のプレイヤーの狩人が、巣でライバルとして待つことも\n- 余白があなたの挑戦を声に出して語る\n- スキルツリーに8つのアクティブスキルと、ルールを変える18のノード\n- Androidで音声操作、色覚サポートの配色、大きめのボタン\n- スマホ、タブレット、PCでフルスクリーン対応",
+    "ko": "- 친구와 결투: 사냥꾼 코드를 교환해 싸우거나, 한 기기에서 사냥꾼 둘을 고르세요\n- 주간 도전: 모두에게 같은 런 한 번, 내 도시의 온라인 순위표에 오릅니다\n- 다른 플레이어의 사냥꾼이 소굴에서 맞수로 기다릴 수 있습니다\n- 여백이 런을 소리 내어 들려줍니다\n- 스킬 트리에 액티브 스킬 8개와 규칙을 바꾸는 노드 18개\n- 안드로이드 음성 조작, 색각 이상용 팔레트, 더 큰 버튼\n- 휴대폰, 태블릿, PC에서 전체 화면을 지원합니다",
+    "zh_CN": "- 与好友决斗：交换猎人代码对战，或在同一台设备上选两名猎人\n- 每周挑战：一次出征，人人相同，在你所在城市的在线排行榜上排名\n- 其他玩家的猎人会在巢穴里作为你的对手等你\n- 页边会大声讲述你的出征\n- 技能树里有8个主动技能和18个改变规则的节点\n- Android 上的语音控制、色觉辅助配色和更大的按钮\n- 手机、平板和电脑上的全屏模式",
+    "zh_TW": "- 與好友決鬥：交換獵人代碼對戰，或在同一台裝置上選兩名獵人\n- 每週挑戰：一次出征，人人相同，在你所在城市的線上排行榜上排名\n- 其他玩家的獵人會在巢穴裡作為你的對手等你\n- 頁邊會大聲講述你的出征\n- 技能樹裡有8個主動技能和18個改變規則的節點\n- Android 上的語音控制、色覺輔助配色和更大的按鈕\n- 手機、平板和電腦上的全螢幕模式"
   }
 }
