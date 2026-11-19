@@ -203,6 +203,11 @@ ${step(4, b.step4Title, b.step4, [{ file: "beta-test-card.png", w: 1080, h: 1408
 <p>${esc(b.paymentNoticeText)} ${mail}</p>
 </aside>`)}
 </ol>
+<div class="panel beta-demo">
+<h3>${esc(b.demoTitle)}</h3>
+<p>${esc(b.demoText)}</p>
+<p><a class="btn" href="${esc(beta.demoTest)}" rel="noopener">${esc(b.demoTestLink)}</a> <a class="btn" href="${esc(beta.demoInstall)}" rel="noopener">${esc(b.demoInstallLink)}</a></p>
+</div>
 <p>${esc(b.note)}</p>
 <div class="beta-help">
 <h3>${esc(b.helpTitle)}</h3>

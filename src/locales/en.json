@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Dawnbringer: dark-fantasy roguelike auto-battler",
-    "description": "A pixel-art roguelike auto-battler. Build a hunter, read each foe's gear, then pay the Landlord or fight.",
+    "description": "A dark-fantasy roguelike auto-battler. Build a hunter, read each foe's gear, then pay the Landlord or fight.",
     "pressTitle": "Dawnbringer press kit",
     "pressDescription": "Fact sheet, description, features, logo, key art and screenshots of Dawnbringer, a roguelike auto-battler by gmunaro.",
     "notFoundTitle": "Page not found",
@@ -17,66 +17,66 @@
     "skip": "Skip to content",
     "home": "Home",
     "why": "The game",
-    "new": "New in 0.7.2",
+    "new": "New in 0.8",
     "demo": "Desktop demo",
     "beta": "Android alpha",
     "press": "Press kit",
     "language": "Language"
   },
   "hero": {
-    "pitch": "A pixel-art roguelike auto-battler: build a hunter, read each foe's gear, then pay the Landlord or fight.",
-    "artAlt": "A small hunter on a hill faces a giant crowned Landlord rising from the dark hills under a blood-red moon.",
+    "pitch": "A dark-fantasy roguelike where fights play out on their own: build a hunter, read each foe's gear, then pay the Landlord or fight. Try it free on your computer.",
+    "artAlt": "A small hunter on a hill faces a giant crowned Landlord standing before the dark hills under a blood-red moon.",
     "clipTitle": "Gameplay",
     "clipAlt": "Gameplay clip: a hero in full gear fights a group of monsters on its own.",
     "clipFallback": "Your browser cannot play this video.",
-    "play": "Android alpha",
-    "demo": "Desktop demo"
+    "play": "Join the Android alpha",
+    "demo": "Play the free demo"
   },
   "screens": {
     "items": {
       "night": {
-        "caption": "Two steps before the Landlord catches up.",
-        "alt": "The map at night, tinted red. The Hollow King stands next to the hero and the clock reads: the Landlord comes to collect, 2 steps."
+        "caption": "Night in the Hanging Wood: the fog hides the road and what waits on it.",
+        "alt": "The map of the Hanging Wood at night: the hunter on a forest path with a monster ahead and marked fights and a chest beside the path, with health, gold, the week's Landlord, the region map and the belt at the edges."
       },
       "landlord": {
         "caption": "Pay the tithe from your purse or fight for the bounty.",
-        "alt": "The Hollow King's card: its stats, its Hollow Crown ability, the tithe of 18 gold, and the buttons Pay the tithe and Fight."
+        "alt": "The Orchard Eater's card: the Landlord of Dustfall Reach with its stats, its Rime Crust ability, what it carries, the tithe of 18 of your 60 gold, and the buttons Pay the tithe and Fight."
       },
       "battle": {
         "caption": "Combat runs on its own; your preparation decides it.",
-        "alt": "A fight against the Hollow King in a ruined chapel, with health bars, armor and damage numbers."
+        "alt": "A fight in the Cinder Foundry: your hunter against a Ladle Smelter and two Slag Beetles, with health bars, armor, the round and the hunter's skills."
       },
       "stone": {
         "caption": "The Stone of Despair darkens over a fight that would kill you.",
-        "alt": "The pre-fight screen of a foe with its stats and the items it carries, the Stone of Despair's mark and the warning This fight would kill you, and the buttons Fight and Back off."
+        "alt": "On the map, the card of a pack led by the Callused Pruner: what it carries, the two foes with it, and the Stone of Despair's warning that this fight would kill you."
       },
       "risen": {
         "caption": "A fallen hunter from a past run roams the road with its gold.",
-        "alt": "On the map, a green risen hunter from an earlier run, armed with a crossbow and marked with a red skull, stands next to your hunter."
+        "alt": "On the map, the card of a Gallows Marksman risen from an earlier run: where it fell, the 24 gold of the purse it lost, what it carries and its First Blood bonus."
       },
-      "legend": {
-        "caption": "A fallen hunter from an earlier run sits in a Landlord's seat as a heretic.",
-        "alt": "The card of a heretic, a fallen hunter from an earlier run that holds the Landlord's seat of Dustfall Reach, with what it carries, a tithe of 18 of your 60 gold, and the buttons Pay the tithe and Fight."
+      "rival": {
+        "caption": "Join the weekly board and another player's hunter can wait in a lair as your rival.",
+        "alt": "The card of Ash Vey, another player's hunter and a Guardian: its stats, the two items it carries, the spoils for beating it, a note that it comes from the online weekly board, and the buttons Fight and Back off."
+      },
+      "board": {
+        "caption": "The server checks each run, then ranks it in your city, region or country.",
+        "alt": "The weekly board for Toronto, ON, CA: ten hunters with their class and score, your best of 2140 at number 4, and the buttons Change place, Transfer code, Delete my data and Back."
+      },
+      "camp": {
+        "caption": "In the house, build your hunter, pick vows and the gold you carry.",
+        "alt": "The house: the hunter's creation with sex, skin, eyes, hair and outfit, the Riposte bonus and the Iron Club, the jar of item families, the vows and the gold to carry."
       },
       "shop": {
         "caption": "The shop shows the exact stat changes before you swap an item.",
         "alt": "The shop with four items to buy or banish, and a comparison of the new item with your build."
       },
-      "camp": {
-        "caption": "In the house, build your hunter, pick vows and the gold you carry.",
-        "alt": "The house screen with the hunter's creation, the item families, the vows and the carry slider."
-      },
-      "group": {
-        "caption": "Packs attack in a row with no healing between fights.",
-        "alt": "A fight against a group of foes in the Hanging Wood, with gallows and dead trees."
-      },
-      "cashout": {
-        "caption": "After a Landlord, bank your winnings or carry the purse into week 2.",
-        "alt": "After a Landlord: the choice to go home with the purse or carry it into week 2, with the next Landlord's card."
-      },
       "build": {
         "caption": "Combine 2, 4, or 6 items from the same family to unlock set bonuses.",
         "alt": "A hunter's build sheet with stats, gear, belt, skills and the Furnace, Iron, Gallows and Plague family sets."
+      },
+      "a11y": {
+        "caption": "Palettes for color vision, shape marks on every color cue, and voice control.",
+        "alt": "The Accessibility options: palette, shape marks, voice control, voice language and how long text stays on screen, next to a chart of the game's color cues that the palette button steps through."
       },
       "event": {
         "caption": "Road events offer three choices, and some cost gold or add Dread.",
@@ -88,31 +88,34 @@
     "title": "Features",
     "items": [
       "6 first classes and 12 second classes.",
-      "Attribute points and a skill point every level; a skill tree that is one map.",
+      "Attribute points and a skill point every level; a skill tree that is one map, with 8 active skills that recharge in rounds.",
       "105 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
       "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
-      "19 Landlords across 6 biomes and 3 weeks.",
+      "19 Landlords across 6 regions and 3 weeks.",
       "Patrols, packs, ambushes, guardians and mimics on the map.",
       "Day and night: at night your sight shrinks and shadows hunt you.",
       "Your fallen hunters rise and hunt you; one of them can take a Landlord's seat as a heretic.",
       "Separate bank and purse: stake gold at the start and cash out after each Landlord.",
-      "9 optional oaths that raise both the difficulty and the payout.",
-      "Voices with emotion for every character, and ambient sound for every biome.",
+      "9 optional vows that make the road crueler and the payout bigger.",
+      "A weekly challenge with an online board, rivals from other players, and duels with friends.",
+      "Every character speaks, a narrator comments the run, and each region has its own sound by day and night.",
+      "Palettes for color blindness, shape marks, voice control on Android and a diagram for every option.",
       "A herbarium, a bestiary and 16 feats in the Journal.",
-      "Native 640x360 pixel art with mouse, keyboard, controller and touch.",
-      "Translated into 14 languages."
+      "Hunters, monsters, gear and effects drawn in vector art.",
+      "Mouse, keyboard, controller and touch, in full screen on phones, tablets and PCs.",
+      "Translated into 14 languages, and dubbed in Portuguese (Brazil)."
     ]
   },
   "demo": {
     "title": "Download the demo",
-    "intro": "A free demo for Windows, macOS and Linux. It plays the whole run, with fewer choices when you build your hunter, and the rooms of the house stay closed.",
+    "intro": "A free demo for Windows, macOS and Linux, and on Android. It plays the whole run, with fewer choices when you build your hunter, and the rooms of the house stay closed.",
     "version": "Version {version}.",
     "includesTitle": "What the demo includes",
     "includes": [
       "Your own hunter, built before the run: sex, skin, eyes, hair, outfit and name.",
-      "A starting bonus, Riposte or First Blood, and a weapon, the Grave-Iron Mace or the Hangman's Arbalest.",
+      "A starting bonus, Riposte or First Blood, and a weapon, the Iron Club or the Old Crossbow.",
       "Classes: Swordsman and Archer, then Crusader and Knight, or Hunter and Bard.",
-      "The full run: three weeks on the map, events, shops, oaths and the Landlords.",
+      "The full run: three weeks on the map, events, shops, vows and the Landlords.",
       "The 4 starting item families.",
       "The House with its 22 rooms shut: the other bonuses, weapons, classes and item families, and the bigger purses, come with the full game.",
       "Its own save, separate from the full game."
@@ -126,8 +129,8 @@
     "linuxNote": "x86_64. Extract the archive and run DawnbringerDemo.x86_64. Needs graphics drivers with OpenGL 3.3.",
     "download": "Download ({size})",
     "checksums": "SHA-256 checksums of the files",
-    "android": "Android: the closed alpha is open.",
-    "androidLink": "Join the alpha",
+    "android": "Android: the full game and the free demo are in a closed test on Google Play.",
+    "androidLink": "Join the test",
     "ios": "iPhone and iPad: not available yet."
   },
   "beta": {
@@ -159,7 +162,11 @@
     "step3Title": "Open the game on your phone",
     "shotStore": "Google Play on the phone. Tap the blue price button.",
     "step4Title": "Confirm with the test card",
-    "step4": "Google Play opens the payment screen. Check that the payment method says \"Test card, always approves\" and that the screen says it is a test order, then tap \"1-tap buy\". The game installs and nothing is charged."
+    "step4": "Google Play opens the payment screen. Check that the payment method says \"Test card, always approves\" and that the screen says it is a test order, then tap \"1-tap buy\". The game installs and nothing is charged.",
+    "demoTitle": "The free demo on Android",
+    "demoText": "The demo is a separate app, Dawnbringer Demo, and it has no payment step. After step 1, open the demo's test page with the same account, click \"Become a tester\", then install it from Google Play.",
+    "demoTestLink": "Open the demo's test page",
+    "demoInstallLink": "Install the demo"
   },
   "duel": {
     "title": "Duel code",
@@ -184,9 +191,9 @@
     "release": "Release date",
     "releaseValue": "To be announced",
     "platforms": "Platforms",
-    "platformsValue": "PC (Steam), Android (Google Play), iPhone and iPad (App Store)",
+    "platformsValue": "Android (Google Play, closed test). A free demo for Android, Windows, macOS and Linux. Steam and the App Store are planned.",
     "price": "Price",
-    "priceValue": "US$ 4.99 (planned)",
+    "priceValue": "US$ 4.99; the demo is free",
     "languages": "Languages",
     "languagesValue": "14: English, Portuguese (Brazil), Spanish, French, German, Italian, Russian, Ukrainian, Polish, Turkish, Japanese, Korean, Simplified Chinese, Traditional Chinese",
     "engine": "Engine",
@@ -194,21 +201,21 @@
     "contact": "Contact",
     "social": "Social media",
     "descriptionTitle": "Description",
-    "description": "Dawnbringer is a dark-fantasy roguelike auto-battler in pixel art. The sun is dead, gold is the only warmth left, and every week a Landlord comes for the rent. Players cross a turn-based map, pick fights, and build a hunter: made before each run, then grown with a class in two steps, a skill tree, attribute points, and 105 items in 10 families worn by slot, reheated at the forge and set with monster cards. Combat resolves automatically without dice, and the game never shows how a fight will end: every foe carries visible items, so players judge each fight by reading its gear against their build, and a Stone of Despair only darkens when a fight would kill the hero. Against the Landlord it stays silent, and the player must pay the tithe or fight. Before each run players stake gold from their bank, and after each week they cash out the purse or risk it in a harder week. Between runs players spend the bank on the rooms of a house; each room brings someone who teaches a bonus or a class, makes a weapon, opens an item family or gives a bigger purse. Fallen hunters rise and hunt the player in later runs, and one of them can take a Landlord's seat as a heretic. Every character speaks with a synthetic voice, and each of the six biomes has its own plants, animals and ambient sound.",
+    "description": "Dawnbringer is a dark-fantasy roguelike auto-battler. The sun broke and the world froze, the shards that fell became money, and every week a Landlord comes to collect. Players cross a turn-based map, pick fights, and build a hunter: made before each run, then grown with a class in two steps, a skill tree with active skills, attribute points, and 105 items in 10 families worn by slot, reheated at the forge and set with monster cards. Combat resolves automatically without dice, and the game never shows how a fight will end: every foe carries visible items, so players judge each fight by reading its gear against their build, and a Stone of Despair only darkens when a fight would kill the hero. Against the Landlord it stays silent, and the player must pay the tithe or fight. Before each run players stake gold from their bank, and after each week they cash out the purse or risk it in a harder week. Between runs players spend the bank on the rooms of a house; each room brings someone who teaches a bonus or a class, makes a weapon, opens an item family or gives a bigger purse. Fallen hunters rise and hunt the player in later runs, and one of them can take a Landlord's seat as a heretic. Each week a challenge run is the same for every player, and an online board ranks it by city, region or country; players who join can meet another player's hunter as a rival in a lair, and two heroes can duel by code or on one device. Hunters, monsters, gear and effects are drawn in vector art. Every character speaks with a synthetic voice, a narrator comments the run, and the game is dubbed in Portuguese (Brazil). Options include palettes for color blindness, shape marks and voice control on Android.",
     "mediaTitle": "Logo, key art and screenshots",
     "zip": "Download everything (.zip, {size})",
     "logo": "Logo (PNG, transparent)",
     "icon": "Icon (PNG, 512x512)",
     "keyart": "Key art (PNG, 1920x1080)",
     "keyartNoLogo": "Key art without logo (PNG, 1920x1080)",
-    "screensNote": "Screenshots are 1920x1080 PNG, integer-scaled from the game's native 640x360 resolution.",
+    "screensNote": "Screenshots are 1920x1080 PNG of the game's vector art.",
     "creditsTitle": "Credits",
     "credits": [
       "Design, code and art: gmunaro",
       "Music: Juhani Junkala (CC0); the Landlord's night score is original, played on VSCO 2 Community Edition samples (CC0)",
       "Sound effects: Kenney, StarNinjas, Oiboo (CC0) and original sounds",
       "Ambient sound: field recordings from freesound.org (CC0)",
-      "Voices: synthetic speech from ElevenLabs v4; no human voice was recorded or cloned",
+      "Voices: synthetic speech from ElevenLabs v4, and Google Gemini TTS for the narrator; no human voice was recorded or cloned",
       "Fonts: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel and GNU Unifont (SIL Open Font License 1.1)"
     ],
     "contactTitle": "Contact",
@@ -245,22 +252,24 @@
       "build": {
         "title": "Build your hunter",
         "text": "Pick your hunter's look, bonus and weapon, learn a class in two steps, spend points on a skill map and wear gear in every slot. Reheat items at the forge and set monster cards into them.",
-        "alt": "The class master offers the six first classes."
+        "alt": "The class master Abel Tarrow offers two first classes, Swordsman and Archer."
       },
       "return": {
         "title": "Your runs come back",
-        "text": "Fallen hunters rise and hunt you in later runs, and one of them can take a Landlord's seat as a heretic.",
-        "alt": "A risen hunter, marked in red, walks toward the player on the map."
+        "text": "Fallen hunters rise and hunt you in later runs, and one of them can take a Landlord's seat as a heretic. Join the online board and another player's hunter can wait in a lair as your rival.",
+        "alt": "On the map, the card of a hunter risen from an earlier run, with the gold of the purse it lost."
       }
     }
   },
   "whatsnew": {
-    "title": "New in 0.7.2",
+    "title": "New in 0.8",
     "items": [
-      "Build your own hunter before each run, and spend the bank on the rooms of a house.",
-      "Classes in two steps, and a skill tree that is one map you can zoom and drag.",
-      "Four guilds, and a door each week that picks the region you walk.",
-      "Def and Shield, and foes that stomp, charge, throw or spit."
+      "Hunters, monsters, Landlords, gear and effects are drawn in vector art, sharp on any screen.",
+      "A weekly challenge: the same run for every hunter. Join the online board to rank it against players in your city, region or country (you choose what place to share), and another player's hunter can wait in a lair as your rival.",
+      "Duels: send a hero's code to a friend, or pick two saved heroes and fight on one device.",
+      "Your hunter speaks in a voice of the sex you pick, a narrator comments the run, and in Portuguese (Brazil) the characters speak Portuguese.",
+      "Accessibility: palettes for protanopia, deuteranopia and tritanopia, shape marks on color cues, voice control on Android, and a diagram that explains each option.",
+      "A free demo for Android, in its own app."
     ],
     "more": "All changes"
   },

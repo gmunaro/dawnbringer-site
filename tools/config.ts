@@ -61,10 +61,13 @@ export const LOCALES: Locale[] = [
  * Closed beta on Google Play: testers join the Google Group, then opt in on the test page. Set to
  * null when the beta closes and the home page drops its beta section and button.
  */
-export const BETA: { group: string; test: string; install: string } | null = {
+export const BETA: { group: string; test: string; install: string; demoTest: string; demoInstall: string } | null = {
   group: "https://groups.google.com/g/dawnbringer-testers",
   test: "https://play.google.com/apps/testing/com.gmunaro.dawnbringer",
   install: "https://play.google.com/store/apps/details?id=com.gmunaro.dawnbringer",
+  // The free demo is its own app on Play, in a closed test for the same Google Group.
+  demoTest: "https://play.google.com/apps/testing/com.gmunaro.dawnbringer.demo",
+  demoInstall: "https://play.google.com/store/apps/details?id=com.gmunaro.dawnbringer.demo",
 };
 
 /**
@@ -72,7 +75,7 @@ export const BETA: { group: string; test: string; install: string } | null = {
  * screens.items.<id> caption and alt text; the press kit holds the same picture at 1920x1080 as
  * src/presskit/screenshots/<NN>_<id>.png (NN = position, from 01). tools/media.sh writes both.
  */
-export const SHOTS = ["night", "landlord", "battle", "stone", "risen", "legend", "shop", "camp", "group", "cashout", "build", "event"] as const;
+export const SHOTS = ["night", "landlord", "battle", "stone", "risen", "rival", "board", "camp", "shop", "build", "a11y", "event"] as const;
 export type ShotId = (typeof SHOTS)[number];
 
 /**

@@ -30,7 +30,7 @@ bun run typecheck
 | `tools/config.ts` | Base URL, contact e-mail, social links, languages, the home page's three pictures (`WHY`), the press kit screenshots (`SHOTS`). |
 | `tools/i18n_check.ts`, `tools/i18n_allow.json` | The translation check the build runs: a language page fails if it shows a text segment identical to the English page, unless the segment is a proper name (`allow`) or a word that language spells the same (`same`, per language). |
 | `tools/pages.ts`, `tools/build.ts` | Page templates and the build. |
-| `tools/capture.sh`, `tools/media.sh`, `tools/godot/` | How the pictures were made (see below). |
+| `tools/media.sh` | Key art and icons into the site's pictures (see below). |
 
 ## Home page
 
@@ -62,12 +62,11 @@ The build turns `src/releases.json` into:
 
 ## Pictures and video
 
-Only needed when the game's look changes. On a throwaway copy of the game (never the working
-checkout):
+Only needed when the game's look changes. The pictures come from the game repo:
 
-1. `tools/capture.sh <copy>/game <captures dir>` records the screens with the game's capture scenes.
-2. Copy `tools/godot/*.gd` into the copy (e.g. `res://tools/site/`) and run
-   `$G --path <copy>/game -s res://tools/site/render_site_art.gd -- --out=<art dir>` for the key art
-   (the game's store art painter with a blood moon).
-3. `tools/media.sh <captures dir> <art dir> <game repo>` writes `src/assets` and `src/presskit`
-   (needs ffmpeg).
+1. Screenshots, the gallery, the press kit's screenshots and the gameplay clip:
+   `python tools/github/media/make_media.py <lab run out dir> --site <this checkout> --only site` on a lab
+   capture (`game/tools/capture/promo05/lab_media.sh`, `ART=svg`; `tools/github/LAUNCH.md` there).
+2. Key art: `$G --path game res://tools/capture/promo05/site_key_art.tscn -- --out=<art dir>` draws it
+   with the game's SVG characters (needs a window), then here `tools/media.sh <art dir> <game repo>`
+   writes `src/assets/img`, the icons and the press kit's key art (needs ffmpeg).
