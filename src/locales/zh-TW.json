@@ -118,7 +118,7 @@
       "獨立存檔，與完整版分開。"
     ],
     "windows": "Windows",
-    "windowsNote": "Windows 10 或 11，64 位元。只有一個 .exe 檔案，不需安裝。檔案尚未進行程式碼簽署，SmartScreen 可能會發出警告：點選「其他資訊」，再點選「仍要執行」。",
+    "windowsNote": "Windows 10 或 11，64 位元。只有一個 .zip 檔案，不需安裝：解壓縮後執行 DawnbringerDemo.exe。檔案尚未進行程式碼簽署，SmartScreen 可能會發出警告：點選「其他資訊」，再點選「仍要執行」。",
     "macos": "macOS",
     "macosNote": "一個 App 同時支援 Apple 晶片與 Intel 的 Mac。解壓縮後把 Dawnbringer 拖到「應用程式」。",
     "macosOpen": "此 App 尚未經過 Apple 公證，macOS 會阻擋第一次開啟。按右鍵（或按住 Control 點按）App 並選擇「打開」。如果沒有「打開」按鈕，請前往「系統設定」>「隱私權與安全性」，點按「強制打開」。",

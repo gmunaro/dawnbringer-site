@@ -118,7 +118,7 @@
       "Osobny zapis gry, oddzielny od pełnej wersji."
     ],
     "windows": "Windows",
-    "windowsNote": "Windows 10 lub 11, 64-bit. Jeden plik .exe, bez instalatora. Plik nie ma jeszcze podpisu cyfrowego, więc SmartScreen może ostrzec: kliknij Więcej informacji, a potem Uruchom mimo to.",
+    "windowsNote": "Windows 10 lub 11, 64-bit. Jeden plik .zip, bez instalatora: rozpakuj go i uruchom DawnbringerDemo.exe. Plik nie ma jeszcze podpisu cyfrowego, więc SmartScreen może ostrzec: kliknij Więcej informacji, a potem Uruchom mimo to.",
     "macos": "macOS",
     "macosNote": "Jedna aplikacja na Maki z Apple silicon i Intel. Rozpakuj ją i przeciągnij Dawnbringer do Aplikacji.",
     "macosOpen": "Aplikacja nie jest jeszcze notaryzowana przez Apple, więc macOS blokuje pierwsze uruchomienie. Kliknij aplikację prawym przyciskiem (lub z Control) i wybierz Otwórz. Jeśli nie ma przycisku Otwórz, przejdź do Ustawienia systemowe > Prywatność i ochrona i kliknij Otwórz mimo to.",
