@@ -27,8 +27,24 @@
       "android-demo": {
         "url": "https://play.google.com/store/apps/details?id=com.gmunaro.dawnbringer.demo",
         "market": "market://details?id=com.gmunaro.dawnbringer.demo"
+      },
+      "windows-demo": {
+        "url": "https://gmunaro.github.io/dawnbringer-site/#download",
+        "file": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.8.0/DawnbringerDemo-0.8.0-windows.zip",
+        "bytes": 360245825
+      },
+      "macos-demo": {
+        "url": "https://gmunaro.github.io/dawnbringer-site/#download",
+        "file": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.8.0/DawnbringerDemo-0.8.0-macos.zip",
+        "bytes": 392617816
+      },
+      "linux-demo": {
+        "url": "https://gmunaro.github.io/dawnbringer-site/#download",
+        "file": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.8.0/DawnbringerDemo-0.8.0-linux-x86_64.tar.gz",
+        "bytes": 356321304
       }
-    }
+    },
+    "checksums": "https://github.com/gmunaro/dawnbringer-site/releases/download/demo-v0.8.0/SHA256SUMS.txt"
   },
   {
     "version": "0.7.2",
