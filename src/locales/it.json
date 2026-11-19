@@ -44,7 +44,7 @@
       },
       "battle": {
         "caption": "Lo scontro è automatico; la tua preparazione decide l'esito.",
-        "alt": "Uno scontro contro il Re Vuoto in una cappella in rovina, con barre della salute, armatura e numeri dei danni."
+        "alt": "Uno scontro nella Fonderia di Brace: il tuo cacciatore contro un Fusore della Siviera e due Scarabei della Scoria, con barre della salute, armatura, il round e le abilità del cacciatore."
       },
       "stone": {
         "caption": "La Pietra della Disperazione si oscura davanti a uno scontro che ti ucciderebbe.",
@@ -52,7 +52,7 @@
       },
       "risen": {
         "caption": "Un cacciatore caduto in una partita passata vaga per la strada con il suo oro.",
-        "alt": "Sulla mappa, un cacciatore risorto da una partita precedente, verde, armato di balestra e segnato da un teschio rosso, accanto al tuo cacciatore."
+        "alt": "Sulla mappa, la carta di un Tiratore della Forca risorto da una partita precedente: dove è caduto, i 24 oro della borsa che ha perso, ciò che porta e il suo bonus Primo Sangue."
       },
       "rival": {
         "caption": "Entra nella classifica settimanale e il cacciatore di un altro giocatore può aspettarti in una tana come rivale.",
@@ -76,7 +76,7 @@
       },
       "a11y": {
         "caption": "Tavolozze per la visione dei colori, segni di forma su ogni segnale di colore e controllo vocale.",
-        "alt": "Le opzioni di Accessibilità: tavolozza, segni di forma, controllo vocale, lingua della voce e quanto resta a schermo il testo, accanto a una tabella dei colori del gioco per ogni tipo di visione dei colori."
+        "alt": "Le opzioni di Accessibilità: tavolozza, segni di forma, controllo vocale, lingua della voce e quanto resta a schermo il testo, accanto a una tabella dei segnali di colore del gioco che il pulsante della tavolozza fa scorrere."
       },
       "event": {
         "caption": "Gli eventi lungo la strada offrono tre scelte, e alcune costano oro o aggiungono Terrore.",
@@ -252,12 +252,12 @@
       "build": {
         "title": "Costruisci il tuo cacciatore",
         "text": "Scegli aspetto, bonus e arma del cacciatore, impara una classe in due passi, spendi i punti su una mappa delle abilità e indossa la dotazione in ogni slot. Rimetti gli oggetti alla Forgia e inserisci in essi le carte mostro.",
-        "alt": "Il maestro di classe offre le sei prime classi."
+        "alt": "Il maestro di classe Abel Tarrow offre due prime classi, Spadaccino e Arciere."
       },
       "return": {
         "title": "Le tue partite tornano",
         "text": "I cacciatori caduti risorgono e ti danno la caccia nelle partite successive, e uno di loro può sedere sul seggio di un Signore come eretico. Entra nella classifica online e il cacciatore di un altro giocatore può aspettarti in una tana come tuo rivale.",
-        "alt": "Un cacciatore risorto, segnato in rosso, avanza verso il giocatore sulla mappa."
+        "alt": "Sulla mappa, la carta di un cacciatore risorto da una partita precedente, con l'oro della borsa che ha perso."
       }
     }
   },

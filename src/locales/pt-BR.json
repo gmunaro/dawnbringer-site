@@ -44,7 +44,7 @@
       },
       "battle": {
         "caption": "O combate é automático; a preparação define a luta.",
-        "alt": "Uma luta contra o Rei Oco numa capela em ruínas, com barras de vida, armadura e números de dano."
+        "alt": "Uma luta na Fundição de Cinzas: seu caçador contra um Fundidor da Concha e dois Besouros da Escória, com barras de vida, armadura, a rodada e as habilidades do caçador."
       },
       "stone": {
         "caption": "A Pedra do Desespero escurece sobre uma luta que mataria você.",
@@ -52,7 +52,7 @@
       },
       "risen": {
         "caption": "Um caçador caído numa partida passada vaga pela estrada com seu ouro.",
-        "alt": "No mapa, um caçador reerguido de uma partida anterior, verde, armado com uma besta e marcado com uma caveira vermelha, ao lado do seu caçador."
+        "alt": "No mapa, a carta de um Atirador da Forca reerguido de uma partida anterior: onde ele caiu, os 24 de ouro da bolsa que perdeu, o que carrega e seu bônus Primeiro Sangue."
       },
       "rival": {
         "caption": "Entre no placar da semana e o caçador de outro jogador pode esperar num covil como seu rival.",
@@ -76,7 +76,7 @@
       },
       "a11y": {
         "caption": "Paletas para a visão de cores, marcas de forma em cada pista de cor e controle por voz.",
-        "alt": "As opções de Acessibilidade: paleta, marcas de forma, controle por voz, idioma da voz e quanto tempo o texto fica na tela, ao lado de um quadro das cores do jogo para cada tipo de visão de cores."
+        "alt": "As opções de Acessibilidade: paleta, marcas de forma, controle por voz, idioma da voz e quanto tempo o texto fica na tela, ao lado de um quadro das pistas de cor do jogo, que o botão de paleta percorre."
       },
       "event": {
         "caption": "Eventos de estrada oferecem três escolhas, e algumas custam ouro ou somam Pavor.",
@@ -252,12 +252,12 @@
       "build": {
         "title": "Monte seu caçador",
         "text": "Escolha o visual, o bônus e a arma do caçador, aprenda uma classe em duas etapas, gaste pontos num mapa de habilidades e use equipamento em todos os slots. Reaqueça itens na Forja e encaixe neles cartas de monstro.",
-        "alt": "O mestre de classes oferece as seis primeiras classes."
+        "alt": "O mestre de classes Abel Tarrow oferece duas primeiras classes, Espadachim e Arqueiro."
       },
       "return": {
         "title": "Suas partidas voltam",
         "text": "Caçadores caídos se reerguem e caçam você em partidas futuras, e um deles pode tomar o lugar de um Senhorio como herege. Entre no placar online e o caçador de outro jogador pode esperar num covil como seu rival.",
-        "alt": "Um caçador reerguido, marcado em vermelho, avança em direção ao jogador no mapa."
+        "alt": "No mapa, a carta de um caçador reerguido de uma partida anterior, com o ouro da bolsa que ele perdeu."
       }
     }
   },

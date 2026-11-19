@@ -44,7 +44,7 @@
       },
       "battle": {
         "caption": "Le combat est automatique ; votre préparation fait la différence.",
-        "alt": "Un combat contre le Roi Creux dans une chapelle en ruine, avec barres de vie, armure et chiffres de dégâts."
+        "alt": "Un combat dans la Fonderie de Cendres : votre chasseur contre un Affineur à la Louche et deux Scarabées de Scories, avec barres de vie, armure, la manche et les compétences du chasseur."
       },
       "stone": {
         "caption": "La Pierre du Désespoir s'assombrit devant un combat qui vous tuerait.",
@@ -52,7 +52,7 @@
       },
       "risen": {
         "caption": "Un chasseur tombé lors d'une partie passée rôde sur la route avec son or.",
-        "alt": "Sur la carte, un chasseur relevé d'une partie précédente, vert, armé d'une arbalète et marqué d'un crâne rouge, à côté de votre chasseur."
+        "alt": "Sur la carte, la fiche d'une Tireuse du Gibet relevée d'une partie précédente : là où elle est tombée, les 24 or de la bourse qu'elle a perdue, ce qu'elle porte et son bonus Premier Sang."
       },
       "rival": {
         "caption": "Rejoignez le classement hebdo et le chasseur d'un autre joueur peut vous attendre dans une tanière comme rival.",
@@ -76,7 +76,7 @@
       },
       "a11y": {
         "caption": "Des palettes pour la vision des couleurs, des repères de forme sur chaque indice de couleur et la commande vocale.",
-        "alt": "Les options d'Accessibilité : palette, repères de forme, commande vocale, langue de la voix et durée d'affichage du texte, à côté d'un tableau des couleurs du jeu pour chaque type de vision des couleurs."
+        "alt": "Les options d'Accessibilité : palette, repères de forme, commande vocale, langue de la voix et durée d'affichage du texte, à côté d'un tableau des indices de couleur du jeu que le bouton de palette fait défiler."
       },
       "event": {
         "caption": "Les événements de route offrent trois choix, et certains coûtent de l'or ou ajoutent de l'Effroi.",
@@ -252,12 +252,12 @@
       "build": {
         "title": "Formez votre chasseur",
         "text": "Choisissez l'allure, le bonus et l'arme de votre chasseur, apprenez une classe en deux étapes, dépensez des points sur une carte de compétences et équipez chaque emplacement. Réchauffez les objets à la Forge et sertissez-y des cartes de monstre.",
-        "alt": "Le maître de classe propose les six premières classes."
+        "alt": "Le maître de classe Abel Tarrow propose deux premières classes, Épéiste et Archer."
       },
       "return": {
         "title": "Vos parties reviennent",
         "text": "Les chasseurs tombés se relèvent et vous traquent dans les parties suivantes, et l'un d'eux peut prendre le siège d'un Seigneur en hérétique. Rejoignez le classement en ligne et le chasseur d'un autre joueur peut vous attendre dans une tanière comme rival.",
-        "alt": "Un chasseur relevé, marqué de rouge, avance vers le joueur sur la carte."
+        "alt": "Sur la carte, la fiche d'un chasseur relevé d'une partie précédente, avec l'or de la bourse qu'il a perdue."
       }
     }
   },

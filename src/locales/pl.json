@@ -44,7 +44,7 @@
       },
       "battle": {
         "caption": "Walka toczy się sama; o wyniku decyduje twoje przygotowanie.",
-        "alt": "Walka z Pustym Królem w zrujnowanej kaplicy, z paskami zdrowia, pancerzem i liczbami obrażeń."
+        "alt": "Walka w Żarowej Odlewni: twój łowca przeciw Hutnikowi z Kadzi i dwóm Żużlowym Chrząszczom, z paskami zdrowia, pancerzem, rundą i umiejętnościami łowcy."
       },
       "stone": {
         "caption": "Kamień Rozpaczy ciemnieje nad walką, która by cię zabiła.",
@@ -52,7 +52,7 @@
       },
       "risen": {
         "caption": "Poległy łowca z dawnej wyprawy krąży po drodze ze swoim złotem.",
-        "alt": "Na mapie obok twojego łowcy stoi zielony, powstały łowca z wcześniejszej wyprawy, z kuszą i czerwoną czaszką nad głową."
+        "alt": "Na mapie karta Strzelczyni Szubienicy powstałej z wcześniejszej wyprawy: gdzie poległa, 24 złota z utraconej sakiewki, to, co niesie, i jej premia Pierwsza Krew."
       },
       "rival": {
         "caption": "Dołącz do tablicy tygodnia, a łowca innego gracza może czekać w legowisku jako twój rywal.",
@@ -76,7 +76,7 @@
       },
       "a11y": {
         "caption": "Palety dla różnych typów widzenia barw, znaczniki kształtu przy każdym sygnale kolorem i sterowanie głosem.",
-        "alt": "Opcje dostępności: paleta, znaczniki kształtu, sterowanie głosem, język głosu i czas, przez jaki tekst zostaje na ekranie, obok tabeli kolorów gry dla każdego typu widzenia barw."
+        "alt": "Opcje dostępności: paleta, znaczniki kształtu, sterowanie głosem, język głosu i czas, przez jaki tekst zostaje na ekranie, obok tabeli sygnałów kolorem w grze, które przełącza przycisk palety."
       },
       "event": {
         "caption": "Zdarzenia na drodze dają trzy wybory, a niektóre kosztują złoto lub dodają Grozę.",
@@ -252,12 +252,12 @@
       "build": {
         "title": "Zbuduj swojego łowcę",
         "text": "Wybierz wygląd, bonus i broń łowcy, poznaj klasę w dwóch krokach, wydawaj punkty na mapie umiejętności i noś przedmioty w każdym slocie. Rozgrzej przedmioty w Kuźni i wstaw w nie karty potworów.",
-        "alt": "Mistrz klas oferuje sześć pierwszych klas."
+        "alt": "Mistrz klas Abel Tarrow oferuje dwie pierwsze klasy: Szermierz i Łucznik."
       },
       "return": {
         "title": "Twoje wyprawy wracają",
         "text": "Polegli łowcy powstają i polują na ciebie w kolejnych wyprawach, a jeden z nich może zasiąść na tronie Właściciela jako heretyk. Dołącz do tablicy online, a łowca innego gracza może czekać w legowisku jako twój rywal.",
-        "alt": "Powstały łowca, oznaczony na czerwono, idzie na mapie w stronę gracza."
+        "alt": "Na mapie karta łowcy powstałego z wcześniejszej wyprawy, ze złotem z utraconej sakiewki."
       }
     }
   },

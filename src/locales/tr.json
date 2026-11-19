@@ -44,7 +44,7 @@
       },
       "battle": {
         "caption": "Savaş kendiliğinden işler; sonucu hazırlığın belirler.",
-        "alt": "Yıkık bir şapelde Oyuk Kral'a karşı bir savaş; can çubukları, zırh ve hasar sayılarıyla."
+        "alt": "Kor Dökümhanesi'nde bir savaş: avcın bir Kepçeli Eritici ve iki Cüruf Böceği'ne karşı; can çubukları, zırh, tur ve avcının yetenekleriyle."
       },
       "stone": {
         "caption": "Umutsuzluk Taşı, seni öldürecek bir savaşın üstünde kararır.",
@@ -52,7 +52,7 @@
       },
       "risen": {
         "caption": "Önceki bir koşuda düşen avcı, altınıyla birlikte yolda dolaşıyor.",
-        "alt": "Haritada, avcının yanında duran, önceki bir koşudan dirilmiş yeşil bir avcı; elinde arbalet var, başının üstünde kırmızı bir kuru kafa görünüyor."
+        "alt": "Haritada, önceki bir koşudan dirilmiş bir Darağacı Nişancısı'nın kartı: nerede düştüğü, kaybettiği kesedeki 24 altın, taşıdıkları ve İlk Kan bonusu."
       },
       "rival": {
         "caption": "Haftalık sıralamaya katıl; başka bir oyuncunun avcısı bir inde rakibin olarak bekleyebilir.",
@@ -76,7 +76,7 @@
       },
       "a11y": {
         "caption": "Renk görüşü için paletler, her renk ipucunda şekil işaretleri ve sesle kontrol.",
-        "alt": "Erişilebilirlik ayarları: palet, şekil işaretleri, sesle kontrol, ses dili ve metnin ekranda ne kadar kaldığı; yanında her renk görüşü türü için oyunun renklerini gösteren bir tablo."
+        "alt": "Erişilebilirlik ayarları: palet, şekil işaretleri, sesle kontrol, ses dili ve metnin ekranda ne kadar kaldığı; yanında palet düğmesinin sırayla gösterdiği, oyunun renk ipuçlarını içeren bir tablo."
       },
       "event": {
         "caption": "Yol olayları üç seçenek sunar; bazıları altına mal olur ya da Dehşet ekler.",
@@ -252,12 +252,12 @@
       "build": {
         "title": "Avcını kur",
         "text": "Avcının görünüşünü, bonusunu ve silahını seç, bir sınıfı iki adımda öğren, puanlarını bir yetenek haritasında harca ve her yuvaya ekipman tak. Eşyaları dövümhanede tekrar ısıt ve onlara canavar kartları yerleştir.",
-        "alt": "Sınıf ustası altı ilk sınıfı sunar."
+        "alt": "Sınıf ustası Abel Tarrow iki ilk sınıf sunar: Kılıç Ustası ve Okçu."
       },
       "return": {
         "title": "Koşuların geri döner",
         "text": "Düşen avcılar sonraki koşularda dirilir ve seni avlar; içlerinden biri sapkın olarak bir Ev sahibinin yerini alabilir. Çevrim içi sıralamaya katıl; başka bir oyuncunun avcısı bir inde rakibin olarak bekleyebilir.",
-        "alt": "Haritada, kırmızıyla işaretlenmiş dirilmiş bir avcı oyuncuya doğru yürüyor."
+        "alt": "Haritada, önceki bir koşudan dirilmiş bir avcının kartı ve kaybettiği kesedeki altın."
       }
     }
   },

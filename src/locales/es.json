@@ -44,7 +44,7 @@
       },
       "battle": {
         "caption": "El combate es automático; tu preparación decide el resultado.",
-        "alt": "Un combate contra el Rey Hueco en una capilla en ruinas, con barras de vida, armadura y números de daño."
+        "alt": "Un combate en la Fundición de Ceniza: tu cazador contra un Fundidor del Cucharón y dos Escarabajos de Escoria, con barras de vida, armadura, la ronda y las habilidades del cazador."
       },
       "stone": {
         "caption": "La Piedra de la Desesperación se oscurece ante una pelea que te mataría.",
@@ -52,7 +52,7 @@
       },
       "risen": {
         "caption": "Un cazador caído en una partida pasada vaga por el camino con su oro.",
-        "alt": "En el mapa, un cazador resurgido de una partida anterior, verde, armado con una ballesta y marcado con una calavera roja, junto a tu cazador."
+        "alt": "En el mapa, la carta de una Tiradora de la Horca resurgida de una partida anterior: dónde cayó, los 24 de oro de la bolsa que perdió, lo que lleva y su bonificación Primera Sangre."
       },
       "rival": {
         "caption": "Únete al tablero semanal y el cazador de otro jugador puede esperarte en una guarida como tu rival.",
@@ -76,7 +76,7 @@
       },
       "a11y": {
         "caption": "Paletas para la visión del color, marcas de forma en cada señal de color y control por voz.",
-        "alt": "Las opciones de Accesibilidad: paleta, marcas de forma, control por voz, idioma de la voz y cuánto tiempo queda el texto en pantalla, junto a un cuadro de los colores del juego para cada tipo de visión del color."
+        "alt": "Las opciones de Accesibilidad: paleta, marcas de forma, control por voz, idioma de la voz y cuánto tiempo queda el texto en pantalla, junto a un cuadro de las señales de color del juego que el botón de paleta va recorriendo."
       },
       "event": {
         "caption": "Los eventos de camino ofrecen tres opciones, y algunas cuestan oro o suman Pavor.",
@@ -252,12 +252,12 @@
       "build": {
         "title": "Crea a tu cazador",
         "text": "Elige el aspecto, la bonificación y el arma de tu cazador, aprende una clase en dos etapas, gasta puntos en un mapa de habilidades y equipa objetos en cada ranura. Recalienta objetos en la forja y engarza en ellos cartas de monstruo.",
-        "alt": "El maestro de clase ofrece las seis primeras clases."
+        "alt": "El maestro de clase Abel Tarrow ofrece dos primeras clases, Espadachín y Arquero."
       },
       "return": {
         "title": "Tus partidas vuelven",
         "text": "Los cazadores caídos resurgen y te cazan en partidas posteriores, y uno de ellos puede ocupar el asiento de un Terrateniente como hereje. Únete al tablero en línea y el cazador de otro jugador puede esperarte en una guarida como tu rival.",
-        "alt": "Un cazador resurgido, marcado en rojo, avanza hacia el jugador en el mapa."
+        "alt": "En el mapa, la carta de un cazador resurgido de una partida anterior, con el oro de la bolsa que perdió."
       }
     }
   },
