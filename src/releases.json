@@ -1,5 +1,36 @@
 [
   {
+    "version": "0.8.0",
+    "date": "2026-11-19",
+    "min_supported": "0.3.0",
+    "notes": {
+      "en": "- Duel a friend: trade hunter codes and fight, or pick two hunters on one device\n- Weekly challenge: one run, the same for everyone, ranked on an online board for your city\n- Other players' hunters can wait in the lair as your rival\n- The Margin narrates your run aloud\n- 8 active skills and 18 rule-changing nodes in the skill tree\n- Voice control on Android, colorblind palettes and bigger buttons\n- Full screen on phones, tablets and PCs",
+      "pt_BR": "- Duelo com um amigo: troquem códigos de caçador e lutem, ou escolham dois caçadores no mesmo aparelho\n- Desafio da semana: uma run igual para todos, com ranking num placar online da sua cidade\n- Caçadores de outros jogadores podem esperar no covil como seu rival\n- A Margem narra sua run em voz alta\n- 8 habilidades ativas e 18 nós que mudam as regras na árvore de habilidades\n- Controle por voz no Android, paletas para daltonismo e botões maiores\n- Tela cheia em celulares, tablets e PCs",
+      "es": "- Duelo con un amigo: intercambia códigos de cazador y lucha, o elige dos cazadores en un dispositivo\n- Desafío semanal: una partida igual para todos, con tablero en línea de tu ciudad\n- Cazadores de otros jugadores pueden esperar en la guarida como tu rival\n- El Margen narra tu partida en voz alta\n- 8 habilidades activas y 18 nodos que cambian reglas en el árbol de habilidades\n- Control por voz en Android, paletas para daltonismo y botones mayores\n- Pantalla completa en móviles, tabletas y PC",
+      "fr": "- Duel : échangez des codes de chasseur et battez-vous, ou prenez deux chasseurs sur un appareil\n- Défi de la semaine : une partie, la même pour tous, classement en ligne de la ville\n- Les chasseurs d'autres joueurs vous attendent en tanière comme rival\n- La Marge raconte votre partie à voix haute\n- Arbre de compétences : 8 compétences actives et 18 nœuds qui changent les règles\n- Commande vocale sur Android, palettes pour daltoniens et gros boutons\n- Plein écran sur téléphones, tablettes et PC",
+      "de": "- Duell mit einem Freund: Tauscht Jäger-Codes und kämpft, oder wählt zwei Jäger auf einem Gerät\n- Wochen-Challenge: ein Lauf, für alle gleich, in einer Online-Bestenliste für deine Stadt gewertet\n- Jäger anderer Spieler können in der Höhle als dein Rivale warten\n- Die Randschrift erzählt deinen Lauf laut\n- 8 aktive Fertigkeiten und 18 regeländernde Knoten im Fertigkeitsbaum\n- Sprachsteuerung auf Android, Farbenblind-Paletten und größere Tasten\n- Vollbild auf Handys, Tablets und PCs",
+      "it": "- Duello con un amico: scambiate codici di cacciatore e combattete, o scegliete due cacciatori su un dispositivo\n- Sfida della settimana: una partita uguale per tutti, classifica online della tua città\n- Cacciatori di altri giocatori ti aspettano nella tana come rivale\n- Il Margine racconta la partita a voce alta\n- 8 abilità attive e 18 nodi che cambiano le regole nell'albero\n- Controllo vocale su Android, tavolozze per daltonici e pulsanti più grandi\n- Schermo intero su telefoni, tablet e PC",
+      "ru": "- Дуэль с другом: меняйтесь кодами охотников и сражайтесь или выберите двух охотников на одном устройстве\n- Испытание недели: один забег, одинаковый для всех, с онлайн-рейтингом для твоего города\n- Охотники других игроков могут ждать в логове как твой соперник\n- Поля вслух рассказывают о твоём забеге\n- 8 активных навыков и 18 узлов, меняющих правила, в древе навыков\n- Голосовое управление на Android, палитры для дальтоников и кнопки покрупнее\n- Полный экран на телефонах, планшетах и ПК",
+      "uk": "- Дуель з другом: обмінюйтеся кодами мисливців і б'йтеся або оберіть двох мисливців на одному пристрої\n- Виклик тижня: один забіг, однаковий для всіх, з онлайн-рейтингом для твого міста\n- Мисливці інших гравців можуть чекати в лігві як твій суперник\n- Поля вголос розповідають про твій забіг\n- 8 активних навичок і 18 вузлів, що змінюють правила, у дереві навичок\n- Голосове керування на Android, палітри для дальтоніків і більші кнопки\n- Повноекранний режим на телефонах, планшетах і ПК",
+      "pl": "- Pojedynek z przyjacielem: wymieńcie kody łowców i walczcie albo wybierzcie dwóch łowców na jednym urządzeniu\n- Wyzwanie tygodnia: jedna wyprawa, ta sama dla wszystkich, ranking online twojego miasta\n- Łowcy innych graczy czekają w legowisku jako twój rywal\n- Margines opowiada o twojej wyprawie na głos\n- 8 aktywnych umiejętności i 18 węzłów zmieniających zasady w drzewie\n- Sterowanie głosem na Androidzie, palety dla daltonistów i większe przyciski\n- Pełny ekran na telefonach, tabletach i PC",
+      "tr": "- Arkadaşınla düello: avcı kodlarını takas edip dövüş ya da tek cihazda iki avcı seç\n- Haftalık meydan okuma: herkes için aynı tek bir koşu, şehrine özel çevrimiçi sıralamayla\n- Başka oyuncuların avcıları inde rakibin olarak bekleyebilir\n- Kenar Notu koşunu sesli anlatır\n- Yetenek ağacında 8 aktif yetenek ve kuralları değiştiren 18 düğüm\n- Android'de sesle kontrol, renk körlüğü paletleri ve daha büyük düğmeler\n- Telefonlarda, tabletlerde ve PC'lerde tam ekran",
+      "ja": "- 友達と決闘：狩人コードを交換して戦うか、1台で2人の狩人を選ぼう\n- 週替わりチャレンジ：全員同じ内容の1回の挑戦。あなたの都市のオンラインランキングに載る\n- 他のプレイヤーの狩人が、巣でライバルとして待つことも\n- 余白があなたの挑戦を声に出して語る\n- スキルツリーに8つのアクティブスキルと、ルールを変える18のノード\n- Androidで音声操作、色覚サポートの配色、大きめのボタン\n- スマホ、タブレット、PCでフルスクリーン対応",
+      "ko": "- 친구와 결투: 사냥꾼 코드를 교환해 싸우거나, 한 기기에서 사냥꾼 둘을 고르세요\n- 주간 도전: 모두에게 같은 런 한 번, 내 도시의 온라인 순위표에 오릅니다\n- 다른 플레이어의 사냥꾼이 소굴에서 맞수로 기다릴 수 있습니다\n- 여백이 런을 소리 내어 들려줍니다\n- 스킬 트리에 액티브 스킬 8개와 규칙을 바꾸는 노드 18개\n- 안드로이드 음성 조작, 색각 이상용 팔레트, 더 큰 버튼\n- 휴대폰, 태블릿, PC에서 전체 화면을 지원합니다",
+      "zh_CN": "- 与好友决斗：交换猎人代码对战，或在同一台设备上选两名猎人\n- 每周挑战：一次出征，人人相同，在你所在城市的在线排行榜上排名\n- 其他玩家的猎人会在巢穴里作为你的对手等你\n- 页边会大声讲述你的出征\n- 技能树里有8个主动技能和18个改变规则的节点\n- Android 上的语音控制、色觉辅助配色和更大的按钮\n- 手机、平板和电脑上的全屏模式",
+      "zh_TW": "- 與好友決鬥：交換獵人代碼對戰，或在同一台裝置上選兩名獵人\n- 每週挑戰：一次出征，人人相同，在你所在城市的線上排行榜上排名\n- 其他玩家的獵人會在巢穴裡作為你的對手等你\n- 頁邊會大聲講述你的出征\n- 技能樹裡有8個主動技能和18個改變規則的節點\n- Android 上的語音控制、色覺輔助配色和更大的按鈕\n- 手機、平板和電腦上的全螢幕模式"
+    },
+    "platforms": {
+      "android": {
+        "url": "https://play.google.com/store/apps/details?id=com.gmunaro.dawnbringer",
+        "market": "market://details?id=com.gmunaro.dawnbringer"
+      },
+      "android-demo": {
+        "url": "https://play.google.com/store/apps/details?id=com.gmunaro.dawnbringer.demo",
+        "market": "market://details?id=com.gmunaro.dawnbringer.demo"
+      }
+    }
+  },
+  {
     "version": "0.7.2",
     "date": "2026-11-07",
     "min_supported": "0.3.0",
