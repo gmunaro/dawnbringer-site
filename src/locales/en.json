@@ -44,7 +44,7 @@
       },
       "battle": {
         "caption": "Combat runs on its own; your preparation decides it.",
-        "alt": "A fight against the Hollow King in a ruined chapel, with health bars, armor and damage numbers."
+        "alt": "A fight in the Cinder Foundry: your hunter against a Ladle Smelter and two Slag Beetles, with health bars, armor, the round and the hunter's skills."
       },
       "stone": {
         "caption": "The Stone of Despair darkens over a fight that would kill you.",
@@ -52,7 +52,7 @@
       },
       "risen": {
         "caption": "A fallen hunter from a past run roams the road with its gold.",
-        "alt": "On the map, a green risen hunter from an earlier run, armed with a crossbow and marked with a red skull, stands next to your hunter."
+        "alt": "On the map, the card of a Gallows Marksman risen from an earlier run: where it fell, the 24 gold of the purse it lost, what it carries and its First Blood bonus."
       },
       "rival": {
         "caption": "Join the weekly board and another player's hunter can wait in a lair as your rival.",
@@ -76,7 +76,7 @@
       },
       "a11y": {
         "caption": "Palettes for color vision, shape marks on every color cue, and voice control.",
-        "alt": "The Accessibility options: palette, shape marks, voice control, voice language and how long text stays on screen, next to a chart of the game's colors for each kind of color vision."
+        "alt": "The Accessibility options: palette, shape marks, voice control, voice language and how long text stays on screen, next to a chart of the game's color cues that the palette button steps through."
       },
       "event": {
         "caption": "Road events offer three choices, and some cost gold or add Dread.",
@@ -252,12 +252,12 @@
       "build": {
         "title": "Build your hunter",
         "text": "Pick your hunter's look, bonus and weapon, learn a class in two steps, spend points on a skill map and wear gear in every slot. Reheat items at the forge and set monster cards into them.",
-        "alt": "The class master offers the six first classes."
+        "alt": "The class master Abel Tarrow offers two first classes, Swordsman and Archer."
       },
       "return": {
         "title": "Your runs come back",
         "text": "Fallen hunters rise and hunt you in later runs, and one of them can take a Landlord's seat as a heretic. Join the online board and another player's hunter can wait in a lair as your rival.",
-        "alt": "A risen hunter, marked in red, walks toward the player on the map."
+        "alt": "On the map, the card of a hunter risen from an earlier run, with the gold of the purse it lost."
       }
     }
   },
