@@ -135,7 +135,7 @@ function topBar(c: Ctx, page: PageId): string {
   }).join("");
   return `<a class="skip" href="#main">${esc(t.nav.skip)}</a>
 <header class="top">
-<a class="brand" href="${home}">Dawnbringer</a>
+<a class="brand" href="${home}"><img src="${asset("img/logo.png")}" width="128" height="36" alt="Dawnbringer"></a>
 <nav class="sections"><ul>${sections}${press}</ul></nav>
 <details class="lang">
 <summary><span class="sr">${esc(t.nav.language)}: </span>${esc(loc.name)}</summary>
@@ -279,10 +279,10 @@ export function homePage(c: Ctx): Page {
 <picture class="hero-art">
 <source media="(min-width: 1280px)" srcset="${asset("img/hero-3x.webp")}" width="1920" height="1080">
 <source media="(min-width: 720px)" srcset="${asset("img/hero-2x.webp")}" width="1280" height="720">
-<img src="${asset("img/hero-narrow.webp")}" width="432" height="320" alt="${esc(t.hero.artAlt)}" fetchpriority="high">
+<img src="${asset("img/hero-narrow.webp")}" width="864" height="640" alt="${esc(t.hero.artAlt)}" fetchpriority="high">
 </picture>
 <div class="hero-text">
-<h1 class="logo">Dawnbringer</h1>
+<h1 class="logo"><img src="${asset("img/logo.png")}" width="1280" height="360" alt="Dawnbringer"></h1>
 <p class="pitch">${esc(t.hero.pitch)}</p>
 <ul class="stores">${buttons}</ul>
 </div>
@@ -488,7 +488,7 @@ export function privacyPage(c: Ctx, enHtml: string, ptHtml: string, otherHtml = 
   const html = `${head({ lang: "en", title: "Dawnbringer · Privacy Policy / Política de Privacidade", description: "Privacy policy of the game Dawnbringer. Política de privacidade do jogo Dawnbringer.", path: "privacy.html", ogLocale: "en_US" })}
 <body data-page="privacy">
 <a class="skip" href="#main">${esc(t.nav.skip)}</a>
-<header class="top"><a class="brand" href="${BASE}">Dawnbringer</a></header>
+<header class="top"><a class="brand" href="${BASE}"><img src="${asset("img/logo.png")}" width="128" height="36" alt="Dawnbringer"></a></header>
 <main id="main" class="wrap prose">
 <article>
 ${enHtml}
@@ -511,7 +511,7 @@ export function notFoundPage(c: Ctx): Page {
   const html = `${head({ lang: "en", title: `${t.meta.notFoundTitle} · Dawnbringer`, description: t.notFound.text, path: "404.html", ogLocale: "en_US", noindex: true })}
 <body data-page="404">
 <a class="skip" href="#main">${esc(t.nav.skip)}</a>
-<header class="top"><a class="brand" href="${BASE}">Dawnbringer</a></header>
+<header class="top"><a class="brand" href="${BASE}"><img src="${asset("img/logo.png")}" width="128" height="36" alt="Dawnbringer"></a></header>
 <main id="main" class="wrap prose">
 <h1>${esc(t.meta.notFoundTitle)}</h1>
 <p>${esc(t.notFound.text)}</p>
