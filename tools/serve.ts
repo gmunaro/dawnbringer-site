@@ -1,4 +1,4 @@
-// Serves the built site the way GitHub Pages does, under /dawnbringer-site/, for local checks:
+// Serves the built site the way GitHub Pages does, under BASE, for local checks:
 //   bun run serve            (port 4173; PORT=xxxx to change)
 // Folders serve their index.html (a folder without the trailing slash redirects to it), missing
 // paths get 404.html with status 404, and paths outside the repo are refused.
@@ -13,7 +13,7 @@ const server = Bun.serve({
   port,
   fetch(req) {
     const url = new URL(req.url);
-    if (url.pathname === "/") return Response.redirect(BASE, 302);
+    if (BASE !== "/" && url.pathname === "/") return Response.redirect(BASE, 302);
     if (!url.pathname.startsWith(BASE)) return new Response("not under " + BASE, { status: 404 });
     const rel = decodeURIComponent(url.pathname.slice(BASE.length));
     const file = normalize(join(ROOT, rel));
