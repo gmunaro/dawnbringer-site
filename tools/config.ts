@@ -1,10 +1,10 @@
 // Site-wide settings: where the site lives, its languages, its social links and the pictures of the
 // home page and the press kit.
 
-/** Public URL of the site (GitHub Pages project site) and the path every link starts with. */
-export const SITE = "https://gmunaro.github.io/dawnbringer-site/";
-export const BASE = "/dawnbringer-site/";
-export const CONTACT = "dawnbringergame@gmail.com";
+/** Public URL of the site (GitHub Pages with the custom domain in CNAME) and the path every link starts with. */
+export const SITE = "https://dawnbringergame.com/";
+export const BASE = "/";
+export const CONTACT = "contato@dawnbringergame.com";
 
 /**
  * The game's social accounts, shown in the footer and the press kit, in this order. Only accounts

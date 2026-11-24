@@ -1,5 +1,5 @@
 // HTML of every page, as plain template strings. Every text comes from a locale's JSON and is
-// escaped with esc(); every link starts with BASE so the site works under /dawnbringer-site/.
+// escaped with esc(); every link starts with BASE so the site also works under a sub-path.
 import { BASE, BETA, CONTACT, LOCALES, SHOTS, SITE, SOCIALS, STUDIO, WHY, type Locale, type PixelFont } from "./config.ts";
 import type en from "../src/locales/en.json";
 

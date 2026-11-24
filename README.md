@@ -1,7 +1,7 @@
 # Dawnbringer website
 
 Static site for the game Dawnbringer, published by GitHub Pages from the root of `main` at
-https://gmunaro.github.io/dawnbringer-site/. The HTML at the root is generated: edit `src/` and
+https://dawnbringergame.com/ (custom domain in `CNAME`; the old gmunaro.github.io/dawnbringer-site/ address redirects there). The HTML at the root is generated: edit `src/` and
 `tools/`, then rebuild and commit both.
 
 ## Rebuild
@@ -9,7 +9,7 @@ https://gmunaro.github.io/dawnbringer-site/. The HTML at the root is generated: 
 ```bash
 bun install
 bun run build      # writes index.html, <lang>/, beta/, download/, presskit/, changelog/, privacy.html, 404.html, assets/...; fails if a language page shows English (tools/i18n_check.ts)
-bun run serve      # http://localhost:4173/dawnbringer-site/ (prints its pid)
+bun run serve      # http://localhost:4173/ (prints its pid)
 bun run check      # in another shell: locale keys, page metadata, every internal link answers 200
 bun run typecheck
 ```
