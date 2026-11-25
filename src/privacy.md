@@ -2,7 +2,7 @@
 
 Effective date: 2026-11-18
 
-Developer: gmunaro (individual developer), contact: dawnbringergame@gmail.com
+Developer: PraiseTC (gmunaro, individual developer), contact: contato@dawnbringergame.com
 
 *Versão em português abaixo.*
 
@@ -84,7 +84,7 @@ Please do not type other personal information (such as your email or phone numbe
 description or in "Your name"; a first name or a nickname is enough. Reports are kept while the bug
 is being worked on and then may be kept as part of the project's issue history, with their row in
 the database. "Delete my data" does not delete reports already sent. To have a report deleted,
-email dawnbringergame@gmail.com with the date you sent it and a few words of its description, and
+email contato@dawnbringergame.com with the date you sent it and a few words of its description, and
 we will delete it.
 
 ## Voice notes (Android only, only when you use them)
@@ -163,7 +163,7 @@ the records. The server's technical logs are the same as for bug reports, descri
 
 Records are deleted automatically 12 months after they arrive. To delete yours sooner, press
 "Delete my data" in Options: the game asks the server to delete every record sent with your id,
-then creates a new id. You can also email dawnbringergame@gmail.com with the id shown in Options,
+then creates a new id. You can also email contato@dawnbringergame.com with the id shown in Options,
 and we will delete them. If you turn records off, the game sends nothing more and deletes the
 records it had not sent yet. Records already sent stay until the 12 months pass or you delete
 them.
@@ -271,7 +271,7 @@ date.
 
 ## Contact
 
-dawnbringergame@gmail.com
+contato@dawnbringergame.com
 
 ---
 
@@ -279,7 +279,7 @@ dawnbringergame@gmail.com
 
 Data de vigência: 2026-11-18
 
-Desenvolvedor: gmunaro (desenvolvedor individual), contato: dawnbringergame@gmail.com
+Desenvolvedor: PraiseTC (gmunaro, desenvolvedor individual), contato: contato@dawnbringergame.com
 
 ## Resumo
 
@@ -361,7 +361,7 @@ Não escreva outros dados pessoais (como e-mail ou telefone) na descrição nem 
 primeiro nome ou apelido basta. Os relatórios ficam guardados enquanto o bug é tratado e podem
 continuar no histórico de issues do projeto, com a linha deles no banco de dados. "Apagar meus
 dados" não apaga os relatórios já enviados. Para apagar um relatório, mande um e-mail para
-dawnbringergame@gmail.com com a data do envio e algumas palavras da descrição, e nós o apagaremos.
+contato@dawnbringergame.com com a data do envio e algumas palavras da descrição, e nós o apagaremos.
 
 ## Notas de voz (só Android, só quando você usa)
 
@@ -407,7 +407,7 @@ e descarta os mais antigos além disso. Um registro contém:
   velocidade do jogo e o idioma do jogo;
 - cada escolha que você fez na partida, em ordem: por onde você andou no mapa, os eventos e a opção
   escolhida, os itens que lhe foram oferecidos, comprados, vendidos, forjados e refinados, as
-  cartas, as Oddities que você pegou, as classes oferecidas e escolhidas, as habilidades e os
+  cartas, os Achados que você pegou, as classes oferecidas e escolhidas, as habilidades e os
   pontos de atributo, o reinício da sua build, os contratos e os postos nas guildas, a expulsão de
   uma guilda ou a saída dela, e se você voltou para casa ou seguiu depois de cada Senhorio;
 - cada luta: os inimigos, se você venceu e a sua vida antes e depois; e as pessoas do mundo que
@@ -428,7 +428,7 @@ Ele contém a versão do jogo, a plataforma, o id aleatório descrito acima, um 
 id e dos dois heróis (para que o mesmo duelo enviado duas vezes conte uma vez só), a versão das
 regras de luta, se o duelo foi contra o código de um amigo ou no mesmo aparelho, quem venceu,
 quantas rodadas durou e se o limite de rodadas decidiu; e, para cada um dos dois heróis, o campeão,
-a classe, o nível, os votos, as Oddities e a parte da vida que sobrou no fim. Um registro de duelo
+a classe, o nível, os votos, os Achados e a parte da vida que sobrou no fim. Um registro de duelo
 nunca contém o código do duelo, o nome ou a aparência de um herói, nem nada mais que identifique
 você ou o seu amigo. Ele é usado, guardado e apagado como os registros de partida.
 
@@ -443,7 +443,7 @@ servidor são os mesmos dos relatórios de bug, descritos acima.
 Os registros são apagados automaticamente 12 meses depois de chegarem. Para apagar os seus antes,
 toque em "Apagar meus dados" nas Opções: o jogo pede ao servidor que apague todos os registros
 enviados com o seu id e depois cria um id novo. Você também pode mandar um e-mail para
-dawnbringergame@gmail.com com o id mostrado nas Opções, e nós os apagamos. Se você desativar os
+contato@dawnbringergame.com com o id mostrado nas Opções, e nós os apagamos. Se você desativar os
 registros, o jogo não envia mais nada e apaga os registros que ainda não tinha enviado. Os
 registros já enviados ficam até passarem os 12 meses ou até você apagá-los.
 
@@ -556,7 +556,7 @@ vigência.
 
 ## Contato
 
-dawnbringergame@gmail.com
+contato@dawnbringergame.com
 
 ---
 
