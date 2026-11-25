@@ -148,6 +148,7 @@ main > section, main > .wrap { padding-top: 64px; }
 .lead { font-size: 20px; max-width: 40em; color: var(--bone); }
 .clip .video { padding: 0; max-width: calc(1280px + 16px); margin: 0 auto; }
 .clip video { display: block; width: 100%; height: auto; image-rendering: pixelated; background: var(--ink); }
+.state-note { max-width: calc(1280px + 16px); margin: 12px auto 0; color: var(--muted); font-size: 16px; }
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr)); gap: 16px; margin: 0; padding: 0; list-style: none; }
 .card h3 { color: var(--gold); }
 .card p:last-child { margin-bottom: 0; }
@@ -175,7 +176,8 @@ main > section, main > .wrap { padding-top: 64px; }
 .beta-demo { margin-bottom: 24px; max-width: 64em; }
 .beta-demo .btn { max-width: 100%; overflow-wrap: anywhere; text-align: center; margin: 4px 8px 4px 0; }
 .beta-steps { margin: 0 0 24px; padding: 0; list-style: none; display: grid; gap: 20px; max-width: 64em; }
-.beta-step h3 { color: var(--gold); }
+.beta-step h2, .beta-step h3 { color: var(--gold); }
+.beta-step h2, .beta-demo h2, .beta-help h2 { font-size: calc(var(--px) * 2); text-shadow: none; }
 .beta-n { display: inline-block; min-width: 1.6em; text-align: center; background: var(--blood); color: var(--parchment); margin-right: 6px; }
 .beta-step .beta-shots { margin-top: 12px; align-items: start; }
 .beta-shots a { display: block; }

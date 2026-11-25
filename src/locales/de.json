@@ -1,231 +1,249 @@
 {
   "meta": {
-    "title": "Dawnbringer: Dark-Fantasy-Roguelike-Autobattler",
-    "description": "Ein Dark-Fantasy-Roguelike-Autobattler. Baue einen Jäger, lies die Ausrüstung jedes Gegners und bezahle dann den Hausherrn oder kämpfe.",
-    "pressTitle": "Dawnbringer-Pressekit",
-    "pressDescription": "Datenblatt, Beschreibung, Features, Logo, Key Art und Screenshots von Dawnbringer, einem Roguelike-Autobattler von gmunaro.",
+    "title": "Dawnbringer · Dark-Fantasy-Roguelike-Autobattler",
+    "description": "Ein Dark-Fantasy-Roguelike-Autobattler ohne Würfel. Baue einen Jäger für einen Drei-Wochen-Lauf, prüfe die echte Ausrüstung jedes Gegners, zahle den Wochenboss aus oder kämpfe, und sichere danach deine Börse daheim oder riskiere alles weiter.",
+    "pressTitle": "Dawnbringer Pressekit",
+    "pressDescription": "Faktenblatt, Spielübersicht, Funktionsliste, Logos, Key-Art und Screenshots von Dawnbringer, einem Roguelike-Autobattler von PraiseTC und gmunaro.",
     "notFoundTitle": "Seite nicht gefunden",
-    "ogAlt": "Das Dawnbringer-Logo über einem gekrönten Hausherrn unter einem blutroten Mond.",
-    "betaTitle": "Android-Alpha beitreten · Dawnbringer",
-    "betaDescription": "So trittst du der geschlossenen Alpha von Dawnbringer bei Google Play bei, in vier Schritten mit Bildern.",
-    "downloadTitle": "Desktop-Demo · Dawnbringer",
-    "downloadDescription": "Lade die kostenlose Dawnbringer-Demo für Windows, macOS und Linux herunter.",
+    "ogAlt": "Das goldene Dawnbringer-Logo über einem gepanzerten Jäger mit Laterne auf einem Felsen über überfluteten Ruinen, gegenüber einer riesigen Steinkreatur unter einer zerbrochenen Sonnenfinsternis.",
+    "betaTitle": "Geschlossener Android-Test · Dawnbringer",
+    "betaDescription": "Tritt dem kostenlosen geschlossenen Test von Dawnbringer auf Google Play in vier Schritten mit Screenshots bei, inklusive Vollspiel und separater Gratis-Demo.",
+    "downloadTitle": "Kostenlose PC-Demo · Dawnbringer",
+    "downloadDescription": "Lade die kostenlose Dawnbringer-Demo für Windows, macOS und Linux herunter. Spiele einen kompletten Drei-Wochen-Lauf ohne Zeitlimit.",
     "duelTitle": "Duell-Code · Dawnbringer",
-    "duelDescription": "Kopiere den Duell-Code, den dir ein Freund geschickt hat, und füge ihn in Dawnbringer ein."
+    "duelDescription": "Kopiere den Duell-Code eines Freundes und füge ihn in Dawnbringer ein, um offline gegen seinen Jäger zu kämpfen."
   },
   "nav": {
     "skip": "Zum Inhalt springen",
     "home": "Start",
-    "why": "Das Spiel",
-    "new": "Neu in 0.8",
-    "demo": "Desktop-Demo",
-    "beta": "Android-Alpha",
+    "demo": "PC-Demo",
+    "beta": "Android-Test",
     "press": "Pressekit",
     "language": "Sprache"
   },
   "hero": {
-    "pitch": "Ein Dark-Fantasy-Roguelike, in dem Kämpfe von selbst ablaufen: Baue einen Jäger, lies die Ausrüstung jedes Gegners und bezahle dann den Hausherrn oder kämpfe. Teste es kostenlos auf dem Computer.",
-    "artAlt": "Ein kleiner Jäger auf einem Hügel steht einem riesigen gekrönten Hausherrn gegenüber, der unter einem blutroten Mond vor den dunklen Hügeln steht.",
+    "pitch": "Ein Dark-Fantasy-Roguelike-Autobattler ganz ohne Würfel. Jeder Lauf dauert drei Wochen. Prüfe vor automatischen Kämpfen die echte Ausrüstung jedes Gegners, zahle den Wochenboss oder kämpfe, und entscheide dann, ob du deine Börse sicher nach Hause bringst oder in eine härtere Woche mitnimmst. Der Tod nimmt alles, was du trägst.",
+    "artAlt": "Ein gepanzerter Jäger mit rotem Umhang hält eine Laterne auf einem Felsen über überfluteten gotischen Ruinen, gegenüber einer riesigen Steinkreatur unter einer zerbrochenen Sonnenfinsternis.",
     "clipTitle": "Gameplay",
-    "clipAlt": "Gameplay-Clip: Ein Held in voller Ausrüstung kämpft allein gegen eine Gruppe Monster.",
+    "clipAlt": "Gameplay-Clip, in dem ein ausgerüsteter Jäger automatisch gegen eine Monstergruppe kämpft.",
     "clipFallback": "Dein Browser kann dieses Video nicht abspielen.",
-    "play": "Zur Android-Alpha anmelden",
-    "demo": "Kostenlose Demo spielen"
+    "stateNote": "Das Key-Art zeigt den geplanten Stil für 0.9. Version 0.8.0 nutzt Vektor-Figuren und Ausrüstung auf Pixel-Art-Hintergründen und UI, mit teilweiser Controller-Unterstützung.",
+    "play": "Android-Test beitreten",
+    "playSub": "Google Play, kostenlos für Tester",
+    "demo": "Kostenlose Demo laden",
+    "demoSub": "Windows, macOS, Linux"
+  },
+  "loop": {
+    "title": "So läuft eine Runde ab",
+    "steps": [
+      {
+        "title": "1. Setze Gold aus deiner Bank",
+        "text": "Die Sonne zerbrach, ihre leuchtenden Splitter wurden zu Geld und dein Haus ist deine dauerhafte Basis zwischen Läufen. Vor dem Aufbruch erstellst du einen Jäger, wählst Startbonus und Waffe und legst Gold aus der sicheren Bank in deine Börse, bis zum Börsenlimit. Gold in der Börse kauft Ausrüstung, Verbrauchsgüter, Schmiede-Upgrades und Schreinsegen unterwegs, sodass ein höherer Einsatz dich früh stärker macht und dein Todesrisiko erhöht. Der Tod nimmt deine Börse, niemals deine Bank."
+      },
+      {
+        "title": "2. Erkunde drei Wochen und lies jeden Kampf",
+        "text": "Durchquere eine nebelverhangene Kachelkarte durch Tage und gefährliche Nächte. Jeder Gegner trägt sichtbare Ausrüstung und Werte. Kämpfe laufen automatisch ohne Würfel ab, sodass du jeden Feind prüfst und seinen Build mit deinem vergleichst, bevor du angreifst."
+      },
+      {
+        "title": "3. Zahle den Hausherrn oder kämpfe, dann sichere dein Gold",
+        "text": "Am Ende jeder Woche erscheint der Boss der Region, der Hausherr, und treibt Abgaben ein. In Woche 1 und 2 kannst du um das Kopfgeld kämpfen oder den Zehnt zahlen, also 30% deiner Börse oder ein Wochenminimum, je nachdem, was höher ist. In Woche 3 gibt es keinen Zehnt. Nach jedem überlebten Hausherrn gehst du mit deiner Börse heim oder nimmst alles in die nächste Woche mit."
+      },
+      {
+        "title": "4. Entwickle deinen Jäger und baue das Haus aus",
+        "text": "Lerne nach Woche 1 eine erste Klasse und nach Woche 2 eine zweite, verteile Punkte auf einer einzigen Fertigkeitskarte, bilde Familiensets und verbessere Ausrüstung in der Schmiede. Zwischen Läufen schaltet dein Bankgold 22 dauerhafte Räume im Haus frei."
+      }
+    ]
   },
   "screens": {
     "items": {
       "night": {
-        "caption": "Nacht im Hängenden Wald: Der Nebel verbirgt die Straße und das, was auf ihr wartet.",
-        "alt": "Die Karte des Hängenden Waldes bei Nacht: der Jäger auf einem Waldweg, vor ihm ein Monster, neben dem Weg markierte Kämpfe und eine Truhe, an den Rändern Lebenspunkte, Gold, der Hausherr der Woche, die Regionskarte und der Gürtel."
+        "caption": "Nacht im Hängenden Wald. Nebel verkürzt deine Sicht und Nachtschatten jagen dich über den Weg.",
+        "alt": "Karte des Hängenden Waldes bei Nacht mit dem Jäger auf einem Waldweg, einem Gegner voraus, nahen Kämpfen, einer Truhe sowie Gesundheit, Gold, Wochenboss, Regionskarte und Gürtel am Rand."
       },
       "landlord": {
-        "caption": "Zahl den Zehnt aus deiner Börse oder kämpfe um das Kopfgeld.",
-        "alt": "Die Karte des Obstgartenfressers: der Hausherr des Staubfelds mit seinen Werten, seiner Fähigkeit Reifkruste, dem, was er trägt, dem Zehnt von 18 deiner 60 Gold und den Knöpfen Zehnt zahlen und Kämpfen."
+        "caption": "Jede Woche endet mit einem Hausherrn. Zahle den Zehnt aus deiner Börse oder kämpfe um das volle Kopfgeld.",
+        "alt": "Begegnungskarte des Obstgartenfressers, Hausherr des Staubfelds, mit Werten, der Fähigkeit Reifkruste, getragenen Gegenständen, einem Zehnt von 18 aus 60 Gold und Schaltflächen für Zehnt zahlen oder Kämpfen."
       },
       "battle": {
-        "caption": "Der Kampf läuft automatisch; deine Vorbereitung entscheidet.",
-        "alt": "Ein Kampf in der Glutgießerei: dein Jäger gegen einen Pfannenschmelzer und zwei Schlackenkäfer, mit Lebensbalken, Rüstung, der Runde und den Fertigkeiten des Jägers."
+        "caption": "Kämpfe laufen automatisch ohne Würfel. Deine Vorbereitung entscheidet den Ausgang.",
+        "alt": "Kampfbildschirm im Schmelztiegel mit dem Jäger gegen einen Pfannenschmelzer und zwei Schlackenkäfer, samt Lebensbalken, Schild, Rundenzähler und ladenden aktiven Fertigkeiten."
       },
       "stone": {
-        "caption": "Der Verzweiflungsstein verdunkelt sich über einem Kampf, der dich töten würde.",
-        "alt": "Auf der Weltkarte die Karte eines Rudels, angeführt vom Schwieligen Beschneider: was er trägt, die zwei Gegner bei ihm und die Warnung des Verzweiflungssteins, dass dieser Kampf dich töten würde."
+        "caption": "Der Verzweiflungsstein verdunkelt sich nur, wenn dich der Kampf gegen diesen Gegner genau jetzt töten würde.",
+        "alt": "Karte eines Rudels unter dem Schwieligen Beschneider mit getragenen Gegenständen, zwei Begleitern und der Warnung des Verzweiflungssteins, dass dieser Kampf tödlich wäre."
       },
       "risen": {
-        "caption": "Ein gefallener Jäger aus einem früheren Lauf streift mit seinem Gold über die Straße.",
-        "alt": "Auf der Weltkarte die Karte einer Galgenschützin, auferstanden aus einem früheren Lauf: wo sie fiel, die 24 Gold der Börse, die sie verlor, was sie trägt, und ihr Bonus Erstes Blut."
+        "caption": "Deine gefallenen Jäger stehen an ihrem Todesort wieder auf und tragen ihren alten Build sowie einen Teil des verlorenen Goldes.",
+        "alt": "Kartenansicht einer aus einem früheren Lauf auferstandenen Galgenschützin mit Todesort, 24 rückgewinnbarem Gold aus ihrer verlorenen Börse, Ausrüstung und dem Bonus Erstes Blut."
       },
       "rival": {
-        "caption": "Tritt der Wochen-Bestenliste bei, und der Jäger eines anderen Spielers kann als dein Rivale in einer Höhle warten.",
-        "alt": "Die Karte von Ash Vey, dem Jäger eines anderen Spielers und einem Wächter: seine Werte, die zwei Gegenstände, die er trägt, die Beute für einen Sieg über ihn, ein Hinweis, dass er aus der Online-Wochen-Bestenliste kommt, und die Knöpfe Kämpfen und Zurückweichen."
+        "caption": "Tritt der optionalen Wochen-Bestenliste bei, und der geprüfte Jäger eines anderen Spielers kann in einer Höhle als Rivale warten.",
+        "alt": "Begegnungskarte von Ash Vey, einem Jäger eines anderen Spielers aus der Online-Bestenliste, der eine Höhle bewacht, mit Werten, zwei Gegenständen, Belohnungen und den Schaltflächen Kämpfen oder Zurückweichen."
       },
       "board": {
-        "caption": "Der Server prüft jeden Lauf und reiht ihn dann in deiner Stadt, deiner Region oder deinem Land ein.",
-        "alt": "Die Wochen-Bestenliste für Toronto, ON, CA: zehn Jäger mit Klasse und Punktzahl, dein Bestwert von 2140 auf Platz 4 und die Knöpfe Ort ändern, Transfercode, Meine Daten löschen und Zurück."
+        "caption": "Der Server spielt jeden Lauf der Wochen-Challenge zur Prüfung nach und wertet ihn für deine Stadt, Region oder dein Land.",
+        "alt": "Wochen-Bestenliste für Toronto, ON, CA mit zehn Jägern samt Klassen und Punkten, deiner Bestmarke von 2140 auf Platz 4 sowie den Schaltflächen Ort ändern, Code übertragen, Meine Daten löschen und Zurück."
       },
       "camp": {
-        "caption": "Baue im Haus deinen Jäger und wähle Gelübde und das Gold, das du mitnimmst.",
-        "alt": "Das Haus: die Jägererstellung mit Geschlecht, Haut, Augen, Haar und Kleidung, der Bonus Riposte und die Eisenkeule, das Glas mit den Gegenstandsfamilien, die Gelübde und das mitgenommene Gold."
+        "caption": "Im Haus gestaltest du deinen Jäger, wählst optionale Gelübde mit Nachteilen für höhere Auszahlungen und legst deine Startbörse fest.",
+        "alt": "Vorbereitungsbildschirm des Hauses mit Anpassung für Geschlecht, Haut, Augen, Haare und Outfit, dem Bonus Riposte, der Eisenkeule, dem Gefäß der Gegenstandsfamilien, optionalen Gelübden und dem Gold-Einsatzbalken."
       },
       "shop": {
-        "caption": "Der Laden zeigt dir vor dem Tausch genau, wie sich deine Werte ändern.",
-        "alt": "Der Laden mit vier Gegenständen zum Kaufen oder Verbannen und einem Vergleich des neuen Gegenstands mit deinem Build."
+        "caption": "Jeder Laden vergleicht neue Gegenstände direkt mit deinem ausgerüsteten Stück, bevor du kaufst oder sie aus künftigen Angeboten entfernst.",
+        "alt": "Ladenansicht mit vier Gegenständen zum Kaufen oder Verbannen samt direktem Wertevergleich mit der Ausrüstung des Jägers."
       },
       "build": {
-        "caption": "Kombiniere 2, 4 oder 6 Gegenstände derselben Familie, um Set-Boni freizuschalten.",
-        "alt": "Das Build-Blatt eines Jägers mit Werten, Ausrüstung, Gürtel, Fertigkeiten und den Familiensets Glutofen, Eisen, Galgen und Pest."
+        "caption": "Lege 2, 4 oder 6 Teile derselben Gegenstandsfamilie an, um Set-Boni zu aktivieren.",
+        "alt": "Build-Übersicht eines Jägers mit Werten, getragener Ausrüstung, Gürtel-Verbrauchsgegenständen, Fertigkeiten und aktiven Sets für Glutofen, Eisen, Galgen und Pest."
       },
       "a11y": {
-        "caption": "Paletten für das Farbsehen, Formmarken an jedem Farbhinweis und Sprachsteuerung.",
-        "alt": "Die Optionen zur Barrierefreiheit: Palette, Formmarken, Sprachsteuerung, Sprache der Stimme und wie lange Text sichtbar bleibt, neben einer Tafel mit den Farbhinweisen des Spiels, die der Palettenknopf durchschaltet."
+        "caption": "Paletten für Farbenfehlsichtigkeit, Formmarkierungen auf jedem Farbhinweis und lokale Sprachsteuerung auf Android.",
+        "alt": "Barrierefreiheit-Menü mit Farbpaletten, Formmarkierungen, Sprachsteuerung, Sprachauswahl und Textdauer neben einem Live-Diagramm der Farbsignale im Spiel."
       },
       "event": {
-        "caption": "Straßenereignisse bieten drei Wahlmöglichkeiten, und manche kosten Gold oder fügen Grauen hinzu.",
-        "alt": "Das Ereignis Der Kapellenbrunnen, mit drei Wahlmöglichkeiten: eine kostet 8 Gold, eine fügt 4 Grauen hinzu."
+        "caption": "Weg-Ereignisse bieten feste Entscheidungen ohne Zufallswürfe, im Tausch gegen Gold, Gesundheit oder erhöhte Gegnergefahr namens Grauen.",
+        "alt": "Weg-Ereignis Der Kapellenbrunnen mit drei deterministischen Optionen, davon eine für 8 Gold und eine mit 4 Grauen."
       }
     }
   },
   "features": {
     "title": "Funktionen",
     "items": [
-      "6 Grundklassen und 12 Aufstiegsklassen.",
-      "Attributpunkte und ein Fertigkeitspunkt pro Stufe; ein Fertigkeitsbaum, der eine einzige Karte ist, mit 8 aktiven Fertigkeiten, die sich in Runden aufladen.",
-      "105 Gegenstände in 10 Familien, nach Slot getragen, mit Set-Boni bei 2, 4 und 6 Teilen.",
-      "Gegenstände in der Schmiede bis +4 nachglühen und 19 Arten Monsterkarten in sie einsetzen.",
-      "19 Hausherren, verteilt auf 6 Regionen und 3 Wochen.",
-      "Patrouillen, Rudel, Hinterhalte, Wächter und Mimics auf der Karte.",
-      "Tag und Nacht: Nachts wird deine Sicht kleiner und Schatten jagen dich.",
-      "Deine gefallenen Jäger stehen auf und jagen dich; einer von ihnen kann als Ketzer den Sitz eines Hausherrn einnehmen.",
-      "Getrennte Bank und Börse: Setze zu Beginn Gold ein und zahle nach jedem Hausherrn aus.",
-      "9 optionale Gelübde, die den Weg grausamer und die Auszahlung größer machen.",
-      "Eine Wochen-Challenge mit Online-Bestenliste, Rivalen anderer Spieler und Duellen mit Freunden.",
-      "Jede Figur spricht, ein Erzähler kommentiert den Lauf, und jede Region hat ihren eigenen Klang bei Tag und Nacht.",
-      "Paletten für Farbenblindheit, Formmarken, Sprachsteuerung auf Android und ein Diagramm für jede Option.",
-      "Ein Herbarium, ein Bestiarium und 16 Erfolge im Journal.",
-      "Jäger, Monster, Ausrüstung und Effekte als Vektorgrafik gezeichnet.",
-      "Maus, Tastatur, Controller und Touch, im Vollbild auf Handys, Tablets und PCs.",
-      "In 14 Sprachen übersetzt und auf Portugiesisch (Brasilien) vertont."
+      "Deterministischer Autokampf ohne Würfel. Prüfe vor jedem Kampf die echte Ausrüstung der Gegner, während der Verzweiflungsstein nur vor tödlichen Kämpfen warnt und bei Hausherren schweigt.",
+      "Drei-Wochen-Läufe durch 6 Regionen mit je fünf Zonen gegen 19 Hausherren. In Woche 1 und 2 kämpfst du um das Kopfgeld oder zahlst den Zehnt, also 30% deiner Börse oder ein Wochenminimum, je nachdem, was höher ist. In Woche 3 gibt es keinen Zehnt.",
+      "Getrennte Bank und Börse. Nutze Börsengold unterwegs für Ausrüstung, Verbrauchsgüter, Schmiede und Dienste, sichere Gewinne nach jedem Hausherrn oder riskiere alles weiter. Zwischen Läufen öffnet Bankgold 22 dauerhafte Räume im Haus.",
+      "Zweistufige Klassenentwicklung beim Klassenmeister Abel Tarrow, mit 6 ersten Klassen nach Woche 1 und 12 zweiten Klassen nach Woche 2.",
+      "Attributpunkte und ein Fertigkeitspunkt pro Stufe auf einer einzigen zoombaren Fertigkeitskarte, mit 8 aktiven Fertigkeiten mit Rundenabklingzeit und 18 regeländernden Knoten.",
+      "105 Gegenstände in 10 Familien für 1 Waffenplatz und 8 Ausrüstungsplätze, insgesamt 9 Teile zugleich, mit Set-Boni bei 2, 4 und 6 Teilen. Härte jeden Gegenstand bis Stufe III und glühe Waffen sowie Rüstungen in der Schmiede ohne Fehlschlagrisiko bis +4 nach, und setze 19 Monsterkarten ein. Talismane lassen sich härten, aber nicht nachglühen.",
+      "35 Gegnertypen samt Patrouillen, Rudeln, Hinterhalten, Wächtern und Mimiks, 31 feste Weg-Ereignisse, 4 Gilden mit Verträgen und 9 optionale Gelübde, Nachteile mit je 10% mehr Siegesgold.",
+      "Gefallene Jäger stehen in späteren Läufen auf und jagen dich, ein in Woche 2 oder 3 gefallener Jäger kann als Ketzer den Sitz eines Hausherrn einnehmen, und du kannst 11 sterbliche NPCs bekämpfen oder töten.",
+      "Eine gemeinsame Wochen-Challenge mit servergeprüfter Online-Bestenliste nach Stadt, Region oder Land, Online-Rivalen in Höhlen und Offline-Duellen per Code oder an einem Gerät.",
+      "Vektorgrafik im SVG-Format für Jäger, Monster, Hausherren und getragene Ausrüstung in 0.8.0. Kampfhintergründe, Kartenkacheln und Oberfläche nutzen noch Pixel-Art, Kampfeffekte mischen Vektor und Pixel, und 0.9 soll alles als Vektorgrafik vereinen.",
+      "Synthetische Stimmen für alle Figuren und Monster plus die Erzählerin Die Randschrift auf Englisch und brasilianischem Portugiesisch, zusammen mit Farbenblind-Paletten, Formmarkierungen, lokaler Android-Sprachsteuerung, einstellbarer Textdauer und Live-Diagrammen.",
+      "Herbarium und Bestiarium mit 12 Pflanzen und Tieren, 24 regeländernde Kuriosa und 15 Erfolge auf PC sowie 1 exklusiver Postkarten-Erfolg auf Android für insgesamt 16.",
+      "Spiele mit Maus, Tastatur, Touch oder teilweiser Controller-Unterstützung, mit voller Controller-Unterstützung geplant für 0.9. Oberfläche und Untertitel decken 14 Sprachen ab."
     ]
   },
   "demo": {
-    "title": "Demo herunterladen",
-    "intro": "Eine kostenlose Demo für Windows, macOS und Linux sowie für Android. Sie enthält den ganzen Lauf, mit weniger Auswahl beim Bauen deines Jägers; die Zimmer des Hauses bleiben geschlossen.",
+    "title": "Kostenlose PC-Demo herunterladen",
+    "intro": "Teste Dawnbringer kostenlos auf Windows, macOS oder Linux, ohne Zeitbegrenzung. Du spielst den kompletten Drei-Wochen-Lauf mit einer Startauswahl für deinen Jäger, während die 22 dauerhaften Räume deines Hauses geschlossen bleiben.",
     "version": "Version {version}.",
-    "includesTitle": "Was die Demo enthält",
+    "includesTitle": "Das steckt in der Demo",
     "includes": [
-      "Dein eigener Jäger, vor dem Lauf gebaut: Geschlecht, Haut, Augen, Haar, Kleidung und Name.",
-      "Ein Start-Bonus, Riposte oder Erstes Blut, und eine Waffe, die Eisenkeule oder die Alte Armbrust.",
-      "Klassen: Schwertkämpfer und Bogenschütze, danach Kreuzritter und Ritter oder Jäger und Barde.",
-      "Der komplette Lauf: drei Wochen auf der Karte, Ereignisse, Läden, Gelübde und die Hausherren.",
-      "Die 4 Start-Gegenstandsfamilien.",
-      "Das Haus mit seinen 22 Zimmern, alle geschlossen: die übrigen Boni, Waffen, Klassen und Gegenstandsfamilien sowie die größeren Börsen gibt es im Vollspiel.",
-      "Ein eigener Spielstand, getrennt vom Vollspiel."
+      "Vollständige Jäger-Anpassung vor jedem Lauf, inklusive Geschlecht, Haut, Augen, Haare, Outfit und Name.",
+      "2 Startboni, Riposte und Erstes Blut, sowie 2 Startwaffen, Eisenkeule und Alte Armbrust.",
+      "2 erste Klassen, Schwertkämpfer und Bogenschütze, samt ihren 4 zweiten Klassen: Kreuzritter, Ritter, Jäger und Barde.",
+      "Der komplette Drei-Wochen-Lauf durch alle Regionen, mit Weg-Ereignissen, Läden nach Ausrüstungsplatz, optionalen Gelübden, die härtere Regeln gegen mehr Gold tauschen, und wöchentlichen Hausherr-Bossen.",
+      "Die 4 ersten Gegenstandsfamilien, thematische Ausrüstungsgruppen, die bei 2, 4 oder 6 Teilen Set-Boni aktivieren.",
+      "Ein eigener Spielstand getrennt vom Vollspiel. Die 22 dauerhaften Räume des Hauses, die 4 weitere Boni, 4 Waffen, 4 erste Klassen, 6 Gegenstandsfamilien und größere Start-Goldbörsen freischalten, gehören zum Vollspiel."
     ],
     "windows": "Windows",
-    "windowsNote": "Windows 10 oder 11, 64 Bit. Eine .zip-Datei ohne Installer: entpacken und DawnbringerDemo.exe starten. Die Datei ist noch nicht codesigniert, daher kann SmartScreen warnen: Klicke auf Weitere Informationen und dann auf Trotzdem ausführen.",
+    "windowsNote": "Windows 10 oder 11, 64-Bit. Lade das .zip-Archiv herunter, entpacke es und starte DawnbringerDemo.exe ohne Installation. Da die Datei noch nicht signiert ist, warnt Windows SmartScreen eventuell einmal. Klicke auf Weitere Informationen und dann auf Trotzdem ausführen.",
     "macos": "macOS",
-    "macosNote": "Eine App für Macs mit Apple Silicon und Intel. Entpacke sie und ziehe Dawnbringer in den Ordner Programme.",
-    "macosOpen": "Die App ist noch nicht von Apple notarisiert, daher blockiert macOS den ersten Start. Klicke mit der rechten Maustaste (oder bei gedrückter Ctrl-Taste) auf die App und wähle Öffnen. Gibt es keinen Öffnen-Button, gehe zu Systemeinstellungen > Datenschutz & Sicherheit und klicke auf Dennoch öffnen.",
+    "macosNote": "Universelle App für Apple-Silicon- und Intel-Macs. Entpacke die Datei und ziehe Dawnbringer in den Ordner Programme.",
+    "macosOpen": "Apple hat die App noch nicht notarisiert, weshalb macOS den ersten Start blockiert. Klicke mit der rechten Maustaste oder mit Control-Klick auf die App und wähle Öffnen. Falls Öffnen nicht erscheint, öffne Systemeinstellungen > Datenschutz & Sicherheit und klicke auf Dennoch öffnen.",
     "linux": "Linux",
-    "linuxNote": "x86_64. Entpacke das Archiv und starte DawnbringerDemo.x86_64. Benötigt Grafiktreiber mit OpenGL 3.3.",
+    "linuxNote": "x86_64-Archiv. Entpacke es und starte DawnbringerDemo.x86_64. Benötigt Grafiktreiber mit OpenGL 3.3.",
     "download": "Herunterladen ({size})",
-    "checksums": "SHA-256-Prüfsummen der Dateien",
-    "android": "Android: Das Vollspiel und die kostenlose Demo sind bei Google Play in einem geschlossenen Test.",
-    "androidLink": "Zum Test anmelden",
-    "ios": "iPhone und iPad: noch nicht verfügbar."
+    "checksums": "Downloads mit SHA-256-Prüfsummen verifizieren",
+    "android": "Du willst auf Android spielen? Sowohl das Vollspiel, kostenlos für Tester, als auch eine separate kostenlose Demo-App sind im geschlossenen Google-Play-Test offen.",
+    "androidLink": "Android-Anleitung öffnen",
+    "ios": "iPhone und iPad sind geplant und noch nicht verfügbar."
   },
   "beta": {
-    "title": "Zur Android-Alpha anmelden",
-    "testCardCaption": "Markierter Screenshot der Android-Testzahlung. Das X streicht den fiktiven Betrag durch. Grün markiert sind die Testkarte und Googles Hinweis: Dies ist eine Testbestellung, dir wird nichts berechnet.",
-    "paymentNoticeTitle": "Der Test ist für Tester kostenlos: In Schritt 4 muss als Zahlungsart „Test card, always approves“ stehen, und es wird nichts abgebucht.",
-    "paymentNoticeText": "Mit der Testkarte simuliert Google Play nur einen Kauf: Auch wenn R$9.99 oder ein anderer Betrag angezeigt wird, wird kein Geld abgebucht. Wird deine eigene Karte oder eine andere echte Zahlungsart angezeigt, bestätige NICHT. Schreib uns, dann schalten wir dein Konto frei:",
-    "intro": "Die Android-Version ist vor dem Start für Tester kostenlos. Vier Schritte, etwa zwei Minuten.",
-    "step1": "Öffne die Gruppe und klicke auf „Join group“ (Gruppe beitreten). Ein Fenster öffnet sich: Klicke unten noch einmal auf „Join group“. Die Seite zeigt dann „Successfully joined the group“. Die Gruppe nur zu öffnen reicht nicht: Du musst beitreten.",
-    "step1Link": "Gruppe öffnen",
-    "step2": "Öffne mit demselben Konto die Testseite und klicke auf „Become a tester“. Warte, bis die Seite „You are a tester.“ anzeigt.",
+    "title": "Dem geschlossenen Android-Test beitreten",
+    "testCardCaption": "Beschrifteter Bildschirm der Google-Play-Testzahlung. Das rote X streicht den simulierten Betrag durch. Grüne Rahmen heben \"Test card, always approves\" und Googles Hinweis hervor, dass nichts berechnet wird.",
+    "paymentNoticeTitle": "Keine Kosten für Tester. Prüfe, dass als Zahlungsmethode \"Test card, always approves\" angezeigt wird.",
+    "paymentNoticeText": "Google Play simuliert bei kostenpflichtigen Apps im geschlossenen Test einen Kauf, weshalb ein Platzhalterpreis, wie R$9.99 im Screenshot unten, erscheint, obwohl nichts abgebucht wird. Falls deine echte Karte oder eine echte Zahlungsmethode angezeigt wird, brich ab und bestätige NICHT. Schreib uns, dann schalten wir dein Testerkonto frei:",
+    "intro": "Spiele die volle Android-Version schon vor dem Start völlig kostenlos. Die Einrichtung dauert vier kurze Schritte, oder du installierst unten die separate kostenlose Android-Demo ohne Zahlungsbildschirm.",
+    "step1": "Öffne die Google-Gruppe für Tester und klicke auf \"Join group\". Klicke im geöffneten Fenster unten erneut auf \"Join group\", bis auf der Seite \"Successfully joined the group\" steht. Nur die Seite zu öffnen reicht nicht.",
+    "step1Link": "Testergruppe öffnen",
+    "step2": "Öffne mit demselben Google-Konto die Google-Play-Testseite und klicke auf \"Become a tester\". Warte, bis dort \"You are a tester.\" steht.",
     "step2Link": "Testseite öffnen",
-    "step3": "Öffne das Spiel auf deinem Android-Handy oder -Tablet bei Google Play. Die Seite heißt „Dawnbringer (Early Access)“. Tippe auf die blaue Schaltfläche mit dem Preis. Meldet Google Play, die Seite sei nicht gefunden worden, ist Schritt 2 noch nicht abgeschlossen: Geh zurück zu Schritt 2, prüfe das Google-Konto und warte ein paar Minuten.",
-    "step3Link": "Über Google Play installieren",
-    "note": "Der kostenlose Alpha-Zugang endet mit dem Release. Die Teilnahme ist kein Kauf der fertigen Version.",
-    "helpTitle": "Hilfe bei der Installation?",
-    "accountHelp": "Nutze in jedem Schritt dasselbe Konto: Gruppe, Testseite und Play Store. Wenn du mehrere Google-Konten hast, prüfe das Profilbild auf jeder Seite und in der Store-App.",
-    "paymentTitle": "Was bedeutet Test card, always approves?",
-    "paymentHelp": "Das ist die Testkarte von Google Play. Steht bei der Zahlungsart Test card, always approves, wird nur ein Kauf simuliert und kein echtes Geld abgebucht. Wird deine eigene Karte oder eine andere echte Zahlungsart angezeigt, bestätige nicht. Prüfe das Konto in allen drei Schritten; bleibt das Problem, schreib uns, dann schalten wir dein Konto frei:",
-    "unavailableTitle": "Das Spiel fehlt oder du kannst nicht am Test teilnehmen?",
-    "unavailableHelp": "Prüfe, ob du mit deinem Play-Store-Konto der Gruppe und dem Test beigetreten bist. Warte einige Minuten und öffne die Testseite erneut. Wenn der Zugang weiter fehlt, sende ein Bild der Meldung ohne Zahlungsdaten an",
-    "buttonsNote": "Nutze in jedem Schritt dasselbe Google-Konto: das Konto im Play Store deines Android-Geräts. Die Bilder zeigen Googles Seiten auf Englisch; auf Deutsch sitzt die Schaltfläche an derselben Stelle. Drücke die grün umrandete.",
-    "step1Title": "Tritt der Tester-Gruppe bei",
-    "shotGroup": "Die Gruppenseite. Klicke auf „Join group“, grün umrandet.",
-    "shotJoin": "Das Fenster, das sich öffnet. Klicke unten auf „Join group“; das Namensfeld kann bleiben, wie es ist.",
-    "step2Title": "Werde Tester",
-    "shotOptin": "Die Testseite. Klicke auf „Become a tester“.",
-    "shotTester": "Fertig: Die Seite zeigt „You are a tester.“ (Du bist Tester).",
-    "step3Title": "Öffne das Spiel auf dem Handy",
-    "shotStore": "Google Play auf dem Handy. Tippe auf die blaue Preis-Schaltfläche.",
-    "step4Title": "Bestätige mit der Testkarte",
-    "step4": "Google Play öffnet die Zahlungsseite. Prüfe, dass als Zahlungsmethode „Test card, always approves“ steht und die Seite von einer Testbestellung spricht, und tippe dann auf „1-tap buy“. Das Spiel wird installiert, und nichts wird abgebucht.",
-    "demoTitle": "Die kostenlose Demo auf Android",
-    "demoText": "Die Demo ist eine eigene App, Dawnbringer Demo, und hat keinen Zahlungsschritt. Öffne nach Schritt 1 mit demselben Konto die Testseite der Demo, klicke auf „Become a tester“ und installiere sie dann bei Google Play.",
-    "demoTestLink": "Testseite der Demo öffnen",
-    "demoInstallLink": "Demo installieren"
+    "step3": "Öffne das Spiel auf deinem Android-Handy oder Tablet in Google Play, dort gelistet als \"Dawnbringer (Early Access)\", und tippe auf die blaue Preis-Schaltfläche. Falls Google Play die Seite nicht findet, prüfe, ob Schritt 2 mit demselben Google-Konto abgeschlossen wurde, und warte einige Minuten.",
+    "step3Link": "In Google Play öffnen",
+    "note": "Der kostenlose Testerzugang endet mit dem öffentlichen Start. Die Teilnahme am geschlossenen Test beinhaltet keinen Kauf der Vollversion.",
+    "helpTitle": "Hilfe bei Problemen",
+    "accountHelp": "Nutze in jedem Schritt dasselbe Google-Konto, in der Google-Gruppe, auf der Testseite und in der Google-Play-Store-App auf deinem Gerät. Prüfe bei mehreren Konten jeweils das Profilbild.",
+    "paymentTitle": "Warum zeigt Google Play einen Preis, wenn der Test kostenlos ist?",
+    "paymentHelp": "Kostenpflichtige Apps im geschlossenen Google-Play-Test durchlaufen den Kaufbildschirm mit \"Test card, always approves\". Ist diese Testkarte gewählt, wird der Kauf nur simuliert und kein Geld abgebucht. Siehst du eine echte Zahlungsmethode, brich ab und prüfe dein Konto in allen Schritten oder schreib uns:",
+    "unavailableTitle": "Google Play meldet, die App sei nicht verfügbar oder nicht gefunden",
+    "unavailableHelp": "Prüfe, ob du der Google-Gruppe beigetreten bist und mit deinem Play-Store-Konto auf \"Become a tester\" geklickt hast, warte ein paar Minuten und lade die Testseite neu. Klappt es weiterhin nicht, sende einen Screenshot der Meldung, ohne Zahlungsdaten, an",
+    "buttonsNote": "Nutze in jedem Schritt dasselbe Google-Konto, das im Play Store deines Android-Geräts angemeldet ist. Die Screenshots zeigen Googles englische Oberfläche, aber jeder grün umrandete Knopf sitzt in jeder Sprache an derselben Stelle.",
+    "step1Title": "Der Testergruppe beitreten",
+    "shotGroup": "Seite der Google-Gruppe. Klicke auf \"Join group\", grün umrandet.",
+    "shotJoin": "Bestätigungsfenster. Klicke unten auf \"Join group\" und lasse den Namen unverändert.",
+    "step2Title": "Als Tester anmelden",
+    "shotOptin": "Anmeldeseite für den Test. Klicke auf \"Become a tester\".",
+    "shotTester": "Bestätigt. Die Seite zeigt jetzt \"You are a tester.\"",
+    "step3Title": "Store-Seite auf Android öffnen",
+    "shotStore": "Google Play auf Android. Tippe auf den blauen Preis-Knopf für die Testkasse.",
+    "step4Title": "Kostenlos mit der Testkarte installieren",
+    "step4": "Prüfe auf dem Google-Play-Kaufbildschirm, dass \"Test card, always approves\" gewählt ist und Google den Vorgang als Testbestellung markiert. Tippe auf \"1-tap buy\", um kostenlos zu installieren.",
+    "demoTitle": "Lieber die kostenlose Android-Demo ohne Kaufbildschirm?",
+    "demoText": "Dawnbringer Demo ist eine eigene kostenlose App ohne Testzahlung. Melde dich nach Schritt 1 oben mit demselben Google-Konto auf der Demo-Testseite an und installiere sie über Google Play.",
+    "demoTestLink": "Demo-Testseite öffnen",
+    "demoInstallLink": "Android-Demo installieren"
   },
   "duel": {
     "title": "Duell-Code",
-    "lead": "Ein Freund hat dir einen Duell-Code geschickt. Kopiere ihn und füge ihn im Spiel ein.",
+    "lead": "Ein Freund fordert dich zu einem Offline-Duell in Dawnbringer heraus. Kopiere den Code unten und füge ihn im Spiel ein.",
     "copy": "Code kopieren",
     "copied": "Code kopiert.",
-    "copyFailed": "Automatisches Kopieren hat nicht geklappt. Der Code ist markiert: kopiere ihn von Hand.",
-    "steps": "Öffne Dawnbringer, tippe auf Duell und füge den Code ein.",
-    "noGame": "Du hast das Spiel noch nicht?",
-    "get": "Dawnbringer herunterladen",
+    "copyFailed": "Automatisches Kopieren fehlgeschlagen. Der Code ist markiert, damit du ihn manuell kopieren kannst.",
+    "steps": "Öffne Dawnbringer, wähle Duell und füge den Code ein, um gegen seinen Jäger zu kämpfen.",
+    "noGame": "Hast du Dawnbringer noch nicht?",
+    "get": "Kostenlose Demo laden",
     "noCodeTitle": "Kein Duell-Code in diesem Link",
-    "noCode": "Dieser Link enthält keinen gültigen Code. Vielleicht wurde er beim Kopieren oder Senden abgeschnitten.",
-    "howTo": "Bitte deinen Freund, Dawnbringer zu öffnen, auf Duell und dann auf Teilen zu tippen und dir den neuen Link zu schicken.",
-    "needsJs": "Diese Seite braucht JavaScript, um den Code anzuzeigen."
+    "noCode": "Dieser Link enthält keinen gültigen Duell-Code. Möglicherweise wurde ein Teil der Adresse beim Kopieren oder Senden abgeschnitten.",
+    "howTo": "Bitte deinen Freund, Dawnbringer zu öffnen, Duell zu wählen, Teilen anzutippen und dir einen neuen Link zu schicken.",
+    "needsJs": "Aktiviere JavaScript im Browser, um den Duell-Code anzuzeigen und zu kopieren."
   },
   "press": {
     "title": "Pressekit",
-    "intro": "Datenblatt, Key Art, Logos und Screenshots zur freien Verwendung in Artikeln und Videos.",
-    "factsTitle": "Datenblatt",
+    "intro": "Faktenblatt, Logos, Key-Art und 1920x1080-Screenshots frei verwendbar für Artikel, Streams und Videos.",
+    "factsTitle": "Faktenblatt",
     "developer": "Entwickler",
-    "developerValue": "gmunaro, ein Solo-Entwickler aus Brasilien",
-    "release": "Erscheinungsdatum",
-    "releaseValue": "Wird noch bekannt gegeben",
+    "developerValue": "PraiseTC, entwickelt von gmunaro in Brasilien",
+    "release": "Veröffentlichung",
+    "releaseValue": "Noch offen",
     "platforms": "Plattformen",
-    "platformsValue": "Android (Google Play, geschlossener Test). Eine kostenlose Demo für Android, Windows, macOS und Linux. Steam und der App Store sind geplant.",
+    "platformsValue": "Kostenlose PC-Demo jetzt für Windows, macOS und Linux. Vollspiel und separate kostenlose Demo im geschlossenen Google-Play-Test auf Android. Steam Early Access für Windows und Apple App Store sind geplant. Falls ein Update Spielstände ungültig macht, weisen die Patchnotes vor Veröffentlichung darauf hin.",
     "price": "Preis",
-    "priceValue": "US$ 4.99; die Demo ist kostenlos",
+    "priceValue": "Kostenlose Demo auf PC und im geschlossenen Android-Test. Geschlossener Android-Test des Vollspiels kostenlos für Tester. Geplanter Steam-Early-Access-Preis: US$ 8.99.",
     "languages": "Sprachen",
-    "languagesValue": "14: Englisch, Portugiesisch (Brasilien), Spanisch, Französisch, Deutsch, Italienisch, Russisch, Ukrainisch, Polnisch, Türkisch, Japanisch, Koreanisch, vereinfachtes Chinesisch, traditionelles Chinesisch",
+    "languagesValue": "14 Oberflächen- und Untertitelsprachen: Englisch, Portugiesisch (Brasilien), Spanisch, Französisch, Deutsch, Italienisch, Russisch, Ukrainisch, Polnisch, Türkisch, Japanisch, Koreanisch, Chinesisch (vereinfacht), Chinesisch (traditionell). Synthetische Sprachausgabe auf Englisch und Portugiesisch (Brasilien).",
     "engine": "Engine",
     "website": "Website",
     "contact": "Kontakt",
     "social": "Soziale Medien",
-    "descriptionTitle": "Beschreibung",
-    "description": "Dawnbringer ist ein Dark-Fantasy-Roguelike-Autobattler. Die Sonne zerbrach und die Welt fror ein, die herabgefallenen Splitter wurden zu Geld, und jede Woche kommt ein Hausherr zum Kassieren. Spieler durchqueren eine rundenbasierte Karte, wählen ihre Kämpfe und bauen einen Jäger: vor jedem Lauf erschaffen, dann weiterentwickelt mit einer Klasse in zwei Stufen, einem Fertigkeitsbaum mit aktiven Fertigkeiten, Attributpunkten und 105 Gegenständen in 10 Familien, die nach Slot getragen, in der Schmiede nachgeglüht und mit Monsterkarten besetzt werden. Kämpfe laufen automatisch und ohne Würfel ab, und das Spiel zeigt nie, wie ein Kampf ausgeht: Jeder Gegner trägt sichtbare Gegenstände, also beurteilen Spieler jeden Kampf, indem sie seine Ausrüstung mit ihrem Build vergleichen, und ein Verzweiflungsstein verdunkelt sich nur, wenn ein Kampf den Helden töten würde. Gegen den Hausherrn schweigt er, und der Spieler muss den Zehnt zahlen oder kämpfen. Vor jedem Lauf setzen Spieler Gold aus ihrer Bank ein, und nach jeder Woche sichern sie die Börse oder riskieren sie in einer härteren Woche. Zwischen den Läufen geben Spieler die Bank für die Zimmer eines Hauses aus; jedes Zimmer bringt jemanden, der einen Bonus oder eine Klasse lehrt, eine Waffe fertigt, eine Gegenstandsfamilie öffnet oder eine größere Börse gibt. Gefallene Jäger stehen auf und jagen den Spieler in späteren Läufen, und einer von ihnen kann als Ketzer den Sitz eines Hausherrn einnehmen. Jede Woche ist ein Challenge-Lauf für alle Spieler gleich, und eine Online-Bestenliste ordnet ihn nach Stadt, Region oder Land; wer beitritt, kann dem Jäger eines anderen Spielers als Rivalen in einer Höhle begegnen, und zwei Helden können sich per Code oder auf einem Gerät duellieren. Jäger, Monster, Ausrüstung und Effekte sind als Vektorgrafik gezeichnet. Jede Figur spricht mit synthetischer Stimme, ein Erzähler kommentiert den Lauf, und das Spiel ist auf Portugiesisch (Brasilien) vertont. Zu den Optionen gehören Paletten für Farbenblindheit, Formmarken und Sprachsteuerung auf Android.",
-    "mediaTitle": "Logo, Key Art und Screenshots",
-    "zip": "Alles herunterladen (.zip, {size})",
+    "descriptionTitle": "Über Dawnbringer",
+    "description": "Dawnbringer ist ein Dark-Fantasy-Roguelike-Autobattler ganz ohne Zufall. Die Sonne zerbrach und die Welt fror ein, sodass leuchtende Splitter aus Sonnenmetall zur einzigen Wärme und Währung wurden. Jede Woche erscheint ein Regionsboss, der Hausherr, um Abgaben einzutreiben.\n\nJeder Lauf dauert drei Wochen durch nebelverhangene Regionen. Kämpfe laufen automatisch ohne Würfel ab, und das Spiel zeigt niemals Gewinnchancen. Jeder Gegner trägt echte, sichtbare Ausrüstung, die du vor dem Kampf prüfst. Deine einzige Warnung ist der Verzweiflungsstein, ein Sonnensplitter unter Glas, der sich nur vor einem tödlichen Kampf verdunkelt und bei Hausherren schweigt. Am Ende von Woche 1 und 2 kannst du um das Kopfgeld kämpfen oder den Zehnt zahlen, also 30% deiner Börse oder ein Wochenminimum, je nachdem, was höher ist. In Woche 3 gibt es keinen Zehnt.\n\nVor jedem Lauf überträgst du sicheres Bankgold aus deinem Haus in deine Börse, um Ausrüstung, Upgrades und Dienste unterwegs zu bezahlen. Der Tod nimmt die Börse, niemals die Bank, und nach jedem Hausherrn wählst du zwischen Heimkehr zum Sichern deines Goldes oder dem Aufbruch in eine härtere Woche. Vergangene Läufe hinterlassen Spuren in der Welt: Gefallene Jäger stehen mit ihren alten Builds auf und jagen dich, ein in Woche 2 oder 3 verlorener Jäger kann als Ketzer den Sitz eines Hausherrn einnehmen, und optionale Online-Bestenlisten lassen Jäger anderer Spieler neben Offline-Code-Duellen als Rivalen in Höhlen warten.",
+    "mediaTitle": "Logo, Key-Art und Screenshots",
+    "zip": "Komplettes Pressekit herunterladen (.zip, {size})",
     "logo": "Logo (PNG, transparent)",
     "icon": "Icon (PNG, 512x512)",
-    "keyart": "Key Art (PNG, 1920x1080)",
-    "keyartNoLogo": "Key Art ohne Logo (PNG, 1920x1080)",
-    "screensNote": "Die Screenshots sind PNG in 1920x1080 von der Vektorgrafik des Spiels.",
+    "keyart": "Key-Art mit Logo (PNG, 1920x1080)",
+    "keyartNoLogo": "Key-Art ohne Logo (PNG, 1920x1080)",
+    "screensNote": "Alle Screenshots sind 1920x1080-PNG-Aufnahmen aus Version 0.8.0.",
     "creditsTitle": "Credits",
     "credits": [
-      "Design, Code und Grafik: gmunaro",
-      "Musik: Juhani Junkala (CC0). Der Nachtscore des Hausherrn ist eine Eigenproduktion, gespielt mit Samples der VSCO 2 Community Edition (CC0).",
-      "Soundeffekte: Kenney, StarNinjas, Oiboo (CC0) und eigene Sounds",
-      "Umgebungsgeräusche: Feldaufnahmen von freesound.org (CC0)",
-      "Stimmen: synthetische Sprache von ElevenLabs v4 und Google Gemini TTS für den Erzähler; keine menschliche Stimme wurde aufgenommen oder geklont",
-      "Schriften: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel und GNU Unifont (SIL Open Font License 1.1)"
+      "Design, Code und Leitung: gmunaro, PraiseTC",
+      "Grafik: Vektor-Figuren, Ausrüstung, Haare, Outfits, Effekte und vier UI-Teile als SVG-Code mit Anthropic Claude unter Leitung von gmunaro erstellt; Basis-Körper der spielbaren Jäger aus Google Gemini 3 Pro Image nachgezeichnet; 18 Kampfhintergründe, 16 Kuriosa-Symbole und 17 Kartenmarker mit OpenAI GPT Image erstellt und auf die Spielpalette reduziert; Kartenkacheln und übrige Pixel-Art durch Skripte mit KI-Programmierassistenten erzeugt.",
+      "Musik: Juhani Junkala (CC0); Nachtmusik des Hausherrn und NPC-Themen als Code mit Anthropic Claude komponiert und aus Samples der VSCO 2 Community Edition (CC0) gerendert.",
+      "Soundeffekte: Kenney, StarNinjas, Oiboo (CC0) und eigene synthetisierte Klänge.",
+      "Umgebungs- und Kreaturenaudio: Feldaufnahmen von freesound.org (CC0).",
+      "Stimmen: synthetische Sprachausgabe über ElevenLabs Eleven v4 sowie Google Gemini 3.8 Flash TTS für die Erzählerin. Keine menschliche Stimme wurde aufgenommen oder geklont.",
+      "Schriften: Kenney Pixel und Kenney Mini (CC0); Jacquarda Bastarda 9, Fusion Pixel Font, GNU Unifont, Noto Sans und Noto Sans CJK (SIL Open Font License 1.1).",
+      "Text und Übersetzungen: englische Texte mit KI-Sprachmodellen entworfen und von gmunaro redigiert; 13 Übersetzungen mit KI-Sprachmodellen erstellt, durch automatisierte Tests geprüft und noch nicht von Muttersprachlern gegengelesen."
     ],
     "contactTitle": "Kontakt",
-    "contactText": "Für Presse, Testkeys und sonstige Anfragen schreib an"
+    "contactText": "Für Presseanfragen, Review-Zugänge oder Creator-Keys schreibe an"
   },
   "footer": {
-    "privacy": "Datenschutzerklärung",
-    "bugs": "Einen Fehler gefunden? Nutze Fehler melden im Spiel oder schreib an",
-    "madeBy": "Dawnbringer wird von gmunaro in Brasilien entwickelt.",
-    "studio": "Entwickelt von",
+    "privacy": "Datenschutz",
+    "bugs": "Fehler gefunden? Nutze Fehler melden im Spiel, drücke F8 oder schreibe an",
+    "madeBy": "Entwickelt in Brasilien von gmunaro bei {studio}.",
     "changelog": "Änderungen"
   },
   "suggest": {
@@ -235,47 +253,49 @@
   },
   "notFound": {
     "text": "Diese Seite existiert nicht.",
-    "back": "Zurück zur Startseite"
+    "back": "Zur Startseite"
   },
   "changelog": {
-    "title": "Neuigkeiten",
-    "description": "Jedes Dawnbringer-Update und was sich darin geändert hat."
+    "title": "Änderungen",
+    "description": "Jedes Update von Dawnbringer und was sich in jeder Version geändert hat.",
+    "demoSuffix": "{os}-Demo"
   },
   "why": {
     "title": "Was es anders macht",
     "items": {
       "read": {
         "title": "Lies den Gegner, nicht die Würfel",
-        "text": "Kämpfe laufen von selbst ab und werden nie gewürfelt. Jeder Gegner zeigt seine Ausrüstung, und der Verzweiflungsstein verdunkelt sich nur vor einem Kampf, der dich töten würde.",
-        "alt": "Das Zeichen des Verzweiflungssteins über einer Gruppe Gegner auf der Karte."
+        "text": "Kämpfe laufen ohne Glück von selbst ab. Jeder Gegner zeigt seine echte Ausrüstung vor dem Kampf, und der Verzweiflungsstein, deine Warnung vor tödlichen Kämpfen, verdunkelt sich nur, wenn diese Schlacht dich töten würde.",
+        "alt": "Die dunkle Warnmarkierung des Verzweiflungssteins über einer Gegnergruppe auf der Karte."
       },
       "build": {
-        "title": "Baue deinen Jäger",
-        "text": "Wähle Aussehen, Bonus und Waffe deines Jägers, lerne eine Klasse in zwei Stufen, verteile Punkte auf der Fertigkeitskarte und trage in jedem Slot Ausrüstung. Glühe Gegenstände in der Schmiede nach und setze Monsterkarten in sie ein.",
-        "alt": "Der Klassenmeister Abel Tarrow bietet zwei Grundklassen an, Schwertkämpfer und Bogenschütze."
+        "title": "Tiefe Builds in jedem Lauf",
+        "text": "Wähle Startbonus und Waffe, steige nach jedem Wochenboss über zwei Klassenstufen auf, plane aktive Fertigkeiten auf der Karte und kombiniere 105 Gegenstände aus 10 Set-Familien mit fehlschlagfreier Schmiede und Monsterkarten.",
+        "alt": "Der Klassenmeister Abel Tarrow bietet die ersten beiden Klassen an, Schwertkämpfer und Bogenschütze."
       },
       "return": {
-        "title": "Deine Läufe kehren zurück",
-        "text": "Gefallene Jäger stehen in späteren Läufen auf und jagen dich, und einer von ihnen kann als Ketzer den Sitz eines Hausherrn einnehmen. Tritt der Online-Bestenliste bei, und der Jäger eines anderen Spielers kann als dein Rivale in einer Höhle warten.",
-        "alt": "Auf der Weltkarte die Karte eines Jägers, auferstanden aus einem früheren Lauf, mit dem Gold der Börse, die er verlor."
+        "title": "Deine früheren Läufe jagen dich",
+        "text": "Gefallene Jäger stehen in späteren Läufen mit ihrer alten Ausrüstung wieder auf, und einer kann sogar als Ketzer den Sitz eines Hausherrn einnehmen. Tritt der optionalen Wochen-Bestenliste bei, dann können geprüfte Jäger anderer Spieler in Höhlen als deine Rivalen warten.",
+        "alt": "Auf der Karte die Ansicht eines aus einem früheren Lauf auferstandenen Jägers mit einem Teil des verlorenen Goldes."
       }
     }
   },
   "whatsnew": {
     "title": "Neu in 0.8",
     "items": [
-      "Jäger, Monster, Hausherren, Ausrüstung und Effekte sind als Vektorgrafik gezeichnet, scharf auf jedem Bildschirm.",
-      "Eine Wochen-Challenge: derselbe Lauf für jeden Jäger. Tritt der Online-Bestenliste bei und miss dich mit Spielern aus deiner Stadt, Region oder deinem Land (du wählst, welchen Ort du teilst), und der Jäger eines anderen Spielers kann als dein Rivale in einer Höhle warten.",
-      "Duelle: Schicke den Code eines Helden an einen Freund oder wähle zwei gespeicherte Helden und kämpfe auf einem Gerät.",
-      "Dein Jäger spricht mit der Stimme des Geschlechts, das du wählst, ein Erzähler kommentiert den Lauf, und auf Portugiesisch (Brasilien) sprechen die Figuren Portugiesisch.",
-      "Barrierefreiheit: Paletten für Protanopie, Deuteranopie und Tritanopie, Formmarken bei Farbhinweisen, Sprachsteuerung auf Android und ein Diagramm, das jede Option erklärt.",
-      "Eine kostenlose Demo für Android, in einer eigenen App."
+      "SVG-Vektorgrafik für Jäger, Monster, Hausherren und getragene Ausrüstung. Kampfhintergründe, Kartenkacheln und Oberfläche nutzen in 0.8.0 noch Pixel-Art, Kampfeffekte mischen Vektor und Pixel, und 0.9 soll alles als Vektorgrafik vereinen.",
+      "Wochen-Challenge und Online-Bestenliste. Alle spielen denselben Kartenaufbau, und ein Server spielt Läufe zur Prüfung nach. Du wählst Stadt, nur dein Land oder keinen Ort, wodurch deine Läufe auf keiner öffentlichen Liste erscheinen, und Jäger anderer Spieler können als Rivalen in Höhlen warten.",
+      "Offline-Duelle. Tausche einen Jäger-Code mit einem Freund oder lasse zwei gespeicherte Jäger auf einem Gerät gegeneinander antreten.",
+      "8 aktive Fertigkeiten mit Rundenabklingzeit und 18 regeländernde Knoten im Fertigkeitsbaum sowie Fachläden sortiert nach Ausrüstungsplatz.",
+      "Jägerstimmen passend zum gewählten Geschlecht, eine Erzählerin namens Die Randschrift für deinen Lauf und vollständige Sprachausgabe auf brasilianischem Portugiesisch.",
+      "Barrierefreiheits-Upgrades mit Paletten für Protanopie, Deuteranopie und Tritanopie, Formmarkierungen auf jedem Farbhinweis, lokaler Android-Sprachsteuerung und Live-Diagrammen.",
+      "Eine separate kostenlose Android-Demo-App im geschlossenen Google-Play-Test."
     ],
-    "more": "Alle Änderungen"
+    "more": "Komplettes Änderungsprotokoll"
   },
   "community": {
     "title": "Presse und Community",
-    "press": "Logo, Key Art, Screenshots und ein Datenblatt für Artikel und Videos.",
-    "follow": "Folge dem Spiel"
+    "press": "Logos, Key-Art, 1920x1080-Screenshots und Faktenblatt für Berichte und Videos.",
+    "follow": "Dawnbringer folgen"
   }
 }

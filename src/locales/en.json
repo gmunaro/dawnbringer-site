@@ -1,231 +1,249 @@
 {
   "meta": {
-    "title": "Dawnbringer: dark-fantasy roguelike auto-battler",
-    "description": "A dark-fantasy roguelike auto-battler. Build a hunter, read each foe's gear, then pay the Landlord or fight.",
+    "title": "Dawnbringer · Dark-fantasy roguelike auto-battler",
+    "description": "A dark-fantasy roguelike auto-battler with no dice. Build a hunter for a three-week run, inspect every enemy's real gear, pay or fight the weekly boss, then bank your purse or risk it deeper.",
     "pressTitle": "Dawnbringer press kit",
-    "pressDescription": "Fact sheet, description, features, logo, key art and screenshots of Dawnbringer, a roguelike auto-battler by gmunaro.",
+    "pressDescription": "Fact sheet, game overview, feature list, logos, key art, and screenshots for Dawnbringer, a roguelike auto-battler by PraiseTC and gmunaro.",
     "notFoundTitle": "Page not found",
-    "ogAlt": "The Dawnbringer logo over a crowned Landlord standing under a blood-red moon.",
-    "betaTitle": "Join the Android alpha · Dawnbringer",
-    "betaDescription": "How to join the closed alpha of Dawnbringer on Google Play, in four steps with screenshots.",
-    "downloadTitle": "Desktop demo · Dawnbringer",
-    "downloadDescription": "Download the free Dawnbringer demo for Windows, macOS and Linux.",
+    "ogAlt": "The gold Dawnbringer logo above an armored hunter holding a lantern on a rock over flooded ruins, facing a massive stone creature under a shattered solar eclipse.",
+    "betaTitle": "Android closed test · Dawnbringer",
+    "betaDescription": "Join the free Dawnbringer closed test on Google Play in four steps with screenshots, covering the full game and a separate free demo.",
+    "downloadTitle": "Free desktop demo · Dawnbringer",
+    "downloadDescription": "Download the free Dawnbringer demo for Windows, macOS, and Linux. Play a full three-week run with no time limit.",
     "duelTitle": "Duel code · Dawnbringer",
-    "duelDescription": "Copy the duel code a friend shared and paste it in Dawnbringer."
+    "duelDescription": "Copy the duel code a friend sent you and paste it into Dawnbringer to fight their hunter offline."
   },
   "nav": {
     "skip": "Skip to content",
     "home": "Home",
-    "why": "The game",
-    "new": "New in 0.8",
     "demo": "Desktop demo",
-    "beta": "Android alpha",
+    "beta": "Android test",
     "press": "Press kit",
     "language": "Language"
   },
   "hero": {
-    "pitch": "A dark-fantasy roguelike where fights play out on their own: build a hunter, read each foe's gear, then pay the Landlord or fight. Try it free on your computer.",
-    "artAlt": "A small hunter on a hill faces a giant crowned Landlord standing before the dark hills under a blood-red moon.",
+    "pitch": "A dark-fantasy roguelike auto-battler with no dice. Each run lasts three weeks. Inspect every enemy's real gear before automatic fights, pay or fight the weekly boss, then walk home to bank your purse or risk it in a harder week. Death takes everything you carry.",
+    "artAlt": "An armored hunter with a red cloak holds a lantern on a rock above flooded gothic ruins, facing a giant stone creature under a shattered solar eclipse.",
     "clipTitle": "Gameplay",
-    "clipAlt": "Gameplay clip: a hero in full gear fights a group of monsters on its own.",
+    "clipAlt": "Gameplay clip showing a geared hunter fighting a group of monsters automatically.",
     "clipFallback": "Your browser cannot play this video.",
-    "play": "Join the Android alpha",
-    "demo": "Play the free demo"
+    "stateNote": "Key art shows the planned v0.9 visual style. Version 0.8.0 uses vector characters and gear on pixel-art backdrops and UI, with partial controller support.",
+    "play": "Join Android test",
+    "playSub": "Google Play, free for testers",
+    "demo": "Download free demo",
+    "demoSub": "Windows, macOS, Linux"
+  },
+  "loop": {
+    "title": "How a run works",
+    "steps": [
+      {
+        "title": "1. Stake gold from your bank",
+        "text": "The sun broke, its glowing shards became money, and your House is your permanent base between runs. Before leaving, create a hunter, pick a starting bonus and weapon, and move gold from your safe bank into your purse, up to your purse limit. Purse gold buys gear, consumables, forge upgrades, and shrine blessings on the road, so carrying more makes you stronger early and raises what you lose on death. Death takes your purse, never your bank."
+      },
+      {
+        "title": "2. Explore three weeks and read every fight",
+        "text": "Walk a fogged tile map through days and dangerous nights. Every enemy carries visible gear and stats. Fights play out automatically with zero dice, so you inspect each foe and compare its build against yours before committing."
+      },
+      {
+        "title": "3. Pay the Landlord or fight, then cash out",
+        "text": "At the end of each week, the region's boss, called a Landlord, comes to collect taxes. In weeks 1 and 2 you can fight for the bounty or pay the tithe, which is 30% of your purse or a weekly minimum, whichever is higher. Week 3 has no tithe. After surviving a Landlord, walk home to bank your purse or carry everything into the next week."
+      },
+      {
+        "title": "4. Grow your hunter and unlock the House",
+        "text": "Learn a first class after week 1 and a second class after week 2, spend points on a single-map skill tree, assemble item family sets, and upgrade gear at the forge. Between runs, spend banked gold on 22 permanent House rooms."
+      }
+    ]
   },
   "screens": {
     "items": {
       "night": {
-        "caption": "Night in the Hanging Wood: the fog hides the road and what waits on it.",
-        "alt": "The map of the Hanging Wood at night: the hunter on a forest path with a monster ahead and marked fights and a chest beside the path, with health, gold, the week's Landlord, the region map and the belt at the edges."
+        "caption": "Night in the Hanging Wood. Fog shrinks your sight and night shadows hunt you along the road.",
+        "alt": "The Hanging Wood map at night showing the hunter on a forest path with an enemy ahead, nearby fights, a chest, and health, gold, week boss, region map, and belt controls along the edges."
       },
       "landlord": {
-        "caption": "Pay the tithe from your purse or fight for the bounty.",
-        "alt": "The Orchard Eater's card: the Landlord of Dustfall Reach with its stats, its Rime Crust ability, what it carries, the tithe of 18 of your 60 gold, and the buttons Pay the tithe and Fight."
+        "caption": "Each week ends with a Landlord. Pay the tithe from your purse or fight for the full bounty.",
+        "alt": "The Orchard Eater's encounter card showing the Landlord of Dustfall Reach with its stats, Rime Crust ability, carried items, a tithe of 18 out of 60 gold, and buttons to Pay the tithe or Fight."
       },
       "battle": {
-        "caption": "Combat runs on its own; your preparation decides it.",
-        "alt": "A fight in the Cinder Foundry: your hunter against a Ladle Smelter and two Slag Beetles, with health bars, armor, the round and the hunter's skills."
+        "caption": "Fights run automatically with no dice. Your preparation decides the outcome.",
+        "alt": "A combat screen in the Crucible showing the hunter fighting a Ladle Smelter and two Slag Beetles, with health bars, shield, round counter, and recharging active skills."
       },
       "stone": {
-        "caption": "The Stone of Despair darkens over a fight that would kill you.",
-        "alt": "On the map, the card of a pack led by the Callused Pruner: what it carries, the two foes with it, and the Stone of Despair's warning that this fight would kill you."
+        "caption": "The Stone of Despair turns dark only when fighting that enemy right now would kill you.",
+        "alt": "An enemy pack card led by the Callused Pruner showing its carried items, two companions, and the Stone of Despair warning that the fight would kill the hunter."
       },
       "risen": {
-        "caption": "A fallen hunter from a past run roams the road with its gold.",
-        "alt": "On the map, the card of a Gallows Marksman risen from an earlier run: where it fell, the 24 gold of the purse it lost, what it carries and its First Blood bonus."
+        "caption": "Your fallen hunters rise on the map where they died, still carrying their build and part of the gold they lost.",
+        "alt": "The map card of a Gallows Marksman risen from an earlier run, showing where it fell, 24 gold recoverable from its lost purse, its gear, and its First Blood bonus."
       },
       "rival": {
-        "caption": "Join the weekly board and another player's hunter can wait in a lair as your rival.",
-        "alt": "The card of Ash Vey, another player's hunter and a Guardian: its stats, the two items it carries, the spoils for beating it, a note that it comes from the online weekly board, and the buttons Fight and Back off."
+        "caption": "Join the optional weekly board and another player's verified hunter can wait in a lair as your rival.",
+        "alt": "The encounter card of Ash Vey, another player's hunter guarding a lair from the online weekly board, showing its stats, two carried items, rewards, and Fight or Back off buttons."
       },
       "board": {
-        "caption": "The server checks each run, then ranks it in your city, region or country.",
-        "alt": "The weekly board for Toronto, ON, CA: ten hunters with their class and score, your best of 2140 at number 4, and the buttons Change place, Transfer code, Delete my data and Back."
+        "caption": "The server replays each weekly challenge run to verify it, then ranks it in your city, region, or country.",
+        "alt": "The weekly leaderboard for Toronto, ON, CA listing ten hunters with classes and scores, your best score of 2140 in 4th place, and buttons for Change place, Transfer code, Delete my data, and Back."
       },
       "camp": {
-        "caption": "In the house, build your hunter, pick vows and the gold you carry.",
-        "alt": "The house: the hunter's creation with sex, skin, eyes, hair and outfit, the Riposte bonus and the Iron Club, the jar of item families, the vows and the gold to carry."
+        "caption": "At the House, customize your hunter, choose optional Vows that add handicaps for bigger payouts, and set your starting purse.",
+        "alt": "The House preparation screen showing hunter customization for sex, skin, eyes, hair, and outfit, the Riposte bonus, the Iron Club, the item family jar, optional Vows, and the gold stake bar."
       },
       "shop": {
-        "caption": "The shop shows the exact stat changes before you swap an item.",
-        "alt": "The shop with four items to buy or banish, and a comparison of the new item with your build."
+        "caption": "Every shop compares a new item directly against your current piece before you buy it or remove it from future offers.",
+        "alt": "A shop panel displaying four items to buy or banish alongside a direct stat comparison with the hunter's equipped gear."
       },
       "build": {
-        "caption": "Combine 2, 4, or 6 items from the same family to unlock set bonuses.",
-        "alt": "A hunter's build sheet with stats, gear, belt, skills and the Furnace, Iron, Gallows and Plague family sets."
+        "caption": "Equip 2, 4, or 6 pieces from the same item family to activate set bonuses.",
+        "alt": "The hunter's build sheet displaying stats, equipped gear, belt consumables, skills, and active Furnace, Iron, Gallows, and Plague set bonuses."
       },
       "a11y": {
-        "caption": "Palettes for color vision, shape marks on every color cue, and voice control.",
-        "alt": "The Accessibility options: palette, shape marks, voice control, voice language and how long text stays on screen, next to a chart of the game's color cues that the palette button steps through."
+        "caption": "Colorblind palettes, shape marks on every color cue, and on-device voice control on Android.",
+        "alt": "The Accessibility menu showing palette presets, shape marks, voice control, voice language, and text timing options beside a live preview diagram of the game's color cues."
       },
       "event": {
-        "caption": "Road events offer three choices, and some cost gold or add Dread.",
-        "alt": "The event The Chapel Well, with three choices: one costs 8 gold and one adds 4 Dread."
+        "caption": "Road events offer fixed choices with no random rolls, trading gold, health, or extra enemy danger called Dread.",
+        "alt": "The Chapel Well road event showing three deterministic options, including one that costs 8 gold and another that adds 4 Dread."
       }
     }
   },
   "features": {
     "title": "Features",
     "items": [
-      "6 first classes and 12 second classes.",
-      "Attribute points and a skill point every level; a skill tree that is one map, with 8 active skills that recharge in rounds.",
-      "105 items in 10 families, worn by slot, with set bonuses at 2, 4 and 6 pieces.",
-      "Reheat gear up to +4 at the forge, and set 19 kinds of monster card into it.",
-      "19 Landlords across 6 regions and 3 weeks.",
-      "Patrols, packs, ambushes, guardians and mimics on the map.",
-      "Day and night: at night your sight shrinks and shadows hunt you.",
-      "Your fallen hunters rise and hunt you; one of them can take a Landlord's seat as a heretic.",
-      "Separate bank and purse: stake gold at the start and cash out after each Landlord.",
-      "9 optional vows that make the road crueler and the payout bigger.",
-      "A weekly challenge with an online board, rivals from other players, and duels with friends.",
-      "Every character speaks, a narrator comments the run, and each region has its own sound by day and night.",
-      "Palettes for color blindness, shape marks, voice control on Android and a diagram for every option.",
-      "A herbarium, a bestiary and 16 feats in the Journal.",
-      "Hunters, monsters, gear and effects drawn in vector art.",
-      "Mouse, keyboard, controller and touch, in full screen on phones, tablets and PCs.",
-      "Translated into 14 languages, and dubbed in Portuguese (Brazil)."
+      "Deterministic auto-combat with no dice. Inspect every enemy's real gear before stepping into a fight, with the Stone of Despair warning only when a battle would kill you and staying silent against Landlords.",
+      "Three-week runs across 6 regions of five zones each, facing 19 Landlords. In weeks 1 and 2, fight for the bounty or pay the tithe, which is 30% of your purse or a weekly minimum, whichever is higher. Week 3 has no tithe.",
+      "Separate bank and purse. Spend purse gold on gear, consumables, forge upgrades, and services on the road, then cash out after each Landlord or risk everything deeper. Between runs, banked gold unlocks 22 permanent House rooms.",
+      "Two-stage class progression taught by class master Abel Tarrow, with 6 first classes after week 1 and 12 second classes after week 2.",
+      "Attribute points and a skill point every level on a single zoomable skill map, with 8 active skills that recharge by rounds and 18 rule-changing nodes.",
+      "105 items across 10 families worn in 1 weapon slot and 8 gear slots for 9 pieces at once, with set bonuses at 2, 4, and 6 pieces. Temper any item to level III and reheat weapons and armor up to +4 at the forge with zero chance of failure, and socket 19 monster cards. Charms can be tempered, not reheated.",
+      "35 enemy types including patrols, packs, ambushers, guardians, and mimics, plus 31 fixed road events, 4 guilds with contracts, and 9 optional Vows, handicaps that add 10% victory gold each.",
+      "Fallen hunters rise and hunt you in later runs, a hunter lost in week 2 or 3 can claim a Landlord's seat as a heretic, and you can fight or kill 11 mortal NPCs.",
+      "A shared weekly challenge verified by server replay with an optional online board by city, region, or country, online lair rivals, and offline duels by code or on one device.",
+      "Vector SVG art for hunters, monsters, Landlords, and equipped gear in 0.8.0. Battle backdrops, map tiles, and UI still use pixel art, combat effects mix vector shapes and pixel sprites, and v0.9 is planned to unify them in vector art.",
+      "Synthetic voices for every character and monster plus a narrator called the Margin, in English and Portuguese (Brazil), alongside colorblind palettes, shape marks on every color cue, on-device Android voice control, adjustable text duration, and live option diagrams.",
+      "A 12-entry herbarium and bestiary, 24 rule-bending Oddities, and 15 in-game feats on PC, plus 1 Android-only postcard feat for 16 on Android.",
+      "Play with mouse, keyboard, touch, or partial controller support, with full controller support planned for 0.9. Interface and subtitles cover 14 languages."
     ]
   },
   "demo": {
-    "title": "Download the demo",
-    "intro": "A free demo for Windows, macOS and Linux, and on Android. It plays the whole run, with fewer choices when you build your hunter, and the rooms of the house stay closed.",
+    "title": "Download the free desktop demo",
+    "intro": "Try Dawnbringer free on Windows, macOS, or Linux, with no time limit. You play the full three-week run with a starter selection of hunter options, while the 22 permanent upgrade rooms of your House stay closed.",
     "version": "Version {version}.",
-    "includesTitle": "What the demo includes",
+    "includesTitle": "What is included in the demo",
     "includes": [
-      "Your own hunter, built before the run: sex, skin, eyes, hair, outfit and name.",
-      "A starting bonus, Riposte or First Blood, and a weapon, the Iron Club or the Old Crossbow.",
-      "Classes: Swordsman and Archer, then Crusader and Knight, or Hunter and Bard.",
-      "The full run: three weeks on the map, events, shops, vows and the Landlords.",
-      "The 4 starting item families.",
-      "The House with its 22 rooms shut: the other bonuses, weapons, classes and item families, and the bigger purses, come with the full game.",
-      "Its own save, separate from the full game."
+      "Full hunter customization before each run, including sex, skin, eyes, hair, outfit, and name.",
+      "2 starting bonuses, Riposte and First Blood, and 2 starting weapons, Iron Club and Old Crossbow.",
+      "2 first classes, Swordsman and Archer, and their 4 second classes: Crusader, Knight, Hunter, and Bard.",
+      "The complete three-week run across all regions, with road events, slot-specific shops, optional Vows that trade harder rules for extra gold, and weekly Landlord bosses.",
+      "The 4 starting item families, themed gear groups that unlock set bonuses at 2, 4, or 6 pieces.",
+      "A separate save file from the full game. The 22 permanent rooms of the House, which unlock 4 more bonuses, 4 weapons, 4 first classes, 6 item families, and larger starting gold purses, are in the full game."
     ],
     "windows": "Windows",
-    "windowsNote": "Windows 10 or 11, 64-bit. One .zip file, no installer: extract it and run DawnbringerDemo.exe. The file is not code-signed yet, so SmartScreen may warn you: click More info, then Run anyway.",
+    "windowsNote": "Windows 10 or 11, 64-bit. Download the .zip archive, extract it, and run DawnbringerDemo.exe with no installer. Because the file is not code-signed yet, Windows SmartScreen may warn you once. Click More info, then Run anyway.",
     "macos": "macOS",
-    "macosNote": "One app for Apple silicon and Intel Macs. Unzip it and drag Dawnbringer to Applications.",
-    "macosOpen": "The app is not notarized by Apple yet, so macOS blocks the first launch. Right-click (or Control-click) the app and choose Open. If there is no Open button, go to System Settings > Privacy & Security and click Open Anyway.",
+    "macosNote": "Universal app for Apple silicon and Intel Macs. Unzip the file and drag Dawnbringer into Applications.",
+    "macosOpen": "Apple has not notarized the app yet, so macOS blocks the first launch. Right-click or Control-click the app and choose Open. If Open does not appear, go to System Settings > Privacy & Security and click Open Anyway.",
     "linux": "Linux",
-    "linuxNote": "x86_64. Extract the archive and run DawnbringerDemo.x86_64. Needs graphics drivers with OpenGL 3.3.",
+    "linuxNote": "x86_64 archive. Extract it and run DawnbringerDemo.x86_64. Requires graphics drivers supporting OpenGL 3.3.",
     "download": "Download ({size})",
-    "checksums": "SHA-256 checksums of the files",
-    "android": "Android: the full game and the free demo are in a closed test on Google Play.",
-    "androidLink": "Join the test",
-    "ios": "iPhone and iPad: not available yet."
+    "checksums": "Verify downloads with SHA-256 checksums",
+    "android": "Want to play on Android? Both the full game, free for testers, and a separate free demo app are open in our Google Play closed test.",
+    "androidLink": "Open the Android guide",
+    "ios": "iPhone and iPad are planned and not available yet."
   },
   "beta": {
-    "title": "Join the Android alpha",
-    "testCardCaption": "Annotated Android test payment screenshot. The X crosses out the simulated amount. Green outlines mark the test card and Google's notice: this is a test order, you will not be charged.",
-    "paymentNoticeTitle": "The test is free for testers: in step 4 the payment method must say \"Test card, always approves\" and nothing is charged.",
-    "paymentNoticeText": "With the test card, Google Play only simulates a purchase: even if R$9.99 or another amount appears, no money is taken. If your own card or another real payment method appears instead, do NOT confirm. Write to us and we will enable your account:",
-    "intro": "Play the Android version before launch, free for testers. Four steps, about two minutes.",
-    "step1": "Open the group and click \"Join group\". A window opens: click \"Join group\" again at its bottom. The page then says \"Successfully joined the group\". Opening the group is not enough: you must join.",
-    "step1Link": "Open the group",
-    "step2": "With the same account, open the test page and click \"Become a tester\". Wait until the page says \"You are a tester.\"",
-    "step2Link": "Open the test page",
-    "step3": "On your Android phone or tablet, open the game on Google Play. The page is called \"Dawnbringer (Early Access)\". Tap the blue button with the price. If Google Play says the page was not found, step 2 is not finished yet: go back to step 2, check the Google account and wait a few minutes.",
-    "step3Link": "Install from Google Play",
-    "note": "Free alpha access ends at launch. Joining the test does not include a purchase of the final game.",
-    "helpTitle": "Need help installing?",
-    "accountHelp": "Use the same account in every step: the group, the test page and the Play Store. If you have several Google accounts, check the profile picture on each page and in the store app.",
-    "paymentTitle": "What is Test card, always approves?",
-    "paymentHelp": "It is Google Play's test payment card. If the payment method says Test card, always approves, confirming makes a simulated purchase with no real charge. If you see your own card or another real payment method, do not confirm. Check the account used in all three steps; if the problem continues, write to us and we will enable your account:",
-    "unavailableTitle": "Can't find the game or join the test?",
-    "unavailableHelp": "Check that you joined the group and opted into the test with your Play Store account. Wait a few minutes and reopen the test page. If you still cannot get access, send a screenshot of the message, without payment details, to",
-    "buttonsNote": "Use the same Google account in every step: the one signed in to the Play Store on your Android phone. The pictures show Google's screens in English; in your language the button sits in the same place. Press the one outlined in green.",
+    "title": "Join the Android closed test",
+    "testCardCaption": "Annotated Google Play test payment screen. The red X crosses out the simulated price. Green boxes highlight \"Test card, always approves\" and Google's confirmation that you will not be charged.",
+    "paymentNoticeTitle": "Zero cost for testers. Confirm that the payment method says \"Test card, always approves\".",
+    "paymentNoticeText": "Google Play simulates a purchase for paid apps in closed testing, so a placeholder price, like R$9.99 in the screenshot below, still appears on screen even though nothing is charged. If you see your real card or another real payment method instead, stop and do NOT confirm. Email us and we will enable your tester account:",
+    "intro": "Play the full Android version before release at no cost. Setup takes four quick steps, or you can install the separate free Android demo below with no payment screen.",
+    "step1": "Open the testers Google Group and click \"Join group\". In the pop-up window, click \"Join group\" again at the bottom until the page says \"Successfully joined the group\". Opening the page alone does not add you.",
+    "step1Link": "Open testers group",
+    "step2": "Using the same Google account, open the Google Play testing page and click \"Become a tester\". Wait until the page displays \"You are a tester.\"",
+    "step2Link": "Open testing page",
+    "step3": "Open the game on your Android phone or tablet in Google Play, listed as \"Dawnbringer (Early Access)\", and tap the blue price button. If Google Play says the page is not found, check that you finished step 2 with the same Google account and wait a few minutes.",
+    "step3Link": "Open in Google Play",
+    "note": "Free tester access ends when the game launches publicly. Joining the closed test does not grant a paid copy of the final release.",
+    "helpTitle": "Troubleshooting",
+    "accountHelp": "Use one Google account in every step, across the Google Group, the testing page, and the Google Play Store app on your phone. Check the profile icon on each screen if you use multiple accounts.",
+    "paymentTitle": "Why does Google Play show a price if testing is free?",
+    "paymentHelp": "Paid apps in Google Play closed testing still go through store checkout using \"Test card, always approves\". When that test card is selected, the purchase is simulated and no money is taken. If you see a real payment method, cancel and verify you used the same account in every step, or email us for help:",
+    "unavailableTitle": "Google Play says the app is unavailable or not found",
+    "unavailableHelp": "Verify that you joined the Google Group and clicked \"Become a tester\" with your Play Store account, wait a few minutes, and reload the testing page. If access still fails, email a screenshot of the error, without payment details, to",
+    "buttonsNote": "Use the same Google account signed in to your Android Play Store in every step. Screenshots show Google's English interface, and each button outlined in green sits in the same position in every language.",
     "step1Title": "Join the testers group",
-    "shotGroup": "The group page. Click \"Join group\", outlined in green.",
-    "shotJoin": "The window that opens. Click \"Join group\" at the bottom; the name field can stay as it is.",
-    "step2Title": "Become a tester",
-    "shotOptin": "The test page. Click \"Become a tester\".",
-    "shotTester": "Done: the page says \"You are a tester.\"",
-    "step3Title": "Open the game on your phone",
-    "shotStore": "Google Play on the phone. Tap the blue price button.",
-    "step4Title": "Confirm with the test card",
-    "step4": "Google Play opens the payment screen. Check that the payment method says \"Test card, always approves\" and that the screen says it is a test order, then tap \"1-tap buy\". The game installs and nothing is charged.",
-    "demoTitle": "The free demo on Android",
-    "demoText": "The demo is a separate app, Dawnbringer Demo, and it has no payment step. After step 1, open the demo's test page with the same account, click \"Become a tester\", then install it from Google Play.",
-    "demoTestLink": "Open the demo's test page",
-    "demoInstallLink": "Install the demo"
+    "shotGroup": "Google Group page. Click \"Join group\", outlined in green.",
+    "shotJoin": "Confirmation window. Click \"Join group\" at the bottom and leave the display name as is.",
+    "step2Title": "Opt in as a tester",
+    "shotOptin": "Testing opt-in page. Click \"Become a tester\".",
+    "shotTester": "Confirmed. The page now says \"You are a tester.\"",
+    "step3Title": "Open the store page on Android",
+    "shotStore": "Google Play on Android. Tap the blue price button to open the test checkout.",
+    "step4Title": "Install free with the test card",
+    "step4": "On Google Play's checkout sheet, verify that the payment method says \"Test card, always approves\" and that Google marks it as a test order. Tap \"1-tap buy\" to install the game with no charge.",
+    "demoTitle": "Prefer the free Android demo with no checkout screen?",
+    "demoText": "Dawnbringer Demo is a separate free app with no test payment step. After completing step 1 above, opt in on the demo testing page with the same Google account and install it from Google Play.",
+    "demoTestLink": "Open demo testing page",
+    "demoInstallLink": "Install Android demo"
   },
   "duel": {
     "title": "Duel code",
-    "lead": "A friend sent you a duel code. Copy it and paste it in the game.",
+    "lead": "A friend challenged you to an offline duel in Dawnbringer. Copy the code below and paste it inside the game.",
     "copy": "Copy code",
     "copied": "Code copied.",
-    "copyFailed": "Could not copy on its own. The code is selected: copy it by hand.",
-    "steps": "Open Dawnbringer, tap Duel and paste the code.",
-    "noGame": "Do not have the game yet?",
-    "get": "Download Dawnbringer",
-    "noCodeTitle": "No duel code in this link",
-    "noCode": "This link has no valid code. It may have been cut short when it was copied or sent.",
-    "howTo": "Ask your friend to open Dawnbringer, tap Duel, then Share, and send you the new link.",
-    "needsJs": "This page needs JavaScript to show the code."
+    "copyFailed": "Automatic copy failed. The code is selected so you can copy it manually.",
+    "steps": "Open Dawnbringer, choose Duel, and paste the code to fight their hunter.",
+    "noGame": "Do not have Dawnbringer yet?",
+    "get": "Get the free demo",
+    "noCodeTitle": "No duel code found in this link",
+    "noCode": "This link does not contain a valid duel code. Part of the address may have been cut off when it was copied or sent.",
+    "howTo": "Ask your friend to open Dawnbringer, select Duel, tap Share, and send you a fresh link.",
+    "needsJs": "Turn on JavaScript in your browser to view and copy the duel code."
   },
   "press": {
     "title": "Press kit",
-    "intro": "Fact sheet, key art, logos, and screenshots free to use in articles and videos.",
+    "intro": "Fact sheet, logos, key art, and 1920x1080 screenshots cleared for articles, streams, and videos.",
     "factsTitle": "Fact sheet",
     "developer": "Developer",
-    "developerValue": "gmunaro, a solo developer in Brazil",
+    "developerValue": "PraiseTC, made by gmunaro in Brazil",
     "release": "Release date",
     "releaseValue": "To be announced",
     "platforms": "Platforms",
-    "platformsValue": "Android (Google Play, closed test). A free demo for Android, Windows, macOS and Linux. Steam and the App Store are planned.",
+    "platformsValue": "Free desktop demo available now on Windows, macOS, and Linux. Full game and separate free demo in Google Play closed testing on Android. Steam Early Access on Windows and Apple App Store are planned. If an update breaks saves, the patch notes will say so before it ships.",
     "price": "Price",
-    "priceValue": "US$ 4.99; the demo is free",
+    "priceValue": "Free demo on PC and in Android closed testing. Android closed test of the full game is free for testers. Planned Steam Early Access price: US$ 8.99.",
     "languages": "Languages",
-    "languagesValue": "14: English, Portuguese (Brazil), Spanish, French, German, Italian, Russian, Ukrainian, Polish, Turkish, Japanese, Korean, Simplified Chinese, Traditional Chinese",
+    "languagesValue": "14 UI and subtitle languages: English, Portuguese (Brazil), Spanish, French, German, Italian, Russian, Ukrainian, Polish, Turkish, Japanese, Korean, Simplified Chinese, Traditional Chinese. Synthetic voice audio in English and Portuguese (Brazil).",
     "engine": "Engine",
     "website": "Website",
     "contact": "Contact",
     "social": "Social media",
-    "descriptionTitle": "Description",
-    "description": "Dawnbringer is a dark-fantasy roguelike auto-battler. The sun broke and the world froze, the shards that fell became money, and every week a Landlord comes to collect. Players cross a turn-based map, pick fights, and build a hunter: made before each run, then grown with a class in two steps, a skill tree with active skills, attribute points, and 105 items in 10 families worn by slot, reheated at the forge and set with monster cards. Combat resolves automatically without dice, and the game never shows how a fight will end: every foe carries visible items, so players judge each fight by reading its gear against their build, and a Stone of Despair only darkens when a fight would kill the hero. Against the Landlord it stays silent, and the player must pay the tithe or fight. Before each run players stake gold from their bank, and after each week they cash out the purse or risk it in a harder week. Between runs players spend the bank on the rooms of a house; each room brings someone who teaches a bonus or a class, makes a weapon, opens an item family or gives a bigger purse. Fallen hunters rise and hunt the player in later runs, and one of them can take a Landlord's seat as a heretic. Each week a challenge run is the same for every player, and an online board ranks it by city, region or country; players who join can meet another player's hunter as a rival in a lair, and two heroes can duel by code or on one device. Hunters, monsters, gear and effects are drawn in vector art. Every character speaks with a synthetic voice, a narrator comments the run, and the game is dubbed in Portuguese (Brazil). Options include palettes for color blindness, shape marks and voice control on Android.",
-    "mediaTitle": "Logo, key art and screenshots",
-    "zip": "Download everything (.zip, {size})",
+    "descriptionTitle": "About Dawnbringer",
+    "description": "Dawnbringer is a dark-fantasy roguelike auto-battler with zero randomness. The sun broke and the world froze, leaving glowing shards of sun metal as the only warmth and currency. Every week, a regional boss called a Landlord arrives to collect taxes.\n\nEach run lasts three weeks across fog-covered regions. Fights resolve automatically with no dice, and the game never shows win odds. Every enemy carries real, visible gear you inspect before walking in. Your only warning is the Stone of Despair, a sun shard set under glass that turns dark only before a fight that would kill you, and stays silent against Landlords. At the end of weeks 1 and 2 you can fight for the bounty or pay the tithe, which is 30% of your purse or a weekly minimum, whichever is higher. Week 3 accepts no tithe.\n\nBefore leaving your House, you move safe banked gold into your purse to fund gear, upgrades, and services on the road. Death takes your purse, never your bank, and after each Landlord you decide whether to walk home and bank your gold or push into a harder week. Past runs also leave marks on the world: fallen hunters rise with their old builds to hunt you, a hunter lost in week 2 or 3 can claim a Landlord's seat as a heretic, and optional online boards let other players' hunters wait in lairs as rivals alongside offline code duels.",
+    "mediaTitle": "Logo, key art, and screenshots",
+    "zip": "Download full press kit (.zip, {size})",
     "logo": "Logo (PNG, transparent)",
     "icon": "Icon (PNG, 512x512)",
-    "keyart": "Key art (PNG, 1920x1080)",
+    "keyart": "Key art with logo (PNG, 1920x1080)",
     "keyartNoLogo": "Key art without logo (PNG, 1920x1080)",
-    "screensNote": "Screenshots are 1920x1080 PNG of the game's vector art.",
+    "screensNote": "All screenshots are 1920x1080 PNG captures from version 0.8.0.",
     "creditsTitle": "Credits",
     "credits": [
-      "Design, code and art: gmunaro",
-      "Music: Juhani Junkala (CC0); the Landlord's night score is original, played on VSCO 2 Community Edition samples (CC0)",
-      "Sound effects: Kenney, StarNinjas, Oiboo (CC0) and original sounds",
-      "Ambient sound: field recordings from freesound.org (CC0)",
-      "Voices: synthetic speech from ElevenLabs v4, and Google Gemini TTS for the narrator; no human voice was recorded or cloned",
-      "Fonts: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel and GNU Unifont (SIL Open Font License 1.1)"
+      "Design, code, and direction: gmunaro, PraiseTC",
+      "Art: vector characters, gear, hair, outfits, effects, and four UI pieces drawn as SVG code with Anthropic Claude under gmunaro's direction; playable hunter base bodies traced from Google Gemini 3 Pro Image; 18 battle backdrops, 16 Oddity icons, and 17 map markers made with OpenAI GPT Image and reduced to the game palette; map tiles and remaining pixel art generated by scripts written with AI coding assistants.",
+      "Music: Juhani Junkala (CC0); Landlord night score and NPC themes composed as code with Anthropic Claude, rendered from VSCO 2 Community Edition samples (CC0).",
+      "Sound effects: Kenney, StarNinjas, Oiboo (CC0), and original synthesized sounds.",
+      "Ambient and creature audio: field recordings from freesound.org (CC0).",
+      "Voices: synthetic speech from ElevenLabs Eleven v4, and Google Gemini 3.8 Flash TTS for the narrator. No human voice was recorded or cloned.",
+      "Fonts: Kenney Pixel and Kenney Mini (CC0); Jacquarda Bastarda 9, Fusion Pixel Font, GNU Unifont, Noto Sans, and Noto Sans CJK (SIL Open Font License 1.1).",
+      "Text and translations: English text drafted with AI language models and edited by gmunaro; 13 translations produced with AI language models, checked by automated tests, and not yet reviewed by native speakers."
     ],
     "contactTitle": "Contact",
-    "contactText": "For press, review keys, and other inquiries, write to"
+    "contactText": "For press inquiries, review access, or creator keys, email"
   },
   "footer": {
     "privacy": "Privacy policy",
-    "bugs": "Found a bug? Use Report a bug in the game or write to",
-    "madeBy": "Dawnbringer is made by gmunaro in Brazil.",
-    "studio": "Made by",
+    "bugs": "Found a bug? Use Report a bug inside the game, press F8, or email",
+    "madeBy": "Made in Brazil by gmunaro at {studio}.",
     "changelog": "Changelog"
   },
   "suggest": {
@@ -238,44 +256,46 @@
     "back": "Back to the home page"
   },
   "changelog": {
-    "title": "What's new",
-    "description": "Every Dawnbringer update and what changed in it."
+    "title": "Changelog",
+    "description": "Every Dawnbringer update and what changed in each release.",
+    "demoSuffix": "{os} demo"
   },
   "why": {
     "title": "What makes it different",
     "items": {
       "read": {
-        "title": "Read the foe, not the dice",
-        "text": "Fights play out on their own and never roll dice. Every foe shows its gear, and the Stone of Despair darkens only before a fight that would kill you.",
-        "alt": "The Stone of Despair's mark over a group of foes on the map."
+        "title": "Read the enemy, not the dice",
+        "text": "Combat runs on its own with zero luck. Every foe shows its real gear before you step in, and the Stone of Despair, your lethal-fight warning, darkens only if that battle would kill you.",
+        "alt": "The Stone of Despair's dark warning mark over an enemy group on the map."
       },
       "build": {
-        "title": "Build your hunter",
-        "text": "Pick your hunter's look, bonus and weapon, learn a class in two steps, spend points on a skill map and wear gear in every slot. Reheat items at the forge and set monster cards into them.",
-        "alt": "The class master Abel Tarrow offers two first classes, Swordsman and Archer."
+        "title": "Deep builds every run",
+        "text": "Pick your starting bonus and weapon, advance through two class tiers after each weekly boss, map out active skills, and combine 105 items across 10 set families with no-fail forge upgrades and monster cards.",
+        "alt": "The class master Abel Tarrow offering the first two classes, Swordsman and Archer."
       },
       "return": {
-        "title": "Your runs come back",
-        "text": "Fallen hunters rise and hunt you in later runs, and one of them can take a Landlord's seat as a heretic. Join the online board and another player's hunter can wait in a lair as your rival.",
-        "alt": "On the map, the card of a hunter risen from an earlier run, with the gold of the purse it lost."
+        "title": "Your past runs hunt you",
+        "text": "Hunters who die rise in future runs with their old gear, and one can even claim a Landlord's seat as a heretic. Join the optional weekly board and other players' verified hunters can wait in lairs as your rivals.",
+        "alt": "On the map, the card of a fallen hunter risen from an earlier run, carrying part of the gold it lost."
       }
     }
   },
   "whatsnew": {
     "title": "New in 0.8",
     "items": [
-      "Hunters, monsters, Landlords, gear and effects are drawn in vector art, sharp on any screen.",
-      "A weekly challenge: the same run for every hunter. Join the online board to rank it against players in your city, region or country (you choose what place to share), and another player's hunter can wait in a lair as your rival.",
-      "Duels: send a hero's code to a friend, or pick two saved heroes and fight on one device.",
-      "Your hunter speaks in a voice of the sex you pick, a narrator comments the run, and in Portuguese (Brazil) the characters speak Portuguese.",
-      "Accessibility: palettes for protanopia, deuteranopia and tritanopia, shape marks on color cues, voice control on Android, and a diagram that explains each option.",
-      "A free demo for Android, in its own app."
+      "Vector SVG art for hunters, monsters, Landlords, and equipped gear. Battle backdrops, map tiles, and UI still use pixel art in 0.8.0, combat effects mix vector shapes and pixel sprites, and v0.9 is planned to unify them in vector art.",
+      "Weekly challenge and online leaderboard. Everyone plays the same map layout, and a server replays runs to verify scores. You choose whether to share your city, your country only, or no place, which keeps your runs off public boards, and other players' hunters can appear in lairs as rivals.",
+      "Offline duels. Trade a hunter code with a friend or pit two saved hunters against each other on one device.",
+      "8 active skills that recharge by rounds and 18 rule-changing nodes in the skill tree, plus slot-specific specialist shops.",
+      "Voiced hunter lines matching your chosen sex, a narrator called the Margin who comments on your run, and full Portuguese (Brazil) voice dubbing.",
+      "Accessibility upgrades including protanopia, deuteranopia, and tritanopia palettes, shape marks on every color cue, on-device Android voice control, and live option diagrams.",
+      "A separate free Android demo app in Google Play closed testing."
     ],
-    "more": "All changes"
+    "more": "See full changelog"
   },
   "community": {
     "title": "Press and community",
-    "press": "Logo, key art, screenshots and a fact sheet for articles and videos.",
-    "follow": "Follow the game"
+    "press": "Logos, key art, 1920x1080 screenshots, and fact sheet for coverage and videos.",
+    "follow": "Follow Dawnbringer"
   }
 }

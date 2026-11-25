@@ -64,7 +64,7 @@ export function demoOf(releases: ReleaseEntry[]): Demo | null {
   return null;
 }
 
-/** A localized page of the site: the home, the press kit, the changelog, the alpha, the demo or the duel code. */
+/** A localized page of the site: the home, the press kit, the changelog, the Android closed test, the demo or the duel code. */
 type PageId = "" | "presskit/" | "changelog/" | "beta/" | "download/" | "duelo/";
 
 export function esc(s: string): string {
@@ -120,14 +120,14 @@ ${alt}${xDefault}
 /** The og:image:alt is per language, so it goes after head() in each page. */
 const ogAlt = (t: Strings) => `<meta property="og:image:alt" content="${esc(t.meta.ogAlt)}">`;
 
-/** Top bar: logo link, section links (home only), press kit, language switcher. */
+/** Top bar: logo link, page links (home link on subpages, desktop demo, Android test, press kit), language switcher. */
 function topBar(c: Ctx, page: PageId): string {
   const { t, loc } = c;
   const home = BASE + pathOf(loc, "");
   const link = (p: PageId, label: string) =>
     `<li><a href="${BASE + pathOf(loc, p)}"${page === p ? ' aria-current="page"' : ""}>${esc(label)}</a></li>`;
   const sections = (page === "" ? "" : `<li><a href="${home}">${esc(t.nav.home)}</a></li>`)
-    + (BETA ? link("beta/", t.nav.beta) : "") + (c.demo ? link("download/", t.nav.demo) : "");
+    + (c.demo ? link("download/", t.nav.demo) : "") + (BETA ? link("beta/", t.nav.beta) : "");
   const press = `<li><a href="${BASE + pathOf(loc, "presskit/")}"${page === "presskit/" ? ' aria-current="page"' : ""}>${esc(t.nav.press)}</a></li>`;
   const langs = LOCALES.map((l) => {
     const cur = l.code === loc.code ? ' aria-current="true"' : "";
@@ -156,8 +156,7 @@ ${c.changelog ? `<li><a href="${BASE + pathOf(loc, "changelog/")}">${esc(t.foote
 </ul>
 <p>${esc(t.footer.bugs)} <a href="mailto:${CONTACT}">${CONTACT}</a></p>
 ${page === "" ? "" : socialList()}
-<p>${esc(t.footer.madeBy)} © 2026 gmunaro.</p>
-<p>${esc(t.footer.studio)} <a href="${STUDIO.url}" rel="me noopener">${STUDIO.name}</a></p>
+<p>${esc(t.footer.madeBy).replace("{studio}", `<a href="${STUDIO.url}" rel="me noopener">${STUDIO.name}</a>`)} © 2026 gmunaro.</p>
 </footer>`;
 }
 
@@ -179,12 +178,12 @@ function betaSection(t: Strings, beta: NonNullable<typeof BETA>): string {
     `<figure><a href="${asset(`img/${s.file}`)}"><img src="${asset(`img/${s.file}`)}" width="${s.w}" height="${s.h}" loading="lazy" alt="${esc(s.caption)}"></a><figcaption>${esc(s.caption)}</figcaption></figure>`;
   const mail = `<a href="mailto:${CONTACT}">${CONTACT}</a>`;
   const step = (n: number, title: string, text: string, shots: Shot[], link?: { label: string; url: string }, extra = "") =>
-    `<li class="panel beta-step"><h3><span class="beta-n">${n}</span> ${esc(title)}</h3><p>${esc(text)}</p>`
+    `<li class="panel beta-step"><h2><span class="beta-n">${n}</span> ${esc(title)}</h2><p>${esc(text)}</p>`
     + (link ? `<p><a class="btn" href="${esc(link.url)}" rel="noopener">${esc(link.label)}</a></p>` : "")
     + extra
     + `<div class="beta-shots">${shots.map(shot).join("")}</div></li>`;
   return `<section id="beta" class="wrap" aria-labelledby="beta-title">
-<h2 id="beta-title">${esc(b.title)}</h2>
+<h1 id="beta-title">${esc(b.title)}</h1>
 <p class="lead">${esc(b.intro)}</p>
 <p>${esc(b.buttonsNote)}</p>
 <ol class="beta-steps">
@@ -204,13 +203,13 @@ ${step(4, b.step4Title, b.step4, [{ file: "beta-test-card.png", w: 1080, h: 1408
 </aside>`)}
 </ol>
 <div class="panel beta-demo">
-<h3>${esc(b.demoTitle)}</h3>
+<h2>${esc(b.demoTitle)}</h2>
 <p>${esc(b.demoText)}</p>
 <p><a class="btn" href="${esc(beta.demoTest)}" rel="noopener">${esc(b.demoTestLink)}</a> <a class="btn" href="${esc(beta.demoInstall)}" rel="noopener">${esc(b.demoInstallLink)}</a></p>
 </div>
 <p>${esc(b.note)}</p>
 <div class="beta-help">
-<h3>${esc(b.helpTitle)}</h3>
+<h2>${esc(b.helpTitle)}</h2>
 <p>${esc(b.accountHelp)}</p>
 <details><summary>${esc(b.paymentTitle)}</summary><p>${esc(t.beta.paymentHelp)} ${mail}</p></details>
 <details><summary>${esc(t.beta.unavailableTitle)}</summary><p>${esc(t.beta.unavailableHelp)} ${mail}</p></details>
@@ -227,9 +226,9 @@ function demoSection(c: Ctx, demo: Demo): string {
   };
   const androidLink = BETA ? ` <a href="${BASE + pathOf(c.loc, "beta/")}">${esc(t.demo.androidLink)}</a>` : "";
   return `<section id="download" class="wrap" aria-labelledby="demo-title">
-<h2 id="demo-title">${esc(t.demo.title)}</h2>
+<h1 id="demo-title">${esc(t.demo.title)}</h1>
 <p class="lead">${esc(t.demo.intro)} ${esc(t.demo.version.replace("{version}", demo.version))}</p>
-<h3>${esc(t.demo.includesTitle)}</h3>
+<h2>${esc(t.demo.includesTitle)}</h2>
 <ul class="features panel demo-includes">
 ${t.demo.includes.map((x) => `<li>${esc(x)}</li>`).join("\n")}
 </ul>
@@ -263,17 +262,18 @@ ${footer(c, page)}
   return { path, html };
 }
 
-/** The home page, five blocks: what the game is (one line, the clip, the alpha and demo buttons), what
- * makes it different (WHY), what the version adds (with the changelog link), press and community, footer. */
+/** The home page, six blocks: what the game is (pitch, buttons, clip), how a run works (4 cards),
+ * what makes it different (WHY), what 0.8 adds (with changelog link), press and community, footer. */
 export function homePage(c: Ctx): Page {
   const { t, loc } = c;
+  const steps = t.loop.steps.map((s) => `<li class="card"><h3>${esc(s.title)}</h3><p>${esc(s.text)}</p></li>`).join("\n");
   const why = WHY.map(({ id, img }) => {
     const s = t.why.items[id];
     return `<li class="why-item"><img src="${asset(img)}" width="640" height="360" loading="lazy" decoding="async" alt="${esc(s.alt)}"><h3>${esc(s.title)}</h3><p>${esc(s.text)}</p></li>`;
   }).join("\n");
   const buttons = [
-    BETA ? `<li id="beta"><a class="btn store" href="${BASE + pathOf(loc, "beta/")}">${esc(t.hero.play)}<small>Google Play</small></a></li>` : "",
-    c.demo ? `<li id="download"><a class="btn store" href="${BASE + pathOf(loc, "download/")}">${esc(t.hero.demo)}<small>Windows · macOS · Linux</small></a></li>` : "",
+    c.demo ? `<li id="download"><a class="btn store" href="${BASE + pathOf(loc, "download/")}">${esc(t.hero.demo)}<small>${esc(t.hero.demoSub)}</small></a></li>` : "",
+    BETA ? `<li id="beta"><a class="btn store" href="${BASE + pathOf(loc, "beta/")}">${esc(t.hero.play)}<small>${esc(t.hero.playSub)}</small></a></li>` : "",
   ].join("");
   const main = `<section class="hero">
 <picture class="hero-art">
@@ -296,6 +296,13 @@ export function homePage(c: Ctx): Page {
 ${esc(t.hero.clipFallback)}
 </video>
 </div>
+<p class="state-note">${esc(t.hero.stateNote)}</p>
+</section>
+<section id="loop" class="wrap" aria-labelledby="loop-title">
+<h2 id="loop-title">${esc(t.loop.title)}</h2>
+<ol class="cards">
+${steps}
+</ol>
 </section>
 <section id="why" class="wrap" aria-labelledby="why-title">
 <h2 id="why-title">${esc(t.why.title)}</h2>
@@ -319,7 +326,7 @@ ${socialList()}
   return frame(c, "", t.meta.title, t.meta.description, main);
 }
 
-/** The closed alpha on Google Play: its own page, the four steps and the help (betaSection). */
+/** The closed test on Google Play: its own page, the four steps and the help (betaSection). */
 export function betaPage(c: Ctx): Page {
   return frame(c, "beta/", c.t.meta.betaTitle, c.t.meta.betaDescription, BETA ? betaSection(c.t, BETA) : "");
 }
@@ -336,7 +343,7 @@ export function downloadPage(c: Ctx): Page {
  */
 export function duelPage(c: Ctx): Page {
   const d = c.t.duel;
-  // The game: the desktop demo page when there is one, else the alpha's page, else the home page.
+  // The game: the desktop demo page when there is one, else the closed test page, else the home page.
   const get = BASE + pathOf(c.loc, c.demo ? "download/" : BETA ? "beta/" : "");
   const main = `<section class="wrap prose duel" aria-labelledby="duel-title">
 <h1 id="duel-title">${esc(d.title)}</h1>
@@ -385,7 +392,7 @@ export function pressPage(c: Ctx): Page {
   const dl = (key: keyof typeof PRESS_FILES, label: string) => `<li><a href="${files}${PRESS_FILES[key]}" download>${esc(label)}</a></li>`;
   const thumbs = SHOTS.map((id, i) => {
     const s = t.screens.items[id];
-    return `<li><a href="${files}screenshots/${String(i + 1).padStart(2, "0")}_${id}.png" download><img src="${asset(`shots/${id}.webp`)}" width="320" height="180" loading="lazy" decoding="async" alt="${esc(s.alt)}"></a></li>`;
+    return `<li><a href="${files}screenshots/${String(i + 1).padStart(2, "0")}_${id}.png" title="${esc(s.caption)}" download><img src="${asset(`shots/${id}.webp`)}" width="320" height="180" loading="lazy" decoding="async" alt="${esc(s.alt)}"></a></li>`;
   }).join("\n");
   const html = `${head({ lang: loc.code, title: t.meta.pressTitle, description: t.meta.pressDescription, path, ogLocale: loc.og, font: loc.font, alternates: alternates("presskit/") })}
 ${ogAlt(t)}
@@ -405,7 +412,7 @@ ${facts}
 </section>
 <section class="wrap" aria-labelledby="desc">
 <h2 id="desc">${esc(t.press.descriptionTitle)}</h2>
-<p>${esc(t.press.description)}</p>
+${t.press.description.split(/\n\n+/).map((p) => `<p>${esc(p)}</p>`).join("\n")}
 <h3>${esc(t.features.title)}</h3>
 <ul class="features panel">
 ${t.features.items.map((f) => `<li>${esc(f)}</li>`).join("\n")}
@@ -453,8 +460,12 @@ export function changelogPage(c: Ctx, releases: ReleaseEntry[]): Page {
   const items = releases.map((r) => {
     const text = r.notes[loc.code.replace("-", "_")] ?? r.notes.en ?? "";
     const lines = text.split("\n").map((l) => l.replace(/^\s*[-*]\s*/, "").trim()).filter(Boolean);
-    // Where this version came out (a demo-only release is not on Android): system names, deduped.
-    const systems = [...new Set(Object.keys(r.platforms).map((k) => SYSTEM[k.replace(/-demo$/, "")] ?? k))].join(" · ");
+    // Label full platforms and "-demo" platforms separately so desktop demos are never shown as full builds.
+    const systems = [...new Set(Object.keys(r.platforms).map((k) => {
+      const demo = k.endsWith("-demo");
+      const os = SYSTEM[k.replace(/-demo$/, "")] ?? k;
+      return demo ? t.changelog.demoSuffix.replace("{os}", os) : os;
+    }))].join(" · ");
     return `<article class="panel release" id="v${esc(r.version)}">
 <h2>Dawnbringer ${esc(r.version)}</h2>
 <p><time datetime="${esc(r.date)}">${esc(date.format(new Date(`${r.date}T00:00:00Z`)))}</time> · ${esc(systems)}</p>

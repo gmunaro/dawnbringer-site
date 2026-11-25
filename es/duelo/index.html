@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Código de duelo · Dawnbringer</title>
-<meta name="description" content="Copia el código de duelo que te compartió un amigo y pégalo en Dawnbringer.">
+<meta name="description" content="Copia el código de duelo que te envió un amigo y pégalo en Dawnbringer para combatir contra su cazador sin conexión.">
 <meta name="robots" content="noindex">
 
 <meta name="theme-color" content="#0B0710">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Dawnbringer">
 <meta property="og:title" content="Código de duelo · Dawnbringer">
-<meta property="og:description" content="Copia el código de duelo que te compartió un amigo y pégalo en Dawnbringer.">
+<meta property="og:description" content="Copia el código de duelo que te envió un amigo y pégalo en Dawnbringer para combatir contra su cazador sin conexión.">
 <meta property="og:url" content="https://dawnbringergame.com/es/duelo/">
 <meta property="og:locale" content="es_ES">
 <meta property="og:image" content="https://dawnbringergame.com/assets/img/og.png">
@@ -27,12 +27,12 @@
 <link rel="stylesheet" href="/assets/site.css">
 <script src="/assets/site.js" defer></script>
 </head>
-<meta property="og:image:alt" content="El logo de Dawnbringer sobre un Terrateniente coronado bajo una luna rojo sangre.">
+<meta property="og:image:alt" content="El logo dorado de Dawnbringer sobre un cazador con armadura sosteniendo una linterna en una roca sobre ruinas inundadas, frente a una enorme criatura de piedra bajo un eclipse solar partido.">
 <body data-page="duelo/">
-<a class="skip" href="#main">Saltar al contenido</a>
+<a class="skip" href="#main">Ir al contenido</a>
 <header class="top">
 <a class="brand" href="/es/"><img src="/assets/img/logo.png" width="128" height="36" alt="Dawnbringer"></a>
-<nav class="sections"><ul><li><a href="/es/">Inicio</a></li><li><a href="/es/beta/">Alfa de Android</a></li><li><a href="/es/download/">Demo de escritorio</a></li><li><a href="/es/presskit/">Kit de prensa</a></li></ul></nav>
+<nav class="sections"><ul><li><a href="/es/">Inicio</a></li><li><a href="/es/download/">Demo para PC</a></li><li><a href="/es/beta/">Prueba Android</a></li><li><a href="/es/presskit/">Kit de prensa</a></li></ul></nav>
 <details class="lang">
 <summary><span class="sr">Idioma: </span>Español</summary>
 <ul><li><a href="/duelo/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="/pt-br/duelo/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-BR">Português (Brasil)</a></li><li><a href="/es/duelo/" hreflang="es" lang="es" data-lang="es" aria-current="true">Español</a></li><li><a href="/fr/duelo/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="/de/duelo/" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="/it/duelo/" hreflang="it" lang="it" data-lang="it">Italiano</a></li><li><a href="/ru/duelo/" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li><li><a href="/uk/duelo/" hreflang="uk" lang="uk" data-lang="uk">Українська</a></li><li><a href="/pl/duelo/" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="/tr/duelo/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a></li><li><a href="/ja/duelo/" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li><li><a href="/ko/duelo/" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li><li><a href="/zh-cn/duelo/" hreflang="zh-CN" lang="zh-CN" data-lang="zh-CN">简体中文</a></li><li><a href="/zh-tw/duelo/" hreflang="zh-TW" lang="zh-TW" data-lang="zh-TW">繁體中文</a></li></ul>
@@ -42,28 +42,28 @@
 <main id="main">
 <section class="wrap prose duel" aria-labelledby="duel-title">
 <h1 id="duel-title">Código de duelo</h1>
-<noscript><p>Esta página necesita JavaScript para mostrar el código.</p></noscript>
+<noscript><p>Activa JavaScript en tu navegador para ver y copiar el código de duelo.</p></noscript>
 <div id="duel-ok" hidden>
-<p class="lead">Un amigo te envió un código de duelo. Cópialo y pégalo en el juego.</p>
+<p class="lead">Un amigo te retó a un duelo sin conexión en Dawnbringer. Copia el código abajo y pégalo dentro del juego.</p>
 <textarea id="duel-code" class="duel-code" readonly rows="6" spellcheck="false" autocomplete="off" autocapitalize="off" aria-label="Código de duelo"></textarea>
-<p class="duel-actions"><button type="button" id="duel-copy" class="btn" data-copied="Código copiado." data-failed="No se pudo copiar automáticamente. El código está seleccionado: cópialo a mano.">Copiar código</button> <span id="duel-status" role="status"></span></p>
-<p>Abre Dawnbringer, toca Duelo y pega el código.</p>
+<p class="duel-actions"><button type="button" id="duel-copy" class="btn" data-copied="Código copiado." data-failed="No se pudo copiar automáticamente. El código quedó seleccionado para que lo copies a mano.">Copiar código</button> <span id="duel-status" role="status"></span></p>
+<p>Abre Dawnbringer, elige Duelo y pega el código para enfrentar a su cazador.</p>
 </div>
 <div id="duel-bad" hidden>
-<h2>Este enlace no tiene código de duelo</h2>
-<p>Este enlace no tiene un código válido. Puede que se cortara al copiarlo o enviarlo.</p>
-<p>Pide a tu amigo que abra Dawnbringer, toque Duelo, luego Compartir, y te envíe el enlace nuevo.</p>
+<h2>No hay código de duelo en este enlace</h2>
+<p>Este enlace no contiene un código de duelo válido. Puede que parte de la dirección se haya cortado al copiarla o enviarla.</p>
+<p>Pídele a tu amigo que abra Dawnbringer, entre en Duelo, pulse Compartir y te envíe un enlace nuevo.</p>
 </div>
-<p>¿Aún no tienes el juego? <a href="/es/download/">Descargar Dawnbringer</a></p>
+<p>¿Todavía no tienes Dawnbringer? <a href="/es/download/">Descargar demo gratis</a></p>
 </section>
 </main>
 <footer class="foot">
 <ul>
 <li><a href="/privacy.html">Política de privacidad</a></li>
 <li><a href="/es/presskit/">Kit de prensa</a></li>
-<li><a href="/es/changelog/">Novedades</a></li>
+<li><a href="/es/changelog/">Cambios</a></li>
 </ul>
-<p>¿Encontraste un error? Usa Informar de un error dentro del juego o escribe a <a href="mailto:contato@dawnbringergame.com">contato@dawnbringergame.com</a></p>
+<p>¿Encontraste un error? Usa Informar de un error dentro del juego, pulsa F8 o escribe a <a href="mailto:contato@dawnbringergame.com">contato@dawnbringergame.com</a></p>
 <ul class="socials">
 <li><a href="https://discord.gg/vHQMuzdb7J" rel="me noopener">Discord</a></li>
 <li><a href="https://www.youtube.com/@dawnbringergame" rel="me noopener">YouTube</a></li>
@@ -73,8 +73,7 @@
 <li><a href="https://www.threads.com/@dawnbringergame" rel="me noopener">Threads</a></li>
 <li><a href="https://www.reddit.com/r/Dawnbringer/" rel="me noopener">Reddit</a></li>
 </ul>
-<p>Dawnbringer está hecho por gmunaro en Brasil. © 2026 gmunaro.</p>
-<p>Hecho por <a href="https://github.com/praisetcdev" rel="me noopener">PraiseTC</a></p>
+<p>Hecho en Brasil por gmunaro en <a href="https://github.com/praisetcdev" rel="me noopener">PraiseTC</a>. © 2026 gmunaro.</p>
 </footer>
 </body>
 </html>

@@ -1,232 +1,250 @@
 {
   "meta": {
-    "title": "Dawnbringer: roguelike auto-battler dark fantasy",
-    "description": "Roguelike auto-battler w świecie dark fantasy. Zbuduj łowcę, sprawdź ekwipunek każdego wroga, potem zapłać Właścicielowi albo walcz.",
-    "pressTitle": "Materiały prasowe Dawnbringer",
-    "pressDescription": "Karta informacyjna, opis, cechy, logo, key art i zrzuty ekranu gry Dawnbringer, roguelike auto-battlera od gmunaro.",
+    "title": "Dawnbringer · Roguelike auto-battler dark fantasy",
+    "description": "Roguelike auto-battler w świecie dark fantasy bez kości. Zbuduj łowcę na trzytygodniową wyprawę, sprawdź prawdziwy ekwipunek każdego wroga, zapłać bossowi tygodnia albo walcz, a potem schowaj sakiewkę w banku lub zaryzykuj dalej.",
+    "pressTitle": "Zestaw prasowy Dawnbringer",
+    "pressDescription": "Karta faktów, opis gry, lista funkcji, logo, główna grafika i zrzuty ekranu z Dawnbringer, gry roguelike auto-battler od PraiseTC i gmunaro.",
     "notFoundTitle": "Nie znaleziono strony",
-    "ogAlt": "Logo Dawnbringer nad ukoronowanym Właścicielem pod krwistoczerwonym księżycem.",
-    "betaTitle": "Dołącz do alfy na Androidzie · Dawnbringer",
-    "betaDescription": "Jak dołączyć do zamkniętej alfy Dawnbringer w Google Play, w czterech krokach ze zrzutami ekranu.",
-    "downloadTitle": "Demo na komputer · Dawnbringer",
-    "downloadDescription": "Pobierz darmowe demo Dawnbringer na Windows, macOS i Linuksa.",
+    "ogAlt": "Złote logo Dawnbringer nad opancerzonym łowcą z latarnią na skale przed zalanymi ruinami, naprzeciw potężnej kamiennej istoty pod rozbitym zaćmieniem słońca.",
+    "betaTitle": "Zamknięte testy na Androidzie · Dawnbringer",
+    "betaDescription": "Dołącz za darmo do zamkniętych testów Dawnbringer w Google Play w czterech krokach ze zrzutami ekranu, obejmujących pełną grę i osobne darmowe demo.",
+    "downloadTitle": "Darmowe demo na komputer · Dawnbringer",
+    "downloadDescription": "Pobierz darmowe demo Dawnbringer na Windows, macOS i Linux. Rozegraj pełną trzytygodniową wyprawę bez limitu czasu.",
     "duelTitle": "Kod pojedynku · Dawnbringer",
-    "duelDescription": "Skopiuj kod pojedynku, który udostępnił znajomy, i wklej go w Dawnbringer."
+    "duelDescription": "Skopiuj kod pojedynku od znajomego i wklej go w Dawnbringer, aby zmierzyć się z jego łowcą offline."
   },
   "nav": {
     "skip": "Przejdź do treści",
     "home": "Start",
-    "why": "O grze",
-    "new": "Nowości w 0.8",
-    "demo": "Demo na komputer",
-    "beta": "Alfa na Androidzie",
+    "demo": "Demo na PC",
+    "beta": "Testy Android",
     "press": "Dla prasy",
     "language": "Język"
   },
   "hero": {
-    "pitch": "Roguelike w świecie dark fantasy, w którym walki toczą się same: zbuduj łowcę, sprawdź ekwipunek każdego wroga, potem zapłać Właścicielowi albo walcz. Wypróbuj za darmo na komputerze.",
-    "artAlt": "Mały łowca na wzgórzu staje naprzeciw olbrzymiego Właściciela w koronie, który stoi przed ciemnymi wzgórzami pod krwistoczerwonym księżycem.",
+    "pitch": "Roguelike auto-battler dark fantasy bez kości. Każda wyprawa trwa trzy tygodnie. Sprawdź prawdziwy ekwipunek każdego wroga przed automatyczną walką, zapłać bossowi tygodnia albo walcz, a potem wróć do domu schować sakiewkę w banku lub zaryzykuj ją w trudniejszym tygodniu. Śmierć zabiera wszystko, co niesiesz.",
+    "artAlt": "Opancerzony łowca w czerwonym płaszczu trzyma latarnię na skale nad zalanymi gotyckimi ruinami, naprzeciw olbrzymiej kamiennej istoty pod rozbitym zaćmieniem słońca.",
     "clipTitle": "Rozgrywka",
-    "clipAlt": "Fragment rozgrywki: bohater w pełnym ekwipunku sam walczy z grupą potworów.",
-    "clipFallback": "Twoja przeglądarka nie może odtworzyć tego filmu.",
-    "play": "Dołącz do alfy na Androidzie",
-    "demo": "Zagraj w darmowe demo"
+    "clipAlt": "Nagranie z rozgrywki pokazujące wyposażonego łowcę walczącego automatycznie z grupą potworów.",
+    "clipFallback": "Twoja przeglądarka nie potrafi odtworzyć tego filmu.",
+    "stateNote": "Główna grafika pokazuje planowany styl wersji 0.9. Wersja 0.8.0 łączy wektorowe postacie i sprzęt z tłami oraz interfejsem w pixel arcie i oferuje częściową obsługę kontrolera.",
+    "play": "Dołącz do testów Android",
+    "playSub": "Google Play, za darmo dla testerów",
+    "demo": "Pobierz darmowe demo",
+    "demoSub": "Windows, macOS, Linux"
+  },
+  "loop": {
+    "title": "Jak przebiega wyprawa",
+    "steps": [
+      {
+        "title": "1. Postaw złoto z banku",
+        "text": "Słońce pękło, jego świecące odłamki stały się pieniędzmi, a Dom to twoja stała baza między wyprawami. Przed wyjściem stwórz łowcę, wybierz premię na start i broń oraz przenieś złoto z bezpiecznego banku do sakiewki w ramach jej limitu. Złoto z sakiewki kupuje w drodze sprzęt, przedmioty jednorazowe, ulepszenia w kuźni i błogosławieństwa kapliczek, więc większa stawka wzmacnia start i zwiększa stratę po śmierci. Śmierć zabiera sakiewkę, nigdy bank."
+      },
+      {
+        "title": "2. Zwiedzaj trzy tygodnie i czytaj każdą walkę",
+        "text": "Przemierzaj spowitą mgłą mapę przez dni i groźne noce. Każdy wróg ma widoczny ekwipunek i statystyki. Walki rozgrywają się automatycznie bez losowości, więc przed starciem porównujesz zestaw wroga ze swoim."
+      },
+      {
+        "title": "3. Zapłać Właścicielowi albo walcz, a potem wróć",
+        "text": "Na koniec każdego tygodnia przybywa boss regionu zwany Właścicielem, aby zebrać daninę. W tygodniu 1 i 2 możesz walczyć o nagrodę albo zapłacić dziesięcinę, wynoszącą 30% sakiewki lub tygodniowe minimum, zależnie od tego, która kwota jest wyższa. W tygodniu 3 nie ma dziesięciny. Po przetrwaniu spotkania z Właścicielem wróć do domu schować sakiewkę w banku albo zabierz wszystko w kolejny tydzień."
+      },
+      {
+        "title": "4. Rozwijaj łowcę i odblokowuj Dom",
+        "text": "Poznaj pierwszą klasę po tygodniu 1 i drugą po tygodniu 2, wydawaj punkty na jednej mapie drzewa umiejętności, składaj zestawy rodów przedmiotów i ulepszaj sprzęt w kuźni. Między wyprawami złoto z banku otwiera 22 stałe izby Domu."
+      }
+    ]
   },
   "screens": {
     "items": {
       "night": {
-        "caption": "Noc w Wisielczym Lesie: mgła skrywa drogę i to, co na niej czeka.",
-        "alt": "Mapa Wisielczego Lasu nocą: łowca na leśnej ścieżce, przed nim potwór, przy ścieżce oznaczone walki i skrzynia, a na krawędziach zdrowie, złoto, Właściciel tygodnia, mapa regionu i pas."
+        "caption": "Noc w Wisielczym Lesie. Mgła skraca zasięg wzroku, a nocne cienie ścigają cię wzdłuż drogi.",
+        "alt": "Mapa Wisielczego Lasu nocą z łowcą na leśnej ścieżce, wrogiem z przodu, oznaczonymi walkami, skrzynią oraz paskami zdrowia, złota, bossa tygodnia, mapy regionu i pasa na krawędziach."
       },
       "landlord": {
-        "caption": "Zapłać dziesięcinę z sakiewki albo walcz o nagrodę.",
-        "alt": "Karta Pożeracza Sadów, Właściciela Pola Pyłu: jego statystyki, zdolność Skorupa Szronu, to, co niesie, dziesięcina 18 z twoich 60 złota oraz przyciski Zapłać dziesięcinę i Walcz."
+        "caption": "Każdy tydzień kończy się spotkaniem z Właścicielem. Zapłać dziesięcinę z sakiewki albo walcz o pełną nagrodę.",
+        "alt": "Karta Pożeracza Sadów, Właściciela Pola Pyłu, pokazująca statystyki, zdolność Skorupa Szronu, niesione przedmioty, dziesięcinę 18 z 60 złota oraz przyciski Zapłać dziesięcinę lub Walcz."
       },
       "battle": {
-        "caption": "Walka toczy się sama; o wyniku decyduje twoje przygotowanie.",
-        "alt": "Walka w Żarowej Odlewni: twój łowca przeciw Hutnikowi z Kadzi i dwóm Żużlowym Chrząszczom, z paskami zdrowia, pancerzem, rundą i umiejętnościami łowcy."
+        "caption": "Walki toczą się automatycznie bez kości. O wyniku decyduje twoje przygotowanie.",
+        "alt": "Ekran walki w Tyglu z łowcą naprzeciw Hutnika z Kadzi i dwóch Żużlowych Chrząszczy, z paskami zdrowia, tarczą, licznikiem rund i odnawiającymi się aktywnymi umiejętnościami."
       },
       "stone": {
-        "caption": "Kamień Rozpaczy ciemnieje nad walką, która by cię zabiła.",
-        "alt": "Na mapie karta watahy prowadzonej przez Stwardniałego Przycinacza: to, co niesie, dwóch towarzyszących mu wrogów i ostrzeżenie Kamienia Rozpaczy, że ta walka by cię zabiła."
+        "caption": "Kamień Rozpaczy ciemnieje tylko wtedy, gdy walka z tym wrogiem dokładnie teraz by cię zabiła.",
+        "alt": "Karta watahy prowadzonej przez Stwardniałego Przycinacza z jego przedmiotami, dwoma towarzyszami i ostrzeżeniem Kamienia Rozpaczy, że ta walka zabiłaby łowcę."
       },
       "risen": {
-        "caption": "Poległy łowca z dawnej wyprawy krąży po drodze ze swoim złotem.",
-        "alt": "Na mapie karta Strzelczyni Szubienicy powstałej z wcześniejszej wyprawy: gdzie poległa, 24 złota z utraconej sakiewki, to, co niesie, i jej premia Pierwsza Krew."
+        "caption": "Twoi polegli łowcy powstają na mapie tam, gdzie zginęli, wciąż niosąc dawny build i część utraconego złota.",
+        "alt": "Karta na mapie Strzelczyni Szubienicy powstałej z wcześniejszej wyprawy, pokazująca miejsce śmierci, 24 złota do odzyskania z jej sakiewki, sprzęt oraz premię Pierwsza Krew."
       },
       "rival": {
-        "caption": "Dołącz do tablicy tygodnia, a łowca innego gracza może czekać w legowisku jako twój rywal.",
-        "alt": "Karta Ash Vey, łowcy innego gracza i Strażnika: jego statystyki, dwa niesione przedmioty, łupy za zwycięstwo nad nim, adnotacja, że pochodzi z tablicy tygodnia online, oraz przyciski Walcz i Wycofaj się."
+        "caption": "Dołącz do opcjonalnej tablicy tygodnia, a zweryfikowany łowca innego gracza może czekać w legowisku jako twój rywal.",
+        "alt": "Karta spotkania z Ash Vey, łowcą innego gracza strzegącym legowiska z tablicy online, ze statystykami, dwoma niesionymi przedmiotami, łupem oraz przyciskami Walcz lub Wycofaj się."
       },
       "board": {
-        "caption": "Serwer sprawdza każdą wyprawę, a potem klasyfikuje ją w twoim mieście, regionie lub kraju.",
-        "alt": "Tablica tygodnia dla Toronto, ON, CA: dziesięciu łowców z klasą i wynikiem, twój najlepszy wynik 2140 na 4. miejscu oraz przyciski Zmień miejsce, Kod transferu, Usuń moje dane i Wstecz."
+        "caption": "Serwer odtwarza każdą wyprawę wyzwania tygodnia w celu weryfikacji, a potem klasyfikuje ją w twoim mieście, regionie lub kraju.",
+        "alt": "Tablica tygodnia dla Toronto, ON, CA z dziesięcioma łowcami, ich klasami i wynikami, twoim najlepszym wynikiem 2140 na 4. miejscu oraz przyciskami Zmień miejsce, Kod transferu, Usuń moje dane i Wróć."
       },
       "camp": {
-        "caption": "W domu zbuduj łowcę, wybierz śluby i złoto, które zabierasz.",
-        "alt": "Dom: tworzenie łowcy z płcią, skórą, oczami, włosami i strojem, premia Riposta i Żelazna Maczuga, słoik rodów przedmiotów, śluby i złoto do zabrania."
+        "caption": "W Domu dostosuj łowcę, wybierz opcjonalne śluby z utrudnieniami dla wyższych wypłat i ustal kwotę zabieraną w sakiewce.",
+        "alt": "Ekran przygotowania w Domu z wyborem płci, skóry, oczu, włosów i stroju, premią Riposta, Żelazną Maczugą, słojem rodów przedmiotów, opcjonalnymi ślubami i suwakiem stawki złota."
       },
       "shop": {
-        "caption": "Sklep od razu pokazuje, jak zmienią się statystyki po wymianie przedmiotu.",
-        "alt": "Sklep z czterema przedmiotami do kupienia lub wygnania i porównaniem nowego przedmiotu z twoim buildem."
+        "caption": "Każdy sklep bezpośrednio porównuje nowy przedmiot z założonym elementem przed zakupem lub usunięciem go z przyszłych ofert.",
+        "alt": "Panel sklepu prezentujący cztery przedmioty do kupienia lub wykluczenia wraz z bezpośrednim porównaniem statystyk ze sprzętem łowcy."
       },
       "build": {
-        "caption": "Połącz 2, 4 lub 6 przedmiotów z tego samego rodu, by odblokować premie zestawu.",
-        "alt": "Karta buildu łowcy ze statystykami, wyposażeniem, pasem, umiejętnościami i zestawami rodzin Piec, Żelazo, Szubienica i Zaraza."
+        "caption": "Załóż 2, 4 albo 6 elementów z tego samego rodu przedmiotów, aby aktywować premie zestawu.",
+        "alt": "Karta buildu łowcy ze statystykami, założonym ekwipunkiem, przedmiotami na pasie, umiejętnościami i aktywnymi zestawami Piec, Żelazo, Szubienica i Zaraza."
       },
       "a11y": {
-        "caption": "Palety dla różnych typów widzenia barw, znaczniki kształtu przy każdym sygnale kolorem i sterowanie głosem.",
-        "alt": "Opcje dostępności: paleta, znaczniki kształtu, sterowanie głosem, język głosu i czas, przez jaki tekst zostaje na ekranie, obok tabeli sygnałów kolorem w grze, które przełącza przycisk palety."
+        "caption": "Palety dla daltonistów, znaki kształtu przy każdym sygnale barwnym oraz lokalne sterowanie głosem na Androidzie.",
+        "alt": "Menu ułatwień dostępu z paletami kolorów, znakami kształtu, sterowaniem głosem, językiem mowy i czasem wyświetlania tekstu obok podglądu na żywo sygnałów barwnych gry."
       },
       "event": {
-        "caption": "Zdarzenia na drodze dają trzy wybory, a niektóre kosztują złoto lub dodają Grozę.",
-        "alt": "Zdarzenie Studnia kaplicy z trzema wyborami: jeden kosztuje 8 złota, a inny dodaje 4 Grozy."
+        "caption": "Zdarzenia na drodze dają stałe wybory bez losowań, wymieniając złoto, zdrowie albo wyższe zagrożenie wrogów zwane Grozą.",
+        "alt": "Zdarzenie drogowe Studnia kaplicy z trzema deterministycznymi opcjami, w tym jedną kosztującą 8 złota i drugą dodającą 4 Grozy."
       }
     }
   },
   "features": {
-    "title": "Cechy",
+    "title": "Funkcje",
     "items": [
-      "6 pierwszych klas i 12 drugich klas.",
-      "Punkty atrybutów i punkt umiejętności za każdy poziom; drzewo umiejętności, które jest jedną mapą, z 8 aktywnymi umiejętnościami odnawiającymi się w rundach.",
-      "105 przedmiotów w 10 rodach, noszonych w slotach, z premiami zestawu za 2, 4 i 6 części.",
-      "Rozgrzej przedmioty w Kuźni do +4 i wstaw w nie 19 rodzajów kart potworów.",
-      "19 Właścicieli w 6 regionach, przez 3 tygodnie.",
-      "Patrole, watahy, zasadzki, strażnicy i mimiki na mapie.",
-      "Dzień i noc: nocą pole widzenia się kurczy, a cienie na ciebie polują.",
-      "Polegli łowcy powstają i polują na ciebie; jeden z nich może zasiąść na tronie Właściciela jako heretyk.",
-      "Osobny bank i sakiewka: na starcie stawiasz złoto, a po każdym Właścicielu wypłacasz.",
-      "9 opcjonalnych ślubów, które czynią drogę okrutniejszą, a wypłatę większą.",
-      "Wyzwanie tygodnia z tablicą online, rywalami od innych graczy i pojedynkami z przyjaciółmi.",
-      "Każda postać mówi, narrator komentuje wyprawę, a każdy region ma własny dźwięk we dnie i w nocy.",
-      "Palety dla daltonistów, znaczniki kształtu, sterowanie głosem na Androidzie i schemat do każdej opcji.",
-      "Zielnik, bestiariusz i 16 osiągnięć w Dzienniku.",
-      "Łowców, potwory, ekwipunek i efekty narysowano w grafice wektorowej.",
-      "Mysz, klawiatura, pad i dotyk, na pełnym ekranie na telefonach, tabletach i komputerach.",
-      "Przetłumaczona na 14 języków i zdubbingowana po portugalsku (Brazylia)."
+      "Deterministyczna automatyczna walka bez kości. Sprawdź prawdziwy ekwipunek każdego wroga przed starciem, podczas gdy Kamień Rozpaczy ostrzega tylko przed śmiertelną walką i milczy wobec Właścicieli.",
+      "Trzytygodniowe wyprawy przez 6 regionów po pięć stref przeciwko 19 Właścicielom. W tygodniu 1 i 2 walcz o nagrodę lub zapłać dziesięcinę, wynoszącą 30% sakiewki albo tygodniowe minimum, zależnie od tego, która kwota jest wyższa. W tygodniu 3 nie ma dziesięciny.",
+      "Oddzielny bank i sakiewka. Wydawaj złoto z sakiewki na sprzęt, przedmioty jednorazowe, kuźnię i usługi w drodze, a po Właścicielu schowaj je w domu albo zaryzykuj głębiej. Między wyprawami bank otwiera 22 stałe izby Domu.",
+      "Dwustopniowy rozwój klas u mistrza Abel Tarrow, z 6 pierwszymi klasami po tygodniu 1 i 12 drugimi klasami po tygodniu 2.",
+      "Punkty atrybutów i punkt umiejętności na każdym poziomie na jednej przybliżanej mapie umiejętności, z 8 aktywnymi umiejętnościami na czas odnowienia i 18 węzłami zmieniającymi zasady.",
+      "105 przedmiotów w 10 rodach noszonych w 1 gnieździe broni i 8 gniazdach ekwipunku, łącznie 9 sztuk naraz, z premiami zestawu za 2, 4 i 6 sztuk. Hartuj dowolny przedmiot do poziomu III i rozgrzewaj broń oraz pancerz do +4 w kuźni bez ryzyka porażki, a także osadzaj 19 kart potworów. Amulety można hartować, ale nie rozgrzewać.",
+      "35 typów wrogów, w tym patrole, watahy, zasadzki, strażnicy i mimiki, 31 stałych zdarzeń drogowych, 4 gildie z kontraktami i 9 opcjonalnych ślubów, utrudnień dających po +10% złota za wygraną.",
+      "Polegli łowcy powstają i polują na ciebie w kolejnych wyprawach, łowca stracony w tygodniu 2 lub 3 może zasiąść na tronie Właściciela jako heretyk, a 11 śmiertelnych NPC możesz wyzwać lub zabić.",
+      "Wspólne wyzwanie tygodnia weryfikowane przez odtworzenie na serwerze z opcjonalną tablicą online dla miasta, regionu lub kraju, rywalami online w legowiskach oraz pojedynkami offline przez kod albo na jednym urządzeniu.",
+      "Grafika wektorowa SVG dla łowców, potworów, Właścicieli i noszonego sprzętu w wersji 0.8.0. Tła bitew, kafelki mapy i interfejs wciąż używają pixel artu, efekty walki łączą wektor i piksele, a wersja 0.9 planuje ujednolicić je w wektorze.",
+      "Syntetyczne głosy dla każdej postaci i potwora oraz narratorka Margines po angielsku i w portugalskim brazylijskim, a także palety dla daltonistów, znaki kształtu, lokalne sterowanie głosem na Androidzie, regulowany czas tekstu i schematy na żywo.",
+      "Zielnik i bestiariusz z 12 roślinami i zwierzętami, 24 Osobliwości zmieniające zasady wyprawy i 15 wyczynów na PC plus 1 wyczyn pocztówkowy wyłącznie na Androidzie, razem 16.",
+      "Graj myszą, klawiaturą, dotykiem lub z częściową obsługą kontrolera, z pełną obsługą kontrolera planowaną na 0.9. Interfejs i napisy obejmują 14 języków."
     ]
   },
   "demo": {
-    "title": "Pobierz demo",
-    "intro": "Darmowe demo na Windows, macOS i Linuksa oraz na Androida. Zawiera całą wyprawę, z mniejszym wyborem przy tworzeniu łowcy, a izby domu pozostają zamknięte.",
+    "title": "Pobierz darmowe demo na komputer",
+    "intro": "Wypróbuj Dawnbringer za darmo na Windows, macOS lub Linux bez limitu czasu. Rozgrywasz pełną trzytygodniową wyprawę ze startowym zestawem opcji łowcy, podczas gdy 22 stałe izby twojego Domu pozostają zamknięte.",
     "version": "Wersja {version}.",
     "includesTitle": "Co zawiera demo",
     "includes": [
-      "Własny łowca, stworzony przed wyprawą: płeć, skóra, oczy, włosy, strój i imię.",
-      "Premia na start, Riposta albo Pierwsza Krew, i broń: Żelazna Maczuga albo Stara Kusza.",
-      "Klasy: Szermierz i Łucznik, a potem Krzyżowiec i Rycerz albo Łowca i Bard.",
-      "Pełna wyprawa: trzy tygodnie na mapie, wydarzenia, sklepy, śluby i Właściciele.",
-      "4 startowe rody przedmiotów.",
-      "Dom z 22 zamkniętymi izbami: pozostałe premie, bronie, klasy i rody przedmiotów oraz większe sakiewki są w pełnej wersji.",
-      "Osobny zapis gry, oddzielny od pełnej wersji."
+      "Pełna personalizacja łowcy przed każdą wyprawą, w tym płeć, skóra, oczy, włosy, strój i imię.",
+      "2 premie na start, Riposta i Pierwsza Krew, oraz 2 bronie startowe, Żelazna Maczuga i Stara Kusza.",
+      "2 pierwsze klasy, Szermierz i Łucznik, oraz ich 4 drugie klasy: Krzyżowiec, Rycerz, Łowca i Bard.",
+      "Cała trzytygodniowa wyprawa przez wszystkie regiony, ze zdarzeniami na drodze, sklepami według gniazd sprzętu, opcjonalnymi ślubami zamieniającymi trudniejsze zasady na dodatkowe złoto oraz tygodniowymi bossami Właścicielami.",
+      "4 startowe rody przedmiotów, czyli tematyczne grupy sprzętu odblokowujące premie zestawu przy 2, 4 lub 6 sztukach.",
+      "Osobny plik zapisu oddzielony od pełnej wersji. 22 stałe izby Domu, które odblokowują 4 kolejne premie, 4 bronie, 4 pierwsze klasy, 6 rodów przedmiotów i większe początkowe sakiewki złota, są w pełnej grze."
     ],
     "windows": "Windows",
-    "windowsNote": "Windows 10 lub 11, 64-bit. Jeden plik .zip, bez instalatora: rozpakuj go i uruchom DawnbringerDemo.exe. Plik nie ma jeszcze podpisu cyfrowego, więc SmartScreen może ostrzec: kliknij Więcej informacji, a potem Uruchom mimo to.",
+    "windowsNote": "Windows 10 lub 11, 64 bity. Pobierz archiwum .zip, rozpakuj je i uruchom DawnbringerDemo.exe bez instalatora. Ponieważ plik nie ma jeszcze podpisu cyfrowego, Windows SmartScreen może ostrzec cię raz. Kliknij Więcej informacji, a potem Uruchom mimo to.",
     "macos": "macOS",
-    "macosNote": "Jedna aplikacja na Maki z Apple silicon i Intel. Rozpakuj ją i przeciągnij Dawnbringer do Aplikacji.",
-    "macosOpen": "Aplikacja nie jest jeszcze notaryzowana przez Apple, więc macOS blokuje pierwsze uruchomienie. Kliknij aplikację prawym przyciskiem (lub z Control) i wybierz Otwórz. Jeśli nie ma przycisku Otwórz, przejdź do Ustawienia systemowe > Prywatność i ochrona i kliknij Otwórz mimo to.",
+    "macosNote": "Uniwersalna aplikacja dla komputerów Mac z Apple silicon i Intel. Rozpakuj plik i przeciągnij Dawnbringer do folderu Aplikacje.",
+    "macosOpen": "Apple nie poświadczyło jeszcze aplikacji, więc macOS blokuje pierwsze uruchomienie. Kliknij ją prawym przyciskiem lub z Control i wybierz Otwórz. Jeśli nie widać przycisku Otwórz, wejdź w Ustawienia systemowe > Prywatność i ochrona i kliknij Otwórz mimo to.",
     "linux": "Linux",
-    "linuxNote": "x86_64. Rozpakuj archiwum i uruchom DawnbringerDemo.x86_64. Wymaga sterowników graficznych z OpenGL 3.3.",
+    "linuxNote": "Archiwum x86_64. Rozpakuj je i uruchom DawnbringerDemo.x86_64. Wymaga sterowników graficznych obsługujących OpenGL 3.3.",
     "download": "Pobierz ({size})",
-    "checksums": "Sumy kontrolne SHA-256 plików",
-    "android": "Android: pełna gra i darmowe demo są w zamkniętym teście w Google Play.",
-    "androidLink": "Dołącz do testu",
-    "ios": "iPhone i iPad: jeszcze niedostępne."
+    "checksums": "Sprawdź pliki sumami SHA-256",
+    "android": "Chcesz zagrać na Androidzie? Zarówno pełna gra, bezpłatna dla testerów, jak i osobna darmowa aplikacja demo są otwarte w naszych zamkniętych testach Google Play.",
+    "androidLink": "Otwórz instrukcję Android",
+    "ios": "Wersje na iPhone i iPad są w planach i nie są jeszcze dostępne."
   },
   "beta": {
-    "title": "Dołącz do alfy na Androidzie",
-    "testCardCaption": "Oznaczony zrzut testowej płatności na Androidzie. X przekreśla fikcyjną kwotę. Zielone ramki wskazują kartę testową i komunikat Google: to zamówienie testowe, nie zostaniesz obciążony.",
-    "paymentNoticeTitle": "Test jest darmowy dla testerów: w kroku 4 metoda płatności musi wskazywać „Test card, always approves”, a nic nie zostanie pobrane.",
-    "paymentNoticeText": "Z kartą testową Google Play tylko symuluje zakup: nawet jeśli widzisz R$9.99 lub inną kwotę, żadne pieniądze nie zostaną pobrane. Jeśli widzisz własną kartę lub inną prawdziwą metodę płatności, NIE potwierdzaj. Napisz do nas, a odblokujemy twoje konto:",
-    "intro": "Wersja na Androida jest przed premierą za darmo dla testerów. Cztery kroki, około dwóch minut.",
-    "step1": "Otwórz grupę i kliknij „Join group” (Dołącz do grupy). Otworzy się okno: kliknij „Join group” jeszcze raz na dole. Strona pokaże „Successfully joined the group”. Samo otwarcie grupy nie wystarczy: trzeba dołączyć.",
-    "step1Link": "Otwórz grupę",
-    "step2": "Na tym samym koncie otwórz stronę testu i kliknij „Become a tester”. Poczekaj, aż strona pokaże „You are a tester.”",
-    "step2Link": "Otwórz stronę testu",
-    "step3": "Na telefonie lub tablecie z Androidem otwórz grę w Google Play. Strona nazywa się „Dawnbringer (Early Access)”. Dotknij niebieskiego przycisku z ceną. Jeśli Google Play odpowie, że nie znaleziono strony, krok 2 nie jest jeszcze ukończony: wróć do kroku 2, sprawdź konto Google i poczekaj kilka minut.",
-    "step3Link": "Zainstaluj z Google Play",
-    "note": "Darmowy dostęp do alfy kończy się w dniu premiery. Udział w teście nie obejmuje zakupu pełnej wersji.",
-    "helpTitle": "Potrzebujesz pomocy z instalacją?",
-    "accountHelp": "W każdym kroku używaj tego samego konta: grupa, strona testu i Sklep Play. Jeśli masz kilka kont Google, sprawdź zdjęcie profilowe na każdej stronie i w aplikacji sklepu.",
-    "paymentTitle": "Co oznacza Test card, always approves?",
-    "paymentHelp": "To karta testowa Google Play. Jeśli metoda płatności to Test card, always approves, potwierdzenie symuluje zakup bez prawdziwej opłaty. Jeśli widzisz własną kartę lub inną prawdziwą metodę płatności, nie potwierdzaj. Sprawdź konto we wszystkich trzech krokach; jeśli problem nie zniknie, napisz do nas, a odblokujemy twoje konto:",
-    "unavailableTitle": "Nie widzisz gry lub nie możesz dołączyć do testu?",
-    "unavailableHelp": "Sprawdź, czy dołączyłeś do grupy i testu na koncie ze Sklepu Play. Poczekaj kilka minut i ponownie otwórz stronę testu. Jeśli nadal nie masz dostępu, wyślij zrzut komunikatu bez danych płatniczych na adres",
-    "buttonsNote": "W każdym kroku używaj tego samego konta Google: konta ze Sklepu Play na swoim Androidzie. Zrzuty pokazują ekrany Google po angielsku; po polsku przycisk jest w tym samym miejscu. Naciśnij ten obrysowany na zielono.",
+    "title": "Dołącz do zamkniętych testów na Androidzie",
+    "testCardCaption": "Opisany zrzut ekranu testowej płatności Google Play. Czerwony krzyżyk skreśla przykładową cenę. Zielone ramki wskazują \"Test card, always approves\" i potwierdzenie Google, że nic nie zapłacisz.",
+    "paymentNoticeTitle": "Zero opłat dla testerów. Sprawdź, czy metoda płatności pokazuje \"Test card, always approves\".",
+    "paymentNoticeText": "Google Play symuluje zakup w przypadku płatnych aplikacji w zamkniętych testach, więc na ekranie nadal pojawia się przykładowa kwota, taka jak R$9.99 na zrzucie poniżej, mimo że nic nie jest pobierane. Jeśli widzisz własną kartę albo inną prawdziwą metodę płatności, zatrzymaj się i NIE potwierdzaj. Napisz do nas, a aktywujemy twoje konto testera:",
+    "intro": "Graj za darmo w pełną wersję na Androida przed premierą. Rejestracja trwa cztery szybkie kroki, albo możesz zainstalować poniżej osobne darmowe demo na Androida bez ekranu płatności.",
+    "step1": "Otwórz grupę Google dla testerów i kliknij \"Join group\". W oknie, które się pojawi, kliknij ponownie \"Join group\" na dole, aż strona pokaże \"Successfully joined the group\". Samo otwarcie strony nie dodaje cię do grupy.",
+    "step1Link": "Otwórz grupę testerów",
+    "step2": "Używając tego samego konta Google, otwórz stronę testów Google Play i kliknij \"Become a tester\". Poczekaj, aż wyświetli się \"You are a tester.\"",
+    "step2Link": "Otwórz stronę testów",
+    "step3": "Otwórz grę na telefonie lub tablecie z Androidem w Google Play, opisaną jako \"Dawnbringer (Early Access)\", i stuknij niebieski przycisk z ceną. Jeśli Google Play zgłosi brak strony, sprawdź, czy krok 2 ukończono tym samym kontem Google, i odczekaj kilka minut.",
+    "step3Link": "Otwórz w Google Play",
+    "note": "Darmowy dostęp testerski kończy się z publiczną premierą. Udział w zamkniętych testach nie obejmuje zakupu finalnej gry.",
+    "helpTitle": "Rozwiązywanie problemów",
+    "accountHelp": "Użyj jednego konta Google w każdym kroku, w Grupie Google, na stronie testów i w aplikacji Google Play Store na telefonie. Sprawdź zdjęcie profilowe na każdym ekranie, jeśli masz kilka kont.",
+    "paymentTitle": "Dlaczego Google Play pokazuje cenę, skoro testy są darmowe?",
+    "paymentHelp": "Płatne aplikacje w zamkniętych testach Google Play przechodzą przez ekran zakupu z użyciem \"Test card, always approves\". Gdy wybrana jest ta karta testowa, zakup jest symulowany i nie są pobierane żadne środki. Jeśli widzisz prawdziwą metodę płatności, anuluj i sprawdź konto w każdym kroku albo napisz do nas:",
+    "unavailableTitle": "Google Play informuje, że aplikacja jest niedostępna lub nie została znaleziona",
+    "unavailableHelp": "Sprawdź, czy dołączyłeś do Grupy Google i kliknąłeś \"Become a tester\" kontem z Play Store, odczekaj kilka minut i odśwież stronę testów. Jeśli problem trwa, wyślij zrzut komunikatu, bez danych płatniczych, na adres",
+    "buttonsNote": "W każdym kroku używaj tego samego konta Google zalogowanego w Play Store na Androidzie. Zrzuty pokazują angielski interfejs Google, ale każdy przycisk w zielonej ramce leży w tym samym miejscu w każdym języku.",
     "step1Title": "Dołącz do grupy testerów",
-    "shotGroup": "Strona grupy. Kliknij „Join group”, obrysowany na zielono.",
-    "shotJoin": "Okno, które się otwiera. Kliknij „Join group” na dole; pole z nazwą może zostać bez zmian.",
-    "step2Title": "Zostań testerem",
-    "shotOptin": "Strona testu. Kliknij „Become a tester”.",
-    "shotTester": "Gotowe: strona pokazuje „You are a tester.” (Jesteś testerem).",
-    "step3Title": "Otwórz grę na telefonie",
-    "shotStore": "Google Play na telefonie. Dotknij niebieskiego przycisku z ceną.",
-    "step4Title": "Potwierdź kartą testową",
-    "step4": "Google Play otworzy ekran płatności. Sprawdź, czy metoda płatności to „Test card, always approves” i czy ekran mówi o zamówieniu testowym, a potem dotknij „1-tap buy”. Gra się zainstaluje i nic nie zostanie pobrane.",
-    "demoTitle": "Darmowe demo na Androidzie",
-    "demoText": "Demo to osobna aplikacja, Dawnbringer Demo, i nie ma w niej kroku z płatnością. Po kroku 1 otwórz na tym samym koncie stronę testu dema, kliknij „Become a tester”, a potem zainstaluj je z Google Play.",
-    "demoTestLink": "Otwórz stronę testu dema",
-    "demoInstallLink": "Zainstaluj demo"
+    "shotGroup": "Strona Grupy Google. Kliknij \"Join group\" w zielonej ramce.",
+    "shotJoin": "Okno potwierdzenia. Kliknij \"Join group\" na dole i zostaw wyświetlaną nazwę bez zmian.",
+    "step2Title": "Zapisz się jako tester",
+    "shotOptin": "Strona zapisu na testy. Kliknij \"Become a tester\".",
+    "shotTester": "Potwierdzono. Strona pokazuje teraz \"You are a tester.\"",
+    "step3Title": "Otwórz kartę w sklepie na Androidzie",
+    "shotStore": "Google Play na Androidzie. Stuknij niebieski przycisk ceny, aby otworzyć płatność testową.",
+    "step4Title": "Zainstaluj za darmo kartą testową",
+    "step4": "Na ekranie płatności Google Play sprawdź, czy metoda płatności to \"Test card, always approves\" i czy Google oznacza transakcję jako testową. Stuknij \"1-tap buy\", aby zainstalować grę bez opłat.",
+    "demoTitle": "Wolisz darmowe demo na Androida bez ekranu płatności?",
+    "demoText": "Dawnbringer Demo to osobna darmowa aplikacja bez etapu płatności testowej. Po ukończeniu kroku 1 powyżej zapisz się na stronie testów dema tym samym kontem Google i zainstaluj je z Google Play.",
+    "demoTestLink": "Otwórz stronę testów dema",
+    "demoInstallLink": "Zainstaluj demo Android"
   },
   "duel": {
     "title": "Kod pojedynku",
-    "lead": "Znajomy przysłał kod pojedynku. Skopiuj go i wklej w grze.",
+    "lead": "Znajomy wyzwał cię na pojedynek offline w Dawnbringer. Skopiuj poniższy kod i wklej go w grze.",
     "copy": "Kopiuj kod",
     "copied": "Kod skopiowany.",
-    "copyFailed": "Nie udało się skopiować automatycznie. Kod jest zaznaczony: skopiuj go ręcznie.",
-    "steps": "Otwórz Dawnbringer, dotknij Pojedynek i wklej kod.",
-    "noGame": "Nie masz jeszcze gry?",
-    "get": "Pobierz Dawnbringer",
-    "noCodeTitle": "Ten link nie zawiera kodu pojedynku",
-    "noCode": "Ten link nie ma prawidłowego kodu. Mógł zostać ucięty przy kopiowaniu lub wysyłaniu.",
-    "howTo": "Poproś znajomego, żeby otworzył Dawnbringer, dotknął Pojedynek, potem Udostępnij, i przysłał nowy link.",
-    "needsJs": "Ta strona potrzebuje JavaScriptu, żeby pokazać kod."
+    "copyFailed": "Automatyczne kopiowanie nie powiodło się. Kod jest zaznaczony, więc możesz go skopiować ręcznie.",
+    "steps": "Otwórz Dawnbringer, wybierz Pojedynek i wklej kod, aby zmierzyć się z jego łowcą.",
+    "noGame": "Nie masz jeszcze Dawnbringer?",
+    "get": "Pobierz darmowe demo",
+    "noCodeTitle": "Brak kodu pojedynku w tym linku",
+    "noCode": "Ten link nie zawiera poprawnego kodu pojedynku. Część adresu mogła zostać ucięta przy kopiowaniu lub wysyłaniu.",
+    "howTo": "Poproś znajomego, aby otworzył Dawnbringer, wszedł w Pojedynek, stuknął Udostępnij i wysłał ci nowy link.",
+    "needsJs": "Włącz JavaScript w przeglądarce, aby wyświetlić i skopiować kod pojedynku."
   },
   "press": {
-    "title": "Dla prasy",
-    "intro": "Karta informacyjna, grafiki, logo i zrzuty ekranu do swobodnego wykorzystania w artykułach i filmach.",
-    "factsTitle": "Informacje",
+    "title": "Zestaw prasowy",
+    "intro": "Karta faktów, logo, główna grafika oraz zrzuty ekranu 1920x1080 do wolnego użycia w artykułach, transmisjach i filmach.",
+    "factsTitle": "Karta faktów",
     "developer": "Twórca",
-    "developerValue": "gmunaro, samodzielny twórca z Brazylii",
+    "developerValue": "PraiseTC, stworzone przez gmunaro w Brazylii",
     "release": "Data premiery",
-    "releaseValue": "Zostanie ogłoszona",
+    "releaseValue": "Do ogłoszenia",
     "platforms": "Platformy",
-    "platformsValue": "Android (Google Play, zamknięty test). Darmowe demo na Androida, Windows, macOS i Linuksa. Steam i App Store są planowane.",
+    "platformsValue": "Darmowe demo na PC już dostępne na Windows, macOS i Linux. Pełna gra oraz osobne darmowe demo w zamkniętych testach Google Play na Androidzie. Planowane są Steam Early Access na Windows oraz Apple App Store. Jeśli aktualizacja zepsuje zapisy, lista zmian poinformuje o tym przed wydaniem.",
     "price": "Cena",
-    "priceValue": "US$ 4.99; demo jest darmowe",
+    "priceValue": "Darmowe demo na PC i w zamkniętych testach Android. Zamknięte testy pełnej gry są bezpłatne dla testerów. Planowana cena w Steam Early Access: US$ 8.99.",
     "languages": "Języki",
-    "languagesValue": "14: angielski, portugalski (Brazylia), hiszpański, francuski, niemiecki, włoski, rosyjski, ukraiński, polski, turecki, japoński, koreański, chiński uproszczony, chiński tradycyjny",
+    "languagesValue": "14 języków interfejsu i napisów: angielski, portugalski (Brazylia), hiszpański, francuski, niemiecki, włoski, rosyjski, ukraiński, polski, turecki, japoński, koreański, chiński uproszczony, chiński tradycyjny. Syntetyczne głosy po angielsku i portugalsku (Brazylia).",
     "engine": "Silnik",
     "website": "Strona",
     "contact": "Kontakt",
     "social": "Media społecznościowe",
-    "descriptionTitle": "Opis",
-    "description": "Dawnbringer to roguelike auto-battler w świecie dark fantasy. Słońce pękło i świat zamarzł, odłamki, które spadły, stały się pieniędzmi, a co tydzień Właściciel przychodzi po należność. Gracze przemierzają turową mapę, wybierają walki i budują łowcę: tworzą go przed każdą wyprawą, a potem rozwijają klasą w dwóch krokach, drzewem umiejętności z aktywnymi umiejętnościami, punktami atrybutów oraz 105 przedmiotami w 10 rodach, noszonymi w slotach, rozgrzewanymi w kuźni i wzbogacanymi o karty potworów. Walka rozstrzyga się automatycznie, bez kości, a gra nigdy nie pokazuje, jak skończy się starcie: każdy wróg niesie widoczne przedmioty, więc gracze oceniają każdą walkę, czytając jego ekwipunek względem własnego buildu, a Kamień Rozpaczy ciemnieje tylko wtedy, gdy walka zabiłaby bohatera. Wobec Właściciela milczy, a gracz musi zapłacić dziesięcinę albo walczyć. Przed każdą wyprawą gracze stawiają złoto z banku, a po każdym tygodniu wypłacają sakiewkę albo ryzykują ją w trudniejszym tygodniu. Między wyprawami gracze wydają bank na izby domu; każda izba sprowadza kogoś, kto uczy premii lub klasy, wykuwa broń, otwiera ród przedmiotów albo daje większą sakiewkę. Polegli łowcy powstają i polują na gracza w kolejnych wyprawach, a jeden z nich może zająć miejsce Właściciela jako heretyk. Co tydzień wyprawa wyzwania jest taka sama dla wszystkich graczy, a tablica online szereguje ją według miasta, regionu lub kraju; gracze, którzy dołączą, mogą spotkać w legowisku łowcę innego gracza jako rywala, a dwóch bohaterów może stoczyć pojedynek przez kod albo na jednym urządzeniu. Łowców, potwory, ekwipunek i efekty narysowano w grafice wektorowej. Każda postać mówi syntetycznym głosem, narrator komentuje wyprawę, a gra ma dubbing po portugalsku (Brazylia). Wśród opcji są palety dla daltonistów, znaczniki kształtu i sterowanie głosem na Androidzie.",
-    "mediaTitle": "Logo, key art i zrzuty ekranu",
-    "zip": "Pobierz wszystko (.zip, {size})",
+    "descriptionTitle": "O grze Dawnbringer",
+    "description": "Dawnbringer to roguelike auto-battler dark fantasy bez losowości. Słońce rozpadło się, a świat zamarzł, pozostawiając świecące odłamki słonecznego metalu jako jedyne źródło ciepła i walutę. Co tydzień boss regionu zwany Właścicielem przybywa po daninę.\n\nKażda wyprawa trwa trzy tygodnie przez spowite mgłą regiony. Walka przebiega automatycznie bez kości, a gra nigdy nie pokazuje szans na zwycięstwo. Każdy wróg niesie prawdziwy, widoczny ekwipunek, który sprawdzasz przed starciem. Jedynym ostrzeżeniem jest Kamień Rozpaczy, słoneczny odłamek pod szkłem ciemniejący wyłącznie przed walką, która by cię zabiła, i milczący wobec Właścicieli. Pod koniec tygodni 1 i 2 możesz walczyć o nagrodę albo zapłacić dziesięcinę, wynoszącą 30% sakiewki lub tygodniowe minimum, zależnie od tego, która kwota jest wyższa. W tygodniu 3 nie ma dziesięciny.\n\nPrzed wyjściem z Domu przenosisz złoto z bezpiecznego banku do sakiewki, aby opłacać sprzęt, ulepszenia i usługi w drodze. Śmierć zabiera sakiewkę, nigdy bank, a po każdym Właścicielu wybierasz powrót do domu ze złotem albo wyprawę w trudniejszy tydzień. Dawne wyprawy także zostawiają ślad w świecie: polegli łowcy powstają ze starymi buildami, aby na ciebie polować, łowca stracony w tygodniu 2 lub 3 może zająć tron Właściciela jako heretyk, a opcjonalne tablice online sprowadzają łowców innych graczy do legowisk jako rywali obok pojedynków offline przez kod.",
+    "mediaTitle": "Logo, główna grafika i zrzuty ekranu",
+    "zip": "Pobierz cały zestaw prasowy (.zip, {size})",
     "logo": "Logo (PNG, przezroczyste)",
     "icon": "Ikona (PNG, 512x512)",
-    "keyart": "Key art (PNG, 1920x1080)",
+    "keyart": "Key art z logo (PNG, 1920x1080)",
     "keyartNoLogo": "Key art bez logo (PNG, 1920x1080)",
-    "screensNote": "Zrzuty ekranu to pliki PNG 1920x1080 z grafiką wektorową gry.",
+    "screensNote": "Wszystkie zrzuty to pliki PNG 1920x1080 z wersji 0.8.0.",
     "creditsTitle": "Twórcy",
     "credits": [
-      "Projekt, kod i grafika: gmunaro",
-      "Muzyka: Juhani Junkala (CC0); nocna muzyka Właściciela jest oryginalna, zagrana na próbkach VSCO 2 Community Edition (CC0)",
-      "Efekty dźwiękowe: Kenney, StarNinjas, Oiboo (CC0) i oryginalne dźwięki",
-      "Dźwięki otoczenia: nagrania terenowe z freesound.org (CC0)",
-      "Głosy: syntetyczna mowa z ElevenLabs v4, a dla narratora Google Gemini TTS; nie nagrano ani nie klonowano głosu człowieka",
-      "Czcionki: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel i GNU Unifont (SIL Open Font License 1.1)"
+      "Projekt, kod i reżyseria: gmunaro, PraiseTC",
+      "Grafika: wektorowe postacie, sprzęt, fryzury, stroje, efekty i cztery elementy interfejsu narysowane jako kod SVG przy pomocy Anthropic Claude pod kierunkiem gmunaro; bazowe sylwetki grywalnego łowcy odrysowane z Google Gemini 3 Pro Image; 18 teł bitew, 16 ikon Osobliwości i 17 znaczników mapy utworzonych w OpenAI GPT Image i zredukowanych do palety gry; kafelki mapy i reszta pixel artu wygenerowane skryptami napisanymi z pomocą asystentów kodu AI.",
+      "Muzyka: Juhani Junkala (CC0); nocna muzyka Właściciela i motywy NPC skomponowane jako kod z pomocą Anthropic Claude i zrenderowane z próbek VSCO 2 Community Edition (CC0).",
+      "Efekty dźwiękowe: Kenney, StarNinjas, Oiboo (CC0) oraz autorskie dźwięki syntetyzowane.",
+      "Dźwięki otoczenia i stworzeń: nagrania terenowe z freesound.org (CC0).",
+      "Głosy: syntetyczna mowa ElevenLabs Eleven v4 oraz Google Gemini 3.8 Flash TTS dla narratorki. Nie nagrano ani nie sklonowano żadnego ludzkiego głosu.",
+      "Czcionki: Kenney Pixel i Kenney Mini (CC0); Jacquarda Bastarda 9, Fusion Pixel Font, GNU Unifont, Noto Sans i Noto Sans CJK (SIL Open Font License 1.1).",
+      "Tekst i tłumaczenia: angielski tekst naszkicowany przy użyciu modeli językowych AI i zredagowany przez gmunaro; 13 tłumaczeń przygotowanych przez modele językowe AI, sprawdzonych testami automatycznymi i jeszcze nieprzejrzanych przez native speakerów."
     ],
     "contactTitle": "Kontakt",
-    "contactText": "W sprawie prasy, kluczy recenzenckich i innych pytań pisz na adres"
+    "contactText": "W sprawach prasowych, kluczy recenzenckich i materiałów twórców napisz na"
   },
   "footer": {
     "privacy": "Polityka prywatności",
-    "bugs": "Znalazłeś błąd? Użyj opcji Zgłoś błąd w grze albo napisz na adres",
-    "madeBy": "Dawnbringer tworzy gmunaro w Brazylii.",
-    "studio": "Twórca:",
-    "changelog": "Nowości"
+    "bugs": "Znalazłeś błąd? Użyj Zgłoś błąd w grze, naciśnij F8 lub napisz na",
+    "madeBy": "Stworzone w Brazylii przez gmunaro w {studio}.",
+    "changelog": "Zmiany"
   },
   "suggest": {
     "text": "Ta strona jest dostępna także po polsku.",
@@ -238,44 +256,46 @@
     "back": "Wróć na stronę główną"
   },
   "changelog": {
-    "title": "Nowości",
-    "description": "Każda aktualizacja Dawnbringer i co się w niej zmieniło."
+    "title": "Lista zmian",
+    "description": "Wszystkie aktualizacje Dawnbringer i zmiany w każdej wersji.",
+    "demoSuffix": "Demo {os}"
   },
   "why": {
     "title": "Co ją wyróżnia",
     "items": {
       "read": {
         "title": "Czytaj wroga, nie kości",
-        "text": "Walki toczą się same i nigdy nie rzucają kośćmi. Każdy wróg pokazuje swój ekwipunek, a Kamień Rozpaczy ciemnieje tylko przed walką, która by cię zabiła.",
-        "alt": "Znak Kamienia Rozpaczy nad grupą wrogów na mapie."
+        "text": "Walka toczy się sama i bez szczęścia. Każdy wróg ujawnia swój prawdziwy ekwipunek przed starciem, a Kamień Rozpaczy, twoje ostrzeżenie przed śmiertelną walką, ciemnieje tylko wtedy, gdy ta bitwa by cię zabiła.",
+        "alt": "Ciemny znak ostrzegawczy Kamienia Rozpaczy nad grupą wrogów na mapie."
       },
       "build": {
-        "title": "Zbuduj swojego łowcę",
-        "text": "Wybierz wygląd, bonus i broń łowcy, poznaj klasę w dwóch krokach, wydawaj punkty na mapie umiejętności i noś przedmioty w każdym slocie. Rozgrzej przedmioty w Kuźni i wstaw w nie karty potworów.",
-        "alt": "Mistrz klas Abel Tarrow oferuje dwie pierwsze klasy: Szermierz i Łucznik."
+        "title": "Głębokie buildy w każdej wyprawie",
+        "text": "Wybierz premię startową i broń, awansuj przez dwa szczeble klas po każdym tygodniowym bossie, rozplanuj aktywne umiejętności na mapie i łącz 105 przedmiotów z 10 rodów z bezawaryjną kuźnią oraz kartami potworów.",
+        "alt": "Mistrz klas Abel Tarrow oferujący dwie pierwsze klasy, Szermierz i Łucznik."
       },
       "return": {
-        "title": "Twoje wyprawy wracają",
-        "text": "Polegli łowcy powstają i polują na ciebie w kolejnych wyprawach, a jeden z nich może zasiąść na tronie Właściciela jako heretyk. Dołącz do tablicy online, a łowca innego gracza może czekać w legowisku jako twój rywal.",
-        "alt": "Na mapie karta łowcy powstałego z wcześniejszej wyprawy, ze złotem z utraconej sakiewki."
+        "title": "Dawne wyprawy polują na ciebie",
+        "text": "Łowcy, którzy zginą, powstają w przyszłych wyprawach ze starym sprzętem, a jeden może nawet zająć miejsce Właściciela jako heretyk. Dołącz do opcjonalnej tablicy tygodnia, a zweryfikowani łowcy innych graczy mogą czekać w legowiskach jako twoi rywale.",
+        "alt": "Na mapie karta poległego łowcy z wcześniejszej wyprawy z częścią utraconego złota."
       }
     }
   },
   "whatsnew": {
     "title": "Nowości w 0.8",
     "items": [
-      "Łowców, potwory, Właścicieli, ekwipunek i efekty narysowano w grafice wektorowej, ostrej na każdym ekranie.",
-      "Wyzwanie tygodnia: ta sama wyprawa dla każdego łowcy. Dołącz do tablicy online, by porównać się z graczami z twojego miasta, regionu lub kraju (sam wybierasz, jakie miejsce udostępnić); łowca innego gracza może czekać w legowisku jako twój rywal.",
-      "Pojedynki: wyślij kod bohatera przyjacielowi albo wybierz dwóch zapisanych bohaterów i walcz na jednym urządzeniu.",
-      "Twój łowca mówi głosem wybranej przez ciebie płci, narrator komentuje wyprawę, a w wersji portugalskiej (Brazylia) postacie mówią po portugalsku.",
-      "Dostępność: palety dla protanopii, deuteranopii i tritanopii, znaczniki kształtu przy sygnałach kolorem, sterowanie głosem na Androidzie i schemat, który wyjaśnia każdą opcję.",
-      "Darmowe demo na Androida, w osobnej aplikacji."
+      "Grafika wektorowa SVG dla łowców, potworów, Właścicieli i noszonego sprzętu. Tła bitew, kafelki mapy i interfejs wciąż używają pixel artu w 0.8.0, efekty walki łączą wektor i piksele, a wersja 0.9 planuje ujednolicić je w wektorze.",
+      "Wyzwanie tygodnia i tablica online. Wszyscy grają ten sam układ mapy, a serwer odtwarza wyprawy, by zweryfikować wyniki. Wybierasz, czy podać miasto, tylko kraj czy brak lokalizacji, co utrzymuje twoje wyprawy poza publicznymi tablicami, a łowcy innych graczy mogą czekać w legowiskach jako rywale.",
+      "Pojedynki offline. Wymień się kodem łowcy ze znajomym albo wystaw dwóch zapisanych łowców przeciw sobie na jednym urządzeniu.",
+      "8 aktywnych umiejętności odnawiających się co rundy i 18 węzłów zmieniających zasady w drzewie umiejętności oraz specjalistyczne sklepy według gniazd sprzętu.",
+      "Kwestie łowcy w głosie dopasowanym do wybranej płci, narratorka Margines komentująca wyprawę oraz pełny dubbing w portugalskim brazylijskim.",
+      "Ułatwienia dostępu z paletami dla protanopii, deuteranopii i tritanopii, znakami kształtu przy każdym sygnale barwnym, lokalnym sterowaniem głosem na Androidzie i schematami na żywo.",
+      "Osobna darmowa aplikacja demo na Androida w zamkniętych testach Google Play."
     ],
-    "more": "Wszystkie zmiany"
+    "more": "Zobacz pełną listę zmian"
   },
   "community": {
     "title": "Prasa i społeczność",
-    "press": "Logo, key art, zrzuty ekranu i karta informacyjna do artykułów i filmów.",
-    "follow": "Śledź grę"
+    "press": "Logo, główna grafika, zrzuty ekranu 1920x1080 i karta faktów do artykułów oraz filmów.",
+    "follow": "Śledź Dawnbringer"
   }
 }

@@ -1,232 +1,250 @@
 {
   "meta": {
-    "title": "Dawnbringer: karanlık fantezi roguelike oto-savaş oyunu",
-    "description": "Karanlık fantezi bir roguelike oto-savaş oyunu: bir avcı kur, her düşmanın ekipmanını oku, sonra Ev sahibine öde ya da savaş.",
+    "title": "Dawnbringer · Karanlık fantezi roguelike auto-battler",
+    "description": "Zarsız bir karanlık fantezi roguelike auto-battler. Üç haftalık bir koşu için avcı kur, her düşmanın gerçek ekipmanını oku, haftalık patrona öde ya da savaş, sonra keseni eve götürüp bankaya yatır ya da daha ileri riske at.",
     "pressTitle": "Dawnbringer basın kiti",
-    "pressDescription": "gmunaro'nun roguelike oto-savaş oyunu Dawnbringer için bilgi sayfası, tanıtım, özellikler, logo, ana görsel ve ekran görüntüleri.",
+    "pressDescription": "PraiseTC ve gmunaro yapımı roguelike auto-battler Dawnbringer için bilgi kartı, oyun özeti, özellik listesi, logolar, ana görsel ve ekran görüntüleri.",
     "notFoundTitle": "Sayfa bulunamadı",
-    "ogAlt": "Kan kırmızısı bir ayın altında duran taçlı bir Ev sahibinin üzerinde Dawnbringer logosu.",
-    "betaTitle": "Android alfasına katıl · Dawnbringer",
-    "betaDescription": "Dawnbringer'ın Google Play'deki kapalı alfasına katılma, ekran görüntüleriyle dört adımda.",
-    "downloadTitle": "Masaüstü demosu · Dawnbringer",
-    "downloadDescription": "Windows, macOS ve Linux için ücretsiz Dawnbringer demosunu indir.",
+    "ogAlt": "Sular altında kalmış yıkıntılar önündeki bir kayada fener tutan zırhlı bir avcı, parçalanmış güneş tutulması altındaki dev taş yaratığa bakarken tepede altın Dawnbringer logosu.",
+    "betaTitle": "Android kapalı testi · Dawnbringer",
+    "betaDescription": "Google Play'deki ücretsiz Dawnbringer kapalı testine ekran görüntülü dört adımda katıl; tam oyun ve ayrı ücretsiz demo dahil.",
+    "downloadTitle": "Ücretsiz masaüstü demosu · Dawnbringer",
+    "downloadDescription": "Windows, macOS ve Linux için ücretsiz Dawnbringer demosunu indir. Süre sınırı olmadan tam üç haftalık bir koşu oyna.",
     "duelTitle": "Düello kodu · Dawnbringer",
-    "duelDescription": "Bir arkadaşınızın paylaştığı düello kodunu kopyalayın ve Dawnbringer'a yapıştırın."
+    "duelDescription": "Bir arkadaşının gönderdiği düello kodunu kopyala ve çevrim dışı savaşmak için Dawnbringer içine yapıştır."
   },
   "nav": {
     "skip": "İçeriğe geç",
     "home": "Ana sayfa",
-    "why": "Oyun",
-    "new": "0.8'deki yenilikler",
-    "demo": "Masaüstü demosu",
-    "beta": "Android alfa",
+    "demo": "PC demosu",
+    "beta": "Android testi",
     "press": "Basın kiti",
     "language": "Dil"
   },
   "hero": {
-    "pitch": "Savaşların kendi kendine oynandığı karanlık fantezi bir roguelike: bir avcı kur, her düşmanın ekipmanını oku, sonra Ev sahibine öde ya da savaş. Bilgisayarında ücretsiz dene.",
-    "artAlt": "Tepedeki küçük bir avcı, kan kırmızısı bir ayın altında karanlık tepelerin önünde duran dev, taçlı bir Ev sahibiyle yüz yüze.",
+    "pitch": "Zarsız bir karanlık fantezi roguelike auto-battler. Her koşu üç hafta sürer. Otomatik savaşlardan önce her düşmanın gerçek ekipmanını incele, haftalık patrona öde ya da savaş, ardından eve dönüp keseni bankaya yatır ya da daha zor bir haftada riske at. Ölüm taşıdığın her şeyi alır.",
+    "artAlt": "Kırmızı pelerinli zırhlı bir avcı, sular altında kalmış gotik yıkıntıların üzerindeki bir kayada fener kaldırarak parçalanmış güneş tutulması altındaki dev taş yaratığa bakıyor.",
     "clipTitle": "Oynanış",
-    "clipAlt": "Oynanış videosu: tam ekipmanlı bir kahraman, tek başına bir canavar grubuna karşı savaşıyor.",
+    "clipAlt": "Tam ekipmanlı bir avcının bir canavar grubuyla otomatik olarak savaştığını gösteren oynanış videosu.",
     "clipFallback": "Tarayıcın bu videoyu oynatamıyor.",
-    "play": "Android alfasına katıl",
-    "demo": "Ücretsiz demoyu oyna"
+    "stateNote": "Ana görsel 0.9 için planlanan görsel tarzı gösterir. 0.8.0 sürümü piksel sanat arka planlar ve arayüz üzerinde vektör karakterler ile ekipman kullanır, kontrolcü desteği ise kısmidir.",
+    "play": "Android testine katıl",
+    "playSub": "Google Play, testçilere ücretsiz",
+    "demo": "Ücretsiz demoyu indir",
+    "demoSub": "Windows, macOS, Linux"
+  },
+  "loop": {
+    "title": "Bir koşu nasıl işler",
+    "steps": [
+      {
+        "title": "1. Bankandan altın riske et",
+        "text": "Güneş parçalandı, parlayan kırıkları paraya dönüştü ve Hane koşular arasındaki kalıcı üssündür. Yola çıkmadan önce bir avcı yarat, bir başlangıç bonusu ve silah seç ve kese sınırın kadar güvenli bankandan altın aktar. Kesedeki altın yolda ekipman, sarf malzemesi, demirhane yükseltmesi ve sunak kutsamaları satın alır; yani daha fazla taşımak seni erken güçlendirir ve ölürsen kaybını büyütür. Ölüm keseni alır, bankana asla dokunmaz."
+      },
+      {
+        "title": "2. Üç hafta keşfet ve her dövüşü oku",
+        "text": "Sisli bir karo haritada gündüzleri ve tehlikeli geceleri aş. Her düşmanın ekipmanı ve nitelikleri açıktır. Savaşlar zarsız ve otomatik yürür, bu yüzden girmeden önce her düşmanı inceleyip düzenini kendinkiyle karşılaştırırsın."
+      },
+      {
+        "title": "3. Ev sahibine öde ya da savaş, sonra karar ver",
+        "text": "Her haftanın sonunda bölgenin Ev sahibi denen patronu vergi toplamaya gelir. 1. ve 2. haftalarda ödül için savaşabilir ya da kesenin %30'u ile haftalık alt sınırdan hangisi yüksekse o tutarda onda bir ödeyebilirsin. 3. haftada onda bir yoktur. Bir Ev sahibini atlattıktan sonra eve dönüp keseni bankaya yatır ya da her şeyi sonraki haftaya taşı."
+      },
+      {
+        "title": "4. Avcını geliştir ve Hane'yi aç",
+        "text": "1. haftadan sonra bir ilk sınıf, 2. haftadan sonra bir ikinci sınıf öğren, tek haritalı yetenek ağacında puan harca, eşya ailesi setleri kur ve demirhanede ekipmanını güçlendir. Koşular arasında bankadaki altınla Hane'nin 22 kalıcı odasını açarsın."
+      }
+    ]
   },
   "screens": {
     "items": {
       "night": {
-        "caption": "Asılı Orman'da gece: sis yolu ve yolda bekleyeni gizliyor.",
-        "alt": "Gece Asılı Orman haritası: orman patikasında avcı, önünde bir canavar, patikanın yanında işaretli savaşlar ve bir sandık; kenarlarda can, altın, haftanın Ev sahibi, bölge haritası ve kemer."
+        "caption": "Asılı Orman'da gece. Sis görüşünü kısaltır ve gece gölgeleri yol boyunca seni avlar.",
+        "alt": "Gece Asılı Orman haritasında bir orman patikasındaki avcı, önde bir düşman, yakındaki savaşlar, bir sandık ve kenarlarda can, altın, haftalık patron, bölge haritası ile kemer kontrolleri."
       },
       "landlord": {
-        "caption": "Kesenden onda biri öde ya da ödül için savaş.",
-        "alt": "Meyve Bahçesi Yiyicisi'nin kartı: Toz Ovası'nın Ev sahibi; nitelikleri, Kırağı Kabuğu yeteneği, taşıdıkları, 60 altınından 18'lik onda bir ve Onda biri öde ile Savaş düğmeleri."
+        "caption": "Her hafta bir Ev sahibiyle biter. Kesenden onda biri öde ya da tam ödül için savaş.",
+        "alt": "Toz Ovası Ev sahibi Meyve Bahçesi Yiyicisi'nin kartı: nitelikleri, Kırağı Kabuğu yeteneği, taşıdığı eşyalar, 60 altından 18 onda bir ve Onda biri öde ya da Savaş düğmeleri."
       },
       "battle": {
-        "caption": "Savaş kendiliğinden işler; sonucu hazırlığın belirler.",
-        "alt": "Kor Dökümhanesi'nde bir savaş: avcın bir Kepçeli Eritici ve iki Cüruf Böceği'ne karşı; can çubukları, zırh, tur ve avcının yetenekleriyle."
+        "caption": "Savaşlar zarsız ve otomatik akar. Sonucu hazırlığın belirler.",
+        "alt": "Pota'da avcının bir Kepçeli Eritici ve iki Cüruf Böceği'ne karşı savaştığı ekran; can çubukları, kalkan, tur sayacı ve dolan aktif yeteneklerle."
       },
       "stone": {
-        "caption": "Umutsuzluk Taşı, seni öldürecek bir savaşın üstünde kararır.",
-        "alt": "Haritada, Nasırlı Budayıcı'nın önderlik ettiği bir sürünün kartı: taşıdıkları, yanındaki iki düşman ve Umutsuzluk Taşı'nın bu savaşın seni öldüreceği uyarısı."
+        "caption": "Umutsuzluk Taşı yalnızca o düşmanla şu an savaşmak seni öldürecekse kararır.",
+        "alt": "Nasırlı Budayıcı önderliğindeki sürünün kartı: taşıdığı eşyalar, yanındaki iki düşman ve Umutsuzluk Taşı'nın bu savaşın avcıyı öldüreceği uyarısı."
       },
       "risen": {
-        "caption": "Önceki bir koşuda düşen avcı, altınıyla birlikte yolda dolaşıyor.",
-        "alt": "Haritada, önceki bir koşudan dirilmiş bir Darağacı Nişancısı'nın kartı: nerede düştüğü, kaybettiği kesedeki 24 altın, taşıdıkları ve İlk Kan bonusu."
+        "caption": "Düşen avcıların öldükleri yerde haritada yeniden dirilir, eski düzenlerini ve kaybettikleri altının bir kısmını taşır.",
+        "alt": "Önceki bir koşudan dirilmiş bir Darağacı Nişancısı'nın harita kartı: düştüğü yer, kayıp kesesinden geri alınabilecek 24 altın, ekipmanı ve İlk Kan bonusu."
       },
       "rival": {
-        "caption": "Haftalık sıralamaya katıl; başka bir oyuncunun avcısı bir inde rakibin olarak bekleyebilir.",
-        "alt": "Başka bir oyuncunun avcısı ve bir Muhafız olan Ash Vey'in kartı: nitelikleri, taşıdığı iki eşya, onu yenmenin ganimeti, çevrim içi haftalık sıralamadan geldiğini belirten bir not ve Savaş ile Geri çekil düğmeleri."
+        "caption": "İsteğe bağlı haftalık sıralamaya katıl, başka bir oyuncunun doğrulanmış avcısı bir inde rakibin olarak bekleyebilir.",
+        "alt": "Çevrim içi haftalık sıralamadan gelen ve bir ini koruyan başka bir oyuncunun avcısı Ash Vey'in karşılaşma kartı: nitelikleri, taşıdığı iki eşya, ödüller ve Savaş ya da Geri çekil düğmeleri."
       },
       "board": {
-        "caption": "Sunucu her koşuyu denetler, sonra onu şehrinde, bölgende ya da ülkende sıralar.",
-        "alt": "Toronto, ON, CA için haftalık sıralama: sınıfı ve puanıyla on avcı, 4. sırada 2140 ile en iyi skorun ve Yeri değiştir, Aktarım kodu, Verilerimi sil ve Geri düğmeleri."
+        "caption": "Sunucu doğrulamak için her haftalık meydan okuma koşusunu yeniden oynatır, sonra şehrinde, bölgende ya da ülkende sıralar.",
+        "alt": "Toronto, ON, CA haftalık sıralaması: sınıfları ve puanlarıyla on avcı, 4. sıradaki 2140 en iyi puanın ve Yer değiştir, Aktarım kodu, Verilerimi sil ile Geri düğmeleri."
       },
       "camp": {
-        "caption": "Hanede avcını kur, adaklarını ve yanına alacağın altını seç.",
-        "alt": "Hane: cinsiyet, ten, gözler, saç ve kıyafetle avcının oluşturulması, Karşılık bonusu ve Demir Gürz, eşya ailelerinin kavanozu, adaklar ve yanına alınacak altın."
+        "caption": "Hane'de avcını özelleştir, daha yüksek ödül karşılığı zorluk ekleyen isteğe bağlı adaklar seç ve başlangıç keseni belirle.",
+        "alt": "Hane hazırlık ekranı: cinsiyet, ten, göz, saç ve kıyafet özelleştirmesi, Karşılık bonusu, Demir Gürz, eşya aileleri kavanozu, isteğe bağlı adaklar ve altın bahis çubuğu."
       },
       "shop": {
-        "caption": "Dükkân, bir eşyayı değiştirmeden önce niteliklerinin nasıl değişeceğini gösterir.",
-        "alt": "Satın almak ya da sürgün etmek için dört eşya sunan dükkân ve yeni eşyanın düzeninle karşılaştırması."
+        "caption": "Her dükkân satın almadan ya da sonraki tekliflerden çıkarmadan önce yeni eşyayı elindeki parçayla doğrudan karşılaştırır.",
+        "alt": "Satın alınacak ya da sürgün edilecek dört eşyayı avcının kuşanmış ekipmanıyla doğrudan nitelik karşılaştırmasıyla gösteren dükkân paneli."
       },
       "build": {
-        "caption": "Set bonuslarını açmak için aynı aileden 2, 4 veya 6 eşya birleştir.",
-        "alt": "Bir avcının düzen sayfası: nitelikler, ekipman, kemer, yetenekler ve Fırın, Demir, Darağacı ile Veba aile setleri."
+        "caption": "Set bonuslarını etkinleştirmek için aynı eşya ailesinden 2, 4 ya da 6 parça kuşan.",
+        "alt": "Avcının düzen sayfası: nitelikler, kuşanılan ekipman, kemer sarf malzemeleri, yetenekler ve aktif Fırın, Demir, Darağacı ile Veba set bonusları."
       },
       "a11y": {
-        "caption": "Renk görüşü için paletler, her renk ipucunda şekil işaretleri ve sesle kontrol.",
-        "alt": "Erişilebilirlik ayarları: palet, şekil işaretleri, sesle kontrol, ses dili ve metnin ekranda ne kadar kaldığı; yanında palet düğmesinin sırayla gösterdiği, oyunun renk ipuçlarını içeren bir tablo."
+        "caption": "Renk körlüğü paletleri, her renk ipucunda şekil işaretleri ve Android'de cihaz içi sesle kontrol.",
+        "alt": "Erişilebilirlik menüsü: renk paletleri, şekil işaretleri, sesle kontrol, ses dili ve metin süresi seçenekleri, yanında oyunun renk ipuçlarını canlı gösteren şema."
       },
       "event": {
-        "caption": "Yol olayları üç seçenek sunar; bazıları altına mal olur ya da Dehşet ekler.",
-        "alt": "Üç seçenekli Şapel Kuyusu olayı: biri 8 altına mal olur, biri 4 Dehşet ekler."
+        "caption": "Yol olayları rastgele zar olmadan sabit seçimler sunar; altın, can ya da Dehşet denen ek düşman tehlikesi takas edersin.",
+        "alt": "Biri 8 altına mal olan, biri 4 Dehşet ekleyen üç belirleyici seçenekli Şapel Kuyusu yol olayı."
       }
     }
   },
   "features": {
     "title": "Özellikler",
     "items": [
-      "6 ilk sınıf ve 12 ileri sınıf.",
-      "Özellik puanları ve her seviyede bir yetenek puanı; tek bir harita olan bir yetenek ağacı ve turlar geçtikçe yeniden hazır olan 8 aktif yetenek.",
-      "10 aileye ayrılmış 105 eşya, her yuvaya göre giyilir; 2, 4 ve 6 parçada set bonusu.",
-      "Dövümhane'de eşyayı +4'e kadar Tekrar ısıt ve ona 19 türden canavar kartı yerleştir.",
-      "6 bölgede ve 3 haftada 19 Ev sahibi.",
-      "Haritada devriyeler, sürüler, pusular, bekçiler ve taklitçiler.",
-      "Gündüz ve gece: geceleri görüşün daralır ve gölgeler seni avlar.",
-      "Düşen avcılar dirilir ve seni avlar; içlerinden biri sapkın olarak bir Ev sahibinin yerini alabilir.",
-      "Ayrı banka ve kese: başta altın ortaya koy, her Ev sahibinden sonra çekil.",
-      "Yolu daha acımasız, ödemeyi daha büyük yapan 9 isteğe bağlı adak.",
-      "Çevrim içi sıralamalı haftalık meydan okuma, diğer oyunculardan rakipler ve arkadaşlarla düellolar.",
-      "Her karakter konuşur, bir anlatıcı koşuyu yorumlar ve her bölgenin gündüz ve gece kendi sesi vardır.",
-      "Renk körlüğü için paletler, şekil işaretleri, Android'de sesle kontrol ve her ayar için bir şema.",
-      "Günlük'te bir herbaryum, bir bestiyari ve 16 başarım.",
-      "Avcılar, canavarlar, donanım ve efektler vektör sanatıyla çizilir.",
-      "Fare, klavye, kumanda ve dokunmatik; telefonlarda, tabletlerde ve bilgisayarlarda tam ekran.",
-      "14 dile çevrildi ve Brezilya Portekizcesi dublajı var."
+      "Sıfır zarlı belirleyici otomatik savaş. Kavgaya girmeden önce her düşmanın gerçek ekipmanını incele; Umutsuzluk Taşı yalnızca seni öldürecek dövüşte uyarır ve Ev sahiplerine karşı sessiz kalır.",
+      "19 Ev sahibine karşı beşer bölgeli 6 diyarda üç haftalık koşular. 1. ve 2. haftalarda ödül için savaş ya da kesenin %30'u ile haftalık alt sınırdan hangisi yüksekse o tutarda onda bir öde. 3. haftada onda bir yok.",
+      "Ayrı banka ve kese. Kesendeki altını yolda ekipman, sarf malzemesi, demirhane ve hizmetlere harca, sonra her Ev sahibinden sonra eve dönüp sakla ya da daha ileri riske at. Koşular arasında bankadaki altın 22 kalıcı Hane odasını açar.",
+      "Sınıf ustası Abel Tarrow'un öğrettiği iki aşamalı sınıf ilerlemesi: 1. hafta sonrası 6 ilk sınıf ve 2. hafta sonrası 12 ikinci sınıf.",
+      "Her seviyede nitelik puanları ve tek bir yakınlaştırılabilir yetenek haritasında bir beceri puanı; turla dolan 8 aktif yetenek ve kural değiştiren 18 düğüm.",
+      "10 ailede 105 eşya, 1 silah ve 8 ekipman yuvasında toplam 9 parça halinde kuşanılır; 2, 4 ve 6 parçada set bonusları açılır. Demirhanede sıfır başarısızlık riskiyle her eşyayı III. seviyeye kadar sertleştir, silah ve zırhları +4'e kadar tekrar ısıt ve 19 canavar kartı tak. Tılsımlar tavlanabilir, ancak yeniden ısıtılamaz.",
+      "Devriyeler, sürüler, pusucular, muhafızlar ve mimikler dahil 35 düşman türü, 31 sabit yol olayı, sözleşmeli 4 lonca ve her biri zafer altınını %10 artıran zorluklar sunan 9 isteğe bağlı adak.",
+      "Düşen avcılar sonraki koşularda dirilip seni avlar, 2. ya da 3. haftada düşen bir avcı sapkın olarak bir Ev sahibinin yerini alabilir ve 11 ölümlü NPC ile savaşıp onları öldürebilirsin.",
+      "Sunucu tekrarıyla doğrulanan ortak haftalık meydan okuma, şehir, bölge ya da ülkeye göre isteğe bağlı çevrim içi sıralama, inlerde çevrim içi rakipler ve kodla ya da tek cihazda çevrim dışı düellolar.",
+      "0.8.0 sürümünde avcılar, canavarlar, Ev sahipleri ve kuşanılmış ekipman için vektör SVG çizim. Savaş arka planları, harita karoları ve arayüz hâlâ piksel sanattır, savaş efektleri vektör ve piksel karışımıdır, 0.9 ise hepsini vektörde birleştirmeyi planlar.",
+      "Her karakter ve canavar için sentetik sesler ile Kenar Notu adlı anlatıcı, İngilizce ve Brezilya Portekizcesiyle; ayrıca renk körlüğü paletleri, şekil işaretleri, Android cihaz içi sesle kontrol, ayarlanabilir metin süresi ve canlı seçenek şemaları.",
+      "12 bitki ve hayvandan oluşan katalog, koşu kurallarını büken 24 Tuhaf nesne ve PC'de 15 oyun içi başarım, Android'de özel kartpostal başarımıyla birlikte 16.",
+      "Fare, klavye, dokunmatik veya kısmi kontrolcü desteğiyle oyna, tam kontrolcü desteği 0.9 için planlandı. Arayüz ve altyazılar 14 dili kapsar."
     ]
   },
   "demo": {
-    "title": "Demoyu indir",
-    "intro": "Windows, macOS ve Linux için ve Android'de ücretsiz bir demo. Koşunun tamamını içerir; avcını kurarken seçenekler daha azdır ve hanenin odaları kapalı kalır.",
+    "title": "Ücretsiz masaüstü demosunu indir",
+    "intro": "Dawnbringer'ı Windows, macOS veya Linux'ta süre sınırı olmadan ücretsiz dene. Başlangıç avcı seçenekleriyle tam üç haftalık koşuyu oynarsın, Hane'nin 22 kalıcı geliştirme odası ise kapalı kalır.",
     "version": "Sürüm {version}.",
     "includesTitle": "Demoda neler var",
     "includes": [
-      "Koşudan önce kurduğun kendi avcın: cinsiyet, ten, gözler, saç, kıyafet ve ad.",
-      "Bir başlangıç bonusu, Karşılık ya da İlk Kan, ve bir silah: Demir Gürz ya da Eski Arbalet.",
-      "Sınıflar: Kılıç Ustası ve Okçu, sonra Haçlı ve Şövalye ya da Avcı ve Ozan.",
-      "Tam koşu: haritada üç hafta, olaylar, dükkanlar, adaklar ve Ev sahipleri.",
-      "4 başlangıç eşya ailesi.",
-      "22 odası kapalı Hane: diğer bonuslar, silahlar, sınıflar ve eşya aileleri ile daha büyük keseler tam sürümde.",
-      "Tam sürümden ayrı, kendi kayıt dosyası."
+      "Her koşudan önce cinsiyet, ten, göz, saç, kıyafet ve ad dahil tam avcı özelleştirmesi.",
+      "2 başlangıç bonusu, Karşılık ve İlk Kan, ile 2 başlangıç silahı, Demir Gürz ve Eski Arbalet.",
+      "2 ilk sınıf, Kılıç Ustası ve Okçu, ile 4 ikinci sınıfları: Haçlı, Şövalye, Avcı ve Ozan.",
+      "Tüm bölgelerde tam üç haftalık koşu; yol olayları, ekipman yuvasına özel dükkânlar, daha zor kurallar karşılığı ekstra altın veren isteğe bağlı adaklar ve Ev sahibi denen haftalık patronlarla.",
+      "2, 4 ya da 6 parçada set bonuslarını açan 4 başlangıç eşya ailesi.",
+      "Tam oyundan ayrı bir kayıt dosyası. 4 ek bonus, 4 silah, 4 ilk sınıf, 6 eşya ailesi ve daha büyük başlangıç altın keseleri açan 22 kalıcı Hane odası tam oyundadır."
     ],
     "windows": "Windows",
-    "windowsNote": "Windows 10 veya 11, 64 bit. Tek bir .zip dosyası, kurulum yok: arşivi açın ve DawnbringerDemo.exe'yi çalıştırın. Dosyanın henüz kod imzası yok, bu yüzden SmartScreen uyarabilir: Daha fazla bilgi'ye, ardından Yine de çalıştır'a tıklayın.",
+    "windowsNote": "Windows 10 veya 11, 64 bit. .zip arşivini indir, çıkar ve kurulum gerekmeden DawnbringerDemo.exe dosyasını çalıştır. Dosya henüz kod imzalı olmadığı için Windows SmartScreen bir kez uyarabilir. Ek bilgi'ye, ardından Yine de çalıştır'a tıkla.",
     "macos": "macOS",
-    "macosNote": "Apple silicon ve Intel Mac'ler için tek bir uygulama. Arşivi açın ve Dawnbringer'ı Uygulamalar'a sürükleyin.",
-    "macosOpen": "Uygulama henüz Apple tarafından onaylanmadı, bu yüzden macOS ilk açılışı engeller. Uygulamaya sağ tıklayın (veya Control ile tıklayın) ve Aç'ı seçin. Aç düğmesi yoksa Sistem Ayarları > Gizlilik ve Güvenlik'e gidin ve Yine de Aç'a tıklayın.",
+    "macosNote": "Apple silicon ve Intel Mac'ler için evrensel uygulama. Arşivi aç ve Dawnbringer'ı Uygulamalar'a sürükle.",
+    "macosOpen": "Apple uygulamayı henüz noter onayından geçirmediği için macOS ilk açılışı engeller. Uygulamaya sağ tıkla ya da Control-tıkla ve Aç'ı seç. Aç görünmezse Sistem Ayarları > Gizlilik ve Güvenlik bölümünden Yine de Aç'a tıkla.",
     "linux": "Linux",
-    "linuxNote": "x86_64. Arşivi açın ve DawnbringerDemo.x86_64 dosyasını çalıştırın. OpenGL 3.3 destekli grafik sürücüleri gerekir.",
+    "linuxNote": "x86_64 arşivi. Çıkar ve DawnbringerDemo.x86_64 dosyasını çalıştır. OpenGL 3.3 destekli grafik sürücüleri gerekir.",
     "download": "İndir ({size})",
-    "checksums": "Dosyaların SHA-256 sağlama toplamları",
-    "android": "Android: tam oyun ve ücretsiz demo, Google Play'de kapalı testte.",
-    "androidLink": "Teste katıl",
-    "ios": "iPhone ve iPad: henüz mevcut değil."
+    "checksums": "İndirmeleri SHA-256 sağlama toplamlarıyla doğrula",
+    "android": "Android'de mi oynamak istiyorsun? Hem testçilere ücretsiz tam oyun hem de ayrı ücretsiz demo uygulaması Google Play kapalı testimizde açık.",
+    "androidLink": "Android rehberini aç",
+    "ios": "iPhone ve iPad planlanıyor, henüz mevcut değil."
   },
   "beta": {
-    "title": "Android alfasına katıl",
-    "testCardCaption": "Android test ödemesinin işaretlenmiş ekran görüntüsü. X, gerçek olmayan tutarın üzerini çizer. Yeşil çerçeveler test kartını ve Google'ın uyarısını gösterir: bu bir test siparişidir, sizden ücret alınmayacak.",
-    "paymentNoticeTitle": "Test, test kullanıcıları için ücretsizdir: 4. adımda ödeme yönteminde \"Test card, always approves\" yazmalı ve hiçbir ücret alınmaz.",
-    "paymentNoticeText": "Test kartıyla Google Play yalnızca bir satın alma simüle eder: R$9.99 veya başka bir tutar görünse bile para çekilmez. Kendi kartın veya gerçek bir ödeme yöntemi görünüyorsa ONAYLAMA. Bize yaz, hesabını açalım:",
-    "intro": "Android sürümü çıkıştan önce test kullanıcıları için ücretsiz. Dört adım, yaklaşık iki dakika.",
-    "step1": "Grubu aç ve \"Join group\" (Gruba katıl) düğmesine tıkla. Bir pencere açılır: altta yine \"Join group\" düğmesine tıkla. Sayfada \"Successfully joined the group\" yazar. Grubu açmak yetmez: katılman gerekir.",
-    "step1Link": "Grubu aç",
-    "step2": "Aynı hesapla test sayfasını aç ve \"Become a tester\" düğmesine tıkla. Sayfada \"You are a tester.\" yazana kadar bekle.",
+    "title": "Android kapalı testine katıl",
+    "testCardCaption": "Açıklamalı Google Play test ödeme ekranı. Kırmızı X simüle edilen fiyatı çizer. Yeşil kutular \"Test card, always approves\" seçeneğini ve ücret alınmayacağına dair Google onayını vurgular.",
+    "paymentNoticeTitle": "Testçiler için sıfır ücret. Ödeme yönteminin \"Test card, always approves\" yazdığını doğrula.",
+    "paymentNoticeText": "Google Play kapalı testteki ücretli uygulamalarda satın almayı simüle eder; bu yüzden hiçbir ücret alınmasa da ekranda aşağıdaki görüntüdeki R$9.99 gibi örnek bir tutar görünür. Bunun yerine kendi gerçek kartın ya da başka bir gerçek ödeme yöntemi çıkarsa dur ve ONAYLAMA. Bize e-posta gönder, testçi hesabını etkinleştirelim:",
+    "intro": "Tam Android sürümünü çıkıştan önce hiç ödeme yapmadan oyna. Kurulum dört hızlı adım sürer, ya da aşağıdan ödeme ekranı olmayan ayrı ücretsiz Android demosunu kurabilirsin.",
+    "step1": "Testçiler Google Grubu'nu aç ve \"Join group\" düğmesine tıkla. Açılan pencerede sayfa \"Successfully joined the group\" diyene kadar alttaki \"Join group\" düğmesine tekrar tıkla. Yalnızca sayfayı açmak seni eklemez.",
+    "step1Link": "Testçi grubunu aç",
+    "step2": "Aynı Google hesabıyla Google Play test sayfasını aç ve \"Become a tester\" düğmesine tıkla. Sayfada \"You are a tester.\" yazana kadar bekle.",
     "step2Link": "Test sayfasını aç",
-    "step3": "Android telefon veya tabletinde oyunu Google Play'de aç. Sayfanın adı \"Dawnbringer (Early Access)\". Fiyatın yazdığı mavi düğmeye dokun. Google Play sayfanın bulunamadığını söylüyorsa 2. adım henüz tamamlanmamıştır: 2. adıma dön, Google hesabını kontrol et ve birkaç dakika bekle.",
-    "step3Link": "Google Play'den yükle",
-    "note": "Ücretsiz alfa erişimi çıkışta sona erer. Teste katılmak, son oyunu satın almak anlamına gelmez.",
-    "helpTitle": "Yükleme için yardım mı gerekiyor?",
-    "accountHelp": "Her adımda aynı hesabı kullan: grup, test sayfası ve Play Store. Birden çok Google hesabın varsa her sayfada ve mağaza uygulamasında profil fotoğrafını kontrol et.",
-    "paymentTitle": "Test card, always approves nedir?",
-    "paymentHelp": "Google Play'in test ödeme kartıdır. Ödeme yöntemi Test card, always approves ise onay, gerçek ücret alınmadan bir satın alma simüle eder. Kendi kartın veya gerçek bir ödeme yöntemi görünüyorsa onaylama. Üç adımdaki hesabı kontrol et; sorun sürerse bize yaz, hesabını açalım:",
-    "unavailableTitle": "Oyun görünmüyor mu veya teste katılamıyor musun?",
-    "unavailableHelp": "Play Store hesabınla hem gruba hem teste katıldığını kontrol et. Birkaç dakika bekleyip test sayfasını yeniden aç. Erişim hâlâ yoksa ödeme bilgileri içermeyen bir hata ekranı görüntüsünü şu adrese gönder",
-    "buttonsNote": "Her adımda aynı Google hesabını kullan: Android cihazındaki Play Store hesabını. Görseller Google ekranlarını İngilizce gösteriyor; Türkçede düğme aynı yerde. Yeşille çevrili olana bas.",
-    "step1Title": "Test grubuna katıl",
-    "shotGroup": "Grup sayfası. Yeşille çevrili \"Join group\" düğmesine tıkla.",
-    "shotJoin": "Açılan pencere. Alttaki \"Join group\" düğmesine tıkla; ad alanı olduğu gibi kalabilir.",
-    "step2Title": "Test kullanıcısı ol",
-    "shotOptin": "Test sayfası. \"Become a tester\" düğmesine tıkla.",
-    "shotTester": "Tamam: sayfada \"You are a tester.\" (Test kullanıcısısın) yazıyor.",
-    "step3Title": "Oyunu telefonda aç",
-    "shotStore": "Telefonda Google Play. Mavi fiyat düğmesine dokun.",
-    "step4Title": "Test kartıyla onayla",
-    "step4": "Google Play ödeme ekranını açar. Ödeme yönteminde \"Test card, always approves\" yazdığını ve ekranın bunun bir test siparişi olduğunu söylediğini kontrol et, sonra \"1-tap buy\" düğmesine dokun. Oyun yüklenir ve hiçbir ücret alınmaz.",
-    "demoTitle": "Android'de ücretsiz demo",
-    "demoText": "Demo, Dawnbringer Demo adında ayrı bir uygulamadır ve ödeme adımı yoktur. 1. adımdan sonra aynı hesapla demonun test sayfasını aç, \"Become a tester\" düğmesine tıkla, sonra Google Play'den yükle.",
-    "demoTestLink": "Demonun test sayfasını aç",
-    "demoInstallLink": "Demoyu yükle"
+    "step3": "Android telefon veya tabletinde Google Play'de \"Dawnbringer (Early Access)\" adıyla listelenen oyunu aç ve mavi fiyat düğmesine dokun. Google Play sayfa bulunamadı derse 2. adımı aynı Google hesabıyla tamamladığını kontrol et ve birkaç dakika bekle.",
+    "step3Link": "Google Play'de aç",
+    "note": "Ücretsiz testçi erişimi oyun herkese açık yayınlandığında sona erer. Kapalı teste katılmak final sürümünün ücretli kopyasını içermez.",
+    "helpTitle": "Sorun giderme",
+    "accountHelp": "Her adımda tek bir Google hesabı kullan; Google Grubu'nda, test sayfasında ve telefonundaki Google Play Store uygulamasında. Birden fazla hesabın varsa her ekranda profil simgesini kontrol et.",
+    "paymentTitle": "Test ücretsizse Google Play neden fiyat gösteriyor?",
+    "paymentHelp": "Google Play kapalı testindeki ücretli uygulamalar \"Test card, always approves\" kullanarak mağaza ödeme ekranından geçer. Bu test kartı seçiliyken satın alma simüle edilir ve para çekilmez. Gerçek bir ödeme yöntemi görürsen iptal edip her adımda aynı hesabı kullandığını kontrol et ya da bize yaz:",
+    "unavailableTitle": "Google Play uygulama kullanılamıyor veya bulunamadı diyor",
+    "unavailableHelp": "Play Store hesabınla Google Grubu'na katıldığını ve \"Become a tester\" düğmesine tıkladığını doğrula, birkaç dakika bekleyip test sayfasını yenile. Erişim yine de açılmazsa ödeme bilgisi olmadan hatanın ekran görüntüsünü şu adrese gönder:",
+    "buttonsNote": "Her adımda Android Play Store'da oturum açmış aynı Google hesabını kullan. Ekran görüntüleri Google'ın İngilizce arayüzünü gösterir ve yeşil çerçeveli her düğme tüm dillerde aynı konumdadır.",
+    "step1Title": "Testçi grubuna katıl",
+    "shotGroup": "Google Grubu sayfası. Yeşil çerçeveli \"Join group\" düğmesine tıkla.",
+    "shotJoin": "Onay penceresi. Alttaki \"Join group\" düğmesine tıkla ve görünen adı olduğu gibi bırak.",
+    "step2Title": "Testçi olarak kaydol",
+    "shotOptin": "Teste katılım sayfası. \"Become a tester\" düğmesine tıkla.",
+    "shotTester": "Onaylandı. Sayfada artık \"You are a tester.\" yazıyor.",
+    "step3Title": "Android'de mağaza sayfasını aç",
+    "shotStore": "Android'de Google Play. Test ödemesini açmak için mavi fiyat düğmesine dokun.",
+    "step4Title": "Test kartıyla ücretsiz kur",
+    "step4": "Google Play ödeme ekranında ödeme yönteminin \"Test card, always approves\" yazdığını ve Google'ın bunu test siparişi olarak işaretlediğini doğrula. Ücretsiz kurmak için \"1-tap buy\" düğmesine dokun.",
+    "demoTitle": "Ödeme ekranı olmadan ücretsiz Android demosunu mu tercih edersin?",
+    "demoText": "Dawnbringer Demo, test ödeme adımı olmayan ayrı bir ücretsiz uygulamadır. Yukarıdaki 1. adımı bitirdikten sonra aynı Google hesabıyla demo test sayfasından katıl ve Google Play'den kur.",
+    "demoTestLink": "Demo test sayfasını aç",
+    "demoInstallLink": "Android demosunu kur"
   },
   "duel": {
     "title": "Düello kodu",
-    "lead": "Bir arkadaşınız size düello kodu gönderdi. Kodu kopyalayıp oyuna yapıştırın.",
+    "lead": "Bir arkadaşın seni Dawnbringer'da çevrim dışı düelloya çağırdı. Aşağıdaki kodu kopyala ve oyun içine yapıştır.",
     "copy": "Kodu kopyala",
     "copied": "Kod kopyalandı.",
-    "copyFailed": "Otomatik kopyalanamadı. Kod seçili: elle kopyalayın.",
-    "steps": "Dawnbringer'ı açın, Düello'ya dokunun ve kodu yapıştırın.",
-    "noGame": "Oyun henüz sizde yok mu?",
-    "get": "Dawnbringer'ı indir",
-    "noCodeTitle": "Bu bağlantıda düello kodu yok",
-    "noCode": "Bu bağlantıda geçerli bir kod yok. Kopyalanırken ya da gönderilirken kesilmiş olabilir.",
-    "howTo": "Arkadaşınızdan Dawnbringer'ı açıp Düello'ya, sonra Paylaş'a dokunmasını ve size yeni bağlantıyı göndermesini isteyin.",
-    "needsJs": "Bu sayfa kodu göstermek için JavaScript'e ihtiyaç duyar."
+    "copyFailed": "Otomatik kopyalama başarısız oldu. Kod seçili durumda, elle kopyalayabilirsin.",
+    "steps": "Dawnbringer'ı aç, Düello'yu seç ve avcısıyla savaşmak için kodu yapıştır.",
+    "noGame": "Henüz Dawnbringer'ın yok mu?",
+    "get": "Ücretsiz demoyu indir",
+    "noCodeTitle": "Bu bağlantıda düello kodu bulunamadı",
+    "noCode": "Bu bağlantı geçerli bir düello kodu içermiyor. Kopyalanırken veya gönderilirken adresin bir kısmı kesilmiş olabilir.",
+    "howTo": "Arkadaşından Dawnbringer'ı açmasını, Düello'yu seçip Paylaş'a dokunmasını ve sana yeni bir bağlantı göndermesini iste.",
+    "needsJs": "Düello kodunu görmek ve kopyalamak için tarayıcında JavaScript'i aç."
   },
   "press": {
     "title": "Basın kiti",
-    "intro": "Yazı ve videolarda serbestçe kullanılabilecek bilgi sayfası, ana görseller, logolar ve ekran görüntüleri.",
-    "factsTitle": "Bilgi sayfası",
+    "intro": "Yazılar, yayınlar ve videolar için serbestçe kullanılabilen bilgi kartı, logolar, ana görsel ve 1920x1080 ekran görüntüleri.",
+    "factsTitle": "Bilgi kartı",
     "developer": "Geliştirici",
-    "developerValue": "gmunaro, Brezilya'da tek başına çalışan bir geliştirici",
+    "developerValue": "PraiseTC, Brezilya'da gmunaro tarafından geliştirildi",
     "release": "Çıkış tarihi",
-    "releaseValue": "Daha sonra duyurulacak",
+    "releaseValue": "Duyurulacak",
     "platforms": "Platformlar",
-    "platformsValue": "Android (Google Play, kapalı test). Android, Windows, macOS ve Linux için ücretsiz bir demo. Steam ve App Store planlanıyor.",
+    "platformsValue": "Ücretsiz masaüstü demosu şimdi Windows, macOS ve Linux'ta mevcut. Tam oyun ve ayrı ücretsiz demo Android'de Google Play kapalı testinde. Windows'ta Steam Early Access ve Apple App Store planlanıyor. Bir güncelleme kayıt dosyalarını bozacaksa yama notları yayınlanmadan önce bunu belirtir.",
     "price": "Fiyat",
-    "priceValue": "US$ 4.99; demo ücretsiz",
+    "priceValue": "PC'de ve Android kapalı testinde ücretsiz demo. Tam oyunun Android kapalı testi testçilere ücretsiz. Planlanan Steam Early Access fiyatı: US$ 8.99.",
     "languages": "Diller",
-    "languagesValue": "14: İngilizce, Portekizce (Brezilya), İspanyolca, Fransızca, Almanca, İtalyanca, Rusça, Ukraynaca, Lehçe, Türkçe, Japonca, Korece, Basitleştirilmiş Çince, Geleneksel Çince",
+    "languagesValue": "14 arayüz ve altyazı dili: İngilizce, Portekizce (Brezilya), İspanyolca, Fransızca, Almanca, İtalyanca, Rusça, Ukraynaca, Lehçe, Türkçe, Japonca, Korece, Basitleştirilmiş Çince, Geleneksel Çince. İngilizce ve Portekizce (Brezilya) sentetik seslendirme.",
     "engine": "Motor",
     "website": "Web sitesi",
     "contact": "İletişim",
     "social": "Sosyal medya",
-    "descriptionTitle": "Tanıtım",
-    "description": "Dawnbringer, karanlık fantezi bir roguelike oto-savaş oyunudur. Güneş kırıldı ve dünya dondu, düşen kıymıklar paraya dönüştü ve her hafta bir Ev sahibi tahsilata gelir. Oyuncular sıra tabanlı bir haritayı geçer, savaşlarını seçer ve bir avcı kurar: avcı her koşudan önce yaratılır, ardından iki adımlı bir sınıfla, aktif yetenekleri olan bir yetenek ağacıyla, özellik puanlarıyla ve yuvaya göre giyilen, dövümhanede yeniden ısıtılan ve canavar kartlarıyla donatılan, 10 aileye ayrılmış 105 eşyayla geliştirilir. Savaş zar olmadan otomatik çözülür ve oyun bir savaşın nasıl biteceğini asla göstermez: her düşman görünür eşyalar taşır, bu yüzden oyuncular her savaşı onun ekipmanını kendi düzenleriyle karşılaştırarak tartar ve Umutsuzluk Taşı yalnızca bir savaş kahramanı öldürecekse kararır. Ev sahibine karşı taş sessiz kalır ve oyuncu onda biri ödemek ya da savaşmak zorundadır. Her koşudan önce oyuncular bankalarından altın ortaya koyar, her haftanın sonunda da keseyi bankaya çeker ya da daha zor bir haftada riske atar. Koşular arasında oyuncular bankayı bir hanenin odalarına harcar; her oda, bir bonusu ya da sınıfı öğreten, silah yapan, bir eşya ailesini açan ya da daha büyük bir kese veren birini getirir. Düşen avcılar dirilir ve sonraki koşularda oyuncuyu avlar; içlerinden biri sapkın olarak bir Ev sahibinin yerini alabilir. Her hafta bir meydan okuma koşusu her oyuncu için aynıdır ve çevrim içi bir sıralama onu şehre, bölgeye ya da ülkeye göre dizer; katılan oyuncular bir inde başka bir oyuncunun avcısıyla rakip olarak karşılaşabilir, iki kahraman da kodla ya da tek cihazda düello edebilir. Avcılar, canavarlar, donanım ve efektler vektör sanatıyla çizilir. Her karakter sentetik bir sesle konuşur, bir anlatıcı koşuyu yorumlar ve oyunun Brezilya Portekizcesi dublajı vardır. Ayarlar arasında renk körlüğü için paletler, şekil işaretleri ve Android'de sesle kontrol var.",
+    "descriptionTitle": "Dawnbringer hakkında",
+    "description": "Dawnbringer sıfır rastgeleliğe sahip bir karanlık fantezi roguelike auto-battler oyunudur. Güneş parçalandı ve dünya dondu; geriye tek sıcaklık ve para birimi olarak parlayan güneş metali kırıkları kaldı. Her hafta Ev sahibi denen bir bölge patronu vergi toplamaya gelir.\n\nHer koşu sisle kaplı bölgelerde üç hafta sürer. Savaş zarsız ve otomatik çözülür, oyun asla kazanma olasılığı göstermez. Her düşman, girmeden önce inceleyebileceğin gerçek ve görünür ekipman taşır. Tek uyarın, cam altında bir güneş kırığı olan ve yalnızca seni öldürecek dövüşün önünde kararıp Ev sahiplerine karşı sessiz kalan Umutsuzluk Taşıdır. 1. ve 2. haftaların sonunda ödül için savaşabilir ya da kesenin %30'u ile haftalık alt sınırdan hangisi yüksekse o tutarda onda bir ödeyebilirsin. 3. haftada onda bir yoktur.\n\nHane'den ayrılmadan önce yolda ekipman, yükseltme ve hizmetleri karşılamak için güvenli bankandan kesene altın aktarırsın. Ölüm keseyi alır ama bankaya dokunmaz; her Ev sahibinden sonra eve dönüp altınını yatırmaya ya da daha zor bir haftaya geçmeye karar verirsin. Geçmiş koşular dünyada iz bırakır: düşen avcılar eski düzenleriyle dirilip seni avlar, 2. ya da 3. haftada kaybedilen bir avcı sapkın olarak bir Ev sahibinin koltuğuna oturabilir ve isteğe bağlı çevrim içi sıralamalar, kodla çevrim dışı düelloların yanında başka oyuncuların avcılarını inlerde rakip olarak getirir.",
     "mediaTitle": "Logo, ana görsel ve ekran görüntüleri",
-    "zip": "Hepsini indir (.zip, {size})",
+    "zip": "Tüm basın kitini indir (.zip, {size})",
     "logo": "Logo (PNG, şeffaf)",
     "icon": "Simge (PNG, 512x512)",
-    "keyart": "Ana görsel (PNG, 1920x1080)",
+    "keyart": "Logolu ana görsel (PNG, 1920x1080)",
     "keyartNoLogo": "Logosuz ana görsel (PNG, 1920x1080)",
-    "screensNote": "Ekran görüntüleri, oyunun vektör sanatından 1920x1080 PNG'lerdir.",
+    "screensNote": "Tüm ekran görüntüleri 0.8.0 sürümünden 1920x1080 PNG kayıtlarıdır.",
     "creditsTitle": "Emeği geçenler",
     "credits": [
-      "Tasarım, kod ve sanat: gmunaro",
-      "Müzik: Juhani Junkala (CC0); Ev sahibinin gece müziği özgündür ve VSCO 2 Community Edition örnekleri kullanılarak çalınmıştır (CC0)",
-      "Ses efektleri: Kenney, StarNinjas, Oiboo (CC0) ve özgün sesler",
-      "Ortam sesi: freesound.org üzerindeki saha kayıtları (CC0)",
-      "Sesler: ElevenLabs v4 sentetik konuşması, anlatıcı için Google Gemini TTS; hiçbir insan sesi kaydedilmedi ya da klonlanmadı",
-      "Yazı tipleri: Kenney (CC0); Jacquarda Bastarda 9, Fusion Pixel ve GNU Unifont (SIL Open Font License 1.1)"
+      "Tasarım, kod ve yönetim: gmunaro, PraiseTC",
+      "Görsel: vektör karakterler, ekipman, saçlar, kıyafetler, efektler ve dört arayüz parçası gmunaro yönetiminde Anthropic Claude ile SVG kodu olarak çizildi; oynanabilir avcı temel gövdeleri Google Gemini 3 Pro Image üzerinden vektörleştirildi; 18 savaş arka planı, 16 Tuhaf nesne simgesi ve 17 harita işareti OpenAI GPT Image ile üretilip oyun paletine indirildi; harita karoları ve kalan piksel sanat yapay zekâ kod asistanlarıyla yazılan betiklerle oluşturuldu.",
+      "Müzik: Juhani Junkala (CC0); Ev sahibi gece müziği ve NPC temaları Anthropic Claude ile kod olarak bestelenip VSCO 2 Community Edition örnekleriyle (CC0) işlendi.",
+      "Ses efektleri: Kenney, StarNinjas, Oiboo (CC0) ve özgün sentezlenmiş sesler.",
+      "Ortam ve yaratık sesleri: freesound.org saha kayıtları (CC0).",
+      "Seslendirmeler: ElevenLabs Eleven v4 sentetik konuşma ve anlatıcı için Google Gemini 3.8 Flash TTS. Hiçbir insan sesi kaydedilmedi ya da klonlanmadı.",
+      "Yazı tipleri: Kenney Pixel ve Kenney Mini (CC0); Jacquarda Bastarda 9, Fusion Pixel Font, GNU Unifont, Noto Sans ve Noto Sans CJK (SIL Open Font License 1.1).",
+      "Metin ve çeviriler: İngilizce metinler yapay zekâ dil modelleriyle taslaklanıp gmunaro tarafından düzenlendi; 13 çeviri yapay zekâ dil modelleriyle üretildi, otomatik testlerle denetlendi ve henüz ana dili konuşanlarca gözden geçirilmedi."
     ],
     "contactTitle": "İletişim",
-    "contactText": "Basın, inceleme anahtarları ve diğer konular için şu adrese yaz"
+    "contactText": "Basın talepleri, inceleme erişimi veya içerik üreticisi anahtarları için yaz:"
   },
   "footer": {
     "privacy": "Gizlilik politikası",
-    "bugs": "Bir hata mı buldun? Oyundaki Hata bildir seçeneğini kullan ya da şu adrese yaz",
-    "madeBy": "Dawnbringer, Brezilya'da gmunaro tarafından yapılıyor.",
-    "studio": "Yapımcı:",
-    "changelog": "Yenilikler"
+    "bugs": "Hata mı buldun? Oyun içindeki Hata bildir seçeneğini kullan, F8'e bas ya da şuraya yaz:",
+    "madeBy": "Brezilya'da {studio} çatısı altında gmunaro tarafından yapıldı.",
+    "changelog": "Değişiklikler"
   },
   "suggest": {
     "text": "Bu sayfa Türkçe olarak da mevcut.",
@@ -238,44 +256,46 @@
     "back": "Ana sayfaya dön"
   },
   "changelog": {
-    "title": "Yenilikler",
-    "description": "Dawnbringer'ın her güncellemesi ve getirdiği değişiklikler."
+    "title": "Değişiklik günlüğü",
+    "description": "Her Dawnbringer güncellemesi ve sürümlerdeki değişiklikler.",
+    "demoSuffix": "{os} demosu"
   },
   "why": {
-    "title": "Onu farklı kılan şeyler",
+    "title": "Onu farklı kılan",
     "items": {
       "read": {
-        "title": "Zara değil, düşmanı oku",
-        "text": "Savaşlar kendiliğinden sonuçlanır ve asla zar atılmaz. Her düşman eşyasını gösterir; Umutsuzluk Taşı yalnızca seni öldürecek bir savaştan önce kararır.",
-        "alt": "Haritada bir düşman grubunun üzerinde Umutsuzluk Taşı'nın işareti."
+        "title": "Zarı değil düşmanı oku",
+        "text": "Savaş şans olmadan kendiliğinden oynanır. Her düşman girmeden önce gerçek ekipmanını gösterir ve ölümcül savaş uyarın olan Umutsuzluk Taşı yalnızca o mücadele seni öldürecekse kararır.",
+        "alt": "Haritada bir düşman grubunun üzerindeki koyu Umutsuzluk Taşı uyarı işareti."
       },
       "build": {
-        "title": "Avcını kur",
-        "text": "Avcının görünüşünü, bonusunu ve silahını seç, bir sınıfı iki adımda öğren, puanlarını bir yetenek haritasında harca ve her yuvaya ekipman tak. Eşyaları dövümhanede tekrar ısıt ve onlara canavar kartları yerleştir.",
-        "alt": "Sınıf ustası Abel Tarrow iki ilk sınıf sunar: Kılıç Ustası ve Okçu."
+        "title": "Her koşuda derin düzenler",
+        "text": "Başlangıç bonusunu ve silahını seç, her haftalık patrondan sonra iki sınıf kademesinde ilerle, haritada aktif yetenekleri planla ve 10 set ailesindeki 105 eşyayı hatasız demirhane ve canavar kartlarıyla birleştir.",
+        "alt": "Sınıf ustası Abel Tarrow ilk iki sınıf olan Kılıç Ustası ve Okçu'yu sunuyor."
       },
       "return": {
-        "title": "Koşuların geri döner",
-        "text": "Düşen avcılar sonraki koşularda dirilir ve seni avlar; içlerinden biri sapkın olarak bir Ev sahibinin yerini alabilir. Çevrim içi sıralamaya katıl; başka bir oyuncunun avcısı bir inde rakibin olarak bekleyebilir.",
-        "alt": "Haritada, önceki bir koşudan dirilmiş bir avcının kartı ve kaybettiği kesedeki altın."
+        "title": "Geçmiş koşuların seni avlar",
+        "text": "Ölen avcılar sonraki koşularda eski ekipmanlarıyla dirilir ve biri sapkın olarak bir Ev sahibinin yerini bile alabilir. İsteğe bağlı haftalık sıralamaya katıldığında başka oyuncuların doğrulanmış avcıları inlerde rakibin olarak bekleyebilir.",
+        "alt": "Haritada önceki bir koşudan dirilmiş, kaybettiği altının bir kısmını taşıyan düşmüş avcının kartı."
       }
     }
   },
   "whatsnew": {
-    "title": "0.8'deki yenilikler",
+    "title": "0.8 yenilikleri",
     "items": [
-      "Avcılar, canavarlar, Ev sahipleri, donanım ve efektler vektör sanatıyla çizilir; her ekranda net.",
-      "Haftalık meydan okuma: her avcı için aynı koşu. Çevrim içi sıralamaya katıl ve şehrindeki, bölgendeki ya da ülkendeki oyuncularla yarış (hangi yeri paylaşacağını sen seçersin); başka bir oyuncunun avcısı bir inde rakibin olarak bekleyebilir.",
-      "Düellolar: bir kahramanın kodunu bir arkadaşına gönder ya da kayıtlı iki kahraman seç ve tek cihazda dövüş.",
-      "Avcın seçtiğin cinsiyette bir sesle konuşur, bir anlatıcı koşuyu yorumlar ve Brezilya Portekizcesinde karakterler Portekizce konuşur.",
-      "Erişilebilirlik: protanopi, döteranopi ve tritanopi için paletler, renk ipuçlarında şekil işaretleri, Android'de sesle kontrol ve her ayarı anlatan bir şema.",
-      "Android için kendi uygulamasında ücretsiz bir demo."
+      "Avcılar, canavarlar, Ev sahipleri ve kuşanılmış ekipman için SVG vektör çizim. 0.8.0 sürümünde savaş arka planları, harita karoları ve arayüz hâlâ piksel sanattır, savaş efektleri vektör ve piksel karışımıdır, 0.9 ise hepsini vektörde birleştirmeyi planlar.",
+      "Haftalık meydan okuma ve çevrim içi sıralama. Herkes aynı harita düzeninde oynar ve sunucu puanları doğrulamak için koşuları yeniden oynatır. Şehrini, yalnızca ülkeni ya da hiçbir yeri paylaşmamayı seçebilirsin; yer seçmemek koşularını herkese açık tablolardan uzak tutar ve diğer oyuncuların avcıları inlerde rakip olarak görünebilir.",
+      "Çevrim dışı düellolar. Bir arkadaşınla avcı kodu takas et ya da tek cihazda iki kayıtlı avcıyı karşılaştır.",
+      "Yetenek ağacında turla dolan 8 aktif yetenek ve kuralları değiştiren 18 düğüm, ayrıca ekipman yuvasına göre uzman dükkânlar.",
+      "Seçtiğin cinsiyete uygun avcı seslendirmeleri, koşunu yorumlayan Kenar Notu adlı anlatıcı ve tam Brezilya Portekizcesi dublaj.",
+      "Protanopi, döteranopi ve tritanopi paletleri, her renk ipucunda şekil işaretleri, Android'de cihaz içi sesle kontrol ve canlı seçenek şemalarıyla erişilebilirlik güncellemeleri.",
+      "Google Play kapalı testinde ayrı ücretsiz Android demo uygulaması."
     ],
-    "more": "Tüm değişiklikler"
+    "more": "Tüm değişiklikleri gör"
   },
   "community": {
     "title": "Basın ve topluluk",
-    "press": "Makaleler ve videolar için logo, ana görsel, ekran görüntüleri ve bilgi sayfası.",
-    "follow": "Oyunu takip et"
+    "press": "Yazılar ve videolar için logolar, ana görsel, 1920x1080 ekran görüntüleri ve bilgi kartı.",
+    "follow": "Dawnbringer'ı takip et"
   }
 }

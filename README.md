@@ -34,10 +34,7 @@ bun run typecheck
 
 ## Home page
 
-Five blocks, about 260 words in English: what the game is (one line, the clip, the Android alpha and desktop
-demo buttons), what makes it different (three pictures, `WHY`), what the version adds (`whatsnew`, linked to
-the changelog), press and community, the footer. The alpha's steps and the demo downloads have their own
-pages (`beta/`, `download/`). Keep new text short and in every language: `bun run build` fails otherwise.
+Six blocks: what the game is (pitch, desktop demo and Android test buttons, gameplay clip), how a run works (four cards, `loop`), what makes it different (three pictures, `WHY`), what the current version adds (`whatsnew`, linked to the changelog), press and community, and the footer. The Android test steps and desktop demo downloads have their own pages (`beta/`, `download/`). Keep new text short and translated in all 14 languages; `bun run build` fails otherwise.
 
 ## Social links
 

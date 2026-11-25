@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Код дуэли · Dawnbringer</title>
-<meta name="description" content="Скопируйте код дуэли, которым поделился друг, и вставьте его в Dawnbringer.">
+<meta name="description" content="Скопируйте код дуэли, который прислал друг, и вставьте его в Dawnbringer, чтобы сразиться с его охотником офлайн.">
 <meta name="robots" content="noindex">
 
 <meta name="theme-color" content="#0B0710">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Dawnbringer">
 <meta property="og:title" content="Код дуэли · Dawnbringer">
-<meta property="og:description" content="Скопируйте код дуэли, которым поделился друг, и вставьте его в Dawnbringer.">
+<meta property="og:description" content="Скопируйте код дуэли, который прислал друг, и вставьте его в Dawnbringer, чтобы сразиться с его охотником офлайн.">
 <meta property="og:url" content="https://dawnbringergame.com/ru/duelo/">
 <meta property="og:locale" content="ru_RU">
 <meta property="og:image" content="https://dawnbringergame.com/assets/img/og.png">
@@ -27,12 +27,12 @@
 <link rel="stylesheet" href="/assets/site.css">
 <script src="/assets/site.js" defer></script>
 </head>
-<meta property="og:image:alt" content="Логотип Dawnbringer над коронованным Ростовщиком под кроваво-красной луной.">
+<meta property="og:image:alt" content="Золотой логотип Dawnbringer над охотником в доспехах с фонарём на скале перед затопленными руинами и огромным каменным существом под расколотым солнечным затмением.">
 <body data-page="duelo/">
 <a class="skip" href="#main">Перейти к содержимому</a>
 <header class="top">
 <a class="brand" href="/ru/"><img src="/assets/img/logo.png" width="128" height="36" alt="Dawnbringer"></a>
-<nav class="sections"><ul><li><a href="/ru/">Главная</a></li><li><a href="/ru/beta/">Альфа для Android</a></li><li><a href="/ru/download/">Демоверсия для ПК</a></li><li><a href="/ru/presskit/">Пресс-кит</a></li></ul></nav>
+<nav class="sections"><ul><li><a href="/ru/">Главная</a></li><li><a href="/ru/download/">Демо для ПК</a></li><li><a href="/ru/beta/">Тест Android</a></li><li><a href="/ru/presskit/">Пресс-кит</a></li></ul></nav>
 <details class="lang">
 <summary><span class="sr">Язык: </span>Русский</summary>
 <ul><li><a href="/duelo/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="/pt-br/duelo/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-BR">Português (Brasil)</a></li><li><a href="/es/duelo/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="/fr/duelo/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="/de/duelo/" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="/it/duelo/" hreflang="it" lang="it" data-lang="it">Italiano</a></li><li><a href="/ru/duelo/" hreflang="ru" lang="ru" data-lang="ru" aria-current="true">Русский</a></li><li><a href="/uk/duelo/" hreflang="uk" lang="uk" data-lang="uk">Українська</a></li><li><a href="/pl/duelo/" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="/tr/duelo/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a></li><li><a href="/ja/duelo/" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li><li><a href="/ko/duelo/" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li><li><a href="/zh-cn/duelo/" hreflang="zh-CN" lang="zh-CN" data-lang="zh-CN">简体中文</a></li><li><a href="/zh-tw/duelo/" hreflang="zh-TW" lang="zh-TW" data-lang="zh-TW">繁體中文</a></li></ul>
@@ -42,28 +42,28 @@
 <main id="main">
 <section class="wrap prose duel" aria-labelledby="duel-title">
 <h1 id="duel-title">Код дуэли</h1>
-<noscript><p>Чтобы показать код, этой странице нужен JavaScript.</p></noscript>
+<noscript><p>Включите JavaScript в браузере, чтобы увидеть и скопировать код дуэли.</p></noscript>
 <div id="duel-ok" hidden>
-<p class="lead">Друг прислал вам код дуэли. Скопируйте его и вставьте в игре.</p>
+<p class="lead">Друг вызвал вас на офлайн-дуэль в Dawnbringer. Скопируйте код ниже и вставьте его внутри игры.</p>
 <textarea id="duel-code" class="duel-code" readonly rows="6" spellcheck="false" autocomplete="off" autocapitalize="off" aria-label="Код дуэли"></textarea>
-<p class="duel-actions"><button type="button" id="duel-copy" class="btn" data-copied="Код скопирован." data-failed="Автоматически скопировать не удалось. Код выделен: скопируйте его вручную.">Скопировать код</button> <span id="duel-status" role="status"></span></p>
-<p>Откройте Dawnbringer, нажмите «Дуэль» и вставьте код.</p>
+<p class="duel-actions"><button type="button" id="duel-copy" class="btn" data-copied="Код скопирован." data-failed="Не удалось скопировать автоматически. Код выделен, чтобы вы скопировали его вручную.">Скопировать код</button> <span id="duel-status" role="status"></span></p>
+<p>Откройте Dawnbringer, выберите Дуэль и вставьте код, чтобы сразиться с его охотником.</p>
 </div>
 <div id="duel-bad" hidden>
 <h2>В этой ссылке нет кода дуэли</h2>
-<p>В этой ссылке нет действительного кода. Возможно, она обрезалась при копировании или отправке.</p>
-<p>Попросите друга открыть Dawnbringer, нажать «Дуэль», затем «Поделиться» и прислать новую ссылку.</p>
+<p>Эта ссылка не содержит корректного кода дуэли. Возможно, часть адреса обрезалась при копировании или отправке.</p>
+<p>Попросите друга открыть Dawnbringer, выбрать Дуэль, нажать Поделиться и прислать новую ссылку.</p>
 </div>
-<p>У вас ещё нет игры? <a href="/ru/download/">Скачать Dawnbringer</a></p>
+<p>Ещё нет Dawnbringer? <a href="/ru/download/">Скачать бесплатное демо</a></p>
 </section>
 </main>
 <footer class="foot">
 <ul>
 <li><a href="/privacy.html">Политика конфиденциальности</a></li>
 <li><a href="/ru/presskit/">Пресс-кит</a></li>
-<li><a href="/ru/changelog/">Обновления</a></li>
+<li><a href="/ru/changelog/">Изменения</a></li>
 </ul>
-<p>Нашли ошибку? Используйте Сообщить об ошибке в игре или напишите на <a href="mailto:contato@dawnbringergame.com">contato@dawnbringergame.com</a></p>
+<p>Нашли ошибку? Используйте Сообщить об ошибке в игре, нажмите F8 или напишите на <a href="mailto:contato@dawnbringergame.com">contato@dawnbringergame.com</a></p>
 <ul class="socials">
 <li><a href="https://discord.gg/vHQMuzdb7J" rel="me noopener">Discord</a></li>
 <li><a href="https://www.youtube.com/@dawnbringergame" rel="me noopener">YouTube</a></li>
@@ -73,8 +73,7 @@
 <li><a href="https://www.threads.com/@dawnbringergame" rel="me noopener">Threads</a></li>
 <li><a href="https://www.reddit.com/r/Dawnbringer/" rel="me noopener">Reddit</a></li>
 </ul>
-<p>Dawnbringer создаёт gmunaro в Бразилии. © 2026 gmunaro.</p>
-<p>Разработчик: <a href="https://github.com/praisetcdev" rel="me noopener">PraiseTC</a></p>
+<p>Создано в Бразилии разработчиком gmunaro в <a href="https://github.com/praisetcdev" rel="me noopener">PraiseTC</a>. © 2026 gmunaro.</p>
 </footer>
 </body>
 </html>

@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>결투 코드 · Dawnbringer</title>
-<meta name="description" content="친구가 공유한 결투 코드를 복사해서 Dawnbringer에 붙여 넣으세요.">
+<meta name="description" content="친구가 보낸 결투 코드를 복사해 Dawnbringer에 붙여 넣어 오프라인으로 맞붙으세요.">
 <meta name="robots" content="noindex">
 
 <meta name="theme-color" content="#0B0710">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Dawnbringer">
 <meta property="og:title" content="결투 코드 · Dawnbringer">
-<meta property="og:description" content="친구가 공유한 결투 코드를 복사해서 Dawnbringer에 붙여 넣으세요.">
+<meta property="og:description" content="친구가 보낸 결투 코드를 복사해 Dawnbringer에 붙여 넣어 오프라인으로 맞붙으세요.">
 <meta property="og:url" content="https://dawnbringergame.com/ko/duelo/">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:image" content="https://dawnbringergame.com/assets/img/og.png">
@@ -27,12 +27,12 @@
 <link rel="stylesheet" href="/assets/site.css">
 <script src="/assets/site.js" defer></script>
 </head>
-<meta property="og:image:alt" content="핏빛 달 아래 서 있는 왕관 쓴 지주와 그 위의 Dawnbringer 로고.">
+<meta property="og:image:alt" content="물에 잠긴 폐허 위 바위에서 등불을 든 갑옷 사냥꾼이 부서진 일식 아래 거대한 돌 괴물과 마주 서 있고, 그 위에 금빛 Dawnbringer 로고가 빛나는 키 아트.">
 <body data-page="duelo/">
 <a class="skip" href="#main">본문으로 건너뛰기</a>
 <header class="top">
 <a class="brand" href="/ko/"><img src="/assets/img/logo.png" width="128" height="36" alt="Dawnbringer"></a>
-<nav class="sections"><ul><li><a href="/ko/">홈</a></li><li><a href="/ko/beta/">Android 알파</a></li><li><a href="/ko/download/">데스크톱 데모</a></li><li><a href="/ko/presskit/">프레스 키트</a></li></ul></nav>
+<nav class="sections"><ul><li><a href="/ko/">홈</a></li><li><a href="/ko/download/">PC 데모</a></li><li><a href="/ko/beta/">Android 테스트</a></li><li><a href="/ko/presskit/">프레스 키트</a></li></ul></nav>
 <details class="lang">
 <summary><span class="sr">언어: </span>한국어</summary>
 <ul><li><a href="/duelo/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="/pt-br/duelo/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-BR">Português (Brasil)</a></li><li><a href="/es/duelo/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="/fr/duelo/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="/de/duelo/" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="/it/duelo/" hreflang="it" lang="it" data-lang="it">Italiano</a></li><li><a href="/ru/duelo/" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li><li><a href="/uk/duelo/" hreflang="uk" lang="uk" data-lang="uk">Українська</a></li><li><a href="/pl/duelo/" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="/tr/duelo/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a></li><li><a href="/ja/duelo/" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li><li><a href="/ko/duelo/" hreflang="ko" lang="ko" data-lang="ko" aria-current="true">한국어</a></li><li><a href="/zh-cn/duelo/" hreflang="zh-CN" lang="zh-CN" data-lang="zh-CN">简体中文</a></li><li><a href="/zh-tw/duelo/" hreflang="zh-TW" lang="zh-TW" data-lang="zh-TW">繁體中文</a></li></ul>
@@ -42,28 +42,28 @@
 <main id="main">
 <section class="wrap prose duel" aria-labelledby="duel-title">
 <h1 id="duel-title">결투 코드</h1>
-<noscript><p>코드를 보여 주려면 이 페이지에 JavaScript가 필요합니다.</p></noscript>
+<noscript><p>결투 코드를 보고 복사하려면 브라우저에서 JavaScript를 켜세요.</p></noscript>
 <div id="duel-ok" hidden>
-<p class="lead">친구가 결투 코드를 보냈습니다. 코드를 복사해서 게임에 붙여 넣으세요.</p>
+<p class="lead">친구가 Dawnbringer 오프라인 결투를 신청했습니다. 아래 코드를 복사해 게임에 붙여 넣으세요.</p>
 <textarea id="duel-code" class="duel-code" readonly rows="6" spellcheck="false" autocomplete="off" autocapitalize="off" aria-label="결투 코드"></textarea>
-<p class="duel-actions"><button type="button" id="duel-copy" class="btn" data-copied="코드를 복사했습니다." data-failed="자동으로 복사하지 못했습니다. 코드가 선택되어 있으니 직접 복사하세요.">코드 복사</button> <span id="duel-status" role="status"></span></p>
-<p>Dawnbringer를 열고 결투를 누른 다음 코드를 붙여 넣으세요.</p>
+<p class="duel-actions"><button type="button" id="duel-copy" class="btn" data-copied="코드를 복사했습니다." data-failed="자동 복사에 실패했습니다. 코드가 선택되어 있으니 직접 복사하세요.">코드 복사</button> <span id="duel-status" role="status"></span></p>
+<p>Dawnbringer를 열고 결투를 선택한 뒤 코드를 붙여 넣어 친구의 사냥꾼과 싸우세요.</p>
 </div>
 <div id="duel-bad" hidden>
-<h2>이 링크에는 결투 코드가 없습니다</h2>
-<p>이 링크에는 유효한 코드가 없습니다. 복사하거나 보내는 중에 잘렸을 수 있습니다.</p>
-<p>친구에게 Dawnbringer를 열고 결투, 공유를 차례로 눌러 새 링크를 보내 달라고 하세요.</p>
+<h2>이 링크에 결투 코드가 없습니다</h2>
+<p>이 링크에는 유효한 결투 코드가 없습니다. 복사하거나 전송하는 과정에서 주소 일부가 잘렸을 수 있습니다.</p>
+<p>친구에게 Dawnbringer를 열고 결투에서 공유를 눌러 새 링크를 보내 달라고 요청하세요.</p>
 </div>
-<p>아직 게임이 없으신가요? <a href="/ko/download/">Dawnbringer 다운로드</a></p>
+<p>아직 Dawnbringer가 없으신가요? <a href="/ko/download/">무료 데모 받기</a></p>
 </section>
 </main>
 <footer class="foot">
 <ul>
-<li><a href="/privacy.html">개인정보 처리방침</a></li>
+<li><a href="/privacy.html">개인정보처리방침</a></li>
 <li><a href="/ko/presskit/">프레스 키트</a></li>
-<li><a href="/ko/changelog/">업데이트</a></li>
+<li><a href="/ko/changelog/">업데이트 기록</a></li>
 </ul>
-<p>버그를 발견했나요? 게임 내 버그 신고를 이용하거나 다음 주소로 보내 주세요: <a href="mailto:contato@dawnbringergame.com">contato@dawnbringergame.com</a></p>
+<p>버그를 찾으셨나요? 게임 내 버그 신고를 이용하거나 F8을 누르거나 다음으로 이메일을 보내세요. <a href="mailto:contato@dawnbringergame.com">contato@dawnbringergame.com</a></p>
 <ul class="socials">
 <li><a href="https://discord.gg/vHQMuzdb7J" rel="me noopener">Discord</a></li>
 <li><a href="https://www.youtube.com/@dawnbringergame" rel="me noopener">YouTube</a></li>
@@ -73,8 +73,7 @@
 <li><a href="https://www.threads.com/@dawnbringergame" rel="me noopener">Threads</a></li>
 <li><a href="https://www.reddit.com/r/Dawnbringer/" rel="me noopener">Reddit</a></li>
 </ul>
-<p>Dawnbringer는 브라질의 gmunaro가 만듭니다. © 2026 gmunaro.</p>
-<p>제작: <a href="https://github.com/praisetcdev" rel="me noopener">PraiseTC</a></p>
+<p>브라질 <a href="https://github.com/praisetcdev" rel="me noopener">PraiseTC</a>의 gmunaro가 제작. © 2026 gmunaro.</p>
 </footer>
 </body>
 </html>
