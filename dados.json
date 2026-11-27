@@ -1,0 +1,2781 @@
+{
+  "generatedAt": "2026-11-27 00:29:12",
+  "sources": {
+    "social": {
+      "ok": true,
+      "note": ""
+    },
+    "pulse": {
+      "ok": true,
+      "note": ""
+    },
+    "downloads": {
+      "ok": true,
+      "note": ""
+    },
+    "play": {
+      "ok": true,
+      "note": ""
+    },
+    "telemetry": {
+      "ok": true,
+      "note": ""
+    },
+    "pvp": {
+      "ok": true,
+      "note": ""
+    },
+    "reports": {
+      "ok": true,
+      "note": ""
+    }
+  },
+  "social": {
+    "totals": {
+      "posts": 19,
+      "views": 4592,
+      "likes": 68,
+      "reposts": 30,
+      "replies": 2,
+      "humans": 2
+    },
+    "byNetwork": [
+      {
+        "network": "youtube",
+        "posts": 18,
+        "views": 4084,
+        "likes": 11,
+        "reposts": 0,
+        "replies": 0,
+        "humans": 0
+      },
+      {
+        "network": "instagram",
+        "posts": 12,
+        "views": 483,
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "humans": 0
+      },
+      {
+        "network": "threads",
+        "posts": 14,
+        "views": 25,
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "humans": 0
+      },
+      {
+        "network": "bluesky",
+        "posts": 19,
+        "views": 0,
+        "likes": 51,
+        "reposts": 27,
+        "replies": 1,
+        "humans": 1
+      },
+      {
+        "network": "praisetc",
+        "posts": 19,
+        "views": 0,
+        "likes": 5,
+        "reposts": 3,
+        "replies": 0,
+        "humans": 0
+      },
+      {
+        "network": "mastodon",
+        "posts": 19,
+        "views": 0,
+        "likes": 1,
+        "reposts": 0,
+        "replies": 1,
+        "humans": 1
+      },
+      {
+        "network": "facebook",
+        "posts": 18,
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "humans": 0
+      },
+      {
+        "network": "discord",
+        "posts": 19,
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "humans": 0
+      },
+      {
+        "network": "x",
+        "posts": 5,
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "humans": 0
+      },
+      {
+        "network": "tiktok",
+        "posts": 6,
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "humans": 0
+      }
+    ],
+    "followers": [
+      {
+        "network": "bluesky",
+        "account": "@dawnbringergame.bsky.social",
+        "followers": 10,
+        "posts": 11
+      },
+      {
+        "network": "mastodon",
+        "account": "@dawnbringergame (mastodon.gamedev.place)",
+        "followers": 0,
+        "posts": 8
+      },
+      {
+        "network": "praisetc",
+        "account": "@praisetc.bsky.social",
+        "followers": 4,
+        "posts": 6
+      }
+    ],
+    "daily": [
+      {
+        "d": "2026-10-29",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "humans": 0,
+        "posts": 0
+      },
+      {
+        "d": "2026-10-30",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "humans": 0,
+        "posts": 0
+      },
+      {
+        "d": "2026-10-31",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "humans": 0,
+        "posts": 0
+      },
+      {
+        "d": "2026-11-01",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "humans": 0,
+        "posts": 0
+      },
+      {
+        "d": "2026-11-02",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "humans": 0,
+        "posts": 0
+      },
+      {
+        "d": "2026-11-03",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "humans": 0,
+        "posts": 0
+      },
+      {
+        "d": "2026-11-04",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "humans": 0,
+        "posts": 0
+      },
+      {
+        "d": "2026-11-05",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "humans": 0,
+        "posts": 0
+      },
+      {
+        "d": "2026-11-06",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "humans": 0,
+        "posts": 0
+      },
+      {
+        "d": "2026-11-07",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "humans": 0,
+        "posts": 0
+      },
+      {
+        "d": "2026-11-08",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "humans": 0,
+        "posts": 1
+      },
+      {
+        "d": "2026-11-09",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "humans": 0,
+        "posts": 1
+      },
+      {
+        "d": "2026-11-10",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "humans": 0,
+        "posts": 1
+      },
+      {
+        "d": "2026-11-11",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "humans": 0,
+        "posts": 1
+      },
+      {
+        "d": "2026-11-12",
+        "views": 62,
+        "likes": 10,
+        "reposts": 4,
+        "humans": 0,
+        "posts": 1
+      },
+      {
+        "d": "2026-11-13",
+        "views": 190,
+        "likes": 7,
+        "reposts": 4,
+        "humans": 0,
+        "posts": 1
+      },
+      {
+        "d": "2026-11-14",
+        "views": 755,
+        "likes": 12,
+        "reposts": 4,
+        "humans": 0,
+        "posts": 1
+      },
+      {
+        "d": "2026-11-15",
+        "views": 7,
+        "likes": 0,
+        "reposts": 0,
+        "humans": 0,
+        "posts": 1
+      },
+      {
+        "d": "2026-11-16",
+        "views": 1,
+        "likes": 0,
+        "reposts": 0,
+        "humans": 0,
+        "posts": 1
+      },
+      {
+        "d": "2026-11-17",
+        "views": 35,
+        "likes": 0,
+        "reposts": 0,
+        "humans": 0,
+        "posts": 1
+      },
+      {
+        "d": "2026-11-18",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "humans": 0,
+        "posts": 1
+      },
+      {
+        "d": "2026-11-19",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "humans": 0,
+        "posts": 1
+      },
+      {
+        "d": "2026-11-20",
+        "views": 2,
+        "likes": 0,
+        "reposts": 0,
+        "humans": 0,
+        "posts": 1
+      },
+      {
+        "d": "2026-11-21",
+        "views": 1229,
+        "likes": 12,
+        "reposts": 3,
+        "humans": 1,
+        "posts": 1
+      },
+      {
+        "d": "2026-11-22",
+        "views": 1243,
+        "likes": 8,
+        "reposts": 3,
+        "humans": 0,
+        "posts": 1
+      },
+      {
+        "d": "2026-11-23",
+        "views": 734,
+        "likes": 5,
+        "reposts": 3,
+        "humans": 0,
+        "posts": 1
+      },
+      {
+        "d": "2026-11-24",
+        "views": 92,
+        "likes": 5,
+        "reposts": 3,
+        "humans": 0,
+        "posts": 1
+      },
+      {
+        "d": "2026-11-25",
+        "views": 240,
+        "likes": 5,
+        "reposts": 3,
+        "humans": 1,
+        "posts": 1
+      },
+      {
+        "d": "2026-11-26",
+        "views": 2,
+        "likes": 4,
+        "reposts": 3,
+        "humans": 0,
+        "posts": 1
+      },
+      {
+        "d": "2026-11-27",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "humans": 0,
+        "posts": 0
+      }
+    ],
+    "posts": [
+      {
+        "date": "2026-11-26",
+        "item": "1397-arvore",
+        "formato": 5,
+        "assunto": "A árvore de skills: 26 nós só somavam atributo e comprar um não mudava nada visível na luta; a 0.8 trocou por 8 skills ativas com recarga e 18 nós que mudam uma regra, e um teste barra nó só de atributo",
+        "views": 2,
+        "likes": 4,
+        "reposts": 3,
+        "replies": 0,
+        "humans": 0,
+        "networks": {
+          "bluesky": {
+            "views": null,
+            "likes": 4,
+            "reposts": 3,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://bsky.app/profile/dawnbringergame.bsky.social/post/3n37rgsqv4w2i"
+          },
+          "mastodon": {
+            "views": null,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://mastodon.gamedev.place/@dawnbringergame/117682957308375456"
+          },
+          "threads": {
+            "views": 0,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://www.threads.com/@dawnbringergame/post/DgNNE9fEW-0"
+          },
+          "instagram": {
+            "views": 0,
+            "likes": 0,
+            "reposts": null,
+            "replies": 0,
+            "humans": null,
+            "link": "https://www.instagram.com/reel/DgNNVImMe1u/"
+          },
+          "tiktok": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://www.tiktok.com/@dawnbringer_game/video/7712471070938238228"
+          },
+          "facebook": {
+            "views": 0,
+            "likes": 0,
+            "reposts": null,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://www.facebook.com/1362473893625258/videos/2553276948494031"
+          },
+          "youtube": {
+            "views": 2,
+            "likes": 0,
+            "reposts": null,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://youtube.com/shorts/1hrcvLtFEFQ"
+          },
+          "discord": {
+            "views": null,
+            "likes": 0,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": null
+          },
+          "praisetc": {
+            "views": null,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://bsky.app/profile/praisetc.bsky.social/post/3n37ronnm4323"
+          },
+          "x": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://x.com/dawnbringergame/status/2125945070520058056"
+          }
+        }
+      },
+      {
+        "date": "2026-11-25",
+        "item": "1389-pecas",
+        "formato": 5,
+        "assunto": "Peças de arte: no tamanho de jogo, vários desenhos novos de inimigos e equipamentos sumiam no fundo escuro; a 0.8 redesenhou 32, e cada redesenho só entrou vencendo o antigo num voto cego",
+        "views": 240,
+        "likes": 5,
+        "reposts": 3,
+        "replies": 1,
+        "humans": 1,
+        "networks": {
+          "bluesky": {
+            "views": null,
+            "likes": 5,
+            "reposts": 3,
+            "replies": 1,
+            "humans": 1,
+            "link": "https://bsky.app/profile/dawnbringergame.bsky.social/post/3n35bngnw5c2z"
+          },
+          "mastodon": {
+            "views": null,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://mastodon.gamedev.place/@dawnbringergame/117677342289026343"
+          },
+          "threads": {
+            "views": 8,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://www.threads.com/@dawnbringergame/post/DgKpqL2kT_m"
+          },
+          "instagram": {
+            "views": 85,
+            "likes": 0,
+            "reposts": null,
+            "replies": 0,
+            "humans": null,
+            "link": "https://www.instagram.com/reel/DgKpsXps6Ws/"
+          },
+          "tiktok": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": null
+          },
+          "facebook": {
+            "views": 0,
+            "likes": 0,
+            "reposts": null,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://www.facebook.com/1362473893625258/videos/1129227076621869"
+          },
+          "youtube": {
+            "views": 147,
+            "likes": 0,
+            "reposts": null,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://youtube.com/shorts/DJPz16EoqP0"
+          },
+          "discord": {
+            "views": null,
+            "likes": 0,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": null
+          },
+          "praisetc": {
+            "views": null,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://bsky.app/profile/praisetc.bsky.social/post/3n35brrsre523"
+          },
+          "x": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://x.com/dawnbringergame/status/2125585404397326588"
+          }
+        }
+      },
+      {
+        "date": "2026-11-24",
+        "item": "1444-casa",
+        "formato": 5,
+        "assunto": "A Casa: a tela antes de cada run tinha 109 palavras em inglês; a 0.8 deixou 55 e trocou as listas de nomes de itens por um pote de vidro com uma conta por item",
+        "views": 92,
+        "likes": 5,
+        "reposts": 3,
+        "replies": 0,
+        "humans": 0,
+        "networks": {
+          "bluesky": {
+            "views": null,
+            "likes": 5,
+            "reposts": 3,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://bsky.app/profile/dawnbringergame.bsky.social/post/3n32u73dgar22"
+          },
+          "mastodon": {
+            "views": null,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://mastodon.gamedev.place/@dawnbringergame/117671892358537637"
+          },
+          "instagram": {
+            "views": 19,
+            "likes": 0,
+            "reposts": null,
+            "replies": 0,
+            "humans": null,
+            "link": "https://www.instagram.com/reel/DgILDydsVD9/"
+          },
+          "tiktok": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://www.tiktok.com/@dawnbringer_game/video/7711745385429011733"
+          },
+          "facebook": {
+            "views": 0,
+            "likes": 0,
+            "reposts": null,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://www.facebook.com/1362473893625258/videos/1661122268836037"
+          },
+          "youtube": {
+            "views": 73,
+            "likes": 0,
+            "reposts": null,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://youtube.com/shorts/apmAZ48sBsc"
+          },
+          "discord": {
+            "views": null,
+            "likes": 0,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": null
+          },
+          "praisetc": {
+            "views": null,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://bsky.app/profile/praisetc.bsky.social/post/3n32ucy3gvv2b"
+          }
+        }
+      },
+      {
+        "date": "2026-11-23",
+        "item": "1426-shuffle",
+        "formato": 5,
+        "assunto": "Som: dez tipos de criatura lutavam mudos; a 0.8 deu 30 gritos novos e um arrastar abafado para quem avança, em vez de reusar o passo do herói",
+        "views": 734,
+        "likes": 5,
+        "reposts": 3,
+        "replies": 0,
+        "humans": 0,
+        "networks": {
+          "bluesky": {
+            "views": null,
+            "likes": 4,
+            "reposts": 3,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://bsky.app/profile/dawnbringergame.bsky.social/post/3n2ycismknb2a"
+          },
+          "mastodon": {
+            "views": null,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://mastodon.gamedev.place/@dawnbringergame/117666143655168804"
+          },
+          "threads": {
+            "views": 0,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://www.threads.com/@dawnbringergame/post/DgFjvHOkQuW"
+          },
+          "instagram": {
+            "views": 88,
+            "likes": 0,
+            "reposts": null,
+            "replies": 0,
+            "humans": null,
+            "link": "https://www.instagram.com/reel/DgFjxN4s-Ch/"
+          },
+          "facebook": {
+            "views": 0,
+            "likes": 0,
+            "reposts": null,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://www.facebook.com/1362473893625258/videos/2286266845277999"
+          },
+          "youtube": {
+            "views": 646,
+            "likes": 1,
+            "reposts": null,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://youtube.com/shorts/EB1UGM0BTAc"
+          },
+          "discord": {
+            "views": null,
+            "likes": 0,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": null
+          },
+          "praisetc": {
+            "views": null,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://bsky.app/profile/praisetc.bsky.social/post/3n2ycl3i6wz2a"
+          },
+          "tiktok": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://www.tiktok.com/@dawnbringer_game/video/7711414822805507349"
+          },
+          "x": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://x.com/dawnbringergame/status/2124912772689629517"
+          }
+        }
+      },
+      {
+        "date": "2026-11-22",
+        "item": "1456-svg",
+        "formato": 5,
+        "assunto": "Arte: a 0.8 trocou os sprites de pixel art por pinturas que se movem, e aceitou o download do Android subir de 211,9 MB para 278,2 MB",
+        "views": 1243,
+        "likes": 8,
+        "reposts": 3,
+        "replies": 0,
+        "humans": 0,
+        "networks": {
+          "bluesky": {
+            "views": null,
+            "likes": 5,
+            "reposts": 3,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://bsky.app/profile/dawnbringergame.bsky.social/post/3n2vp5qcgjp2b"
+          },
+          "mastodon": {
+            "views": null,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://mastodon.gamedev.place/@dawnbringergame/117660278831802261"
+          },
+          "threads": {
+            "views": 4,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://www.threads.com/@dawnbringergame/post/DgC5DBUkaPx"
+          },
+          "facebook": {
+            "views": 0,
+            "likes": 0,
+            "reposts": null,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://www.facebook.com/1362473893625258/videos/1881873486583493"
+          },
+          "youtube": {
+            "views": 1113,
+            "likes": 3,
+            "reposts": null,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://youtube.com/shorts/WTG24Zrz6Wo"
+          },
+          "discord": {
+            "views": null,
+            "likes": 0,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": null
+          },
+          "praisetc": {
+            "views": null,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://bsky.app/profile/praisetc.bsky.social/post/3n2vp76albf2a"
+          },
+          "instagram": {
+            "views": 126,
+            "likes": 0,
+            "reposts": null,
+            "replies": 0,
+            "humans": null,
+            "link": "https://www.instagram.com/reel/DgELMLus9Hz/"
+          },
+          "tiktok": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://www.tiktok.com/@dawnbringer_game/video/7711414738302848262"
+          },
+          "x": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://x.com/dawnbringergame/status/2124912282811645996"
+          }
+        }
+      },
+      {
+        "date": "2026-11-21",
+        "item": "1387-tonico",
+        "formato": 5,
+        "assunto": "Semana 1: em vez de construir um restaurante de cura, a 0.8 baixou os inimigos da semana 1 para 90% e deu um Tônico de Sangue no começo de toda run",
+        "views": 1229,
+        "likes": 12,
+        "reposts": 3,
+        "replies": 1,
+        "humans": 1,
+        "networks": {
+          "bluesky": {
+            "views": null,
+            "likes": 8,
+            "reposts": 3,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://bsky.app/profile/dawnbringergame.bsky.social/post/3n2t7icdxjy2b"
+          },
+          "mastodon": {
+            "views": null,
+            "likes": 1,
+            "reposts": 0,
+            "replies": 1,
+            "humans": 1,
+            "link": "https://mastodon.gamedev.place/@dawnbringergame/117654672264992342"
+          },
+          "threads": {
+            "views": 0,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://www.threads.com/@dawnbringergame/post/DgAV3-3Ebnr"
+          },
+          "facebook": {
+            "views": 0,
+            "likes": 0,
+            "reposts": null,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://www.facebook.com/1362473893625258/videos/2250745895785147"
+          },
+          "youtube": {
+            "views": 1099,
+            "likes": 2,
+            "reposts": null,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://youtube.com/shorts/A3mlbP4r9xM"
+          },
+          "discord": {
+            "views": null,
+            "likes": 0,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": null
+          },
+          "praisetc": {
+            "views": null,
+            "likes": 1,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://bsky.app/profile/praisetc.bsky.social/post/3n2t7jffbeq2b"
+          },
+          "instagram": {
+            "views": 130,
+            "likes": 0,
+            "reposts": null,
+            "replies": 0,
+            "humans": null,
+            "link": "https://www.instagram.com/reel/DgELH7dMQ3Z/"
+          },
+          "tiktok": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://www.tiktok.com/@dawnbringer_game/video/7711414663560416533"
+          },
+          "x": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://x.com/dawnbringergame/status/2124911638436335752"
+          }
+        }
+      },
+      {
+        "date": "2026-11-20",
+        "item": "He ate the orchards' heat",
+        "formato": 4,
+        "assunto": "Landlord: o Devorador de Pomares guardava os pomares onde as casas penduravam lascas contra a geada, comeu as lascas e os pomares gelaram (luta do fim da semana)",
+        "views": 2,
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "humans": 0,
+        "networks": {
+          "bluesky": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://bsky.app/profile/dawnbringergame.bsky.social/post/3n2rm73vkot23"
+          },
+          "mastodon": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://mastodon.gamedev.place/@dawnbringergame/117651063479222427"
+          },
+          "threads": {
+            "views": 2,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://www.threads.com/@dawnbringergame/post/Df-s2DdmWwp"
+          },
+          "facebook": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://www.facebook.com/1362473893625258/videos/1164563566092788"
+          },
+          "youtube": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://youtube.com/shorts/cfhRFbw_Erc"
+          },
+          "discord": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": null
+          },
+          "praisetc": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://bsky.app/profile/praisetc.bsky.social/post/3n2rmaleij62b"
+          }
+        }
+      },
+      {
+        "date": "2026-11-19",
+        "item": "They come two at a time",
+        "formato": 4,
+        "assunto": "regra: um grupo luta de dois em dois e, quando um cai, o próximo entra em cena (luta em grupo do Penitente de Ferro no morro da forca)",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "humans": 0,
+        "networks": {
+          "bluesky": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://bsky.app/profile/dawnbringergame.bsky.social/post/3n2o6jbktda2g"
+          },
+          "mastodon": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://mastodon.gamedev.place/@dawnbringergame/117643345204654670"
+          },
+          "threads": {
+            "views": 0,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://www.threads.com/@dawnbringergame/post/Df7MNuDEUw5"
+          },
+          "facebook": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://www.facebook.com/1362473893625258/videos/1661218722421806"
+          },
+          "youtube": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://youtube.com/shorts/25vYgUg0yi4"
+          },
+          "discord": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": null
+          },
+          "praisetc": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://bsky.app/profile/praisetc.bsky.social/post/3n2o6kmdxrq25"
+          }
+        }
+      },
+      {
+        "date": "2026-11-18",
+        "item": "Three stories I threw out",
+        "formato": 3,
+        "assunto": "",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "humans": 0,
+        "networks": {
+          "bluesky": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://bsky.app/profile/dawnbringergame.bsky.social/post/3n2lo2dffn72s"
+          },
+          "mastodon": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://mastodon.gamedev.place/@dawnbringergame/117637682784423495"
+          },
+          "threads": {
+            "views": 0,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://www.threads.com/@dawnbringergame/post/Df4namEEWBn"
+          },
+          "facebook": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://www.facebook.com/1362473893625258/videos/1129054796402364"
+          },
+          "youtube": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://youtube.com/shorts/no9k85NB7-s"
+          },
+          "discord": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": null
+          },
+          "praisetc": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://bsky.app/profile/praisetc.bsky.social/post/3n2lo3khf5e22"
+          }
+        }
+      },
+      {
+        "date": "2026-11-17",
+        "item": "Rarity was only a color",
+        "formato": 3,
+        "assunto": "",
+        "views": 35,
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "humans": 0,
+        "networks": {
+          "bluesky": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://bsky.app/profile/dawnbringergame.bsky.social/post/3n2j5djsqct2a"
+          },
+          "mastodon": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://mastodon.gamedev.place/@dawnbringergame/117632002658364305"
+          },
+          "threads": {
+            "views": 0,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://www.threads.com/@dawnbringergame/post/Df2CGjeEQxR"
+          },
+          "instagram": {
+            "views": 35,
+            "likes": 0,
+            "reposts": null,
+            "replies": 0,
+            "humans": null,
+            "link": "https://www.instagram.com/reel/Df2CIoxMm-S/"
+          },
+          "facebook": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://www.facebook.com/1362473893625258_122111325807535231"
+          },
+          "youtube": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://youtube.com/shorts/bSz2h1TaCVk"
+          },
+          "discord": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": null
+          },
+          "praisetc": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://bsky.app/profile/praisetc.bsky.social/post/3n2j5f7aqcw2x"
+          }
+        }
+      },
+      {
+        "date": "2026-11-16",
+        "item": "I misread my own game",
+        "formato": 3,
+        "assunto": "",
+        "views": 1,
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "humans": 0,
+        "networks": {
+          "bluesky": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://bsky.app/profile/dawnbringergame.bsky.social/post/3n2gmkys7ap2r"
+          },
+          "mastodon": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://mastodon.gamedev.place/@dawnbringergame/117626319248538196"
+          },
+          "threads": {
+            "views": 1,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://www.threads.com/@dawnbringergame/post/DfzcsVUEWA_"
+          },
+          "instagram": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://www.instagram.com/reel/DfzcuMCMhgR/"
+          },
+          "facebook": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://www.facebook.com/1362473893625258_122110939851535231"
+          },
+          "youtube": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://youtube.com/shorts/k1DvEBFGBZY"
+          },
+          "discord": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": null
+          },
+          "praisetc": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://bsky.app/profile/praisetc.bsky.social/post/3n2gmmutrap2r"
+          }
+        }
+      },
+      {
+        "date": "2026-11-15",
+        "item": "The boss I turned down",
+        "formato": 3,
+        "assunto": "",
+        "views": 7,
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "humans": 0,
+        "networks": {
+          "bluesky": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://bsky.app/profile/dawnbringergame.bsky.social/post/3n2e4nu4jbb2a"
+          },
+          "mastodon": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://mastodon.gamedev.place/@dawnbringergame/117620696054763481"
+          },
+          "threads": {
+            "views": 7,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://www.threads.com/@dawnbringergame/post/Dfw5CVLkTrw"
+          },
+          "instagram": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://www.instagram.com/reel/Dfw5ENwME20/"
+          },
+          "facebook": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://www.facebook.com/1362473893625258_122110550769535231"
+          },
+          "youtube": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://youtube.com/shorts/xQCmKOs6R-Y"
+          },
+          "discord": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": null
+          },
+          "praisetc": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://bsky.app/profile/praisetc.bsky.social/post/3n2e4pj2zlv25"
+          }
+        }
+      },
+      {
+        "date": "2026-11-14",
+        "item": "Everyone got a new drawing",
+        "formato": 3,
+        "assunto": "",
+        "views": 755,
+        "likes": 12,
+        "reposts": 4,
+        "replies": 0,
+        "humans": 0,
+        "networks": {
+          "bluesky": {
+            "views": null,
+            "likes": 6,
+            "reposts": 3,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://bsky.app/profile/dawnbringergame.bsky.social/post/3n2bltupfna24"
+          },
+          "mastodon": {
+            "views": null,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://mastodon.gamedev.place/@dawnbringergame/117615009472253563"
+          },
+          "threads": {
+            "views": 1,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://www.threads.com/@dawnbringergame/post/DfuTiQHEXy0"
+          },
+          "instagram": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://www.instagram.com/reel/DfuTjk-Mztc/"
+          },
+          "facebook": {
+            "views": null,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://www.facebook.com/1362473893625258_122110129839535231"
+          },
+          "youtube": {
+            "views": 754,
+            "likes": 5,
+            "reposts": null,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://youtube.com/shorts/U_8FoZxY4xs"
+          },
+          "discord": {
+            "views": null,
+            "likes": 0,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": null
+          },
+          "praisetc": {
+            "views": null,
+            "likes": 1,
+            "reposts": 1,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://bsky.app/profile/praisetc.bsky.social/post/3n2blvmhz2q24"
+          }
+        }
+      },
+      {
+        "date": "2026-11-13",
+        "item": "It froze on the title screen",
+        "formato": 3,
+        "assunto": "",
+        "views": 190,
+        "likes": 7,
+        "reposts": 4,
+        "replies": 0,
+        "humans": 0,
+        "networks": {
+          "bluesky": {
+            "views": null,
+            "likes": 6,
+            "reposts": 3,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://bsky.app/profile/dawnbringergame.bsky.social/post/3n2736fkr3p2r"
+          },
+          "mastodon": {
+            "views": null,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://mastodon.gamedev.place/@dawnbringergame/117609332667478518"
+          },
+          "threads": {
+            "views": 2,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://www.threads.com/@dawnbringergame/post/DfruUaXETrr"
+          },
+          "instagram": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://www.instagram.com/reel/DfruWhGscFX/"
+          },
+          "facebook": {
+            "views": null,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://www.facebook.com/1362473893625258_122109593325535231"
+          },
+          "youtube": {
+            "views": 188,
+            "likes": 0,
+            "reposts": null,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://youtube.com/shorts/AUCy0HBTPz0"
+          },
+          "discord": {
+            "views": null,
+            "likes": 0,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": null
+          },
+          "praisetc": {
+            "views": null,
+            "likes": 1,
+            "reposts": 1,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://bsky.app/profile/praisetc.bsky.social/post/3n273a5vjt425"
+          }
+        }
+      },
+      {
+        "date": "2026-11-12",
+        "item": "Oct 1 and today",
+        "formato": 3,
+        "assunto": "",
+        "views": 62,
+        "likes": 10,
+        "reposts": 4,
+        "replies": 0,
+        "humans": 0,
+        "networks": {
+          "bluesky": {
+            "views": null,
+            "likes": 8,
+            "reposts": 3,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://bsky.app/profile/dawnbringergame.bsky.social/post/3n24kll55sb25"
+          },
+          "mastodon": {
+            "views": null,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://mastodon.gamedev.place/@dawnbringergame/117603661797883166"
+          },
+          "facebook": {
+            "views": null,
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://www.facebook.com/1362473893625258_122109127761535231"
+          },
+          "youtube": {
+            "views": 62,
+            "likes": 0,
+            "reposts": null,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://youtube.com/shorts/ECwOiv73jZY"
+          },
+          "discord": {
+            "views": null,
+            "likes": 0,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": null
+          },
+          "praisetc": {
+            "views": null,
+            "likes": 2,
+            "reposts": 1,
+            "replies": 0,
+            "humans": 0,
+            "link": "https://bsky.app/profile/praisetc.bsky.social/post/3n24km4a75o25"
+          }
+        }
+      },
+      {
+        "date": "2026-11-11",
+        "item": "He fights you with a noose on his neck.",
+        "formato": 2,
+        "assunto": "Landlord: o Diácono da Forca põe um condenado de corda no pescoço para lutar contra você em troca de folga na corda; pergunta sobre o leitor (acordo de vilão)",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "humans": 0,
+        "networks": {
+          "bluesky": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://bsky.app/profile/dawnbringergame.bsky.social/post/3n222joczy325"
+          },
+          "mastodon": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://mastodon.gamedev.place/@dawnbringergame/117598028581485858"
+          },
+          "facebook": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://www.facebook.com/1362473893625258/videos/1809135176657510"
+          },
+          "youtube": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://youtube.com/shorts/PAYQD5ws_Fs"
+          },
+          "discord": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": null
+          },
+          "praisetc": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://bsky.app/profile/praisetc.bsky.social/post/3n222klq5im2l"
+          }
+        }
+      },
+      {
+        "date": "2026-11-10",
+        "item": "Your dead hunter stands back up.",
+        "formato": 2,
+        "assunto": "risen: o caçador que morre se levanta com o ouro e espera o próximo; pergunta sobre o leitor",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "humans": 0,
+        "networks": {
+          "bluesky": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://bsky.app/profile/dawnbringergame.bsky.social/post/3mzxk6rdgqz2g"
+          },
+          "mastodon": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://mastodon.gamedev.place/@dawnbringergame/117592375032622563"
+          },
+          "facebook": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://www.facebook.com/1362473893625258/videos/3734912636647478"
+          },
+          "youtube": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://youtube.com/shorts/oreQr2mSJV0"
+          },
+          "discord": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": null
+          },
+          "praisetc": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://bsky.app/profile/praisetc.bsky.social/post/3mzxk7j5cn22q"
+          }
+        }
+      },
+      {
+        "date": "2026-11-09",
+        "item": "Know what you risk before you leave.",
+        "formato": null,
+        "assunto": "",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "humans": 0,
+        "networks": {
+          "bluesky": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://bsky.app/profile/dawnbringergame.bsky.social/post/3mzuzo4kubp2f"
+          },
+          "mastodon": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://mastodon.gamedev.place/@dawnbringergame/117586708469366678"
+          },
+          "facebook": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://www.facebook.com/1362473893625258_122106425097535231"
+          },
+          "discord": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": null
+          },
+          "praisetc": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://bsky.app/profile/praisetc.bsky.social/post/3mzuzojyzuj2y"
+          }
+        }
+      },
+      {
+        "date": "2026-11-08",
+        "item": "Your gear joins the music.",
+        "formato": null,
+        "assunto": "",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "humans": 0,
+        "networks": {
+          "bluesky": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://bsky.app/profile/dawnbringergame.bsky.social/post/3mzt2rnszg72u"
+          },
+          "mastodon": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://mastodon.gamedev.place/@dawnbringergame/117582283394533769"
+          },
+          "praisetc": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://bsky.app/profile/praisetc.bsky.social/post/3mzt2rxznwl2u"
+          },
+          "youtube": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://youtube.com/shorts/8NYpGiPqVY0"
+          },
+          "instagram": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://www.instagram.com/dawnbringergame/reel/DfgSYoaO_Y2/"
+          },
+          "threads": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": "https://www.threads.com/@dawnbringergame/post/DfgTHObDH89"
+          },
+          "discord": {
+            "views": null,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
+            "link": null
+          }
+        }
+      }
+    ],
+    "interactions": [
+      {
+        "date": "2026-11-26",
+        "network": "threads",
+        "type": "reply",
+        "author": "@kaimasdev",
+        "system": "skill tree",
+        "tone": "positivo",
+        "summary": "Liked the test that fails on stat-only tree nodes as a guardrail; asked whether nodes are tagged by hand or checked by what they touch.",
+        "link": "https://www.threads.com/@kaimasdev/post/DgNoQYgEeiC"
+      },
+      {
+        "date": "2026-11-25",
+        "network": "bluesky",
+        "type": "reply",
+        "author": "@sherifforoutlaw.bsky.social",
+        "system": "arte",
+        "tone": "positivo",
+        "summary": "Elogia o voto cego com empate mantendo a arte antiga como freio contra redesenhar por redesenhar; quer saber se algum redesenho perdeu para o original.",
+        "link": "https://bsky.app/profile/sherifforoutlaw.bsky.social/post/3n35sdd3m5j2u"
+      },
+      {
+        "date": "2026-11-25",
+        "network": "bluesky",
+        "type": "reply",
+        "author": "@sherifforoutlaw.bsky.social",
+        "system": "arte redesenhada",
+        "tone": "positivo",
+        "summary": "Achou que o resultado da votação (só 2 de 38 redesenhos perderam direto) mostra que os redesenhos são bons e gostou de ver o voto confirmando.",
+        "link": "https://bsky.app/profile/sherifforoutlaw.bsky.social/post/3n367webox32b"
+      },
+      {
+        "date": "2026-11-17",
+        "network": "mastodon",
+        "type": "reply",
+        "author": "@thecrownforge",
+        "system": "acessibilidade de cor",
+        "tone": "positivo",
+        "summary": "Sugere testar as pistas sem cor com tarefas (achar item lendario, dizer o tipo de dano, de quem e o turno) e perguntar qual pista a pessoa usou, em vez de sim ou nao sobre a paleta.",
+        "link": "https://mastodon.gamedev.place/@thecrownforge/117632034473694190"
+      },
+      {
+        "date": "2026-11-16",
+        "network": "youtube",
+        "type": "comment",
+        "author": "comentário YouTube",
+        "system": "texto no video",
+        "tone": "negativo",
+        "summary": "Achou texto demais para ler no video I misread my own game; nao ficou claro se era o texto do video ou das cartas do jogo.",
+        "link": "https://www.youtube.com/watch?v=k1DvEBFGBZY&lc=UgzmHuKZF12FWLEVzft4AaABAg"
+      },
+      {
+        "date": "2026-11-09",
+        "network": "mastodon",
+        "type": "reply",
+        "author": "@thecrownforge",
+        "system": "aviso de risco no acampamento",
+        "tone": "misto",
+        "summary": "As duas linhas com valores ajudam, mas a primeira deveria dizer a condição ('perdido se você morrer'); ao lado de Embark, 'You lose' parece taxa de saída. Pergunta se equipamento também entra no aviso.",
+        "link": "https://mastodon.gamedev.place/@thecrownforge/117587136627069143"
+      },
+      {
+        "date": "2026-11-08",
+        "network": "bluesky",
+        "type": "reply",
+        "author": "@redpandaok.com",
+        "system": "lore e sistemas",
+        "tone": "positivo",
+        "summary": "Valoriza o cuidado em manter os sistemas coerentes com o lore e acha que isso rende a cada versão.",
+        "link": "https://bsky.app/profile/redpandaok.com/post/3mzst6i5qd22p"
+      },
+      {
+        "date": "2026-11-08",
+        "network": "bluesky",
+        "type": "reply",
+        "author": "@vidrip.bsky.social",
+        "system": "porta semanal de região",
+        "tone": "positivo",
+        "summary": "Gostou de escolher a região numa porta a cada semana para moldar a run; perguntou se o alpha Android é aberto ou só por convite.",
+        "link": "https://bsky.app/profile/vidrip.bsky.social/post/3mzrjqesemc24"
+      },
+      {
+        "date": "2026-11-08",
+        "network": "mastodon",
+        "type": "reply",
+        "author": "@thecrownforge",
+        "system": "camadas de música dos itens",
+        "tone": "misto",
+        "summary": "Quer saber quantos loops de família tocam juntos; teme que um build cheio esconda os avisos de ataque do chefe e sugere um slider de volume separado para as camadas do equipamento.",
+        "link": "https://mastodon.gamedev.place/@thecrownforge/117582877936905961"
+      }
+    ],
+    "format5": {
+      "posts": 6,
+      "views": 3540,
+      "medianViews": 147,
+      "humans": 2
+    }
+  },
+  "pulse": {
+    "totals": {
+      "humanPageviews": 0,
+      "humanClicks": 0,
+      "humanGo": 0,
+      "botEvents": 0,
+      "last7dHuman": 0,
+      "last30dHuman": 0
+    },
+    "daily": [
+      {
+        "d": "2026-10-29",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-10-30",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-10-31",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-01",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-02",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-03",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-04",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-05",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-06",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-07",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-08",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-09",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-10",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-11",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-12",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-13",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-14",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-15",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-16",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-17",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-18",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-19",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-20",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-21",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-22",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-23",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-24",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-25",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-26",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-27",
+        "pageviews": 0,
+        "clicks": 0,
+        "go": 0,
+        "bots": 0
+      }
+    ],
+    "topTargets": [],
+    "topReferrers": [],
+    "topSources": [],
+    "topWho": [],
+    "topRegions": [],
+    "topPages": [],
+    "devices": [],
+    "langs": []
+  },
+  "installs": {
+    "downloads": {
+      "total": 57,
+      "byOs": [
+        {
+          "os": "Windows",
+          "n": 21
+        },
+        {
+          "os": "Linux",
+          "n": 18
+        },
+        {
+          "os": "macOS",
+          "n": 18
+        }
+      ],
+      "byTag": [
+        {
+          "tag": "demo-v0.8.0",
+          "date": "2026-11-19",
+          "total": 6,
+          "os": {
+            "Linux": 2,
+            "macOS": 2,
+            "Windows": 2
+          }
+        },
+        {
+          "tag": "demo-v0.7.2",
+          "date": "2026-11-08",
+          "total": 5,
+          "os": {
+            "Linux": 1,
+            "macOS": 1,
+            "Windows": 3
+          }
+        },
+        {
+          "tag": "v0.7.2",
+          "date": "2026-11-08",
+          "total": 3,
+          "os": {
+            "Linux": 1,
+            "macOS": 1,
+            "Windows": 1
+          }
+        },
+        {
+          "tag": "demo-v0.5.0",
+          "date": "2026-10-21",
+          "total": 5,
+          "os": {
+            "Linux": 3,
+            "macOS": 1,
+            "Windows": 1
+          }
+        },
+        {
+          "tag": "v0.5.0",
+          "date": "2026-10-21",
+          "total": 0,
+          "os": {
+            "Linux": 0,
+            "macOS": 0,
+            "Windows": 0
+          }
+        },
+        {
+          "tag": "demo-v0.4.0",
+          "date": "2026-10-18",
+          "total": 29,
+          "os": {
+            "Linux": 8,
+            "macOS": 10,
+            "Windows": 11
+          }
+        },
+        {
+          "tag": "demo-v0.3.0",
+          "date": "2026-10-17",
+          "total": 9,
+          "os": {
+            "Linux": 3,
+            "macOS": 3,
+            "Windows": 3
+          }
+        }
+      ]
+    },
+    "play": {
+      "tracks": [
+        {
+          "track": "production",
+          "release": null
+        },
+        {
+          "track": "beta",
+          "release": null
+        },
+        {
+          "track": "alpha",
+          "release": "0.8.0 (8)"
+        },
+        {
+          "track": "internal",
+          "release": "0.2.0 (2)"
+        }
+      ],
+      "vitals": [],
+      "vitalsNote": "Play sem dias (abaixo do piso mínimo de usuários para vitals)",
+      "bucketConfigured": false
+    }
+  },
+  "game": {
+    "telemetry": {
+      "totals": {
+        "players": 6,
+        "runs": 32,
+        "wins": 1,
+        "winRate": 3.1,
+        "minutes": 324,
+        "medianMinutes": 5,
+        "medianEndWeek": 1,
+        "duels": 0
+      },
+      "daily": [
+        {
+          "d": "2026-10-29",
+          "players": 0,
+          "newPlayers": 0,
+          "runs": 0,
+          "wins": 0,
+          "minutes": 0
+        },
+        {
+          "d": "2026-10-30",
+          "players": 0,
+          "newPlayers": 0,
+          "runs": 0,
+          "wins": 0,
+          "minutes": 0
+        },
+        {
+          "d": "2026-10-31",
+          "players": 0,
+          "newPlayers": 0,
+          "runs": 0,
+          "wins": 0,
+          "minutes": 0
+        },
+        {
+          "d": "2026-11-01",
+          "players": 0,
+          "newPlayers": 0,
+          "runs": 0,
+          "wins": 0,
+          "minutes": 0
+        },
+        {
+          "d": "2026-11-02",
+          "players": 0,
+          "newPlayers": 0,
+          "runs": 0,
+          "wins": 0,
+          "minutes": 0
+        },
+        {
+          "d": "2026-11-03",
+          "players": 1,
+          "newPlayers": 1,
+          "runs": 7,
+          "wins": 0,
+          "minutes": 45
+        },
+        {
+          "d": "2026-11-04",
+          "players": 1,
+          "newPlayers": 0,
+          "runs": 3,
+          "wins": 0,
+          "minutes": 29
+        },
+        {
+          "d": "2026-11-05",
+          "players": 4,
+          "newPlayers": 3,
+          "runs": 5,
+          "wins": 0,
+          "minutes": 48
+        },
+        {
+          "d": "2026-11-06",
+          "players": 1,
+          "newPlayers": 0,
+          "runs": 2,
+          "wins": 0,
+          "minutes": 0
+        },
+        {
+          "d": "2026-11-07",
+          "players": 0,
+          "newPlayers": 0,
+          "runs": 0,
+          "wins": 0,
+          "minutes": 0
+        },
+        {
+          "d": "2026-11-08",
+          "players": 0,
+          "newPlayers": 0,
+          "runs": 0,
+          "wins": 0,
+          "minutes": 0
+        },
+        {
+          "d": "2026-11-09",
+          "players": 1,
+          "newPlayers": 0,
+          "runs": 3,
+          "wins": 0,
+          "minutes": 78
+        },
+        {
+          "d": "2026-11-10",
+          "players": 0,
+          "newPlayers": 0,
+          "runs": 0,
+          "wins": 0,
+          "minutes": 0
+        },
+        {
+          "d": "2026-11-11",
+          "players": 0,
+          "newPlayers": 0,
+          "runs": 0,
+          "wins": 0,
+          "minutes": 0
+        },
+        {
+          "d": "2026-11-12",
+          "players": 0,
+          "newPlayers": 0,
+          "runs": 0,
+          "wins": 0,
+          "minutes": 0
+        },
+        {
+          "d": "2026-11-13",
+          "players": 0,
+          "newPlayers": 0,
+          "runs": 0,
+          "wins": 0,
+          "minutes": 0
+        },
+        {
+          "d": "2026-11-14",
+          "players": 0,
+          "newPlayers": 0,
+          "runs": 0,
+          "wins": 0,
+          "minutes": 0
+        },
+        {
+          "d": "2026-11-15",
+          "players": 0,
+          "newPlayers": 0,
+          "runs": 0,
+          "wins": 0,
+          "minutes": 0
+        },
+        {
+          "d": "2026-11-16",
+          "players": 0,
+          "newPlayers": 0,
+          "runs": 0,
+          "wins": 0,
+          "minutes": 0
+        },
+        {
+          "d": "2026-11-17",
+          "players": 1,
+          "newPlayers": 1,
+          "runs": 2,
+          "wins": 1,
+          "minutes": 21
+        },
+        {
+          "d": "2026-11-18",
+          "players": 2,
+          "newPlayers": 1,
+          "runs": 8,
+          "wins": 0,
+          "minutes": 91
+        },
+        {
+          "d": "2026-11-19",
+          "players": 1,
+          "newPlayers": 0,
+          "runs": 1,
+          "wins": 0,
+          "minutes": 1
+        },
+        {
+          "d": "2026-11-20",
+          "players": 1,
+          "newPlayers": 0,
+          "runs": 1,
+          "wins": 0,
+          "minutes": 11
+        },
+        {
+          "d": "2026-11-21",
+          "players": 0,
+          "newPlayers": 0,
+          "runs": 0,
+          "wins": 0,
+          "minutes": 0
+        },
+        {
+          "d": "2026-11-22",
+          "players": 0,
+          "newPlayers": 0,
+          "runs": 0,
+          "wins": 0,
+          "minutes": 0
+        },
+        {
+          "d": "2026-11-23",
+          "players": 0,
+          "newPlayers": 0,
+          "runs": 0,
+          "wins": 0,
+          "minutes": 0
+        },
+        {
+          "d": "2026-11-24",
+          "players": 0,
+          "newPlayers": 0,
+          "runs": 0,
+          "wins": 0,
+          "minutes": 0
+        },
+        {
+          "d": "2026-11-25",
+          "players": 0,
+          "newPlayers": 0,
+          "runs": 0,
+          "wins": 0,
+          "minutes": 0
+        },
+        {
+          "d": "2026-11-26",
+          "players": 0,
+          "newPlayers": 0,
+          "runs": 0,
+          "wins": 0,
+          "minutes": 0
+        },
+        {
+          "d": "2026-11-27",
+          "players": 0,
+          "newPlayers": 0,
+          "runs": 0,
+          "wins": 0,
+          "minutes": 0
+        }
+      ],
+      "weeklyInstalls": [
+        {
+          "week": "2026-W47",
+          "platforms": {
+            "android": 2
+          },
+          "total": 2
+        },
+        {
+          "week": "2026-W46",
+          "platforms": {
+            "android": 1
+          },
+          "total": 1
+        },
+        {
+          "week": "2026-W45",
+          "platforms": {
+            "android": 3,
+            "windows": 1
+          },
+          "total": 4
+        }
+      ],
+      "byPlatform": [
+        {
+          "platform": "android",
+          "players": 5,
+          "runs": 20,
+          "wins": 1,
+          "minutes": 226
+        },
+        {
+          "platform": "windows",
+          "players": 1,
+          "runs": 12,
+          "wins": 0,
+          "minutes": 98
+        }
+      ],
+      "byVersion": [
+        {
+          "version": "0.8.0",
+          "players": 1,
+          "runs": 3,
+          "wins": 0
+        },
+        {
+          "version": "0.7.2",
+          "players": 3,
+          "runs": 12,
+          "wins": 1
+        },
+        {
+          "version": "0.7.1",
+          "players": 3,
+          "runs": 5,
+          "wins": 0
+        },
+        {
+          "version": "0.7.0",
+          "players": 1,
+          "runs": 12,
+          "wins": 0
+        }
+      ],
+      "outcomes": [
+        {
+          "outcome": "death",
+          "n": 27
+        },
+        {
+          "outcome": "abandoned",
+          "n": 3
+        },
+        {
+          "outcome": "victory",
+          "n": 1
+        },
+        {
+          "outcome": "cash_out",
+          "n": 1
+        }
+      ],
+      "champions": [
+        {
+          "champion": "gallows_marksman",
+          "runs": 16,
+          "wins": 0,
+          "players": 4
+        },
+        {
+          "champion": "ironbound_penitent",
+          "runs": 12,
+          "wins": 1,
+          "players": 3
+        },
+        {
+          "champion": "ashglass_zealot",
+          "runs": 4,
+          "wins": 0,
+          "players": 1
+        }
+      ],
+      "classes": [
+        {
+          "cls": "archer",
+          "n": 6
+        },
+        {
+          "cls": "noose_cutter",
+          "n": 4
+        },
+        {
+          "cls": "swordsman",
+          "n": 2
+        },
+        {
+          "cls": "thornplate_warden",
+          "n": 1
+        }
+      ],
+      "killers": [
+        {
+          "enemy": "npc_respec_keeper",
+          "n": 3
+        },
+        {
+          "enemy": "cinderling_t2",
+          "n": 3
+        },
+        {
+          "enemy": "the_scalding_colossus",
+          "n": 2
+        },
+        {
+          "enemy": "the_last_light",
+          "n": 2
+        },
+        {
+          "enemy": "the_crowmother",
+          "n": 2
+        },
+        {
+          "enemy": "shadow_hanging_wood_hanged_man",
+          "n": 2
+        },
+        {
+          "enemy": "legend",
+          "n": 2
+        },
+        {
+          "enemy": "hive_hermit_t1",
+          "n": 2
+        },
+        {
+          "enemy": "zombie",
+          "n": 1
+        },
+        {
+          "enemy": "tithe_taker_elite",
+          "n": 1
+        },
+        {
+          "enemy": "the_hollow_king",
+          "n": 1
+        },
+        {
+          "enemy": "the_cinderglass",
+          "n": 1
+        }
+      ],
+      "retention": {
+        "d1": 50,
+        "d3": 16.7,
+        "d7": 0,
+        "base": 6
+      },
+      "reportRegions": [
+        {
+          "country": "BR",
+          "region": "São Paulo",
+          "n": 11
+        }
+      ]
+    },
+    "pvp": {
+      "entries": 0,
+      "verified": 0,
+      "pending": 0,
+      "players": 0,
+      "regions": []
+    },
+    "reports": {
+      "total": 81,
+      "fromPlayers": 0,
+      "fromOwner": 25,
+      "unknownOrigin": 56,
+      "open": 13,
+      "byWeek": [
+        {
+          "week": "2026-W47",
+          "players": 0,
+          "owner": 7
+        },
+        {
+          "week": "2026-W46",
+          "players": 0,
+          "owner": 14
+        },
+        {
+          "week": "2026-W45",
+          "players": 31,
+          "owner": 0
+        },
+        {
+          "week": "2026-W44",
+          "players": 6,
+          "owner": 0
+        },
+        {
+          "week": "2026-W43",
+          "players": 11,
+          "owner": 4
+        },
+        {
+          "week": "2026-W42",
+          "players": 8,
+          "owner": 0
+        }
+      ],
+      "byPlatform": [
+        {
+          "os": "Android",
+          "n": 40
+        },
+        {
+          "os": "Windows",
+          "n": 40
+        },
+        {
+          "os": "Outro",
+          "n": 1
+        }
+      ]
+    }
+  }
+}

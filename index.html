@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+<title>Dawnbringer · Sumário Operacional</title>
+<style>
+  :root {
+    --bg: #0b0710;
+    --panel: #140e1f;
+    --panel2: #1b132b;
+    --border: #2c2142;
+    --text: #efe8f6;
+    --muted: #a699ba;
+    --gold: #f5c05c;
+    --purple: #9b72cf;
+    --green: #58c27d;
+    --amber: #e69d45;
+    --red: #e05c6c;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 16px; background: var(--bg); color: var(--text);
+    font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 1080px; margin: 0 auto; }
+  header {
+    display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px;
+    border-bottom: 1px solid var(--border); padding-bottom: 12px; margin-bottom: 16px;
+  }
+  h1 { margin: 0; font-size: 20px; color: var(--gold); letter-spacing: 0.3px; }
+  h2 { margin: 22px 0 10px; font-size: 16px; color: var(--gold); border-left: 3px solid var(--gold); padding-left: 8px; }
+  h3 { margin: 0 0 8px; font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
+  .meta { color: var(--muted); font-size: 12px; }
+  .pills { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 16px; }
+  .pill { font-size: 11px; padding: 3px 8px; border-radius: 999px; border: 1px solid var(--border); background: var(--panel); }
+  .pill.ok { border-color: #29593b; color: var(--green); }
+  .pill.warn { border-color: #6b4c1f; color: var(--amber); }
+  nav { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
+  nav a {
+    color: var(--text); text-decoration: none; font-size: 12px; padding: 5px 10px;
+    background: var(--panel); border: 1px solid var(--border); border-radius: 6px;
+  }
+  nav a:hover { border-color: var(--gold); color: var(--gold); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(155px, 1fr)); gap: 10px; }
+  .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); gap: 12px; }
+  .card { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 12px; }
+  .kpi { font-size: 22px; font-weight: 700; color: var(--text); margin: 2px 0; }
+  .sub { font-size: 12px; color: var(--muted); }
+  .chart { width: 100%; height: auto; display: block; }
+  .ax { fill: #8b7da1; font-size: 10px; }
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid #221a33; vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: 11px; text-transform: uppercase; }
+  td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+  a { color: #b999f0; }
+  code { background: var(--panel2); padding: 2px 5px; border-radius: 4px; font-size: 12px; word-break: break-all; }
+  .tone-positivo { color: var(--green); }
+  .tone-negativo { color: var(--red); }
+  .tone-misto { color: var(--amber); }
+  .note { font-size: 12px; color: var(--muted); margin-top: 6px; }
+  footer { margin-top: 28px; padding-top: 12px; border-top: 1px solid var(--border); color: var(--muted); font-size: 12px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div>
+      <h1>Dawnbringer · Sumário Operacional</h1>
+      <div class="meta">Atualizado em 2026-11-27 00:29:12 UTC · Janela diária: 30 dias · Somente agregados (sem PII)</div>
+    </div>
+    <div class="meta"><a href="dados.json">dados.json</a></div>
+  </header>
+
+  <div class="pills"><span class="pill ok" title="OK">social: OK</span><span class="pill ok" title="OK">pulse: OK</span><span class="pill ok" title="OK">downloads: OK</span><span class="pill ok" title="OK">play: OK</span><span class="pill ok" title="OK">telemetry: OK</span><span class="pill ok" title="OK">pvp: OK</span><span class="pill ok" title="OK">reports: OK</span></div>
+
+  <nav>
+    <a href="#redes">Redes Sociais</a>
+    <a href="#cliques">Cliques & Origens</a>
+    <a href="#regioes">Regiões & Por Quem</a>
+    <a href="#instalacoes">Instalações</a>
+    <a href="#atividade">Atividade do Jogo</a>
+  </nav>
+
+  <section class="grid">
+    <div class="card"><h3>Views Sociais</h3><div class="kpi">4.592</div><div class="sub">19 dias · 68 curtidas · 2 resp. humanas</div></div>
+    <div class="card"><h3>Cliques & Visitas</h3><div class="kpi">0</div><div class="sub">0 visitas · 0 cliques (0 bots fora)</div></div>
+    <div class="card"><h3>Downloads Demo</h3><div class="kpi">57</div><div class="sub">Windows: 21 · Linux: 18 · macOS: 18</div></div>
+    <div class="card"><h3>Instalações Opt-in</h3><div class="kpi">6</div><div class="sub">32 runs · 0 duelos · PvP: 0</div></div>
+    <div class="card"><h3>Taxa de Vitória</h3><div class="kpi">3.1%</div><div class="sub">Mediana: 5 min · Sem. 1</div></div>
+    <div class="card"><h3>Relatos do Jogo</h3><div class="kpi">81</div><div class="sub">0 jogadores · 25 dono · 13 abertos</div></div>
+  </section>
+
+  <h2 id="redes">1. Redes Sociais</h2>
+  <div class="grid2">
+    <div class="card">
+      <h3>Views por dia (últimos 30 dias)</h3>
+      <svg viewBox="0 0 640 140" class="chart" role="img">
+    <line x1="36" y1="118" x2="632" y2="118" stroke="#2d2342" />
+    <line x1="36" y1="10" x2="632" y2="10" stroke="#1f1730" stroke-dasharray="3 3" />
+    <text x="31" y="18" text-anchor="end" class="ax">1.243</text>
+    <text x="31" y="118" text-anchor="end" class="ax">0</text>
+    <rect x="37.5" y="118.0" width="16.9" height="1.0" rx="2" fill="#f5c05c"><title>2026-10-29: 0</title></rect><rect x="57.4" y="118.0" width="16.9" height="1.0" rx="2" fill="#f5c05c"><title>2026-10-30: 0</title></rect><rect x="77.2" y="118.0" width="16.9" height="1.0" rx="2" fill="#f5c05c"><title>2026-10-31: 0</title></rect><rect x="97.1" y="118.0" width="16.9" height="1.0" rx="2" fill="#f5c05c"><title>2026-11-01: 0</title></rect><rect x="117.0" y="118.0" width="16.9" height="1.0" rx="2" fill="#f5c05c"><title>2026-11-02: 0</title></rect><rect x="136.8" y="118.0" width="16.9" height="1.0" rx="2" fill="#f5c05c"><title>2026-11-03: 0</title></rect><rect x="156.7" y="118.0" width="16.9" height="1.0" rx="2" fill="#f5c05c"><title>2026-11-04: 0</title></rect><rect x="176.6" y="118.0" width="16.9" height="1.0" rx="2" fill="#f5c05c"><title>2026-11-05: 0</title></rect><rect x="196.4" y="118.0" width="16.9" height="1.0" rx="2" fill="#f5c05c"><title>2026-11-06: 0</title></rect><rect x="216.3" y="118.0" width="16.9" height="1.0" rx="2" fill="#f5c05c"><title>2026-11-07: 0</title></rect><rect x="236.2" y="118.0" width="16.9" height="1.0" rx="2" fill="#f5c05c"><title>2026-11-08: 0</title></rect><rect x="256.0" y="118.0" width="16.9" height="1.0" rx="2" fill="#f5c05c"><title>2026-11-09: 0</title></rect><rect x="275.9" y="118.0" width="16.9" height="1.0" rx="2" fill="#f5c05c"><title>2026-11-10: 0</title></rect><rect x="295.8" y="118.0" width="16.9" height="1.0" rx="2" fill="#f5c05c"><title>2026-11-11: 0</title></rect><rect x="315.6" y="112.6" width="16.9" height="5.4" rx="2" fill="#f5c05c"><title>2026-11-12: 62</title></rect><rect x="335.5" y="101.5" width="16.9" height="16.5" rx="2" fill="#f5c05c"><title>2026-11-13: 190</title></rect><rect x="355.4" y="52.4" width="16.9" height="65.6" rx="2" fill="#f5c05c"><title>2026-11-14: 755</title></rect><rect x="375.2" y="117.4" width="16.9" height="1.0" rx="2" fill="#f5c05c"><title>2026-11-15: 7</title></rect><rect x="395.1" y="117.9" width="16.9" height="1.0" rx="2" fill="#f5c05c"><title>2026-11-16: 1</title></rect><rect x="415.0" y="115.0" width="16.9" height="3.0" rx="2" fill="#f5c05c"><title>2026-11-17: 35</title></rect><rect x="434.8" y="118.0" width="16.9" height="1.0" rx="2" fill="#f5c05c"><title>2026-11-18: 0</title></rect><rect x="454.7" y="118.0" width="16.9" height="1.0" rx="2" fill="#f5c05c"><title>2026-11-19: 0</title></rect><rect x="474.6" y="117.8" width="16.9" height="1.0" rx="2" fill="#f5c05c"><title>2026-11-20: 2</title></rect><rect x="494.4" y="11.2" width="16.9" height="106.8" rx="2" fill="#f5c05c"><title>2026-11-21: 1.229</title></rect><rect x="514.3" y="10.0" width="16.9" height="108.0" rx="2" fill="#f5c05c"><title>2026-11-22: 1.243</title></rect><rect x="534.2" y="54.2" width="16.9" height="63.8" rx="2" fill="#f5c05c"><title>2026-11-23: 734</title></rect><rect x="554.0" y="110.0" width="16.9" height="8.0" rx="2" fill="#f5c05c"><title>2026-11-24: 92</title></rect><rect x="573.9" y="97.1" width="16.9" height="20.9" rx="2" fill="#f5c05c"><title>2026-11-25: 240</title></rect><rect x="593.8" y="117.8" width="16.9" height="1.0" rx="2" fill="#f5c05c"><title>2026-11-26: 2</title></rect><rect x="613.6" y="118.0" width="16.9" height="1.0" rx="2" fill="#f5c05c"><title>2026-11-27: 0</title></rect>
+    <text x="36" y="135" class="ax">10-29</text>
+    <text x="334" y="135" text-anchor="middle" class="ax">11-13</text>
+    <text x="632" y="135" text-anchor="end" class="ax">11-27</text>
+  </svg>
+      <div class="note">Formato 5 (a partir de 21/11): 6 posts, 3.540 views totais, mediana YouTube 147 views, 2 comentários humanos.</div>
+    </div>
+    <div class="card">
+      <h3>Desempenho por rede</h3>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Rede</th><th class="n">Posts</th><th class="n">Views</th><th class="n">Curtidas</th><th class="n">Reposts</th><th class="n">Humanos</th></tr></thead>
+        <tbody><tr><td>youtube</td><td class="n">18</td><td class="n">4.084</td><td class="n">11</td><td class="n">0</td><td class="n">0</td></tr><tr><td>instagram</td><td class="n">12</td><td class="n">483</td><td class="n">0</td><td class="n">0</td><td class="n">0</td></tr><tr><td>threads</td><td class="n">14</td><td class="n">25</td><td class="n">0</td><td class="n">0</td><td class="n">0</td></tr><tr><td>bluesky</td><td class="n">19</td><td class="n">0</td><td class="n">51</td><td class="n">27</td><td class="n">1</td></tr><tr><td>praisetc</td><td class="n">19</td><td class="n">0</td><td class="n">5</td><td class="n">3</td><td class="n">0</td></tr><tr><td>mastodon</td><td class="n">19</td><td class="n">0</td><td class="n">1</td><td class="n">0</td><td class="n">1</td></tr><tr><td>facebook</td><td class="n">18</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td></tr><tr><td>discord</td><td class="n">19</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td></tr><tr><td>x</td><td class="n">5</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td></tr><tr><td>tiktok</td><td class="n">6</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td></tr></tbody>
+      </table></div>
+      <div class="note">Seguidores lidos via API pública: @dawnbringergame.bsky.social (10) · @dawnbringergame (mastodon.gamedev.place) (0) · @praisetc.bsky.social (4)</div>
+    </div>
+  </div>
+  <div class="card" style="margin-top:12px">
+    <h3>Últimos posts publicados</h3>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Data</th><th>Item</th><th class="n">Fmt</th><th class="n">Views</th><th class="n">YT</th><th class="n">IG</th><th class="n">Bsky</th><th class="n">Curtidas</th><th class="n">Humanos</th></tr></thead>
+      <tbody><tr><td>2026-11-26</td><td>1397-arvore</td><td class="n">5</td><td class="n">2</td><td class="n">2</td><td class="n">0</td><td class="n">4</td><td class="n">4</td><td class="n">0</td></tr><tr><td>2026-11-25</td><td>1389-pecas</td><td class="n">5</td><td class="n">240</td><td class="n">147</td><td class="n">85</td><td class="n">5</td><td class="n">5</td><td class="n">1</td></tr><tr><td>2026-11-24</td><td>1444-casa</td><td class="n">5</td><td class="n">92</td><td class="n">73</td><td class="n">19</td><td class="n">5</td><td class="n">5</td><td class="n">0</td></tr><tr><td>2026-11-23</td><td>1426-shuffle</td><td class="n">5</td><td class="n">734</td><td class="n">646</td><td class="n">88</td><td class="n">4</td><td class="n">5</td><td class="n">0</td></tr><tr><td>2026-11-22</td><td>1456-svg</td><td class="n">5</td><td class="n">1.243</td><td class="n">1.113</td><td class="n">126</td><td class="n">5</td><td class="n">8</td><td class="n">0</td></tr><tr><td>2026-11-21</td><td>1387-tonico</td><td class="n">5</td><td class="n">1.229</td><td class="n">1.099</td><td class="n">130</td><td class="n">8</td><td class="n">12</td><td class="n">1</td></tr><tr><td>2026-11-20</td><td>He ate the orchards' heat</td><td class="n">4</td><td class="n">2</td><td class="n">-</td><td class="n">-</td><td class="n">-</td><td class="n">0</td><td class="n">0</td></tr><tr><td>2026-11-19</td><td>They come two at a time</td><td class="n">4</td><td class="n">0</td><td class="n">-</td><td class="n">-</td><td class="n">-</td><td class="n">0</td><td class="n">0</td></tr><tr><td>2026-11-18</td><td>Three stories I threw out</td><td class="n">3</td><td class="n">0</td><td class="n">-</td><td class="n">-</td><td class="n">-</td><td class="n">0</td><td class="n">0</td></tr><tr><td>2026-11-17</td><td>Rarity was only a color</td><td class="n">3</td><td class="n">35</td><td class="n">-</td><td class="n">35</td><td class="n">-</td><td class="n">0</td><td class="n">0</td></tr><tr><td>2026-11-16</td><td>I misread my own game</td><td class="n">3</td><td class="n">1</td><td class="n">-</td><td class="n">-</td><td class="n">-</td><td class="n">0</td><td class="n">0</td></tr><tr><td>2026-11-15</td><td>The boss I turned down</td><td class="n">3</td><td class="n">7</td><td class="n">-</td><td class="n">-</td><td class="n">-</td><td class="n">0</td><td class="n">0</td></tr><tr><td>2026-11-14</td><td>Everyone got a new drawing</td><td class="n">3</td><td class="n">755</td><td class="n">754</td><td class="n">-</td><td class="n">6</td><td class="n">12</td><td class="n">0</td></tr><tr><td>2026-11-13</td><td>It froze on the title screen</td><td class="n">3</td><td class="n">190</td><td class="n">188</td><td class="n">-</td><td class="n">6</td><td class="n">7</td><td class="n">0</td></tr><tr><td>2026-11-12</td><td>Oct 1 and today</td><td class="n">3</td><td class="n">62</td><td class="n">62</td><td class="n">-</td><td class="n">8</td><td class="n">10</td><td class="n">0</td></tr><tr><td>2026-11-11</td><td>He fights you with a noose on his neck.</td><td class="n">2</td><td class="n">0</td><td class="n">-</td><td class="n">-</td><td class="n">-</td><td class="n">0</td><td class="n">0</td></tr><tr><td>2026-11-10</td><td>Your dead hunter stands back up.</td><td class="n">2</td><td class="n">0</td><td class="n">-</td><td class="n">-</td><td class="n">-</td><td class="n">0</td><td class="n">0</td></tr><tr><td>2026-11-09</td><td>Know what you risk before you leave.</td><td class="n">-</td><td class="n">0</td><td class="n">-</td><td class="n">-</td><td class="n">-</td><td class="n">0</td><td class="n">0</td></tr><tr><td>2026-11-08</td><td>Your gear joins the music.</td><td class="n">-</td><td class="n">0</td><td class="n">-</td><td class="n">-</td><td class="n">-</td><td class="n">0</td><td class="n">0</td></tr></tbody>
+    </table></div>
+  </div>
+
+  <h2 id="cliques">2. Cliques em Links, Visitas e Origens ("De onde")</h2>
+  <div class="grid2">
+    <div class="card">
+      <h3>Tráfego humano por dia (visitas + cliques)</h3>
+      <svg viewBox="0 0 640 140" class="chart" role="img">
+    <line x1="36" y1="118" x2="632" y2="118" stroke="#2d2342" />
+    <line x1="36" y1="10" x2="632" y2="10" stroke="#1f1730" stroke-dasharray="3 3" />
+    <text x="31" y="18" text-anchor="end" class="ax">1</text>
+    <text x="31" y="118" text-anchor="end" class="ax">0</text>
+    <rect x="37.5" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-10-29: 0</title></rect><rect x="57.4" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-10-30: 0</title></rect><rect x="77.2" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-10-31: 0</title></rect><rect x="97.1" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-01: 0</title></rect><rect x="117.0" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-02: 0</title></rect><rect x="136.8" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-03: 0</title></rect><rect x="156.7" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-04: 0</title></rect><rect x="176.6" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-05: 0</title></rect><rect x="196.4" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-06: 0</title></rect><rect x="216.3" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-07: 0</title></rect><rect x="236.2" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-08: 0</title></rect><rect x="256.0" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-09: 0</title></rect><rect x="275.9" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-10: 0</title></rect><rect x="295.8" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-11: 0</title></rect><rect x="315.6" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-12: 0</title></rect><rect x="335.5" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-13: 0</title></rect><rect x="355.4" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-14: 0</title></rect><rect x="375.2" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-15: 0</title></rect><rect x="395.1" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-16: 0</title></rect><rect x="415.0" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-17: 0</title></rect><rect x="434.8" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-18: 0</title></rect><rect x="454.7" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-19: 0</title></rect><rect x="474.6" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-20: 0</title></rect><rect x="494.4" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-21: 0</title></rect><rect x="514.3" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-22: 0</title></rect><rect x="534.2" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-23: 0</title></rect><rect x="554.0" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-24: 0</title></rect><rect x="573.9" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-25: 0</title></rect><rect x="593.8" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-26: 0</title></rect><rect x="613.6" y="118.0" width="16.9" height="1.0" rx="2" fill="#9b72cf"><title>2026-11-27: 0</title></rect>
+    <text x="36" y="135" class="ax">10-29</text>
+    <text x="334" y="135" text-anchor="middle" class="ax">11-13</text>
+    <text x="632" y="135" text-anchor="end" class="ax">11-27</text>
+  </svg>
+      <div class="note">7 dias: 0 eventos humanos · 30 dias: 0 · Bots/previews filtrados: 0.</div>
+    </div>
+    <div class="card">
+      <h3>Destinos mais clicados</h3>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Tipo</th><th>Destino</th><th class="n">Cliques</th></tr></thead>
+        <tbody><tr><td colspan="3" class="sub">Sem cliques humanos ainda (coletor recém-ativado).</td></tr></tbody>
+      </table></div>
+    </div>
+  </div>
+  <div class="grid2" style="margin-top:12px">
+    <div class="card">
+      <h3>De onde vêm (Referrers)</h3>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Domínio</th><th class="n">Eventos</th></tr></thead>
+        <tbody><tr><td colspan="2" class="sub">Aguardando tráfego.</td></tr></tbody>
+      </table></div>
+    </div>
+    <div class="card">
+      <h3>Campanhas e Origens UTM</h3>
+      <div class="table-wrap"><table>
+        <thead><tr><th>utm_source</th><th>utm_campaign</th><th class="n">Eventos</th></tr></thead>
+        <tbody><tr><td colspan="3" class="sub">Use <code>?utm_source=...</code> ou links <code>/go/...</code> abaixo.</td></tr></tbody>
+      </table></div>
+    </div>
+  </div>
+  <div class="card" style="margin-top:12px">
+    <h3>Links rastreados prontos para uso (sem cookies nem IP)</h3>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Uso</th><th>Link</th></tr></thead>
+      <tbody><tr><td>Site (EN)</td><td><code>https://dawnbringer-pulse.dawnbringer.workers.dev/go/site?s=bluesky&amp;c=bio</code></td></tr><tr><td>Site (PT-BR)</td><td><code>https://dawnbringer-pulse.dawnbringer.workers.dev/go/site-pt?s=bluesky&amp;c=bio</code></td></tr><tr><td>Beta Android</td><td><code>https://dawnbringer-pulse.dawnbringer.workers.dev/go/beta?s=youtube&amp;c=desc</code></td></tr><tr><td>Download Demo</td><td><code>https://dawnbringer-pulse.dawnbringer.workers.dev/go/demo?s=youtube&amp;c=desc</code></td></tr><tr><td>Discord</td><td><code>https://dawnbringer-pulse.dawnbringer.workers.dev/go/discord?s=site&amp;c=cta</code></td></tr><tr><td>Presskit (criador)</td><td><code>https://dawnbringer-pulse.dawnbringer.workers.dev/go/presskit?s=outreach&amp;w=nome-criador</code></td></tr></tbody>
+    </table></div>
+  </div>
+
+  <h2 id="regioes">3. Regiões e "Por Quem"</h2>
+  <div class="grid2">
+    <div class="card">
+      <h3>Regiões (Site/Cliques + Relatos/PvP agregados)</h3>
+      <div class="table-wrap"><table>
+        <thead><tr><th>País</th><th>Região</th><th class="n">Site/Cliques</th><th class="n">Jogo</th></tr></thead>
+        <tbody><tr><td>BR</td><td>São Paulo</td><td class="n">0</td><td class="n">11</td></tr></tbody>
+      </table></div>
+      <div class="note">Dispositivos (web): sem dados · Idiomas: sem dados</div>
+    </div>
+    <div class="card">
+      <h3>Links marcados com <code>?w=</code> (criadores / parceiros)</h3>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Tag (who)</th><th>Destino</th><th class="n">Cliques</th></tr></thead>
+        <tbody><tr><td colspan="3" class="sub">Nenhum link com <code>?w=</code> clicado ainda.</td></tr></tbody>
+      </table></div>
+    </div>
+  </div>
+  <div class="card" style="margin-top:12px">
+    <h3>Interações públicas nas redes ("Por quem" · posts públicos)</h3>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Data</th><th>Rede</th><th>Perfil</th><th>Sistema</th><th>Tom</th><th>Resumo</th></tr></thead>
+      <tbody><tr><td>2026-11-26</td><td>threads</td><td><a href="https://www.threads.com/@kaimasdev/post/DgNoQYgEeiC" target="_blank" rel="noopener">@kaimasdev</a></td><td>skill tree</td><td class="tone-positivo">positivo</td><td>Liked the test that fails on stat-only tree nodes as a guardrail; asked whether nodes are tagged by hand or checked by what they touch.</td></tr><tr><td>2026-11-25</td><td>bluesky</td><td><a href="https://bsky.app/profile/sherifforoutlaw.bsky.social/post/3n35sdd3m5j2u" target="_blank" rel="noopener">@sherifforoutlaw.bsky.social</a></td><td>arte</td><td class="tone-positivo">positivo</td><td>Elogia o voto cego com empate mantendo a arte antiga como freio contra redesenhar por redesenhar; quer saber se algum redesenho perdeu para o original.</td></tr><tr><td>2026-11-25</td><td>bluesky</td><td><a href="https://bsky.app/profile/sherifforoutlaw.bsky.social/post/3n367webox32b" target="_blank" rel="noopener">@sherifforoutlaw.bsky.social</a></td><td>arte redesenhada</td><td class="tone-positivo">positivo</td><td>Achou que o resultado da votação (só 2 de 38 redesenhos perderam direto) mostra que os redesenhos são bons e gostou de ver o voto confirmando.</td></tr><tr><td>2026-11-17</td><td>mastodon</td><td><a href="https://mastodon.gamedev.place/@thecrownforge/117632034473694190" target="_blank" rel="noopener">@thecrownforge</a></td><td>acessibilidade de cor</td><td class="tone-positivo">positivo</td><td>Sugere testar as pistas sem cor com tarefas (achar item lendario, dizer o tipo de dano, de quem e o turno) e perguntar qual pista a pessoa usou, em vez de sim ou nao sobre a paleta.</td></tr><tr><td>2026-11-16</td><td>youtube</td><td><a href="https://www.youtube.com/watch?v=k1DvEBFGBZY&amp;lc=UgzmHuKZF12FWLEVzft4AaABAg" target="_blank" rel="noopener">comentário YouTube</a></td><td>texto no video</td><td class="tone-negativo">negativo</td><td>Achou texto demais para ler no video I misread my own game; nao ficou claro se era o texto do video ou das cartas do jogo.</td></tr><tr><td>2026-11-09</td><td>mastodon</td><td><a href="https://mastodon.gamedev.place/@thecrownforge/117587136627069143" target="_blank" rel="noopener">@thecrownforge</a></td><td>aviso de risco no acampamento</td><td class="tone-misto">misto</td><td>As duas linhas com valores ajudam, mas a primeira deveria dizer a condição ('perdido se você morrer'); ao lado de Embark, 'You lose' parece taxa de saída. Pergunta se equipamento também entra no aviso.</td></tr><tr><td>2026-11-08</td><td>bluesky</td><td><a href="https://bsky.app/profile/redpandaok.com/post/3mzst6i5qd22p" target="_blank" rel="noopener">@redpandaok.com</a></td><td>lore e sistemas</td><td class="tone-positivo">positivo</td><td>Valoriza o cuidado em manter os sistemas coerentes com o lore e acha que isso rende a cada versão.</td></tr><tr><td>2026-11-08</td><td>bluesky</td><td><a href="https://bsky.app/profile/vidrip.bsky.social/post/3mzrjqesemc24" target="_blank" rel="noopener">@vidrip.bsky.social</a></td><td>porta semanal de região</td><td class="tone-positivo">positivo</td><td>Gostou de escolher a região numa porta a cada semana para moldar a run; perguntou se o alpha Android é aberto ou só por convite.</td></tr><tr><td>2026-11-08</td><td>mastodon</td><td><a href="https://mastodon.gamedev.place/@thecrownforge/117582877936905961" target="_blank" rel="noopener">@thecrownforge</a></td><td>camadas de música dos itens</td><td class="tone-misto">misto</td><td>Quer saber quantos loops de família tocam juntos; teme que um build cheio esconda os avisos de ataque do chefe e sugere um slider de volume separado para as camadas do equipamento.</td></tr></tbody>
+    </table></div>
+  </div>
+
+  <h2 id="instalacoes">4. Instalações do Jogo</h2>
+  <div class="grid2">
+    <div class="card">
+      <h3>Downloads da demo (GitHub Releases)</h3>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Release</th><th>Data</th><th class="n">Total</th><th>Por OS</th></tr></thead>
+        <tbody><tr><td><code>demo-v0.8.0</code></td><td>2026-11-19</td><td class="n">6</td><td>Linux 2, macOS 2, Windows 2</td></tr><tr><td><code>demo-v0.7.2</code></td><td>2026-11-08</td><td class="n">5</td><td>Linux 1, macOS 1, Windows 3</td></tr><tr><td><code>v0.7.2</code></td><td>2026-11-08</td><td class="n">3</td><td>Linux 1, macOS 1, Windows 1</td></tr><tr><td><code>demo-v0.5.0</code></td><td>2026-10-21</td><td class="n">5</td><td>Linux 3, macOS 1, Windows 1</td></tr><tr><td><code>v0.5.0</code></td><td>2026-10-21</td><td class="n">0</td><td>Linux 0, macOS 0, Windows 0</td></tr><tr><td><code>demo-v0.4.0</code></td><td>2026-10-18</td><td class="n">29</td><td>Linux 8, macOS 10, Windows 11</td></tr><tr><td><code>demo-v0.3.0</code></td><td>2026-10-17</td><td class="n">9</td><td>Linux 3, macOS 3, Windows 3</td></tr></tbody>
+      </table></div>
+    </div>
+    <div class="card">
+      <h3>Google Play & Instalações opt-in por semana</h3>
+      <div class="sub">Tracks ativos: alpha: 0.8.0 (8) · internal: 0.2.0 (2)</div>
+      <div class="note">Play sem dias (abaixo do piso mínimo de usuários para vitals) · Bucket CSV Play: não configurado ($PLAY_REPORTS_BUCKET)</div>
+      <div class="table-wrap" style="margin-top:8px"><table>
+        <thead><tr><th>Semana ISO</th><th class="n">Instalações ativas</th><th>Plataformas</th></tr></thead>
+        <tbody><tr><td>2026-W47</td><td class="n">2</td><td>android 2</td></tr><tr><td>2026-W46</td><td class="n">1</td><td>android 1</td></tr><tr><td>2026-W45</td><td class="n">4</td><td>android 3, windows 1</td></tr></tbody>
+      </table></div>
+    </div>
+  </div>
+
+  <h2 id="atividade">5. Atividades do Jogo</h2>
+  <div class="grid2">
+    <div class="card">
+      <h3>Runs por dia (últimos 30 dias · telemetria opt-in)</h3>
+      <svg viewBox="0 0 640 140" class="chart" role="img">
+    <line x1="36" y1="118" x2="632" y2="118" stroke="#2d2342" />
+    <line x1="36" y1="10" x2="632" y2="10" stroke="#1f1730" stroke-dasharray="3 3" />
+    <text x="31" y="18" text-anchor="end" class="ax">8</text>
+    <text x="31" y="118" text-anchor="end" class="ax">0</text>
+    <rect x="37.5" y="118.0" width="16.9" height="1.0" rx="2" fill="#58c27d"><title>2026-10-29: 0</title></rect><rect x="57.4" y="118.0" width="16.9" height="1.0" rx="2" fill="#58c27d"><title>2026-10-30: 0</title></rect><rect x="77.2" y="118.0" width="16.9" height="1.0" rx="2" fill="#58c27d"><title>2026-10-31: 0</title></rect><rect x="97.1" y="118.0" width="16.9" height="1.0" rx="2" fill="#58c27d"><title>2026-11-01: 0</title></rect><rect x="117.0" y="118.0" width="16.9" height="1.0" rx="2" fill="#58c27d"><title>2026-11-02: 0</title></rect><rect x="136.8" y="23.5" width="16.9" height="94.5" rx="2" fill="#58c27d"><title>2026-11-03: 7</title></rect><rect x="156.7" y="77.5" width="16.9" height="40.5" rx="2" fill="#58c27d"><title>2026-11-04: 3</title></rect><rect x="176.6" y="50.5" width="16.9" height="67.5" rx="2" fill="#58c27d"><title>2026-11-05: 5</title></rect><rect x="196.4" y="91.0" width="16.9" height="27.0" rx="2" fill="#58c27d"><title>2026-11-06: 2</title></rect><rect x="216.3" y="118.0" width="16.9" height="1.0" rx="2" fill="#58c27d"><title>2026-11-07: 0</title></rect><rect x="236.2" y="118.0" width="16.9" height="1.0" rx="2" fill="#58c27d"><title>2026-11-08: 0</title></rect><rect x="256.0" y="77.5" width="16.9" height="40.5" rx="2" fill="#58c27d"><title>2026-11-09: 3</title></rect><rect x="275.9" y="118.0" width="16.9" height="1.0" rx="2" fill="#58c27d"><title>2026-11-10: 0</title></rect><rect x="295.8" y="118.0" width="16.9" height="1.0" rx="2" fill="#58c27d"><title>2026-11-11: 0</title></rect><rect x="315.6" y="118.0" width="16.9" height="1.0" rx="2" fill="#58c27d"><title>2026-11-12: 0</title></rect><rect x="335.5" y="118.0" width="16.9" height="1.0" rx="2" fill="#58c27d"><title>2026-11-13: 0</title></rect><rect x="355.4" y="118.0" width="16.9" height="1.0" rx="2" fill="#58c27d"><title>2026-11-14: 0</title></rect><rect x="375.2" y="118.0" width="16.9" height="1.0" rx="2" fill="#58c27d"><title>2026-11-15: 0</title></rect><rect x="395.1" y="118.0" width="16.9" height="1.0" rx="2" fill="#58c27d"><title>2026-11-16: 0</title></rect><rect x="415.0" y="91.0" width="16.9" height="27.0" rx="2" fill="#58c27d"><title>2026-11-17: 2</title></rect><rect x="434.8" y="10.0" width="16.9" height="108.0" rx="2" fill="#58c27d"><title>2026-11-18: 8</title></rect><rect x="454.7" y="104.5" width="16.9" height="13.5" rx="2" fill="#58c27d"><title>2026-11-19: 1</title></rect><rect x="474.6" y="104.5" width="16.9" height="13.5" rx="2" fill="#58c27d"><title>2026-11-20: 1</title></rect><rect x="494.4" y="118.0" width="16.9" height="1.0" rx="2" fill="#58c27d"><title>2026-11-21: 0</title></rect><rect x="514.3" y="118.0" width="16.9" height="1.0" rx="2" fill="#58c27d"><title>2026-11-22: 0</title></rect><rect x="534.2" y="118.0" width="16.9" height="1.0" rx="2" fill="#58c27d"><title>2026-11-23: 0</title></rect><rect x="554.0" y="118.0" width="16.9" height="1.0" rx="2" fill="#58c27d"><title>2026-11-24: 0</title></rect><rect x="573.9" y="118.0" width="16.9" height="1.0" rx="2" fill="#58c27d"><title>2026-11-25: 0</title></rect><rect x="593.8" y="118.0" width="16.9" height="1.0" rx="2" fill="#58c27d"><title>2026-11-26: 0</title></rect><rect x="613.6" y="118.0" width="16.9" height="1.0" rx="2" fill="#58c27d"><title>2026-11-27: 0</title></rect>
+    <text x="36" y="135" class="ax">10-29</text>
+    <text x="334" y="135" text-anchor="middle" class="ax">11-13</text>
+    <text x="632" y="135" text-anchor="end" class="ax">11-27</text>
+  </svg>
+      <div class="note">Retenção opt-in (base 6): D1 50% · D3 16.7% · D7 0% · PvP semanal: 0 verificadas / 0 pendentes (0 jogadores).</div>
+    </div>
+    <div class="card">
+      <h3>Desfechos & Plataformas</h3>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Plataforma</th><th class="n">Jogadores</th><th class="n">Runs</th><th class="n">Vitórias</th><th class="n">Min</th></tr></thead>
+        <tbody><tr><td>android</td><td class="n">5</td><td class="n">20</td><td class="n">1</td><td class="n">226</td></tr><tr><td>windows</td><td class="n">1</td><td class="n">12</td><td class="n">0</td><td class="n">98</td></tr></tbody>
+      </table></div>
+      <div class="note">Desfechos: death 27 · abandoned 3 · victory 1 · cash_out 1</div>
+    </div>
+  </div>
+  <div class="grid2" style="margin-top:12px">
+    <div class="card">
+      <h3>Top Campeões & Classes</h3>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Campeão</th><th class="n">Runs</th><th class="n">Vitórias</th><th class="n">Jogadores</th></tr></thead>
+        <tbody><tr><td>gallows_marksman</td><td class="n">16</td><td class="n">0</td><td class="n">4</td></tr><tr><td>ironbound_penitent</td><td class="n">12</td><td class="n">1</td><td class="n">3</td></tr><tr><td>ashglass_zealot</td><td class="n">4</td><td class="n">0</td><td class="n">1</td></tr></tbody>
+      </table></div>
+      <div class="note">Classes: archer (6) · noose_cutter (4) · swordsman (2) · thornplate_warden (1)</div>
+    </div>
+    <div class="card">
+      <h3>O que mais mata & Relatos</h3>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Inimigo / Causa</th><th class="n">Mortes</th></tr></thead>
+        <tbody><tr><td>npc_respec_keeper</td><td class="n">3</td></tr><tr><td>cinderling_t2</td><td class="n">3</td></tr><tr><td>the_scalding_colossus</td><td class="n">2</td></tr><tr><td>the_last_light</td><td class="n">2</td></tr><tr><td>the_crowmother</td><td class="n">2</td></tr><tr><td>shadow_hanging_wood_hanged_man</td><td class="n">2</td></tr><tr><td>legend</td><td class="n">2</td></tr><tr><td>hive_hermit_t1</td><td class="n">2</td></tr></tbody>
+      </table></div>
+      <div class="note">Relatos por OS: Android 40 · Windows 40 · Outro 1</div>
+    </div>
+  </div>
+
+  <footer>
+    Página não listada (<code>noindex, nofollow</code>) gerada por <code>tools/bi/sumario.ts</code> e publicada na branch <code>pulse</code> do repositório público <code>gmunaro/dawnbringer-site</code>. Nenhum IP, e-mail, ID de instalação ou dado privado é publicado aqui.
+  </footer>
+</main>
+</body>
+</html>
