@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27 00:29:12",
+  "generatedAt": "2026-11-27 17:52:09",
   "sources": {
     "social": {
       "ok": true,
@@ -33,18 +33,18 @@
   "social": {
     "totals": {
       "posts": 19,
-      "views": 4592,
-      "likes": 68,
-      "reposts": 30,
-      "replies": 2,
-      "humans": 2
+      "views": 4800,
+      "likes": 61,
+      "reposts": 26,
+      "replies": 6,
+      "humans": 4
     },
     "byNetwork": [
       {
         "network": "youtube",
         "posts": 18,
-        "views": 4084,
-        "likes": 11,
+        "views": 3825,
+        "likes": 8,
         "reposts": 0,
         "replies": 0,
         "humans": 0
@@ -52,7 +52,7 @@
       {
         "network": "instagram",
         "posts": 12,
-        "views": 483,
+        "views": 929,
         "likes": 0,
         "reposts": 0,
         "replies": 0,
@@ -61,7 +61,16 @@
       {
         "network": "threads",
         "posts": 14,
-        "views": 25,
+        "views": 42,
+        "likes": 0,
+        "reposts": 0,
+        "replies": 2,
+        "humans": 1
+      },
+      {
+        "network": "facebook",
+        "posts": 18,
+        "views": 4,
         "likes": 0,
         "reposts": 0,
         "replies": 0,
@@ -71,17 +80,17 @@
         "network": "bluesky",
         "posts": 19,
         "views": 0,
-        "likes": 51,
-        "reposts": 27,
-        "replies": 1,
-        "humans": 1
+        "likes": 48,
+        "reposts": 24,
+        "replies": 3,
+        "humans": 2
       },
       {
         "network": "praisetc",
         "posts": 19,
         "views": 0,
-        "likes": 5,
-        "reposts": 3,
+        "likes": 4,
+        "reposts": 2,
         "replies": 0,
         "humans": 0
       },
@@ -93,15 +102,6 @@
         "reposts": 0,
         "replies": 1,
         "humans": 1
-      },
-      {
-        "network": "facebook",
-        "posts": 18,
-        "views": 0,
-        "likes": 0,
-        "reposts": 0,
-        "replies": 0,
-        "humans": 0
       },
       {
         "network": "discord",
@@ -282,15 +282,15 @@
       },
       {
         "d": "2026-11-14",
-        "views": 755,
-        "likes": 12,
-        "reposts": 4,
+        "views": 118,
+        "likes": 0,
+        "reposts": 0,
         "humans": 0,
         "posts": 1
       },
       {
         "d": "2026-11-15",
-        "views": 7,
+        "views": 102,
         "likes": 0,
         "reposts": 0,
         "humans": 0,
@@ -298,7 +298,7 @@
       },
       {
         "d": "2026-11-16",
-        "views": 1,
+        "views": 82,
         "likes": 0,
         "reposts": 0,
         "humans": 0,
@@ -338,7 +338,7 @@
       },
       {
         "d": "2026-11-21",
-        "views": 1229,
+        "views": 1232,
         "likes": 12,
         "reposts": 3,
         "humans": 1,
@@ -354,7 +354,7 @@
       },
       {
         "d": "2026-11-23",
-        "views": 734,
+        "views": 737,
         "likes": 5,
         "reposts": 3,
         "humans": 0,
@@ -362,7 +362,7 @@
       },
       {
         "d": "2026-11-24",
-        "views": 92,
+        "views": 95,
         "likes": 5,
         "reposts": 3,
         "humans": 0,
@@ -370,7 +370,7 @@
       },
       {
         "d": "2026-11-25",
-        "views": 240,
+        "views": 245,
         "likes": 5,
         "reposts": 3,
         "humans": 1,
@@ -378,10 +378,10 @@
       },
       {
         "d": "2026-11-26",
-        "views": 2,
-        "likes": 4,
+        "views": 657,
+        "likes": 9,
         "reposts": 3,
-        "humans": 0,
+        "humans": 2,
         "posts": 1
       },
       {
@@ -399,18 +399,18 @@
         "item": "1397-arvore",
         "formato": 5,
         "assunto": "A árvore de skills: 26 nós só somavam atributo e comprar um não mudava nada visível na luta; a 0.8 trocou por 8 skills ativas com recarga e 18 nós que mudam uma regra, e um teste barra nó só de atributo",
-        "views": 2,
-        "likes": 4,
+        "views": 657,
+        "likes": 9,
         "reposts": 3,
-        "replies": 0,
-        "humans": 0,
+        "replies": 4,
+        "humans": 2,
         "networks": {
           "bluesky": {
             "views": null,
-            "likes": 4,
+            "likes": 7,
             "reposts": 3,
-            "replies": 0,
-            "humans": 0,
+            "replies": 2,
+            "humans": 1,
             "link": "https://bsky.app/profile/dawnbringergame.bsky.social/post/3n37rgsqv4w2i"
           },
           "mastodon": {
@@ -422,15 +422,15 @@
             "link": "https://mastodon.gamedev.place/@dawnbringergame/117682957308375456"
           },
           "threads": {
-            "views": 0,
+            "views": 17,
             "likes": 0,
             "reposts": 0,
-            "replies": 0,
-            "humans": 0,
+            "replies": 2,
+            "humans": 1,
             "link": "https://www.threads.com/@dawnbringergame/post/DgNNE9fEW-0"
           },
           "instagram": {
-            "views": 0,
+            "views": 150,
             "likes": 0,
             "reposts": null,
             "replies": 0,
@@ -446,7 +446,7 @@
             "link": "https://www.tiktok.com/@dawnbringer_game/video/7712471070938238228"
           },
           "facebook": {
-            "views": 0,
+            "views": 2,
             "likes": 0,
             "reposts": null,
             "replies": 0,
@@ -454,8 +454,8 @@
             "link": "https://www.facebook.com/1362473893625258/videos/2553276948494031"
           },
           "youtube": {
-            "views": 2,
-            "likes": 0,
+            "views": 488,
+            "likes": 2,
             "reposts": null,
             "replies": 0,
             "humans": 0,
@@ -492,7 +492,7 @@
         "item": "1389-pecas",
         "formato": 5,
         "assunto": "Peças de arte: no tamanho de jogo, vários desenhos novos de inimigos e equipamentos sumiam no fundo escuro; a 0.8 redesenhou 32, e cada redesenho só entrou vencendo o antigo num voto cego",
-        "views": 240,
+        "views": 245,
         "likes": 5,
         "reposts": 3,
         "replies": 1,
@@ -523,7 +523,7 @@
             "link": "https://www.threads.com/@dawnbringergame/post/DgKpqL2kT_m"
           },
           "instagram": {
-            "views": 85,
+            "views": 86,
             "likes": 0,
             "reposts": null,
             "replies": 0,
@@ -539,7 +539,7 @@
             "link": null
           },
           "facebook": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "reposts": null,
             "replies": 0,
@@ -547,7 +547,7 @@
             "link": "https://www.facebook.com/1362473893625258/videos/1129227076621869"
           },
           "youtube": {
-            "views": 147,
+            "views": 150,
             "likes": 0,
             "reposts": null,
             "replies": 0,
@@ -585,7 +585,7 @@
         "item": "1444-casa",
         "formato": 5,
         "assunto": "A Casa: a tela antes de cada run tinha 109 palavras em inglês; a 0.8 deixou 55 e trocou as listas de nomes de itens por um pote de vidro com uma conta por item",
-        "views": 92,
+        "views": 95,
         "likes": 5,
         "reposts": 3,
         "replies": 0,
@@ -608,7 +608,7 @@
             "link": "https://mastodon.gamedev.place/@dawnbringergame/117671892358537637"
           },
           "instagram": {
-            "views": 19,
+            "views": 20,
             "likes": 0,
             "reposts": null,
             "replies": 0,
@@ -624,7 +624,7 @@
             "link": "https://www.tiktok.com/@dawnbringer_game/video/7711745385429011733"
           },
           "facebook": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "reposts": null,
             "replies": 0,
@@ -632,7 +632,7 @@
             "link": "https://www.facebook.com/1362473893625258/videos/1661122268836037"
           },
           "youtube": {
-            "views": 73,
+            "views": 74,
             "likes": 0,
             "reposts": null,
             "replies": 0,
@@ -662,7 +662,7 @@
         "item": "1426-shuffle",
         "formato": 5,
         "assunto": "Som: dez tipos de criatura lutavam mudos; a 0.8 deu 30 gritos novos e um arrastar abafado para quem avança, em vez de reusar o passo do herói",
-        "views": 734,
+        "views": 737,
         "likes": 5,
         "reposts": 3,
         "replies": 0,
@@ -693,7 +693,7 @@
             "link": "https://www.threads.com/@dawnbringergame/post/DgFjvHOkQuW"
           },
           "instagram": {
-            "views": 88,
+            "views": 89,
             "likes": 0,
             "reposts": null,
             "replies": 0,
@@ -709,7 +709,7 @@
             "link": "https://www.facebook.com/1362473893625258/videos/2286266845277999"
           },
           "youtube": {
-            "views": 646,
+            "views": 648,
             "likes": 1,
             "reposts": null,
             "replies": 0,
@@ -848,7 +848,7 @@
         "item": "1387-tonico",
         "formato": 5,
         "assunto": "Semana 1: em vez de construir um restaurante de cura, a 0.8 baixou os inimigos da semana 1 para 90% e deu um Tônico de Sangue no começo de toda run",
-        "views": 1229,
+        "views": 1232,
         "likes": 12,
         "reposts": 3,
         "replies": 1,
@@ -887,7 +887,7 @@
             "link": "https://www.facebook.com/1362473893625258/videos/2250745895785147"
           },
           "youtube": {
-            "views": 1099,
+            "views": 1102,
             "likes": 2,
             "reposts": null,
             "replies": 0,
@@ -1225,7 +1225,7 @@
         "item": "I misread my own game",
         "formato": 3,
         "assunto": "",
-        "views": 1,
+        "views": 82,
         "likes": 0,
         "reposts": 0,
         "replies": 0,
@@ -1256,10 +1256,10 @@
             "link": "https://www.threads.com/@dawnbringergame/post/DfzcsVUEWA_"
           },
           "instagram": {
-            "views": null,
-            "likes": null,
+            "views": 81,
+            "likes": 0,
             "reposts": null,
-            "replies": null,
+            "replies": 0,
             "humans": null,
             "link": "https://www.instagram.com/reel/DfzcuMCMhgR/"
           },
@@ -1302,7 +1302,7 @@
         "item": "The boss I turned down",
         "formato": 3,
         "assunto": "",
-        "views": 7,
+        "views": 102,
         "likes": 0,
         "reposts": 0,
         "replies": 0,
@@ -1333,10 +1333,10 @@
             "link": "https://www.threads.com/@dawnbringergame/post/Dfw5CVLkTrw"
           },
           "instagram": {
-            "views": null,
-            "likes": null,
+            "views": 95,
+            "likes": 0,
             "reposts": null,
-            "replies": null,
+            "replies": 0,
             "humans": null,
             "link": "https://www.instagram.com/reel/Dfw5ENwME20/"
           },
@@ -1379,26 +1379,26 @@
         "item": "Everyone got a new drawing",
         "formato": 3,
         "assunto": "",
-        "views": 755,
-        "likes": 12,
-        "reposts": 4,
+        "views": 118,
+        "likes": 0,
+        "reposts": 0,
         "replies": 0,
         "humans": 0,
         "networks": {
           "bluesky": {
             "views": null,
-            "likes": 6,
-            "reposts": 3,
-            "replies": 0,
-            "humans": 0,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
             "link": "https://bsky.app/profile/dawnbringergame.bsky.social/post/3n2bltupfna24"
           },
           "mastodon": {
             "views": null,
-            "likes": 0,
-            "reposts": 0,
-            "replies": 0,
-            "humans": 0,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
             "link": "https://mastodon.gamedev.place/@dawnbringergame/117615009472253563"
           },
           "threads": {
@@ -1410,32 +1410,32 @@
             "link": "https://www.threads.com/@dawnbringergame/post/DfuTiQHEXy0"
           },
           "instagram": {
-            "views": null,
-            "likes": null,
+            "views": 117,
+            "likes": 0,
             "reposts": null,
-            "replies": null,
+            "replies": 0,
             "humans": null,
             "link": "https://www.instagram.com/reel/DfuTjk-Mztc/"
           },
           "facebook": {
             "views": null,
-            "likes": 0,
-            "reposts": 0,
-            "replies": 0,
-            "humans": 0,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
             "link": "https://www.facebook.com/1362473893625258_122110129839535231"
           },
           "youtube": {
-            "views": 754,
-            "likes": 5,
+            "views": null,
+            "likes": null,
             "reposts": null,
-            "replies": 0,
-            "humans": 0,
+            "replies": null,
+            "humans": null,
             "link": "https://youtube.com/shorts/U_8FoZxY4xs"
           },
           "discord": {
             "views": null,
-            "likes": 0,
+            "likes": null,
             "reposts": null,
             "replies": null,
             "humans": null,
@@ -1443,10 +1443,10 @@
           },
           "praisetc": {
             "views": null,
-            "likes": 1,
-            "reposts": 1,
-            "replies": 0,
-            "humans": 0,
+            "likes": null,
+            "reposts": null,
+            "replies": null,
+            "humans": null,
             "link": "https://bsky.app/profile/praisetc.bsky.social/post/3n2blvmhz2q24"
           }
         }
@@ -1928,19 +1928,19 @@
     ],
     "format5": {
       "posts": 6,
-      "views": 3540,
-      "medianViews": 147,
-      "humans": 2
+      "views": 4209,
+      "medianViews": 488,
+      "humans": 4
     }
   },
   "pulse": {
     "totals": {
-      "humanPageviews": 0,
+      "humanPageviews": 5,
       "humanClicks": 0,
       "humanGo": 0,
       "botEvents": 0,
-      "last7dHuman": 0,
-      "last30dHuman": 0
+      "last7dHuman": 5,
+      "last30dHuman": 5
     },
     "daily": [
       {
@@ -2148,20 +2148,69 @@
       },
       {
         "d": "2026-11-27",
-        "pageviews": 0,
+        "pageviews": 5,
         "clicks": 0,
         "go": 0,
         "bots": 0
       }
     ],
     "topTargets": [],
-    "topReferrers": [],
+    "topReferrers": [
+      {
+        "ref": "direct",
+        "n": 4
+      },
+      {
+        "ref": "github.com",
+        "n": 1
+      }
+    ],
     "topSources": [],
     "topWho": [],
-    "topRegions": [],
-    "topPages": [],
-    "devices": [],
-    "langs": []
+    "topRegions": [
+      {
+        "country": "NL",
+        "region": "North Holland",
+        "n": 2
+      },
+      {
+        "country": "BR",
+        "region": "Espírito Santo",
+        "n": 1
+      },
+      {
+        "country": "BR",
+        "region": "São Paulo",
+        "n": 1
+      },
+      {
+        "country": "US",
+        "region": "Virginia",
+        "n": 1
+      }
+    ],
+    "topPages": [
+      {
+        "page": "/",
+        "n": 5
+      }
+    ],
+    "devices": [
+      {
+        "device": "desktop",
+        "n": 3
+      },
+      {
+        "device": "mobile",
+        "n": 2
+      }
+    ],
+    "langs": [
+      {
+        "lang": "en",
+        "n": 5
+      }
+    ]
   },
   "installs": {
     "downloads": {
