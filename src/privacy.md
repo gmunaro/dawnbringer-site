@@ -1,6 +1,6 @@
 # Dawnbringer: Privacy Policy
 
-Effective date: 2026-11-18
+Effective date: 2026-11-26
 
 Developer: PraiseTC (gmunaro, individual developer), contact: contato@dawnbringergame.com
 
@@ -259,6 +259,17 @@ most and keeps the answer on your device. The request has no id, no cookie and n
 Like any web request, it shows your IP address to the server that hosts this website (GitHub
 Pages, GitHub, Inc.).
 
+## Website visit and link counters (dawnbringergame.com only)
+
+This website does not set cookies, store visitor identifiers or use third-party analytics. When you
+open a page on dawnbringergame.com, click a download or external link, or follow one of our short
+links (`dawnbringer-pulse.dawnbringer.workers.dev/go/...`), your browser sends a small aggregate
+count to a server run by the developer on Cloudflare Workers (Cloudflare, Inc.): the page path, the
+site language, the link clicked, the referring website's domain (if any), campaign tags in the URL
+(if any), coarse device type (desktop, mobile or tablet), and the country and region Cloudflare
+estimates from the connection. URL fragments (including duel codes on `/duelo/`) are never read or
+sent, and IP addresses are never stored. Counts are deleted automatically after 12 months.
+
 ## Children
 
 Dawnbringer is not directed at children under 13, and we do not knowingly collect personal
@@ -277,7 +288,7 @@ contato@dawnbringergame.com
 
 # Dawnbringer: Política de Privacidade
 
-Data de vigência: 2026-11-18
+Data de vigência: 2026-11-26
 
 Desenvolvedor: PraiseTC (gmunaro, desenvolvedor individual), contato: contato@dawnbringergame.com
 
@@ -543,6 +554,18 @@ Na tela de título, o jogo baixa o arquivo latest.json deste site (gmunaro.githu
 para ver se existe uma versão mais nova. Ele pergunta no máximo uma vez por dia e guarda a resposta
 no seu aparelho. O pedido não leva id, cookie nem nada sobre você. Como em qualquer pedido web, ele
 mostra o seu endereço IP ao servidor que hospeda este site (GitHub Pages, GitHub, Inc.).
+
+## Contadores de visita e clique do site (só em dawnbringergame.com)
+
+Este site não grava cookies, não cria identificadores de visitante e não usa analytics de terceiros.
+Quando você abre uma página em dawnbringergame.com, clica em um link de download ou externo, ou
+segue um de nossos links curtos (`dawnbringer-pulse.dawnbringer.workers.dev/go/...`), seu navegador
+envia uma contagem agregada a um servidor do desenvolvedor no Cloudflare Workers (Cloudflare, Inc.):
+o caminho da página, o idioma do site, o link clicado, o domínio de origem (se houver), as marcas de
+campanha na URL (se houver), o tipo geral de aparelho (desktop, celular ou tablet) e o país e a
+região estimados pela Cloudflare a partir da conexão. Fragmentos da URL (incluindo códigos de duelo
+em `/duelo/`) nunca são lidos nem enviados, e endereços IP nunca são guardados. As contagens são
+apagadas automaticamente depois de 12 meses.
 
 ## Crianças
 
