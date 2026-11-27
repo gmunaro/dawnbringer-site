@@ -122,4 +122,64 @@
       else if (!video.paused) { auto = true; video.pause(); }
     }, { threshold: 0.4 }).observe(video);
   }
+
+  // Cookieless, IP-free aggregate visit and link-click counter (HTTPS only, never reads URL hash).
+  if (location.protocol === "https:" && "sendBeacon" in navigator) {
+    const PULSE = "https://dawnbringer-pulse.dawnbringer.workers.dev/e";
+    const q = new URLSearchParams(location.search);
+    const base = {
+      page: location.pathname,
+      lang: here,
+      ref: document.referrer || "",
+      utm_source: q.get("utm_source") || q.get("s") || "",
+      utm_medium: q.get("utm_medium") || q.get("m") || "",
+      utm_campaign: q.get("utm_campaign") || q.get("c") || "",
+      who: q.get("who") || q.get("w") || "",
+    };
+    const send = (extra) => {
+      try { navigator.sendBeacon(PULSE, new Blob([JSON.stringify({ ...base, ...extra })], { type: "text/plain" })); } catch { /* ignore */ }
+    };
+    const classify = (href) => {
+      let u;
+      try { u = new URL(href, location.href); } catch { return null; }
+      if (!/^https?:$/.test(u.protocol)) return null;
+      const h = u.hostname.toLowerCase().replace(/^www\./, "");
+      const p = u.pathname.toLowerCase();
+      if (h === location.hostname.toLowerCase().replace(/^www\./, "")) {
+        if (p.endsWith(".zip")) return "presskit_zip";
+        if (p.endsWith("/beta/")) return "nav_beta";
+        if (p.endsWith("/download/")) return "nav_download";
+        if (p.endsWith("/presskit/")) return "nav_presskit";
+        if (p.endsWith("/changelog/")) return "nav_changelog";
+        return null;
+      }
+      if (h === "github.com" && p.includes("/releases")) {
+        if (p.includes("win")) return "demo_windows";
+        if (p.includes("linux")) return "demo_linux";
+        if (p.includes("mac") || p.includes("osx")) return "demo_mac";
+        if (p.endsWith(".apk")) return "demo_apk";
+        return "demo_release";
+      }
+      if (h === "groups.google.com") return "beta_group";
+      if (h === "play.google.com") return p.includes("/apps/testing") ? "play_testing" : "play_store";
+      if (h === "discord.gg" || h === "discord.com") return "discord";
+      if (h === "youtube.com" || h === "youtu.be") return "youtube";
+      if (h === "bsky.app") return "bluesky";
+      if (h === "mastodon.gamedev.place") return "mastodon";
+      if (h === "instagram.com") return "instagram";
+      if (h === "threads.com" || h === "threads.net") return "threads";
+      if (h === "reddit.com") return "reddit";
+      if (h === "x.com" || h === "twitter.com") return "x";
+      if (h === "tiktok.com") return "tiktok";
+      if (h === "facebook.com") return "facebook";
+      return "ext:" + h.slice(0, 40);
+    };
+    send({ kind: "pageview" });
+    document.addEventListener("click", (e) => {
+      const a = e.target && e.target.closest ? e.target.closest("a[href]") : null;
+      if (!a) return;
+      const target = classify(a.getAttribute("href"));
+      if (target) send({ kind: "click", target });
+    });
+  }
 })();
