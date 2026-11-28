@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27 17:52:09",
+  "generatedAt": "2026-11-28 02:37:21",
   "sources": {
     "social": {
       "ok": true,
@@ -136,13 +136,13 @@
         "network": "bluesky",
         "account": "@dawnbringergame.bsky.social",
         "followers": 10,
-        "posts": 11
+        "posts": 12
       },
       {
         "network": "mastodon",
         "account": "@dawnbringergame (mastodon.gamedev.place)",
         "followers": 0,
-        "posts": 8
+        "posts": 9
       },
       {
         "network": "praisetc",
@@ -152,14 +152,6 @@
       }
     ],
     "daily": [
-      {
-        "d": "2026-10-29",
-        "views": 0,
-        "likes": 0,
-        "reposts": 0,
-        "humans": 0,
-        "posts": 0
-      },
       {
         "d": "2026-10-30",
         "views": 0,
@@ -386,6 +378,14 @@
       },
       {
         "d": "2026-11-27",
+        "views": 0,
+        "likes": 0,
+        "reposts": 0,
+        "humans": 0,
+        "posts": 0
+      },
+      {
+        "d": "2026-11-28",
         "views": 0,
         "likes": 0,
         "reposts": 0,
@@ -1836,6 +1836,16 @@
     ],
     "interactions": [
       {
+        "date": "2026-11-27",
+        "network": "mastodon",
+        "type": "reply",
+        "author": "@PowerSpikeStudio",
+        "system": "arvore de habilidades",
+        "tone": "positivo",
+        "summary": "Aprova a troca de nos de atributo por nos que mudam regras da luta; acha a arvore bem mais divertida agora.",
+        "link": "https://mastodon.gamedev.place/@PowerSpikeStudio/117690553367081295"
+      },
+      {
         "date": "2026-11-26",
         "network": "threads",
         "type": "reply",
@@ -1844,6 +1854,16 @@
         "tone": "positivo",
         "summary": "Liked the test that fails on stat-only tree nodes as a guardrail; asked whether nodes are tagged by hand or checked by what they touch.",
         "link": "https://www.threads.com/@kaimasdev/post/DgNoQYgEeiC"
+      },
+      {
+        "date": "2026-11-26",
+        "network": "bluesky",
+        "type": "reply",
+        "author": "@funfatstudios.bsky.social",
+        "system": "árvore de habilidades",
+        "tone": "positivo",
+        "summary": "Aprova nós que mudam regras da luta em vez de só somar atributos, e o teste que reprova nó só de stats; pede para manter.",
+        "link": "https://bsky.app/profile/funfatstudios.bsky.social/post/3n37x4pk2tc2o"
       },
       {
         "date": "2026-11-25",
@@ -1935,21 +1955,14 @@
   },
   "pulse": {
     "totals": {
-      "humanPageviews": 5,
-      "humanClicks": 0,
+      "humanPageviews": 15,
+      "humanClicks": 3,
       "humanGo": 0,
       "botEvents": 0,
-      "last7dHuman": 5,
-      "last30dHuman": 5
+      "last7dHuman": 18,
+      "last30dHuman": 18
     },
     "daily": [
-      {
-        "d": "2026-10-29",
-        "pageviews": 0,
-        "clicks": 0,
-        "go": 0,
-        "bots": 0
-      },
       {
         "d": "2026-10-30",
         "pageviews": 0,
@@ -2148,17 +2161,43 @@
       },
       {
         "d": "2026-11-27",
-        "pageviews": 5,
+        "pageviews": 7,
         "clicks": 0,
+        "go": 0,
+        "bots": 0
+      },
+      {
+        "d": "2026-11-28",
+        "pageviews": 8,
+        "clicks": 3,
         "go": 0,
         "bots": 0
       }
     ],
-    "topTargets": [],
+    "topTargets": [
+      {
+        "kind": "click",
+        "target": "nav_download",
+        "n": 2
+      },
+      {
+        "kind": "click",
+        "target": "nav_beta",
+        "n": 1
+      }
+    ],
     "topReferrers": [
       {
         "ref": "direct",
-        "n": 4
+        "n": 15
+      },
+      {
+        "ref": "reddit.com",
+        "n": 1
+      },
+      {
+        "ref": "praisetc.com",
+        "n": 1
       },
       {
         "ref": "github.com",
@@ -2168,6 +2207,16 @@
     "topSources": [],
     "topWho": [],
     "topRegions": [
+      {
+        "country": "US",
+        "region": "Iowa",
+        "n": 6
+      },
+      {
+        "country": "BR",
+        "region": "São Paulo",
+        "n": 5
+      },
       {
         "country": "NL",
         "region": "North Holland",
@@ -2180,7 +2229,17 @@
       },
       {
         "country": "BR",
-        "region": "São Paulo",
+        "region": "Rio Grande do Norte",
+        "n": 1
+      },
+      {
+        "country": "DE",
+        "region": "Saxony",
+        "n": 1
+      },
+      {
+        "country": "US",
+        "region": "Texas",
         "n": 1
       },
       {
@@ -2192,23 +2251,31 @@
     "topPages": [
       {
         "page": "/",
-        "n": 5
+        "n": 11
+      },
+      {
+        "page": "/download/",
+        "n": 3
+      },
+      {
+        "page": "/beta/",
+        "n": 1
       }
     ],
     "devices": [
       {
         "device": "desktop",
-        "n": 3
+        "n": 11
       },
       {
         "device": "mobile",
-        "n": 2
+        "n": 7
       }
     ],
     "langs": [
       {
         "lang": "en",
-        "n": 5
+        "n": 18
       }
     ]
   },
@@ -2323,7 +2390,52 @@
       ],
       "vitals": [],
       "vitalsNote": "Play sem dias (abaixo do piso mínimo de usuários para vitals)",
-      "bucketConfigured": false
+      "bucketConfigured": true,
+      "installs": {
+        "weeks": [
+          {
+            "week": "2026-W47",
+            "installs": 0,
+            "uninstalls": 0,
+            "active": 7
+          },
+          {
+            "week": "2026-W46",
+            "installs": 0,
+            "uninstalls": 1,
+            "active": 5
+          },
+          {
+            "week": "2026-W45",
+            "installs": 2,
+            "uninstalls": 4,
+            "active": 8
+          },
+          {
+            "week": "2026-W44",
+            "installs": 0,
+            "uninstalls": 0,
+            "active": 5
+          },
+          {
+            "week": "2026-W43",
+            "installs": 0,
+            "uninstalls": 0,
+            "active": 5
+          },
+          {
+            "week": "2026-W42",
+            "installs": 4,
+            "uninstalls": 0,
+            "active": 6
+          }
+        ],
+        "totalInstalls": 6,
+        "totalUninstalls": 5,
+        "latestActive": 7,
+        "latestDate": "2026-11-21"
+      },
+      "installsNote": "2 CSVs lidos (última data: 2026-11-21)"
     }
   },
   "game": {
@@ -2339,14 +2451,6 @@
         "duels": 0
       },
       "daily": [
-        {
-          "d": "2026-10-29",
-          "players": 0,
-          "newPlayers": 0,
-          "runs": 0,
-          "wins": 0,
-          "minutes": 0
-        },
         {
           "d": "2026-10-30",
           "players": 0,
@@ -2573,6 +2677,14 @@
         },
         {
           "d": "2026-11-27",
+          "players": 0,
+          "newPlayers": 0,
+          "runs": 0,
+          "wins": 0,
+          "minutes": 0
+        },
+        {
+          "d": "2026-11-28",
           "players": 0,
           "newPlayers": 0,
           "runs": 0,
